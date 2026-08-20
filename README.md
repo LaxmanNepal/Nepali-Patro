@@ -4,38 +4,52 @@ A standalone, static Nepali Bikram Sambat calendar application by Laxman Nepal.
 
 ## Product URL
 
-`https://apps.laxmannepal.com.np/nepali-patro/`
+`https://apps.laxmannepal.com.np/Nepali-Patro/`
+
+## Feature routes
+
+- `/patro/` — full Nepali Patro
+- `/calendar/` — calendar alias
+- `/panchanga/` — Panchanga
+- `/parba/` — festivals and holidays
+- `/saith/` — Saait / Shubh Din
+- `/rashifal/` — 12-sign Rashifal
+- `/news/` — Nepali News Center
+- `/converter/` — BS ↔ AD converter
+
+Aliases such as `/panchang/`, `/festivals/`, and `/saait/` are also generated for compatibility.
+
+## Calendar range
+
+The static data generator builds **BS 2040 through BS 2100** inclusive. The Panchang engine supports this range and the site creates a complete date/conversion index for the generated years.
 
 ## Principles
 
-- No runtime weather/calendar/horoscope API dependency
-- Static GitHub-hosted architecture
+- No runtime calendar API dependency
+- GitHub Actions builds and validates static data
 - Mobile-first responsive UI
-- BS calendar and BS ↔ AD conversion
-- Panchang/event data kept deterministic
+- Exact BS ↔ AD lookup from generated conversion data
+- Panchang data is generated from the MIT-licensed `nepali-calendar-panchang` package during build
+- News is collected into static JSON by GitHub Actions; the browser does not need to contact RSS feeds
+- Nepali-only news filtering is applied before publication
 - Local-only theme/reminder/note features can use browser storage
 - Original UI and branding
 
-## Current scope
+## Validation
 
-The repository currently contains the production UI foundation and verified 2083 BS calendar mapping for the current year, with Panchang/event data structured for expansion. Astronomical values must only be added from a validated dataset; the frontend intentionally does not invent missing values.
+Every deployment validates:
+
+- all 61 BS years
+- every generated day
+- duplicate BS dates
+- duplicate AD dates
+- conversion-index count
+- required route pages
+- JavaScript syntax
+- news JSON structure
+
+The deployment artifact excludes development dependencies, scripts, Git metadata, and package-manager files.
 
 ## Deployment
 
-GitHub Actions deploys the repository to GitHub Pages on pushes to `main`. Configure the repository's Pages/custom-domain settings as required for the `apps.laxmannepal.com.np/nepali-patro/` route.
-
-## Data architecture
-
-The long-term data model is year-based:
-
-```text
-data/calendar/2083.json
-data/calendar/2084.json
-data/panchang/2083.json
-data/festivals/festivals.json
-data/holidays/holidays.json
-data/saait/saait.json
-data/rashifal/2083.json
-```
-
-Do not replace missing astronomical values with guesses. Validate data before publishing.
+GitHub Actions deploys the generated static site to GitHub Pages on pushes to `main`.
