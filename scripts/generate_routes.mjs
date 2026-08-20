@@ -18,9 +18,8 @@ const routes={
 };
 
 for(const [route,title] of Object.entries(routes)){
-  const html=source
-    .replace('<head>','<head><base href="../">')
-    .replace(/<title>[^<]*<\/title>/,`<title>${title}</title>`);
+  let html=source.replace('<head>','<head><base href="../">').replace(/<title>[^<]*<\/title>/,`<title>${title}</title>`);
+  if(!html.includes('js/route-compat.js'))html=html.replace('</body>','<script src="js/route-compat.js"></script></body>');
   fs.mkdirSync(path.join(root,route),{recursive:true});
   fs.writeFileSync(path.join(root,route,'index.html'),html,'utf8');
 }
