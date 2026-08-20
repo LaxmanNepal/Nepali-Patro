@@ -1,0 +1,62 @@
+const NEWS_STATE={items:[],filtered:[],category:'all',source:'all',sort:'latest',query:'',visible:12};
+
+const NEWS_CATEGORIES={all:'सबै',national:'राष्ट्रिय',politics:'राजनीति',business:'अर्थतन्त्र',sports:'खेलकुद',technology:'प्रविधि',entertainment:'मनोरञ्जन'};
+const devanagari=/[\u0900-\u097F]/g;
+const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+const cleanNewsText=s=>String(s??'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
+const nepaliRatio=s=>{const t=String(s??'').replace(/\s/g,'');if(!t)return 0;return (t.match(devanagari)||[]).length/t.length};
+const newsDate=s=>{const d=new Date(s);return Number.isNaN(d.getTime())?0:d.getTime()};
+const newsTime=s=>{const d=new Date(s);return Number.isNaN(d.getTime())?'':d.toLocaleString('ne-NP',{year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})};
+
+async function loadNews(){
+  try{
+    const r=await fetch('data/news.json?'+Date.now(),{cache:'no-store'});
+    if(!r.ok)throw new Error('news data unavailable');
+    const data=await r.json();
+    NEWS_STATE.items=(Array.isArray(data)?data:(data.items||[])).filter(n=>n.title&&n.link);
+  }catch(e){NEWS_STATE.items=[];}
+  buildNewsSources();renderHomepageNews();renderNewsHub();
+}
+function buildNewsSources(){
+  const box=document.querySelector('#newsSourceFilter');if(!box)return;
+  const sources=[...new Set(NEWS_STATE.items.map(n=>n.source).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ne'));
+  box.innerHTML='<option value="all">सबै स्रोत</option>'+sources.map(s=>`<option value="${escapeHTML(s)}">${escapeHTML(s)}</option>`).join('');
+}
+function filterNews(){
+  let a=NEWS_STATE.items.filter(n=>NEWS_STATE.category==='all'||n.category===NEWS_STATE.category).filter(n=>NEWS_STATE.source==='all'||n.source===NEWS_STATE.source);
+  if(NEWS_STATE.query){const q=NEWS_STATE.query.toLocaleLowerCase('ne');a=a.filter(n=>`${n.title} ${n.summary||''} ${n.source||''}`.toLocaleLowerCase('ne').includes(q));}
+  a.sort((x,y)=>NEWS_STATE.sort==='oldest'?newsDate(x.published)-newsDate(y.published):newsDate(y.published)-newsDate(x.published));
+  NEWS_STATE.filtered=a;return a;
+}
+function newsCard(n,featured=false){
+  const img=n.image?`<img src="${escapeHTML(n.image)}" loading="lazy" alt="">`:'';
+  return `<article class="news-card ${featured?'featured':''}" data-link="${escapeHTML(n.link)}">${img}<div class="news-card-body"><div class="news-meta"><span>${escapeHTML(n.source||'समाचार')}</span><time>${escapeHTML(newsTime(n.published))}</time></div><h3>${escapeHTML(n.title)}</h3>${n.summary?`<p>${escapeHTML(n.summary)}</p>`:''}</div></article>`;
+}
+function renderHomepageNews(){
+  const root=document.querySelector('#homepageNews');if(!root)return;
+  const latest=[...NEWS_STATE.items].sort((a,b)=>newsDate(b.published)-newsDate(a.published)).slice(0,8);
+  if(!latest.length){root.innerHTML='<div class="news-empty">समाचार अपडेट हुँदैछ…</div>';return;}
+  const groups={};latest.forEach(n=>(groups[n.category||'national']??=[]).push(n));
+  const featured=latest.slice(0,3);
+  root.innerHTML=`<div class="news-featured">${featured.map((n,i)=>newsCard(n,i===0)).join('')}</div><div class="news-source-row">${Object.entries(groups).slice(0,5).map(([k,v])=>`<button class="source-pill" data-news-category="${k}">${NEWS_CATEGORIES[k]||k} <b>${v.length}</b></button>`).join('')}</div><div class="news-mini-grid">${latest.slice(3,8).map(n=>newsCard(n)).join('')}</div>`;
+  root.querySelectorAll('.news-card').forEach(c=>c.onclick=()=>window.open(c.dataset.link,'_blank','noopener,noreferrer'));
+  root.querySelectorAll('[data-news-category]').forEach(b=>b.onclick=()=>{NEWS_STATE.category=b.dataset.newsCategory;document.querySelector('#newsCategoryFilter').value=NEWS_STATE.category;document.querySelector('#news').scrollIntoView({behavior:'smooth'});renderNewsHub();});
+}
+function renderNewsHub(){
+  const root=document.querySelector('#newsGrid'),count=document.querySelector('#newsCount');if(!root)return;
+  const a=filterNews();if(count)count.textContent=`${a.length.toLocaleString('ne-NP')} समाचार`;
+  const shown=a.slice(0,NEWS_STATE.visible);
+  root.innerHTML=shown.length?shown.map(n=>newsCard(n)).join(''):'<div class="news-empty">तपाईंको खोज वा फिल्टरसँग मिल्ने समाचार भेटिएन।</div>';
+  root.querySelectorAll('.news-card').forEach(c=>c.onclick=()=>window.open(c.dataset.link,'_blank','noopener,noreferrer'));
+  const more=document.querySelector('#loadMoreNews');if(more)more.classList.toggle('hidden',NEWS_STATE.visible>=a.length);
+}
+function initNews(){
+  document.querySelectorAll('[data-news-cat]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-news-cat]').forEach(x=>x.classList.remove('active'));b.classList.add('active');NEWS_STATE.category=b.dataset.newsCat;NEWS_STATE.visible=12;renderNewsHub();});
+  const cat=document.querySelector('#newsCategoryFilter');if(cat){cat.innerHTML=Object.entries(NEWS_CATEGORIES).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');cat.onchange=()=>{NEWS_STATE.category=cat.value;NEWS_STATE.visible=12;renderNewsHub();};}
+  const src=document.querySelector('#newsSourceFilter');if(src)src.onchange=()=>{NEWS_STATE.source=src.value;NEWS_STATE.visible=12;renderNewsHub();};
+  const sort=document.querySelector('#newsSort');if(sort)sort.onchange=()=>{NEWS_STATE.sort=sort.value;renderNewsHub();};
+  const search=document.querySelector('#newsSearch');if(search)search.oninput=()=>{NEWS_STATE.query=search.value.trim();NEWS_STATE.visible=12;renderNewsHub();};
+  const more=document.querySelector('#loadMoreNews');if(more)more.onclick=()=>{NEWS_STATE.visible+=12;renderNewsHub();};
+  loadNews();
+}
+window.addEventListener('DOMContentLoaded',initNews);
