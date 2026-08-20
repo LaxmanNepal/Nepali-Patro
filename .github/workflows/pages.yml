@@ -23,9 +23,11 @@ jobs:
           cache: npm
       - name: Install data engine
         run: npm install --no-audit --no-fund
-      - name: Generate complete 2083 calendar dataset
-        run: npm run generate:2083
-      - name: Validate required files and dataset
+      - name: Generate BS 2040-2100 calendar + Panchang data
+        run: npm run generate
+      - name: Generate clean feature routes
+        run: npm run generate:routes
+      - name: Validate 61-year dataset
         run: |
           test -f index.html
           test -f css/main.css
@@ -34,9 +36,22 @@ jobs:
           test -f js/news.js
           test -f manifest.json
           test -f sw.js
-          node -e "const fs=require('fs'); const x=JSON.parse(fs.readFileSync('data/calendar/2083.json','utf8')); if(x.days.length!==365) throw new Error('Expected 365 days'); if(new Set(x.days.map(d=>d.ad.date)).size!==365) throw new Error('Duplicate dates'); console.log('2083 dataset OK:',x.days.length,'days');"
-      - name: Remove build-only dependencies
-        run: rm -rf node_modules package-lock.json
+          node - <<'NODE'
+          const fs=require('fs');
+          const idx=JSON.parse(fs.readFileSync('data/years.json','utf8'));
+          if(idx.minYear!==2040 || idx.maxYear!==2100 || idx.years.length!==61) throw new Error('Expected BS 2040-2100');
+          let total=0;
+          for(const y of idx.years){
+            const x=JSON.parse(fs.readFileSync(`data/calendar/${y.year}.json`,'utf8'));
+            if(x.days.length!==y.days) throw new Error(`Day mismatch ${y.year}`);
+            if(new Set(x.days.map(d=>d.ad.date)).size!==x.days.length) throw new Error(`Duplicate AD date ${y.year}`);
+            total+=x.days.length;
+          }
+          const c=JSON.parse(fs.readFileSync('data/conversion-index.json','utf8'));
+          if(c.items.length!==total) throw new Error('Conversion index mismatch');
+          console.log(`Validated ${idx.years.length} BS years and ${total} dates: ${idx.adStart} → ${idx.adEnd}`);
+          NODE
+          for r in patro panchanga parba saith rashifal news converter; do test -f "$r/index.html"; done
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
