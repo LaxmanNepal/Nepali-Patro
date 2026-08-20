@@ -6,55 +6,60 @@ on:
     paths:
       - 'scripts/**'
       - 'package.json'
+      - 'package-lock.json'
       - '.github/workflows/generate-calendar.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: nepali-patro-data-generation
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout latest main
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node 24
         uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: npm
+          cache-dependency-path: package-lock.json
 
-      - name: Install dependencies
-        run: npm install --no-audit --no-fund --prefer-offline
+      - name: Install locked dependencies
+        run: npm ci --no-audit --no-fund
 
-      - name: Generate calendar and Panchang data
+      - name: Generate BS 2040-2100 calendar and Panchang
         run: npm run generate
 
-      - name: Validate generated data
-        run: |
-          node - <<'NODE'
-          const fs=require('fs');
-          const idx=JSON.parse(fs.readFileSync('data/years.json','utf8'));
-          if(idx.minYear!==2040 || idx.maxYear!==2100 || idx.years.length!==61) throw new Error('Expected BS 2040-2100');
-          let total=0;
-          for(const y of idx.years){
-            const x=JSON.parse(fs.readFileSync(`data/calendar/${y.year}.json`,'utf8'));
-            if(x.days.length!==y.days) throw new Error(`Day mismatch ${y.year}`);
-            const bs=new Set(x.days.map(d=>`${d.bs.year}-${d.bs.month}-${d.bs.day}`));
-            const ad=new Set(x.days.map(d=>d.ad.date));
-            if(bs.size!==x.days.length || ad.size!==x.days.length) throw new Error(`Duplicate date ${y.year}`);
-            if(x.days.some(d=>!d.bs?.year || !d.bs?.month || !d.bs?.day || !d.ad?.date || !d.weekday)) throw new Error(`Incomplete date record ${y.year}`);
-            total+=x.days.length;
-          }
-          const c=JSON.parse(fs.readFileSync('data/conversion-index.json','utf8'));
-          if(c.items.length!==total) throw new Error('Conversion index mismatch');
-          console.log(`Validated ${idx.years.length} BS years and ${total} dates.`);
-          NODE
+      - name: Generate all static routes
+        run: npm run generate:routes
 
-      - name: Commit generated data
+      - name: Syntax-check and validate
         run: |
+          set -euo pipefail
+          find js scripts -type f -name '*.js' -print0 | xargs -0 -r -n1 node --check
+          find scripts -type f -name '*.mjs' -print0 | xargs -0 -r -n1 node --check
+          npm run validate
+
+      - name: Commit generated data safely
+        run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/ scripts/ package.json package-lock.json 2>/dev/null || true
-          git diff --cached --quiet || git commit -m 'data: generate 2040-2100 calendar and Panchang'
-          git push
+          git add data/ patro/ calendar/ panchanga/ panchang/ parba/ festivals/ saith/ saait/ rashifal/ news/ converter/ scripts/ package.json package-lock.json
+          if git diff --cached --quiet; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git commit -m 'data: generate 2040-2100 calendar and Panchang'
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
