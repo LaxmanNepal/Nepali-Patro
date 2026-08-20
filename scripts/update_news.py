@@ -2,6 +2,7 @@ import html
 import json
 import re
 import urllib.request
+import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
@@ -36,15 +37,13 @@ def classify(category,title):
     return 'politics' if category=='national' and POLITICS.search(title) else category
 
 def source_name(url):
-    host=re.sub(r'^www\.', '', urllib.request.urlparse(url).netloc).lower()
+    host=re.sub(r'^www\.', '', urllib.parse.urlparse(url).netloc).lower()
     return host or url
 
 def load_feed_config():
     req=urllib.request.Request(FEED_CONFIG_URL,headers=HEADERS)
     with urllib.request.urlopen(req,timeout=15) as r: js=r.read().decode('utf-8','replace')
     feeds={}
-    # MASTER_FEEDS is a simple JS object of category -> URL arrays. Extract only
-    # URLs, never execute remote JavaScript.
     for category,body in re.findall(r'([A-Za-z_][A-Za-z0-9_]*)\s*:\s*\[(.*?)\]',js,re.S):
         urls=re.findall(r'["\'](https?://[^"\']+)["\']',body)
         feeds[category]=urls
@@ -69,8 +68,6 @@ def parse_feed(source,url,category):
         summary=first(item,['description','summary','content','encoded']);published=first(item,['pubDate','published','updated','date'])
         if not title or not link:continue
         title=re.sub(r'\s+',' ',title).strip();summary=re.sub(r'\s+',' ',re.sub(r'<[^>]+>',' ',summary)).strip()
-        # The product is intentionally Nepali-first. English feeds/articles are
-        # rejected rather than mixed into the Nepali news center.
         if len(DEV.findall(title)) < 3:continue
         if len(DEV.findall(summary)) < 8:summary=''
         out.append({'title':title,'summary':summary[:300],'link':link,'source':source,'category':classify(category,title),'published':parse_date(published)})
