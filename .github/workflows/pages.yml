@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: nepali-patro-pages
   cancel-in-progress: true
 
 jobs:
@@ -20,69 +20,76 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Setup Node 24
         uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: npm
+          cache-dependency-path: package-lock.json
 
-      - name: Install data engine
-        run: npm install --no-audit --no-fund --prefer-offline
+      - name: Install locked dependencies
+        run: npm ci --no-audit --no-fund
 
       - name: Generate BS 2040-2100 calendar + Panchang data
         run: npm run generate
 
-      - name: Generate clean feature routes
+      - name: Generate all clean feature routes
         run: npm run generate:routes
 
-      - name: Add interactive homepage title links
+      - name: Syntax-check JavaScript
+        shell: bash
         run: |
+          set -euo pipefail
+          find js scripts -type f -name '*.js' -print0 | xargs -0 -r -n1 node --check
+          find scripts -type f -name '*.mjs' -print0 | xargs -0 -r -n1 node --check
+
+      - name: Validate generated site and dataset
+        run: npm run validate
+
+      - name: Validate news JSON
+        run: |
+          python3 -m py_compile scripts/update_news.py
           python3 - <<'PY'
+          import json
           from pathlib import Path
-          files=[Path('index.html')]+[Path(r)/'index.html' for r in ['patro','panchanga','parba','saith','rashifal','news','converter']]
-          for f in files:
-              if not f.exists():
-                  continue
-              text=f.read_text(encoding='utf-8')
-              if 'js/title-routes.js' not in text:
-                  text=text.replace('</body>','<script src="js/title-routes.js"></script></body>')
-                  f.write_text(text,encoding='utf-8')
+          p=Path('data/news.json')
+          if p.exists():
+              d=json.loads(p.read_text(encoding='utf-8'))
+              items=d if isinstance(d,list) else d.get('items',[])
+              for item in items:
+                  if not item.get('title') or not item.get('link'):
+                      raise SystemExit('Invalid news item')
+          print('News JSON validation passed.')
           PY
 
-      - name: Validate 61-year dataset and routes
+      - name: Prepare clean Pages artifact
         run: |
-          test -f index.html
-          test -f css/main.css
-          test -f js/app.js
-          test -f js/news.js
-          test -f js/title-routes.js
-          test -f manifest.json
-          test -f sw.js
-          node - <<'NODE'
-          const fs=require('fs');
-          const idx=JSON.parse(fs.readFileSync('data/years.json','utf8'));
-          if(idx.minYear!==2040 || idx.maxYear!==2100 || idx.years.length!==61) throw new Error('Expected BS 2040-2100');
-          let total=0;
-          for(const y of idx.years){
-            const x=JSON.parse(fs.readFileSync(`data/calendar/${y.year}.json`,'utf8'));
-            if(x.days.length!==y.days) throw new Error(`Day mismatch ${y.year}`);
-            const ad=new Set(x.days.map(d=>d.ad.date));
-            if(ad.size!==x.days.length) throw new Error(`Duplicate AD date ${y.year}`);
-            total+=x.days.length;
-          }
-          const c=JSON.parse(fs.readFileSync('data/conversion-index.json','utf8'));
-          if(c.items.length!==total) throw new Error('Conversion index mismatch');
-          console.log(`Validated ${idx.years.length} BS years and ${total} dates: ${idx.adStart} -> ${idx.adEnd}`);
-          NODE
-          for r in patro panchanga parba saith rashifal news converter; do test -f "$r/index.html"; done
+          rm -rf _site
+          mkdir -p _site
+          rsync -a --delete \
+            --exclude '.git/' \
+            --exclude '.github/' \
+            --exclude 'node_modules/' \
+            --exclude 'scripts/' \
+            --exclude 'package.json' \
+            --exclude 'package-lock.json' \
+            --exclude 'README.md' \
+            ./ _site/
+          test -f _site/index.html
+          for r in patro calendar panchanga panchang parba festivals saith saait rashifal news converter; do test -f "_site/$r/index.html"; done
+          test -f _site/data/years.json
+          test -f _site/data/conversion-index.json
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload site
+      - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
   deploy:
     environment:
