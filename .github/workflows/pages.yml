@@ -16,13 +16,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Validate required files
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install data engine
+        run: npm install --no-audit --no-fund
+      - name: Generate complete 2083 calendar dataset
+        run: npm run generate:2083
+      - name: Validate required files and dataset
         run: |
           test -f index.html
           test -f css/main.css
+          test -f css/patro-enhancements.css
           test -f js/app.js
+          test -f js/news.js
           test -f manifest.json
           test -f sw.js
+          node -e "const fs=require('fs'); const x=JSON.parse(fs.readFileSync('data/calendar/2083.json','utf8')); if(x.days.length!==365) throw new Error('Expected 365 days'); if(new Set(x.days.map(d=>d.ad.date)).size!==365) throw new Error('Duplicate dates'); console.log('2083 dataset OK:',x.days.length,'days');"
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
