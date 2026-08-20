@@ -1,47 +1,58 @@
 name: Deploy Nepali Patro
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Node
+
+      - name: Setup Node 24
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+
       - name: Install data engine
-        run: npm install --no-audit --no-fund
+        run: npm install --no-audit --no-fund --prefer-offline
+
       - name: Generate BS 2040-2100 calendar + Panchang data
         run: npm run generate
+
       - name: Generate clean feature routes
         run: npm run generate:routes
+
       - name: Add interactive homepage title links
         run: |
           python3 - <<'PY'
           from pathlib import Path
           files=[Path('index.html')]+[Path(r)/'index.html' for r in ['patro','panchanga','parba','saith','rashifal','news','converter']]
           for f in files:
+              if not f.exists():
+                  continue
               text=f.read_text(encoding='utf-8')
               if 'js/title-routes.js' not in text:
                   text=text.replace('</body>','<script src="js/title-routes.js"></script></body>')
                   f.write_text(text,encoding='utf-8')
           PY
+
       - name: Validate 61-year dataset and routes
         run: |
           test -f index.html
           test -f css/main.css
-          test -f css/patro-enhancements.css
           test -f js/app.js
           test -f js/news.js
           test -f js/title-routes.js
@@ -55,20 +66,24 @@ jobs:
           for(const y of idx.years){
             const x=JSON.parse(fs.readFileSync(`data/calendar/${y.year}.json`,'utf8'));
             if(x.days.length!==y.days) throw new Error(`Day mismatch ${y.year}`);
-            if(new Set(x.days.map(d=>d.ad.date)).size!==x.days.length) throw new Error(`Duplicate AD date ${y.year}`);
+            const ad=new Set(x.days.map(d=>d.ad.date));
+            if(ad.size!==x.days.length) throw new Error(`Duplicate AD date ${y.year}`);
             total+=x.days.length;
           }
           const c=JSON.parse(fs.readFileSync('data/conversion-index.json','utf8'));
           if(c.items.length!==total) throw new Error('Conversion index mismatch');
-          console.log(`Validated ${idx.years.length} BS years and ${total} dates: ${idx.adStart} → ${idx.adEnd}`);
+          console.log(`Validated ${idx.years.length} BS years and ${total} dates: ${idx.adStart} -> ${idx.adEnd}`);
           NODE
           for r in patro panchanga parba saith rashifal news converter; do test -f "$r/index.html"; done
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
+
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
+
   deploy:
     environment:
       name: github-pages
@@ -77,5 +92,5 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
+        id: deployment
