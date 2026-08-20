@@ -6,7 +6,7 @@ const fail=[];
 const need=p=>{if(!fs.existsSync(path.join(root,p)))fail.push(`Missing: ${p}`)};
 const readJSON=p=>{try{return JSON.parse(fs.readFileSync(path.join(root,p),'utf8'))}catch(e){fail.push(`Invalid JSON: ${p} (${e.message})`);return null}};
 
-for(const p of ['index.html','css/main.css','js/app.js','js/news.js','js/title-routes.js','manifest.json','sw.js','package.json','package-lock.json'])need(p);
+for(const p of ['index.html','css/main.css','js/app.js','js/news.js','js/title-routes.js','js/route-compat.js','manifest.json','sw.js','package.json','package-lock.json'])need(p);
 const routes=['patro','calendar','panchanga','panchang','parba','festivals','saith','saait','rashifal','news','converter'];
 for(const r of routes)need(`${r}/index.html`);
 
@@ -44,8 +44,6 @@ if(years){
   }
 }
 
-// Basic syntax checks are performed by the workflow with node --check; this
-// script focuses on static structure and generated data integrity.
 if(fail.length){
   console.error(fail.join('\n'));
   process.exit(1);
