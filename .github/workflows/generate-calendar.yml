@@ -1,10 +1,10 @@
-name: Generate Nepali Patro 2083 Data
+name: Generate Nepali Patro Data
 
 on:
   push:
     branches: [main]
     paths:
-      - 'scripts/generate_2083.mjs'
+      - 'scripts/**'
       - 'package.json'
       - '.github/workflows/generate-calendar.yml'
   workflow_dispatch:
@@ -18,22 +18,43 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Node
+
+      - name: Setup Node 24
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: npm
+          node-version: 24
+
       - name: Install dependencies
-        run: npm install --no-audit --no-fund
-      - name: Generate complete 2083 data
-        run: npm run generate:2083
-      - name: Validate 365 days
+        run: npm install --no-audit --no-fund --prefer-offline
+
+      - name: Generate calendar and Panchang data
+        run: npm run generate
+
+      - name: Validate generated data
         run: |
-          node -e "const fs=require('fs'); const x=JSON.parse(fs.readFileSync('data/calendar/2083.json','utf8')); if(x.days.length!==365) throw new Error('Expected 365 days, got '+x.days.length); const keys=new Set(x.days.map(d=>d.ad.date)); if(keys.size!==365) throw new Error('Duplicate AD dates'); if(x.days.some(d=>!d.bs?.day||!d.ad?.date||!d.weekday?.nepali)) throw new Error('Incomplete date record'); console.log('Validated 365 unique, complete days');"
+          node - <<'NODE'
+          const fs=require('fs');
+          const idx=JSON.parse(fs.readFileSync('data/years.json','utf8'));
+          if(idx.minYear!==2040 || idx.maxYear!==2100 || idx.years.length!==61) throw new Error('Expected BS 2040-2100');
+          let total=0;
+          for(const y of idx.years){
+            const x=JSON.parse(fs.readFileSync(`data/calendar/${y.year}.json`,'utf8'));
+            if(x.days.length!==y.days) throw new Error(`Day mismatch ${y.year}`);
+            const bs=new Set(x.days.map(d=>`${d.bs.year}-${d.bs.month}-${d.bs.day}`));
+            const ad=new Set(x.days.map(d=>d.ad.date));
+            if(bs.size!==x.days.length || ad.size!==x.days.length) throw new Error(`Duplicate date ${y.year}`);
+            if(x.days.some(d=>!d.bs?.year || !d.bs?.month || !d.bs?.day || !d.ad?.date || !d.weekday)) throw new Error(`Incomplete date record ${y.year}`);
+            total+=x.days.length;
+          }
+          const c=JSON.parse(fs.readFileSync('data/conversion-index.json','utf8'));
+          if(c.items.length!==total) throw new Error('Conversion index mismatch');
+          console.log(`Validated ${idx.years.length} BS years and ${total} dates.`);
+          NODE
+
       - name: Commit generated data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/calendar/2083.json
-          git diff --cached --quiet || git commit -m 'data: generate complete 2083 calendar and panchang'
+          git add data/ scripts/ package.json package-lock.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m 'data: generate 2040-2100 calendar and Panchang'
           git push
