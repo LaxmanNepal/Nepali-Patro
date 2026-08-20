@@ -27,13 +27,25 @@ jobs:
         run: npm run generate
       - name: Generate clean feature routes
         run: npm run generate:routes
-      - name: Validate 61-year dataset
+      - name: Add interactive homepage title links
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          files=[Path('index.html')]+[Path(r)/'index.html' for r in ['patro','panchanga','parba','saith','rashifal','news','converter']]
+          for f in files:
+              text=f.read_text(encoding='utf-8')
+              if 'js/title-routes.js' not in text:
+                  text=text.replace('</body>','<script src="js/title-routes.js"></script></body>')
+                  f.write_text(text,encoding='utf-8')
+          PY
+      - name: Validate 61-year dataset and routes
         run: |
           test -f index.html
           test -f css/main.css
           test -f css/patro-enhancements.css
           test -f js/app.js
           test -f js/news.js
+          test -f js/title-routes.js
           test -f manifest.json
           test -f sw.js
           node - <<'NODE'
@@ -67,4 +79,6 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
+        runs-on: ubuntu-latest
+        needs: build
         uses: actions/deploy-pages@v4
