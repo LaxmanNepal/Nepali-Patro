@@ -35,6 +35,8 @@ jobs:
           test -f manifest.json
           test -f sw.js
           node -e "const fs=require('fs'); const x=JSON.parse(fs.readFileSync('data/calendar/2083.json','utf8')); if(x.days.length!==365) throw new Error('Expected 365 days'); if(new Set(x.days.map(d=>d.ad.date)).size!==365) throw new Error('Duplicate dates'); console.log('2083 dataset OK:',x.days.length,'days');"
+      - name: Remove build-only dependencies
+        run: rm -rf node_modules package-lock.json
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
