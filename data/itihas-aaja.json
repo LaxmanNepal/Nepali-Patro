@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "description": "Curated, source-backed Nepal history and cultural heritage events keyed by Gregorian month-day. Traditional religious dates are intentionally read from the local Panchanga/festival dataset instead of being hard-coded here.",
+  "events": [
+    {"date":"01-11","category":"नेपाल इतिहास","title":"पृथ्वीनारायण शाहको जन्मजयन्ती","summary":"गोरखाका राजा पृथ्वीनारायण शाहको जन्मदिनलाई राष्ट्रिय एकता दिवसका रूपमा स्मरण गरिन्छ।","type":"commemoration","source":"Office of the President of Nepal / Government historical references"},
+    {"date":"02-18","category":"नेपाल इतिहास","title":"प्रजातन्त्र दिवस","summary":"१९५१ मा राणा शासनको अन्त्यतर्फको राजनीतिक परिवर्तनपछि प्रजातन्त्र स्थापना भएको ऐतिहासिक दिनको स्मरण।","type":"national-history","source":"Government of Nepal historical records"},
+    {"date":"04-25","category":"नेपाल इतिहास","title":"गोरखा भूकम्पको स्मरण","summary":"२५ अप्रिल २०१५ मा नेपालमा विनाशकारी गोरखा भूकम्प गएको दिन। यसले ठूलो मानवीय क्षति र सांस्कृतिक सम्पदामा गम्भीर क्षति पुर्‍यायो।","type":"disaster-history","source":"UNESCO"},
+    {"date":"05-28","category":"नेपाल इतिहास","title":"गणतन्त्र दिवस","summary":"२८ मे २००८ मा निर्वाचित संविधानसभाले २४० वर्षभन्दा बढी लामो राजतन्त्र अन्त्य गरी नेपाललाई गणतन्त्र घोषणा गर्‍यो।","type":"national-history","source":"Office of the President of Nepal"},
+    {"date":"06-20","category":"विश्व सम्पदा","title":"नेपालको UNESCO सदस्यता सम्झिने दिन","summary":"नेपालले २० जुन १९७८ मा विश्व सम्पदा महासन्धि स्वीकार गरेको थियो।","type":"heritage","source":"UNESCO World Heritage Centre"},
+    {"date":"09-20","category":"नेपाल इतिहास","title":"नेपालको संविधान दिवस","summary":"२० सेप्टेम्बर २०१५ मा नेपालको संविधान जारी भयो।","type":"national-history","source":"Ministry of Foreign Affairs, Government of Nepal"},
+    {"date":"08-05","category":"सम्पदा संरक्षण","title":"भूकम्पपछिको सम्पदा पुनःस्थापनाको स्मरण","summary":"२०१५ को भूकम्पपछि संग्रहालय र सम्पदा पुनःस्थापनामा भएको प्रगतिलाई UNESCO ले अभिलेख गरेको छ।","type":"heritage-recovery","source":"UNESCO"}
+  ]
+}
