@@ -17,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -43,26 +44,28 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          find js scripts -type f -name '*.js' -print0 | xargs -0 -r -n1 node --check
-          find scripts -type f -name '*.mjs' -print0 | xargs -0 -r -n1 node --check
+          find js scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -r -n1 node --check
 
-      - name: Validate generated site and dataset
-        run: npm run validate
+      - name: Validate generated site and all datasets
+        run: npm run validate:all
 
-      - name: Validate news JSON
+      - name: Validate local news feed schema
         run: |
-          python3 -m py_compile scripts/update_news.py
+          python3 -m py_compile scripts/update_news.py scripts/update_forex.py scripts/update_gold_rates.py
           python3 - <<'PY'
           import json
           from pathlib import Path
-          p=Path('data/news.json')
-          if p.exists():
-              d=json.loads(p.read_text(encoding='utf-8'))
-              items=d if isinstance(d,list) else d.get('items',[])
-              for item in items:
-                  if not item.get('title') or not item.get('link'):
-                      raise SystemExit('Invalid news item')
-          print('News JSON validation passed.')
+          p=Path('feeds/news.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          items=d.get('items',[]) if isinstance(d,dict) else d
+          if not items:
+              raise SystemExit('feeds/news.json contains no articles')
+          required={'title','description','imageUrl','sourceLogo','sourceName','publishedTime','articleUrl'}
+          for i,item in enumerate(items):
+              missing=required-set(item)
+              if missing:
+                  raise SystemExit(f'feeds/news.json item {i} missing: {sorted(missing)}')
+          print(f'Local news schema passed: {len(items)} articles')
           PY
 
       - name: Prepare clean Pages artifact
@@ -80,13 +83,16 @@ jobs:
             ./ _site/
           node scripts/apply_shared_shell.mjs _site
           test -f _site/index.html
-          for r in patro calendar panchanga panchang parba festivals saith saait rashifal news converter; do test -f "_site/$r/index.html"; done
+          for r in patro calendar panchanga panchang parba festivals saith saait rashifal news converter forex; do test -f "_site/$r/index.html"; done
           test -f _site/data/years.json
           test -f _site/data/conversion-index.json
           test -f _site/partials/header.html
           test -f _site/partials/footer.html
           test -f _site/js/shared-shell.js
           test -f _site/css/shared-shell.css
+          test -f _site/feeds/news.json
+          test -f _site/feeds/forex.json
+          test -f _site/feeds/gold_silver.json
 
       - name: Verify shared header and footer on every HTML page
         run: |
