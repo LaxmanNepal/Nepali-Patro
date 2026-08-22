@@ -1,96 +1,177 @@
+import difflib
 import html
 import json
 import re
-import urllib.request
 import urllib.parse
+import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 
-FEED_CONFIG_URL='https://raw.githubusercontent.com/LaxmanNepal/Nepal-News-Hub-Pro/refs/heads/main/js/feeds.js'
-HEADERS={'User-Agent':'Mozilla/5.0 Nepali-Patro-News/1.0'}
-DEV=re.compile(r'[\u0900-\u097F]')
-POLITICS=re.compile(r'(सरकार|मन्त्री|मन्त्रि|प्रधानमन्त्री|संसद|सांसद|निर्वाचन|चुनाव|दल|पार्टी|कांग्रेस|एमाले|माओवादी|राष्ट्रपति|उपराष्ट्रपति|राजनीति|प्रतिनिधिसभा|प्रदेशसभा|राजदूत|कूटनीति)')
-CATEGORY_MAP={'all':'national','sports':'sports','finance':'business','tech':'technology','entertainment':'entertainment'}
+CONFIG_PATH = Path('feeds/feeds.js')
+OUT = Path('feeds/news.json')
+HEADERS = {'User-Agent': 'Mozilla/5.0 Nepali-Patro-News/2.0'}
+DEV = re.compile(r'[\u0900-\u097F]')
+CATEGORY_MAP = {'all': 'national', 'sports': 'sports', 'finance': 'business', 'tech': 'technology', 'entertainment': 'entertainment'}
+SOURCE_NAMES = {
+    'onlinekhabar.com': 'अनलाइनखबर', 'nagariknetwork.com': 'नागरिक', 'ratopati.com': 'रातोपाटी',
+    'setopati.com': 'सेतोपाटी', 'gorkhapatraonline.com': 'गोरखापत्र', 'bbc.co.uk': 'बीबीसी नेपाली',
+    'annapurnapost.com': 'अन्नपूर्ण पोस्ट', 'rajdhanidaily.com': 'राजधानी', 'ujyaaloonline.com': 'उज्यालो अनलाइन',
+    'news24nepal.com': 'न्यूज २४ नेपाल', 'nepallive.com': 'नेपाल लाइभ', 'myrepublica.nagariknetwork.com': 'माइ रिपब्लिका',
+    'lokaantar.com': 'लोकान्तर', 'dainiknepal.com': 'दैनिक नेपाल', 'nepalsamaya.com': 'नेपाल समय',
+    'pahilopost.com': 'पहिलोपोस्ट', 'nepalheadlines.com': 'नेपाल हेडलाइन्स', 'nepalpress.com': 'नेपाल प्रेस',
+    'himalkhabar.com': 'हिमालखबर', 'nepalnews.com': 'नेपालन्युज', 'hamrokhelkud.com': 'हाम्रो खेलकुद',
+    'goalnepal.com': 'गोल नेपाल', 'khelpati.com': 'खेलपाटी', 'nepalsportz.com': 'नेपाल स्पोर्ट्स',
+    'cricnepal.com': 'क्रिक नेपाल', 'newsofnepal.com': 'न्युज अफ नेपाल', 'cricketnepal.org.np': 'क्रिकेट नेपाल',
+    'sharesansar.com': 'सेयरसंसार', 'abhiyandaily.com': 'अभियान', 'clickmandu.com': 'क्लिकमाण्डु',
+    'arthasarokar.com': 'अर्थ सरोकार', 'bankingkhabar.com': 'बैंकिङ खबर', 'vikasnews.com': 'विकास न्यूज',
+    'aarthiknews.com': 'आर्थिक न्यूज', 'techpana.com': 'टेकपाना', 'nepalitelecom.com': 'नेपाली टेलिकम',
+    'techmandu.com': 'टेकमाण्डु', 'ictframe.com': 'आईसीटी फ्रेम', 'techsathi.com': 'टेक साथी',
+    'clicknepal.com': 'क्लिक नेपाल', 'merofilm.com': 'मेरो फिल्म', 'lensnepal.com': 'लेन्स नेपाल',
+    'filmykhabar.com': 'फिल्मी खबर', 'dcnepal.com': 'डीसी नेपाल', 'lexlimbu.com': 'लेक्स लिम्बु',
+    'khabarhub.com': 'खबरहब'
+}
 
-def text(node):
-    return html.unescape(' '.join(node.itertext())).strip() if node is not None else ''
 
-def first(el,names):
-    for name in names:
-        x=el.find(name)
-        if x is not None and text(x): return text(x)
+def clean(value):
+    return re.sub(r'\s+', ' ', html.unescape(value or '')).strip()
+
+
+def first(el, names):
     for child in list(el):
-        if child.tag.split('}')[-1] in names and text(child): return text(child)
+        tag = child.tag.split('}')[-1]
+        if tag in names:
+            value = clean(' '.join(child.itertext()))
+            if value:
+                return value
     return ''
 
-def parse_date(v):
-    if not v:return ''
+
+def parse_date(value):
+    if not value:
+        return ''
     try:
         from email.utils import parsedate_to_datetime
-        return parsedate_to_datetime(v).astimezone(timezone.utc).isoformat()
+        return parsedate_to_datetime(value).astimezone(timezone.utc).isoformat()
     except Exception:
-        try:return datetime.fromisoformat(v.replace('Z','+00:00')).astimezone(timezone.utc).isoformat()
-        except Exception:return ''
+        try:
+            return datetime.fromisoformat(value.replace('Z', '+00:00')).astimezone(timezone.utc).isoformat()
+        except Exception:
+            return ''
 
-def classify(category,title):
-    return 'politics' if category=='national' and POLITICS.search(title) else category
 
 def source_name(url):
-    host=re.sub(r'^www\.', '', urllib.parse.urlparse(url).netloc).lower()
-    return host or url
+    host = re.sub(r'^www\.', '', urllib.parse.urlparse(url).netloc.lower())
+    return SOURCE_NAMES.get(host, host or 'समाचार')
+
 
 def load_feed_config():
-    req=urllib.request.Request(FEED_CONFIG_URL,headers=HEADERS)
-    with urllib.request.urlopen(req,timeout=15) as r: js=r.read().decode('utf-8','replace')
-    feeds={}
-    for category,body in re.findall(r'([A-Za-z_][A-Za-z0-9_]*)\s*:\s*\[(.*?)\]',js,re.S):
-        urls=re.findall(r'["\'](https?://[^"\']+)["\']',body)
-        feeds[category]=urls
-    if not feeds.get('all'): raise RuntimeError('MASTER_FEEDS.all missing from source feed configuration')
-    result={}
-    for category,urls in feeds.items():
-        mapped=CATEGORY_MAP.get(category,'national')
+    js = CONFIG_PATH.read_text(encoding='utf-8')
+    result = {}
+    for category, body in re.findall(r'([A-Za-z_][A-Za-z0-9_]*)\s*:\s*\[(.*?)\]', js, re.S):
+        urls = re.findall(r'["\'](https?://[^"\']+)["\']', body)
+        mapped = CATEGORY_MAP.get(category, 'national')
         for url in urls:
-            result.setdefault(url, mapped)
-            if category!='all': result[url]=mapped
+            result[url] = mapped if category == 'all' else mapped
+    if not result:
+        raise RuntimeError('No RSS feeds found in feeds/feeds.js')
     return result
 
-def parse_feed(source,url,category):
-    req=urllib.request.Request(url,headers=HEADERS)
-    with urllib.request.urlopen(req,timeout=12) as r: raw=r.read(2_000_000)
-    root=ET.fromstring(raw);out=[]
-    for item in [e for e in root.iter() if e.tag.split('}')[-1] in ('item','entry')][:25]:
-        title=first(item,['title']);link=first(item,['link'])
+
+def image_from_item(item):
+    for child in item.iter():
+        tag = child.tag.split('}')[-1]
+        if tag in ('content', 'thumbnail', 'enclosure', 'image'):
+            url = child.attrib.get('url') or child.attrib.get('href')
+            if url and re.match(r'^https?://', url) and re.search(r'\.(?:jpg|jpeg|png|webp)(?:\?|$)', url, re.I):
+                return url
+    for child in item.iter():
+        if child.tag.split('}')[-1] in ('description', 'summary', 'content', 'encoded'):
+            m = re.search(r'<img[^>]+src=["\']([^"\']+)', ''.join(child.itertext()), re.I)
+            if m and re.match(r'^https?://', m.group(1)):
+                return m.group(1)
+    return ''
+
+
+def parse_feed(url, category):
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=15) as response:
+        raw = response.read(3_000_000)
+    root = ET.fromstring(raw)
+    output = []
+    for item in [e for e in root.iter() if e.tag.split('}')[-1] in ('item', 'entry')][:30]:
+        title = first(item, ['title'])
+        link = first(item, ['link'])
         if not link:
-            for c in list(item):
-                if c.tag.split('}')[-1]=='link' and c.attrib.get('href'):link=c.attrib['href'];break
-        summary=first(item,['description','summary','content','encoded']);published=first(item,['pubDate','published','updated','date'])
-        if not title or not link:continue
-        title=re.sub(r'\s+',' ',title).strip();summary=re.sub(r'\s+',' ',re.sub(r'<[^>]+>',' ',summary)).strip()
-        if len(DEV.findall(title)) < 3:continue
-        if len(DEV.findall(summary)) < 8:summary=''
-        out.append({'title':title,'summary':summary[:300],'link':link,'source':source,'category':classify(category,title),'published':parse_date(published)})
-    return out
+            for child in list(item):
+                if child.tag.split('}')[-1] == 'link' and child.attrib.get('href'):
+                    link = child.attrib['href']
+                    break
+        if not title or not link:
+            continue
+        description = first(item, ['description', 'summary', 'content', 'encoded'])
+        published = first(item, ['pubDate', 'published', 'updated', 'date'])
+        title = clean(title)
+        description = clean(re.sub(r'<[^>]+>', ' ', description))[:320]
+        if len(DEV.findall(title)) < 2:
+            continue
+        if len(DEV.findall(description)) < 8:
+            description = ''
+        output.append({
+            'title': title,
+            'description': description,
+            'imageUrl': image_from_item(item),
+            'sourceLogo': '',
+            'sourceName': source_name(url),
+            'publishedTime': parse_date(published),
+            'articleUrl': link.strip(),
+            'category': 'politics' if category == 'national' and re.search(r'(सरकार|मन्त्री|प्रधानमन्त्री|संसद|सांसद|निर्वाचन|चुनाव|दल|पार्टी|कांग्रेस|एमाले|माओवादी|राष्ट्रपति|राजनीति|प्रतिनिधिसभा|प्रदेशसभा|राजदूत|कूटनीति)', title) else category,
+        })
+    return output
+
+
+def duplicate_key(item):
+    return re.sub(r'[^\u0900-\u097Fa-zA-Z0-9]', '', item['title']).lower()
+
+
+def deduplicate(items):
+    chosen = []
+    keys = []
+    for item in sorted(items, key=lambda x: x.get('publishedTime', ''), reverse=True):
+        key = duplicate_key(item)
+        if not key:
+            continue
+        if any(key == old or difflib.SequenceMatcher(None, key, old).ratio() >= 0.91 for old in keys[-300:]):
+            continue
+        keys.append(key)
+        chosen.append(item)
+    return chosen
+
 
 def main():
-    try: feed_map=load_feed_config()
-    except Exception as e:
-        print(f'WARN feed configuration unavailable: {e}')
-        feed_map={}
-    articles=[]
-    for url,category in feed_map.items():
-        source=source_name(url)
-        try:articles.extend(parse_feed(source,url,category))
-        except Exception as e:print(f'WARN {source}: {e}')
-    unique={}
-    for a in articles:
-        key=re.sub(r'[^\u0900-\u097Fa-zA-Z0-9]','',a['title']).lower()
-        if key and key not in unique:unique[key]=a
-    items=sorted(unique.values(),key=lambda x:x.get('published',''),reverse=True)[:500]
-    payload={'updatedAt':datetime.now(timezone.utc).isoformat(),'sourceConfig':FEED_CONFIG_URL,'items':items}
-    Path('data').mkdir(exist_ok=True)
-    Path('data/news.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
-    print(f'Collected {len(items)} Nepali articles from {len(feed_map)} configured feeds')
+    feed_map = load_feed_config()
+    articles = []
+    failures = 0
+    for url, category in feed_map.items():
+        try:
+            articles.extend(parse_feed(url, category))
+        except Exception as exc:
+            failures += 1
+            print(f'WARN {url}: {exc}')
+    items = deduplicate(articles)[:500]
+    if not items:
+        raise RuntimeError('No valid Nepali news articles were collected')
+    payload = {
+        'updatedAt': datetime.now(timezone.utc).isoformat(),
+        'source': 'feeds/feeds.js',
+        'feedCount': len(feed_map),
+        'failedFeeds': failures,
+        'items': items,
+    }
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(f'Collected {len(items)} unique Nepali articles from {len(feed_map)} feeds; {failures} feeds failed.')
 
-if __name__=='__main__':main()
+
+if __name__ == '__main__':
+    main()
