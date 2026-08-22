@@ -8,7 +8,7 @@ from pathlib import Path
 URL = 'https://negosida.org/'
 OUT = Path('feeds/gold_silver.json')
 CALENDAR_ROOT = Path('data/calendar')
-REQ = urllib.request.Request(URL, headers={'User-Agent': 'Nepali-Patro-Gold-Rate/2.0'})
+REQ = urllib.request.Request(URL, headers={'User-Agent': 'Nepali-Patro-Gold-Rate/2.1'})
 
 
 def nepali_number(value):
@@ -31,12 +31,23 @@ def find_bs(ad_date):
 def money(text, pattern):
     match = re.search(pattern, text, re.I)
     if not match:
-        raise RuntimeError(f'missing gold source field: {pattern}')
+        raise RuntimeError(f'missing NEGOSIDA field: {pattern}')
     return float(match.group(1).replace(',', ''))
 
 
 def formatted(value):
     return nepali_number(f'{value:,.0f}')
+
+
+def item(kind, price, change, unit='प्रति तोला'):
+    return {
+        'type': kind,
+        'unit': unit,
+        'price': formatted(price),
+        'change': ('+' if change >= 0 else '-') + formatted(abs(change)),
+        'trend': 'up' if change > 0 else ('down' if change < 0 else 'flat'),
+        '_numeric': price,
+    }
 
 
 def main():
@@ -45,49 +56,46 @@ def main():
     text = html.unescape(re.sub(r'<[^>]+>', ' ', raw))
     text = re.sub(r'\s+', ' ', text)
 
-    fine_gold = money(text, r'Fine Gold\s+per 1 Tola\s+NRs\s*([\d,]+(?:\.\d+)?)')
-    gold_22k = money(text, r'22 KT\s+per 1 Tola\s+NRs\s*([\d,]+(?:\.\d+)?)')
-    silver = money(text, r'Silver\s+per 1 Tola\s+NRs\s*([\d,]+(?:\.\d+)?)')
+    fine_gold_tola = money(text, r'Fine Gold\s+per 1 Tola\s+NRs\s*([\d,]+(?:\.\d+)?)')
+    gold_22k_tola = money(text, r'22 KT\s+per 1 Tola\s+NRs\s*([\d,]+(?:\.\d+)?)')
+    silver_tola = money(text, r'Silver\s+per 1 Tola\s+NRs\s*([\d,]+(?:\.\d+)?)')
+    fine_gold_10g = money(text, r'Fine Gold\s+Per 10 Gram\s+NRs\s*([\d,]+(?:\.\d+)?)')
+    gold_22k_10g = money(text, r'22 KT\s+per 10 Gram\s+NRs\s*([\d,]+(?:\.\d+)?)')
+    silver_10g = money(text, r'Silver\s+per 10 Gram\s+NRs\s*([\d,]+(?:\.\d+)?)')
+
     ad_date = datetime.now(timezone.utc).date().isoformat()
     old = json.loads(OUT.read_text(encoding='utf-8')) if OUT.exists() else {}
     old_gold = old.get('gold', {})
     old_silver = old.get('silver', {})
-
-    gold_change = int(fine_gold - float(old_gold.get('_numeric', fine_gold))) if old_gold else 0
-    silver_change = int(silver - float(old_silver.get('_numeric', silver))) if old_silver else 0
-
-    def item(kind, price, change, unit='प्रति तोला'):
-        return {
-            'type': kind,
-            'unit': unit,
-            'price': formatted(price),
-            'change': ('+' if change >= 0 else '') + formatted(abs(change)),
-            'trend': 'up' if change > 0 else ('down' if change < 0 else 'flat'),
-            '_numeric': price,
-        }
-
-    gold = item('छापावाल', fine_gold, gold_change)
-    silver_item = item('चाँदी', silver, silver_change)
+    old_fine = float(old_gold.get('_numeric', fine_gold_tola)) if old_gold.get('_numeric') is not None else fine_gold_tola
+    old_silver_value = float(old_silver.get('_numeric', silver_tola)) if old_silver.get('_numeric') is not None else silver_tola
     bs_date = find_bs(ad_date)
+    gold = item('छापावाल', fine_gold_tola, int(fine_gold_tola-old_fine))
+    silver = item('चाँदी', silver_tola, int(silver_tola-old_silver_value))
+    details = {
+        'fine_gold_tola': fine_gold_tola,
+        'gold_22k_tola': gold_22k_tola,
+        'silver_tola': silver_tola,
+        'fine_gold_10g': fine_gold_10g,
+        'gold_22k_10g': gold_22k_10g,
+        'silver_10g': silver_10g,
+    }
+    history = [x for x in old.get('history', []) if x.get('date_ad') != ad_date]
+    history.append({'date_ad': ad_date, 'date_bs': bs_date, **details})
     payload = {
         'date_bs': bs_date,
         'date_ad': ad_date,
-        'source': URL,
+        'source': 'Nepal Gold and Silver Dealers Association (NEGOSIDA)',
+        'sourceUrl': URL,
         'updatedAt': datetime.now(timezone.utc).isoformat(),
         'gold': gold,
-        'silver': silver_item,
-        'history': old.get('history', [])[-29:]
+        'silver': silver,
+        'details': details,
+        'history': history[-30:],
     }
-    payload['history'].append({
-        'date_ad': ad_date,
-        'date_bs': bs_date,
-        'gold': {k: v for k, v in gold.items() if not k.startswith('_')},
-        'silver': {k: v for k, v in silver_item.items() if not k.startswith('_')}
-    })
-    # Keep the internal numeric baseline in the current object but do not expose it in history.
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f'Updated {OUT}: {ad_date}, gold={fine_gold}, silver={silver}')
+    print(f'Updated {OUT}: {ad_date}, gold={fine_gold_tola}, silver={silver_tola}')
 
 
 if __name__ == '__main__':
