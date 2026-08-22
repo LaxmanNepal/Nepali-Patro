@@ -78,10 +78,15 @@ jobs:
             --exclude 'package-lock.json' \
             --exclude 'README.md' \
             ./ _site/
+          node scripts/apply_shared_shell.mjs _site
           test -f _site/index.html
           for r in patro calendar panchanga panchang parba festivals saith saait rashifal news converter; do test -f "_site/$r/index.html"; done
           test -f _site/data/years.json
           test -f _site/data/conversion-index.json
+          test -f _site/partials/header.html
+          test -f _site/partials/footer.html
+          test -f _site/js/shared-shell.js
+          test -f _site/css/shared-shell.css
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
