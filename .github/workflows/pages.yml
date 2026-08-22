@@ -88,6 +88,22 @@ jobs:
           test -f _site/js/shared-shell.js
           test -f _site/css/shared-shell.css
 
+      - name: Verify shared header and footer on every HTML page
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          root=Path('_site')
+          htmls=list(root.rglob('*.html'))
+          if not htmls:
+              raise SystemExit('No HTML pages found')
+          for p in htmls:
+              s=p.read_text(encoding='utf-8',errors='ignore')
+              if 'css/shared-shell.css' not in s or 'js/shared-shell.js' not in s:
+                  raise SystemExit(f'Shared shell missing: {p}')
+          print(f'Shared shell verified on {len(htmls)} HTML pages.')
+          PY
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
