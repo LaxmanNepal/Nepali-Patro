@@ -73,8 +73,10 @@ def main():
         except Exception as exc:failures+=1;print(f'WARN {url}: {exc}')
     items=deduplicate(articles)[:500]
     if not items:raise RuntimeError('No valid Nepali news articles were collected')
-    payload={'updatedAt':datetime.now(timezone.utc).isoformat(),'source':'feeds/feeds.js','feedCount':len(feed_map),'failedFeeds':failures,'items':items}
+    updated=datetime.now(timezone.utc).isoformat()
+    payload={'updatedAt':updated,'source':'feeds/feeds.js','feedCount':len(feed_map),'failedFeeds':failures,'items':items}
     OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    LEGACY_OUT.parent.mkdir(parents=True,exist_ok=True);LEGACY_OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    legacy_items=[{'title':x['title'],'summary':x['description'],'link':x['articleUrl'],'source':x['sourceName'],'category':x['category'],'published':x['publishedTime']} for x in items]
+    LEGACY_OUT.parent.mkdir(parents=True,exist_ok=True);LEGACY_OUT.write_text(json.dumps({'updatedAt':updated,'items':legacy_items},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f'Collected {len(items)} unique Nepali articles from {len(feed_map)} feeds; {failures} feeds failed.')
 if __name__=='__main__':main()
