@@ -1,0 +1,27 @@
+(()=>{
+'use strict';
+const ROOT='https://apps.laxmannepal.com.np/Nepali-Patro/';
+const MONTHS=['बैशाख','जेठ','असार','साउन','भदौ','असोज','कात्तिक','मंसिर','पुष','माघ','फागुन','चैत'];
+const WEEK=['आइत','सोम','मंगल','बुध','बिही','शुक्र','शनि'];
+const Z=[['♈','मेष'],['♉','वृष'],['♊','मिथुन'],['♋','कर्कट'],['♌','सिंह'],['♍','कन्या'],['♎','तुला'],['♏','वृश्चिक'],['♐','धनु'],['♑','मकर'],['♒','कुम्भ'],['♓','मीन']];
+const nep=n=>String(n).replace(/\d/g,d=>'०१२३४५६७८९'[d]);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+const todayAD=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kathmandu'}).format(new Date());
+const findToday=days=>days.find(x=>x?.ad?.date===todayAD())||days[0];
+function render(data){
+ const days=data.days||[],x=findToday(days); if(!x)return;
+ const set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v??'डेटा उपलब्ध छैन'};
+ set('todayBs',x.bs?.display||`${nep(x.bs?.year)} ${MONTHS[(x.bs?.month||1)-1]} ${nep(x.bs?.day)}`);
+ set('todayAd',x.ad?.date||'');
+ const p=document.getElementById('panchangaPreview');
+ if(p){const rows=[['वार',x.weekday?.nepali],['तिथि',x.tithi?.name],['पक्ष',x.tithi?.paksha],['नक्षत्र',x.nakshatra?.name],['योग',x.yoga?.name],['करण',x.karana?.name],['सूर्योदय',x.sun?.sunrise],['सूर्यास्त',x.sun?.sunset],['राशि',x.rashi],['पर्व',x.festival]];p.innerHTML=rows.map(r=>`<div class="np-stat"><small>${esc(r[0])}</small><b>${esc(r[1]||'—')}</b></div>`).join('')}
+ renderCalendar(data,x);renderParba(days,x);renderRashifal(x);renderNews();
+}
+function renderCalendar(data,x){const e=document.getElementById('calendarPreview');if(!e)return;const y=x.bs.year,m=x.bs.month,first=data.days.find(d=>d.bs.year===y&&d.bs.month===m&&d.bs.day===1),count=data.lengths?.[m-1]||data.days.filter(d=>d.bs.year===y&&d.bs.month===m).length;let h=`<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px"><strong>${MONTHS[m-1]} ${nep(y)}</strong><span style="color:#68707d;font-size:11px">${nep(count)} दिन</span></div><div style="display:grid;grid-template-columns:repeat(7,1fr);gap:5px">${WEEK.map(v=>`<div style="text-align:center;color:#68707d;font-size:10px;font-weight:800;padding:5px">${v}</div>`).join('')}`;for(let i=0;i<(first?.weekday?.index||0);i++)h+='<div></div>';for(let d=1;d<=count;d++){const q=data.days.find(a=>a.bs.year===y&&a.bs.month===m&&a.bs.day===d);if(!q)continue;const selected=q.ad.date===x.ad.date;h+=`<a href="${ROOT}calendar/?year=${y}&month=${m}&date=${q.ad.date}" style="min-height:48px;text-decoration:none;color:inherit;border:1px solid ${selected?'#fecaca':'#e5e7eb'};background:${selected?'#fff1f2':'#fff'};border-radius:9px;padding:6px;display:block"><b style="font-size:14px">${nep(d)}</b><small style="display:block;color:#68707d;font-size:8px">${q.ad.day}</small>${q.festival?`<span style="display:block;color:#b91c1c;font-size:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(q.festival)}</span>`:''}</a>`}e.innerHTML=h+'</div>'}
+function renderParba(days,x){const e=document.getElementById('parbaPreview');if(!e)return;const rows=days.filter(d=>d.festival||d.holiday).filter(d=>d.ad.date>=x.ad.date).slice(0,3);e.innerHTML=rows.length?rows.map(d=>`<article class="np-event"><small>${esc(d.bs.display)}</small><b>${esc(d.festival||'बिदा')}</b><span>${d.holiday?'🇳🇵 बिदा':'🎉 पर्व'}</span></article>`).join(''):'<div class="np-event">आगामी पर्व डेटा उपलब्ध छैन।</div>'}
+function renderRashifal(x){const e=document.getElementById('rashifalPreview');if(!e)return;e.innerHTML=Z.map(a=>`<a href="${ROOT}rashifal/?date=${encodeURIComponent(x.ad.date)}"><i>${a[0]}</i><b>${a[1]}</b><span>दैनिक राशिफल</span></a>`).join('')}
+async function renderNews(){const e=document.getElementById('newsPreview');if(!e)return;try{const r=await fetch(`${ROOT}data/news.json?ts=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error('news');const j=await r.json();const items=Array.isArray(j)?j:(j.articles||j.news||j.items||[]);const a=items.filter(x=>x.title||x.headline).slice(0,5);if(!a.length)throw Error('empty');e.innerHTML=`<a class="np-news-feature" href="${ROOT}news/"><small>मुख्य समाचार</small><h3>${esc(a[0].title||a[0].headline)}</h3><p>${esc(a[0].description||a[0].summary||'पूरा समाचार पढ्नुहोस्।')}</p></a><div class="np-news-list">${a.slice(1).map(n=>`<a class="np-news-item" href="${ROOT}news/" ><b>${esc(n.title||n.headline)}</b><p>${esc(n.source||n.publisher||'समाचार स्रोत')}</p></a>`).join('')}</div>`}catch{e.innerHTML='<div class="np-news-feature"><small>समाचार</small><h3>समाचार डेटा अहिले उपलब्ध छैन।</h3><p>समाचार केन्द्र खोल्नुहोस्।</p></div>'}}
+function clock(){const e=document.getElementById('nepalClock');if(e)e.textContent='🇳🇵 नेपाल समय · '+new Intl.DateTimeFormat('ne-NP',{timeZone:'Asia/Kathmandu',weekday:'long',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:true}).format(new Date())}
+async function boot(){try{const r=await fetch(`${ROOT}data/calendar/2083.json?v=homepage-20260823`,{cache:'no-store'});if(!r.ok)throw Error('calendar data unavailable');render(await r.json())}catch(err){console.error('[Nepali Patro homepage]',err);['todayBs','todayAd'].forEach(id=>{const e=document.getElementById(id);if(e)e.textContent='डेटा लोड हुन सकेन'});const p=document.getElementById('panchangaPreview');if(p)p.innerHTML='<div class="np-stat"><small>स्थिति</small><b>पात्रो डेटा उपलब्ध छैन</b></div>'}}
+document.addEventListener('DOMContentLoaded',()=>{clock();setInterval(clock,1000);boot()});
+})();
