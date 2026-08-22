@@ -12,7 +12,7 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -22,15 +22,24 @@ jobs:
         with:
           node-version: 24
           cache: npm
+          cache-dependency-path: package-lock.json
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install locked dependencies
+        run: npm ci --no-audit --no-fund
 
       - name: Validate generated site
         run: npm run validate
 
-      - name: Deep data validation
-        run: node scripts/validate_data.mjs
+      - name: Deep data and local feed validation
+        run: npm run validate:data
+
+      - name: Check feed producer syntax
+        run: python -m py_compile scripts/update_news.py scripts/update_forex.py scripts/update_gold_rates.py
 
       - name: Check JavaScript syntax
         shell: bash
