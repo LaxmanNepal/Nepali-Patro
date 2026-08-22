@@ -1,6 +1,27 @@
 {
-  "date_bs": "",
-  "date_ad": "",
+  "date_bs": "साउन ३०, २०८३",
+  "date_ad": "14 Aug, 2026",
   "base": "NPR",
-  "rates": []
+  "rates": [
+    {"currency":"USD","name":"U.S. Dollar","flag":"🇺🇸","unit":1,"buy":152.41,"sell":153.01},
+    {"currency":"EUR","name":"European Euro","flag":"🇪🇺","unit":1,"buy":175.80,"sell":176.50},
+    {"currency":"GBP","name":"UK Pound Sterling","flag":"🇬🇧","unit":1,"buy":205.65,"sell":206.46},
+    {"currency":"AUD","name":"Australian Dollar","flag":"🇦🇺","unit":1,"buy":107.56,"sell":107.98},
+    {"currency":"CAD","name":"Canadian Dollar","flag":"🇨🇦","unit":1,"buy":109.25,"sell":109.68},
+    {"currency":"SGD","name":"Singapore Dollar","flag":"🇸🇬","unit":1,"buy":119.06,"sell":119.53},
+    {"currency":"JPY","name":"Japanese Yen","flag":"🇯🇵","unit":10,"buy":9.56,"sell":9.60},
+    {"currency":"CNY","name":"Chinese Yuan","flag":"🇨🇳","unit":1,"buy":22.58,"sell":22.67},
+    {"currency":"SAR","name":"Saudi Arabian Riyal","flag":"🇸🇦","unit":1,"buy":40.55,"sell":40.71},
+    {"currency":"QAR","name":"Qatari Riyal","flag":"🇶🇦","unit":1,"buy":41.76,"sell":41.92},
+    {"currency":"AED","name":"UAE Dirham","flag":"🇦🇪","unit":1,"buy":41.45,"sell":41.62},
+    {"currency":"MYR","name":"Malaysian Ringgit","flag":"🇲🇾","unit":1,"buy":37.26,"sell":37.41},
+    {"currency":"KRW","name":"South Korean Won","flag":"🇰🇷","unit":100,"buy":10.75,"sell":10.80},
+    {"currency":"SEK","name":"Swedish Kroner","flag":"🇸🇪","unit":1,"buy":15.96,"sell":16.02},
+    {"currency":"DKK","name":"Danish Kroner","flag":"🇩🇰","unit":1,"buy":23.49,"sell":23.59},
+    {"currency":"HKD","name":"Hong Kong Dollar","flag":"🇭🇰","unit":1,"buy":19.40,"sell":19.48},
+    {"currency":"KWD","name":"Kuwaiti Dinar","flag":"🇰🇼","unit":1,"buy":495.49,"sell":497.45},
+    {"currency":"BHD","name":"Bahrain Dinar","flag":"🇧🇭","unit":1,"buy":403.79,"sell":405.38},
+    {"currency":"OMR","name":"Omani Rial","flag":"🇴🇲","unit":1,"buy":395.41,"sell":396.97},
+    {"currency":"THB","name":"Thai Baht","flag":"🇹🇭","unit":1,"buy":4.60,"sell":4.62}
+  ]
 }
