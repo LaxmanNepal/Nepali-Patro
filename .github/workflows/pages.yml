@@ -83,7 +83,7 @@ jobs:
             ./ _site/
           node scripts/apply_shared_shell.mjs _site
           test -f _site/index.html
-          for r in patro calendar panchanga panchang parba festivals saith saait rashifal news converter forex; do test -f "_site/$r/index.html"; done
+          for r in patro calendar panchanga panchang parba festivals saith saait rashifal news converter forex gold-price itihas-aaja; do test -f "_site/$r/index.html"; done
           test -f _site/data/years.json
           test -f _site/data/conversion-index.json
           test -f _site/partials/header.html
