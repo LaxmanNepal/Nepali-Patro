@@ -1,9 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
-const root=process.cwd();
+const root=path.resolve(process.argv[2]||process.cwd());
 const css='https://apps.laxmannepal.com.np/Nepali-Patro/css/shared-shell.css';
 const js='https://apps.laxmannepal.com.np/Nepali-Patro/js/shared-shell.js';
-const skip=new Set(['node_modules','.git','_site']);
+const skip=new Set(['node_modules','.git']);
 function files(dir){const out=[];for(const e of fs.readdirSync(dir,{withFileTypes:true})){if(skip.has(e.name))continue;const p=path.join(dir,e.name);if(e.isDirectory())out.push(...files(p));else if(e.isFile()&&e.name.endsWith('.html'))out.push(p)}return out}
 for(const file of files(root)){let s=fs.readFileSync(file,'utf8');
  s=s.replace(/<header\b[\s\S]*?<\/header>\s*/gi,'');
