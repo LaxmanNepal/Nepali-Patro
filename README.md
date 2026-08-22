@@ -1,55 +1,55 @@
 # Nepali Patro 🇳🇵
 
-A standalone, static Nepali Bikram Sambat calendar application by Laxman Nepal.
+A standalone static Nepali Bikram Sambat calendar application by Laxman Nepal.
 
 ## Product URL
 
 `https://apps.laxmannepal.com.np/Nepali-Patro/`
 
-## Feature routes
+## Canonical feature routes
 
-- `/patro/` — full Nepali Patro
-- `/calendar/` — calendar alias
-- `/panchanga/` — Panchanga
+- `/calendar/` — complete calendar, BS 2040–2100
+- `/panchanga/` — detailed daily Panchanga
 - `/parba/` — festivals and holidays
-- `/saith/` — Saait / Shubh Din
-- `/rashifal/` — 12-sign Rashifal
-- `/news/` — Nepali News Center
-- `/converter/` — BS ↔ AD converter
+- `/saith/` — Saait / Shubh Din information
+- `/rashifal/` — dedicated 12-sign daily and weekly Rashifal
+- `/news/` — dedicated Nepali News Center with search/filter/sort
+- `/converter/` — BS ↔ AD converter, using the package-supported 1970–2100 range
+- `/itihas-aaja/` — today's history, culture and heritage
+- `/gold-price/` — Nepal gold/silver rates and charts
 
-Aliases such as `/panchang/`, `/festivals/`, and `/saait/` are also generated for compatibility.
+The homepage `/` is the only all-in-one dashboard. Feature pages do not reuse the homepage renderer.
 
-## Calendar range
+## Compatibility aliases
 
-The static data generator builds **BS 2040 through BS 2100** inclusive. The Panchang engine supports this range and the site creates a complete date/conversion index for the generated years.
+Legacy routes redirect to their canonical pages:
+
+- `/patro/` → `/calendar/`
+- `/panchang/` → `/panchanga/`
+- `/festivals/` → `/parba/`
+- `/saait/` → `/saith/`
+
+## Calendar and Panchanga data
+
+The detailed static calendar/Panchanga dataset is generated for **BS 2040 through BS 2100** inclusive using `nepali-calendar-panchang`.
+
+Each generated day includes BS/AD dates, weekday, Nepal Sambat, tithi, paksha, nakshatra, yoga, karana, rashi, sunrise/sunset, moon information, Rahu Kaal data, festivals/events and holiday flags where supplied by the upstream dataset.
+
+## Converter
+
+A separate compact conversion index is generated for the full supported range of the underlying package (**BS 1970–2100**). The converter falls back to the detailed 2040–2100 index until the broader generated index is available.
 
 ## Principles
 
 - No runtime calendar API dependency
-- GitHub Actions builds and validates static data
+- GitHub Actions generates static data
+- Feature pages are isolated from the homepage
+- Absolute CSS/JavaScript/data URLs on standalone pages
 - Mobile-first responsive UI
-- Exact BS ↔ AD lookup from generated conversion data
-- Panchang data is generated from the MIT-licensed `nepali-calendar-panchang` package during build
-- News is collected into static JSON by GitHub Actions; the browser does not need to contact RSS feeds
-- Nepali-only news filtering is applied before publication
-- Local-only theme/reminder/note features can use browser storage
-- Original UI and branding
-
-## Validation
-
-Every deployment validates:
-
-- all 61 BS years
-- every generated day
-- duplicate BS dates
-- duplicate AD dates
-- conversion-index count
-- required route pages
-- JavaScript syntax
-- news JSON structure
-
-The deployment artifact excludes development dependencies, scripts, Git metadata, and package-manager files.
+- GitHub-hosted static news data; browsers do not fetch RSS feeds directly
+- Gold data collected by GitHub Actions from the configured Nepal source
+- Automated validation checks data integrity, route isolation, converter round trips, aliases and JavaScript syntax
 
 ## Deployment
 
-GitHub Actions deploys the generated static site to GitHub Pages on pushes to `main`.
+GitHub Actions generates and validates the data, then deploys the static site to GitHub Pages. All repository-writing workflows share a concurrency group so generated-data, news and gold-price commits do not race each other.
