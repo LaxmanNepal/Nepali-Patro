@@ -1,12 +1,14 @@
 {
   "name": "nepali-patro",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "private": true,
   "type": "module",
   "scripts": {
     "generate": "node scripts/generate_all.mjs",
     "generate:routes": "node scripts/generate_routes.mjs",
-    "validate": "node scripts/validate_site.mjs"
+    "validate": "node scripts/validate_site.mjs",
+    "validate:data": "node scripts/validate_data.mjs",
+    "validate:all": "npm run validate && npm run validate:data"
   },
   "dependencies": {
     "nepali-calendar-panchang": "1.0.2"
