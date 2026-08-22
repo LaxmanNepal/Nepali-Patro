@@ -1,1 +1,31 @@
-<!doctype html><html lang="ne"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>पात्रो — नेपाली पात्रो</title><link rel="stylesheet" href="https://apps.laxmannepal.com.np/Nepali-Patro/css/main.css"><style>body{background:#f7f7f8}.page{max-width:1200px;margin:auto;padding:30px 16px 80px}.hero,.detail{background:#fff;border:1px solid #e5e7eb;border-radius:24px;padding:25px}.tools{display:flex;gap:10px;margin:20px 0}.tools select{padding:12px;border:1px solid #ddd;border-radius:10px}.calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}.cal-head{text-align:center;font-weight:800;padding:10px}.cal-day{min-height:105px;background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:10px;text-decoration:none;color:#111;display:flex;flex-direction:column}.cal-day.event{border-color:#dc2626;background:#fff7f7}.cal-day b{font-size:24px}.cal-day small{color:#777}.cal-day span{font-size:12px;color:#b91c1c;margin-top:auto}.cal-empty{min-height:105px}.detail{margin-top:20px}@media(max-width:650px){.calendar{gap:4px}.cal-day{min-height:75px;padding:6px}.cal-day b{font-size:18px}.cal-day span{font-size:9px}}</style></head><body><header id="siteHeader" class="topbar"><a href="https://apps.laxmannepal.com.np/Nepali-Patro/">नेपाली पात्रो</a></header><main id="app" class="page"><section class="hero"><h1 id="pageTitle">पूर्ण नेपाली पात्रो</h1><p id="pageSub">महिना, हप्ता, दिन, पर्व र AD मिति — २०४० देखि २१०० BS</p><div class="tools"><select id="year"></select><select id="month"><option value="1">बैशाख</option><option value="2">जेठ</option><option value="3">असार</option><option value="4">साउन</option><option value="5">भदौ</option><option value="6">असोज</option><option value="7">कात्तिक</option><option value="8">मंसिर</option><option value="9">पुष</option><option value="10">माघ</option><option value="11">फागुन</option><option value="12">चैत</option></select></div></section><div class="calendar"><div class="cal-head">आइत</div><div class="cal-head">सोम</div><div class="cal-head">मंगल</div><div class="cal-head">बुध</div><div class="cal-head">बिही</div><div class="cal-head">शुक्र</div><div class="cal-head">शनि</div><div id="grid" style="display:contents"></div></div><section id="calendarDetail" class="detail"></section></main><script src="https://apps.laxmannepal.com.np/Nepali-Patro/js/section-pages.js"></script></body></html>
+<!doctype html>
+<html lang="ne">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#b91c1c">
+<title>पात्रो — नेपाली पात्रो</title>
+<link rel="stylesheet" href="https://apps.laxmannepal.com.np/Nepali-Patro/css/main.css">
+<link rel="stylesheet" href="https://apps.laxmannepal.com.np/Nepali-Patro/css/shared-shell.css">
+<style>
+body{background:#f7f7f8}.page{max-width:1200px;margin:auto;padding:30px 16px 80px}.hero,.detail{background:#fff;border:1px solid #e5e7eb;border-radius:24px;padding:25px}.hero h1{margin:0 0 8px}.hero p{margin:0;color:#666}.tools{display:flex;gap:10px;margin:20px 0;flex-wrap:wrap}.tools select,.tools button{padding:12px;border:1px solid #ddd;border-radius:10px;background:#fff;font:inherit}.tools button{cursor:pointer;font-weight:700}.calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}.cal-head{text-align:center;font-weight:800;padding:10px}.cal-day{min-height:105px;background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:10px;text-decoration:none;color:#111;display:flex;flex-direction:column;cursor:pointer;transition:.15s}.cal-day:hover,.cal-day.selected{border-color:#b91c1c;box-shadow:0 4px 16px #00000012}.cal-day.today{outline:2px solid #dc2626;outline-offset:1px}.cal-day.event{border-color:#dc2626;background:#fff7f7}.cal-day b{font-size:24px}.cal-day small{color:#777}.cal-day span{font-size:12px;color:#b91c1c;margin-top:auto}.cal-empty{min-height:105px}.detail{margin-top:20px}.detail-head{display:flex;justify-content:space-between;gap:15px;align-items:flex-start;flex-wrap:wrap;border-bottom:1px solid #eee;padding-bottom:16px;margin-bottom:16px}.detail-head h2{margin:0 0 5px}.detail-head p{margin:0;color:#666}.panch-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.p-card{border:1px solid #e5e7eb;border-radius:14px;padding:14px;background:#fafafa}.p-card span{display:block;color:#777;font-size:12px;margin-bottom:5px}.p-card b{display:block;line-height:1.5}.event-box{margin-top:14px;padding:14px;border-radius:14px;background:#fff7ed;border:1px solid #fed7aa}.detail-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.detail-actions button{border:1px solid #ddd;background:#fff;padding:9px 12px;border-radius:9px;cursor:pointer}@media(max-width:800px){.panch-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.calendar{gap:4px}.cal-day{min-height:78px;padding:6px}.cal-day b{font-size:18px}.cal-day span{font-size:9px}.panch-grid{grid-template-columns:1fr}.hero,.detail{padding:18px}.tools>*{flex:1}.cal-head{font-size:12px;padding:7px}}
+</style>
+</head>
+<body>
+<main id="app" class="page">
+<section class="hero">
+<h1 id="pageTitle">पूर्ण नेपाली पात्रो</h1>
+<p id="pageSub">आजको मिति सहित २०४० देखि २१०० BS सम्मको पात्रो</p>
+<div class="tools">
+<select id="year" aria-label="वर्ष"></select>
+<select id="month" aria-label="महिना"><option value="1">बैशाख</option><option value="2">जेठ</option><option value="3">असार</option><option value="4">साउन</option><option value="5">भदौ</option><option value="6">असोज</option><option value="7">कात्तिक</option><option value="8">मंसिर</option><option value="9">पुष</option><option value="10">माघ</option><option value="11">फागुन</option><option value="12">चैत</option></select>
+<button id="todayBtn" type="button">आज</button>
+</div>
+</section>
+<div class="calendar"><div class="cal-head">आइत</div><div class="cal-head">सोम</div><div class="cal-head">मंगल</div><div class="cal-head">बुध</div><div class="cal-head">बिही</div><div class="cal-head">शुक्र</div><div class="cal-head">शनि</div><div id="grid" style="display:contents"></div></div>
+<section id="calendarDetail" class="detail" aria-live="polite"></section>
+</main>
+<script src="https://apps.laxmannepal.com.np/Nepali-Patro/js/section-pages.js"></script>
+<script src="https://apps.laxmannepal.com.np/Nepali-Patro/js/shared-shell.js?v=20260822-05"></script>
+</body>
+</html>
