@@ -1,6 +1,10 @@
 {
   "date_bs": "भदौ ०५, २०८३",
   "date_ad": "21 Aug, 2026",
-  "gold": {"type":"छापावाल","unit":"प्रति तोला","price":"३,१६,७००","change":"+३,३००","trend":"up"},
-  "silver": {"type":"चाँदी","unit":"प्रति तोला","price":"४,९८५","change":"+१३०","trend":"up"}
+  "source": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
+  "sourceUrl": "https://negosida.org/",
+  "gold": {"type":"छापावाल","unit":"प्रति तोला","price":"३,१६,७००","change":"+३,३००","trend":"up","_numeric":316700},
+  "silver": {"type":"चाँदी","unit":"प्रति तोला","price":"४,९८५","change":"+१३०","trend":"up","_numeric":4985},
+  "details": {"fine_gold_tola":316700,"gold_22k_tola":290100,"silver_tola":4985,"fine_gold_10g":271520,"gold_22k_10g":248710,"silver_10g":4274},
+  "history": [{"date_ad":"2026-08-21","date_bs":"भदौ ०५, २०८३","fine_gold_tola":316700,"gold_22k_tola":290100,"silver_tola":4985,"fine_gold_10g":271520,"gold_22k_10g":248710,"silver_10g":4274}]
 }
