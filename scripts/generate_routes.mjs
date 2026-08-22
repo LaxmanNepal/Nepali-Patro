@@ -1,26 +1,20 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+// Canonical feature pages are maintained independently. The old generator copied
+// index.html into every route, which caused every section to inherit homepage UI.
+// Keep only compatibility aliases here and make them lightweight redirects.
 const root=path.resolve('.');
-const source=fs.readFileSync(path.join(root,'index.html'),'utf8');
-const routes={
-  patro:'पात्रो — नेपाली पात्रो',
-  calendar:'क्यालेन्डर — नेपाली पात्रो',
-  panchanga:'पञ्चाङ्ग — नेपाली पात्रो',
-  panchang:'पञ्चाङ्ग — नेपाली पात्रो',
-  parba:'पर्व तथा बिदा — नेपाली पात्रो',
-  festivals:'पर्व तथा बिदा — नेपाली पात्रो',
-  saith:'साइत — नेपाली पात्रो',
-  saait:'साइत — नेपाली पात्रो',
-  rashifal:'राशिफल — नेपाली पात्रो',
-  news:'समाचार केन्द्र — नेपाली पात्रो',
-  converter:'मिति रूपान्तरण — नेपाली पात्रो'
+const aliases={
+  panchang:'panchanga',
+  festivals:'parba',
+  saait:'saith'
 };
+const redirect=target=>`<!doctype html><html lang="ne"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=../${target}/"><link rel="canonical" href="https://apps.laxmannepal.com.np/Nepali-Patro/${target}/"><title>नेपाली पात्रो</title></head><body><p>पृष्ठ परिवर्तन हुँदैछ… <a href="../${target}/">यहाँ जानुहोस्</a></p><script>location.replace('../${target}/'+location.search+location.hash)</script></body></html>`;
 
-for(const [route,title] of Object.entries(routes)){
-  let html=source.replace('<head>','<head><base href="../">').replace(/<title>[^<]*<\/title>/,`<title>${title}</title>`);
-  if(!html.includes('js/route-compat.js'))html=html.replace('</body>','<script src="js/route-compat.js"></script></body>');
-  fs.mkdirSync(path.join(root,route),{recursive:true});
-  fs.writeFileSync(path.join(root,route,'index.html'),html,'utf8');
+for(const [alias,target] of Object.entries(aliases)){
+  fs.mkdirSync(path.join(root,alias),{recursive:true});
+  fs.writeFileSync(path.join(root,alias,'index.html'),redirect(target),'utf8');
 }
-console.log(`Generated ${Object.keys(routes).length} clean static feature routes.`);
+
+console.log(`Generated ${Object.keys(aliases).length} compatibility redirects; canonical feature pages were preserved.`);
