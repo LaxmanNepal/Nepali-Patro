@@ -1,9 +1,6 @@
 (()=>{
   const ROOT='https://apps.laxmannepal.com.np/Nepali-Patro/';
-
-  // The homepage historically shipped its own header/footer/mobile drawer.
-  // Bootstrap the canonical shared shell so the homepage uses exactly the same
-  // navigation, search, Forex menu and footer as every other page.
+  const load=(kind,url)=>{const el=document.createElement(kind);if(kind==='link'){el.rel='stylesheet';el.href=`${url}?v=${Date.now().toString(36)}`}else{el.src=`${url}?v=${Date.now().toString(36)}`;el.defer=true}el.dataset.homeUpgrade='true';document.head.appendChild(el)};
   const loadSharedShell=()=>{
     if(document.querySelector('script[data-shared-shell-loader]')) return;
     const s=document.createElement('script');
@@ -11,10 +8,9 @@
     s.defer=true;
     s.dataset.sharedShellLoader='true';
     document.head.appendChild(s);
+    load('link',`${ROOT}css/today-engine.css`);
+    load('script',`${ROOT}js/today-engine.js`);
   };
-
-  // Wait until the legacy homepage DOM exists, then let shared-shell.js remove
-  // the legacy shell and mount the canonical header/footer.
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',loadSharedShell,{once:true});
   else loadSharedShell();
 })();
