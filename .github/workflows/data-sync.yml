@@ -3,7 +3,7 @@ name: Sync Nepali Patro Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/15 * * * *'
 
 permissions:
   contents: write
@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Collect Nepali news into canonical local feed
+      - name: Collect Nepali news from centralized feeds.js
         run: python scripts/update_news.py
 
       - name: Sync official NRB forex rates
