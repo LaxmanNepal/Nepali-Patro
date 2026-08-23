@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ne">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ज्योतिष Accuracy Lab — Nepali Patro</title>
+<style>
+body{font-family:system-ui,"Noto Sans Devanagari",sans-serif;margin:0;background:#faf7f5;color:#24140e}.wrap{max-width:1000px;margin:auto;padding:24px}.card{background:#fff;border:1px solid #eadbd2;border-radius:18px;padding:20px;margin:16px 0}.ok{color:#166534}.warn{color:#92400e}.bad{color:#991b1b}table{width:100%;border-collapse:collapse}td,th{padding:9px;border-bottom:1px solid #eee;text-align:left}button{padding:12px 16px;border:0;border-radius:10px;background:#9a3412;color:#fff;font-weight:700;cursor:pointer}.muted{color:#6b5b54;font-size:13px}
+</style></head>
+<body><main class="wrap">
+<h1>ज्योतिष Accuracy Lab</h1>
+<p class="muted">यो developer validation page हो। उत्पादन पृष्ठले देखाउने गणना अघि ephemeris method, sidereal setting र internal consistency जाँच गर्न प्रयोग हुन्छ।</p>
+<section class="card"><button id="run">Accuracy test चलाउनुहोस्</button><div id="status" class="muted" style="margin-top:12px">तयार छैन…</div></section>
+<section class="card"><h2>Planet comparison</h2><table><thead><tr><th>ग्रह</th><th>Swiss sidereal</th><th>Moshier sidereal</th><th>Difference</th><th>Status</th></tr></thead><tbody id="rows"></tbody></table></section>
+<section class="card"><h2>Required invariants</h2><div id="checks"></div></section>
+<section class="card"><h2>Method</h2><p>Production target: Nirayana / Lahiri (Chitrapaksha), geocentric traditional grahas, configurable Mean/True lunar node, Whole Sign houses for the primary Parashari chart. The browser package supports built-in Moshier calculations and optional Swiss Ephemeris files; this page compares both before production claims are made.</p></section>
+</main>
+<script type="module">
+import {SwissEphemeris,Planet,CalculationFlag,SiderealMode} from 'https://esm.unpkg.com/@swisseph/browser@1.3.1';
+const names=[['सूर्य',Planet.Sun],['चन्द्र',Planet.Moon],['मंगल',Planet.Mars],['बुध',Planet.Mercury],['गुरु',Planet.Jupiter],['शुक्र',Planet.Venus],['शनि',Planet.Saturn]];
+const norm=x=>((x%360)+360)%360;
+const run=async()=>{const s=document.getElementById('status');const rows=document.getElementById('rows');const checks=document.getElementById('checks');rows.innerHTML='';checks.innerHTML='';try{const swe=new SwissEphemeris();await swe.init();swe.setSiderealMode(SiderealMode.Lahiri);s.textContent='Swiss Ephemeris files लोड हुँदैछ…';await swe.loadStandardEphemeris();const jd=swe.julianDay(2002,3,18,6.25);const sf=CalculationFlag.SwissEphemeris|CalculationFlag.Speed|CalculationFlag.Sidereal;const mf=CalculationFlag.MoshierEphemeris|CalculationFlag.Speed|CalculationFlag.Sidereal;let all=true;for(const [name,body] of names){const a=swe.calculatePosition(jd,body,sf);const b=swe.calculatePosition(jd,body,mf);const d=Math.abs(norm(a.longitude-b.longitude));const diff=Math.min(d,360-d);const ok=diff<0.01;all=all&&ok;rows.insertAdjacentHTML('beforeend',`<tr><td>${name}</td><td>${a.longitude.toFixed(8)}°</td><td>${b.longitude.toFixed(8)}°</td><td>${(diff*3600).toFixed(4)} arcsec</td><td class="${ok?'ok':'bad'}">${ok?'PASS':'CHECK'}</td></tr>`)}const moon=swe.calculatePosition(jd,Planet.Moon,sf);const node=swe.calculatePosition(jd,10,sf);const inv=[['Planet longitude range',names.every(([,body])=>{const p=swe.calculatePosition(jd,body,sf);return p.longitude>=0&&p.longitude<360})],['Moon latitude finite',Number.isFinite(moon.latitude)],['Node longitude range',node.longitude>=0&&node.longitude<360],['Lahiri ayanamsa finite',Number.isFinite(swe.getAyanamsa(jd))]];for(const [n,ok] of inv){checks.insertAdjacentHTML('beforeend',`<p class="${ok?'ok':'bad'}"><b>${ok?'PASS':'FAIL'}</b> — ${n}</p>`);all=all&&ok}s.innerHTML=all?'<span class="ok"><b>PASS:</b> core ephemeris consistency checks passed.</span>':'<span class="bad"><b>CHECK:</b> one or more calculations need investigation.';swe.close?.()}catch(e){s.innerHTML='<span class="bad"><b>ERROR:</b> '+e.message+'</span>'}};document.getElementById('run').onclick=run;
+</script></body></html>
