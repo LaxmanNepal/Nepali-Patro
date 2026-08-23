@@ -2,7 +2,7 @@
 const BASE='https://apps.laxmannepal.com.np/Nepali-Patro/';
 const NUMS='०१२३४५६७८९';
 let mode='bs';
-let rows=[];
+let days=[];
 const $=id=>document.getElementById(id);
 const toEn=v=>String(v).replace(/[०-९]/g,d=>String(NUMS.indexOf(d)));
 const toNp=v=>String(v).replace(/\d/g,d=>NUMS[d]);
@@ -25,65 +25,97 @@ function draw(){
   $('today').onclick=fillToday;
   $('date').addEventListener('keydown',e=>{if(e.key==='Enter')convert()});
 }
-function fillToday(){
+async function loadYear(year){
+  const res=await fetch(`${BASE}data/calendar/${year}.json?v=20260824-05`,{cache:'no-store'});
+  if(!res.ok)throw new Error(`HTTP ${res.status}`);
+  const raw=await res.json();
+  let payload=raw;
+  if(raw&&typeof raw.content==='string'){
+    try{payload=JSON.parse(raw.content)}catch{}
+  }
+  if(!payload||!Array.isArray(payload.days))throw new Error(`Invalid calendar data for ${year}`);
+  return payload.days;
+}
+async function loadForBsYear(year){
+  days=await loadYear(year);
+  return days;
+}
+async function findAdForBs(y,m,d){
+  const list=await loadForBsYear(y);
+  return list.find(x=>Number(x?.bs?.year)===y&&Number(x?.bs?.month)===m&&Number(x?.bs?.day)===d)||null;
+}
+async function findBsForAd(ad){
+  const y=Number(ad.slice(0,4));
+  const candidates=[y+56,y+57];
+  for(const bsYear of candidates){
+    try{
+      const list=await loadYear(bsYear);
+      const found=list.find(x=>String(x?.ad?.date)===ad);
+      if(found?.bs)return found;
+    }catch(e){console.warn(`Calendar ${bsYear} unavailable`,e)}
+  }
+  return null;
+}
+async function fillToday(){
   const now=new Date();
   const ad=`${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}`;
-  if(mode==='ad'){$('date').value=ad;convert();return}
-  const row=rows.find(r=>String(r[1])===ad);
-  if(!row)return fail('आजको BS मिति उपलब्ध डेटामा भेटिएन।');
-  const [y,m,d]=String(row[0]).split('-').map(Number);
-  $('date').value=`${toNp(y)}-${toNp(pad(m))}-${toNp(pad(d))}`;
-  convert();
+  try{
+    const found=await findBsForAd(ad);
+    if(!found?.bs)return fail('आजको BS मिति उपलब्ध डेटामा भेटिएन।');
+    if(mode==='ad'){
+      $('date').value=ad;await convert();
+    }else{
+      const {year,month,day}=found.bs;
+      $('date').value=`${toNp(year)}-${toNp(pad(month))}-${toNp(pad(day))}`;
+      await convert();
+    }
+  }catch(e){console.error(e);fail('आजको मिति डेटा लोड हुन सकेन।')}
 }
-function convert(){
+async function convert(){
   clearError();
   $('result').hidden=true;
-  if(!rows.length)return fail('रूपान्तरण डेटा तयार भएको छैन। पेज refresh गरेर पुनः प्रयास गर्नुहोस्।');
   try{
     if(mode==='bs'){
       const p=parseParts($('date').value);
       if(!p)return fail('सही ढाँचा प्रयोग गर्नुहोस्: २०८३-०५-१०');
       const [y,m,d]=p;
       if(!validateBs(y,m,d))return fail('BS वर्ष १९७०–२१००, महिना १–१२ र दिन १–३२ भित्र हुनुपर्छ।');
-      const x=rows.find(r=>String(r[0])===key(y,m,d));
-      if(!x)return fail('यो BS मिति रूपान्तरण डेटामा भेटिएन।');
-      const ad=String(x[1]);
+      const x=await findAdForBs(y,m,d);
+      if(!x?.ad?.date)return fail('यो BS मिति रूपान्तरण डेटामा भेटिएन।');
+      const ad=String(x.ad.date);
       const js=new Date(`${ad}T00:00:00`);
       ok(ad,`वि.सं. ${toNp(y)}-${toNp(pad(m))}-${toNp(pad(d))}`,`<div class="meta"><div><b>वार</b><span>${js.toLocaleDateString('ne-NP',{weekday:'long'})}</span></div><div><b>AD</b><span>${ad}</span></div><div><b>BS</b><span>${toNp(key(y,m,d))}</span></div></div>`);
     }else{
       const ad=$('date').value;
       if(!/^\d{4}-\d{2}-\d{2}$/.test(ad))return fail('ईस्वी मिति छान्नुहोस्।');
-      const x=rows.find(r=>String(r[1])===ad);
-      if(!x)return fail('यो AD मिति रूपान्तरण डेटामा भेटिएन।');
-      const bs=String(x[0]);
+      const x=await findBsForAd(ad);
+      if(!x?.bs)return fail('यो AD मिति रूपान्तरण डेटामा भेटिएन।');
+      const {year,month,day}=x.bs;
+      const bs=key(year,month,day);
       const js=new Date(`${ad}T00:00:00`);
       ok(toNp(bs),`ईस्वी ${ad}`,`<div class="meta"><div><b>वार</b><span>${js.toLocaleDateString('ne-NP',{weekday:'long'})}</span></div><div><b>AD</b><span>${ad}</span></div><div><b>BS</b><span>${toNp(bs)}</span></div></div>`);
     }
-  }catch(e){fail('मिति रूपान्तरण हुन सकेन।');console.error(e)}
+  }catch(e){
+    console.error(e);
+    fail(e?.message?.startsWith('HTTP')?'मिति डेटा लोड हुन सकेन। GitHub Pages/CDN data path जाँच गर्नुहोस्।':'मिति रूपान्तरण हुन सकेन।');
+  }
 }
 function setMode(next){mode=next;$('bsTab').classList.toggle('active',mode==='bs');$('adTab').classList.toggle('active',mode==='ad');draw();$('result').hidden=true;clearError()}
 async function loadData(){
-  $('status').textContent='रूपान्तरण डेटा लोड हुँदैछ…';
-  const urls=[`${BASE}data/converter-index.json`,`${BASE}data/conversion-index.json`];
-  let lastError=null;
-  for(const url of urls){
-    try{
-      const res=await fetch(`${url}?v=20260824-04`,{cache:'no-store'});
-      if(!res.ok)throw new Error(`HTTP ${res.status}`);
-      const j=await res.json();
-      const items=Array.isArray(j)?j:(j&&Array.isArray(j.items)?j.items:[]);
-      if(!items.length)throw new Error('empty dataset');
-      rows=items;
-      $('status').textContent=`रूपान्तरण तयार • ${rows.length.toLocaleString()} मिति उपलब्ध`;
-      draw();
-      $('bsTab').onclick=()=>setMode('bs');
-      $('adTab').onclick=()=>setMode('ad');
-      return;
-    }catch(e){lastError=e}
+  $('status').textContent='रूपान्तरण डेटा तयार हुँदैछ…';
+  try{
+    const probe=await loadYear(new Date().getFullYear()+57);
+    if(!probe.length)throw new Error('empty dataset');
+    days=probe;
+    $('status').textContent='रूपान्तरण तयार';
+    draw();
+    $('bsTab').onclick=()=>setMode('bs');
+    $('adTab').onclick=()=>setMode('ad');
+  }catch(e){
+    $('status').textContent='रूपान्तरण डेटा लोड भएन';
+    fail('रूपान्तरण डेटा लोड हुन सकेन। data/calendar/{year}.json path जाँच गर्नुहोस्।');
+    console.error(e);
   }
-  $('status').textContent='रूपान्तरण डेटा लोड भएन';
-  fail('रूपान्तरण डेटा लोड हुन सकेन। GitHub Pages/CDN data path जाँच गर्नुहोस्।');
-  console.error(lastError);
 }
 document.addEventListener('DOMContentLoaded',loadData);
 })();
