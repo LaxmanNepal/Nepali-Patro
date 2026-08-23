@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Setup Node 24
         uses: actions/setup-node@v4
@@ -65,11 +65,16 @@ jobs:
               missing=required-set(item)
               if missing:
                   raise SystemExit(f'feeds/news.json item {i} missing: {sorted(missing)}')
-          print(f'Local news schema passed: {len(items)} articles')
+          if isinstance(d,dict) and d.get('feedCount',0) < 1:
+              raise SystemExit('feeds/news.json reports zero configured feeds')
+          print(f"Local news schema passed: {len(items)} articles from {d.get('feedCount','?')} configured feeds; {d.get('failedFeeds','?')} failed on last sync")
           PY
 
       - name: Prepare clean Pages artifact
+        env:
+          PAGES_VERSION: ${{ github.sha }}
         run: |
+          set -euo pipefail
           rm -rf _site
           mkdir -p _site
           rsync -a --delete \
@@ -83,7 +88,7 @@ jobs:
             ./ _site/
           node scripts/apply_shared_shell.mjs _site
           test -f _site/index.html
-          for r in patro calendar panchanga panchang parba festivals saith saait rashifal news converter forex gold-price itihas-aaja; do test -f "_site/$r/index.html"; done
+          for r in calendar panchanga parba saith rashifal news converter forex gold-price itihas-aaja; do test -f "_site/$r/index.html"; done
           test -f _site/data/years.json
           test -f _site/data/conversion-index.json
           test -f _site/partials/header.html
@@ -94,20 +99,32 @@ jobs:
           test -f _site/feeds/forex.json
           test -f _site/feeds/gold_silver.json
 
-      - name: Verify shared header and footer on every HTML page
+      - name: Verify one shared shell and complete navigation on every HTML page
         run: |
           set -euo pipefail
           python3 - <<'PY'
           from pathlib import Path
+          import re
           root=Path('_site')
           htmls=list(root.rglob('*.html'))
-          if not htmls:
-              raise SystemExit('No HTML pages found')
+          required=[
+              'https://apps.laxmannepal.com.np/Nepali-Patro/calendar/',
+              'https://apps.laxmannepal.com.np/Nepali-Patro/panchanga/',
+              'https://apps.laxmannepal.com.np/Nepali-Patro/rashifal/',
+              'https://apps.laxmannepal.com.np/Nepali-Patro/parba/',
+              'https://apps.laxmannepal.com.np/Nepali-Patro/saith/',
+              'https://apps.laxmannepal.com.np/Nepali-Patro/news/',
+              'https://apps.laxmannepal.com.np/Nepali-Patro/forex/'
+          ]
+          if not htmls: raise SystemExit('No HTML pages found')
           for p in htmls:
               s=p.read_text(encoding='utf-8',errors='ignore')
-              if 'css/shared-shell.css' not in s or 'js/shared-shell.js' not in s:
-                  raise SystemExit(f'Shared shell missing: {p}')
-          print(f'Shared shell verified on {len(htmls)} HTML pages.')
+              if 'data-shared-build=' not in s or 'js/shared-shell.js?v=' not in s or 'css/shared-shell.css?v=' not in s:
+                  raise SystemExit(f'Shared shell/version missing: {p}')
+              for url in required:
+                  if url not in s:
+                      raise SystemExit(f'Navigation link missing from generated page: {p} -> {url}')
+          print(f'Shared shell + complete nav verified on {len(htmls)} HTML pages.')
           PY
 
       - name: Configure Pages
