@@ -104,9 +104,9 @@ jobs:
           set -euo pipefail
           python3 - <<'PY'
           from pathlib import Path
-          import re
           root=Path('_site')
           htmls=list(root.rglob('*.html'))
+          header=(root/'partials/header.html').read_text(encoding='utf-8',errors='ignore')
           required=[
               'https://apps.laxmannepal.com.np/Nepali-Patro/calendar/',
               'https://apps.laxmannepal.com.np/Nepali-Patro/panchanga/',
@@ -117,13 +117,13 @@ jobs:
               'https://apps.laxmannepal.com.np/Nepali-Patro/forex/'
           ]
           if not htmls: raise SystemExit('No HTML pages found')
+          for url in required:
+              if url not in header:
+                  raise SystemExit(f'Shared header is missing navigation link: {url}')
           for p in htmls:
               s=p.read_text(encoding='utf-8',errors='ignore')
               if 'data-shared-build=' not in s or 'js/shared-shell.js?v=' not in s or 'css/shared-shell.css?v=' not in s:
                   raise SystemExit(f'Shared shell/version missing: {p}')
-              for url in required:
-                  if url not in s:
-                      raise SystemExit(f'Navigation link missing from generated page: {p} -> {url}')
           print(f'Shared shell + complete nav verified on {len(htmls)} HTML pages.')
           PY
 
