@@ -1,0 +1,7 @@
+/* Shared pinned navigation layer. Load after the shared shell stylesheet. */
+:root{--shared-nav-offset:10px}
+.shared-header{position:sticky!important;top:var(--shared-nav-offset);z-index:1000!important}
+.shared-mobile-menu{z-index:1100!important}
+.shared-menu-backdrop,.shared-search-overlay{z-index:1050!important}
+@media(max-width:760px){.shared-header{top:6px}.shared-header{margin-left:8px;margin-right:8px}}
+@media(prefers-reduced-motion:reduce){.shared-header{scroll-behavior:auto}}
