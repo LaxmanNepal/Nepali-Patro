@@ -15,7 +15,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
@@ -30,6 +30,12 @@ jobs:
       - name: Collect Nepali news from centralized feeds.js
         run: python scripts/update_news.py
 
+      - name: Collect build-time Reddit stories
+        run: python scripts/update_reddit.py
+
+      - name: Generate original Nepali meme cards
+        run: python scripts/update_memes.py
+
       - name: Sync official NRB forex rates
         run: python scripts/update_forex.py
 
@@ -39,7 +45,7 @@ jobs:
       - name: Validate feed producers
         run: |
           set -euo pipefail
-          python -m py_compile scripts/update_news.py scripts/update_forex.py scripts/update_gold_rates.py
+          python -m py_compile scripts/update_news.py scripts/update_reddit.py scripts/update_memes.py scripts/update_forex.py scripts/update_gold_rates.py
 
       - name: Validate generated local feeds
         run: |
@@ -52,7 +58,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feeds/news.json data/news.json feeds/forex.json feeds/gold_silver.json
+          git add feeds/news.json data/news.json feeds/reddit.json feeds/memes.json feeds/forex.json feeds/gold_silver.json
           if git diff --cached --quiet; then
             echo 'No feed changes.'
             exit 0
