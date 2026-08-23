@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ne">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#7c2d12">
+<meta name="description" content="नेपाली ज्योतिष — शुद्ध जन्मकुण्डली, ग्रह, भाव, नक्षत्र, नवांश, दशा, उपग्रह, होरा, षड्बल, अष्टकवर्ग, योग, दोष र गोचर।">
+<title>ज्योतिष — नेपाली पात्रो</title>
+<link rel="stylesheet" href="./jyotish.css">
+</head>
+<body>
+<header class="topbar"><a href="../" class="brand"><span>प</span><b>नेपाली पात्रो</b><small>Jyotish</small></a><nav><a href="../">पात्रो</a><a class="active" href="./">ज्योतिष</a><a href="../panchanga/">पञ्चाङ्ग</a><a href="../rashifal/">राशिफल</a></nav><button id="theme" aria-label="थिम">◐</button></header>
+<main>
+<section class="hero"><div><p class="eyebrow">VEDIC JYOTISH · NIRAYANA</p><h1>जन्मकुण्डली र सम्पूर्ण ज्योतिष</h1><p>ग्रहदेखि उपग्रह, नक्षत्रदेखि दशा, नवांशदेखि षड्बलसम्म एउटै ठाउँमा। गणना प्रणाली पारदर्शी राखिएको छ ताकि परिणाम जाँच्न सकियोस्।</p></div><div class="engine"><strong id="engineState">गणना इन्जिन तयार हुँदैछ…</strong><span id="engineMeta">Swiss Ephemeris / Lahiri</span></div></section>
+<section class="card form-card"><div class="section-head"><div><span>१</span><h2>जन्म विवरण</h2></div><button id="sample">नमुना भर्नुहोस्</button></div>
+<div class="grid">
+<label>नाम<input id="name" placeholder="जस्तै: लक्ष्मण नेपाल"></label>
+<label>मिति प्रणाली<select id="calendar"><option value="bs">वि.सं. (BS)</option><option value="ad">ई.सं. (AD)</option></select></label>
+<label>वर्ष<input id="year" type="number" placeholder="2058"></label>
+<label>महिना<input id="month" type="number" min="1" max="12" placeholder="12"></label>
+<label>गते<input id="day" type="number" min="1" max="32" placeholder="4"></label>
+<label>जन्म समय<input id="time" type="time" value="12:00"></label>
+<label class="wide">जन्म स्थान<input id="place" value="Kathmandu, Nepal" placeholder="शहर, जिल्ला वा देश खोज्नुहोस्"></label>
+<label>अक्षांश<input id="lat" type="number" step="0.000001" value="27.7172"></label>
+<label>देशान्तर<input id="lon" type="number" step="0.000001" value="85.3240"></label>
+<label>UTC offset<input id="tz" type="number" step="0.25" value="5.75"></label>
+</div>
+<div class="settings"><label>अयनांश<select id="ayan"><option value="lahiri">Lahiri / Chitrapaksha</option><option value="raman">Raman</option><option value="krishnamurti">Krishnamurti</option></select></label><label>भाव प्रणाली<select id="houses"><option value="whole">Whole Sign</option><option value="equal">Equal</option><option value="sripati">Sripati</option></select></label><label>नोड<select id="nodes"><option value="mean">Mean Node</option><option value="true">True Node</option></select></label></div>
+<button id="generate" class="primary">कुण्डली गणना गर्नुहोस् <span>→</span></button><p class="privacy">जन्म विवरण तपाईंको ब्राउजरमै प्रशोधन गर्ने लक्ष्य राखिएको छ। बाह्य geocoding प्रयोग गर्दा मात्र स्थान खोजी अनुरोध बाहिर जान सक्छ।</p>
+</section>
+
+<section id="results" class="results hidden">
+<div class="result-head"><div><p class="eyebrow">जन्म कुण्डली</p><h2 id="personTitle">—</h2><p id="birthSummary">—</p></div><div class="actions"><button id="print">प्रिन्ट / PDF</button><button id="save">सेभ</button></div></div>
+<div class="method"><span>Sidereal</span><span id="methodAyan">Lahiri</span><span id="methodHouse">Whole Sign</span><span id="ephemeris">Ephemeris: —</span><span id="jd">JD: —</span></div>
+<div class="overview"><div class="chart-card"><h3>D1 · राशि कुण्डली</h3><div id="chart" class="chart"></div></div><div class="keyfacts" id="keyfacts"></div></div>
+<div class="tabs" id="tabs"><button class="tab active" data-tab="graha">ग्रह</button><button class="tab" data-tab="bhava">भाव</button><button class="tab" data-tab="nakshatra">नक्षत्र</button><button class="tab" data-tab="varga">वर्ग / D1–D60</button><button class="tab" data-tab="dasha">दशा</button><button class="tab" data-tab="upagraha">उपग्रह</button><button class="tab" data-tab="lagna">विशेष लग्न</button><button class="tab" data-tab="strength">षड्बल</button><button class="tab" data-tab="ashtaka">अष्टकवर्ग</button><button class="tab" data-tab="yoga">योग / दोष</button><button class="tab" data-tab="hora">होरा</button><button class="tab" data-tab="transit">गोचर</button><button class="tab" data-tab="panchanga">जन्म पञ्चाङ्ग</button></div>
+<div id="tabContent" class="tab-content"></div>
+</section>
+
+<section class="blueprint card"><div class="section-head"><div><span>∞</span><h2>ज्योतिषमा के-के समावेश हुनेछ?</h2></div></div><div class="blueprint-grid">
+<article><b>ग्रह & भाव</b><p>सूर्य, चन्द्र, मंगल, बुध, गुरु, शुक्र, शनि, राहु, केतु; लग्न, १२ भाव, भावेश, दृष्टि, अस्त, वक्री, उच्च/नीच, मूलत्रिकोण।</p></article>
+<article><b>नक्षत्र</b><p>२७ नक्षत्र, ४ पाद, नक्षत्र स्वामी, देवता, गण, योनि, नाडी, तारा बल र जन्म नक्षत्र।</p></article>
+<article><b>वर्ग</b><p>D1 राशि, D2 होरा, D3 द्रेष्काण, D4, D7, D9 नवांश, D10, D12, D16, D20, D24, D27, D30, D40, D45, D60।</p></article>
+<article><b>दशा</b><p>विंशोत्तरी महादशा, अन्तरदशा, प्रत्यन्तरदशा र उपलब्ध नियमअनुसार थप सूक्ष्म स्तर।</p></article>
+<article><b>उपग्रह</b><p>गुलिक, माण्डी तथा धूम, व्यतीपात, परिवेष, इन्द्रचाप, उपकेतु। परम्परा/गणना विधि स्पष्ट देखाइनेछ।</p></article>
+<article><b>विशेष लग्न</b><p>भाव लग्न, होरा लग्न, घटि लग्न, सूर्य लग्न, चन्द्र लग्न, अरू समर्थित special lagnas।</p></article>
+<article><b>बल प्रणाली</b><p>षड्बलका स्थान, दिक्, काल, चेष्टा, नैसर्गिक र दृष्टि बल; भावबल तथा अष्टकवर्ग BAV/SAV।</p></article>
+<article><b>योग & दोष</b><p>राजयोग, धनयोग, पंचमहापुरुष, नीचभंग, गजकेसरी, विपरीत राजयोग तथा मंगलीक, कालसर्प, गण्डमूल, गण्डान्त आदि — नियमसहित।</p></article>
+<article><b>समय गणना</b><p>उदय/अस्त, दिन/रात, राहुकाल, यमगण्ड, गुलिककाल, होरा, तिथि, वार, करण, योग, नक्षत्र र मुहूर्त।</p></article>
+<article><b>गोचर</b><p>हालका ग्रह, राशि परिवर्तन, वक्री/मार्गी, साढेसाती, अष्टम शनि र चन्द्रबाट गोचर।</p></article>
+<article><b>मिलान</b><p>अष्टकूट गुण मिलान, वर्ण, वश्य, तारा, योनि, ग्रह मैत्री, गण, भकूट, नाडी र मंगलीक तुलना।</p></article>
+<article><b>रिपोर्ट</b><p>प्रिन्ट/PDF, chart image, saved profiles, shareable read-only state र Nepali/English language switch।</p></article>
+</div></section>
+</main>
+<footer>नेपाली पात्रो · ज्योतिष · गणना सन्दर्भका लागि हो। ज्योतिषीय व्याख्या सांस्कृतिक/परम्परागत जानकारी हो; महत्वपूर्ण निर्णयका लागि योग्य विशेषज्ञसँग परामर्श गर्नुहोस्।</footer>
+<script type="module" src="./jyotish.js"></script>
+</body></html>
