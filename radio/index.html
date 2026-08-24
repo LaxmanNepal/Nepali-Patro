@@ -8,12 +8,156 @@
 <aside class="side"><div class="panel"><h3>🎧 अहिले बजिरहेको</h3><div id="sideNow">कुनै स्टेशन चयन गरिएको छैन।</div></div><div class="panel"><h3>🌐 अन्य प्लेटफर्ममा खोज्नुहोस्</h3><div id="platforms"></div></div><div class="panel"><h3>ℹ️ रेडियोबारे</h3><p style="font-size:13px;color:#666">स्टेशन सूची Radio Browser जस्तो खुला रेडियो निर्देशिकाबाट गतिशील रूपमा लोड हुन्छ। त्यसैले स्थिर ३० स्टेशनमा सीमित हुँदैन। yoRadio जस्ता रेडियो सिस्टममा playlist/search/preview जस्ता अवधारणाहरू प्रयोग हुन्छन्।</p></div></aside></div></main>
 <div class="player"><div class="player-in"><div class="now"><div class="logo" id="pLogo">📻</div><div><strong id="pName">रेडियो चयन गर्नुहोस्</strong><span id="pMeta">स्टेशन चलाउन Play थिच्नुहोस्</span><span id="pStatus" class="status"></span></div></div><div class="controls"><button id="prev" title="अघिल्लो">⏮</button><button id="mainPlay" title="चलाउनुहोस्">▶</button><button id="next" title="अर्को">⏭</button><button id="stop" title="रोक्नुहोस्">■</button></div><div class="volume">🔊 <input id="vol" type="range" min="0" max="1" step=".01" value=".85"></div></div><audio id="audio" preload="none"></audio></div>
 <script src="https://apps.laxmannepal.com.np/Nepali-Patro/js/mobile-nav.js"></script><script>
-const API='https://de1.api.radio-browser.info/json/stations/search';let all=[],filtered=[],idx=-1,favorites=JSON.parse(localStorage.getItem('np-radio-fav')||'[]');const $=id=>document.getElementById(id);const audio=$('audio');audio.volume=.85;
-const platforms=[['YouTube','लाइभ भिडियो','https://www.youtube.com/results?search_query='],['Google','स्टेशन/वेबसाइट','https://www.google.com/search?q='],['TuneIn','रेडियो निर्देशिका','https://tunein.com/search/?query='],['Radio Garden','स्थानबाट खोज','https://radio.garden/search/'],['Online Radio Box','स्टेशन निर्देशिका','https://onlineradiobox.com/search?query='],['myTuner','रेडियो निर्देशिका','https://www.mytuner-radio.com/search/']];$('platforms').innerHTML=platforms.map(p=>`<a class="platform" target="_blank" rel="noopener" href="${p[2]}नेपाल रेडियो">📻 <b>${p[0]}</b><small>${p[1]}</small></a>`).join('');
-function esc(s){return String(s||'').replace(/[&<>'"]/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[x]))}function favKey(s){return s.stationuuid||s.stationuuid||s.url_resolved}function isFav(s){return favorites.includes(favKey(s))}function saveFav(){localStorage.setItem('np-radio-fav',JSON.stringify(favorites))}
-function card(s,i){const name=esc(s.name),loc=esc([s.city,s.state,s.country].filter(Boolean).join(' · ')),tags=[s.codec,s.bitrate?s.bitrate+' kbps':'',s.language].filter(Boolean).map(esc);return `<article class="card"><div class="top"><div class="logo">${s.favicon?`<img src="${esc(s.favicon)}" onerror="this.style.display='none'">`:'📻'}</div><div><h3>${name}</h3><div class="meta">${loc||'नेपाल'} ${s.frequency?' · '+esc(s.frequency):''}</div></div></div><div class="tags">${tags.map(x=>`<span class="tag">${x}</span>`).join('')}<span class="tag">${s.codec?'अनलाइन':'FM/रेडियो'}</span></div><div class="actions"><button class="play" onclick="playAt(${i})">▶ सुन्नुहोस्</button><a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=${encodeURIComponent(s.name+' Nepal radio live')}">YouTube</a><button class="fav" onclick="toggleFav(${i})">${isFav(s)?'♥':'♡'}</button></div></article>`}
-function render(){const q=$('q').value.trim().toLowerCase(),cat=window.cat||'all';filtered=all.filter(s=>{const text=[s.name,s.city,s.state,s.country,s.tags,s.language,s.codec,s.frequency].join(' ').toLowerCase();const match=!q||text.includes(q);let c=cat==='all'||cat==='Nepal'?s.country==='Nepal'||!cat||cat==='all':cat==='favorites'?isFav(s):text.includes(cat.toLowerCase());return match&&c}).slice(0,100);$('grid').innerHTML=filtered.map((s,i)=>card(s,i)).join('');$('count').textContent=filtered.length+' स्टेशन';$('empty').hidden=filtered.length>0}
-async function load(){ $('grid').innerHTML='<div class="empty">📡 नेपालका प्रत्यक्ष रेडियो खोजिँदैछ…</div>';try{const u=API+'?countrycode=NP&hidebroken=true&order=votes&reverse=true&limit=300';const r=await fetch(u,{headers:{'User-Agent':'Nepali-Patro-Radio/1.0'}});if(!r.ok)throw Error();all=await r.json();render()}catch(e){$('grid').innerHTML='<div class="empty">⚠️ रेडियो सूची अहिले लोड हुन सकेन। कृपया केही बेरपछि पुनः प्रयास गर्नुहोस्।</div>';$('count').textContent=''} }
-window.playAt=i=>{idx=i;const s=filtered[i];if(!s||!s.url_resolved)return;audio.src=s.url_resolved;audio.play().then(()=>updatePlayer(s)).catch(()=>updatePlayer(s,'स्ट्रिम सुरु गर्न सकेन'));updatePlayer(s)};function updatePlayer(s,msg=''){ $('pName').textContent=s.name||'रेडियो';$('pMeta').textContent=[s.city,s.country,s.codec,s.bitrate?s.bitrate+' kbps':''].filter(Boolean).join(' · ');$('pStatus').textContent=msg||'● लाइभ';$('sideNow').innerHTML='<b>'+esc(s.name)+'</b><br><small>'+esc([s.city,s.country,s.codec].filter(Boolean).join(' · '))+'</small>';$('pLogo').innerHTML=s.favicon?`<img src="${esc(s.favicon)}" style="width:100%;height:100%;object-fit:cover" onerror="this.outerHTML='📻'">`:'📻';$('mainPlay').textContent=audio.paused?'▶':'❚❚'}
-window.toggleFav=i=>{const s=filtered[i],k=favKey(s);favorites=isFav(s)?favorites.filter(x=>x!==k):[...favorites,k];saveFav();render()};$('mainPlay').onclick=()=>{if(!audio.src){if(filtered[0])playAt(0);return}if(audio.paused){audio.play();$('mainPlay').textContent='❚❚'}else{audio.pause();$('mainPlay').textContent='▶'}};$('stop').onclick=()=>{audio.pause();audio.removeAttribute('src');audio.load();$('mainPlay').textContent='▶';$('pStatus').textContent='रोकियो'};$('prev').onclick=()=>{if(filtered.length)playAt((idx-1+filtered.length)%filtered.length)};$('next').onclick=()=>{if(filtered.length)playAt((idx+1)%filtered.length)};$('vol').oninput=e=>audio.volume=+e.target.value;audio.onplay=()=>{$('mainPlay').textContent='❚❚';$('pStatus').textContent='● लाइभ'};audio.onpause=()=>{$('mainPlay').textContent='▶'};audio.onerror=()=>{$('pStatus').textContent='⚠️ स्ट्रिम उपलब्ध छैन'};$('q').oninput=render;$('searchBtn').onclick=render;document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{window.cat=b.dataset.cat;document.querySelectorAll('[data-cat]').forEach(x=>x.style.opacity='');b.style.opacity='.65';render()});load();
-</script></body></html>
+const API_SERVERS=['https://de1.api.radio-browser.info','https://nl1.api.radio-browser.info','https://at1.api.radio-browser.info'];
+const API_PATH='/json/stations/search';
+const $=id=>document.getElementById(id);
+const audio=$('audio');
+let all=[],filtered=[],idx=-1,activeCategory='all',loading=false;
+let favorites=new Set(JSON.parse(localStorage.getItem('np-radio-fav')||'[]'));
+let apiServer=localStorage.getItem('np-radio-api')||API_SERVERS[0];
+
+audio.volume=Number(localStorage.getItem('np-radio-volume')||'.85');
+$('vol').value=audio.volume;
+
+const platforms=[
+ ['YouTube','लाइभ भिडियो','https://www.youtube.com/results?search_query='],
+ ['Google','स्टेशन/वेबसाइट','https://www.google.com/search?q='],
+ ['TuneIn','रेडियो निर्देशिका','https://tunein.com/search/?query='],
+ ['Radio Garden','स्थानबाट खोज','https://radio.garden/search/'],
+ ['Online Radio Box','स्टेशन निर्देशिका','https://onlineradiobox.com/search?query='],
+ ['myTuner','रेडियो निर्देशिका','https://www.mytuner-radio.com/search/']
+];
+$('platforms').innerHTML=platforms.map(p=>`<a class="platform" target="_blank" rel="noopener noreferrer" href="${p[2]}${encodeURIComponent('नेपाल रेडियो')}">📻 <b>${p[0]}</b><small>${p[1]}</small></a>`).join('');
+
+function esc(s){return String(s??'').replace(/[&<>'"]/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[x]))}
+function key(s){return s.stationuuid||s.changeuuid||s.url_resolved||s.url}
+function isFav(s){return favorites.has(key(s))}
+function saveFav(){localStorage.setItem('np-radio-fav',JSON.stringify([...favorites]))}
+function streamUrl(s){return String(s.url_resolved||s.url||'').trim()}
+function playable(s){const u=streamUrl(s);return /^https?:\/\//i.test(u)&&(!/^http:\/\//i.test(u)||location.protocol!=='https:')}
+
+function card(s,i){
+ const name=esc(s.name||'अज्ञात स्टेशन');
+ const loc=esc([s.city,s.state,s.countrycode==='NP'?'नेपाल':s.country].filter(Boolean).join(' · '));
+ const tags=[s.codec,s.bitrate?Number(s.bitrate)+' kbps':'',s.language].filter(Boolean).map(esc);
+ const disabled=playable(s)?'':' disabled title="यो स्ट्रिम HTTPS पृष्ठबाट चल्न सक्दैन"';
+ return `<article class="card">
+  <div class="top"><div class="logo">${s.favicon?`<img src="${esc(s.favicon)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:'📻'}</div>
+  <div><h3>${name}</h3><div class="meta">${loc||'नेपाल'}${s.frequency?' · '+esc(s.frequency):''}</div></div></div>
+  <div class="tags">${tags.map(x=>`<span class="tag">${x}</span>`).join('')}<span class="tag">${playable(s)?'🔴 लाइभ':'⚠️ स्ट्रिम समस्या'}</span></div>
+  <div class="actions"><button class="play" ${disabled} onclick="playAt(${i})">▶ सुन्नुहोस्</button>
+  <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/results?search_query=${encodeURIComponent((s.name||'नेपाल रेडियो')+' live')}">YouTube</a>
+  <button class="fav" aria-label="मनपर्ने" onclick="toggleFav(${i})">${isFav(s)?'♥':'♡'}</button></div>
+ </article>`
+}
+
+function render(){
+ const q=$('q').value.trim().toLowerCase();
+ filtered=all.filter(s=>{
+  const text=[s.name,s.city,s.state,s.country,s.countrycode,s.tags,s.language,s.codec,s.frequency].join(' ').toLowerCase();
+  const match=!q||text.includes(q);
+  let cat=true;
+  if(activeCategory==='favorites') cat=isFav(s);
+  else if(activeCategory==='काठमाडौं') cat=(s.city||'').toLowerCase().includes('kathmandu')||(s.city||'').includes('काठमाडौं');
+  else if(activeCategory==='पोखरा') cat=(s.city||'').toLowerCase().includes('pokhara')||(s.city||'').includes('पोखरा');
+  else if(activeCategory==='समाचार') cat=text.includes('news')||text.includes('समाचार');
+  else if(activeCategory==='संगीत') cat=text.includes('music')||text.includes('संगीत');
+  else if(activeCategory==='लोकप्रिय') cat=Number(s.votes||0)>0;
+  return match&&cat;
+ });
+ $('grid').innerHTML=filtered.length?filtered.slice(0,150).map(card).join(''):'';
+ $('count').textContent=filtered.length+' स्टेशन';
+ $('empty').hidden=filtered.length>0;
+}
+
+async function request(path,timeout=9000){
+ const ctrl=new AbortController(); const timer=setTimeout(()=>ctrl.abort(),timeout);
+ try{
+  const r=await fetch(apiServer+path,{signal:ctrl.signal,cache:'no-store'});
+  if(!r.ok) throw new Error('HTTP '+r.status);
+  return await r.json();
+ }finally{clearTimeout(timer)}
+}
+
+async function loadStations(){
+ if(loading)return; loading=true;
+ $('count').textContent='लोड हुँदैछ…';
+ $('grid').innerHTML='<div class="empty">📡 नेपालका प्रत्यक्ष रेडियो खोजिँदैछ…</div>';
+ const servers=[apiServer,...API_SERVERS.filter(x=>x!==apiServer)];
+ let lastError;
+ for(const server of servers){
+  try{
+   apiServer=server;
+   const params=new URLSearchParams({countrycode:'NP',hidebroken:'true',order:'votes',reverse:'true',limit:'500'});
+   const data=await request(API_PATH+'?'+params.toString(),10000);
+   all=Array.isArray(data)?data.filter(s=>s.name&&(s.url_resolved||s.url)):[]; 
+   localStorage.setItem('np-radio-api',apiServer);
+   render(); loading=false; return;
+  }catch(e){lastError=e}
+ }
+ loading=false;
+ $('grid').innerHTML='<div class="empty">⚠️ रेडियो सूची अहिले लोड हुन सकेन। <button onclick="loadStations()">पुनः प्रयास गर्नुहोस्</button></div>';
+ $('count').textContent='';
+ console.error('Radio API failed',lastError);
+}
+
+async function reportClick(s){
+ const u=key(s); if(!u)return;
+ try{await fetch(apiServer+'/json/url/'+encodeURIComponent(u),{cache:'no-store',mode:'no-cors'}).catch(()=>{})}catch{}
+}
+
+window.playAt=async function(i){
+ const s=filtered[i]; if(!s)return;
+ idx=i;
+ if(!playable(s)){updatePlayer(s,'⚠️ यो स्ट्रिम HTTPS पृष्ठबाट चल्दैन');return}
+ updatePlayer(s,'⏳ जडान हुँदैछ…');
+ try{
+  audio.pause(); audio.src=streamUrl(s); audio.load();
+  await audio.play(); reportClick(s); updatePlayer(s,'● लाइभ');
+ }catch(e){updatePlayer(s,'⚠️ स्ट्रिम सुरु भएन');}
+};
+
+function updatePlayer(s,msg=''){
+ $('pName').textContent=s.name||'रेडियो';
+ $('pMeta').textContent=[s.city,s.countrycode==='NP'?'नेपाल':s.country,s.codec,s.bitrate?Number(s.bitrate)+' kbps':''].filter(Boolean).join(' · ');
+ $('pStatus').textContent=msg;
+ $('sideNow').innerHTML='<b>'+esc(s.name||'रेडियो')+'</b><br><small>'+esc([s.city,s.countrycode==='NP'?'नेपाल':s.country,s.codec].filter(Boolean).join(' · '))+'</small>';
+ $('pLogo').innerHTML=s.favicon?`<img src="${esc(s.favicon)}" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover" onerror="this.remove()">`:'📻';
+ $('mainPlay').textContent=audio.paused?'▶':'❚❚';
+}
+
+window.toggleFav=function(i){
+ const s=filtered[i],k=key(s); if(!k)return;
+ favorites.has(k)?favorites.delete(k):favorites.add(k);
+ saveFav(); render();
+};
+
+$('mainPlay').onclick=()=>{
+ if(!audio.src){if(filtered[0])playAt(0);return}
+ if(audio.paused) audio.play().catch(()=>{}); else audio.pause();
+};
+$('stop').onclick=()=>{audio.pause();audio.removeAttribute('src');audio.load();$('mainPlay').textContent='▶';$('pStatus').textContent='रोकियो'};
+$('prev').onclick=()=>{if(filtered.length)playAt((idx-1+filtered.length)%filtered.length)};
+$('next').onclick=()=>{if(filtered.length)playAt((idx+1)%filtered.length)};
+$('vol').oninput=e=>{audio.volume=Number(e.target.value);localStorage.setItem('np-radio-volume',e.target.value)};
+audio.onplay=()=>{$('mainPlay').textContent='❚❚';$('pStatus').textContent='● लाइभ'};
+audio.onpause=()=>{$('mainPlay').textContent='▶'};
+audio.onerror=()=>{$('pStatus').textContent='⚠️ स्ट्रिम उपलब्ध छैन'};
+$('q').oninput=render;
+$('searchBtn').onclick=render;
+
+document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{
+ activeCategory=b.dataset.cat;
+ document.querySelectorAll('[data-cat]').forEach(x=>x.style.opacity='1');
+ b.style.opacity='.65'; render();
+});
+
+document.addEventListener('keydown',e=>{
+ if(e.target.matches('input,textarea'))return;
+ if(e.code==='Space'){e.preventDefault();$('mainPlay').click()}
+ if(e.code==='ArrowRight')$('next').click();
+ if(e.code==='ArrowLeft')$('prev').click();
+});
+
+loadStations();
+</script></script></body></html>
