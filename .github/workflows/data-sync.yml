@@ -42,10 +42,13 @@ jobs:
       - name: Sync official Nepal gold and silver rates
         run: python scripts/update_gold_rates.py
 
+      - name: Sync official Nepal petroleum prices
+        run: python scripts/update_petroleum_prices.py
+
       - name: Validate feed producers
         run: |
           set -euo pipefail
-          python -m py_compile scripts/update_news.py scripts/update_reddit.py scripts/update_memes.py scripts/update_forex.py scripts/update_gold_rates.py
+          python -m py_compile scripts/update_news.py scripts/update_reddit.py scripts/update_memes.py scripts/update_forex.py scripts/update_gold_rates.py scripts/update_petroleum_prices.py
 
       - name: Validate generated local feeds
         run: |
@@ -58,7 +61,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feeds/news.json data/news.json feeds/reddit.json feeds/memes.json feeds/forex.json feeds/gold_silver.json
+          git add feeds/news.json data/news.json feeds/reddit.json feeds/memes.json feeds/forex.json feeds/gold_silver.json feeds/petroleum_prices.json
           if git diff --cached --quiet; then
             echo 'No feed changes.'
             exit 0
