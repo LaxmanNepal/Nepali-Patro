@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-24T15:50:31.018038+00:00",
-  "newestPublishedTime": "2026-08-24T15:45:56+00:00",
+  "updatedAt": "2026-08-24T16:20:27.035030+00:00",
+  "newestPublishedTime": "2026-08-24T16:14:43+00:00",
   "source": "feeds/feeds.js",
   "feedCount": 51,
-  "successfulFeeds": 35,
-  "failedFeeds": 16,
+  "successfulFeeds": 33,
+  "failedFeeds": 18,
   "failedFeedDetails": [
     {
       "url": "https://ujyaaloonline.com/rss",
@@ -55,6 +55,14 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.nepalitelecom.com/feed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://ictframe.com/feed",
+      "error": "The read operation timed out"
+    },
+    {
       "url": "https://www.merofilm.com/feed",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -72,6 +80,116 @@
     }
   ],
   "items": [
+    {
+      "title": "सङ्घीयता सफल बनाउन प्रदेश र स्थानीय तहबिचको सहकार्य हुनुपर्छ : मुख्यमन्त्री भट्ट",
+      "description": "धनगढी । सुदूरपश्चिम प्रदेशका मुख्यमन्त्री खगराज भट्टले तीनै तहका सरकारबीच प्रभावकारी समन्वय हुन सके मात्रै नागरिकले अनुभूत गर्नेगरी सङ्घीयताको कार्यान्वयन हुने बताएका छन् । नेपाल नगरपालिका सङ्घ र गाउँपालिका राष्ट्रिय महासङ्घ, नेपाल सुदूरपश्चिम प्रदेश समितिसँग आज",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/khagraj-bhatta_qyJRSuQ2Xz.png",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:14:43+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587110/there-must-be-cooperation-between-the-provinces-and-local-levels-to-make-federalism-successful-chief-minister-bhatta",
+      "category": "politics"
+    },
+    {
+      "title": "१० बजे १० समाचार : फेरिए रवि, राप्रपाका तीन सांसद पदमुक्त, ओलीको ‘अब्जेक्सन’",
+      "description": "आज २०८३ भदाै ८ गते साेमबार। आज दिनभरका मुख्य १० घटनाक्रम रातोपाटी डटकमको नियमित प्रस्तुति ‘१० बजे १० समाचार’मा प्रस्तुत गरेका छौँ। शङ्करको प्रतिवेदनमा ओलीको ‘अब्जेक्सन’ नेकपा (एमाले)का अध्यक्ष केपी शर्मा ओलीले महासचिव शङ्कर पोखरेलले तयार पारेको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/brifing_PZayezV3G6.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:14:30+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587109/10-oclock-news-rabi-lamichhane-replaced-three-rpp-mps-removed-from-office-olis-objection",
+      "category": "politics"
+    },
+    {
+      "title": "छातीमा समस्या भएपछि सभामुख अर्याल अस्पतालमा, एनजियाेग्राफी गरियाे",
+      "description": "काठमाडौँ । प्रतिनिधिसभाका सभामुख डोलप्रसाद अर्याल छातीमा समस्या देखिएपछि महाराजगञ्जस्थित अस्पताल पुगेका छन् । त्रिभुवन विश्वविद्यालय शिक्षण अस्पतालको मनमोहन कार्डियोभास्कुलर तथा ट्रान्सप्लान्ट सेन्टरमा साँझदेखि उनको स्वास्थ्य जाँच भइरहेको छ । स्रोतका अनुसार सोमबार साँझ ७:३० बजे सभामुख अर्याल अस्पताल पुगेर उपचार सुरु गरेका हुन् । मुटुको रक्त नलीमा कुनै किसिमक",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalpress.com/favicon.ico",
+      "sourceName": "नेपाल प्रेस",
+      "publishedTime": "2026-08-24T16:09:13+00:00",
+      "articleUrl": "https://nepalpress.com/2026/08/24/756854/speaker-aryal-returns-to-teaching-after-chest-problem-undergoes-angiography/",
+      "category": "national"
+    },
+    {
+      "title": "४० दिनपछि तातोपानी नाका जोड्ने सडकको इको खण्ड खुल्यो",
+      "description": "सिन्धुपाल्चोक। पहिरोका कारण ४० दिनदेखि अवरुद्ध चीनसँगको प्रमुख व्यापारिक नाका तातोपानी जोड्ने सडकको इको खण्ड आजदेखि सञ्चालनमा आएको छ। भोटेकोशी गाउँपालिका २ कोदारीस्थित इको क्षेत्रमा गत असार ३१ गते पहिरासँगै सडक भासिएपछि सडक अवरुद्ध भएको थियो। सडक डिभिजन कार्यालयले नयाँ ट्याक खोलेपछि आजदेखि सवारीसाधन यो बाटोमा गुड्न थालेका हुन्। सडक खुलाउन छ वटा टिपर र […]",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-08-24T16:08:08+00:00",
+      "articleUrl": "https://nepalnews.com/2026/08/24/eco-section-of-road-connecting-tatopani-checkpoint-opens-after-40-days/",
+      "category": "business"
+    },
+    {
+      "title": "पुर्ख्यौली थलोमा पुनर्स्थापित हुन खोजिरहेका कश्मीरी पण्डितलाई फेरि धम्की, निगरानीमा रहेकाले फर्किनुअघि सोच्न चेतावनी",
+      "description": "सामाजिक सञ्जालका विभिन्न प्लेटफर्ममा ‘युनाइटेड लिबरेसन काउन्सिल (ULC)’ नामबाट जारी भएको भनिएको धम्कीपत्र भाइरल भइरहेको छ। पत्रमा केही कश्मीरी पण्डित परिवारको नाम तथा व्यक्तिगत विवरणसमेत उल्लेख गरिएको बताइएको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-08-24T16:07:29+00:00",
+      "articleUrl": "https://nepallive.com/story/348969",
+      "category": "national"
+    },
+    {
+      "title": "नारायण जोशीको ३ विकेटमा नेपाल ए टोलीले होबार्ट एकेडेमीलाई हरायो",
+      "description": "नेपालको ए राष्ट्रिय क्रिकेट टोलीले अस्ट्रेलियाको डार्बीनमा भइरहेको टी-२० सिरिजमा पहिलो जित निकालेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-08-24T16:05:00+00:00",
+      "articleUrl": "https://www.setopati.com/sports/cricket/396636",
+      "category": "national"
+    },
+    {
+      "title": "१९२३ को सन्धि : नेपाललाई विश्व समुदायमा प्रवेश गराउने कूटनीतिक द्वार",
+      "description": "राणा शासनपछिका प्रजातन्त्र र राजतन्त्र दुवैले राणा निरङ्कुशताका बीचमा प्राप्त प्रभावशाली उपलब्धिलाई पर्याप्त श्रेय दिन स्वाभाविक अनिच्छा देखाए । राजनीतिक कार्यकर्ता, नेतृत्व र दलहरूमाथि गरिएको दमनका कारण प्रजातान्त्रिक शक्तिहरू पनि राणा शासनका सकारात्मक उपलब्धिप्रति उदार बन्न सकेनन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Dr-Tika-Dhakal-3-1.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T15:58:27+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002440/the-treaty-of-1923-the-diplomatic-gateway-that-brought-nepal-into-the-world-community",
+      "category": "politics"
+    },
+    {
+      "title": "बागमती प्रदेशसभा बैठक भोलि",
+      "description": "हेटौंडा । बागमती प्रदेशसभाको बैठक भोलि अपराह्न ४ बजे बस्ने भएको छ । बैठक प्रदेशका मुख्यमन्त्री किरण थापा मगरले विश्वासको मत लिने प्रयोजनका लागि आह्वान भएको हो । आज साँझ ८ बजेका निर्धारण गरिएको बैठक भोलिका लागि सारिएको प्रदेशसभा सचिव रामकुमार पौडेलले जानकारी दिए । प्रदेशसभा नियमावली, २०७४ को नियम ६ को उपनियम (३) बमोजिम […]",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-08-24T15:57:53+00:00",
+      "articleUrl": "https://nepalnews.com/2026/08/24/bagmati-provincial-assembly-meeting-tomorrow/",
+      "category": "business"
+    },
+    {
+      "title": "भारतमा फेरि सडकमा उत्रिँदै कक्रोच पार्टी",
+      "description": "सीजेपीले सेप्टेम्बर ५ मा इन्डिया गेटदेखि दिल्ली प्रहरी मुख्यालयसम्म शान्तिपूर्ण युवा मार्च गर्ने बताएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/06/CJP-leader.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T15:57:15+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003106/cockroach-party-hits-the-streets-again-in-india",
+      "category": "politics"
+    },
+    {
+      "title": "मनकामनामा गोरखाका पर्यटकीय गन्तव्यबारे जानकारी दिन ‘डिजिटल बोर्ड’",
+      "description": "गोरखा । प्रसिद्ध धार्मिक तथा पर्यटकीयस्थल मनकामना आउने पर्यटकलाई गोरखासम्म पुग्ने वातावरण बनाउने उद्देश्यले मनकामना परिसरमा गोरखाका पर्यटकीय गन्तव्यबारे जानकारी दिन डिजिटल सूचना पाटी (बोर्ड) स्थापना गरिएको छ । गोरखा उद्योग वाणिज्य सङ्घले मनकामना मन्दिर क्षेत्रमा",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/manakamana_NBl1zltV44.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T15:56:55+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587108/digital-board-to-provide-information-about-tourist-destinations-in-gorkha-in-manakamana",
+      "category": "national"
+    },
+    {
+      "title": "नेपालमै बनेको ‘यात्री पी-२’ सार्वजनिक, १५७ किलोमिटरसम्म रेन्ज (फोटो फिचर)",
+      "description": "सिप्रदी यात्रीले नेपालमै डिजाइन तथा उत्पादन गरेको पी-२ लाई विभिन्न ब्याट्री विकल्प सहित बजार ल्याएको हो ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/SKR08324-scaled.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T15:55:29+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003093/nepal-made-yatri-p-2-unveiled-range-up-to-157-kilometers-photo-feature",
+      "category": "national"
+    },
     {
       "title": "इरान धराशायी बनेको राष्ट्रपति ट्रम्पको दाबी, व्यापक ‘आर्थिक प्रतिबन्ध’ को चेतावनी",
       "description": "वासिङ्टन डीसी । इरान आर्थिक, सामाजिक तथा राजनीतिक रूपमा ‘धराशायी’ भइरहेको अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पले सोमबार बताएका छन् । वाशिङटनले तेहरानविरुद्ध नयाँ आर्थिक दबाब अभियानका विवरण घोषणा गर्न तयार हुँदै गर्दा तेहरानले यसलाई अमेरिकाले हार",
@@ -243,16 +361,6 @@
       "category": "national"
     },
     {
-      "title": "४० दिनपछि तातोपानी नाका जोड्ने सडकको इको खण्ड खुल्यो",
-      "description": "सिन्धुपाल्चोक । पहिरोका कारण ४० दिनदेखि अवरुद्ध चीनसँगको प्रमुख व्यापारिक नाका तातोपानी जोड्ने सडकको इको खण्ड आजदेखि सञ्चालनमा आएको छ । भोटेकोशी गाउँपालिका–२ कोदारीस्थित इको क्षेत्रमा गत असार ३१ गते पहिरासँगै सडक भासिएपछि सडक अवरुद्ध भएको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/13-tatopani-naka_npl_dsc01531_ZAiDNgI9vi.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T15:26:20+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587104/eco-section-of-road-connecting-tatopani-checkpoint-opens-after-40-days",
-      "category": "national"
-    },
-    {
       "title": "गल्याङ जिप दुर्घटनाका मृतकको पहिचान खुल्यो, १७ जना घाइते",
       "description": "स्याङ्जा । गल्याङमा आज साँझ भएको जिप दुर्घटनामा परी ज्यान गुमाउनेको पहिचान खुलेको छ । जिल्ला प्रहरी कार्यालयका सूचना अधिकारी रमेशदत्त अवस्थीका अनुसार गल्याङ ८ की २५ वर्षीया निशा पचभैया र गल्याङ ९ का ६० वर्षीय",
       "imageUrl": "https://npcdn.ratopati.com/media/news/accident1_0HVVwEUEAJ.jpg",
@@ -323,16 +431,6 @@
       "category": "politics"
     },
     {
-      "title": "नेपालमै बनेको ‘यात्री पी-२’ सार्वजनिक, १५७ किलोमिटरसम्म रेन्ज (फोटो फिचर)",
-      "description": "सिप्रदी यात्रीले नेपालमै डिजाइन तथा उत्पादन गरेको पी-२ लाई विभिन्न ब्याट्री विकल्प सहित बजार ल्याएको हो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/SKR08324-scaled.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:19:29+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003093/nepal-made-yatri-p-2-unveiled-range-up-to-157-kilometers-photo-feature",
-      "category": "national"
-    },
-    {
       "title": "उपभोक्ता आफैं सचेत नभएसम्म बजारको ठगी रोकिँदैन",
       "description": "बजारमा जाँदा उपभोक्ता आफूले किनेको वस्तु गुणस्तरीय छ कि छैन, लेबलमा सही विवरण छ कि छैन र आफू ठगिएमा कहाँ उजुरी गर्ने भन्ने विषयमा कति सचेत छन् ? बजारमा कृत्रिम अभाव सिर्जना गरी मूल्य बढाउनेदेखि मिसावटयुक्त वस्तु तथा म्याद गुज्रिएका सामान बिक्री गर्ने समस्या छ। भ्रामक विज्ञापन गर्नेदेखि समान किन्दा बिल नदिने प्रवृत्ति पनि उत्तिकै […]",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/image-8-5.png",
@@ -380,6 +478,16 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-08-24T15:14:24+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2002989/satya-swaroop-convenes-acharya-sangeet-meeting",
+      "category": "national"
+    },
+    {
+      "title": "मैदानमा टाउको जुधाएपछि जैशवाल र असिथालाई आइसिसीको जरिवाना",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-08-24T15:14:00+00:00",
+      "articleUrl": "https://www.setopati.com/sports/cricket/396637",
       "category": "national"
     },
     {
@@ -508,7 +616,7 @@
       "imageUrl": "",
       "sourceLogo": "https://www.setopati.com/favicon.ico",
       "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-08-24T14:48:54+00:00",
+      "publishedTime": "2026-08-24T14:48:00+00:00",
       "articleUrl": "https://www.setopati.com/cover-story/genz-revolution/396633",
       "category": "national"
     },
@@ -700,16 +808,6 @@
       "sourceName": "राजधानी",
       "publishedTime": "2026-08-24T14:16:11+00:00",
       "articleUrl": "https://rajdhanidaily.com/id/146057/",
-      "category": "politics"
-    },
-    {
-      "title": "१९२३ को सन्धि : नेपाललाई विश्व समुदायमा प्रवेश गराउने कूटनीतिक द्वार",
-      "description": "राणा शासनपछिका प्रजातन्त्र र राजतन्त्र दुवैले राणा निरङ्कुशताका बीचमा प्राप्त प्रभावशाली उपलब्धिलाई पर्याप्त श्रेय दिन स्वाभाविक अनिच्छा देखाए । राजनीतिक कार्यकर्ता, नेतृत्व र दलहरूमाथि गरिएको दमनका कारण प्रजातान्त्रिक शक्तिहरू पनि राणा शासनका सकारात्मक उपलब्धिप्रति उदार बन्न सकेनन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Dr-Tika-Dhakal-3-1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T14:15:27+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002440/the-treaty-of-1923-the-diplomatic-gateway-that-brought-nepal-into-the-world-community",
       "category": "politics"
     },
     {
@@ -943,26 +1041,6 @@
       "category": "politics"
     },
     {
-      "title": "संस्थाहरू भत्किए भने लोकतन्त्र भत्किन्छ",
-      "description": "अब हामीले दोष देखाएर मात्र उम्किने ठाउँ छैन। अब हामीले बितेका ३५ वर्षको हिसाबको कुरा गर्ने होइन। हामीले अबको ३५ वर्षको योजना ल्याउनुपर्छ। अबको ३५ वर्ष कस्तो बनाउने, त्यो हाम्रो हातमा छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-08-24T13:38:00+00:00",
-      "articleUrl": "https://www.setopati.com/opinion/396626",
-      "category": "national"
-    },
-    {
-      "title": "जापानपछि नेपालमा पनि रेड बड ट्राभल्सको शाखा",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-08-24T13:36:39+00:00",
-      "articleUrl": "https://www.setopati.com/global/asia/396630",
-      "category": "national"
-    },
-    {
       "title": "कांग्रेस महाधिवेशन रोक्ने देउवा र खड्काको छुट्टाछुट्टै रिट अध्ययनकै क्रममा",
       "description": "काठमाडौं । सर्वोच्च अदालतका सहरजिस्ट्रार अर्जुनप्रसाद कोइरालाले कांग्रेस महाधिवेशनसँग सम्बन्धित दुईवटा रिट प्राप्त भएको बताएका छन् । ‘कांग्रेस महाधिवेशनसँग सम्बन्धित दुईवटा रिट आएको छ,’ उनले भने, ‘हामी अध्ययनकै क्रममा छौँ ।’ देउवा र खड्काले निर्वाचन समितिले सार्वजनिक गरेको कांग्रेस महाधिवेशन कार्यतालिका बदर गरी त्यसलाई कार्यान्वयनमा रोक लगाउन माग गरेका छन् ।",
       "imageUrl": "",
@@ -981,16 +1059,6 @@
       "publishedTime": "2026-08-24T13:34:32+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2002885/25-manpower-companies-on-malaysias-list-to-remove-names",
       "category": "national"
-    },
-    {
-      "title": "बागमतीका मुख्यमन्त्रीले विश्वासकाे मत लिने समय फेरि सर्‍याे",
-      "description": "काठमाडाैँ । बागमती प्रदेशका मुख्यमन्त्री किरण थापा मगरले विश्वासकाे मत लिने समय फेरि सारिएकाे छ । मुख्यमन्त्री थापालाई विश्वासकाे मत दिने विषयमा राष्ट्रिय प्रजातन्त्र पार्टी (राप्रपा) र नेपाली कम्युनिस्ट पार्टी(नेकपा) मा विवाद हुँदा समय सरेकाे",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/kiran-thapa_7GZkzfxqsT.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T13:33:11+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587079/bagmati-cms-confidence-vote-postponed-again",
-      "category": "politics"
     },
     {
       "title": "लाभांश पारित गर्न कामना सेवा विकास बैंकले बोलायो साधारणसभा",
@@ -1033,16 +1101,6 @@
       "category": "national"
     },
     {
-      "title": "छेवैबाट प्रधानमन्त्री मुस्ताङ गए, जनतासँग पैसा मागेर बाटो बनाउँदै छ अन्नपूर्ण",
-      "description": "पोखरा । गत साताको अविरल वर्षा र बाढीपहिरोका कारण कास्कीको पर्यटकीय क्षेत्र बीरेठाँटी क्षतविक्षत भयो । बाढीपहिरोका कारण अन्नपूर्ण गाउँपालिकाको वडा नम्बर ८, ९, १० र ११ का सडक तथा अन्य भौतिक संरचनामा बढी क्षति पुगेको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/balen-annapurna_IV0ulPot4Y.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T13:29:34+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587078/the-prime-minister-went-to-mustang-from-the-sidelines-annapurna-is-building-a-road-by-asking-people-for-money",
-      "category": "politics"
-    },
-    {
       "title": "पार्टीको आन्तरिक मामिलामा अदालत प्रवेश गर्छ भन्ने विश्वास छैन : केसी",
       "description": "नेपाली कांग्रेसका नेता अर्जुननरसिंह केसीले राजनीतिक दलको आन्तरिक, कानुनी र संवैधानिक व्यवस्थापन हेर्ने अन्तिम निकाय निर्वाचन आयोग नै भएको टिप्पणी गरेका छन् ।",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Arjun-narasingh-KC.jpg",
@@ -1081,16 +1139,6 @@
       "publishedTime": "2026-08-24T13:23:17+00:00",
       "articleUrl": "https://nepalpress.com/2026/08/24/756826/political-renaissance-is-not-possible-without-understanding-the-feelings-of-the-youth-general-secretary-pokharel/",
       "category": "politics"
-    },
-    {
-      "title": "प्राविधिक शिक्षामा विद्यार्थीको आकर्षण घट्दै",
-      "description": "काठमाडौँ। देशभर प्राविधिक शिक्षा तथा व्यावसायिक तालिम परिषद् (सीटीईभीटी) अन्तर्गतका कार्यक्रमहरूमा उपलब्ध क्षमताअनुसार विद्यार्थी भर्ना हुन नसकेको देखिएको छ। वि.सं. २०८१ मा डिप्लोमातर्फ ३८,४६३ क्षमता रहेकोमा २५,२४८ जना मात्र दर्ता भएको र २०८३ मा आइपुग्दा ३२,३४५",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/ctevt_k7czrndwfr_pEaUpHs3Gx.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T13:16:44+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587077/students-interest-in-technical-education-is-declining",
-      "category": "national"
     },
     {
       "title": "नेपाल `ए´ को पहिलो जित",
@@ -1140,16 +1188,6 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-08-24T13:09:37+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2002974/xiaomi-launches-new-x-ring-chip-to-be-used-in-foldable-phones",
-      "category": "national"
-    },
-    {
-      "title": "टप एन्ड टी–ट्वान्टीमा नेपाल ‘ए’को पहिलो जित",
-      "description": "पहिले ब्याटिङ गरेको नेपालले निर्धारित २० ओभरमा ८ विकेट गुमाएर १५४ रन बनाएको थियो। जवाफी ब्याटिङमा उत्रिएको होबार्ट हुरिकेन्स एकेडेमी नेपाली बलरसामु टिक्न नसक्दा १८.३ ओभरमा ११५ रनमै अलआउट भयो।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-08-24T13:09:33+00:00",
-      "articleUrl": "https://nepallive.com/story/348964",
       "category": "national"
     },
     {
@@ -1463,16 +1501,6 @@
       "category": "business"
     },
     {
-      "title": "सगरमाथाको कथा समेटिएको ‘रोड टु एभरेष्ट’ वृत्तचित्र सार्वजनिक",
-      "description": "काठमाडौं । विश्वको सर्वोच्च शिखर सगरमाथा आरोहणको जीवन्त अनुभूति दिलाउँदै नेपाललाई अन्तर्राष्ट्रिय जगतमा परिचित गराउने उद्देश्यले तयार गरिएको वृत्तचित्र ‘रोड टु एभरेष्ट’ भावी पुस्तालाई उपहार स्वरूप सयौं वर्षसम्म कालजयी दस्तावेजका रूपमा रहने देखिन्छ। राजधानीमा प्रदर्शित वृत्तचित्रको ‘प्रिमियम शो’मा सहभागी वक्ता एवं दर्शकले वृत्तचित्रलाई केवल हिमालको कथाको रूपम",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-08-24T12:05:35+00:00",
-      "articleUrl": "https://nepalnews.com/2026/08/24/road-to-everest-documentary-covering-the-story-of-mount-everest-released/",
-      "category": "business"
-    },
-    {
       "title": "ऊर्जा नीति, सडक सुधार र दुर्घटना न्यूनीकरण भौतिक मन्त्रालयको प्राथमिकता",
       "description": "कैलाली । सुदूरपश्चिम प्रदेशका नवनियुक्त भौतिक पूर्वाधार विकासमन्त्री ओमविक्रम भाट सरलले पदभार ग्रहण गर्दै सडक सुधार, ऊर्जा विस्तार र सडक दुर्घटना न्यूनीकरणलाई मन्त्रालयको प्राथमिकतामा राखेका छन्। प्रदेशको दीगो विकासका लागि आवश्यक कार्ययोजना तयार गरी अघि बढ्ने उनले बताएका छन्। मन्त्री भाटले पदभार ग्रहणकै दिन तीन महत्त्वपूर्ण निर्णयमा हस्ताक्षर गरेका छन्। पहिल",
       "imageUrl": "",
@@ -1501,16 +1529,6 @@
       "publishedTime": "2026-08-24T12:00:03+00:00",
       "articleUrl": "https://nepalpress.com/2026/08/24/756812/deuba-and-purna-bahadur-file-separate-writ-petitions-in-supreme-court-demanding-suspension-of-congresss-general-convention/",
       "category": "politics"
-    },
-    {
-      "title": "गुल्मीमा भीरबाट लडेर वृद्धको मृत्यु",
-      "description": "गुल्मी । गुल्मीमा भीरबाट लडेर एक जना वृद्धको मृत्यु भएको छ। कालीगण्डकी गाउँपालिका–४ भाङखर्क निवासी ६५ वर्षीय फटिकबहादुर पुनको आज भीरबाट लडेर मृत्यु भएको जिल्ला प्रहरी कार्यालयले जनाएको छ। प्रहरीका अनुसार आज बिहान पैदलयात्रा गर्ने क्रममा अचानक सडकबाट करिब १५० मिटर तल खस्दा पुनको घटनास्थलमै मृत्यु भएको जिल्ला प्रहरी कार्यालयका सूचना अधिकारी एवं प्रहरी नायब उपर",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-08-24T11:59:13+00:00",
-      "articleUrl": "https://nepalnews.com/2026/08/24/elderly-man-dies-after-falling-from-cliff-in-gulmi/",
-      "category": "business"
     },
     {
       "title": "खराब मैदानको परिणाम- भारतसँग भिड्नुअघि बंगलादेशमा प्रशिक्षण गर्ने तयारीमा ब्राजिल",
@@ -1571,6 +1589,16 @@
       "publishedTime": "2026-08-24T11:49:25+00:00",
       "articleUrl": "https://techpana.com/2026/158674/cyber-bureau-removes-video-of-minor-rape-murder-accused-from-social-media",
       "category": "technology"
+    },
+    {
+      "title": "गुल्मीमा भीरबाट लडेर वृद्धको मृत्यु",
+      "description": "गुल्मीमा भीरबाट लडेर एक जना वृद्धको मृत्यु भएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Bhir.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T11:47:41+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002894/elderly-man-dies-after-falling-from-cliff-in-gulmi",
+      "category": "national"
     },
     {
       "title": "के जिम जान थालेपछि सप्लिमेन्ट खानैपर्छ ?",
@@ -1873,16 +1901,6 @@
       "category": "politics"
     },
     {
-      "title": "बर्दिवास, बुटवल र सुर्खेत मेडिकल कलेजका सम्बन्धमा सरकारको ध्यानाकर्षण",
-      "description": "नेपाली कम्युनिस्ट पार्टीका सांसद रमेश कुमार मल्लले एक प्रदेश, एक सरकारी मेडिकल कलेज स्थापना गर्ने नीतिअन्तर्गत अघि बढाइएका मेडिकल कलेजका सम्बन्धमा सरकारको ध्यानाकर्षण गरेका छन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/05/ramesh-malla-scaled.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T10:51:14+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002854/governments-attention-drawn-to-bardibas-butwal-and-surkhet-medical-colleges",
-      "category": "politics"
-    },
-    {
       "title": "हिक्मतले पाए विश्वासकाे मत, पक्षमा ५७ सांसद",
       "description": "कोशी प्रदेश सरकारका मुख्यमन्त्री हिक्मत कुमार कार्कीले विश्वासको मत प्राप्त गरेका छन् ।",
       "imageUrl": "",
@@ -1970,16 +1988,6 @@
       "sourceName": "नेपाल प्रेस",
       "publishedTime": "2026-08-24T10:00:24+00:00",
       "articleUrl": "https://nepalpress.com/2026/08/24/756736/the-ball-used-in-maradonas-hand-of-god-goal-sells-for-rs-520-million/",
-      "category": "national"
-    },
-    {
-      "title": "बलात्कारीको शरीर थरथर काँप्ने कानुन बनाऔँ, पुरुष हुनुमा लाज लागिरहेको छ: सोम शर्मा (भिडिओ)",
-      "description": "काठमाडौँ । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद सोम शर्माले बलात्कार जस्तो जघन्य अपराध गर्नेहरूको शरीर थरथर काँप्ने गरी कडा कानुन बनाउन माग गरेका छन् । आज प्रतिनिधिसभाको बैठकमा बोल्दै सांसद शर्माले गरिमा चौधरीको बलात्कारपछि भएको निर्मम हत्याको घटनाले देशकै मुटु भतभती जलाएको बताए । कलिला नानीहरूमाथि गिद्धे दृष्टि लगाउने अपराधीहरूको समाजमा उपस्थिति दे",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-08-24T09:55:44+00:00",
-      "articleUrl": "https://nepalpress.com/2026/08/24/756731/lets-make-a-law-that-makes-the-body-of-a-rapist-tremble-we-are-ashamed-of-being-a-man-som-sharma/",
       "category": "national"
     },
     {
