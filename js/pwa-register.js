@@ -1,0 +1,1 @@
+(()=>{if(!('serviceWorker'in navigator))return;window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{scope:'./'}).catch(e=>console.warn('PWA registration failed',e)))})();
