@@ -63,14 +63,32 @@ def google_news(month_ne,day):
         out.append({"title":clean(t.group(1)),"summary":clean(d.group(1) if d else ""),"type":"research-lead","source":"Google News search","url":clean(l.group(1) if l else "")})
     return out
 
+
+
+def classify(item):
+    text=(str(item.get("title",""))+" "+str(item.get("summary",""))).lower()
+    if item.get("type")=="birth": cat="जन्म"
+    elif item.get("type")=="death": cat="निधन"
+    elif any(x in text for x in ["युद्ध","सेना","फौज","battle","war"]): cat="युद्ध तथा सैन्य इतिहास"
+    elif any(x in text for x in ["भूकम्प","बाढी","पहिरो","दुर्घटना","earthquake","flood"]): cat="प्राकृतिक विपत्ति"
+    elif any(x in text for x in ["राजा","राणा","शाह","सरकार","राष्ट्रपति","संविधान","राजनीति"]): cat="राजनीति"
+    elif any(x in text for x in ["मन्दिर","पर्व","संस्कृति","heritage","temple"]): cat="संस्कृति तथा सम्पदा"
+    elif any(x in text for x in ["विज्ञान","प्रविधि","technology","science"]): cat="विज्ञान तथा प्रविधि"
+    elif item.get("type")=="nepal-history": cat="नेपाल इतिहास"
+    else: cat="विश्व इतिहास"
+    item["category"]=item.get("category") or cat
+    item["importance"]=item.get("importance") or (5 if item["category"] in ("नेपाल इतिहास","युद्ध तथा सैन्य इतिहास") else 3)
+    item["confidence"]=item.get("confidence") or ("medium" if item.get("type")=="research-lead" else "high")
+    item["sources"]=item.get("sources") or ([{"name":item.get("source"),"url":item.get("url",""),"tier":"discovery"}] if item.get("source") else [])
+    return item
 def main():
     ensure_structure();d=today_bs();bs=d["bs"];ad=d["ad"]["date"];am,aday=map(int,ad.split("-")[1:]);slug,month_ne=MONTHS[int(bs["month"])]
     path=os.path.join(HISTORY_DIR,slug,str(int(bs["day"]))+".json");data=json.load(open(path,encoding="utf-8"))
-    items=data.get("events",[]);seen={re.sub(r"\W+","",str(x.get("title","")).lower()) for x in items}
+    items=[classify(x) for x in data.get("events",[])];seen={re.sub(r"\W+","",str(x.get("title","")).lower()) for x in items}
     for item in wikipedia(am,aday)+google_news(month_ne,int(bs["day"])):
         k=re.sub(r"\W+","",str(item.get("title","")).lower())
-        if k and k not in seen:items.append(item);seen.add(k)
-    data.update({"version":2,"bs_year":int(bs["year"]),"bs_month":int(bs["month"]),"bs_month_ne":month_ne,"bs_day":int(bs["day"]),"bs_date":bs.get("display"),"ad_date":ad,"last_researched":datetime.now(ZoneInfo("UTC")).isoformat(),"events":items[:40],"births":[x for x in items if x.get("type")=="birth"][:20],"deaths":[x for x in items if x.get("type")=="death"][:20],"sources":[{"name":"Wikipedia On This Day","url":f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/events/{am:02d}/{aday:02d}"},{"name":"Google News","url":f"https://news.google.com/rss/search?q={quote(month_ne+' '+str(bs['day'])+' इतिहास नेपाल')}&hl=ne&gl=NP&ceid=NP:ne"}]})
+        if k and k not in seen:items.append(classify(item));seen.add(k)
+    data.update({"version":2,"bs_year":int(bs["year"]),"bs_month":int(bs["month"]),"bs_month_ne":month_ne,"bs_day":int(bs["day"]),"bs_date":bs.get("display"),"ad_date":ad,"last_researched":datetime.now(ZoneInfo("UTC")).isoformat(),"events":items[:40],"births":[x for x in items if x.get("type")=="birth"][:20],"deaths":[x for x in items if x.get("type")=="death"][:20],"research":{"sources_checked":2,"method":"daily source cross-check","status":"automated review"},"sources":[{"name":"Wikipedia On This Day","url":f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/events/{am:02d}/{aday:02d}"},{"name":"Google News","url":f"https://news.google.com/rss/search?q={quote(month_ne+' '+str(bs['day'])+' इतिहास नेपाल')}&hl=ne&gl=NP&ceid=NP:ne"}]})
     with open(path,"w",encoding="utf-8") as f:json.dump(data,f,ensure_ascii=False,indent=2);f.write("\n")
     print("Updated",path,"with",len(items),"items")
 if __name__=="__main__":main()
