@@ -1,81 +1,165 @@
 <!doctype html>
-<html lang="en">
+<html lang="ne">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#fff">
-<meta name="description" content="Play Baghchal (Bagh Chal), the traditional Nepali tiger and goat strategy game.">
-<title>Baghchal — Nepali Patro</title>
+<meta name="theme-color" content="#b91c1c">
+<meta name="description" content="बाघचाल — नेपाली पात्रोमा परम्परागत बाघ र बाख्राको रणनीतिक खेल।">
+<title>बाघचाल — नेपाली पात्रो</title>
+<link rel="icon" href="https://apps.laxmannepal.com.np/Nepali-Patro/assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://apps.laxmannepal.com.np/Nepali-Patro/css/main.css">
+<link rel="stylesheet" href="https://apps.laxmannepal.com.np/Nepali-Patro/css/mobile-nav.css">
 <style>
-:root{--bg:#f7f7f5;--card:#fff;--ink:#171717;--muted:#6b6b6b;--line:#d8d5ce;--accent:#a21caf;--tiger:#b91c1c;--goat:#374151;--wood:#8b5e34;--shadow:0 14px 40px rgba(0,0,0,.08)}
-*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
-body{padding:18px 12px 30px}.wrap{width:min(980px,100%);margin:auto}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}.brand{font-weight:800;font-size:clamp(20px,4vw,30px)}.sub{color:var(--muted);font-size:13px;margin-top:2px}.actions{display:flex;gap:8px}.btn{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:12px;padding:10px 14px;font-weight:700;cursor:pointer;touch-action:manipulation}.btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
-.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px;align-items:start}.card{background:var(--card);border:1px solid #e7e5e0;border-radius:22px;box-shadow:var(--shadow)}.game{padding:clamp(12px,3vw,24px)}
-.status{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px;padding:12px 14px;border-radius:14px;background:#fafafa;border:1px solid #eceae5}.turn{font-weight:800}.message{color:var(--muted);font-size:13px;text-align:right}
-.board-wrap{width:min(92vw,680px);margin:auto;aspect-ratio:1;border-radius:18px;background:#f0e2cf;padding:clamp(10px,2.2vw,22px);box-shadow:inset 0 0 0 1px rgba(0,0,0,.07)}svg{display:block;width:100%;height:100%;overflow:visible}.grid{stroke:var(--wood);stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}.diag{stroke-width:2}.point{fill:#fff;stroke:var(--wood);stroke-width:2;cursor:pointer;touch-action:manipulation}.point.selected{fill:#fde68a;stroke:#92400e;stroke-width:3}.piece{cursor:pointer;touch-action:manipulation}.tiger{fill:var(--tiger);stroke:#7f1d1d;stroke-width:2}.goat{fill:var(--goat);stroke:#111827;stroke-width:2}.pieceText{fill:#fff;font-size:13px;font-weight:900;text-anchor:middle;dominant-baseline:central;pointer-events:none}.legal{fill:#fff;stroke:#15803d;stroke-width:3;cursor:pointer}.capture{fill:#dcfce7;stroke:#15803d;stroke-width:3;cursor:pointer}
-.side{padding:18px}.side h2{font-size:18px;margin:0 0 14px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}.stat{border:1px solid #e8e6e1;border-radius:14px;padding:12px}.stat b{display:block;font-size:22px;margin-top:2px}.stat span{font-size:12px;color:var(--muted)}.rules{font-size:13px;color:#444;line-height:1.55}.rules strong{color:#222}.rules ul{padding-left:18px}.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;margin:12px 0}.dot{width:11px;height:11px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:-1px}.dot.t{background:var(--tiger)}.dot.g{background:var(--goat)}
-.notice{margin-top:12px;font-size:12px;color:var(--muted);line-height:1.5}.win{display:none;margin-top:12px;padding:12px;border-radius:12px;background:#ecfdf5;border:1px solid #bbf7d0;color:#166534;font-weight:800}.win.show{display:block}
-@media(max-width:760px){body{padding:10px 8px 22px}.top{align-items:flex-start}.layout{grid-template-columns:1fr}.side{order:2}.game{padding:10px}.status{margin:0 0 10px}.message{font-size:11px}.board-wrap{width:min(96vw,620px);padding:8px}.side{padding:14px}.rules{font-size:12px}}
-@media(max-width:420px){.top{display:block}.actions{margin-top:10px}.actions .btn{width:100%}.status{display:block}.message{text-align:left;margin-top:4px}.board-wrap{padding:6px;border-radius:14px}.stat b{font-size:19px}}
+.bc-page{--bc-bg:#f6f7f9;--bc-card:#fff;--bc-ink:#171717;--bc-muted:#667085;--bc-line:#e5e7eb;--bc-board:#ead8bc;--bc-wood:#7a4b22;--bc-tiger:#b42318;--bc-goat:#344054;--bc-green:#039855;max-width:1120px;margin:0 auto;padding:24px 16px 48px}
+.bc-hero{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;margin-bottom:20px}
+.bc-kicker{font-size:13px;color:#b91c1c;font-weight:800}.bc-title{margin:4px 0;font-size:clamp(28px,5vw,42px);line-height:1.1}.bc-sub{margin:0;color:var(--bc-muted)}
+.bc-actions{display:flex;gap:8px;flex-wrap:wrap}.bc-btn{border:1px solid var(--bc-line);background:var(--bc-card);color:var(--bc-ink);border-radius:12px;padding:11px 15px;font-weight:800;cursor:pointer;text-decoration:none}.bc-btn.primary{background:#b91c1c;color:#fff;border-color:#b91c1c}.bc-btn:focus-visible{outline:3px solid #fca5a5;outline-offset:2px}
+.bc-layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:18px;align-items:start}.bc-card{background:var(--bc-card);border:1px solid var(--bc-line);border-radius:22px;box-shadow:0 12px 35px rgba(16,24,40,.07)}
+.bc-game{padding:clamp(12px,2.5vw,24px)}.bc-status{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:14px;padding:12px 14px;border:1px solid var(--bc-line);border-radius:14px;background:#fafafa}.bc-turn{font-weight:900}.bc-message{font-size:13px;color:var(--bc-muted);text-align:right}
+.bc-board-shell{width:min(100%,680px);margin:0 auto;background:var(--bc-board);border-radius:20px;padding:clamp(8px,2vw,18px);box-shadow:inset 0 0 0 1px rgba(0,0,0,.08),inset 0 8px 24px rgba(255,255,255,.2)}
+.bc-board{display:block;width:100%;height:auto;aspect-ratio:1;touch-action:manipulation;user-select:none}.bc-line{stroke:var(--bc-wood);stroke-width:3;stroke-linecap:round}.bc-point{fill:#fff;stroke:var(--bc-wood);stroke-width:2}.bc-legal{fill:#ecfdf3;stroke:var(--bc-green);stroke-width:4}.bc-selected{fill:#fef3c7;stroke:#b45309;stroke-width:3}.bc-piece{cursor:pointer}.bc-tiger{fill:var(--bc-tiger);stroke:#7f1d1d;stroke-width:2}.bc-goat{fill:var(--bc-goat);stroke:#1d2939;stroke-width:2}.bc-piece-text{fill:#fff;font:900 12px system-ui,sans-serif;text-anchor:middle;dominant-baseline:central;pointer-events:none}.bc-hint{margin:10px 0 0;color:var(--bc-muted);font-size:12px;text-align:center}
+.bc-side{padding:18px}.bc-side h2{margin:0 0 12px;font-size:18px}.bc-stats{display:grid;grid-template-columns:1fr 1fr;gap:9px}.bc-stat{border:1px solid var(--bc-line);border-radius:14px;padding:11px}.bc-stat span{display:block;font-size:12px;color:var(--bc-muted)}.bc-stat b{display:block;font-size:22px;margin-top:2px}.bc-rules{font-size:13px;line-height:1.55;color:#475467;margin-top:16px}.bc-rules h3{font-size:14px;color:var(--bc-ink);margin:0 0 6px}.bc-rules ul{padding-left:18px;margin:6px 0}.bc-win{display:none;margin-top:12px;padding:12px;border-radius:13px;background:#ecfdf3;border:1px solid #abefc6;color:#067647;font-weight:800}.bc-win.show{display:block}
+.bc-legend{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:12px;font-size:12px;color:var(--bc-muted)}.bc-dot{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:5px}.bc-dot.t{background:var(--bc-tiger)}.bc-dot.g{background:var(--bc-goat)}
+.bc-page [hidden]{display:none!important}
+@media(max-width:800px){.bc-page{padding:18px 10px 36px}.bc-layout{grid-template-columns:1fr}.bc-side{order:2}.bc-hero{align-items:flex-start;flex-direction:column}.bc-actions{width:100%}.bc-actions .bc-btn{flex:1;text-align:center}.bc-message{text-align:left}}
+@media(max-width:460px){.bc-page{padding-left:7px;padding-right:7px}.bc-title{font-size:30px}.bc-status{display:block}.bc-message{margin-top:4px}.bc-board-shell{padding:6px;border-radius:15px}.bc-side{padding:14px}.bc-stat b{font-size:19px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
-<div class="wrap">
-<header class="top"><div><div class="brand">🐅 Baghchal</div><div class="sub">Traditional Nepali tiger & goat strategy game</div></div><div class="actions"><button class="btn primary" id="newGame">New Game</button></div></header>
-<main class="layout">
-<section class="card game">
-<div class="status"><div class="turn" id="turn">Goat turn</div><div class="message" id="message">Place a goat on any empty point.</div></div>
-<div class="board-wrap"><svg id="board" viewBox="0 0 500 500" aria-label="Baghchal board"></svg></div>
-<div class="legend"><span><i class="dot t"></i>Tiger</span><span><i class="dot g"></i>Goat</span><span>Green points = legal move</span></div>
-<div class="win" id="win"></div>
+<header class="np-header">
+<a class="np-brand" href="https://apps.laxmannepal.com.np/Nepali-Patro/"><span class="np-logo">प</span><span><strong>नेपाली पात्रो</strong><small>Nepali Patro</small></span></a>
+<nav><a href="https://apps.laxmannepal.com.np/Nepali-Patro/patro/">पात्रो</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/panchanga/">पञ्चाङ्ग</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/rashifal/">राशिफल</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/jyotish/">ज्योतिष</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/parba/">पर्व</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/saith/">साइत</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/news/">समाचार</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/forex/">विदेशी मुद्रा</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/converter/">रूपान्तरण</a></nav>
+<button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="मेनु">☰</button><button id="npTheme" aria-label="थिम">◐</button>
+</header>
+<div class="mobile-menu-backdrop" id="mobileMenuBackdrop"></div>
+<nav class="mobile-menu" id="mobileMenu" aria-label="मोबाइल मेनु"><div class="menu-title">नेपाली पात्रो मेनु <button class="mobile-menu-close" id="mobileMenuClose">×</button></div><a href="https://apps.laxmannepal.com.np/Nepali-Patro/">🏠 गृहपृष्ठ</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/patro/">📅 पात्रो</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/panchanga/">☀️ पञ्चाङ्ग</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/parba/">🎉 पर्व तथा बिदा</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/rashifal/">♈ राशिफल</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/news/">📰 समाचार</a><a href="https://apps.laxmannepal.com.np/Nepali-Patro/converter/">⇄ मिति रूपान्तरण</a></nav>
+<main class="bc-page">
+<section class="bc-hero"><div><div class="bc-kicker">परम्परागत नेपाली खेल</div><h1 class="bc-title">🐅 बाघचाल</h1><p class="bc-sub">बाघ र बाख्राबीचको दुई-खेलाडी रणनीतिक खेल</p></div><div class="bc-actions"><button class="bc-btn primary" id="newGame" type="button">नयाँ खेल</button><a class="bc-btn" href="https://apps.laxmannepal.com.np/Nepali-Patro/">पात्रोमा फर्कनुहोस्</a></div></section>
+<div class="bc-layout">
+<section class="bc-card bc-game" aria-label="बाघचाल खेल">
+<div class="bc-status" aria-live="polite"><div class="bc-turn" id="turn">बाख्राको पालो</div><div class="bc-message" id="message">खाली बिन्दुमा एउटा बाख्रा राख्नुहोस्।</div></div>
+<div class="bc-board-shell"><svg id="board" class="bc-board" viewBox="0 0 500 500" role="img" aria-label="बाघचाल ५ गुणा ५ बोर्ड"></svg></div>
+<div class="bc-legend"><span><i class="bc-dot t"></i>बाघ</span><span><i class="bc-dot g"></i>बाख्रा</span><span>हरियो बिन्दु = वैध चाल</span></div>
+<div class="bc-hint" id="hint">पहिले आफ्नो गोटी छान्नुहोस्, त्यसपछि हरियो बिन्दु छान्नुहोस्।</div>
+<div class="bc-win" id="win" role="status"></div>
 </section>
-<aside class="card side">
-<h2>Game status</h2><div class="stats"><div class="stat"><span>Goats placed</span><b id="placed">0</b></div><div class="stat"><span>Goats captured</span><b id="captured">0</b></div><div class="stat"><span>Goats left</span><b id="left">20</b></div><div class="stat"><span>Turn</span><b id="turnCount">1</b></div></div>
-<div class="rules"><strong>How to play</strong><ul><li>There are 4 tigers and 20 goats.</li><li>Goats enter the board one at a time.</li><li>A tiger moves to an adjacent point or captures a goat by jumping over it to an empty point.</li><li>After all goats are placed, goats move one step along connected lines.</li><li>Tigers win after capturing 5 goats. Goats win when all tigers are blocked.</li></ul></div>
-<div class="notice">Tap a piece, then tap a highlighted destination. On mobile, the board automatically scales to the screen.</div>
+<aside class="bc-card bc-side">
+<h2>खेलको अवस्था</h2>
+<div class="bc-stats"><div class="bc-stat"><span>राखिएका बाख्रा</span><b id="placed">0</b></div><div class="bc-stat"><span>खाइएका बाख्रा</span><b id="captured">0</b></div><div class="bc-stat"><span>बाँकी बाख्रा</span><b id="left">20</b></div><div class="bc-stat"><span>चाल</span><b id="turnCount">1</b></div></div>
+<div class="bc-rules"><h3>कसरी खेल्ने?</h3><ul><li>४ बाघ चार कुनाबाट सुरु हुन्छन्।</li><li>बाख्राले पहिलो २० पालोमा एक-एक बाख्रा खाली बिन्दुमा राख्छ।</li><li>हरेक बाख्रा राखेपछि बाघले एउटा चाल चल्छ र बाख्रा खसाल्न सक्छ।</li><li>२० बाख्रा राखिसकेपछि मात्र बाख्रा सार्न पाइन्छ।</li><li>बाघले एउटै चालमा एउटा बाख्रा मात्र उफ्रेर खान सक्छ।</li><li>५ बाख्रा खाए बाघ जित्छ; सबै बाघ चल्न नसक्ने भए बाख्रा जित्छ।</li></ul></div>
 </aside>
-</main></div>
+</div>
+</main>
+<script src="https://apps.laxmannepal.com.np/Nepali-Patro/js/mobile-nav.js"></script>
 <script>
-const svg=document.getElementById('board');
-const turnEl=document.getElementById('turn'),msgEl=document.getElementById('message');
-const placedEl=document.getElementById('placed'),capturedEl=document.getElementById('captured'),leftEl=document.getElementById('left'),turnCountEl=document.getElementById('turnCount'),winEl=document.getElementById('win');
-const pts=[]; const idx=(r,c)=>r*5+c;
-for(let r=0;r<5;r++)for(let c=0;c<5;c++)pts.push({x:40+c*105,y:40+r*105,r,c});
-const key=(r,c)=>`${r},${c}`;
-const edges=new Map(); const add=(a,b)=>{if(!edges.has(a))edges.set(a,[]);edges.get(a).push(b)};
-for(let r=0;r<5;r++)for(let c=0;c<5;c++){
- let a=key(r,c);
- for(const [dr,dc] of [[0,1],[1,0],[0,-1],[-1,0],[1,1],[1,-1],[-1,1],[-1,-1]]){
-  const nr=r+dr,nc=c+dc;if(nr>=0&&nr<5&&nc>=0&&nc<5){
-   // Orthogonal lines always exist. Diagonal lines exist on alternating 5x5 grid geometry.
-   const diag=Math.abs(dr)===1&&Math.abs(dc)===1;
-   if(!diag || (r%2===0&&c%2===0)) add(a,key(nr,nc));
+(()=> {
+'use strict';
+const svg=document.getElementById('board'), turnEl=document.getElementById('turn'), msgEl=document.getElementById('message');
+const placedEl=document.getElementById('placed'), capturedEl=document.getElementById('captured'), leftEl=document.getElementById('left'), turnCountEl=document.getElementById('turnCount'), winEl=document.getElementById('win'), hintEl=document.getElementById('hint');
+const N=5, S=105, O=40, key=(r,c)=>r+','+c, pts=[];
+for(let r=0;r<N;r++)for(let c=0;c<N;c++)pts.push({r,c,x:O+c*S,y:O+r*S});
+const pointMap=new Map(pts.map(p=>[key(p.r,p.c),p]));
+const dirs=[[1,0],[-1,0],[0,1],[0,-1],[1,1],[1,-1],[-1,1],[-1,-1]];
+const edges=new Map();
+for(const p of pts){
+ const list=[];
+ for(const [dr,dc] of dirs){
+  const nr=p.r+dr,nc=p.c+dc;
+  if(nr<0||nr>=N||nc<0||nc>=N)continue;
+  const diagonal=dr!==0&&dc!==0;
+  if(!diagonal || (p.r+p.c)%2===0) list.push(key(nr,nc));
+ }
+ edges.set(key(p.r,p.c),list);
+}
+function neighbors(pos){return edges.get(pos)||[]}
+function buildBoard(){
+ let html='';
+ for(let r=0;r<N;r++)html+='<line class="bc-line" x1="40" y1="'+(O+r*S)+'" x2="460" y2="'+(O+r*S)+'"></line>';
+ for(let c=0;c<N;c++)html+='<line class="bc-line" x1="'+(O+c*S)+'" y1="40" x2="'+(O+c*S)+'" y2="460"></line>';
+ for(const p of pts){
+  if((p.r+p.c)%2!==0)continue;
+  for(const [dr,dc] of [[1,1],[1,-1]]){
+   const q=pointMap.get(key(p.r+dr,p.c+dc));
+   if(q)html+='<line class="bc-line" x1="'+p.x+'" y1="'+p.y+'" x2="'+q.x+'" y2="'+q.y+'"></line>';
   }
  }
+ return html;
 }
-// Ensure symmetric graph.
-for(const [a,bs] of [...edges])for(const b of bs)if(!edges.get(b)?.includes(a))add(b,a);
 let pieces={},selected=null,goatsPlaced=0,captured=0,turn='goat',gameOver=false,turnNo=1;
-function reset(){pieces={};[['0,0','tiger'],['0,4','tiger'],['4,0','tiger'],['4,4','tiger']].forEach(([p,t])=>pieces[p]=t);selected=null;goatsPlaced=0;captured=0;turn='goat';gameOver=false;turnNo=1;winEl.classList.remove('show');render();}
-function boardLines(){
- let s='';
- for(let r=0;r<5;r++){s+=`<line class="grid" x1="40" y1="${40+r*105}" x2="460" y2="${40+r*105}"/><line class="grid" x1="${40+r*105}" y1="40" x2="${40+r*105}" y2="460"/>`}
- // diagonal segments on alternating lattice points, matching traditional board intersections.
- const ds=[[0,0,1,1],[0,4,1,-1],[4,0,-1,1],[4,4,-1,-1],[0,2,1,1],[0,2,1,-1],[2,0,1,1],[2,0,-1,1],[2,4,1,-1],[2,4,-1,-1],[4,2,-1,1],[4,2,-1,-1]];
- for(const [r,c,dr,dc] of ds){let nr=r+dr,nc=c+dc;while(nr>=0&&nr<5&&nc>=0&&nc<5){s+=`<line class="grid diag" x1="${pts[idx(r,c)].x}" y1="${pts[idx(r,c)].y}" x2="${pts[idx(nr,nc)].x}" y2="${pts[idx(nr,nc)].y}"/>`;r=nr;c=nc;nr+=dr;nc+=dc;}}
- return s;
+function reset(){
+ pieces={'0,0':'tiger','0,4':'tiger','4,0':'tiger','4,4':'tiger'};
+ selected=null;goatsPlaced=0;captured=0;turn='goat';gameOver=false;turnNo=1;
+ winEl.classList.remove('show');winEl.textContent='';render();
 }
-function adjacent(a,b){return (edges.get(a)||[]).includes(b)}
-function tigerMoves(pos){const out=[];for(const n of edges.get(pos)||[]){if(!pieces[n])out.push({to:n});else if(pieces[n]==='goat'){const a=pts.find(p=>key(p.r,p.c)===pos),b=pts.find(p=>key(p.r,p.c)===n);const dr=b.r-a.r,dc=b.c-a.c;const dest=key(b.r+dr,b.c+dc);if(pts.some(p=>key(p.r,p.c)===dest)&&!pieces[dest])out.push({to:dest,capture:n});}}return out}
-function goatMoves(pos){return (edges.get(pos)||[]).filter(n=>!pieces[n]).map(to=>({to}));}
+function tigerMoves(pos){
+ const p=pointMap.get(pos), result=[];
+ for(const n of neighbors(pos)){
+  if(!pieces[n])result.push({to:n});
+  else if(pieces[n]==='goat'){
+   const q=pointMap.get(n),dr=q.r-p.r,dc=q.c-p.c;
+   const landing=key(q.r+dr,q.c+dc), landPoint=pointMap.get(landing);
+   if(landPoint && !pieces[landing] && neighbors(n).includes(landing))result.push({to:landing,capture:n});
+  }
+ }
+ return result;
+}
+function goatMoves(pos){return goatsPlaced<20?[]:neighbors(pos).filter(n=>!pieces[n]).map(to=>({to}))}
 function legal(pos){return pieces[pos]==='tiger'?tigerMoves(pos):goatMoves(pos)}
-function drawPiece(pos,type){const p=pts.find(x=>key(x.r,x.c)===pos);if(!p)return '';const cls=type==='tiger'?'tiger':'goat';const label=type==='tiger'?'T':'G';return `<g class="piece" data-pos="${pos}"><circle class="${cls}" cx="${p.x}" cy="${p.y}" r="${type==='tiger'?22:18}"/><text class="pieceText" x="${p.x}" y="${p.y}">${label}</text></g>`}
-function render(){svg.innerHTML=boardLines();for(const p of pts){const k=key(p.r,p.c);if(!pieces[k]){svg.insertAdjacentHTML('beforeend',`<circle class="point ${selected&&legal(selected).some(m=>m.to===k)?'legal':''}" data-pos="${k}" cx="${p.x}" cy="${p.y}" r="${selected&&legal(selected).some(m=>m.to===k)?'8':5}/>`)}}
-for(const [p,t] of Object.entries(pieces))svg.insertAdjacentHTML('beforeend',drawPiece(p,t));if(selected){const p=pts.find(x=>key(x.r,x.c)===selected);if(p)svg.insertAdjacentHTML('beforeend',`<circle class="point selected" pointer-events="none" cx="${p.x}" cy="${p.y}" r="27"/>`);}
-placedEl.textContent=goatsPlaced;capturedEl.textContent=captured;leftEl.textContent=20-goatsPlaced;turnCountEl.textContent=turnNo;turnEl.textContent=gameOver?'Game over':turn==='goat'?'Goat turn':'Tiger turn';msgEl.textContent=gameOver?'Start a new game to play again.':turn==='goat'?(goatsPlaced<20?'Place a goat on an empty point.':'Move a goat to a green point.'):'Select a tiger and move it.';checkWin();}
-function select(pos){if(gameOver)return;const type=pieces[pos];if(turn==='goat'&&type==='goat'&&goatsPlaced>=20){selected=selected===pos?null:pos;render();return}if(turn==='tiger'&&type==='tiger'){selected=selected===pos?null:pos;render();return}if(selected&&legal(selected).some(m=>m.to===pos)){move(selected,pos);return}if(!pieces[pos]&&turn==='goat'&&goatsPlaced<20){pieces[pos]='goat';goatsPlaced++;turn='tiger';turnNo++;selected=null;render();return}selected=null;render();}
-function move(from,to){const type=pieces[from];const option=legal(from).find(m=>m.to===to);if(!option)return;delete pieces[from];pieces[to]=type;if(option.capture){delete pieces[option.capture];captured++;}selected=null;turn=turn==='goat'?'tiger':'goat';turnNo++;render();}
-function checkWin(){if(captured>=5){gameOver=true;winEl.textContent='🐅 Tigers win — 5 goats have been captured.';winEl.classList.add('show');return}const tigers=Object.entries(pieces).filter(([,v])=>v==='tiger');if(tigers.length&&tigers.every(([p])=>tigerMoves(p).length===0)){gameOver=true;winEl.textContent='🐐 Goats win — all tigers are blocked.';winEl.classList.add('show');}}
-svg.addEventListener('click',e=>{const el=e.target.closest('[data-pos]');if(el)select(el.dataset.pos)});document.getElementById('newGame').addEventListener('click',reset);reset();
+function pieceSvg(pos,type){
+ const p=pointMap.get(pos),cls=type==='tiger'?'bc-tiger':'bc-goat',label=type==='tiger'?'ब':'बा';
+ return '<g class="bc-piece" data-pos="'+pos+'" tabindex="0" role="button" aria-label="'+(type==='tiger'?'बाघ':'बाख्रा')+' '+pos+'"><circle class="'+cls+'" cx="'+p.x+'" cy="'+p.y+'" r="'+(type==='tiger'?23:19)+'"></circle><text class="bc-piece-text" x="'+p.x+'" y="'+p.y+'">'+label+'</text></g>';
+}
+function render(){
+ let html=buildBoard();
+ const legalSet=new Set(selected?legal(selected).map(m=>m.to):[]);
+ for(const p of pts){
+  const k=key(p.r,p.c);
+  if(legalSet.has(k))html+='<circle class="bc-point bc-legal" data-pos="'+k+'" cx="'+p.x+'" cy="'+p.y+'" r="9"></circle>';
+  else if(!pieces[k])html+='<circle class="bc-point" data-pos="'+k+'" cx="'+p.x+'" cy="'+p.y+'" r="5"></circle>';
+ }
+ if(selected){
+  const p=pointMap.get(selected);
+  html+='<circle class="bc-selected" pointer-events="none" cx="'+p.x+'" cy="'+p.y+'" r="28"></circle>';
+ }
+ for(const [pos,type] of Object.entries(pieces))html+=pieceSvg(pos,type);
+ svg.innerHTML=html;
+ placedEl.textContent=goatsPlaced;capturedEl.textContent=captured;leftEl.textContent=20-goatsPlaced;turnCountEl.textContent=turnNo;
+ if(gameOver){turnEl.textContent='खेल समाप्त';msgEl.textContent='नयाँ खेल सुरु गर्नुहोस्।';}
+ else if(turn==='goat'){turnEl.textContent='बाख्राको पालो';msgEl.textContent=goatsPlaced<20?'खाली बिन्दुमा एउटा बाख्रा राख्नुहोस्।':'बाख्रा छान्नुहोस् र हरियो बिन्दुमा सार्नुहोस्।';}
+ else {turnEl.textContent='बाघको पालो';msgEl.textContent='बाघ छान्नुहोस् र चाल चल्नुहोस्।';}
+ hintEl.textContent=selected?'हरियो बिन्दुहरू वैध चाल हुन्। फेरि गोटी छान्दा चयन परिवर्तन हुन्छ।':'पहिले आफ्नो गोटी छान्नुहोस्, त्यसपछि हरियो बिन्दु छान्नुहोस्।';
+ checkWin();
+}
+function finish(text){gameOver=true;winEl.textContent=text;winEl.classList.add('show');}
+function checkWin(){
+ if(captured>=5){finish('🐅 बाघ जित्यो — ५ बाख्रा खाइयो।');return true}
+ const tigers=Object.entries(pieces).filter(([,v])=>v==='tiger');
+ if(tigers.length && tigers.every(([p])=>tigerMoves(p).length===0)){finish('🐐 बाख्रा जित्यो — सबै बाघ रोकिए।');return true}
+ return false;
+}
+function select(pos){
+ if(gameOver)return;
+ const type=pieces[pos];
+ if(selected && legal(selected).some(m=>m.to===pos)){move(selected,pos);return}
+ if(turn==='goat' && goatsPlaced<20 && !type){pieces[pos]='goat';goatsPlaced++;selected=null;turn='tiger';turnNo++;render();return}
+ if(type && type===turn){selected=selected===pos?null:pos;render();return}
+ selected=null;render();
+}
+function move(from,to){
+ const option=legal(from).find(m=>m.to===to);if(!option)return;
+ const type=pieces[from];delete pieces[from];pieces[to]=type;
+ if(option.capture){delete pieces[option.capture];captured++}
+ selected=null;turn=turn==='goat'?'tiger':'goat';turnNo++;render();
+}
+function activate(e){
+ const el=e.target.closest('[data-pos]');if(!el)return;select(el.dataset.pos);
+}
+svg.addEventListener('click',activate);
+svg.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const el=e.target.closest('[data-pos]');if(el){e.preventDefault();select(el.dataset.pos)}}});
+document.getElementById('newGame').addEventListener('click',reset);
+reset();
+})();
 </script>
-</body></html>
+</body>
+</html>
