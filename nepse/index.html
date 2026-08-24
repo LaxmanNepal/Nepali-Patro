@@ -1,58 +1,38 @@
 <!doctype html>
 <html lang="ne">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#b91c1c">
-  <meta name="description" content="NEPSE Live — नेपाल स्टक एक्सचेन्जको बजार सूचक, शेयर मूल्य, top gainers, losers र market summary।">
-  <title>NEPSE Live — नेपाली पात्रो</title>
-  <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="../css/homepage-redesign.css">
-  <link rel="stylesheet" href="nepse.css?v=20260824-01">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ff3b30"><meta name="description" content="NEPSE Live — नेपाल स्टक एक्सचेन्जको बजार सूचक, sector performance, शेयर मूल्य, top movers र market summary।">
+<title>NEPSE Live — नेपाली पात्रो</title>
+<link rel="stylesheet" href="../css/main.css"><link rel="stylesheet" href="../css/homepage-redesign.css"><link rel="stylesheet" href="nepse.css?v=20260824-02">
 </head>
 <body>
 <header class="np-header">
-  <a class="np-brand" href="../"><span class="np-logo">प</span><span><strong>नेपाली पात्रो</strong><small>Nepali Patro</small></span></a>
-  <nav aria-label="मुख्य मेनु">
-    <a href="../patro/">पात्रो</a><a href="../panchanga/">पञ्चाङ्ग</a><a href="../rashifal/">राशिफल</a><a href="../jyotish/">ज्योतिष</a><a href="../parba/">पर्व</a><a href="../saith/">साइत</a><a href="../news/">समाचार</a><a href="../forex/">विदेशी मुद्रा</a><a class="active" href="./">NEPSE</a>
-  </nav>
-  <button id="npTheme" aria-label="थिम">◐</button>
+<a class="np-brand" href="../"><span class="np-logo">प</span><span><strong>नेपाली पात्रो</strong><small>Nepali Patro</small></span></a>
+<nav aria-label="मुख्य मेनु"><a href="../patro/">पात्रो</a><a href="../panchanga/">पञ्चाङ्ग</a><a href="../rashifal/">राशिफल</a><a href="../jyotish/">ज्योतिष</a><a href="../parba/">पर्व</a><a href="../saith/">साइत</a><a href="../news/">समाचार</a><a href="../forex/">विदेशी मुद्रा</a><a class="active" href="./">NEPSE</a></nav>
+<button id="npTheme" aria-label="थिम" title="Dark mode">◐</button>
 </header>
-
 <main class="nepse-page">
-  <section class="nepse-hero">
-    <div>
-      <span class="eyebrow">नेपाल स्टक एक्सचेन्ज</span>
-      <h1>NEPSE Live</h1>
-      <p>बजारको उपलब्ध नवीनतम डेटा, सूचक र शेयर मूल्य एउटै ठाउँमा।</p>
-    </div>
-    <div class="market-state" id="marketState"><span class="dot"></span><span>डेटा जाँच हुँदैछ…</span></div>
-  </section>
+<section class="nepse-hero"><div><span class="eyebrow">नेपाल स्टक एक्सचेन्ज</span><h1>NEPSE Live</h1><p>बजारको नवीनतम प्रकाशित डेटा, सूचक, sector performance र शेयर मूल्य एउटै ठाउँमा।</p></div><div class="market-state" id="marketState"><span class="dot"></span><span>डेटा जाँच हुँदैछ…</span></div></section>
 
-  <section class="nepse-grid summary-grid" aria-label="बजार सारांश">
-    <article class="metric-card featured"><span>NEPSE Index</span><strong id="nepseIndex">—</strong><b id="nepseChange">—</b></article>
-    <article class="metric-card"><span>Turnover</span><strong id="turnover">—</strong><small id="turnoverSub">—</small></article>
-    <article class="metric-card"><span>Transactions</span><strong id="transactions">—</strong><small id="transactionsSub">—</small></article>
-    <article class="metric-card"><span>Traded Scrips</span><strong id="tradedScrips">—</strong><small id="breadth">—</small></article>
-  </section>
+<section class="nepse-grid summary-grid" aria-label="बजार सारांश">
+<article class="metric-card featured"><span>NEPSE Index</span><strong id="nepseIndex">—</strong><b id="nepseChange">—</b></article>
+<article class="metric-card"><span>Turnover</span><strong id="turnover">—</strong><small id="turnoverSub">—</small></article>
+<article class="metric-card"><span>Transactions</span><strong id="transactions">—</strong><small id="transactionsSub">—</small></article>
+<article class="metric-card"><span>Traded Scrips</span><strong id="tradedScrips">—</strong><small id="breadth">—</small></article>
+</section>
 
-  <section class="panel">
-    <div class="panel-head"><div><span class="eyebrow">बजार</span><h2>Top Movers</h2></div><button id="refreshBtn" class="refresh-btn">↻ Refresh</button></div>
-    <div class="movers"><div><h3>Top Gainers</h3><div id="gainers" class="mini-list"><p class="loading">लोड हुँदैछ…</p></div></div><div><h3>Top Losers</h3><div id="losers" class="mini-list"><p class="loading">लोड हुँदैछ…</p></div></div></div>
-  </section>
+<section class="panel"><div class="panel-head"><div><span class="eyebrow">बजार</span><h2>Top Movers</h2></div><button id="refreshBtn" class="refresh-btn">↻ Refresh</button></div>
+<div class="movers"><div><h3>Top Gainers</h3><div id="gainers" class="mini-list"><p class="loading">लोड हुँदैछ…</p></div></div><div><h3>Top Losers</h3><div id="losers" class="mini-list"><p class="loading">लोड हुँदैछ…</p></div></div></div></section>
 
-  <section class="panel">
-    <div class="panel-head"><div><span class="eyebrow">शेयर बजार</span><h2>Market Watch</h2></div><input id="stockSearch" type="search" placeholder="Symbol वा company खोज्नुहोस्…" autocomplete="off"></div>
-    <div class="table-wrap"><table><thead><tr><th>Symbol</th><th>LTP</th><th>Change</th><th>%</th><th>High</th><th>Low</th><th>Volume</th><th>Turnover</th></tr></thead><tbody id="stockTable"><tr><td colspan="8" class="loading">डेटा लोड हुँदैछ…</td></tr></tbody></table></div>
-  </section>
+<section class="panel"><div class="panel-head"><div><span class="eyebrow">Sector</span><h2>Sector Performance</h2></div><span id="sectorUpdated" class="panel-meta">—</span></div><div id="sectors" class="sector-grid"><p class="loading">लोड हुँदैछ…</p></div></section>
 
-  <section class="panel source-panel">
-    <div><span class="eyebrow">Data integrity</span><h2>डेटा स्रोत</h2><p>बजार डेटा YONEPSE को प्रकाशित JSON dataset मार्फत प्राप्त हुन्छ, जसले NEPSE Official API लाई primary source का रूपमा प्रयोग गर्ने बताउँछ। यो page ले browser मा त्यही latest published snapshot पढ्छ।</p></div>
-    <div class="source-meta"><strong id="lastUpdated">अन्तिम अपडेट: —</strong><span id="sourceStatus">Source status: —</span><button id="sourceLink" type="button">Source खोल्नुहोस्</button></div>
-  </section>
+<section class="panel"><div class="panel-head"><div><span class="eyebrow">शेयर बजार</span><h2>Market Watch</h2></div><input id="stockSearch" type="search" placeholder="Symbol वा company खोज्नुहोस्…" autocomplete="off" aria-label="शेयर खोज्नुहोस्"></div>
+<div class="watch-tools"><span id="stockCount">— securities</span><span>डेटा: latest published snapshot</span></div>
+<div class="table-wrap"><table><thead><tr><th>Symbol</th><th>LTP</th><th>Change</th><th>%</th><th>High</th><th>Low</th><th>Volume</th><th>Turnover</th></tr></thead><tbody id="stockTable"><tr><td colspan="8" class="loading">डेटा लोड हुँदैछ…</td></tr></tbody></table></div></section>
+
+<section class="panel source-panel"><div><span class="eyebrow">Data integrity</span><h2>डेटा स्रोत र freshness</h2><p>यो dashboard ले YONEPSE को प्रकाशित JSON datasets पढ्छ। YONEPSE documentation अनुसार dataset NEPSE Official API बाट data लिने scraper हो र published feed बजार समयमा करिब ३० मिनेटमा अपडेट हुन्छ। त्यसैले browser refresh लाई tick-by-tick real-time भनेर देखाइएको छैन।</p></div><div class="source-meta"><strong id="lastUpdated">अन्तिम dataset अपडेट: —</strong><span id="sourceStatus">Source status: —</span><button id="sourceLink" type="button">Source खोल्नुहोस्</button></div></section>
 </main>
-
 <footer class="np-footer"><div><strong>नेपाली पात्रो</strong><p>पात्रो, पञ्चाङ्ग, पर्व, साइत, राशिफल, इतिहास, सुनको मूल्य, समाचार र NEPSE जानकारी।</p></div><div class="np-copy">© 2026 Laxman Nepal · Nepali Patro</div></footer>
-<script src="nepse.js?v=20260824-01"></script>
-</body>
-</html>
+<script src="nepse.js?v=20260824-02"></script>
+</body></html>
