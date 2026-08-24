@@ -1,0 +1,51 @@
+name: Daily Nepali History Research
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 18 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nepali-patro-history
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Research today's history
+        run: python scripts/update_history.py
+      - name: Validate daily history files
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          files=list(pathlib.Path("data/itihas").glob("*/*.json"))
+          assert files, "No daily history files generated"
+          for p in files:
+              d=json.loads(p.read_text(encoding="utf-8"))
+              assert isinstance(d.get("events"), list), p
+          print("Validated", len(files), "daily history files")
+          PY
+      - name: Commit daily research
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/itihas
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: update daily Nepali history"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
