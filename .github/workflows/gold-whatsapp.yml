@@ -1,0 +1,83 @@
+name: Daily Gold Price WhatsApp Channel
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Check regularly so the post is sent after the gold feed is updated.
+    - cron: '*/15 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gold-whatsapp-daily
+  cancel-in-progress: false
+
+jobs:
+  gold-whatsapp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Create dated daily gold JSON
+        run: python scripts/snapshot_gold_daily.py
+
+      - name: Commit daily gold JSON
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add feeds/gold_daily/*.json
+          if git diff --cached --quiet; then
+            echo 'Daily gold snapshot unchanged.'
+          else
+            git commit -m 'chore: update daily gold price snapshot'
+            git fetch origin main
+            git rebase origin/main
+            git add feeds/gold_daily/*.json
+            if git diff --cached --quiet; then
+              echo 'No snapshot changes after rebase.'
+            else
+              git commit --amend --no-edit
+              git push origin HEAD:main
+            fi
+          fi
+
+      - name: Post today's gold price to WhatsApp Channel
+        env:
+          WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+          WHATSAPP_CHANNEL_ID: ${{ secrets.WHATSAPP_CHANNEL_ID }}
+        run: python scripts/post_gold_whatsapp.py
+
+      - name: Commit WhatsApp delivery state
+        run: |
+          set -euo pipefail
+          if [ ! -f feeds/gold_daily/whatsapp_posted.json ]; then
+            echo 'No WhatsApp delivery state created; credentials may not be configured yet.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add feeds/gold_daily/whatsapp_posted.json
+          if git diff --cached --quiet; then
+            echo 'WhatsApp delivery state unchanged.'
+            exit 0
+          fi
+          git fetch origin main
+          git rebase origin/main
+          git add feeds/gold_daily/whatsapp_posted.json
+          if git diff --cached --quiet; then
+            echo 'No delivery-state changes after rebase.'
+            exit 0
+          fi
+          git commit -m 'chore: record WhatsApp gold price delivery'
+          git push origin HEAD:main
