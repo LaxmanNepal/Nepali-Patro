@@ -107,7 +107,7 @@ function tigerMoves(pos){
 function goatMoves(pos){return goatsPlaced<20?[]:neighbors(pos).filter(n=>!pieces[n]).map(to=>({to}))}
 function legal(pos){return pieces[pos]==='tiger'?tigerMoves(pos):goatMoves(pos)}
 function pieceSvg(pos,type){
- const p=pointMap.get(pos),cls=type==='tiger'?'bc-tiger':'bc-goat',label=type==='tiger'?'ब':'बा';
+ const p=pointMap.get(pos),cls=type==='tiger'?'bc-tiger':'bc-goat',label=type==='tiger'?'🐅':'🐐';
  return '<g class="bc-piece" data-pos="'+pos+'" tabindex="0" role="button" aria-label="'+(type==='tiger'?'बाघ':'बाख्रा')+' '+pos+'"><circle class="'+cls+'" cx="'+p.x+'" cy="'+p.y+'" r="'+(type==='tiger'?23:19)+'"></circle><text class="bc-piece-text" x="'+p.x+'" y="'+p.y+'">'+label+'</text></g>';
 }
 function render(){
