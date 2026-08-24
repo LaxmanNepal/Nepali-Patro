@@ -1,0 +1,36 @@
+{
+  "date": {
+    "ad": "2026-08-24",
+    "bs": "भदौ ०८, २०८३"
+  },
+  "updatedAt": "2026-08-24T16:25:00+05:45",
+  "source": {
+    "name": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
+    "url": "https://negosida.org/"
+  },
+  "gold": {
+    "fineGold": {
+      "perTola": 322700,
+      "per10Gram": 276665,
+      "perGram": 27666.5,
+      "changePerTola": 6000,
+      "trend": "up"
+    },
+    "22KT": {
+      "perTola": 295595,
+      "per10Gram": 253425,
+      "perGram": 25342.5
+    }
+  },
+  "silver": {
+    "perTola": 4965,
+    "per10Gram": 4256.5,
+    "perGram": 425.65,
+    "changePerTola": -20,
+    "trend": "down"
+  },
+  "units": {
+    "tolaInGram": 11.6638125,
+    "currency": "NPR"
+  }
+}
