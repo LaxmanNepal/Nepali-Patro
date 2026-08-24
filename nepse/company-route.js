@@ -1,0 +1,1 @@
+(()=>{document.addEventListener('click',e=>{const tr=e.target.closest('.stock-row');if(!tr)return;const a=tr.querySelector('.company-link');if(a){e.preventDefault();location.href=a.href}else{const s=tr.dataset.symbol;if(s)location.href='company/?symbol='+encodeURIComponent(s)}})})();
