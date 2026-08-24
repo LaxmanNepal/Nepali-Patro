@@ -15,11 +15,10 @@ def main():
     date_ad = str(feed.get('date_ad', '')).strip()
     if not date_ad:
         raise SystemExit('gold_silver.json has no date_ad')
-
-    # Never create a future/invalid snapshot from malformed source data.
     datetime.strptime(date_ad, '%Y-%m-%d')
 
     now = datetime.now(ZoneInfo('Asia/Kathmandu'))
+    target = OUT_DIR / f'{date_ad}.json'
     snapshot = {
         'date_ad': date_ad,
         'date_bs': feed.get('date_bs', ''),
@@ -32,8 +31,20 @@ def main():
         'details': feed.get('details', {}),
     }
 
+    # Avoid a new Git commit every 15 minutes when today's rate is unchanged.
+    if target.exists():
+        try:
+            old = json.loads(target.read_text(encoding='utf-8'))
+            comparable = {k: v for k, v in snapshot.items() if k != 'snapshotAt'}
+            old_comparable = {k: v for k, v in old.items() if k != 'snapshotAt'}
+            if comparable == old_comparable:
+                print(f'Gold snapshot unchanged: {target}')
+                return
+            snapshot['snapshotAt'] = old.get('snapshotAt', now.isoformat())
+        except Exception:
+            pass
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    target = OUT_DIR / f'{date_ad}.json'
     target.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'Gold daily snapshot written: {target}')
 
