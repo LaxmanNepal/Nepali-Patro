@@ -41,15 +41,8 @@ jobs:
             echo 'Daily gold snapshot unchanged.'
           else
             git commit -m 'chore: update daily gold price snapshot'
-            git fetch origin main
-            git rebase origin/main
-            git add feeds/gold_daily/*.json
-            if git diff --cached --quiet; then
-              echo 'No snapshot changes after rebase.'
-            else
-              git commit --amend --no-edit
-              git push origin HEAD:main
-            fi
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
 
       - name: Post today's gold price to WhatsApp Channel
@@ -72,12 +65,7 @@ jobs:
             echo 'WhatsApp delivery state unchanged.'
             exit 0
           fi
-          git fetch origin main
-          git rebase origin/main
+          git pull --rebase origin main
           git add feeds/gold_daily/whatsapp_posted.json
-          if git diff --cached --quiet; then
-            echo 'No delivery-state changes after rebase.'
-            exit 0
-          fi
           git commit -m 'chore: record WhatsApp gold price delivery'
           git push origin HEAD:main
