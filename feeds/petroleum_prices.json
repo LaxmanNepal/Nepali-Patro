@@ -1,0 +1,22 @@
+{
+  "date_ad": "2026-08-24",
+  "updatedAt": "2026-08-24T00:00:00+05:45",
+  "source": "Nepal Oil Corporation (NOC)",
+  "sourceUrl": "https://noc.org.np/retailprice",
+  "latest": {
+    "effective_label": "2083.04.17(2026.08.02)",
+    "petrol": 200.0,
+    "diesel": 200.0,
+    "kerosene": 200.0,
+    "lpg": 2060.0,
+    "atf_domestic": 249.0,
+    "atf_international": 1697.0
+  },
+  "history": [],
+  "locations": [
+    {"name":"Category I","places":["Charali","Biratnagar","Mahendranagar (Dhanusa)","Birgunj","Amlekhjung","Bhalbari","Nepalgunj","Dhangadhi"]},
+    {"name":"Category II","places":["Surkhet","Dang"]},
+    {"name":"Category III","places":["Kathmandu","Pokhara","Dipayal"]}
+  ],
+  "note": "Retail selling price from NOC. Location-specific rates may differ."
+}
