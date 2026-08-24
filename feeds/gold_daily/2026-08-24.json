@@ -1,36 +1,32 @@
 {
-  "date": {
-    "ad": "2026-08-24",
-    "bs": "भदौ ०८, २०८३"
-  },
+  "date_ad": "2026-08-24",
+  "date_bs": "भदौ ०८, २०८३",
+  "snapshotAt": "2026-08-25T01:47:13.070648+05:45",
+  "source": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
+  "sourceUrl": "https://negosida.org/",
   "updatedAt": "2026-08-24T16:25:00+05:45",
-  "source": {
-    "name": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
-    "url": "https://negosida.org/"
-  },
   "gold": {
-    "fineGold": {
-      "perTola": 322700,
-      "per10Gram": 276665,
-      "perGram": 27666.5,
-      "changePerTola": 6000,
-      "trend": "up"
-    },
-    "22KT": {
-      "perTola": 295595,
-      "per10Gram": 253425,
-      "perGram": 25342.5
-    }
+    "type": "छापावाल",
+    "unit": "प्रति तोला",
+    "price": "३,२२,७००",
+    "change": "+६,०००",
+    "trend": "up",
+    "_numeric": 322700
   },
   "silver": {
-    "perTola": 4965,
-    "per10Gram": 4256.5,
-    "perGram": 425.65,
-    "changePerTola": -20,
-    "trend": "down"
+    "type": "चाँदी",
+    "unit": "प्रति तोला",
+    "price": "४,९६५",
+    "change": "-२०",
+    "trend": "down",
+    "_numeric": 4965
   },
-  "units": {
-    "tolaInGram": 11.6638125,
-    "currency": "NPR"
+  "details": {
+    "fine_gold_tola": 322700,
+    "gold_22k_tola": 295595,
+    "silver_tola": 4965,
+    "fine_gold_10g": 276665,
+    "gold_22k_10g": 253425,
+    "silver_10g": 4256.5
   }
 }
