@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-24T16:20:27.035030+00:00",
-  "newestPublishedTime": "2026-08-24T16:14:43+00:00",
+  "updatedAt": "2026-08-24T17:01:39.109170+00:00",
+  "newestPublishedTime": "2026-08-24T16:53:35+00:00",
   "source": "feeds/feeds.js",
   "feedCount": 51,
-  "successfulFeeds": 33,
-  "failedFeeds": 18,
+  "successfulFeeds": 35,
+  "failedFeeds": 16,
   "failedFeedDetails": [
     {
       "url": "https://ujyaaloonline.com/rss",
@@ -55,14 +55,6 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.nepalitelecom.com/feed",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://ictframe.com/feed",
-      "error": "The read operation timed out"
-    },
-    {
       "url": "https://www.merofilm.com/feed",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -80,6 +72,176 @@
     }
   ],
   "items": [
+    {
+      "title": "यस्तो छ नेपालमै बनेको यात्री स्कुटर (फोटोफिचर)",
+      "description": "काठमाडौँ । नेपालमा निर्माण गरिएको विद्युतीय स्कुटर सिप्रदी यात्री पी–२ सार्वजनिक गरिएको छ। यात्रीले पी–२ लाई तीनवटा भेरियन्टमा बजारमा ल्याएको हो। पी–२ को टप भेरियन्टमा ५.२ किलोवाट–घण्टा (kWh) क्षमताको ब्याट्री रहेको छ। यसले एक पटकको चार्जमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/yatri-scooter_npl-(2)_3iWrC7uSke.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:53:35+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587116/this-is-what-a-passenger-scooter-made-in-nepal-looks-like-photo-feature",
+      "category": "national"
+    },
+    {
+      "title": "मनकामनामा गोरखाका पर्यटकीय गन्तव्यबारे जानकारी दिन ‘डिजिटल बोर्ड’",
+      "description": "गोरखा । प्रसिद्ध धार्मिक तथा पर्यटकीयस्थल मनकामना आउने पर्यटकलाई गोरखासम्म पुग्ने वातावरण बनाउने उद्देश्यले मनकामना परिसरमा गोरखाका पर्यटकीय गन्तव्यबारे जानकारी दिन डिजिटल सूचना पाटी ९बोर्ड० स्थापना गरिएको छ। गोरखा उद्योग वाणिज्य सङ्घले मनकामना मन्दिर क्षेत्रमा डिजिटल बोर्ड स्थापना गरेको हो । “मनकामना मन्दिर दर्शकका लागि दशौँ लाख भक्तजन, आन्तरिक तथा बाह्य पर",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-08-24T16:51:36+00:00",
+      "articleUrl": "https://nepalnews.com/2026/08/24/digital-board-to-provide-information-about-tourist-destinations-in-gorkha-in-manakamana/",
+      "category": "business"
+    },
+    {
+      "title": "न्युजिल्यान्डले बालबालिकालाई सामाजिक सञ्जालमा प्रतिबन्ध लगाउने",
+      "description": "वेलिङ्टन । न्युजिल्यान्ड सरकारले १६ वर्षमुनिका बालबालिकालाई इन्स्टाग्राम, टिकटक, फेसबुक र स्न्यापच्याटजस्ता सामाजिक सञ्जाल प्रयोगमा प्रतिबन्ध लगाउने कानून अघि बढाएको छ । सरकारले सामाजिक सञ्जालका कारण बालबालिकाको मानसिक स्वास्थ्य, निद्रा, पारिवारिक जीवन र शिक्षामा असर परेको भन्दै कडा उमेर सीमा प्रस्ताव गरेको हो । प्रधानमन्त्री क्रिस्टोफर लक्सनले बालबालिकामाथि",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-08-24T16:50:07+00:00",
+      "articleUrl": "https://nepalnews.com/2026/08/24/new-zealand-to-ban-children-from-social-media/",
+      "category": "business"
+    },
+    {
+      "title": "चार विधेयकलाई संसदीय समितिमा पठाउँदै प्रतिनिधिसभा बैठक भदौ ९ गतेसम्म स्थगित",
+      "description": "काठमाडौँ । प्रतिनिधिसभाको सोमबार बसेको बैठकले चार विधेयकहरूलाई दफावार छलफलका लागि सम्बन्धित संसदीय समितिमा पठाउने प्रस्ताव स्वीकृत गरेको छ। विधेयकहरूमाथि प्राप्त संशोधन र सामान्य छलफलपछि थप परिमार्जनका लागि समितिमा पठाइएको हो। सोमबारको बैठकमा प्रधानमन्त्री बालेन शाहको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/samsad_ucwupzve0a_ZD51FtaQWb.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587057/house-of-representatives-meeting-adjourned-until-bhadra-24-sending-four-bills-to-parliamentary-committee",
+      "category": "politics"
+    },
+    {
+      "title": "नेकपा कर्णालीभित्र कचिङ्गल : मन्त्री छनोट गरिदिन प्रचण्ड–माधव गुहार !",
+      "description": "सुर्खेत । कर्णालीमा सत्ताको नेतृत्व गरिरहेको नेपाली कम्युनिस्ट पार्टी (नेकपाभित्र) को कचिङ्गल अब पार्टी हेडक्वार्टरले मिलाउने भएको छ । तीन मन्त्री छनोटमा सकस परेपछि मिलाइदिन केन्द्र गुहार गरिएको हो । नेकपा संसदीय दलका नेता समेत रहेका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/prachanda-madhab_IxVoGpWbv6.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587056/dispute-within-ncp-karnali-prachanda-madhav-appeal-to-select-ministers",
+      "category": "politics"
+    },
+    {
+      "title": "महाधिवेशन रोक्न देउवा र खड्काले दिए सर्वोच्च अदालतमा छुट्टाछुट्टै रिट निवेदन",
+      "description": "काठमाडौँ । नेपाली कांग्रेसको १५ औं महाधिवेशन रोक्न निवर्तमान सभापति शेरबहादुर देउवा र कांग्रेस नेता पूर्णबहादुर खड्काले सर्वोच्च अदालतमा छुट्टाछुट्टै रिट निवेदन पेस गरेका छन् । दुवै जनाले वारेसमार्फत् अदालतमा रिट निवेदन दिएका हुन् । सर्वोच्च",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/deuba-purna_b5bfb6xhw5_e5csk84BM5.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/586956/deuba-and-khadka-file-separate-writ-petitions-in-supreme-court-to-stop-general-convention",
+      "category": "national"
+    },
+    {
+      "title": "शङ्करको प्रतिवेदनमा ओलीको ‘अब्जेक्सन’, संशोधन गर्न बादललाई निर्देशन",
+      "description": "काठमाडौँ । नेकपा (एमाले)का अध्यक्ष केपी शर्मा ओलीले महासचिव शङ्कर पोखरेलले तयार पारेको पार्टीको ‘शुद्धीकरण, सुदृढीकरण तथा रूपान्तरणसहितको पुनर्गठन कार्ययोजना’सम्बन्धी प्रतिवेदनको मस्यौदा अस्वीकार गरेका छन्। गत जेठ १० गते बसेको सचिवालयको आठौँ बैठकले उक्त कार्ययोजना तयार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kp-badal-shankar_Ticx1XHEfE.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/586945/olis-objection-to-shankars-report-badal-instructed-to-amend-it",
+      "category": "politics"
+    },
+    {
+      "title": "खानी विधेयकमा ३५ र राहदानी विधेयकमा १७ संशोधन प्रस्ताव",
+      "description": "काठमाडौँ । सङ्घीय संसद् अन्तर्गतको प्रतिनिधिसभामा अगाडि बढेका ‘खानी तथा खनिज पदार्थ विधेयक’ र ‘राहदानी (पहिलो संशोधन) विधेयक’ मा उल्लेख्य सङ्ख्यामा संशोधन प्रस्तावहरू परेका छन् । संसद् सचिवालयका अनुसार खानी तथा खनिज पदार्थ विधेयकमा ३५ वटा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/sansad-sachiwalaya_qzq1ooy2ir_OAVCQSbv1p.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/586929/35-amendments-proposed-to-the-mining-bill-and-17-to-the-passport-bill",
+      "category": "national"
+    },
+    {
+      "title": "जेनजी आन्दोलनमा भागेका अभियुक्त जबर्जस्तीकरणी मुद्दामा रामेछापबाट पक्राउ",
+      "description": "रामेछाप । रामेछाप प्रहरीले ६१ वर्षीया महिलालाई जबर्जस्ती करणी गरी फरार रहेका एक अभियुक्तलाई पक्राउ गरेको छ । पक्राउ पर्ने व्यक्ति यसअघि सुनसरीको प्रहरी हिरासतबाट फरार रहेका अभियुक्त भएको खुलेको छ । जिल्ला प्रहरी कार्यालय रामेछापका अनुसार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/jail-arrest_DZZQaXCTyj.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:44:36+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587115/accused-who-fled-during-genji-movement-arrested-in-ramechhap-in-rape-case",
+      "category": "national"
+    },
+    {
+      "title": "नेपालमै बनेको यात्री विद्युतीय स्कुटरले राष्ट्रिय आत्मविश्वास जगायो : अर्थमन्त्री वाग्ले",
+      "description": "काठमाडौँ। अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालमै डिजाइन र निर्माण भएको विद्युतीय स्कुटर ‘यात्री पी–२’ सार्वजनिक गरेका छन् । सिप्रदी यात्री कम्पनीले नेपालमै निर्माण गरेको उक्त स्कुटरको सोमबार सार्वजनिक गर्दै उनले नेपालमै बनेको यात्री विद्युतीय स्कुटरले राष्ट्रिय",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/781338670_1386793393631573_5835351337798374122_n_YWQ5SfuJ8t.png",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:40:39+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587114/nepal-made-passenger-electric-scooters-have-instilled-national-confidence-finance-minister-wagle",
+      "category": "politics"
+    },
+    {
+      "title": "अचानक छातीमा समस्या आएपछि अस्पताल पुगेका सभामुख अर्याल डिस्चार्ज",
+      "description": "काठमाडौं । महाराजगन्जस्थित त्रिभुवन विश्वविद्यालय शिक्षण अस्पतालको कार्डियोभास्कुलर तथा ट्रान्सप्लान्ट सेन्टरमा भर्ना भएका प्रतिनिधिसभा सभामुख डोलप्रसाद अर्याल डिस्चार्ज भएका छन् । छातीमा समस्या देखिएपछि अर्याललाई बेलुकी सीसीयूमा भर्ना गरिएको हो । उनको क्याबिन नम्बर २१५ मा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dp-aryal_iI2nh4KQGm.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:34:32+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587113/speaker-aryal-discharged-from-hospital-after-sudden-chest-pain",
+      "category": "national"
+    },
+    {
+      "title": "मुख्यमन्त्री थापामाथि राजनीतिक र नैतिक संकट",
+      "description": "हेटौँडा । बागमती प्रदेश सभाको बैठक मंगलबार दिउँसो ४ बजेसम्मका लागि स्थगित गरिएको छ । मुख्यमन्त्री किरण थापा मगरको विश्वासको मतसम्बन्धी छलफलका लागि सोमबार दिउँसो १ बजेका लागि आह्वान गरिएको बैठक सूचना टाँस गरेर मंगलबार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kiran-bagmati_jJWNkWtrAx.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:31:28+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587112/political-and-moral-crisis-over-chief-minister-thapa",
+      "category": "politics"
+    },
+    {
+      "title": "दुर्गा प्रसाईंको बन्दी प्रत्यक्षीकरण रिटमा सरकारका नाममा ‘कारण देखाऊ’ आदेश",
+      "description": "काठमाडौँ । सर्वोच्च अदालतले मेडिकल व्यवसायी दुर्गा प्रसाईंको बन्दी प्रत्यक्षीकरण रिटमा सरकारका नाममा ‘कारण देखाऊ’ आदेश जारी गरेको छ । न्यायाधीश नृपध्वज निरौलाको एकल इजलासले प्रसाईंको बन्दीप्रत्यीकरण रिटमा कारण माग गर्दै विपक्षीका नाममा सो आदेश",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/durga-prasai_KAfEEIyzNP.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:30:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/586935/show-cause-order-issued-to-government-in-durga-prasais-habeas-corpus-writ",
+      "category": "politics"
+    },
+    {
+      "title": "गणेश प्रसाद अवस्थी नबिल बैंकको डीसीईओमा बढुवा",
+      "description": "काठमाडौं । नबिल बैंकको नायब महाप्रबन्धक (डीजीएम) गणेश प्रसाद अवस्थी नायब प्रमुख कार्यकारी अधिकृत (डीसीईओ) मा बढुवा भएका छन्। सोमबार बसेको बैंकको सञ्चालक समितिको बैठकले नायब महाप्रबन्धक पदमा कार्यरत अवस्थीलाई डीसीईओमा बढुवा गर्ने निर्णय गरेको हो। बैंकिङ क्षेत्रमा साढे दुई दशकभन्दा लामो अनुभव भएका अवस्थीले सन् २००१ मा तत्कालीन एनआईसी बैंकबाट आफ्नो करियर सुरु ग",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-08-24T16:25:40+00:00",
+      "articleUrl": "https://clickmandu.com/2026/08/485064.html",
+      "category": "business"
+    },
+    {
+      "title": "‘मानवबस्ती जोखिममा पार्ने गरी हात्तीको जैविक मार्ग बनाउन नहुने’",
+      "description": "झापा । जङ्गली हात्तीको आक्रमण र क्षतिबाट वर्षौँदेखि पीडित बनेका बाहुनडाँगी क्षेत्रका बासिन्दाले मानवबस्ती जोखिममा पार्ने गरी हात्तीको जैविक मार्ग बनाउन नहुने बताएका छन् । राज्यले बाहुनडाँगीबाट कोसीटप्पुसम्म हात्ती हिँड्ने बाटोका रूपमा जैविक मार्ग बनाउने",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/elephant_Qgf5q0EsqP.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:19:38+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587111/elephant-biological-routes-should-not-be-built-in-a-way-that-endangers-human-settlements",
+      "category": "national"
+    },
+    {
+      "title": "एक वर्षमा १० वर्ष मुनिका २५० बालिका बलात्कृत, अधिकांश पीडक चिनेजानेकै",
+      "description": "नाबालिकाको हकमा अधिकांशजसो चिनेजानेकै व्यक्तिबाट बलात्कार हुने प्रहरी अधिकारीहरूको बुझाइ छ । नाबालिकाहरू एक्लै कतै टाढा नजाने, घर वरपर खेल्ने, बस्ने हुँदा चिनेजानेकै व्यक्ति तथा आफन्तबाट बलात्कार हुने जोखिम रहेको उनीहरूको बुझाइ छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/rape-1.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T16:15:39+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002858/250-girls-under-10-raped-in-one-year-most-of-them-by-known-perpetrators",
+      "category": "national"
+    },
+    {
+      "title": "संवैधानिक निकायका पदाधिकारी सम्बन्धी विधेयकमा ९ सांसदका १० संशोधन प्रस्ताव दर्ता",
+      "description": "काठमाडौँ । ‘संवैधानिक निकायका पदाधिकारीहरूको पारिश्रमिक, सेवाको शर्त र सुविधा सम्बन्धी (पहिलो संशोधन) विधेयक, २०८३’ माथि विभिन्न राजनीतिक दलका ९ सांसदले सामुहिक र एकल गरी १० संशोधन प्रस्ताव दर्ता गराएका छन्। प्रतिनिधि सभा नियमावली, २०८३ को",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/sam_Uz9oLCQy9t.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T16:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/586923/10-amendment-proposals-from-9-mps-registered-in-the-bill-related-to-officials-of-constitutional-bodies",
+      "category": "politics"
+    },
     {
       "title": "सङ्घीयता सफल बनाउन प्रदेश र स्थानीय तहबिचको सहकार्य हुनुपर्छ : मुख्यमन्त्री भट्ट",
       "description": "धनगढी । सुदूरपश्चिम प्रदेशका मुख्यमन्त्री खगराज भट्टले तीनै तहका सरकारबीच प्रभावकारी समन्वय हुन सके मात्रै नागरिकले अनुभूत गर्नेगरी सङ्घीयताको कार्यान्वयन हुने बताएका छन् । नेपाल नगरपालिका सङ्घ र गाउँपालिका राष्ट्रिय महासङ्घ, नेपाल सुदूरपश्चिम प्रदेश समितिसँग आज",
@@ -101,6 +263,66 @@
       "category": "politics"
     },
     {
+      "title": "१९२३ को सन्धि : नेपाललाई विश्व समुदायमा प्रवेश गराउने कूटनीतिक द्वार",
+      "description": "राणा शासनपछिका प्रजातन्त्र र राजतन्त्र दुवैले राणा निरङ्कुशताका बीचमा प्राप्त प्रभावशाली उपलब्धिलाई पर्याप्त श्रेय दिन स्वाभाविक अनिच्छा देखाए । राजनीतिक कार्यकर्ता, नेतृत्व र दलहरूमाथि गरिएको दमनका कारण प्रजातान्त्रिक शक्तिहरू पनि राणा शासनका सकारात्मक उपलब्धिप्रति उदार बन्न सकेनन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Dr-Tika-Dhakal-3-1.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T16:14:27+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002440/the-treaty-of-1923-the-diplomatic-gateway-that-brought-nepal-into-the-world-community",
+      "category": "politics"
+    },
+    {
+      "title": "संसद्‌मा एक स्वर : बलात्कारविरुद्धको कानुन अपर्याप्त",
+      "description": "राजनीतिक विषय र सरकारका कतिपय नीतिमा सत्तापक्ष र प्रतिपक्ष संसद्मा आमनेसामने हुन्छन् । तर सोमबार प्रतिनिधिसभामा जुनकुनै समयमा बोल्ने सबै सांसदले एउटै कुरा उठाए– बलात्कारविरुद्धको कानुन पर्याप्त छैन । यस्तो अपराध गर्ने सोच आउनै नसक्ने गरी कानुन बनाइनुपर्छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Parliament-On-Rape.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T16:13:21+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003079/one-voice-in-parliament-law-against-rape-is-inadequate",
+      "category": "politics"
+    },
+    {
+      "title": "‘तीन वर्षभित्र फोहोर शून्य बनाउने गरी कानुन बनाउँदै छौँ’",
+      "description": "त्यहाँ तयार गरिएको ल्यान्डफिल साइटको क्षेत्रभित्रै मानिसहरू बसिरहेका छैनन् । फोहोर र मानिस एकै ठाउँमा छैनन् । तर मानिसहरू पीडित छन् । त्यसलाई समाधान गर्नैपर्छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Sunil-Lamsal-Interview-2.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T16:12:03+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002778/we-are-making-laws-to-achieve-zero-waste-within-three-years",
+      "category": "national"
+    },
+    {
+      "title": "ओली चलायमान हुँदा विष्णु पौडेल मौन",
+      "description": "फागुनको आम चुनावमा एमालेको ठूलो पराजयपछि विष्णु पौडेलले सबैभन्दा पहिले नेतृत्व परिवर्तनको नारा दिएका थिए । त्यसबेला मौन ओली यतिबेला सक्रिय छन् । अनि परिवर्तन बोल्ने पौडेलचाहिं मौन ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Bishnu-Paudel.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T16:11:40+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003010/bishnu-poudel-remains-silent-while-oli-is-in-power",
+      "category": "national"
+    },
+    {
+      "title": "रास्वपासहित चार दलका नेता-सांसदलाई छुट्टाछुट्टै प्रशिक्षण, एनडीआईको समन्वय",
+      "description": "संसद् र सडकमा सधैं राजनीतिक जोडघटाउ र आरोप-प्रत्यारोपमा व्यस्त रहने नेपालका प्रमुख राजनीतिक दलका नेताहरू यतिबेला भने ‘विद्यार्थी’ बनेका छन्।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/image-80.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T16:10:02+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003037/separate-training-for-leaders-and-mps-of-four-parties-including-the-rashtriya-swayamsevak-sangh-rss-coordinated-by-ndi",
+      "category": "politics"
+    },
+    {
+      "title": "विधान विपरीत नियमन अधिकार प्रदेश र स्थानीय तहलाई दिँदा सहकारीको खर्बौं बचत संकटमा",
+      "description": "सहकारी ऐन २०७४ ले नियमन अधिकार प्रदेश र स्थानीय तहलाई पनि दिएको छ । तर, सहकारीका सञ्चालकले बचतकर्ताको २ खर्बभन्दा बढी निक्षेप फिर्ता नगर्दा संघ, प्रदेश र स्थानीय तहले कसैले पनि प्रभावकारी रूपमा पीडितलाई न्याय दिन सकेका छैनन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/image-2026-08-24T190312.274.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T16:09:51+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002939/cooperatives-savings-in-danger-as-regulatory-powers-are-given-to-provinces-and-local-levels-contrary-to-the-constitution",
+      "category": "national"
+    },
+    {
       "title": "छातीमा समस्या भएपछि सभामुख अर्याल अस्पतालमा, एनजियाेग्राफी गरियाे",
       "description": "काठमाडौँ । प्रतिनिधिसभाका सभामुख डोलप्रसाद अर्याल छातीमा समस्या देखिएपछि महाराजगञ्जस्थित अस्पताल पुगेका छन् । त्रिभुवन विश्वविद्यालय शिक्षण अस्पतालको मनमोहन कार्डियोभास्कुलर तथा ट्रान्सप्लान्ट सेन्टरमा साँझदेखि उनको स्वास्थ्य जाँच भइरहेको छ । स्रोतका अनुसार सोमबार साँझ ७:३० बजे सभामुख अर्याल अस्पताल पुगेर उपचार सुरु गरेका हुन् । मुटुको रक्त नलीमा कुनै किसिमक",
       "imageUrl": "",
@@ -108,6 +330,16 @@
       "sourceName": "नेपाल प्रेस",
       "publishedTime": "2026-08-24T16:09:13+00:00",
       "articleUrl": "https://nepalpress.com/2026/08/24/756854/speaker-aryal-returns-to-teaching-after-chest-problem-undergoes-angiography/",
+      "category": "national"
+    },
+    {
+      "title": "उपभोक्ता आफैं सचेत नभएसम्म बजारको ठगी रोकिँदैन",
+      "description": "बजारमा जाँदा उपभोक्ता आफूले किनेको वस्तु गुणस्तरीय छ कि छैन, लेबलमा सही विवरण छ कि छैन र आफू ठगिएमा कहाँ उजुरी गर्ने भन्ने विषयमा कति सचेत छन् ? बजारमा कृत्रिम अभाव सिर्जना गरी मूल्य बढाउनेदेखि मिसावटयुक्त वस्तु तथा म्याद गुज्रिएका सामान बिक्री गर्ने समस्या छ। भ्रामक विज्ञापन गर्नेदेखि समान किन्दा बिल नदिने प्रवृत्ति पनि उत्तिकै […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/image-8-5.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T16:08:36+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/1999053/market-fraud-will-not-stop-until-consumers-themselves-become-aware",
       "category": "national"
     },
     {
@@ -131,6 +363,36 @@
       "category": "national"
     },
     {
+      "title": "आरोपितको भाइरल भिडियोले उठ्यो अनुसन्धान गोपनीयतामा प्रश्न",
+      "description": "बारामा बालिका बलात्कारको घटनाका आरोपित किशोरको बयानको भिडियो बाहिरिएपछि प्रहरी अनुसन्धानको संवेदनशीलता र गोपनीयताको मापदण्ड कति पालना गरियो भन्ने प्रश्न उठेको हो।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/bara-garima-2.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T16:07:15+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002920/viral-video-of-accused-raises-questions-about-investigation-confidentiality",
+      "category": "national"
+    },
+    {
+      "title": "सत्य-स्वरुपले जमाए आचार्य संगीतको बैठकी",
+      "description": "भारतमा रवीन्द्रनाथ टैगोरका रचनालाई रवीन्द्र संगीत भनिएझैं के भक्तराजका संगीतलाई आचार्य संगीत भनिएला ? सायद यो प्रश्नको जवाफ सत्य स्वरुपको निरन्तरतामा भेटिने छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/hajar-sapana-with-satya-swaroop-big-banner.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T16:06:24+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002989/satya-swaroop-convenes-acharya-sangeet-meeting",
+      "category": "national"
+    },
+    {
+      "title": "निजी यात्रामा आएका प्रधानमन्त्रीसँग भेट्न पाएनन् मुस्ताङीले",
+      "description": "सुरक्षाको सबै जिम्मेवारी सेनालाई दिएर बालेन धादिङ र बागलुङमा सेनाको ब्यारेकमा छिरे । तर जनतासँग भेटेनन् ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-24T16:05:42+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003050/mustangi-was-unable-to-meet-the-prime-minister-who-was-on-a-private-trip",
+      "category": "politics"
+    },
+    {
       "title": "नारायण जोशीको ३ विकेटमा नेपाल ए टोलीले होबार्ट एकेडेमीलाई हरायो",
       "description": "नेपालको ए राष्ट्रिय क्रिकेट टोलीले अस्ट्रेलियाको डार्बीनमा भइरहेको टी-२० सिरिजमा पहिलो जित निकालेको छ।",
       "imageUrl": "",
@@ -141,13 +403,13 @@
       "category": "national"
     },
     {
-      "title": "१९२३ को सन्धि : नेपाललाई विश्व समुदायमा प्रवेश गराउने कूटनीतिक द्वार",
-      "description": "राणा शासनपछिका प्रजातन्त्र र राजतन्त्र दुवैले राणा निरङ्कुशताका बीचमा प्राप्त प्रभावशाली उपलब्धिलाई पर्याप्त श्रेय दिन स्वाभाविक अनिच्छा देखाए । राजनीतिक कार्यकर्ता, नेतृत्व र दलहरूमाथि गरिएको दमनका कारण प्रजातान्त्रिक शक्तिहरू पनि राणा शासनका सकारात्मक उपलब्धिप्रति उदार बन्न सकेनन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Dr-Tika-Dhakal-3-1.jpg",
+      "title": "सरकारको करदाता पुरस्कारले यसरी बदल्दैछ बजार र उपभोक्ता बानी",
+      "description": "बिल माग्नुलाई केवल पुरस्कार जित्ने अवसरका रूपमा मात्र नभई, सुशासन र पारदर्शी अर्थतन्त्र निर्माणमा एक जिम्मेवार नागरिकको कर्तव्य हो भन्ने चेतना हरेक उपभोक्तामा विकास हुन जरुरी छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/DSC08174.jpg",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
       "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:58:27+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002440/the-treaty-of-1923-the-diplomatic-gateway-that-brought-nepal-into-the-world-community",
+      "publishedTime": "2026-08-24T16:03:17+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003051/this-is-how-the-governments-taxpayer-rewards-are-changing-markets-and-consumer-habits",
       "category": "politics"
     },
     {
@@ -169,16 +431,6 @@
       "publishedTime": "2026-08-24T15:57:15+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2003106/cockroach-party-hits-the-streets-again-in-india",
       "category": "politics"
-    },
-    {
-      "title": "मनकामनामा गोरखाका पर्यटकीय गन्तव्यबारे जानकारी दिन ‘डिजिटल बोर्ड’",
-      "description": "गोरखा । प्रसिद्ध धार्मिक तथा पर्यटकीयस्थल मनकामना आउने पर्यटकलाई गोरखासम्म पुग्ने वातावरण बनाउने उद्देश्यले मनकामना परिसरमा गोरखाका पर्यटकीय गन्तव्यबारे जानकारी दिन डिजिटल सूचना पाटी (बोर्ड) स्थापना गरिएको छ । गोरखा उद्योग वाणिज्य सङ्घले मनकामना मन्दिर क्षेत्रमा",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/manakamana_NBl1zltV44.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T15:56:55+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587108/digital-board-to-provide-information-about-tourist-destinations-in-gorkha-in-manakamana",
-      "category": "national"
     },
     {
       "title": "नेपालमै बनेको ‘यात्री पी-२’ सार्वजनिक, १५७ किलोमिटरसम्म रेन्ज (फोटो फिचर)",
@@ -211,14 +463,14 @@
       "category": "national"
     },
     {
-      "title": "एक वर्षमा १० वर्ष मुनिका २५० बालिका बलात्कृत, अधिकांश पीडक चिनेजानेकै",
-      "description": "नाबालिकाको हकमा अधिकांशजसो चिनेजानेकै व्यक्तिबाट बलात्कार हुने प्रहरी अधिकारीहरूको बुझाइ छ । नाबालिकाहरू एक्लै कतै टाढा नजाने, घर वरपर खेल्ने, बस्ने हुँदा चिनेजानेकै व्यक्ति तथा आफन्तबाट बलात्कार हुने जोखिम रहेको उनीहरूको बुझाइ छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/rape-1.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:43:39+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002858/250-girls-under-10-raped-in-one-year-most-of-them-by-known-perpetrators",
-      "category": "national"
+      "title": "विश्वासकाे मतअघि नै राप्रपा बागमतीका तीन सांसद पदमुक्त",
+      "description": "काठमाडाैँ । राप्रपाले केन्द्रकाे निर्देशन विपरीत बागमती प्रदेश सरकारमा सहभागी भएका तीन सांसदलाई पदमुक्त गरेकाे छ । पार्टीको पटकपटकको निर्देशन अवज्ञा गरेको, पार्टीको ह्विप उल्लंघन गरेको र पार्टीको केन्द्रीय कार्यसम्पादन समितिको निर्णय विपरीत बागमती प्रदेश सरकारमा सहभागी",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/cover-recovered-recovered-recovered-recovered-recovered-recovered-recovered_MmQfnkd6DP.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T15:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587085/three-rpp-bagmati-mps-resign-before-vote-of-confidence",
+      "category": "politics"
     },
     {
       "title": "इरान पुगे पाकिस्तानी सेनापति, प्रमुख नेताहरूसँग भेटवार्ता गर्ने",
@@ -231,36 +483,6 @@
       "category": "national"
     },
     {
-      "title": "संसद्‌मा एक स्वर : बलात्कारविरुद्धको कानुन अपर्याप्त",
-      "description": "राजनीतिक विषय र सरकारका कतिपय नीतिमा सत्तापक्ष र प्रतिपक्ष संसद्मा आमनेसामने हुन्छन् । तर सोमबार प्रतिनिधिसभामा जुनकुनै समयमा बोल्ने सबै सांसदले एउटै कुरा उठाए– बलात्कारविरुद्धको कानुन पर्याप्त छैन । यस्तो अपराध गर्ने सोच आउनै नसक्ने गरी कानुन बनाइनुपर्छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Parliament-On-Rape.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:41:21+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003079/one-voice-in-parliament-law-against-rape-is-inadequate",
-      "category": "politics"
-    },
-    {
-      "title": "ओली चलायमान हुँदा विष्णु पौडेल मौन",
-      "description": "फागुनको आम चुनावमा एमालेको ठूलो पराजयपछि विष्णु पौडेलले सबैभन्दा पहिले नेतृत्व परिवर्तनको नारा दिएका थिए । त्यसबेला मौन ओली यतिबेला सक्रिय छन् । अनि परिवर्तन बोल्ने पौडेलचाहिं मौन ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Bishnu-Paudel.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:39:40+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003010/bishnu-poudel-remains-silent-while-oli-is-in-power",
-      "category": "national"
-    },
-    {
-      "title": "विधान विपरीत नियमन अधिकार प्रदेश र स्थानीय तहलाई दिँदा सहकारीको खर्बौं बचत संकटमा",
-      "description": "सहकारी ऐन २०७४ ले नियमन अधिकार प्रदेश र स्थानीय तहलाई पनि दिएको छ । तर, सहकारीका सञ्चालकले बचतकर्ताको २ खर्बभन्दा बढी निक्षेप फिर्ता नगर्दा संघ, प्रदेश र स्थानीय तहले कसैले पनि प्रभावकारी रूपमा पीडितलाई न्याय दिन सकेका छैनन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/image-2026-08-24T190312.274.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:37:51+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002939/cooperatives-savings-in-danger-as-regulatory-powers-are-given-to-provinces-and-local-levels-contrary-to-the-constitution",
-      "category": "national"
-    },
-    {
       "title": "भैँसी बेचेर बीएससी , साथीका किताब पढेर प्रहरी निरीक्षक बनेका धिराजन परियार",
       "description": "लोकसेवा तयारीका लागि आवश्यक पुस्तक किन्नसमेत समस्या हुँदा साथी निश्चल कुश्वाहा महतोले आवश्यक पुस्तकहरू किनिदिएको उनी बताउँछन् ।",
       "imageUrl": "",
@@ -269,26 +491,6 @@
       "publishedTime": "2026-08-24T15:37:13+00:00",
       "articleUrl": "https://nepalpress.com/2026/08/24/756791/dhirajan-pariyar-became-a-police-inspector-after-selling-buffaloes-and-becoming-a-b-sc-after-reading-a-friends-book/",
       "category": "national"
-    },
-    {
-      "title": "आरोपितको भाइरल भिडियोले उठ्यो अनुसन्धान गोपनीयतामा प्रश्न",
-      "description": "बारामा बालिका बलात्कारको घटनाका आरोपित किशोरको बयानको भिडियो बाहिरिएपछि प्रहरी अनुसन्धानको संवेदनशीलता र गोपनीयताको मापदण्ड कति पालना गरियो भन्ने प्रश्न उठेको हो।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/bara-garima-2.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:35:15+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002920/viral-video-of-accused-raises-questions-about-investigation-confidentiality",
-      "category": "national"
-    },
-    {
-      "title": "निजी यात्रामा आएका प्रधानमन्त्रीसँग भेट्न पाएनन् मुस्ताङीले",
-      "description": "सुरक्षाको सबै जिम्मेवारी सेनालाई दिएर बालेन धादिङ र बागलुङमा सेनाको ब्यारेकमा छिरे । तर जनतासँग भेटेनन् ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:33:42+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003050/mustangi-was-unable-to-meet-the-prime-minister-who-was-on-a-private-trip",
-      "category": "politics"
     },
     {
       "title": "प्रेस काउन्सिलको निर्देशनपछि २१ मिडिया तथा सामाजिक सञ्जाल अकाउन्टले हटाए बारा घटनाका आरोपितको बयान भिडिओ",
@@ -311,16 +513,6 @@
       "category": "politics"
     },
     {
-      "title": "‘तीन वर्षभित्र फोहोर शून्य बनाउने गरी कानुन बनाउँदै छौँ’",
-      "description": "त्यहाँ तयार गरिएको ल्यान्डफिल साइटको क्षेत्रभित्रै मानिसहरू बसिरहेका छैनन् । फोहोर र मानिस एकै ठाउँमा छैनन् । तर मानिसहरू पीडित छन् । त्यसलाई समाधान गर्नैपर्छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Sunil-Lamsal-Interview-2.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:31:03+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002778/we-are-making-laws-to-achieve-zero-waste-within-three-years",
-      "category": "national"
-    },
-    {
       "title": "छातीमा समस्या आएपछि सभामुख अस्पताल भर्ना",
       "description": "काठमाडौं । प्रतिनिधिसभा सभामुख डोलप्रसाद अर्याल उपचारका लागि अस्पताल भर्ना भएका छन् । छातीमा समस्या देखिएपछि अर्याललाई साढे ७ बजे महाराजगञ्जस्थित त्रिभुवन विश्वविद्यालय शिक्षण अस्पतालको कार्डियोभास्कुलर तथा ट्रान्सप्लान्ट सेन्टरअन्तर्गत सीसीयूमा भर्ना गरिएको हो । उनको क्याबिन नम्बर २१५ मा उपचार भइरहेको छ । अचानक छातीमा समस्या आएपछि उनी हस्पिटल गएका थिए । The",
       "imageUrl": "",
@@ -329,6 +521,16 @@
       "publishedTime": "2026-08-24T15:30:19+00:00",
       "articleUrl": "https://rajdhanidaily.com/id/146067/",
       "category": "national"
+    },
+    {
+      "title": "जय नेपाल पार्टीले गठन गर्‍यो पाँच सदस्यीय वार्ता समिति",
+      "description": "काठमाडौं । जय नेपाल पार्टीले विचार मिल्ने विभिन्न दल, समूह तथा अभियानसँग एकताका लागि पाँच सदस्यीय वार्ता समिति गठन गरेको छ । पार्टीले गठन गरेको वार्ता समितिको संयोजकमा नारायण कोइराला छन् भने सदस्यहरूमा सुरेशप्रसाद आचार्य, प्रज्ज्वल",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/phto_FW0ykqxVUw.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-24T15:30:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/586961/jai-nepal-party-forms-five-member-negotiation-committee",
+      "category": "politics"
     },
     {
       "title": "नेपाल लाइफको ‘बिजनेस एक्सिलेन्स कन्फ्रेन्स’ सम्पन्न",
@@ -421,26 +623,6 @@
       "category": "national"
     },
     {
-      "title": "रास्वपासहित चार दलका नेता-सांसदलाई छुट्टाछुट्टै प्रशिक्षण, एनडीआईको समन्वय",
-      "description": "संसद् र सडकमा सधैं राजनीतिक जोडघटाउ र आरोप-प्रत्यारोपमा व्यस्त रहने नेपालका प्रमुख राजनीतिक दलका नेताहरू यतिबेला भने ‘विद्यार्थी’ बनेका छन्।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/image-80.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:20:02+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003037/separate-training-for-leaders-and-mps-of-four-parties-including-the-rashtriya-swayamsevak-sangh-rss-coordinated-by-ndi",
-      "category": "politics"
-    },
-    {
-      "title": "उपभोक्ता आफैं सचेत नभएसम्म बजारको ठगी रोकिँदैन",
-      "description": "बजारमा जाँदा उपभोक्ता आफूले किनेको वस्तु गुणस्तरीय छ कि छैन, लेबलमा सही विवरण छ कि छैन र आफू ठगिएमा कहाँ उजुरी गर्ने भन्ने विषयमा कति सचेत छन् ? बजारमा कृत्रिम अभाव सिर्जना गरी मूल्य बढाउनेदेखि मिसावटयुक्त वस्तु तथा म्याद गुज्रिएका सामान बिक्री गर्ने समस्या छ। भ्रामक विज्ञापन गर्नेदेखि समान किन्दा बिल नदिने प्रवृत्ति पनि उत्तिकै […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/image-8-5.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:18:36+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/1999053/market-fraud-will-not-stop-until-consumers-themselves-become-aware",
-      "category": "national"
-    },
-    {
       "title": "आज विश्वासकाे मत लिन असफल भए बागमतीका मुख्यमन्त्री",
       "description": "हेटौँडा। बागमती प्रदेशका मुख्यमन्त्री किरण थापा मगरले विश्वासको मत लिने तयारीमा रहेको बेला सत्ता गठबन्धनभित्रकै विवाद चर्किएपछि प्रदेशसभा बैठक अन्योलमा परेको छ। राप्रपाभित्र सरकारलाई समर्थन गर्ने विषयमा देखिएको विवाद र नेपाली कम्युनिस्ट पार्टी (नेकपा)भित्र मन्त्री छनोटलाई",
       "imageUrl": "https://npcdn.ratopati.com/media/news/kiran-thapa_7GZkzfxqsT.jpg",
@@ -468,16 +650,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-08-24T15:15:58+00:00",
       "articleUrl": "https://www.ratopati.com/story/587095/malaysia-employment-how-were-25-manpower-companies-selected",
-      "category": "national"
-    },
-    {
-      "title": "सत्य-स्वरुपले जमाए आचार्य संगीतको बैठकी",
-      "description": "भारतमा रवीन्द्रनाथ टैगोरका रचनालाई रवीन्द्र संगीत भनिएझैं के भक्तराजका संगीतलाई आचार्य संगीत भनिएला ? सायद यो प्रश्नको जवाफ सत्य स्वरुपको निरन्तरतामा भेटिने छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/hajar-sapana-with-satya-swaroop-big-banner.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T15:14:24+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2002989/satya-swaroop-convenes-acharya-sangeet-meeting",
       "category": "national"
     },
     {
@@ -551,16 +723,6 @@
       "category": "politics"
     },
     {
-      "title": "सरकारको करदाता पुरस्कारले यसरी बदल्दैछ बजार र उपभोक्ता बानी",
-      "description": "बिल माग्नुलाई केवल पुरस्कार जित्ने अवसरका रूपमा मात्र नभई, सुशासन र पारदर्शी अर्थतन्त्र निर्माणमा एक जिम्मेवार नागरिकको कर्तव्य हो भन्ने चेतना हरेक उपभोक्तामा विकास हुन जरुरी छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/DSC08174.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-24T14:58:17+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003051/this-is-how-the-governments-taxpayer-rewards-are-changing-markets-and-consumer-habits",
-      "category": "politics"
-    },
-    {
       "title": "जेनजी आन्दोलनका शहीद परिवार र घाइतेका माग सम्बोधन गर्न समर्पित संयन्त्र गठन गरिने",
       "description": "काठमाडौं । जेनजी आन्दोलनका शहीद परिवार तथा घाइते व्यक्तिहरूका माग सम्बोधन गर्न नेपाल सरकारले समर्पित संयन्त्र (डेडिकेटेड टिम) मार्फत काम अघि बढाउने भएको छ। गृह मन्त्रालयमा सोमबार गृहमन्त्री सुधन गुरुङको नेतृत्वमा भएको छलफलमा कानुन, न्याय तथा संसदीय मामिला मन्त्री सोविता गौतम, प्रतिनिधिसभाका सदस्यहरू, मुख्य सचिव, गृहसचिव, जेनजी आन्दोलनका शहीद परिवार तथा घाइते",
       "imageUrl": "",
@@ -621,16 +783,6 @@
       "category": "national"
     },
     {
-      "title": "आज बस्न सकेन बागमती प्रदेश सभा बैठक, भोलि अपराह्न ४ बजे बस्ने",
-      "description": "हेटौँडा । बागमती प्रदेश सभाको बैठक आज बस्न नसकेपछि भोलि (भदौ ९ गते) अपराह्न ४ बजेका लागि सारिएको छ। प्रदेश सभाका सचिव रामकुमार पाैडेलले सोमबार सूचना जारी गर्दै विशेष कारणवश आज राति ८ बजेका लागि निर्धारित",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bagmati-pradesh-sabha-(1)_7btS6XzP8k.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T14:46:53+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587096/bagmati-province-assembly-meeting-could-not-be-held-today-will-be-held-tomorrow-at-4-pm",
-      "category": "national"
-    },
-    {
       "title": "दोलखामा फिल्म सिटी : १५ वर्षदेखि अधुरै",
       "description": "स्विस सरकारले जिरीमा विगतमा गरेको सहकार्यको उदाहरण दिँदै फिल्म सिटीमा पनि लगानी गर्न सक्ने चासो देखाएको उनको भनाइ छ । फिल्म सिटीको पूर्वाधार तथा मास्टर प्लानसम्बन्धी तयारी भइसकेकाले सरकारले पहल गरे परियोजनामा विदेशी लगानी आकर्षित गर्न सकिने दासले बताएका छन् ।",
       "imageUrl": "",
@@ -681,26 +833,6 @@
       "category": "politics"
     },
     {
-      "title": "वीरगञ्जमा प्रोटोनको ११औँ शोरुम उद्घाटन, नयाँ विद्युतीय गाडी ‘इ.मास ५’ सार्वजनिक",
-      "description": "वीरगञ्ज । नेपालका लागि प्रोटोन गाडीको आधिकारिक वितरक जगदम्बा मोटर्स प्रा.लि.ले मधेस प्रदेशको प्रमुख व्यापारिक सहर वीरगञ्जमा आफ्नो नयाँ आधिकारिक शोरुम सञ्चालनमा ल्याएको छ। एक विशेष समारोहकाबिच शोरुमको उद्घाटन गर्दै कम्पनीले आफ्नो नयाँ विद्युतीय सवारी ‘द अल-न्यू",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/proton_X9Fdri52zQ.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T14:32:07+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587093/protons-11th-showroom-inaugurated-in-birgunj-new-electric-vehicle-emass-5-unveiled",
-      "category": "national"
-    },
-    {
-      "title": "जेनजीका माग सम्बोधन गर्न विशेष कार्यदल",
-      "description": "काठमाडौँ । जेनजी आन्दोलनका शहीद परिवार तथा घाइतेका माग सम्बोधन गर्न सरकारले विशेष कार्यदलमार्फत काम अघि बढाउने भएको छ । गृहमन्त्री सुधन गुरुङको अध्यक्षतामा आज उनको कार्यकक्षमा भएको छलफलमा कानुन, न्याय तथा संसदीय मामिलामन्त्री सोविता गौतम,",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/home-ministry_PgjvmWym5l.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T14:31:09+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587092/special-task-force-to-address-genjis-demands",
-      "category": "politics"
-    },
-    {
       "title": "बागमतीमा मन्त्री रहेका ३ सांसदलाई राप्रपाले गर्‍यो कारबाही",
       "description": "",
       "imageUrl": "",
@@ -711,16 +843,6 @@
       "category": "politics"
     },
     {
-      "title": "नेपाली अटोमोबाइल क्षेत्रमा फड्को : आयातबाट उत्पादन र आत्मनिर्भरतातर्फको यात्रा",
-      "description": "काठमाडौँ। नाडा अटोमोबाइल्स एसोसिएसन अफ नेपालले आफ्नो स्थापनाको ५०औँ वर्ष (स्वर्ण जयन्ती) मनाउँदै गर्दा नेपालको अटोमोबाइल क्षेत्रमा अभूतपूर्व परिवर्तन देखिएको जनाएको छ। सन् १९७७ मा नेपालमा वर्षभरि जम्मा ८०१ वटा नयाँ सवारीसाधन दर्ता भएको इतिहास",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/nada_XahAN081ul.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T14:27:46+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587091/leapfrogging-in-the-nepali-automobile-sector-a-journey-from-imports-to-production-and-self-reliance",
-      "category": "national"
-    },
-    {
       "title": "स्याङ्जामा जिप दुर्घटना : दुई जनाको घटनास्थलमै मृत्यु, चालकसहित १० जना घाइते",
       "description": "स्याङ्जा । स्याङ्जाको गल्याङ नगरपालिका–८ करादीमा सोमबार साँझ बोलेरो जिप दुर्घटना हुँदा दुई जनाको घटनास्थलमै मृत्यु भएको छ भने चालकसहित १० जना घाइते भएका छन् । गल्याङबाट गल्याङ नगरपालिका–९ साङ्लियातर्फ जाँदै गरेको ग१ज ६५३४ नम्बरको जिप साँझ करिब पौने ६ बजे दुर्घटनामा परेको हो । उकालोमा नियन्त्रण गुमाउँदा जिप दुर्घटनामा परेको जनाइएको छ । बोलेरोमा […] The post स",
       "imageUrl": "",
@@ -728,16 +850,6 @@
       "sourceName": "राजधानी",
       "publishedTime": "2026-08-24T14:27:13+00:00",
       "articleUrl": "https://rajdhanidaily.com/id/146059/",
-      "category": "national"
-    },
-    {
-      "title": "नेपालमा एसआरएमका १ हजार १११ ईभी बिक्री, १० हजार पुर्‍याउने लक्ष्य",
-      "description": "काठमाडौँ। भिजी मोटर्सले नेपालमा एसआरएम ब्रान्डका १ हजार १११ वटा विद्युतीय सवारी (ईभी) बिक्री गरेको छ। कम्पनीले अब नेपाली सडकमा १० हजार एसआरएम ईभी पुर्‍याउने लक्ष्य तय गरेको छ। एसआरएमको आधिकारिक आयातकर्ता तथा वितरक भिजी मोटर्सले",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/ev_kefNt28yhp.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T14:25:30+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587090/srm-sells-1111-evs-in-nepal-aims-to-reach-10000",
       "category": "national"
     },
     {
@@ -759,36 +871,6 @@
       "publishedTime": "2026-08-24T14:23:59+00:00",
       "articleUrl": "https://nepalnews.com/2026/08/24/pokhara-jomsom-flights-resume/",
       "category": "business"
-    },
-    {
-      "title": "यात्री पी–२ विद्युतीय स्कुटर तीन भेरियन्टमा सार्वजनिक, २०७ किलोमिटर रेन्ज",
-      "description": "काठमाडौँ। नेपालमा निर्माण गरिएको विद्युतीय स्कुटर यात्री पी–२ सार्वजनिक भएको छ। यात्रीले पी–२ लाई तीनवटा भेरियन्टमा बजारमा ल्याएको हो। पी–२ को टप भेरियन्टमा ५.२ किलोवाट–घण्टा (kWh) क्षमताको ब्याट्री राखिएको छ। कम्पनीका अनुसार यसले एकपटकको चार्जमा २०७",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/yatri_MHBJNm9SZd.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T14:22:25+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587089/yatri-p-2-electric-scooter-launched-in-three-variants-207-km-range",
-      "category": "national"
-    },
-    {
-      "title": "दिल्लीमा सीजेपीले फेरि विरोध प्रदर्शन गर्ने, नीट पीडितका परिवार पनि सहभागी हुने",
-      "description": "नयाँ दिल्ली । कक्रोच जनता पार्टी (सीजेपी) ले आगामी सेप्टेम्बर ५ तारिखमा दिल्लीमा विशाल विरोध मार्च निकाल्ने घोषणा गरेको छ । केन्द्र सरकारले गत जुलाई २५ मा युवाहरूसँग गरेका वाचाहरू पूरा नगरेको आरोप लगाउँदै पार्टीले पुनः आन्दोलनको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/cjp-happy_y4xoh3f7cq_gYdtkn1mH7.png",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T14:22:01+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587088/cjp-to-protest-again-in-delhi-families-of-neet-victims-to-also-participate",
-      "category": "national"
-    },
-    {
-      "title": "बीपी प्रतिष्ठानका तीन पदाधिकारीका लागि १४ जना अन्तर्वार्तामा छनोट",
-      "description": "धरान। बीपी कोइराला स्वास्थ्य विज्ञान प्रतिष्ठानको शिक्षाध्यक्ष, रजिष्ट्रार र अस्पताल निर्देशक पदका लागि १४ जना उम्मेदवार अन्तर्वार्ताका लागि छनोट भएका छन्। प्रतिष्ठानले सोमबार सार्वजनिक गरेको सूचनाअनुसार शिक्षाध्यक्ष पदमा प्रा.डा. काजीराम अधिकारी, प्रा.डा. कृष्ण पोखरेल, प्रा.डा. रोबिन",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/BP-Koirala-Health-Institute-dhrana_KABUkSqtZ4.png",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T14:18:56+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587087/14-people-selected-in-interviews-for-three-office-bearers-of-bp-foundation",
-      "category": "national"
     },
     {
       "title": "प्रख्यात ‘कन्ट्री’ गायिका तथा अमेरिकी सांगीतिक दूत जेसिका लिन काठमाडौंमा",
@@ -861,16 +943,6 @@
       "category": "national"
     },
     {
-      "title": "रातोपाटीद्वारा ‘नाडा अटो शो’ विशेष पेज सञ्चालनमा",
-      "description": "काठमाडौँ । रातोपाटी न्युज नेटवर्कद्वारा सञ्चालित रातोपाटी डटकमले ‘नाडा अटो शो–२०२६’ विशेष पेज सञ्चालनमा ल्याएको छ । नाडा अटोमोवाइल्स एशोसिएशन अफ नेपालको आयोजनामा राजधानीको भृकुटीमण्डपमा मंगलबारदेखि सुरु हुने ‘नाडा अटो शो’ लाई लक्षित गर्दै रातोपाटीले",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/nada_FrYUlLvB5p.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T14:06:51+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587086/ratopati-launches-nada-auto-show-special-page",
-      "category": "national"
-    },
-    {
       "title": "जुरेलको शतकमा भारत बलियो, श्रीलंका दबाबमा",
       "description": "",
       "imageUrl": "",
@@ -881,26 +953,6 @@
       "category": "sports"
     },
     {
-      "title": "विश्वासकाे मतअघि नै राप्रपा बागमतीका तीन सांसद पदमुक्त",
-      "description": "काठमाडाैँ । राप्रपाले केन्द्रकाे निर्देशन विपरीत बागमती प्रदेश सरकारमा सहभागी भएका तीन सांसदलाई पदमुक्त गरेकाे छ । पार्टीको पटकपटकको निर्देशन अवज्ञा गरेको, पार्टीको ह्विप उल्लंघन गरेको र पार्टीको केन्द्रीय कार्यसम्पादन समितिको निर्णय विपरीत बागमती प्रदेश सरकारमा सहभागी",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/cover-recovered-recovered-recovered-recovered-recovered-recovered-recovered_MmQfnkd6DP.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T14:04:23+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587085/three-rpp-bagmati-mps-resign-before-vote-of-confidence",
-      "category": "politics"
-    },
-    {
-      "title": "उत्पादनअघि नै बजार सुनिश्चित, किसान उत्साहित",
-      "description": "कञ्चनपुर । आलु बिक्रीको सुनिश्चितता भएपछि कञ्चनपुरका किसान खुसी भएका छन् । कृषि ज्ञान केन्द्र कञ्चनपुरको समन्वयमा कञ्चनपुरका किसान र फस्ट च्वाइस फुड्स लिमिटेडबीच यहाँका किसानले ८० बिघा जमिनमा उत्पादन गरेको आलु खरिद गर्ने सम्झौता",
-      "imageUrl": "https://rpcdn.ratopati.com/archived-media/aalu.png",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T14:01:11+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587084/farmers-excited-as-market-assured-before-production",
-      "category": "national"
-    },
-    {
       "title": "प्रहरीले जित्यो भदौरे मेलाको उपाधि",
       "description": "राधा लुइटेलफिदिम, भदौ ८ गते । पाँचथरको फालेलुङ गाउँपालिका –८, आकाशेमा आयोजित भदौरे मेलाको अवसरमा आयोजित फुटबल प्रतियोगिताको उपाधि जिल्ला प्रहरी कार्यालय पाँचथरले जितेको छ ।प्रतिश्प...",
       "imageUrl": "https://gorkhapatraonline.com/storage/media/377898/conversions/Dpo-team-original.jpg",
@@ -908,16 +960,6 @@
       "sourceName": "गोरखापत्र",
       "publishedTime": "2026-08-24T13:58:09+00:00",
       "articleUrl": "https://gorkhapatraonline.com/news/219718",
-      "category": "national"
-    },
-    {
-      "title": "हिमालय एअरलाइन्सको इनफ्लाइट खाना सेवामा परिवर्तन",
-      "description": "काठमाडौँ । हिमालय एअरलाइन्सले आगामी १ सेप्टेम्बर २०२६ देखि आफ्ना उडानमा उपलब्ध गराउँदै आएको निःशुल्क खानाको व्यवस्थामा परिवर्तन गर्ने भएको छ। एअरलाइन्सका अनुसार अब यात्रुहरूलाई निःशुल्क पूर्ण भोजनको सट्टा ड्राई स्न्याक्स उपलब्ध गराइनेछ। यात्राका क्रममा पूर्ण",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/himalayan_airlines_2_1_817m3gR9NM.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T13:57:44+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587083/changes-to-himalaya-airlines-inflight-food-service",
       "category": "national"
     },
     {
@@ -938,16 +980,6 @@
       "sourceName": "गोरखापत्र",
       "publishedTime": "2026-08-24T13:52:20+00:00",
       "articleUrl": "https://gorkhapatraonline.com/news/219717",
-      "category": "national"
-    },
-    {
-      "title": "बालिका हत्या प्रकरणको भिडियोमा आचारसंहिता उल्लङ्घन, तत्काल हटाउन काउन्सिलकाे निर्देशन",
-      "description": "काठमाडौँ । प्रेस काउन्सिल नेपालले बारामा तीन वर्षीया बालिकाको बलात्कारपछि हत्या भएको घटनामा पक्राउ परेका आरोपितको बयान भन्दै प्रसारित भिडियो सामग्रीमा गम्भीर आचारसंहिता उल्लङ्घन भएको जनाएको छ। काउन्सिलले उक्त घटनासम्बन्धी प्रकाशित तथा प्रसारित सामग्रीको अनुगमन गर्ने",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/press-council-nepal-pcn-council_aZahDWpvnv.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T13:49:30+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587081/video-of-girls-murder-case-violates-code-of-conduct-council-directs-immediate-removal",
       "category": "national"
     },
     {
@@ -1029,16 +1061,6 @@
       "publishedTime": "2026-08-24T13:42:05+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2003014/preparations-for-nada-auto-show-complete-parking-arrangements-at-two-locations",
       "category": "national"
-    },
-    {
-      "title": "प्रधानमन्त्रीलाई प्रश्न सोध्न ११ सांसदको नाम दर्ता",
-      "description": "काठमाडौँ। सङ्घीय संसद्‌मा प्रधानमन्त्री बालेन्द्र शाहसँग हुने प्रत्यक्ष प्रश्नोत्तर कार्यक्रमका लागि विभिन्न राजनीतिक दलका ११ जना सांसदले आफ्ना प्रश्न दर्ता गराएका छन्। नियमावलीअनुसार दलीय उपस्थितिका आधारमा १५ जना सांसदले प्रश्न सोध्न पाउने व्यवस्था भए पनि हालसम्म",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/sansad-balen_RgmENulnqJ.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-24T13:40:01+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587080/11-mps-register-to-ask-questions-to-the-prime-minister",
-      "category": "politics"
     },
     {
       "title": "कांग्रेस महाधिवेशन रोक्ने देउवा र खड्काको छुट्टाछुट्टै रिट अध्ययनकै क्रममा",
@@ -1431,16 +1453,6 @@
       "category": "business"
     },
     {
-      "title": "अमेरिकी साङ्गीतिक दूत जेसिका लीन काठमाडौंमा",
-      "description": "काठमाडौँ। नेपालस्थित अमेरिकी दूतावासको आमन्त्रणमा ‘कन्ट्री’ विधाकी प्रख्यात अमेरिकी गायिका तथा गीतकार जेसिका लीन नेपाली सङ्गीतकर्मी तथा सङ्गीत उद्योगका पेसाकर्मीहरूसँग भदौ ८ देखि १३ गतेसम्म चल्ने सप्ताहव्यापी व्यावसायिक आदानप्रदान, मार्गदर्शन तथा सहकार्यका लागि काठमाडौँ आइपुगेकी छन्। यो कार्यक्रम अमेरिकी विदेश मन्त्रालयको शैक्षिक तथा सांस्कृतिक मामिला ब्युरो",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-08-24T12:17:15+00:00",
-      "articleUrl": "https://nepalnews.com/2026/08/24/american-music-ambassador-jessica-lynn-in-kathmandu/",
-      "category": "business"
-    },
-    {
       "title": "राष्ट्रिय परिचयपत्र लिंक नभएकाले मोबाइल बैंकिङ २४ घण्टाभित्र बन्द भन्दै ठगी",
       "description": "काठमाडौं । पछिल्लो समय राष्ट्रिय परिचयपत्र लिंक नगरेको बहानामा सर्वसाधारणको मोबाइल बैंकिङ सेवा बन्द हुने भन्दै म्यासेज पठाएर ठगी गर्ने गिरोह सक्रिय भएको पाइएको छ । नेपाल प्रहरीको साइबर ब्यूरोले एक विशेष सूचना जारी गर्दै यस्ता भ्रामक म्यासेज र शंकास्पद लिंकहरूबाट बच्न सर्वसाधारणलाई आग्रह गरेको हो। ठगी गर्ने समूहले सर्वसाधारणको मोबाइलमा एउटा म्यासेज पठाउने गरे",
       "imageUrl": "",
@@ -1489,16 +1501,6 @@
       "publishedTime": "2026-08-24T12:08:02+00:00",
       "articleUrl": "https://nepalpress.com/2026/08/24/756818/date-set-for-janmats-second-general-convention-instructions-to-renew-membership-within-bhadra/",
       "category": "national"
-    },
-    {
-      "title": "पीपीपी मोडलका समस्या फुकाउन पूर्वाधार समितिको अग्रसरता, १५ दिनभित्र लिखित सुझाव दिन निर्देशन",
-      "description": "काठमाडौं । प्रतिनिधि सभाअन्तर्गतको पूर्वाधार विकास समितिले देशको पूर्वाधार विकासमा सार्वजनिक–निजी साझेदारी (पीपीपी) मोडल कार्यान्वयन गर्दा देखिएका व्यावहारिक तथा कानुनी अड्चन फुकाउन निजी क्षेत्रसँग सुझाव मागेको छ । सोमबार बसेको समितिको बैठकले १५ दिनभित्र स्पष्ट सुझाव तथा धारणा पेस गर्न निजी क्षेत्रका छाता संगठनहरू र लगानी बोर्डलाई औपचारिक निर्देशन दिएको हो ।",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-08-24T12:07:48+00:00",
-      "articleUrl": "https://clickmandu.com/2026/08/485022.html",
-      "category": "business"
     },
     {
       "title": "ऊर्जा नीति, सडक सुधार र दुर्घटना न्यूनीकरण भौतिक मन्त्रालयको प्राथमिकता",
@@ -4581,6 +4583,16 @@
       "category": "politics"
     },
     {
+      "title": "लुम्बिनीमा मन्त्रिपरिषद् पुनःगठनको सिफारिस",
+      "description": "लुम्बिनी प्रदेश सरकारको मन्त्रिपरिषद् पुनःगठनका लागि सिफारिस गरिएको छ। मुख्यमन्त्री चेतनारायण आचार्यले प्रदेश प्रमुखसमक्ष नेपालको संविधानको धारा १६८ को उपधारा ९ बमोजिम गठित तथा पुनःगठित मौजुदा मन्त्रिपरिषद्को कार्यविभाजनसहित सिफारिस गरेका हुन्।मन्त्रिपरिषद् पुनःगठनका लागि नेपाली कम्युनिष्ट पार्टी (नेकपा) बाट तीन जना नयाँ मन्त्री नियुक्तिका लागि सिफारिस गरिएक",
+      "imageUrl": "",
+      "sourceLogo": "https://www.lokaantar.com/favicon.ico",
+      "sourceName": "लोकान्तर",
+      "publishedTime": "",
+      "articleUrl": "http://lokaantar.com/story/327133/2026/8/24/lumbini-pradesh-",
+      "category": "national"
+    },
+    {
       "title": "युरोपमा यस वर्षको गर्मी किन बन्यो जलवायु चिन्ताको विषय ?",
       "description": "यस वर्ष युरोपमा तापक्रम असामान्य रूपमा उच्च रह्यो । यो महाद्वीप अन्य कुनै पनि महादेशभन्दा छिटो तात्दै छ । युरोपको सन् २०२६ को गर्मी मौसम जलवायु परिवर्तनको इतिहासमा किन यादगार बन्दैछ यो चिन्ताको बिषय बनेको छ ।गर्मीयाममा ४० डिग्री सेल्सियस पुग्नु युरोपका केही भागमा सामान्य भइसकेको भए पनि सन् २०२६ मा अन्य औसत चिसो मौसम रहने क्षेत्रले पहिलो पटक यो सीमा पार गरेको",
       "imageUrl": "",
@@ -4638,6 +4650,16 @@
       "sourceName": "लोकान्तर",
       "publishedTime": "",
       "articleUrl": "http://lokaantar.com/story/327125/2026/8/24/rpp-",
+      "category": "politics"
+    },
+    {
+      "title": "जेनजीका माग सम्बोधन गर्न विशेष कार्यदल",
+      "description": "जेनजी आन्दोलनका शहीद परिवार तथा घाइतेका माग सम्बोधन गर्न सरकारले विशेष कार्यदलमार्फत काम अघि बढाउने भएको छ ।गृहमन्त्री सुधन गुरुङको अध्यक्षतामा आज उनको कार्यकक्षमा भएको छलफलमा कानुन, न्याय तथा संसदीय मामिलामन्त्री सोविता गौतम, प्रतिनिधिसभा सदस्य, मुख्य सचिव, गृहसचिव तथा जेन–जी आन्दोलनका शहीद परिवार र घाइतेका प्रतिनिधिको सहभागिता थियो ।छलफलमा गत वर्ष भदौ २३ र",
+      "imageUrl": "",
+      "sourceLogo": "https://www.lokaantar.com/favicon.ico",
+      "sourceName": "लोकान्तर",
+      "publishedTime": "",
+      "articleUrl": "http://lokaantar.com/story/327123/2026/8/24/home-ministry-",
       "category": "politics"
     },
     {
@@ -4728,26 +4750,6 @@
       "sourceName": "लोकान्तर",
       "publishedTime": "",
       "articleUrl": "http://lokaantar.com/story/327114/2026/8/24/nada-auto-show-",
-      "category": "national"
-    },
-    {
-      "title": "भन्सार छलीको सुनसहित एक जना पक्राउ",
-      "description": "कतारको दोहा हुँदै नेपाल एयरलाइन्समार्फत काठमाडौं आएका यात्रुहरूलाई प्रयोग गरी नेपालमा सुन ओसारपसार गरेको आरोपमा प्रहरीले एक जनालाई पक्राउ गरेको छ।त्रिभुवन अन्तर्राष्ट्रिय विमानस्थलको आगमनतर्फको पार्किङ क्षेत्रमा निगरानी तथा खोजतलास गर्दा धनुषाको क्षिरेश्वरनाथ नगरपालिका–५ का कृष्ण यादवलाई ७५ ग्राम बराबरको सुनको सिक्रीसहित नियन्त्रणमा लिएको प्रहरीले जनाएको छ।य",
-      "imageUrl": "",
-      "sourceLogo": "https://www.lokaantar.com/favicon.ico",
-      "sourceName": "लोकान्तर",
-      "publishedTime": "",
-      "articleUrl": "http://lokaantar.com/story/327113/2026/8/24/gold-",
-      "category": "national"
-    },
-    {
-      "title": "थाई गाँजा तस्करीको ट्रान्जिट बन्दै नेपाल, सयौं किलो यता आएर कहाँ जान्छ ?",
-      "description": "नेपालमा अहिले दैनिकजसो थाइल्यान्डबाट गाँजा तस्करी भइरहेका छन् । यहाँ उत्पादन हुने गाँजाभन्दा थाई गाँजा उच्च कोटीको हुने भन्दै यसको माग भारतमा बढिरहेको प्रहरी बुझाइ छ ।भारतमा गाँजाको बिक्री वितरण तथा सेवनविरुद्ध कडा कानून छ । त्यही भएर पनि नेपाल ट्रान्जिट हुने गरेको प्रहरी अनुसन्धानमा संलग्न अधिकारीहरूको भनाइ छ ।लागूऔषध नियन्त्रण ब्यूरोका अनुसार आर्थिक वर्ष २",
-      "imageUrl": "",
-      "sourceLogo": "https://www.lokaantar.com/favicon.ico",
-      "sourceName": "लोकान्तर",
-      "publishedTime": "",
-      "articleUrl": "http://lokaantar.com/story/327112/2026/8/24/thai",
       "category": "national"
     }
   ]
