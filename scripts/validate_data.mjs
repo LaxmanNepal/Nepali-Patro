@@ -1,9 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 const root=path.resolve('.');
-const fail=[];
-const warn=[];
-const readJSON=(p)=>{try{return JSON.parse(fs.readFileSync(path.join(root,p),'utf8'))}catch(e){fail.push(`Invalid JSON: ${p} (${e.message})`);return null}};
+const fail=[]; const warn=[];
+const readJSON=p=>{try{return JSON.parse(fs.readFileSync(path.join(root,p),'utf8'))}catch(e){fail.push(`Invalid JSON: ${p} (${e.message})`);return null}};
 const years=readJSON('data/years.json');
 if(!years){console.error(fail.join('\n'));process.exit(1)}
 if(years.minYear!==2040||years.maxYear!==2100||years.years?.length!==61)fail.push('Calendar range must be exactly BS 2040-2100');
@@ -12,12 +11,13 @@ for(const meta of years.years||[]){const p=`data/calendar/${meta.year}.json`;con
 const conversion=readJSON('data/conversion-index.json');if(conversion?.items){const bs=new Set(conversion.items.map(x=>x.bs));const ad=new Set(conversion.items.map(x=>x.ad));if(bs.size!==conversion.items.length||ad.size!==conversion.items.length)fail.push('Conversion index contains duplicates');}
 const converter=readJSON('data/converter-index.json');if(!converter||converter.minBS>1970||converter.maxBS<2100||!Array.isArray(converter.items)||converter.items.length<40000)fail.push('Converter index does not cover 1970-2100');
 const news=readJSON('feeds/news.json');if(!news||!Array.isArray(news.items)||!news.items.length)fail.push('feeds/news.json has no articles');else for(const [i,n] of news.items.entries())for(const k of ['title','description','imageUrl','sourceLogo','sourceName','publishedTime','articleUrl'])if(n[k]===undefined)fail.push(`feeds/news.json item ${i}: missing ${k}`);
-const forex=readJSON('feeds/forex.json');if(!forex||forex.base!=='NPR'||!Array.isArray(forex.rates)||forex.rates.length<5)fail.push('feeds/forex.json is missing a valid NRB rate table');else for(const [i,r] of forex.rates.entries()){for(const k of ['currency','name','unit','buy','sell'])if(r[k]===undefined)fail.push(`feeds/forex.json rate ${i}: missing ${k}`);if(!(Number(r.unit)>0))fail.push(`feeds/forex.json rate ${i}: invalid unit`);if(!Number.isFinite(Number(r.buy))||!Number.isFinite(Number(r.sell)))fail.push(`feeds/forex.json rate ${i}: invalid numeric rate`)}
-const gold=readJSON('feeds/gold_silver.json');if(!gold||!gold.gold||!gold.silver)fail.push('feeds/gold_silver.json is missing gold/silver');else for(const k of ['gold','silver']){if(!gold[k].price||!gold[k].unit)fail.push(`feeds/gold_silver.json: ${k} price/unit missing`);if(!['up','down','flat'].includes(gold[k].trend))fail.push(`feeds/gold_silver.json: ${k} trend invalid`)}
-const staleHours=(iso)=>{const t=Date.parse(iso||'');return Number.isFinite(t)?(Date.now()-t)/36e5:Infinity};
+const forex=readJSON('feeds/forex.json');if(!forex||forex.base!=='NPR'||!Array.isArray(forex.rates)||forex.rates.length<5)fail.push('feeds/forex.json is missing a valid NRB rate table');else {for(const [i,r] of forex.rates.entries()){for(const k of ['currency','name','unit','buy','sell'])if(r[k]===undefined)fail.push(`feeds/forex.json rate ${i}: missing ${k}`);if(!(Number(r.unit)>0))fail.push(`feeds/forex.json rate ${i}: invalid unit`);if(!Number.isFinite(Number(r.buy))||!Number.isFinite(Number(r.sell)))fail.push(`feeds/forex.json rate ${i}: invalid numeric rate`)}if(!forex.updatedAt)fail.push('feeds/forex.json: updatedAt missing');}
+const gold=readJSON('feeds/gold_silver.json');if(!gold||!gold.gold||!gold.silver)fail.push('feeds/gold_silver.json is missing gold/silver');else {for(const k of ['gold','silver']){if(!gold[k].price||!gold[k].unit)fail.push(`feeds/gold_silver.json: ${k} price/unit missing`);if(!['up','down','flat'].includes(gold[k].trend))fail.push(`feeds/gold_silver.json: ${k} trend invalid`)}if(!gold.updatedAt)fail.push('feeds/gold_silver.json: updatedAt missing');}
+const petroleum=readJSON('feeds/petroleum_prices.json');if(!petroleum)fail.push('feeds/petroleum_prices.json is missing');else {const latest=petroleum.latest||petroleum;for(const k of ['petrol','diesel']){const v=latest?.[k]?.price??latest?.[k];if(!Number.isFinite(Number(v)))fail.push(`feeds/petroleum_prices.json: ${k} price missing/non-numeric`)}if(!petroleum.updatedAt)fail.push('feeds/petroleum_prices.json: updatedAt missing');if(petroleum.history!==undefined&&!Array.isArray(petroleum.history))fail.push('feeds/petroleum_prices.json: history must be an array');}
+const staleHours=iso=>{const t=Date.parse(iso||'');return Number.isFinite(t)?(Date.now()-t)/36e5:Infinity};
+const critical=[['forex',forex,72],['gold',gold,48],['petroleum',petroleum,72]];
+for(const [name,data,max] of critical){if(data?.updatedAt&&staleHours(data.updatedAt)>max)fail.push(`${name}: data is stale (${Math.round(staleHours(data.updatedAt))}h old)`);}
 if(news?.updatedAt&&staleHours(news.updatedAt)>48)warn.push('feeds/news.json is older than 48 hours');
-if(gold?.updatedAt&&staleHours(gold.updatedAt)>48)warn.push('feeds/gold_silver.json is older than 48 hours');
-if(forex?.updatedAt&&staleHours(forex.updatedAt)>48)warn.push('feeds/forex.json is older than 48 hours');
 if(fail.length){console.error(fail.join('\n'));process.exit(1)}
 if(warn.length)console.warn(warn.join('\n'));
-console.log(`Deep data validation passed: ${years.years.length} years, BS 2040-2100, Panchanga fields, converter coverage, news, gold/silver and NRB forex feeds verified.`);
+console.log(`Deep data validation passed: calendar, Panchanga, converter, news, gold/silver, petroleum and NRB forex feeds verified.`);
