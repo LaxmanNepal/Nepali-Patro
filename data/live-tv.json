@@ -1,0 +1,16 @@
+{
+  "updated": "2026-08-24",
+  "source_note": "Publicly discoverable HLS endpoints; stream availability is checked by the site's health workflow. Official fallback pages are provided where available.",
+  "channels": [
+    {"id":"kantipur","name":"Kantipur TV HD","group":"general","logo":"https://i.imgur.com/HEVo2Gc.png","stream":"https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8","official":"https://kantipurtv.com/live","source":"Current public IPTV listing / official live page"},
+    {"id":"ntv","name":"नेपाल टेलिभिजन (NTV)","group":"general","logo":"https://upload.wikimedia.org/wikipedia/en/8/84/Nepal_Television_Logo.png","stream":"http://202.166.207.67:1935/live/ntv/playlist.m3u8","official":"https://nepaltvonline.com/ntv/","source":"Public M3U listing; official NTV site confirms 24/7 internet distribution"},
+    {"id":"ntvplus","name":"NTV Plus","group":"entertainment","logo":"https://upload.wikimedia.org/wikipedia/en/8/84/Nepal_Television_Logo.png","stream":"http://202.166.207.67:1935/live/ntvplus/playlist.m3u8","official":"https://nepaltvonline.com/","source":"Public M3U listing; official NTV platform"},
+    {"id":"ntvnews","name":"NTV News","group":"news","logo":"https://upload.wikimedia.org/wikipedia/en/8/84/Nepal_Television_Logo.png","stream":"http://202.166.207.67:1935/live/ntvnews/playlist.m3u8","official":"https://nepaltvonline.com/","source":"Public M3U listing; official NTV platform"},
+    {"id":"ap1","name":"AP1 HD","group":"news","logo":"https://ap1hd.tv/wp-content/uploads/2020/12/ap1tv-logo.png","stream":"http://202.166.207.67:1935/live/ap1/playlist.m3u8","official":"https://www.ap1hdtv.com/","source":"Public M3U listing; official AP1 site"},
+    {"id":"himalaya","name":"Himalaya TV HD","group":"entertainment","logo":"https://himalayatv.com.np/assets/img/logo.png","stream":"http://202.166.207.67:1935/live/himalaya/playlist.m3u8","official":"https://www.himalayatv.com/live/","source":"Public M3U listing; official live page"},
+    {"id":"image","name":"Image Channel","group":"entertainment","logo":"https://imagechannels.com/wp-content/uploads/2021/02/imagechannel.png","stream":"http://202.166.207.67:1935/live/image/playlist.m3u8","official":"https://www.imagechannel.com/","source":"Public M3U listing"},
+    {"id":"news24","name":"News24 Nepal","group":"news","logo":"https://www.news24nepal.tv/wp-content/uploads/2018/03/logo.png","stream":"http://202.166.207.67:1935/live/news24/playlist.m3u8","official":"https://www.news24nepal.tv/","source":"Public M3U listing"},
+    {"id":"sagarmatha","name":"Sagarmatha TV","group":"news","logo":"https://sagarmatha.tv/images/logo.png","stream":"http://202.166.207.67:1935/live/sagarmatha/playlist.m3u8","official":"https://sagarmatha.tv/","source":"Public M3U listing"},
+    {"id":"kantipur-alt","name":"Kantipur TV HD · Alternate","group":"general","logo":"https://i.imgur.com/HEVo2Gc.png","stream":"https://ktvhdsg.ekantipur.com:8443/ktv_desktop_02347834/hd/playlist.m3u8","official":"https://kantipurtv.com/live","source":"Older public M3U listing; retained as automatic fallback"}
+  ]
+}
