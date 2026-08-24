@@ -6,17 +6,44 @@
   "bs_day": 8,
   "bs_date": "२०८३ भदौ ८",
   "ad_date": "2026-08-24",
-  "last_researched": null,
-  "events": [],
+  "last_researched": "2026-08-24T11:25:00Z",
+  "events": [
+    {
+      "year": 1849,
+      "title": "सूर्यगढी युद्धमा नेपाली फौजको विजय",
+      "summary": "वि.सं. १८४९ भदौ ८ गते सूर्यगढी–चन्द्रगढी क्षेत्रमा दामोदर पाण्डेको कमान्डमा रहेको नेपाली फौजले चिनियाँ फौजमाथि आकस्मिक आक्रमण गरी पराजित गरेको ऐतिहासिक विवरण पाइन्छ।",
+      "type": "nepal-history",
+      "category": "नेपाल इतिहास",
+      "source": "गोरखापत्र",
+      "url": "https://gorkhapatraonline.com/news/127333"
+    },
+    {
+      "year": 2010,
+      "title": "अग्नि एयर फ्लाइट १०१ दुर्घटना",
+      "summary": "२४ अगस्ट २०१० मा अग्नि एयरको फ्लाइट १०१ मकवानपुरको शिखरपुर नजिक दुर्घटनाग्रस्त हुँदा विमानमा रहेका सबै १४ जनाको मृत्यु भएको अभिलेख छ।",
+      "type": "nepal-history",
+      "category": "नेपाल इतिहास",
+      "source": "Wikipedia — August 24",
+      "url": "https://en.wikipedia.org/wiki/August_24"
+    }
+  ],
   "births": [],
   "deaths": [],
   "sources": [
     {
-      "name": "Wikipedia On This Day",
+      "name": "गोरखापत्र — ऐतिहासिक सूर्यगढी",
+      "url": "https://gorkhapatraonline.com/news/127333"
+    },
+    {
+      "name": "Wikipedia — August 24",
+      "url": "https://en.wikipedia.org/wiki/August_24"
+    },
+    {
+      "name": "Wikipedia On This Day API",
       "url": "https://en.wikipedia.org/api/rest_v1/feed/onthisday/events/08/24"
     },
     {
-      "name": "Google News",
+      "name": "Google News research feed",
       "url": "https://news.google.com/rss/search?q=%E0%A4%AD%E0%A4%A6%E0%A5%8C%208%20%E0%A4%87%E0%A4%A4%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B8%20%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2&hl=ne&gl=NP&ceid=NP:ne"
     }
   ]
