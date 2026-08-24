@@ -36,7 +36,7 @@ jobs:
           for p in files:
               d=json.loads(p.read_text(encoding="utf-8"))
               assert isinstance(d.get("events"), list), p
-          print("Validated", len(files), "daily history files")
+          print("Validated", len(files), "daily history files")\n          latest=max(files, key=lambda p:p.stat().st_mtime)\n          print("Latest:", latest)
           PY
       - name: Commit daily research
         run: |
