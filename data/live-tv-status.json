@@ -1,0 +1,155 @@
+{
+  "checked_at": "2026-08-24T18:43:08.463637+00:00",
+  "results": [
+    {
+      "id": "ntv",
+      "name": "नेपाल टेलिभिजन (NTV)",
+      "status": "offline",
+      "detail": "URLError"
+    },
+    {
+      "id": "ntvplus",
+      "name": "NTV Plus HD",
+      "status": "offline",
+      "detail": "URLError"
+    },
+    {
+      "id": "ntvnews",
+      "name": "NTV News HD",
+      "status": "offline",
+      "detail": "URLError"
+    },
+    {
+      "id": "ntvkohalpur",
+      "name": "NTV Kohalpur HD",
+      "status": "offline",
+      "detail": "URLError"
+    },
+    {
+      "id": "ntvitahari",
+      "name": "NTV Itahari HD",
+      "status": "offline",
+      "detail": "URLError"
+    },
+    {
+      "id": "kantipur",
+      "name": "Kantipur TV HD",
+      "status": "offline",
+      "detail": "URLError"
+    },
+    {
+      "id": "kantipur-alt",
+      "name": "Kantipur TV HD · Alternate",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "nepal1",
+      "name": "Nepal 1",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "ddnational",
+      "name": "DD National",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "ddnews",
+      "name": "DD News",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "ddurdu",
+      "name": "DD Urdu",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "ddkisan",
+      "name": "DD Kisan",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "ddpunjabi",
+      "name": "DD Punjabi",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "ddkashir",
+      "name": "DD Kashir",
+      "status": "offline",
+      "detail": "HTTPError"
+    },
+    {
+      "id": "ddrajasthan",
+      "name": "DD Rajasthan",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "ddchhattisgarh",
+      "name": "DD Chhattisgarh",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "dduttarakhand",
+      "name": "DD Uttarakhand",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "timesnow-navbharat",
+      "name": "Times Now Navbharat",
+      "status": "offline",
+      "detail": "HTTPError"
+    },
+    {
+      "id": "tv9-bharatvarsh",
+      "name": "TV9 Bharatvarsh",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "news9live",
+      "name": "News9Live",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom TV",
+      "status": "offline",
+      "detail": "HTTPError"
+    },
+    {
+      "id": "b4u-music",
+      "name": "B4U Music",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "9xm",
+      "name": "9XM",
+      "status": "offline",
+      "detail": "HTTPError"
+    },
+    {
+      "id": "aastha",
+      "name": "Aastha",
+      "status": "online",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "hindi-khabar",
+      "name": "Hindi Khabar",
+      "status": "online",
+      "detail": "HTTP 200"
+    }
+  ]
+}
