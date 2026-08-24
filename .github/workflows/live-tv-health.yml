@@ -1,0 +1,25 @@
+name: Live TV Health Check
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-streams:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check HLS streams
+        run: python scripts/check_live_tv.py
+      - name: Commit status
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/live-tv-status.json
+          git diff --cached --quiet || git commit -m 'chore: update live TV stream health'
+          git push
