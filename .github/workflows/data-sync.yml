@@ -31,40 +31,80 @@ jobs:
           node-version: '20'
       - name: Install dependencies
         run: npm ci --no-audit --no-fund
+
       - name: Collect NEPSE published JSON data
         run: python scripts/sync_nepse_data.py
-      - name: Collect critical financial feeds
+
+      - name: Collect financial feeds independently
+        id: financial
+        shell: bash
         run: |
+          set +e
           python scripts/update_forex.py
+          forex_status=$?
           python scripts/update_gold_rates.py
+          gold_status=$?
           python scripts/update_petroleum_prices.py
+          petroleum_status=$?
+          echo "forex_status=$forex_status" >> "$GITHUB_OUTPUT"
+          echo "gold_status=$gold_status" >> "$GITHUB_OUTPUT"
+          echo "petroleum_status=$petroleum_status" >> "$GITHUB_OUTPUT"
+          echo "Financial feed status: forex=$forex_status gold=$gold_status petroleum=$petroleum_status"
+
       - name: Collect fresh news feed
+        id: news
+        shell: bash
         run: |
-          set -euo pipefail
+          set +e
+          status=1
           for attempt in 1 2 3; do
-            if python scripts/update_news.py; then exit 0; fi
+            python scripts/update_news.py && status=0 && break
             echo "News sync attempt $attempt failed; retrying in 15s..."
             sleep 15
           done
-          echo 'News sync failed after 3 attempts.'
-          exit 1
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          exit 0
+
       - name: Collect optional feeds
         continue-on-error: true
         run: |
           python scripts/update_reddit.py || true
           python scripts/update_memes.py || true
-      - name: Validate generated data
-        run: npm run validate:all
-      - name: Commit all feed changes once
+
+      - name: Validate generated JSON files
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for p in [Path('feeds/forex.json'),Path('feeds/gold_silver.json'),Path('feeds/petroleum_prices.json'),Path('feeds/news.json'),Path('data/news.json')]:
+              if p.exists():
+                  json.loads(p.read_text(encoding='utf-8'))
+                  print('OK', p)
+          PY
+
+      - name: Commit successful feed updates
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add feeds data
-          if git diff --cached --quiet; then echo 'No data changes.'; exit 0; fi
-          git fetch origin main
-          git rebase origin/main
-          git add feeds data
-          if git diff --cached --quiet; then echo 'No data changes after rebase.'; exit 0; fi
-          git commit -m 'chore: update Nepali Patro data feeds'
-          git push origin HEAD:main
+          if git diff --cached --quiet; then
+            echo 'No data changes.'
+          else
+            git fetch origin main
+            git rebase origin/main
+            git add feeds data
+            git commit -m 'chore: update Nepali Patro data feeds'
+            git push origin HEAD:main
+          fi
+
+      - name: Run deep validation when all critical feeds succeeded
+        if: steps.financial.outputs.forex_status == '0' && steps.financial.outputs.gold_status == '0' && steps.financial.outputs.petroleum_status == '0' && steps.news.outputs.status == '0'
+        run: npm run validate:all
+
+      - name: Fail workflow if a critical feed failed
+        if: steps.financial.outputs.forex_status != '0' || steps.financial.outputs.gold_status != '0' || steps.financial.outputs.petroleum_status != '0' || steps.news.outputs.status != '0'
+        run: |
+          echo "One or more data collectors failed. Successful feeds were committed; failed feeds will retry on the next scheduled run."
+          exit 1
