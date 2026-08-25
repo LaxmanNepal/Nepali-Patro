@@ -1,0 +1,95 @@
+{
+  "name": "Nepal Gold & Silver Daily Price History",
+  "source": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
+  "sourceUrl": "https://negosida.org/",
+  "updatedAt": "2026-08-26T01:49:00+05:45",
+  "latest": {
+    "date_ad": "2026-08-24",
+    "date_bs": "भदौ ०८, २०८३",
+    "updatedAt": "2026-08-24T16:25:00+05:45",
+    "gold": {
+      "type": "छापावाल",
+      "unit": "प्रति तोला",
+      "price": "३,२२,७००",
+      "change": "+६,०००",
+      "trend": "up",
+      "_numeric": 322700
+    },
+    "silver": {
+      "type": "चाँदी",
+      "unit": "प्रति तोला",
+      "price": "४,९६५",
+      "change": "-२०",
+      "trend": "down",
+      "_numeric": 4965
+    },
+    "details": {
+      "fine_gold_tola": 322700,
+      "gold_22k_tola": 295595,
+      "silver_tola": 4965,
+      "fine_gold_10g": 276665,
+      "gold_22k_10g": 253425,
+      "silver_10g": 4256.5
+    }
+  },
+  "history": [
+    {
+      "date_ad": "2026-08-21",
+      "date_bs": "भदौ ०५, २०८३",
+      "updatedAt": null,
+      "gold": {
+        "type": "छापावाल",
+        "unit": "प्रति तोला",
+        "price": "३,१६,७००",
+        "change": null,
+        "trend": null,
+        "_numeric": 316700
+      },
+      "silver": {
+        "type": "चाँदी",
+        "unit": "प्रति तोला",
+        "price": "४,९८५",
+        "change": null,
+        "trend": null,
+        "_numeric": 4985
+      },
+      "details": {
+        "fine_gold_tola": 316700,
+        "gold_22k_tola": 290100,
+        "silver_tola": 4985,
+        "fine_gold_10g": 271520,
+        "gold_22k_10g": 248710,
+        "silver_10g": 4274
+      }
+    },
+    {
+      "date_ad": "2026-08-24",
+      "date_bs": "भदौ ०८, २०८३",
+      "updatedAt": "2026-08-24T16:25:00+05:45",
+      "gold": {
+        "type": "छापावाल",
+        "unit": "प्रति तोला",
+        "price": "३,२२,७००",
+        "change": "+६,०००",
+        "trend": "up",
+        "_numeric": 322700
+      },
+      "silver": {
+        "type": "चाँदी",
+        "unit": "प्रति तोला",
+        "price": "४,९६५",
+        "change": "-२०",
+        "trend": "down",
+        "_numeric": 4965
+      },
+      "details": {
+        "fine_gold_tola": 322700,
+        "gold_22k_tola": 295595,
+        "silver_tola": 4965,
+        "fine_gold_10g": 276665,
+        "gold_22k_10g": 253425,
+        "silver_10g": 4256.5
+      }
+    }
+  ]
+}
