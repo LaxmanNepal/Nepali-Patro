@@ -1,9 +1,5 @@
 name: Promote Kundali
-on:
-  push:
-    paths:
-      - 'kundali/app.html'
-      - '.github/workflows/promote-kundali.yml'
+on: push
 permissions:
   contents: write
 jobs:
@@ -12,12 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Promote app shell
-        run: cp kundali/app.html kundali/index.html
-      - name: Commit index
-        run: |
+      - run: cp kundali/app.html kundali/index.html
+      - run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add kundali/index.html
-          git diff --cached --quiet || git commit -m 'ci(kundali): promote generated index'
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'ci(kundali): promote generated index'
           git push
