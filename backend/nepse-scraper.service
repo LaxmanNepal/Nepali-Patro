@@ -1,0 +1,16 @@
+[Unit]
+Description=Nepali Patro NEPSE 30-second data collector
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/Nepali-Patro
+ExecStart=/usr/bin/python3 /var/www/Nepali-Patro/backend/nepse_scraper.py
+Restart=always
+RestartSec=5
+Environment=NEPSE_INTERVAL=30
+Environment=NEPSE_DATA_DIR=/var/www/Nepali-Patro/data/nepse
+
+[Install]
+WantedBy=multi-user.target
