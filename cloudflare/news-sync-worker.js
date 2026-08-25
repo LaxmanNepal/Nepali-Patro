@@ -97,13 +97,20 @@ function clean(value) { return decode(String(value || "").replace(/<!\\[CDATA\\[
 function decode(value) { return String(value || "").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, "<").replace(/&gt;/g, ">"); }
 async function fetchText(url, timeout) { const controller = new AbortController(); const t = setTimeout(() => controller.abort(), timeout); try { const r = await fetch(url, { headers: { "User-Agent": "Nepali-Patro-News-Sync/1.0" }, signal: controller.signal, cf: { cacheTtl: 0, cacheEverything: false } }); if (!r.ok) throw new Error(`HTTP ${r.status}`); return await r.text(); } finally { clearTimeout(t); } }
 function dedupe(items) { const seen = new Set(); return items.filter(item => { const key = item.articleUrl.replace(/[?#].*$/, "").toLowerCase() || item.title.toLowerCase().replace(/[^\\p{L}\\p{N}]+/gu, " "); if (seen.has(key)) return false; seen.add(key); return true; }); }
+function base64Encode(value) {
+  const bytes = new TextEncoder().encode(value);
+  let binary = "";
+  const chunk = 0x8000;
+  for (let i = 0; i < bytes.length; i += chunk) binary += String.fromCharCode(...bytes.subarray(i, i + chunk));
+  return btoa(binary);
+}
 async function updateGitHubFile(token, path, payload, message) {
   const api = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`;
   const headers = { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "Content-Type": "application/json", "User-Agent": "Nepali-Patro-News-Sync" };
   const current = await fetch(api, { headers });
   let sha = null;
   if (current.ok) sha = (await current.json()).sha;
-  const body = btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2) + "\n")));
+  const body = base64Encode(JSON.stringify(payload, null, 2) + "\n");
   const r = await fetch(api, { method: "PUT", headers, body: JSON.stringify({ message, content: body, sha, branch: "main" }) });
   if (!r.ok) throw new Error(`GitHub update failed: ${r.status} ${await r.text()}`);
 }
