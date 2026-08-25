@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /data/
+Disallow: /data-health/
+Disallow: /scripts/
+Disallow: /demo/
+Sitemap: https://apps.laxmannepal.com.np/Nepali-Patro/sitemap.xml
