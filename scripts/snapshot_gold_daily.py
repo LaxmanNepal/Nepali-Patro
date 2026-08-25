@@ -4,7 +4,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 FEED = Path('feeds/gold_silver.json')
-OUT_DIR = Path('feeds/gold_daily')
+OUTPUT = Path('feeds/gold_daily.json')
 
 
 def main():
@@ -18,35 +18,45 @@ def main():
     datetime.strptime(date_ad, '%Y-%m-%d')
 
     now = datetime.now(ZoneInfo('Asia/Kathmandu'))
-    target = OUT_DIR / f'{date_ad}.json'
-    snapshot = {
+    today = {
         'date_ad': date_ad,
         'date_bs': feed.get('date_bs', ''),
-        'snapshotAt': now.isoformat(),
-        'source': feed.get('source', 'Nepal Gold and Silver Dealers Association (NEGOSIDA)'),
-        'sourceUrl': feed.get('sourceUrl', 'https://negosida.org/'),
         'updatedAt': feed.get('updatedAt'),
         'gold': feed.get('gold', {}),
         'silver': feed.get('silver', {}),
-        'details': feed.get('details', {}),
+        'details': feed.get('details', {})
     }
 
-    # Avoid a new Git commit every 15 minutes when today's rate is unchanged.
-    if target.exists():
+    data = {
+        'name': 'Nepal Gold & Silver Daily Price History',
+        'source': feed.get('source', 'Nepal Gold and Silver Dealers Association (NEGOSIDA)'),
+        'sourceUrl': feed.get('sourceUrl', 'https://negosida.org/'),
+        'updatedAt': now.isoformat(),
+        'latest': today,
+        'history': []
+    }
+
+    if OUTPUT.exists():
         try:
-            old = json.loads(target.read_text(encoding='utf-8'))
-            comparable = {k: v for k, v in snapshot.items() if k != 'snapshotAt'}
-            old_comparable = {k: v for k, v in old.items() if k != 'snapshotAt'}
-            if comparable == old_comparable:
-                print(f'Gold snapshot unchanged: {target}')
-                return
-            snapshot['snapshotAt'] = old.get('snapshotAt', now.isoformat())
+            existing = json.loads(OUTPUT.read_text(encoding='utf-8'))
+            data['history'] = existing.get('history', [])
         except Exception:
             pass
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    target.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f'Gold daily snapshot written: {target}')
+    # Keep one record per date; if today's price changes, replace today's record.
+    data['history'] = [item for item in data['history'] if item.get('date_ad') != date_ad]
+    data['history'].append(today)
+    data['history'].sort(key=lambda item: item.get('date_ad', ''))
+
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    new_content = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
+    old_content = OUTPUT.read_text(encoding='utf-8') if OUTPUT.exists() else ''
+
+    if new_content != old_content:
+        OUTPUT.write_text(new_content, encoding='utf-8')
+        print(f'Gold daily history updated: {OUTPUT} ({len(data["history"])} days)')
+    else:
+        print(f'Gold daily history unchanged: {OUTPUT}')
 
 
 if __name__ == '__main__':
