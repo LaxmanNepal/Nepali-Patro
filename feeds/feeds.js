@@ -1,5 +1,6 @@
-// Centralized news feed configuration. Dead/blocked feeds are intentionally excluded so the generated feed stays fresh.
-// Browser pages consume only the generated local feeds/news.json file.
+// Centralized news feed configuration.
+// The updater is resilient to individual feed failures, retries slow feeds,
+// and preserves the last known-good articles when upstream sources fail.
 const MASTER_FEEDS = {
   all: [
     "https://www.onlinekhabar.com/feed",
