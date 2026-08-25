@@ -1,10 +1,10 @@
 {
-  "date_ad": "2026-08-24",
-  "updatedAt": "2026-08-24T00:00:00+05:45",
+  "date_ad": "2026-08-25",
+  "updatedAt": "2026-08-25T22:20:00+05:45",
   "source": "Nepal Oil Corporation (NOC)",
-  "sourceUrl": "https://noc.org.np/retailprice",
+  "sourceUrl": "https://noc.org.np/petrol",
   "latest": {
-    "effective_label": "2083.04.17(2026.08.02)",
+    "effective_label": "2026-08-17",
     "petrol": 200.0,
     "diesel": 200.0,
     "kerosene": 200.0,
@@ -12,11 +12,15 @@
     "atf_domestic": 249.0,
     "atf_international": 1697.0
   },
-  "history": [],
   "locations": [
-    {"name":"Category I","places":["Charali","Biratnagar","Mahendranagar (Dhanusa)","Birgunj","Amlekhjung","Bhalbari","Nepalgunj","Dhangadhi"]},
-    {"name":"Category II","places":["Surkhet","Dang"]},
-    {"name":"Category III","places":["Kathmandu","Pokhara","Dipayal"]}
+    {"name":"Category I","places":["Charali","Biratnagar","Mahendranagar (Dhanusa)","Birgunj","Amlekhgunj","Bhalbari","Nepalgunj","Dhangadhi"],"petrol":197.5,"diesel":197.5,"kerosene":197.5},
+    {"name":"Category II","places":["Surkhet","Dang"],"petrol":199.0,"diesel":199.0,"kerosene":199.0},
+    {"name":"Category III","places":["Kathmandu","Pokhara","Dipayal"],"petrol":200.0,"diesel":200.0,"kerosene":200.0}
   ],
-  "note": "Retail selling price from NOC. Location-specific rates may differ."
+  "history": [
+    {"effective_label":"2026-08-17","category_iii":{"petrol":200.0,"diesel":200.0,"kerosene":200.0},"category_ii":{"petrol":199.0,"diesel":199.0,"kerosene":199.0},"category_i":{"petrol":197.5,"diesel":197.5,"kerosene":197.5},"lpg":2060.0,"atf_domestic":249.0,"atf_international":1697.0},
+    {"effective_label":"2026-08-03","category_iii":{"petrol":197.0,"diesel":195.0,"kerosene":195.0},"lpg":2060.0,"atf_domestic":229.0,"atf_international":1566.0},
+    {"effective_label":"2026-07-17","category_iii":{"petrol":197.0,"diesel":195.0,"kerosene":195.0},"lpg":2060.0,"atf_domestic":229.0,"atf_international":1566.0}
+  ],
+  "note": "Current NOC location-based retail prices. NOC's petrol price page lists the latest regional update as 2026-08-17. Direct NOC collection is preferred by the automated updater; a fallback is used if GitHub runners receive HTTP 403."
 }
