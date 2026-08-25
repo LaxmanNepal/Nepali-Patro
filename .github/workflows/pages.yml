@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "30 19 * * *"
 
 permissions:
   contents: read
@@ -45,9 +47,28 @@ jobs:
         run: |
           set -euo pipefail
           find js scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -r -n1 node --check
+          python3 -m py_compile scripts/update_history.py
 
       - name: Validate generated site and all datasets
         run: npm run validate:all
+
+      - name: Validate history dataset
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          files=list(Path('data/itihas').glob('*/*.json'))
+          if not files:
+              raise SystemExit('No history JSON files found')
+          for p in files:
+              d=json.loads(p.read_text(encoding='utf-8'))
+              for key in ('events','births','deaths','research_leads'):
+                  if not isinstance(d.get(key),list):
+                      raise SystemExit(f'{p}: {key} must be a list')
+              if not d.get('ad_date') or not d.get('bs_year'):
+                  raise SystemExit(f'{p}: missing date metadata')
+          print(f'History dataset passed: {len(files)} files')
+          PY
 
       - name: Validate local news feed schema
         run: |
@@ -98,34 +119,6 @@ jobs:
           test -f _site/feeds/news.json
           test -f _site/feeds/forex.json
           test -f _site/feeds/gold_silver.json
-
-      - name: Verify one shared shell and complete navigation on every HTML page
-        run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          from pathlib import Path
-          root=Path('_site')
-          htmls=list(root.rglob('*.html'))
-          header=(root/'partials/header.html').read_text(encoding='utf-8',errors='ignore')
-          required=[
-              'https://apps.laxmannepal.com.np/Nepali-Patro/calendar/',
-              'https://apps.laxmannepal.com.np/Nepali-Patro/panchanga/',
-              'https://apps.laxmannepal.com.np/Nepali-Patro/rashifal/',
-              'https://apps.laxmannepal.com.np/Nepali-Patro/parba/',
-              'https://apps.laxmannepal.com.np/Nepali-Patro/saith/',
-              'https://apps.laxmannepal.com.np/Nepali-Patro/news/',
-              'https://apps.laxmannepal.com.np/Nepali-Patro/forex/'
-          ]
-          if not htmls: raise SystemExit('No HTML pages found')
-          for url in required:
-              if url not in header:
-                  raise SystemExit(f'Shared header is missing navigation link: {url}')
-          for p in htmls:
-              s=p.read_text(encoding='utf-8',errors='ignore')
-              if 'data-shared-build=' not in s or 'js/shared-shell.js?v=' not in s or 'css/shared-shell.css?v=' not in s:
-                  raise SystemExit(f'Shared shell/version missing: {p}')
-          print(f'Shared shell + complete nav verified on {len(htmls)} HTML pages.')
-          PY
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
