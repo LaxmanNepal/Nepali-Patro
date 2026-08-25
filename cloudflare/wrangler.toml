@@ -1,0 +1,9 @@
+name = "nepali-patro-news-sync"
+main = "news-sync-worker.js"
+compatibility_date = "2026-08-26"
+
+[triggers]
+crons = ["* * * * *"]
+
+[vars]
+NEWS_REPO = "LaxmanNepal/Nepali-Patro"
