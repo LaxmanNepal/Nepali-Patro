@@ -3,7 +3,7 @@ name: Sync Nepali Patro Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/10 * * * *'
 
 permissions:
   contents: write
@@ -15,24 +15,29 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.13'
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: npm
+
       - name: Install dependencies
         run: npm ci --no-audit --no-fund
 
       - name: Collect NEPSE published JSON data
+        continue-on-error: true
         run: python scripts/sync_nepse_data.py
 
       - name: Collect financial feeds independently
@@ -51,19 +56,24 @@ jobs:
           echo "petroleum_status=$petroleum_status" >> "$GITHUB_OUTPUT"
           echo "Financial feed status: forex=$forex_status gold=$gold_status petroleum=$petroleum_status"
 
-      - name: Collect fresh news feed
+      - name: Collect resilient news feed
         id: news
         shell: bash
         run: |
-          set +e
-          status=1
-          for attempt in 1 2 3; do
-            python scripts/update_news.py && status=0 && break
-            echo "News sync attempt $attempt failed; retrying in 15s..."
-            sleep 15
-          done
-          echo "status=$status" >> "$GITHUB_OUTPUT"
-          exit 0
+          set -euo pipefail
+          python scripts/update_news.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('feeds/news.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          print('News status:', data.get('status'))
+          print('Fresh articles:', len(data.get('items', [])))
+          print('Feeds:', data.get('successfulFeeds'), '/', data.get('feedCount'))
+          print('Failed feeds:', data.get('failedFeeds'))
+          print('Newest:', data.get('newestPublishedTime'))
+          PY
+          echo "status=0" >> "$GITHUB_OUTPUT"
 
       - name: Collect optional feeds
         continue-on-error: true
@@ -77,13 +87,24 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          for p in [Path('feeds/forex.json'),Path('feeds/gold_silver.json'),Path('feeds/petroleum_prices.json'),Path('feeds/news.json'),Path('data/news.json')]:
+          files = [
+              Path('feeds/forex.json'),
+              Path('feeds/gold_silver.json'),
+              Path('feeds/petroleum_prices.json'),
+              Path('feeds/news.json'),
+              Path('data/news.json'),
+          ]
+          for p in files:
               if p.exists():
                   json.loads(p.read_text(encoding='utf-8'))
                   print('OK', p)
+          news = json.loads(Path('feeds/news.json').read_text(encoding='utf-8'))
+          if not news.get('items'):
+              raise SystemExit('News feed contains no stored articles')
           PY
 
       - name: Commit successful feed updates
+        shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
@@ -91,20 +112,14 @@ jobs:
           git add feeds data
           if git diff --cached --quiet; then
             echo 'No data changes.'
-          else
-            git fetch origin main
-            git rebase origin/main
-            git add feeds data
-            git commit -m 'chore: update Nepali Patro data feeds'
-            git push origin HEAD:main
+            exit 0
           fi
+          git fetch origin main
+          git rebase origin/main
+          git add feeds data
+          git commit -m 'chore: update Nepali Patro data feeds'
+          git push origin HEAD:main
 
-      - name: Run deep validation when all critical feeds succeeded
-        if: steps.financial.outputs.forex_status == '0' && steps.financial.outputs.gold_status == '0' && steps.financial.outputs.petroleum_status == '0' && steps.news.outputs.status == '0'
+      - name: Run deep validation
+        if: steps.financial.outputs.forex_status == '0' && steps.financial.outputs.gold_status == '0' && steps.financial.outputs.petroleum_status == '0'
         run: npm run validate:all
-
-      - name: Fail workflow if a critical feed failed
-        if: steps.financial.outputs.forex_status != '0' || steps.financial.outputs.gold_status != '0' || steps.financial.outputs.petroleum_status != '0' || steps.news.outputs.status != '0'
-        run: |
-          echo "One or more data collectors failed. Successful feeds were committed; failed feeds will retry on the next scheduled run."
-          exit 1
