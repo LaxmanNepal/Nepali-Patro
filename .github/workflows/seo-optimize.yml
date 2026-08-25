@@ -1,0 +1,33 @@
+name: SEO Optimize Nepali Patro
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.html'
+      - 'scripts/seo_optimize.py'
+      - '.github/workflows/seo-optimize.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: nepali-patro-seo
+  cancel-in-progress: true
+jobs:
+  seo:
+    if: ${{ !contains(github.event.head_commit.message, 'chore: automated SEO metadata') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Optimize every HTML page
+        run: python scripts/seo_optimize.py
+      - name: Commit SEO metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add '*.html' '**/*.html'
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'chore: automated SEO metadata'
+          git push
