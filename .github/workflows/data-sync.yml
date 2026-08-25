@@ -56,6 +56,9 @@ jobs:
           echo "petroleum_status=$petroleum_status" >> "$GITHUB_OUTPUT"
           echo "Financial feed status: forex=$forex_status gold=$gold_status petroleum=$petroleum_status"
 
+      - name: Build single daily gold history JSON
+        run: python scripts/snapshot_gold_daily.py
+
       - name: Collect resilient news feed
         id: news
         shell: bash
@@ -90,6 +93,7 @@ jobs:
           files = [
               Path('feeds/forex.json'),
               Path('feeds/gold_silver.json'),
+              Path('feeds/gold_daily.json'),
               Path('feeds/petroleum_prices.json'),
               Path('feeds/news.json'),
               Path('data/news.json'),
