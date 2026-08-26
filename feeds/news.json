@@ -1,14 +1,533 @@
 {
-  "updatedAt": "2026-08-26T09:53:35.280444+00:00",
-  "lastSuccessfulUpdate": "2026-08-26T09:53:35.280444+00:00",
-  "newestPublishedTime": "2026-08-26T09:52:43+00:00",
+  "updatedAt": "2026-08-26T10:20:58.048789+00:00",
+  "lastSuccessfulUpdate": "2026-08-26T10:20:58.048789+00:00",
+  "newestPublishedTime": "2026-08-26T10:18:33+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 34,
-  "failedFeeds": 0,
-  "failedFeedDetails": [],
+  "successfulFeeds": 32,
+  "failedFeeds": 2,
+  "failedFeedDetails": [
+    {
+      "url": "https://rajdhanidaily.com/feed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://bankingkhabar.com/feed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ],
   "items": [
+    {
+      "title": "संसदमा सरकारले भन्यो- भूकम्पपछि हिमपहिरो गएको प्रारम्भिक सूचना छ",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-08-26T10:18:33+00:00",
+      "articleUrl": "https://www.setopati.com/politics/396789",
+      "category": "politics"
+    },
+    {
+      "title": "विपदका समयमा एकजुट हुन रवि लामिछानेको आग्रह",
+      "description": "काठमाडौं । राष्ट्रिय स्वतन्त्र पार्टीका सभापति रवि लामिछानेले विपद्का समयमा सबै दल र नागरिक समाजलाई एकजुट हुन आग्रह गरेका छन् । बुधवार प्रतिनिधि सभाको बैठकमा बोल्दै सभापति लामिछानेले मुलुकको यस्तो किठन समयमा सबै एकजुट भएर अगाडि बढ्नुपर्ने बताएका हुन् । उनले विदको समयमा हुने ‘भीआईपी’ मुभमेन्टले सुरक्षा निकायलाई अतिरिक्त चुनौती थप्ने भन्दै आफ्नो र आफ्नो […]",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-08-26T10:17:37+00:00",
+      "articleUrl": "https://clickmandu.com/2026/08/485757.html",
+      "category": "business"
+    },
+    {
+      "title": "रसुवा बाढी : घाइतेको उपचारका लागि वीर र टिचिङसहित पाँच अस्पताल तयारी अवस्थामा",
+      "description": "परराष्ट्रमन्त्री शिशिर खनालले प्रतिनिधि सभाको बैठकमा सरकारले गरिरहेको कामका बारेमा जानकारी दिँदै उद्धार गरिएका विपत् क्षेत्रका नागरिकको उपचारका लागि वीर, त्रिवि शिक्षण अस्पताल र ट्रमा सेन्टरसहित पाँचवटा अस्पताल तयारी अवस्थामा रहेको बताए ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-08-26T10:17:36+00:00",
+      "articleUrl": "https://nepallive.com/story/349098",
+      "category": "national"
+    },
+    {
+      "title": "प्रभावित क्षेत्रमा स्वास्थ्यकर्मी परिचालन",
+      "description": "अनिल पराजुलीहेटौँडा, भदौ १० गते । रसुवामा आएको भीषण बाढीबाट प्रभावित क्षेत्रमा आपत्कालीन स्वास्थ्य उपचारका लागि बागमती प्रदेश सरकारले स्वास्थ्यकर्मी परिचालन गरेको छ । प्रदेशका प्रा...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/378210/conversions/Udhhar--original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-08-26T10:16:58+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/219959",
+      "category": "national"
+    },
+    {
+      "title": "बाढी प्रभावित क्षेत्रमा ९ जनाको शव फेला, सनाखत हुन बाँकी : परराष्ट्रमन्त्री खनाल",
+      "description": "काठमाडौँ । परराष्ट्रमन्त्री शिशिर खनालले रसुवाको भोटेकोसी नदीमा आएको भीषण बाढीका कारण हालसम्म ९ जनाको शव फेला परेको जानकारी दिएका छन् । प्रतिनिधिसभाको आजको बैठकमा विशेष सम्बोधन गर्दै मन्त्री खनालले उद्धार टोलीले प्रभावित क्षेत्रबाट ९",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/sishir_4RRhvmX6bE.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:16:40+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587575/bodies-of-9-people-found-in-flood-affected-areas-identification-yet-to-be-done-foreign-minister-khanal",
+      "category": "politics"
+    },
+    {
+      "title": "देवघाट पुग्यो बाढी",
+      "description": "चितवन । रसुवा भोटेकोशीमा आएको बाढी हाल चितवनस्थित नारायणी देवघाट पुगेको छ । बाढी पूर्वानुमान महाशाखाले दिउँसो ३ बजेर २० मिनेटमा बाढी देवघाट पुगको हो । महाशाखाले बाढी बढ्दो क्रममा रहेकोले नदी छेउछाउका बस्ती, बजार क्षेत्रमा उच्च सतर्कता सहित सुरक्षित स्थानमा रहन अनुरोध गरेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://dainiknepal.com/favicon.ico",
+      "sourceName": "दैनिक नेपाल",
+      "publishedTime": "2026-08-26T10:15:56+00:00",
+      "articleUrl": "https://www.dainiknepal.com/2026/08/834685.html",
+      "category": "national"
+    },
+    {
+      "title": "सम्भव भएका सबै स्रोत साधन प्रभावित क्षेत्रमा परिचालन गर्न आग्रह",
+      "description": "काठमाडौँ, भदौ १० गते । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) सभापति रवि लामिछानेले बाढी प्रभावित क्षेत्रमा सम्भव भएका सबै स्रोत साधन परिचालन गर्न आग्रह गर्नुभएको छ । प्रतिनिधिसभाको...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/378211/conversions/rabi-lamichhane-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-08-26T10:15:38+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/219957",
+      "category": "national"
+    },
+    {
+      "title": "तिब्बत तर्फबाट विनाशकारी बाढी (Live Updates)",
+      "description": "रसुवा । भोटेकोसी नदी रसुवामा तिब्बत तर्फबाट ठुलो बाढी प्रवेश गरेको छ । बिहान ९ः१५ बजे तिब्बत तर्फबाट ठुलो बाढी प्रवेश गरेकोले अर्को सूचना नआउँदासम्म त्रिशूली नदीको तटीय क्षेत्र मुग्लिनसम्म उच्च सतर्कता अपनाउन बाढी पूर्वानुमान महाशाखाले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/badi-rasuwa2_PEiSlNmlcl.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587391/large-flood-enters-bhotekoshi-from-tibet-urges-to-adopt-high-alert-up-to-muglin",
+      "category": "national"
+    },
+    {
+      "title": "बाढीपीडितको उपचारमा स्वास्थ्य टोली परिचालन",
+      "description": "मकवानपुर । बागमती प्रदेश सरकारले बाढी तथा विपद्का कारण प्रभावित क्षेत्रमा आपत्कालीन स्वास्थ्य सेवा उपलब्ध गराउन प्रदेशअन्तर्गतका अस्पतालबाट स्वास्थ्यकर्मी परिचालन थालेको छ। प्रदेशका स्वास्थ्य सचिव डा. सुमित्रा गौतमको संयोजनमा क्षतिग्रस्त तथा प्रभावित क्षेत्रमा आकस्मिक स्वास्थ्य टोली खटाइएको छ। भक्तपुर अस्पतालबाट बाढीपीडितको उपचारका लागि डा. दिवाकर सुवेदी (हा",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-08-26T10:14:43+00:00",
+      "articleUrl": "https://nepalnews.com/2026/08/26/health-teams-mobilized-to-treat-flood-victims/",
+      "category": "business"
+    },
+    {
+      "title": "बाढीबाट प्रभावित २१ जनाको काठमाडौँमा उपचार हुँदै",
+      "description": "काठमाडौँ। बाढीबाट प्रभावित २१ जनाको काठमाडौँस्थित विभिन्न अस्पतालमा उपचार हुँदैछ । प्रहरीका अनुसार त्रिवि शिक्षण अस्पतालमा १७, ट्रमा सेन्टरमा तीन जना र मेडिसिटी अस्पतालमा एक जनाको उपचार भइरहेको छ । जिल्ला प्रहरी परिसर काठमाडौँका प्रवक्ता दानबहादुर",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-trishuli-badhi_FrcYeItRcg.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:14:30+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587574/21-flood-affected-people-are-receiving-treatment-in-kathmandu",
+      "category": "national"
+    },
+    {
+      "title": "रसुवा बाढी : १७ जनाको शव फेला, २६ प्रहरी सम्पर्कविहीन",
+      "description": "काठमाडौँ, भदौ १० गते । रसुवामा आएको बाढीमा परी मृत्यु भएका १७ जनाको शव फेला परेको छ भने बाढीपछि नेपाल प्रहरीका २६ जना सम्पर्कविहीन भएका छन्।नेपाल प्रहरीका केन्द्रीय प्रवक्ता अविनार...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/378209/conversions/RN_Trishuli-Image2026-08-26at11.43.18(1)(1)-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-08-26T10:13:23+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/219958",
+      "category": "national"
+    },
+    {
+      "title": "लाङटाङ जलविद्युत् आयोजनाको सुरुङभित्र फसे ३५ मजदुर",
+      "description": "काठमाडौँ । रसुवामा आएको बाढीका कारण २० मेगावाट क्षमताको लाङटाङ जलविद्युत् आयोजनामा ठुलो क्षति पुगेको छ । बाढीका कारण आयोजनाको सुरुङ (टनेल) भित्र ३५ जना मजदुर फसेका छन् भने इन्जिनियरसहित अन्य २५ कर्मचारी सम्पर्कविहीन भएका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-badhi-(2)_ShRvm6n7yz.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:13:16+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587573/35-workers-trapped-inside-tunnel-of-langtang-hydropower-project",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोसी बाढीका १६ घाइते त्रिशूली अस्पतालमा, दुईको अवस्था गम्भीर",
+      "description": "त्रिशूली अस्पतालका निर्देशक डा. राजेन्द्र लामाका अनुसार गम्भीर अवस्थामा रहेका दुई जनालाई थप उपचारका लागि काठमाडौँ रेफर गर्ने तयारी भइरहेको छ। उनीहरूलाई हेलिप्याडमार्फत काठमाडौँस्थित ट्रमा सेन्टर पठाउने योजना रहेको उनले बताए। यसका लागि प्रमुख जिल्ला अधिकारी (सीडीओ) सँग समन्वय भइरहेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-08-26T10:11:58+00:00",
+      "articleUrl": "https://nepallive.com/story/349097",
+      "category": "national"
+    },
+    {
+      "title": "सरकारले भन्यो– भूकम्पपछि पहिरो जाँदा भोटेकोसीमा भीषण बाढी",
+      "description": "काठमाडौँ। परराष्ट्रमन्त्री शिशिर खनालले रसुवाको भोटेकोसी नदीमा आएको ठुलो बाढीको मुख्य कारण भूकम्प र त्यसपछिको पहिरो भएको जानकारी दिएका छन्। प्रतिनिधि सभाको बुधबारको बैठकमा बोल्दै मन्त्री खनालले आज बिहान करिब ८ बजेर ४० मिनेट जाँदा भोटेकोसीमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/sisir-khanal_UolsEDFuKk.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:09:41+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587572/government-says-landslides-after-earthquake-cause-severe-flooding-in-bhotekoshi",
+      "category": "politics"
+    },
+    {
+      "title": "उच्च मनोवलका साथ सुरक्षाकर्मी उद्धारमा : प्रहरी महानिरीक्षक कार्की",
+      "description": "नवराज नेपालीगलकोट (बागलुङ), भदौ १० गते । प्रहरी महानिरीक्षक दानबहादुर कार्कीले प्रहरीले उच्च मनोवलका साथ सुरक्षामा खटिएको बताउनुभएको छ । कार्कीले भौतिक पूवाधारले समेत प्रहरीलाई सेव...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/378206/conversions/Mahanirikshak-1-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-08-26T10:09:22+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/219956",
+      "category": "national"
+    },
+    {
+      "title": "‘भीआईपी मुभमेन्टमा ख्याल गरौँ, उद्धारमा सुरक्षाकर्मी नछुटून्’ : रवि लामिछाने",
+      "description": "रसुवालगायतका क्षेत्रमा बाढीका कारण संकट उत्पन्न भइरहेका बेला लामिछानेले आफ्ना सांसदसहित सबैलाई भीआईपी मुभमेन्टमा विशेष ख्याल गर्न आग्रह गरेका हुन्।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-08-26T10:09:22+00:00",
+      "articleUrl": "https://nepallive.com/story/349096",
+      "category": "national"
+    },
+    {
+      "title": "बागमती प्रदेश सरकारले खटायो आकस्मिक स्वास्थ्य टोली",
+      "description": "काठमाडौँ । रसुवामा आएको भीषण बाढी पहिरोबाट प्रभावित तथा घाइते नागरिकको उद्धार र उपचारलाई तीव्रता दिन बागमती प्रदेश सरकारले विभिन्न अस्पतालबाट आकस्मिक स्वास्थ्य टोली प्रभावित क्षेत्रमा परिचालन गरेको छ । मुख्यमन्त्री किरण थापा मगरको निर्देशनमा प्रदेशअन्तर्गतका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/785583504_1796402798368101_5044651541213333927_n_0Q2Z4Z4khw.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:08:01+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587571/bagmati-province-government-deploys-emergency-health-team",
+      "category": "politics"
+    },
+    {
+      "title": "उपचारमा जुट्न चिकित्सकलाई मेडिकल काउन्सिलको आह्वान",
+      "description": "१० भदौ, काठमाडौं । नेपाल मेडिकल काउन्सिलले रसुवा बाढीबाट घाइते नागरिकको उपचारमा सक्रिय रूपमा जुट्न सम्पूर्ण चिकित्सक तथा स्वास्थ्यकर्मीलाई आह्वान गरेको छ। चीनको तिब्बत हुँदै भोटेकोशी नदीमा आएको बाढी तथा पहिरोका कारण नदी तटीय क्षेत्रमा भएको अपूरणीय जनधनको क्षतिप्रति काउन्सिलले गहिरो दुःख व्यक्त गरेको छ। काउन्सिलले विपद्का कारण हुन सक्ने थप मानवीय तथा भौतिक क्",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/national-truma-center.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-26T10:07:16+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2004226/medical-council-calls-on-doctors-to-join-treatment",
+      "category": "national"
+    },
+    {
+      "title": "ग्यिरोङ पहिरोपछि उद्धारमा जुट्न चिनियाँ राष्ट्रपतिको निर्देशन",
+      "description": "काठमाडौँ । चीनका राष्ट्रपति सी चिनफिङले तिब्बतको ग्यिरोङ सीमा नाकामा पहिरोपछि बेपत्ता भएकाहरूको खोज तथा उद्धारका लागि ‘सम्पूर्ण प्रयास’ लगाउन निर्देशन दिएका छन् । बुधबार बिहान ग्यिरोङ बन्दरगाह क्षेत्रमा पहिरो जाँदा मानवीय तथा भौतिक क्षति भएपछि",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/xi_aBVz27drH0.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:07:13+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587570/chinese-president-directs-rescue-efforts-after-girong-landslide",
+      "category": "politics"
+    },
+    {
+      "title": "सामसुङले नेपालमा सार्वजनिक गर्‍यो नयाँ ग्यालेक्सी Z सिरिज र स्मार्टवाच",
+      "description": "काठमाडौं । विश्वप्रसिद्ध प्रविधि कम्पनी सामसुङले नेपाली बजारमा आफ्ना बहुप्रतिक्षित फोल्डेबल स्मार्टफोन र स्मार्टवाचहरूको नयाँ संस्करण सार्वजनिक गरेको छ। कम्पनीले Galaxy Z Fold8 Ultra, Galaxy Z Fold8, Galaxy Z Flip8 का साथै Galaxy Watch Ultra2 र Galaxy Watch9 नेपाली बजारमा ल्याएको हो। नयाँ ग्यालेक्सी Z सिरिजले फोल्डेबल स्मार्टफोनको अनुभवमा नयाँ आयाम थपेको कम्",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalpress.com/favicon.ico",
+      "sourceName": "नेपाल प्रेस",
+      "publishedTime": "2026-08-26T10:06:50+00:00",
+      "articleUrl": "https://nepalpress.com/2026/08/26/757323/samsung-launches-new-galaxy-z-series-and-smartwatch-in-nepal/",
+      "category": "national"
+    },
+    {
+      "title": "त्रिभुवन त्रिशुली बहुमुखी क्याम्पस परीक्षा केन्द्रको एमबीएस तहको परीक्षा स्थगित",
+      "description": "काठमाडौँ। त्रिभुवन विश्वविद्यालय, व्यवस्थापन सङ्काय, परीक्षा नियन्त्रण महाशाखाले नुवाकोटस्थित त्रिभुवन त्रिशुली बहुमुखी क्याम्पस परीक्षा केन्द्रको स्नातकोत्तर तहको अन्तर्राष्ट्रिय व्यापार विषयको परीक्षा स्थगित गरेको छ । बुधबार डिनको कार्यालयद्वारा पूर्वनिर्धारित तालिका अनुसार सञ्चालन भइरहेको एमबीएस कार्यक्रम अन्तर्गत",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/tribhuwan-university_wy1rk50crt_67nnt3rrft_xhrukeuukk_8vupetmw6k_2ISwH5xZcV.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:05:56+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587569/mbs-level-exams-at-trishuli-multiple-campus-examination-center-postponed",
+      "category": "national"
+    },
+    {
+      "title": "बाढीबाट प्रभावित ऊर्जा संरचनाको तत्काल क्षति विवरण संकलन गर्न मन्त्री श्रेष्ठको निर्देशन",
+      "description": "बुधबार बिहान बाढीको सूचना प्राप्त भएलगत्तै मन्त्री श्रेष्ठले मन्त्रालयमा वरिष्ठ व्यवस्थापन समूह (एसएमटी)को बैठक बोलाएर घटनाको प्रारम्भिक अवस्थाबारे जानकारी लिएका थिए ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-08-26T10:05:48+00:00",
+      "articleUrl": "https://nepallive.com/story/349095",
+      "category": "politics"
+    },
+    {
+      "title": "रास्वपाले राहत कोषमा एकमुस्ट रकम जम्मा गर्ने",
+      "description": "रास्वपाले राहत कोषमा एकमुस्ट रकम जम्मा गर्ने भएको छ ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-26T10:05:38+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2004225/rsp-to-deposit-lump-sum-in-relief-fund",
+      "category": "national"
+    },
+    {
+      "title": "उद्धारको पर्खाइमा रहेका व्यक्तिलाई धुवाँ निकालेर संकत गर्न आग्रह",
+      "description": "काठमाडौं । राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणले उद्धारको पर्खाइमा रहेका व्यक्तिलाई आफू रहेको वा बसेको स्थानबाट उद्धार टोलीको ध्यानाकर्षण गराउन आगोको धुवाँ निकालेर संकेत गर्न अनुरोध गरेको छ। प्राधिकरणले रसुवाको भोटेकोशीमा आएको बाढीका कारण रसुवा, नुवाकोट, धादिङ, चितवन लगायतका जिल्ला प्रभावित भएपछि खोज तथा उद्धार कार्य तीव्र पारिएको जनाएको",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-08-26T10:05:36+00:00",
+      "articleUrl": "https://nepalnews.com/2026/08/26/people-waiting-for-rescue-urged-to-signal-by-blowing-smoke/",
+      "category": "business"
+    },
+    {
+      "title": "रसुवा बाढी: लाङटाङ खोला जलविद्युत् आयोजनाका ६० जना सम्पर्कविहिन",
+      "description": "काठमाडौं । रसुवाको भोटेकोशी नदी हुँदै आएको बाढीका कारण २० मेगावाटको लाङटाङ खोला जलविद्युत् आयोजनाका ६० जना सम्पर्कविहिन भएका छन् । भोटेकोशीमा आएको बाढीका कारण २५ जना इन्जिनियर, ड्राइभर, खानापकाउने व्यक्तिसहित टनेलमा काम गरिरहेका ३५ जना सम्पर्कविहीन रहेको आयोजनाले जनाएको हो ।",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-08-26T10:05:04+00:00",
+      "articleUrl": "https://clickmandu.com/2026/08/485755.html",
+      "category": "business"
+    },
+    {
+      "title": "बाढीले राजमार्ग अवरुद्ध हुँदा कस्तो छ हवाई भाडादर?",
+      "description": "काठमाडौँ । रसुवागढी हुँदै चीनबाट आएको बाढीले त्रिशूली नदी र यसको तटीय क्षेत्रमा असर गर्दा यति बेला पृथ्वी राजमार्ग अवरुद्ध छ । यसका कारण सो राजमार्ग भएर भित्रिने तथा बाहिरिने सबै सवारी साधन बन्द भएका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/airport_qY3sv8Bhmi.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:04:49+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587568/what-are-the-airfares-like-when-the-highway-is-blocked-by-floods",
+      "category": "national"
+    },
+    {
+      "title": "‘पलेँटी’ मा गुञ्जदै छन् नीर शाहका गीत",
+      "description": "काठमाडौं । हरेक अंग्रेजी महीनाको अन्तिम शुक्रवार नेपालयको आरशालामा आयोजना हुँदै आएको साङ्गीतिक कार्यक्रम ‘पलेंटी’मा यसपाली गीतकार तथा अभिनेता नीर शाह प्रस्तुत हुने भएका छन् । कार्यक्रममा शाहद्वारा रचित झण्डै डेढ दर्जन गीतहरू समावेश गरिएका छन्, जसलाई पलेँटीका कण्ठशिल्पी मीना पोखरेल र रुपक चौधरीले गाउने छन् । ‘पलेँटी’ कार्यक्रम आजभन्दा झण्डै २२ वर्ष पहिलेदेखि ",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/neer_shah1.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-26T10:04:34+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2004224/neer-shahs-songs-are-resonating-in-palenti",
+      "category": "national"
+    },
+    {
+      "title": "एकाएक खण्डहर बन्यो त्रिशूली बजार (तस्वीरहरू)",
+      "description": "एकाएक आएको बाढीले बजारको पूरै स्वरूप बदलिदिएको छ । चकाचौँध बजारलाई खण्डहरमा परिणत गर्न एक निमेष पनि लागेन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Trishuli-badhi8.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-26T10:03:25+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2004211/trishuli-bazaar-suddenly-turned-into-ruins-photos",
+      "category": "national"
+    },
+    {
+      "title": "उद्धार र राहतका कामलाई तीव्रता दिन मन्त्री श्रेष्ठको निर्देशन",
+      "description": "काठमाडौँ । ऊर्जा, जलस्रोत तथा सिँचाइ मन्त्री विराजभक्त श्रेष्ठले रसुवा र आसपासका क्षेत्रमा भोटेकोसी नदीमा आएको आकस्मिक बाढीबाट भएको क्षतिको तत्काल विवरण सङ्कलन गरी उद्धार, राहत तथा पुनर्स्थापनाका कामलाई तीव्रता दिन निर्देशन दिएका छन् । बुधबार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/784540467_1090610010318324_765040897688379617_n_HNZZ0noUIk.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:03:19+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587567/minister-shrestha-directs-to-expedite-rescue-and-relief-work",
+      "category": "politics"
+    },
+    {
+      "title": "बाढीको वितण्डा: क्षणभरमै बगर बन्यो त्रिशूली बजार, बस्तीसँगै नागरिकका सपना पनि बगे… (तस्विरहरू)",
+      "description": "काठमाडौँ । तिब्बत हुँदै भोटेकोशी नदीमा आएको बाढीले नुवाकोटको त्रिशूली बजार क्षतिग्रस्त भएको छ । बाढीले त्रिशूली बजार नै तहसनहस पारिदिएको छ । यहाँ घर, गाडीसहित ठूलो भौतिक क्षति भएको छ । बाढीले माथिल्लो क्षेत्रको सडक बगाउँदा रसुवातर्फ सडक सम्पर्क टुटेको छ । बाँकी तस्विरमा हेर्नुहोस्:",
+      "imageUrl": "",
+      "sourceLogo": "https://arthasarokar.com/favicon.ico",
+      "sourceName": "अर्थ सरोकार",
+      "publishedTime": "2026-08-26T10:01:56+00:00",
+      "articleUrl": "https://arthasarokar.com/2026/08/flood-devastation-trishuli-bazaar-turned-into-a-river-in-a-moment-peoples-dreams-swept-away-along-with-the-settlement-photos.html",
+      "category": "business"
+    },
+    {
+      "title": "सर्लाही सिँचाइ डिभिजन प्रमुखसहित दुई जनाविरुद्ध भ्रष्टाचार मुद्दा",
+      "description": "काठमाडौँ । भूमिगत जलस्रोत तथा सिँचाइ विकास डिभिजन कार्यालय सर्लाहीका डिभिजन प्रमुख अनुपमा ढकाल र मेकानिकल अधिकृत छैटौँ तुलाकान्त चौधरी विरुद्ध अख्तियार दुरुपयोग अनुसन्धान आयोगले विशेष अदालत काठमाडौँमा आरोपपत्र दायर गरेको छ। बोरिङ र मोटर जडान कार्य",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ciaa-genz-(12)_Vh1wedG2Zd.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:01:46+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587566/corruption-case-against-two-people-including-sarlahi-irrigation-division-chief",
+      "category": "national"
+    },
+    {
+      "title": "संकटका बेला सरकारलाई साथ दिनुपर्छ : गगन थापा",
+      "description": "नेपाली कांग्रेसका सभापति गगन थापाले विपद् र संकटका बेला सबै राजनीतिक दल एकजुट भएर सरकारलाई सहयोग गर्नुपर्ने बताएका छन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/06/Gagan-thapa-2.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-26T10:01:37+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2004210/government-should-be-supported-in-times-of-crisis-gagan-thapa",
+      "category": "politics"
+    },
+    {
+      "title": "भोटेकोशी बाढी : ३८४ पर्यटक सम्पर्कविहीन",
+      "description": "काठमाडौं । रसुवाको भोटेकोशीमा गएको बाढीमा परेर ३८४ पर्यटक सम्पर्कविहीन भएका छन्। नेपाल पर्यटन बोर्डले दिएको जानकारीअनुसार आज बिहान भोटेकोशीमा आएको बाढीमा परेर २९१ विदेशी र ९३ नेपाली सम्पर्कविहीन भएका छन्। पर्यटन बोर्डका निमित्त प्रमुख कार्यकारी अधिकृत (सिइओ) हिक्मतसिंह ऐरले विभिन्न कम्पनीमार्फत गोसाइँकुण्ड र कैलाश मानसरोवर गएका ३८४ पर्यटक सम्पर्कविहीन भएको ज",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-08-26T10:01:06+00:00",
+      "articleUrl": "https://nepalnews.com/2026/08/26/bhotekoshi-flood-384-tourists-left-without-contact/",
+      "category": "business"
+    },
+    {
+      "title": "भोटेकोशी बाढीको जोखिमपछि सुस्ताबासीलाई सुरक्षित स्थानमा सारिँदै",
+      "description": "बुटवल । तिब्बतबाट आएको भोटेकोशी नदीमा आएको भीषण बाढीको असर नवलपरासी पश्चिमको सुस्ता क्षेत्रमा पर्न सक्ने जोखिम बढेपछि प्रभावित क्षेत्रका बासिन्दालाई सुरक्षित स्थानमा सार्ने काम भइरहेको छ । बाढीको सबैभन्दा बढी असर सुस्ता गाउँपालिका–५, सुस्ता गाउँमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/susta_x10QqzzsEA.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T10:00:09+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587565/residents-of-susta-are-being-moved-to-safer-places-after-the-risk-of-flooding-in-bhotekoshi",
+      "category": "national"
+    },
+    {
+      "title": "नुवाकोटमा बाढी प्रभावित केन्द्रको परीक्षा स्थगित गर्ने त्रिविको निर्णय",
+      "description": "अर्को सूचना जारी नभएसम्म उक्त केन्द्रको परीक्षा स्थगित गरिएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2017/03/exam.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-26T09:59:13+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2004206/tu-decides-to-postpone-exams-at-flood-affected-centers-in-nuwakot",
+      "category": "national"
+    },
+    {
+      "title": "स्वास्थ्य टोली तयारी अवस्थामा : चिकित्सक संघ",
+      "description": "काठमाडौँ । भोटेकोशी नदीमा आएको बाढीले विभिन्न जिल्लामा ठुलो जनधनको क्षति पुर्‍याएपछि नेपाल चिकित्सक संघले विपद् व्यवस्थापन र उपचारका लागि आफ्नो तयारी तीव्र पारेको छ। संघले बाढी र पहिरोका कारण प्रभावित भएका नागरिकको तत्काल उद्धार गर्न सरकारलाई",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/chikitsak-sangha_SyNk12fNWE.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T09:59:04+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587564/health-team-on-alert-medical-association",
+      "category": "national"
+    },
+    {
+      "title": "रसुवा, धादिङ र नुवाकोटका ६ स्थानका बाढी पूर्वसूचना प्रणालीमा क्षति",
+      "description": "काठमाडौं । बुधबार बिहान भोटेकोशी नदीमा आएको बाढीका कारण ६ ओटा बाढी पूर्वसूचना प्रणाली (अर्ली वार्निङ सिस्टम) मा क्षति पुगेको छ । जल तथा मौसम विज्ञान विभाग, बाढी पूर्वानुमान महाशाखाका अनुसार रसुवा, धादिङ र नुवाकोटमा रहेका पूर्वसूचना प्रणालीमा क्षति पुगेको हो । महाशाखाको बाढी पूर्वानुमान शाखाका प्रमुख बिनोद पराजुलीका अनुसार रसुवा जिल्लाको रसुवागढी नाका, स्याफ्",
+      "imageUrl": "",
+      "sourceLogo": "https://www.techpana.com/favicon.ico",
+      "sourceName": "टेकपाना",
+      "publishedTime": "2026-08-26T09:58:51+00:00",
+      "articleUrl": "https://techpana.com/2026/158715/rasuwa-dhading-nuwakot-flood-early-warning-systems-damaged",
+      "category": "technology"
+    },
+    {
+      "title": "बाढी प्रभावित क्षेत्रमा नाट्टाले राहत कोष र हेल्प डेस्क स्थापना गर्ने",
+      "description": "काठमाडौँ । नेपाल एसोसिएसन अफ टुर एण्ड ट्राभल एजेन्ट्स (नाट्टा) ले रसुवाको भोटेकोशी तथा त्रिशूली नदी क्षेत्रमा आएको आकस्मिक बाढीबाट प्रभावित भएकाहरूको तत्काल उद्धार तथा राहतका लागि अपिल गरेको छ । बाढीको विपद्पछि नाट्टा गण्डकी प्रदेशको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-trishuli-badhi_FrcYeItRcg.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T09:57:29+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587563/natta-to-set-up-relief-fund-and-help-desk-in-flood-affected-areas",
+      "category": "national"
+    },
+    {
+      "title": "बाढीमा परेकाहरूको खोजी र उद्धार कार्य तीव्र पार्न चिनियाँ राष्ट्रपति सी को निर्देशन",
+      "description": "राष्ट्रपति सीले बुधबार नै सम्बन्धित निकायहरुलाई खोजी र उद्धारमा खटिन निर्देशन दिएको चिनियाँ अनलाइन ग्लोबल टाइम्सले जनाएको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-08-26T09:57:00+00:00",
+      "articleUrl": "https://www.setopati.com/politics/396787",
+      "category": "politics"
+    },
+    {
+      "title": "रसुवा क्षेत्रमा ३८४ पर्यटक सम्पर्कविहीन",
+      "description": "रसुवा बाढीपछि रसुवा आसपास क्षेत्रमा ३८४ पर्यटक सम्पर्कमा आउन सकेका छैनन्।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-08-26T09:57:00+00:00",
+      "articleUrl": "https://www.setopati.com/social/396786",
+      "category": "national"
+    },
+    {
+      "title": "रसुवा बाढीका कारण धादिङमा ६ जनाको शव फेला",
+      "description": "काठमाडौं । रसुवा बाढीमा परेकाहरूमध्ये धादिङमा ६ जनाको शव फेला परेको छ । जिल्ला प्रहरी कार्यालय धादिङका अनुसार दिउँसो ३ बजेसम्म गल्छी गाउँपालिका महेश दोभानमा एक महिलाको, गल्छी कै कोल्फु खोला पुलनजिकै २ जना पुरुषको, सिद्धलेश गाउँपालिका ७ स्थित त्रिशूलीकै किनारमा एक शव, बेनिघाट रोराङ गाउँपालिका बेनिघाट बजार नजिकै त्रिशूली किनारमा २ महिलाको शव फेला […]",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-08-26T09:56:34+00:00",
+      "articleUrl": "https://clickmandu.com/2026/08/485753.html",
+      "category": "business"
+    },
+    {
+      "title": "सुस्ताबासीको स्थान्तरणमा सुरक्षाकर्मी परिचालन",
+      "description": "पुरुषोत्तम सुवेदीपश्चिम नवलपरासी, भदौ १० गते । रसुवागढी क्षेत्र हुँदैआएको भीषण बाढीका कारण नारायणी नदीमा पानीको सतह उच्च भएपछि पश्चिम नवलपरासीको सुस्ताका महिला तथा बालबालिकालाई पहि...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/378202/conversions/susta-1-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-08-26T09:56:33+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/219954",
+      "category": "national"
+    },
+    {
+      "title": "बाढीपछि रसुवाका ६ स्वास्थ्यकर्मी सम्पर्कविहीन, दुई स्वास्थ्य चौकी बगायो",
+      "description": "१० भदौ, काठमाडौं । आज बिहान आएको बाढीपछि रसुवाका ६ जना स्वास्थ्यकर्मी सम्पर्कविहीन भएका छन् । जनस्वास्थ्य कार्यालय रसुवाका प्रमुख निरध्वज घर्ती मगरले दिएको जानकारी अनुसार टिमुरे र स्याप्रुबेसीमा रहेको स्वास्थ्यचौकी बाढीले बगाएको छ । दुवै स्वास्थ्यचौकीमा कार्यरत २–२ जना स्वास्थ्यकर्मी हालसम्म सम्पर्कमा आएका छैनन् । त्यसैगरी रसुवागढी नाकाका हेल्थ डेक्समा कार्य",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/rasuwa-badhi_syafrubesi.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-26T09:56:26+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2004203/six-health-workers-in-rasuwa-are-out-of-contact-after-floods-two-health-posts-washed-away",
+      "category": "national"
+    },
+    {
+      "title": "रास्वपाले बोलायो सचिवालयको आकस्मिक बैठक",
+      "description": "काठमाडौँ । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) ले सचिवालयको आकस्मिक बैठक बोलाएको छ । प्रतिनिधिसभा बैठक सकिए लगत्तै संसदीय दलको कार्यालय सिंहदरबारमा बैठक बोलाएको रास्वपाले जनाएको छ । भोटेकोसी नदीमा आएको भीषण बाढीका कारण रसुवा, नुवाकोट र",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rsp-office_qYgZcktPr9.png",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T09:56:26+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587562/rsp-calls-emergency-meeting-of-secretariat",
+      "category": "national"
+    },
+    {
+      "title": "लाङटाङ खोला जलविद्युत् आयोजनामा कार्यरत ६० जना सम्पर्कविहीन",
+      "description": "काठमाडौं । रसुवाको स्याफ्रुबेंसीमा निर्माणाधीन २० मेगावाटको लाङटाङ खोला जलविद्युत् आयोजनामा कार्यरत इन्जिनियरसहितका ६० कर्मचारी सम्पर्कविहीन भएका छन्। रसुवाको भोटेकोशी नदीमा आएको बाढीको कारणले सो जलविद्युत् आयोजनामा कार्यरत कर्मचारी सम्पर्कविहीन भएका हुन्। लाङटाङ जलविद्युत् आयोजनाका प्रबन्ध निर्देशक तथा स्वतन्त्र ऊर्जा उत्पादकहरूको संस्था, नेपालका सचिव विजयम",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-08-26T09:56:21+00:00",
+      "articleUrl": "https://nepalnews.com/2026/08/26/60-people-working-at-langtang-khola-hydropower-project-go-missing/",
+      "category": "business"
+    },
+    {
+      "title": "विपद् व्यवस्थापनका लागि अत्याधुनिक उपकरणमा लगानी गर्न हर्क साम्पाङको सुझाव",
+      "description": "बुधबार प्रतिनिधिसभाको बैठकमा बोल्दै सांसद साम्पाङले अकल्पनीय प्राकृतिक विपद्का कारण ठूलो क्षति बेहोर्नुपरेको भन्दै दुःख व्यक्त गरे । उनले भविष्यमा यस्ता विपद्बाट हुने क्षति न्यूनीकरणका लागि सरकारले प्रतिक्रियात्मकभन्दा पनि पूर्वतयारीमा आधारित योजना बनाउनुपर्ने बताए ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-08-26T09:55:40+00:00",
+      "articleUrl": "https://nepallive.com/story/349094",
+      "category": "national"
+    },
+    {
+      "title": "बाढीसम्बन्धी भ्रामक सूचना सेयर नगर्न क्यानको अपिल",
+      "description": "काठमाडौँ । नेपाल क्रिकेट सङ्घ (क्यान)ले देशका विभिन्न भू–भागमा परेको अविरल वर्षा र देखा परेको प्राकृतिक विपद्का कारण हुनसक्ने मानवीय तथा धनजनको क्षतिबाट सुरक्षित रहन सम्पूर्ण नागरिकमा हार्दिक अनुरोध गरेको छ । क्यानले बुधबार एक सूचना",
+      "imageUrl": "https://rpcdn.ratopati.com/archived-media/can-cricket-association-of-nepal.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T09:54:25+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587561/can-appeals-not-to-share-misleading-information-about-floods",
+      "category": "national"
+    },
+    {
+      "title": "रास्वपा संसदीय दलको आकस्मिक बैठक बस्दै",
+      "description": "१० भदौ, काठमाडौं । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) ले संसदीय दलको बैठक बोलाएको छ । दिउँसो ४ बजे बस्ने गरी संसदीय दलको आकस्मिक बैठक बोलाइएको हो । बुधबार बिहान तिब्बततिरबाट आएको भिषण बाढीले पुर्‍याएको क्षति र राहत तथा उद्दारका लागि छलफल गर्न संसदीय दलको आकस्मिक बैठक बोलाइएको जानकारी गराइएको छ । बैठक संसदीय दलको कार्यालय […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/07/RSP-Meeting.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-26T09:54:13+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2004196/emergency-meeting-of-the-rsvp-parliamentary-party-is-being-held",
+      "category": "politics"
+    },
+    {
+      "title": "विपतको समयमा डायस्पोराको सहयोग हुने लामिछानेको विश्वास",
+      "description": "काठमाडौँ । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सभापति रवि लामिछानेले प्राकृतिक विपत्तिको यो समयमा विदेशमा रहेका नेपालीहरूको भूमिका महत्त्वपूर्ण हुने बताएका छन् । प्रतिनिधिसभाको बैठकमा बोल्दै सभापति लामिछानेले नेपालमा जुनसुकै बेला दुःख र प्राकृतिक प्रकोप",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rabi_F7UFK8oJbu.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T09:54:01+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587560/lamichhane-believes-that-diaspora-will-help-in-times-of-disaster",
+      "category": "national"
+    },
+    {
+      "title": "रसुवा बाढी: क्षतिको विवरण संकलन र पुनर्स्थापनालाई तीव्रता दिन मन्त्री श्रेष्ठको निर्देशन",
+      "description": "काठमाडौं । ऊर्जा, जलस्रोत तथा सिँचाइ मन्त्री विराज भक्त श्रेष्ठले रसुवा र आसपासका क्षेत्रमा भोटेकोशी नदीमा आएको आकस्मिक बाढीबाट भएको क्षतिको तत्काल विवरण संकलन गरी उद्धार, राहत तथा पुनःस्थापनाका कामलाई तीव्रता दिन निर्देशन दिएका छन् । बुधबार बिहान बाढीको सूचना प्राप्त भएलगत्तै मन्त्री श्रेष्ठले मन्त्रालयमा वरिष्ठ व्यवस्थापन समूह (एसएमटी)को बैठक बोलाएर घटनाको",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-08-26T09:53:17+00:00",
+      "articleUrl": "https://clickmandu.com/2026/08/485747.html",
+      "category": "business"
+    },
+    {
+      "title": "बाढीबाट क्षति, उच्च जोखिम, उद्धार तथा राहत कार्यमा जुट्न महासंघको अपिल",
+      "description": "बाढीको सघन असर मुग्लिन हुँदै चितवनसम्म पर्न सक्ने र त्रिशूली नदी जोडिएका सबै तटीय क्षेत्र उच्च जोखिममा रहेकाले तत्काल सतर्कता अपनाउन महासंघले आग्रह गरेको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/10/fncci_.jpeg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-26T09:53:04+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2004198/federation-appeals-to-join-rescue-and-relief-efforts-amid-flood-damage-high-risk",
+      "category": "national"
+    },
     {
       "title": "बाढी प्रभावित क्षेत्रमा ३ दिन एनसेलको डेटा र भ्वाइस निःशुल्क",
       "description": "काठमाडौं । एनसेलले बुधबार बिहानको भीषण बाढीबाट प्रभावित क्षेत्रहरुमा तीन दिनका लागि भ्वाइस र डेटा सेवा निःशुल्क उपलब्ध गराउने जनाएको छ । त्यसबाहेक प्रभावित क्षेत्रका सर्वसाधारणलाई तीन दिन समयावधि रहेको १०० वटा एसएमएस पनि निःशुल्क उपलब्ध गराउने बताएको छ । यसले बाढी प्रभावित क्षेत्रका बासिन्दा तथा त्यहाँ रहेका सर्वसाधारणलाई एकआपसमा सहजरूपमा सम्पर्कमा रहन मद्दत",
@@ -17,6 +536,46 @@
       "sourceName": "नेपाल प्रेस",
       "publishedTime": "2026-08-26T09:52:43+00:00",
       "articleUrl": "https://nepalpress.com/2026/08/26/757321/ncells-data-and-voice-are-free-for-3-days-in-flood-affected-areas/",
+      "category": "national"
+    },
+    {
+      "title": "रसुवा बाढी : रगत आवश्यक परे तयारी अवस्थामा रेडक्रस सोसाइटी",
+      "description": "काठमाडौँ। रसुवामा आएको बाढी प्रभावितहरूको उपचारका लागि रगत आवश्यक परे आफूहरू तयारी अवस्थामा रहेको नेपाल रेडक्रस सोसाइटीले जनाएको छ । बाढीबाट प्रभावितहरूको उपचारका लागि आवश्यक पर्न सक्ने रगत पर्याप्त रहेको र आफूहरू हाइअलर्टमा रहेको रेडक्रस सोसाइटीले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/redcross_HWYTqlRCm3.png",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T09:52:32+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587559/rasuwa-flood-red-cross-society-on-standby-if-blood-is-needed",
+      "category": "national"
+    },
+    {
+      "title": "बाढी प्रभावित जिल्लामा राष्ट्रिय विपद् घोषणा गर्न प्रमुख दलहरूको माग",
+      "description": "काठमाडौँ । प्रतिनिधि सभाको बैठकमा विभिन्न राजनीतिक दलका प्रमुख सचेतक र सांसदहरूले रसुवा, नुवाकोट र धादिङ लगायतका बाढी प्रभावित जिल्लालाई सङ्कटग्रस्त क्षेत्र घोषणा गरी राष्ट्रिय विपद् जारी गर्न सरकारसँग माग गरेका छन्। तिब्बतको जिबुङ क्षेत्रमा भएको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ss_ocHlHJSdZT.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-26T09:52:20+00:00",
+      "articleUrl": "https://www.ratopati.com/story/587558/major-parties-demand-declaration-of-national-disaster-in-flood-affected-districts",
+      "category": "politics"
+    },
+    {
+      "title": "१३ घाइतेलाई उपचारका लागि हेलिकप्टरमार्फत काठमाडौं ल्याइयो (नामसहित)",
+      "description": "रसुवामा आएको बाढीमा घाइते भएका मध्ये १३ जनालाई उद्धार गरेर उपचारका लागि काठमाडौं ल्याइएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/badhi-ghaite-2.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-26T09:51:53+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2004188/13-injured-brought-to-kathmandu-by-helicopter-for-treatment-with-names",
+      "category": "national"
+    },
+    {
+      "title": "इस्टु कार्कीले अनामनगरमा थालिन् क्याफे व्यवसाय",
+      "description": "काठमाडौं । कन्टेन्ट क्रियटर तथा कलाकार इस्टु कार्कीले व्यवसाय थालेकी छन् । उनले अनामनगरमा ‘फ्लिप एन्ड इट’ क्याफे संचालनमा ल्याएकी छन् । ८० वर्षिया हजुरआमाको हातबाट केक काटेर क्याफे उद्घाटन गराइन् । सो अवसरमा कलाकार तथा कन्टेन्ट क्रिएटर संजोग कोइराला लगायतको उपस्थिती थियो । झन्डै ४० लाख रुपैयाँभन्दा बढी लगानीमा सुरु गरिएको क्याफे इस्टुका लागि […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/ishtu_karki1.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-08-26T09:51:51+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/08/2004189/istu-karki-starts-cafe-business-in-anamnagar",
       "category": "national"
     },
     {
@@ -37,7 +596,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-08-26T09:51:23+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2004187/stock-market-high-decline-in-hydropower-and-non-life-insurance-nepse-drops-35-points",
-      "category": "business"
+      "category": "national"
     },
     {
       "title": "कुनै दलको होइन, नेपालको झन्डा बोकेर उद्धारमा जुटौँ : रवि लामिछाने",
@@ -118,6 +677,16 @@
       "publishedTime": "2026-08-26T09:45:51+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2004181/rabi-lamichhane-in-continuous-discussions-with-the-prime-minister-home-minister-health-minister-etc",
       "category": "politics"
+    },
+    {
+      "title": "रसुवा बाढी: मन्त्रिपरिषदको आकस्मिक बैठकका १० निर्णय",
+      "description": "सरकारले रसुवाको बाढीसँग सम्बन्धमा सरकारले १० वटा निर्णय गरेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-08-26T09:45:00+00:00",
+      "articleUrl": "https://www.setopati.com/politics/396788",
+      "category": "national"
     },
     {
       "title": "ट्रमा र टिचिङमा १५ जनाको उपचार हुँदै, अधिकांशको अवस्था गम्भीर",
@@ -580,16 +1149,6 @@
       "category": "national"
     },
     {
-      "title": "भोटेकोशी बाढीबाट ३८४ पर्यटक सम्पर्कविहीन",
-      "description": "काठमाडौं । रसुवाको भोटेकोशीमा आएको बाढीका कारण आन्तरिक तथा वाह्य पर्यटक गरी ३८४ जना सम्पर्कविहीन रहेको नेपाल पर्यटन बोर्डले जनाएको छ । ट्राभल एजेन्सी, गाइड, स्थानीय निकाय र सुरक्षा निकायसँग पुष्टि गरेपछि पर्यटन बोर्डले सो तथ्यांक अघि सारेको हो । बोर्डका अनुसार, सम्पर्कविहीनमध्ये २ सय ९१ विदेशी र ९३ नेपाली पर्यटक छन् । The post भोटेकोशी बाढीबाट ३८४ पर्यटक सम्",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-08-26T09:18:22+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/146239/",
-      "category": "national"
-    },
-    {
       "title": "सशस्त्र प्रहरीको उद्धार तथा राहत परिचालन",
       "description": "गोरखापत्र समाचारदाताकाठमाडौँ, भदौ १० गते । रसुवामा आएको बाढीबाट प्रभावित नागरिकको उद्धार, उपचार तथा राहतका लागि सशस्त्र प्रहरी बल, नेपालले चिकित्सक तथा स्वास्थ्यकर्मीसहित आवश्यक स्...",
       "imageUrl": "https://gorkhapatraonline.com/storage/media/378190/conversions/APF-original.jpg",
@@ -648,16 +1207,6 @@
       "publishedTime": "2026-08-26T09:15:47+00:00",
       "articleUrl": "https://www.ratopati.com/story/587540/sudurpaschim-chief-minister-bhatta-expresses-deep-sorrow-over-the-devastation-caused-by-the-rasuwagadhi-floods",
       "category": "politics"
-    },
-    {
-      "title": "तिब्बत तर्फबाट विनाशकारी बाढी (Live Updates)",
-      "description": "रसुवा । भोटेकोसी नदी रसुवामा तिब्बत तर्फबाट ठुलो बाढी प्रवेश गरेको छ । बिहान ९ः१५ बजे तिब्बत तर्फबाट ठुलो बाढी प्रवेश गरेकोले अर्को सूचना नआउँदासम्म त्रिशूली नदीको तटीय क्षेत्र मुग्लिनसम्म उच्च सतर्कता अपनाउन बाढी पूर्वानुमान महाशाखाले",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/badi-rasuwa2_PEiSlNmlcl.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T09:15:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587391/large-flood-enters-bhotekoshi-from-tibet-urges-to-adopt-high-alert-up-to-muglin",
-      "category": "national"
     },
     {
       "title": "बाढीलाई राष्ट्रिय विपद् घोषणा गर्न रास्वपाको माग",
@@ -2257,7 +2806,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-08-26T07:55:23+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2004012/748-mw-power-projects-affected-due-to-floods-list",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "यी हुन् रसुवा बाढीमा सशस्त्र प्रहरीले हालसम्म गरिरहेका १३ काम",
@@ -2727,7 +3276,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-08-26T07:30:52+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2003999/25-rasuwagadhi-customs-employees-contacted-search-continues-for-14",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "पारिवारिक जमघटमा गोलीबारी, अमेरिकामा चार बालबालिकासहित ८ जनाको हत्या",
@@ -2937,7 +3486,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-08-26T07:20:18+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2003969/samsungs-z-fold-8-ultra-fold-8-flip-8-and-two-smartwatches-launched-in-nepal",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "बाढी पसेपछि यस्तो देखियो धादिङ बैरेनी (तस्वीरहरू)",
@@ -3750,16 +4299,6 @@
       "category": "business"
     },
     {
-      "title": "पलेँटीमा गुञ्जिँदै छन् नीर शाहका गीत",
-      "description": "काठमाडौं । हरेक अंग्रेजी महिनाको अन्तिम शुक्रबार आयोजना हुँदै आएको सांगीतिक कार्यक्रम ‘पलेँटी’मा यसपटक गीतकार तथा अभिनेता नीर शाहका रचना प्रस्तुत हुने भएका छन्। कालिकास्थानस्थित नेपालयको ‘आर’शालामा यही अगस्ट २८ र २९ तारिख आयोजना हुने",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/785145156_829299193534046_4004958406367827458_n_nwWXUDJVs4.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T06:40:04+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587452/neer-shahs-songs-are-echoing-in-the-streets",
-      "category": "national"
-    },
-    {
       "title": "विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन राष्ट्रिय परिषद्को बैठक सकियो",
       "description": "१० भदौ, काठमाडौं । रसुवामा गएको बाढीको विषयमा छलफल गर्न प्रधानमन्त्री बालेन शाहले बोलाएको विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन राष्ट्रिय परिषद्को बैठक सकिएको छ । सिंहदरबारस्थित प्रधानमन्त्री तथा मन्त्रिपरिषद्को कार्यालयमा बसेको बैठकमा बाढीले अहिलेसम्म पुर्‍याएको क्षतिको विवरणबारे ब्रिफिङ भएको छ । बैठकमा प्रधानमन्त्री शाहले आगामी कदमबारे सरोकारवाला सबैलाई निर",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/balen-shaha.jpg",
@@ -4477,536 +5016,6 @@
       "sourceName": "राजधानी",
       "publishedTime": "2026-08-26T05:58:06+00:00",
       "articleUrl": "https://rajdhanidaily.com/id/146213/",
-      "category": "national"
-    },
-    {
-      "title": "बाढीले रसुवाका यी जलविद्युत आयोजनामा क्षति",
-      "description": "रसुवामा बिहान आएको बाढीको कारण त्यहाँ सञ्चालनामा रहेका र निर्माणधिन आयोजनाहरूमा क्षति पुगेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-08-26T05:58:00+00:00",
-      "articleUrl": "https://www.setopati.com/kinmel/medical/396732",
-      "category": "national"
-    },
-    {
-      "title": "‘एलिफेन्ट्स इन द फग’ ले न्युजिल्यान्ड फेस्टिभलमा जित्यो दुई अवार्ड",
-      "description": "काठमाडौं । फिल्म ‘तिनीहरू : एलिफेन्ट्स इन द फग’ ले न्यूजिल्यान्ड अन्तर्राष्ट्रिय चलचित्र महोत्सवमा उत्कृष्ट फिल्मको पुरस्कार जितेको छ । यो फिल्मले यसअघि कान्स फिल्म फेस्टिभलको अन सर्टेन रिगार्ड विधामा जुरी पुरस्कार जित्दै ऐतिहासिक अन्तर्राष्ट्रिय यात्रा तय गरेको थियो । न्युजिल्यान्ड इन्टरनेसनल फिल्म फेस्टिभलमा ‘तिनीहरू’ का सबै शोज हाउसफुल भएका थिए । यसै कारण",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/05/elephantsinthefog1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-26T05:57:34+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003864/elephants-in-the-fog-wins-best-film-award-in-new-zealand",
-      "category": "entertainment"
-    },
-    {
-      "title": "दिक्तेल रुपाकोट मझुवागढीलाई प्लास्टिक फोहरमुक्त बनाउने अभियान",
-      "description": "खोटाङ । दिक्तेल रुपाकोट मझुवागढी नगरपालिकामा ‘प्लास्टिक तथा सिसाजन्य फोहरमुक्त सार्वजनिकस्थल, जलवायुमैत्री र सभ्य नगर निर्माण अभियान’ थालिएको छ। जिल्लाको प्रमुख व्यापारिक केन्द्र दिक्तेल बजारमा पर्ने यो नगरपालिकालाई सफा, सुन्दर र सभ्य बनाउन तीन महिने अभियान सुरु गरिएको हो। नगर प्रमुख तीर्थराज भट्टराईले नगरपालिकाले गठन गरेको हरित विद्यार्थी दूतले आफ्नो घर, टो",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-08-26T05:57:09+00:00",
-      "articleUrl": "https://nepalnews.com/2026/08/26/campaign-to-make-diktel-rupakot-majhuwagadhi-plastic-waste-free/",
-      "category": "business"
-    },
-    {
-      "title": "बिहान ८:४० मा नेपाल पसेको थियो बाढी, हिमपहिरोले थुनिएको नदी एक्कासि खुलेको अनुमान",
-      "description": "काठमाडौं । रसुवा बाढी र पहिरोको संकटका विषयमा गृह मन्त्रालयमा विपद् जोखिम न्यूनीकरण प्राधिकरणको बैठक बसेको छ । बैठकमा संकट समाधानका लागि अवलम्बन गर्ने उपायहरूबारे छलफल भयो । बैठकपछि बोल्दै प्राधिकरणकी एक सदस्यले बाढी धादिङको गल्छीसम्म आइपुगेको सूचना प्राप्त भएको बताइन् । एनटीसी र एनसेलका टावरमा क्षति पुगेकाले यकिन विवरणहरू प्राप्त भई नसकेको उनको भनाइ […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-08-26T05:56:36+00:00",
-      "articleUrl": "https://nepalpress.com/2026/08/26/757188/floods-hit-nepal-at-840-am-river-blocked-by-avalanches-is-believed-to-have-suddenly-opened/",
-      "category": "national"
-    },
-    {
-      "title": "मानवीय क्षति न्यूनीकरणका लागि एकजुट हुन सभामुखको आह्वान",
-      "description": "काठमाडौँ । तिब्बती क्षेत्र हुँदै भोटेकोशी नदीमा आएको भीषण बाढीका कारण रसुवा, नुवाकोट, धादिङ र चितवन लगायतका तल्लो तटीय क्षेत्रमा ठूलो क्षति पुगेको खबरप्रति सभामुख डीपी अर्यालले चासो व्यक्त गरेका छन्। सभामुख अर्यालले सामाजिक सञ्जाल फेसबुकमार्फत आफ्नो",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/dp-aryal_JQKNlm2zQp.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T05:56:07+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587425/speaker-calls-for-unity-to-reduce-humanitarian-losses",
-      "category": "national"
-    },
-    {
-      "title": "धुन्चेका वडाध्यक्ष भन्छन्, ‘स्याफ्रुबेसीदेखि टिमुरेसम्म कसैसँग पनि सम्पर्क हुन सकेको छैन’",
-      "description": "१० भदौ, काठमाडौं । तिब्बततर्फबाट आएको बाढीले रसुवा-नुवाकोटमा ठूलो क्षति भएको छ । रसुवाको भोटेकोशीमा आएको बाढीले तटीय क्षेत्रका बस्ती बगाएको छ । क्षतिको विवरण आउन बाँकी छ । रसुवाको गोसाइकुण्ड गाउँपालिकाका लगायतका स्थानीय तहमा ठूलो क्षति भएको छ । धेरै नागरिक सम्पर्कविहीन छन् भने केही उद्धारको पर्खाइमा रहेका छन् । गोसाइकुण्ड गाउँपालिका-६ धुन्चेका अध्यक्ष […]",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-26T05:55:36+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003862/ward-member-pema-dorje-ghale-says-200-of-us-are-waiting-for-rescue-2",
-      "category": "national"
-    },
-    {
-      "title": "भोटेकोशी बाढी: त्रिशूली बजारका ६० घर र दुई पक्की पुल बगायो",
-      "description": "बाढीले त्रिशूली बजार आसपासका करिब ६० घरका साथै नदीमा रहेका दुई वटा पक्की पुल बगाएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-08-26T05:53:46+00:00",
-      "articleUrl": "https://nepallive.com/story/349063",
-      "category": "national"
-    },
-    {
-      "title": "राज्यको सम्पूर्ण संयन्त्र परिचालन गर्न सभापति गगन थापाको माग",
-      "description": "काठमाडौँ । नेपाली कांग्रेसका सभापति गगनकुमार थापाले रसुवामा अप्रत्याशित र आकस्मिक रूपमा आएको बाढीका कारण स्थिति गम्भीर र चिन्ताजनक बनेको बताएका छन् । सामाजिक सञ्जाल फेसबुकमा सभापति थापाले विपद्को यस घडीमा भोटेकोशी र त्रिशूली नदीको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/gagan-thapa-(1)_CI16rghsRT.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T05:53:07+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587424/president-gagan-thapa-demands-mobilization-of-entire-state-machinery",
-      "category": "national"
-    },
-    {
-      "title": "पृथ्वी राजमार्ग हुँदै जान लागेका गाडीलाई नागढुंगामै रोकियो",
-      "description": "काठमाडौंबाट पृथ्वीराजमार्ग हुँदै बाहिरिने सवारीसाधनलाई प्रहरीले नागढुंगामै रोकेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-08-26T05:53:00+00:00",
-      "articleUrl": "https://www.setopati.com/social/396731",
-      "category": "national"
-    },
-    {
-      "title": "सुनको मूल्य घट्यो, चाँदी बढ्यो",
-      "description": "१० भदौ, काठमाडौं । बुधबार सुनको मूल्य सामान्य घटेको छ, भने चाँदी बढेको छ । नेपाल सुनचाँदी व्यवसायी महासंघका अनुसार यस दिन सुनको मूल्य प्रतितोला १ सय रुपैयाँ घटेको छ । महासंघले आजका लागि सुनको मूल्य प्रतितोला ३ लाख २२ हजार १ सय रुपैयाँ तोकेको छ । अघिल्लो दिन ३ लाख २२ हजार २ सय […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/06/gold-image-generatad-by-ai.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-26T05:52:53+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003863/gold-prices-fell-silver-rose-11",
-      "category": "business"
-    },
-    {
-      "title": "पालिका अध्यक्ष भन्छन्: गोसाइँकुण्ड जाने सुरक्षित छन्, मानसरोवर जानेको अवस्था अज्ञात छ",
-      "description": "काठमाडौं । रसुवाको भोटेकोसी नदीमा बुधबार बिहान एक्कासी आएको बाढीले गोसाइँकुण्ड जानेहरु सुरक्षित रहेको गोसाइँकुण्ड गाउँपालिका अध्यक्ष कैसाङ नुर्पु तामाङले जानकारी दिएका छन् । अहिले बाढीबाट क्षति भएको भन्दा आफूहरू ४ किलोमिटर टाढा रहेको र हेलिकप्टर नभई बाढी प्रभावित क्षेत्रमा जाने अवस्था नभएको अध्यक्ष तामाङले बताए । ‘गोसाइँकुण्ड जाने रुटमा यो बाढीको प्रभाव हुन्",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-08-26T05:51:46+00:00",
-      "articleUrl": "https://clickmandu.com/2026/08/485574.html",
-      "category": "business"
-    },
-    {
-      "title": "रसुवा बाढी: एनसेल र एनटीसीका टावरमा क्षति, उद्धारका लागि हेलिकप्टर पुगे",
-      "description": "काठमाडौं । रसुवाको भोटेकोशी नदीमा आएको भीषण बाढीका कारण ठुलो जनधनको क्षतिको आशङ्का गरिएको छ । तिब्बततर्फ नदी थुनिएर अचानक खुलेका कारण आएको बाढीले नेपालका विभिन्न जिल्लामा क्षति पुर्‍याउँदै हाल धादिङको गल्छी क्षेत्रसम्म आइपुगेको छ। राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणकी प्रवक्ता शान्ति महतका अनुसार, बाढीले सञ्चार पूर्वाधारमा ठुलो क्षति पुर",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-08-26T05:50:51+00:00",
-      "articleUrl": "https://clickmandu.com/2026/08/485579.html",
-      "category": "business"
-    },
-    {
-      "title": "रसुवामा भीषण बाढी, मुग्लिङसम्म सतर्कता",
-      "description": "बिहान रसुवामा एक्कासि आएको बाढी तिब्बततिर उत्पन्न भएको अनुमान छ। तर त्यसबारे विस्तृत विवरण आउन बाँकी छ।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9c0c/live/03f32b60-a111-11f1-aed2-8d6da8d75094.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-08-26T05:50:15+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/c3wjp107jy9o?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "रसुवा बाढीमा गगनको अपिल : सरकारलाई पूर्ण सहयोग गर्छौँ, उद्धारमा जुटौँ",
-      "description": "बुधबार एक अपिल जारी गर्दै थापाले भोटेकोसी र त्रिशूली नदीको तल्लो तटीय तथा आसपासका क्षेत्रमा बसोबास गर्ने नागरिकलाई सुरक्षित रहन आग्रह गरेका हुन्।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-08-26T05:50:10+00:00",
-      "articleUrl": "https://nepallive.com/story/349062",
-      "category": "politics"
-    },
-    {
-      "title": "रसुवा बाढी : आधा दर्जन विद्युत् गृह र सबस्टेशन क्षतिग्रस्त",
-      "description": "काठमाडौँ । रसुवा जिल्लामा आएको आकस्मिक बाढीले जलविद्युत क्षेत्रमा ठुलो क्षति पुर्‍याएको छ । नेपाल विद्युत् प्राधिकरणका अनुसार बाढीका कारण रसुवास्थित प्रमुख जलविद्युत आयोजनाहरू र प्रसारण लाइनमा गम्भीर क्षति पुगेको र विद्युत् आपूर्ति अवरुद्ध भएको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/badi_hPLKfZnqdV.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T05:49:26+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587423/rasuwa-flood-half-a-dozen-power-plants-and-substations-damaged",
-      "category": "national"
-    },
-    {
-      "title": "धादिङको आदमघाट कट्दा यस्तो देखियो रसुवाको बाढी (तस्बिरहरू)",
-      "description": "सशस्त्र प्रहरीका सह-प्रवक्ता डिएसपी शैलेन्द्र थापाका अनुसार बिहान ११ बजेअघि बाढी आदमघाट कटेको थियो।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-08-26T05:49:00+00:00",
-      "articleUrl": "https://www.setopati.com/social/396729",
-      "category": "national"
-    },
-    {
-      "title": "रसुवा बाढीः काठमाडौँदेखि चितवनसम्मको सडक बन्द",
-      "description": "काठमाडौँ, भदौ १० गते । भोटेकोशीमा बुधबार बिहान आएको बाढी पहिरोका कारण ट्राफिक प्रहरीले पृथ्वी राजमार्ग हुँदै सञ्चालन हुने सार्वजनिक सवारीसाधन सञ्चालनमा पनि रोक लगाएको छ ।काठमाडौँ उ...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/378114/conversions/Nagdhunga-road-1024x683-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-08-26T05:48:17+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/219910",
-      "category": "national"
-    },
-    {
-      "title": "पृथ्वी राजमार्ग र पासाङल्हामु राजमार्गमा सवारी सञ्चालनमा रोक",
-      "description": "रसुवा। रसुवास्थित भोटेकोशी नदीमा आज बिहान अकस्मात आएको बाढी पहिरोका कारण ट्राफिक प्रहरीले पृथ्वी राजमार्ग र पासाङल्हामु राजमार्ग हुँदै सञ्चालन हुने सार्वजनिक सवारीसाधन सञ्चालनमा रोक लगाएको छ। काठमाडौं उपत्यका ट्राफिक प्रहरी कार्यालयका प्रवक्ता, प्रहरी उपरीक्षक (एसपी) नरेशराज सुवेदीले काठमाडौंबाट पृथ्वी राजमार्ग हुँदै चितवनलगायत पश्चिम, पोखरालगायत पश्चिम, गोर",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-08-26T05:47:19+00:00",
-      "articleUrl": "https://nepalnews.com/2026/08/26/vehicle-operations-suspended-on-prithvi-highway-and-pasanglhamu-highway/",
-      "category": "business"
-    },
-    {
-      "title": "नेपाली कांग्रेसलाई बलियो बनाउन एकताको विकल्प छैन : आनन्द बिष्ट",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-08-26T05:46:37+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/144750",
-      "category": "politics"
-    },
-    {
-      "title": "त्रिशूली तटीय क्षेत्रमा उच्च सतर्कता अपनाउन र संयन्त्र परिचालन गर्न सरकारसँग रास्वपाको माग",
-      "description": "काठमाडौँ । भोटेकोशी र त्रिशूली नदीमा आएको भीषण बाढीका कारण उत्पन्न जोखिमलाई लिएर राष्ट्रिय स्वतन्त्र पार्टीले सरकारको ध्यानाकर्षण गराएको छ । महामन्त्री विपिनकुमार आचार्यले बुधबार विज्ञप्ति जारी गर्दै आचार्यले बाढीका कारण रसुवा र नुवाकोटको तटीय",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rsp-office_qYgZcktPr9.png",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T05:46:06+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587422/rsp-demands-government-to-adopt-high-alert-and-mobilize-mechanisms-in-trishuli-coastal-area",
-      "category": "politics"
-    },
-    {
-      "title": "रसुवा बाढी : सतर्क रहन र उद्धारमा जुट्न प्रचण्डको अपिल",
-      "description": "काठमाडौँ । रसुवाको भोटेकोशी नदीमा तिब्बततर्फबाट ठुलो बाढी आएको खबरप्रति नेकपाका संयोजक पुष्पकमल दाहाल ‘प्रचण्ड’ले गम्भीर चिन्ता व्यक्त गर्दै उच्च सतर्कता अपनाउन अपिल गरेका छन्। प्रचण्डले सामाजिक सञ्जाल फेसबुकमार्फत आफ्नो धारणा सार्वजनिक गर्दै रसुवा, नुवाकोट, धादिङ, गोरखा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/prachanda_kVjwnJFqza.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T05:46:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587421/rasuwa-flood-prachanda-appeals-to-remain-vigilant-and-join-rescue-efforts",
-      "category": "national"
-    },
-    {
-      "title": "रसुवा भीषण बाढी: विपद् प्राधिकरणले गर्‍यो यस्तो अपlल",
-      "description": "काठमाडौं । चीनको तिब्बततर्फबाट भोटेकोशी नदीमा ठूलो बाढी प्रवेश गरेपछि गृह मन्त्रालयअन्तर्गतको राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणले भोटेकोशी, त्रिशूली र नारायणी नदी तटीय क्षेत्रका नागरिकलाई उच्च सतर्कता अपनाउन विशेष अनुरोध गरेको छ । प्राधिकरणले आज विशेष सूचना जारी गर्दै अर्को सूचना नआउञ्जेलसम्म ती नदी तटीय क्षेत्रमा सावधानी अपनाउन आग्रह ",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-08-26T05:45:26+00:00",
-      "articleUrl": "https://clickmandu.com/2026/08/485569.html",
-      "category": "business"
-    },
-    {
-      "title": "रसुवाको बाढीप्रति नेपाली कांग्रेसका सभापति गगन थापाको चिन्ता, उद्धारमा जुट्न अपिल",
-      "description": "काठमाडौं । नेपाली कांग्रेसका सभापति गगन थापाले रसुवामा आएको अप्रत्याशित र भीषण बाढीका कारण स्थिति गम्भीर बनेको भन्दै उच्च सतर्कता अपनाउन अपिल गरेका छन् । रसुवामा अप्रत्यासित र आकस्मिक रुपमा आएको ठूलो बाढीका कारण स्थिति गम्भीर र चिन्ताजनक बनेको थापाको भनाइ छ । उनले रसुवामा अप्रत्यासित र आकस्मिक रुपमा आएको ठूलो बाढीका कारण स्थिति गम्भीर […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-08-26T05:44:36+00:00",
-      "articleUrl": "https://clickmandu.com/2026/08/485568.html",
-      "category": "business"
-    },
-    {
-      "title": "रसुवा बाढी: उद्धारमा जुट्न र गलत हल्ला नफैलाउन रवि लामिछानेको अपिल",
-      "description": "बुधबार बिहान रसुवामा आएको बाढीपछि सामाजिक सञ्जालमार्फत उनले पार्टीका नेता, सदस्य र शुभेच्छुकलाई संयमित तथा जिम्मेवार ढंगले अघि बढ्न आह्वान गरेका हुन्।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-08-26T05:44:25+00:00",
-      "articleUrl": "https://nepallive.com/story/349061",
-      "category": "national"
-    },
-    {
-      "title": "नागरिकको जीवन रक्षालाई पहिलो प्राथमिकता दिन रवि लामिछानेको अपिल",
-      "description": "काठमाडौँ । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सभापति रवि लामिछानेले रसुवामा आएको बाढीका कारण उत्पन्न विपद्को घडीमा नागरिकको जीवनरक्षा र उद्धारलाई पहिलो प्राथमिकतामा राख्न आग्रह गरेका छन्। सामाजिक सञ्जालमा फेसबुकमा अपिल जारी गर्दै सभापति लामिछानेले पार्टीका",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rabi-lamichhane_-1280_SDWmwETkgI.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T05:42:49+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587420/ravi-lamichhane-appeals-to-give-top-priority-to-protecting-citizens-lives",
-      "category": "national"
-    },
-    {
-      "title": "नुवाकोट बाढीबारे के भन्छन् नुवाकोट, धादिङ र चितवनका सीडीओ ?",
-      "description": "काठमाडौँ । रसुवा क्षेत्रबाट सुरु भएको विनाशकारी भीषण बाढीले नुवाकोट, धादिङ र चितवन जिल्लामा ठुलो तवाह उत्पन्न गराएको छ। बाढीले तल्लो तटीय क्षेत्रमा भौतिक क्षति पुर्‍याउँदै अघि बढेपछि तीनै जिल्लाका प्रशासनले सुरक्षा सतर्कता र उद्वारलाई",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/ccc_ux5Yt4K3SH.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T05:42:42+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587419/what-do-the-cdos-of-nuwakot-dhading-and-chitwan-say-about-the-nuwakot-floods",
-      "category": "national"
-    },
-    {
-      "title": "वडासदस्य पेमा दोर्जे घले भन्छन् : हामी २०० जना उद्धारको पर्खाइमा छौं",
-      "description": "१० भदौ, काठमाडौं । तिब्बततर्फबाट आएको बाढीले रसुवा-नुवाकोटमा ठूलो क्षति भएको छ । रसुवाको भोटेकोशीमा आएको बाढीले तटीय क्षेत्रका बस्ती बगाएको छ । क्षतिको विवरण आउन बाँकी छ । रसुवाको गोसाइकुन्ड गाउँपालिकाको टिमुरेस्थित एक जना वडासदस्य पेमा दोर्जे घलेका अनुसार अहिले त्यहाँ धेरै नागरिकहरु उद्धारको पर्खाइमा रहेका छन् । वडाध्यक्षको भनाइ बिहान साढे ८ बजे […]",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-26T05:42:27+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003858/ward-member-pema-dorje-ghale-says-200-of-us-are-waiting-for-rescue",
-      "category": "national"
-    },
-    {
-      "title": "रसुवामा बाढी: हाइड्रोहरूमा क्षति पुग्दा राष्ट्रिय ग्रिडबाट टुट्यो ३५० मेगावाट बिजुली",
-      "description": "काठमाडौं । बुधबार बिहान आएको भीषण बाढीका कारण रसुवा तथा आसपासका क्षेत्रमा रहेका नेपाल विद्युत् प्राधिकरण र अन्य जलविद्युत् आयोजनाका पावरहाउसहरूमा ठूलो क्षति पुगेको छ । बाढीले रसुवागढी जलविद्युत् आयोजना (१११ मेगावाट), त्रिशूली ३बी हब, त्रिशूली जलविद्युत्(२४ मेगावाट), अपर त्रिशूली ३ए (६० मेगावाट) तथा देवीघाट जलविद्युत् आयोजना (१४.८ मेगावाट) का पावर हाउस एवं पू",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-08-26T05:41:25+00:00",
-      "articleUrl": "https://clickmandu.com/2026/08/485563.html",
-      "category": "business"
-    },
-    {
-      "title": "अर्थमन्त्री डा. स्वर्णिम वाग्लेले खोज र उद्धारका भन्सार निकायसँग समन्वय गर्दै",
-      "description": "काठमाडौँ । रसुवाको भोटेकोशी नदीमा आएको भीषण बाढी र त्यसले टिमुरे तथा स्याफ्रुबेँसी क्षेत्रमा पुर्‍याएको क्षतिप्रति अर्थ मन्त्रालयले चासो देखाएको छ । अर्थमन्त्री डा. स्वर्णिम वाग्लेले बाढी प्रभावित क्षेत्रमा खोज तथा उद्धार कार्यलाई प्रभावकारी बनाउन रसुवा भन्सार",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/swornim-wagle_rVZvcYwCtf.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T05:40:56+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587418/finance-minister-dr-swarnim-wagle-coordinating-with-customs-agencies-for-search-and-rescue",
-      "category": "politics"
-    },
-    {
-      "title": "रसुवा बाढी: टिमुरे बीओपीका बेपत्ता सुरक्षाकर्मीमध्ये ५ जना सम्पर्कमा, ४ जनाको खोजी जारी",
-      "description": "काठमाडौं । सशस्त्र प्रहरी बल, नेपालको टिमुरेस्थित सीमा सुरक्षा पोष्ट (बीओपी) मा कार्यरत बेपत्ता सुरक्षाकर्मीहरूमध्ये पाँच जना सम्पर्कमा आएका छन् । बाँकी चार जना अझै सम्पर्कविहीन रहेकाले उनीहरूको खोजी कार्य तीव्र पारिएको छ । सशस्त्र प्रहरी बलका केन्द्रीय प्रवक्ता एवं सशस्त्र प्रहरी नायब महानिरीक्षक नेत्रबहादुर कार्कीका अनुसार टिमुरे बीओपीमा कार्यरत कुल ३० जना",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-08-26T05:40:42+00:00",
-      "articleUrl": "https://clickmandu.com/2026/08/485562.html",
-      "category": "business"
-    },
-    {
-      "title": "दुई हेलिकोप्टरसहित बाढी प्रभावित क्षेत्रमा सेनाको उद्धार टोली परिचालन",
-      "description": "काठमाडौँ, भदौ १० गते । रसुवामा बुधबार बिहान आएको अचानक बाढीबाट टिमुरे, स्याफ्रुबेसीलगायत खोला तथा नदी तटीय क्षेत्रमा क्षति पुगेपछि नेपाली सेनाले खोज तथा उद्धारका लागि टोली परिचालन...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/378113/conversions/Urasuwa-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-08-26T05:40:24+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/219909",
-      "category": "national"
-    },
-    {
-      "title": "भोटेकोशी बाढी अपडेट: बाढीले धादिङको गल्छीमा झोलुङ्गे पुल बगायो",
-      "description": "धादिङका प्रमुख जिल्ला अधिकारी लक्ष्मी पाण्डेय गौतमका अनुसार जिल्लामा अहिलेसम्म ठूलो मानवीय क्षतिको विवरण आएको छैन। तर बाढीको सतह बढ्दै गएकाले गल्छी, मलेखुलगायतका तटीय क्षेत्रमा उच्च सतर्कता अपनाइएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-08-26T05:40:24+00:00",
-      "articleUrl": "https://nepallive.com/story/349060",
-      "category": "national"
-    },
-    {
-      "title": "च्याटजीपीटीमा नयाँ फिचर, अब ह्वाट्सएप र आईमेसेजका लागि सजिलै कस्टम स्टिकर बनाउन सकिने",
-      "description": "काठमाडौं । के तपाईं आफ्ना तस्बिरहरूलाई च्याट गर्दा प्रयोग हुने स्टिकरमा बदल्न चाहनुहुन्छ ? च्याटजीपीटी निर्माता कम्पनी ओपनएआईले प्रयोगकर्ताहरूका लागि एउटा नयाँ र निकै उपयोगी फिचर सार्वजनिक गरेको हो । यससँगै च्याटजीपीटी प्रयोगकर्ताहरूले कुनै पनि फोटोलाई आईमेसेज वा ह्वाट्सएप स्टिकरमा परिणत गर्न सक्ने भएका छन् । यसका साथै प्रयोगकर्ताहरूले आफ्ना अनौठा आइडियाहरू ",
-      "imageUrl": "",
-      "sourceLogo": "https://www.techpana.com/favicon.ico",
-      "sourceName": "टेकपाना",
-      "publishedTime": "2026-08-26T05:40:16+00:00",
-      "articleUrl": "https://techpana.com/2026/158706/chatgpt-custom-sticker-whatsapp-imessage-new-feature",
-      "category": "technology"
-    },
-    {
-      "title": "विपद् व्यवस्थापनमा सरकारलाई कांग्रेसको पूर्ण साथ र सहयोग रहनेछ : गगन थापा",
-      "description": "काठमाडौं । नेपाली कांग्रेसका सभापति गगन थापाले रसुवामा अप्रत्याशित र आकस्मिक रूपमा आएको ठूलो बाढीका कारण स्थिति गम्भीर र चिन्ताजनक बनेको बताएका छन्। विपद्को अवस्थामा भोटेकोशी, त्रिशूली नदीको तल्लो तटीय र आसपासको क्षेत्रमा उच्च सतर्कता अपनाउन र सुरक्षित रहन आग्रह गरेका छन् । सरकारलाई राज्यको सम्पूर्ण संयन्त्र परिचालन गर्न र सबै तहका सरकारसँग समन्वय गरेर […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-08-26T05:38:44+00:00",
-      "articleUrl": "https://nepalpress.com/2026/08/26/757186/the-government-will-have-the-full-support-and-assistance-of-the-congress-in-disaster-management-gagan-thapa/",
-      "category": "politics"
-    },
-    {
-      "title": "भोटेकोशी बाढी : करिब ६० घर बगायो, त्रिशुली बजार र देवीघाट क्षेत्र प्रभावित",
-      "description": "नुवाकोट । रसुवादेखि आएको बाढीका कारण नुवाकोटको त्रिशूली बजार आसपासका करिब ६० घर बगाएको छ भने देवीघाट क्षेत्र प्रभावित भएको छ। बाढी आएको पूर्व सूचना पाए लगत्तै त्रिशूली नदी आसपासका स्थानीयहरु सुरक्षित स्थानमा गएकाले हालसम्म मानवीय क्षतिको विवरण प्राप्त नभएको नुवाकोटका प्रमुख जिल्ला अधिकारी शम्भुप्रसाद रेग्मीले जानकारी दिए। उनका अनुसार क्षतिको विस्तृत विवरण आउ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-08-26T05:38:40+00:00",
-      "articleUrl": "https://nepalnews.com/2026/08/26/bhotekoshi-flood-about-60-houses-washed-away-trishuli-bazaar-and-devighat-areas-affected/",
-      "category": "business"
-    },
-    {
-      "title": "भोटेकोशी बाढीः उच्च सतर्कता अपनाउन र उद्धारमा जुट्न रास्वपाको आह्वान",
-      "description": "काठमाडौं । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) ले भोटेकोशी नदीमा आएको भीषण बाढीका कारण रसुवा, नुवाकोट र मुग्लिन हुँदै चितवनसम्म पर्न सक्ने क्षतिप्रति गम्भीर ध्यानाकर्षण भएको जनाउँदै सरकार र सर्वसाधारणलाई उच्च सतर्कता अपनाउन आह्वान गरेको छ । रास्वपाका महामन्त्री विपिन कुमार आचार्यद्वारा जारी विज्ञप्तिमा बाढी पूर्वानुमान शाखाको प्राविधिक सल्लाहअनुसार विपद् व्",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-08-26T05:37:27+00:00",
-      "articleUrl": "https://clickmandu.com/2026/08/485560.html",
-      "category": "business"
-    },
-    {
-      "title": "जीवनकै सबैभन्दा धेरै पारिश्रमिक लिँदा पनि किन दुःखी बने इमरान खान ?",
-      "description": "अभिनेता इमरान खान १० वर्षको लामो विश्रामपछि फेरि अभिनयमा फर्किने तयारीमा छन् । सन् २००८ मा रोमान्टिक कमेडी फिल्म जाने तू… या जाने नाबाट आशालाग्दो सुरुवात गरेका यी अभिनेताको करियर सन् २०१५ वरपर लगातार फिल्महरू फ्लप भएपछि ओरालो लागेको थियो । हालैको एक अन्तर्वार्तामा इमरानले नाम नखुलाइएको एउटा फिल्मका लागि आफ्नो जीवनकै सबैभन्दा धेरै पारिश्रमिक […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/imran-khan-1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-26T05:36:56+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003827/why-was-imran-khan-sad-even-after-receiving-the-highest-salary-of-his-life",
-      "category": "entertainment"
-    },
-    {
-      "title": "रसुवाको बाढी चितवन प्रवेश गर्दै, प्रशासन उच्च सतर्कतामा",
-      "description": "चितवन । रसुवा क्षेत्रमा आएको ठूलो बाढी चितवन प्रवेश गर्ने क्रममा रहेकाले जिल्ला प्रशासन कार्यालय चितवनले उच्च सतर्कता अपनाएको छ । माथिल्लो तटीय क्षेत्रमा बाढीले पुर्‍याएको क्षतिको अवस्थालाई विश्लेषण गर्दै चितवनमा पनि ठूलो जोखिम हुन",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/badi_hPLKfZnqdV.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T05:36:41+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587417/rasuwa-floods-enter-chitwan-administration-on-high-alert",
-      "category": "national"
-    },
-    {
-      "title": "रसुवाका तीन ठाउँका ४१ जना प्रहरी सम्पर्कबिहीन",
-      "description": "रसुवाका तीन वटा ठाउँका ४१ जना प्रहरी सम्पर्कबिहीन भएका छन्।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-08-26T05:36:00+00:00",
-      "articleUrl": "https://www.setopati.com/social/396728",
-      "category": "national"
-    },
-    {
-      "title": "बाढीको जोखिममा परे कहाँ फोन गर्ने ? सरकारले सार्वजनिक गर्‍यो आपत्कालीन नम्बर",
-      "description": "काठमाडौं । रसुवाको भोटेकोसीमा आएको बाढी त्रिशूली नदी हुँदै तल्लो क्षेत्रमा बढ्दै गएपछि सरकारले जोखिममा परेका नागरिकका लागि आपत्कालीन सम्पर्क नम्बर सार्वजनिक गरेको छ। बाढीका कारण तत्काल उद्धार, राहत वा अन्य सहयोग आवश्यक परे १२३४ तथा १००/११११ मा सम्पर्क गर्न सरकारले आग्रह गरेको छ। विशेषगरी त्रिशूली नदी आसपासका बस्ती, बजार क्षेत्र तथा पृथ्वी राजमार्ग र […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-08-26T05:35:52+00:00",
-      "articleUrl": "https://clickmandu.com/2026/08/485558.html",
-      "category": "business"
-    },
-    {
-      "title": "ओझेलमा ऐतिहासिक दुधकुण्ड",
-      "description": "बैतडी समाचारदाताबैतडी, भदौ १० गते । बैतडीको प्रसिद्ध निङालासैनी भगवती मन्दिरको ऐतिहासिक दुधकुण्ड पुग्ने पैदलमार्ग नहुँदा यसको महिमा ओझेलमा परेको छ । दुधकुण्डको जल मन्दिरमा चढाउनुका...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/378108/conversions/2-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-08-26T05:35:02+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/219904",
-      "category": "national"
-    },
-    {
-      "title": "प्रविधिले कार्यबोझमा सहज",
-      "description": "सिँजा समाचारदाता सिँजा (जुम्ला), भदौ १० गते । दुर्गम हिमाली जिल्ला जुम्लाका गाउँ गाउँमा पछिल्लो समय आधुनिक प्रविधिको पहुँच विस्तार भएसँगै परम्परागत कृषिमा खर्चिनुपर्ने श्रम र कार्य...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/378105/conversions/1-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-08-26T05:34:16+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/219901",
-      "category": "national"
-    },
-    {
-      "title": "भोटेकोशीमा बाढी आउँदा प्रहरी र सशस्त्रका २८ जना सम्पर्कविहीन",
-      "description": "काठमाडौं । आज बुधबार बिहान भोटेकोशी नदीमा आएको बाढीका कारण रसुवामा नेपाल प्रहरी र सशस्त्र प्रहरीका गरी २८ जना सम्पर्कविहीन भएका छन् । नेपाल प्रहरीका १९ र सशस्त्र प्रहरीका ९ गरी २८ जना बेपत्ता भएका छन् । बागमती प्रदेश प्रहरी प्रमुख डीआईजी दीपक रेग्मीका अनुसार रसुवागढी प्रहरीचौकीका २२ प्रहरीमध्ये १३ जना सम्पर्कविहीन छन् । ९ […] The post भोटेकोशीमा बाढी आउँदा प",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-08-26T05:33:59+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/146209/",
-      "category": "national"
-    },
-    {
-      "title": "रोयल स्पोर्ट्स पार्क ब्लूलाई किङ्स टी–१० इन्डोर क्रिकेटको उपाधि",
-      "description": "१० भदौ, काठमाडौं । किङ्स टी–१० इन्डोर टुर्नामेन्ट सिजन–२ को उपाधि रोयल स्पोर्ट्स पार्क ब्लूले जितेको छ । रोयल स्पोर्ट्स पार्कमा सोमबार भएको फाइनलमा ब्याकयार्ड बीलाई ७६ रन ले हराउँदै रोयल च्याम्पियन बनेको हो । टस जितेर पहिले ब्याटिङ गरेको रोयल स्पोर्ट्स पार्क ब्लूले १० ओभरमा २ विकेट गुमाएर ९८ रन बनायो । नरेन्द्रले सर्वाधिक […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/kingst10-final.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-26T05:33:21+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003850/royal-sports-park-blue-wins-kings-t-10-indoor-cricket-title",
-      "category": "national"
-    },
-    {
-      "title": "रसुवा बाढी: सयौंको संख्यामा गोसाईंकुण्ड गइरहेका थिए तिर्थयात्री, परिवारका सदस्य चिन्तित",
-      "description": "काठमाडौं । रसुवाको भोटेकोशीमा आएको भीषण बाढीका कारण तटीय क्षेत्रमा ठूलो क्षति पुगेको छ । बाढीले धनजनको क्षतिसँगै गोसाईँकुण्ड यात्रामा निस्किएका आन्तरिक तथा बाह्य पर्यटकहरू समस्यामा परेका छन् । भदौ १२ गते पर्ने जनैपूर्णिमा मेलाका लागि ठूलो संख्यामा तीर्थयात्रीहरू गोसाईँकुण्डतर्फ प्रस्थान गरेका थिए । आज मात्रै धेरै तीर्थयात्रीहरू गाडी रिजर्भ गरेर त्यसतर्फ लागे",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-08-26T05:33:04+00:00",
-      "articleUrl": "https://clickmandu.com/2026/08/485555.html",
-      "category": "business"
-    },
-    {
-      "title": "भोटेकोशी बाढी- विपद् व्यवस्थापनका सम्पूर्ण संयन्त्र परिचालन गर्न सरकारलाई रास्वपाको ध्यानाकर्षण",
-      "description": "काठमाडौं । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा)ले भोटेकोशी नदीमा आएको भीषण बाढीका कारण रसुवा र नुवाकोटका तटीय क्षेत्रमा पुगेको क्षति तथा त्यसको असर मुग्लिन हुँदै चितवनसम्म पर्न सक्ने चेतावनीप्रति गम्भीर ध्यानाकर्षण भएको जनाएको छ। रास्वपाका महामन्त्री विपिन आचार्यले जारी गरेको विज्ञप्तिमा त्रिशूली नदी र यससँग जोडिएका सम्पूर्ण तटीय क्षेत्र उच्च जोखिममा रहेको भ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-08-26T05:32:46+00:00",
-      "articleUrl": "https://nepalpress.com/2026/08/26/757181/bhotekoshi-flood-rsp-draws-attention-to-government-to-mobilize-all-disaster-management-mechanisms/",
-      "category": "politics"
-    },
-    {
-      "title": "विपद् व्यवस्थापनका सम्पूर्ण संयन्त्रहरू परिचालन गर्न सरकारलाई रास्वपाको आग्रह",
-      "description": "१० भदौ, काठमाडौं । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) ले भोटेकोशी नदीमा आएको भीषण बाढीका कारण रसुवा र नुवाकोटको तटीय क्षेत्रमा पुगेको क्षति र यसको सघन असर मुग्लिन हुँदै चितवनसम्म पर्न सक्ने भनी बाढी पूर्वानुमान शाखाले जारी गरेको चेतावनीप्रति गम्भीर ध्यानाकर्षण भएको जनाएको छ । महामन्त्री विपिनकुमार आचार्यले विज्ञप्ति निकालेर त्रिशूली नदी र यससँग जोडिएका सम्",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/03/Rastra-Swatantra-party.gif",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-26T05:32:42+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2003852/rsp-urges-government-to-mobilize-all-disaster-management-mechanisms",
-      "category": "politics"
-    },
-    {
-      "title": "‘वर्षाले भोटेकोशीमा बाढी आएको होइन’",
-      "description": "काठमाडौं । जल तथा मौसम विज्ञान विभागका वरिष्ठ मौसमविद् मीनकुमार अर्यालले वर्षाले भोटेकोशीमा बाढी नआएको स्पष्ट गरेका छन्। बितेका २४ घण्टामा रसुवाका केही स्थानमा सामान्य वर्षा भएको र त्यहाँ सात मिलिमिटर भन्दा बढी वर्षा नभएको बताए। उनले हिमताल फुटेको आशंका गर्दै अनुसन्धान गरिने बताए।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-08-26T05:32:28+00:00",
-      "articleUrl": "https://nepalnews.com/2026/08/26/the-bhotekoshi-river-did-not-flood-due-to-rain/",
-      "category": "business"
-    },
-    {
-      "title": "धादिङमा जोखिमयुक्त बस्ती सार्ने काम धमाधम",
-      "description": "धादिङ । रसुवाबाट आएको बाढीका कारण धादिङको त्रिशूली नदी र अन्य खोला किनारका बस्तीहरू जोखिममा परेपछि प्रशासनले धमाधम सुरक्षित स्थानमा सार्न थालेको छ। बाढी गल्छी क्षेत्रसम्म आइपुगेकाले तटीय क्षेत्रमा बसोबास गर्ने सर्वसाधारणलाई सुरक्षित ठाउँमा लैजाने",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/badi_hPLKfZnqdV.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T05:32:18+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587415/work-to-relocate-high-risk-settlements-in-dhading-in-full-swing",
-      "category": "national"
-    },
-    {
-      "title": "बाढी प्रभावित स्थानीय तहका जनप्रतिनिधि भन्छन्– क्षतिको लेखाजोखा गर्ने अवस्था नै छैन",
-      "description": "काठमाडौँ । रसुवा जिल्लामा बुधबार बिहान एक्कासि आएको बाढीले ठुलो क्षति पुर्‍याएको छ । उत्तरगया गाउँपालिकामा समेत बाढीले निकै ठुलो क्षति पुगेको छ । बाढी प्रभावित क्षेत्र उत्तरगया गाउँपालिकाका प्रवक्ता एवं वडा नम्बर २ का वडा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/uttargaya-gaupalika_ukEXWEPI4A.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-26T05:32:15+00:00",
-      "articleUrl": "https://www.ratopati.com/story/587416/local-representatives-affected-by-floods-say-there-is-no-way-to-assess-the-damage",
-      "category": "national"
-    },
-    {
-      "title": "भोटेकोशी नदीको बाढीमा सतर्क रहन देउवाको आग्रह",
-      "description": "काठमाडौं । नेपाली कांग्रेसका सभापति एवं पूर्वप्रधानमन्त्री शेरबहादुर देउवाले रसुवा हुँदै त्रिशूली नदीमा आएको भीषण बाढीका कारण तटीय क्षेत्रका बासिन्दालाई उच्च सतर्कता अपनाउन र सुरक्षित स्थानमा रहन आग्रह गरेका छन् । नदीमा पानीको सतह बढेर आसपासका बस्तीहरू उच्च जोखिममा परेको उल्लेख गर्दै सभापति देउवाले रसुवादेखि नुवाकोट, धादिङ र चितवन लगायतका क्षेत्रमा असर पुग्न",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-08-26T05:32:08+00:00",
-      "articleUrl": "https://clickmandu.com/2026/08/485554.html",
-      "category": "business"
-    },
-    {
-      "title": "रसुवामा आएको आकस्मिक बाढीले १६ प्रहरी सम्पर्कविहीन",
-      "description": "काठमाडौं । रसुवाको भोटेकोशी नदीमा आएको आकस्मिक बाढीले उक्त क्षेत्रमा खटिएका २१ प्रहरीमध्ये १६ प्रहरी सम्पर्कविहीन भएका छन् । भोटेकोशी बाढीले अकल्पनीय क्षति भएको जानकारी दिँदै केन्द्रीय प्रहरी प्रवक्ता डीआईजी अविनारायण काफ्लेले टिमुरेबाट पाँच जना प्रहरी सम्पर्कमा आएको बताए । स्याफ्रुबेँसीमा ९ सहित रसुवागढी र मैलुङका प्रहरी पनि सम्पर्कमा नआएको उनले बताए । बाढी",
-      "imageUrl": "",
-      "sourceLogo": "https://dainiknepal.com/favicon.ico",
-      "sourceName": "दैनिक नेपाल",
-      "publishedTime": "2026-08-26T05:31:03+00:00",
-      "articleUrl": "https://www.dainiknepal.com/2026/08/834514.html",
-      "category": "national"
-    },
-    {
-      "title": "कैलाश मानसरोवर यात्रामा गएका ५० जना सम्पर्कविहीन, रसुवा सीमाक्षेत्रमा बाढीपछि सम्पर्क टुट्यो",
-      "description": "उनीहरू रसुवाको नेपाल–चीन सीमाक्षेत्रमा रहेका बेला बाढी आएपछि सम्पर्क टुटेको बताइएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-08-26T05:30:51+00:00",
-      "articleUrl": "https://nepallive.com/story/349058",
       "category": "national"
     }
   ]
