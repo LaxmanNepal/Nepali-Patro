@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '*/30 * * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/check_live_tv.py'
+      - '.github/workflows/live-tv-health.yml'
+      - 'data/live-tv-sources.json'
 
 permissions:
   contents: write
@@ -15,13 +20,25 @@ concurrency:
 jobs:
   check-streams:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Check remote Live TV catalog and streams
         run: python scripts/check_live_tv.py
+
+      - name: Validate health snapshot
+        run: python - <<'PY'
+import json
+from pathlib import Path
+p=Path('data/live-tv-health.json')
+d=json.loads(p.read_text(encoding='utf-8'))
+assert d.get('version') == 3
+assert isinstance(d.get('results'), list)
+assert d.get('channelCount') == len(d['results'])
+print(f"Checked {d['channelCount']} channels: {d['onlineCount']} online, {d['offlineCount']} offline")
+PY
 
       - name: Commit health snapshot
         run: |
