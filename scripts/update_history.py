@@ -8,17 +8,17 @@ from zoneinfo import ZoneInfo
 ROOT=os.path.abspath(os.path.join(os.path.dirname(__file__),".."));CAL_DIR=os.path.join(ROOT,"data","calendar");HISTORY_DIR=os.path.join(ROOT,"data","itihas")
 MONTHS={1:("baishakh","बैशाख"),2:("jestha","जेठ"),3:("ashar","असार"),4:("shrawan","साउन"),5:("bhadra","भदौ"),6:("ashoj","असोज"),7:("kartik","कात्तिक"),8:("mangsir","मंसिर"),9:("poush","पुष"),10:("magh","माघ"),11:("fagun","फागुन"),12:("chaitra","चैत")}
 def fetch(url):
- r=Request(url,headers={"User-Agent":"Nepali-Patro-HistoryBot/5.0"});
+ r=Request(url,headers={"User-Agent":"Nepali-Patro-HistoryBot/6.0"})
  with urlopen(r,timeout=25) as x:return x.read().decode("utf-8","replace")
 def jget(url):return json.loads(fetch(url))
 def today_bs():
  iso=datetime.now(ZoneInfo("Asia/Kathmandu")).strftime("%Y-%m-%d")
  for n in sorted(os.listdir(CAL_DIR)):
-  if n.endswith('.json'):
-   try:d=json.load(open(os.path.join(CAL_DIR,n),encoding='utf-8'))
-   except Exception:continue
-   for day in d.get('days',[]):
-    if day.get('ad',{}).get('date')==iso:return day
+  if not n.endswith('.json'):continue
+  try:d=json.load(open(os.path.join(CAL_DIR,n),encoding='utf-8'))
+  except Exception:continue
+  for day in d.get('days',[]):
+   if day.get('ad',{}).get('date')==iso:return day
  raise RuntimeError(f'BS date not found for {iso}')
 def ensure_file(day):
  bs=day['bs'];slug,mne=MONTHS[int(bs['month'])];os.makedirs(os.path.join(HISTORY_DIR,slug),exist_ok=True);p=os.path.join(HISTORY_DIR,slug,f"{int(bs['day'])}.json")
@@ -77,8 +77,7 @@ def classify(x,domain=None):
  if x.get('source') and not x.get('sources'):x['sources']=[{'name':x['source'],'url':x.get('url',''),'tier':x.get('source_tier','reference')}]
  return x
 def score(x):
- s=0
- s+=55 if x.get('source_tier')=='reference' else 0;s+=15 if x.get('url') else 0;s+=10 if len(x.get('summary',''))>=80 else 0;s+=10 if x.get('year') is not None else 0;s+=10 if x.get('language')=='ne' else 0
+ s=0;s+=55 if x.get('source_tier')=='reference' else 0;s+=15 if x.get('url') else 0;s+=10 if len(x.get('summary',''))>=80 else 0;s+=10 if x.get('year') is not None else 0;s+=10 if x.get('language')=='ne' else 0
  return min(s,100)
 def dedupe(items):
  out=[];seen=set()
@@ -89,22 +88,18 @@ def dedupe(items):
 def main():
  day=today_bs();p,slug,mne=ensure_file(day);bs=day['bs'];ad=day['ad']['date'];m,d=map(int,ad.split('-')[1:]);data=json.load(open(p,encoding='utf-8'))
  existing=[]
- for b in ('events','births','deaths'):
-  existing += [classify(x,x.get('domain')) for x in data.get(b,[]) if isinstance(x,dict)]
+ for b in ('events','births','deaths'):existing += [classify(x,x.get('domain')) for x in data.get(b,[]) if isinstance(x,dict)]
  candidates=[]
  for lang,dom in [('ne','nepal'),('en','world')]:
-  for kind in ('events','births','deaths'):
-   candidates += [classify(x,dom) for x in wiki(lang,m,d,kind)]
- candidates=[normalize_nepali(x) for x in candidates]
- merged=dedupe(existing+candidates)
- nq=[f'{mne} {int(bs["day"])} नेपाल इतिहास',f'{mne} {int(bs["day"])} नेपालको ऐतिहासिक घटना',f'{ad} नेपालको इतिहास'];hq=[f'{mne} {int(bs["day"])} हिन्दू धर्म इतिहास',f'{mne} {int(bs["day"])} हिन्दू पर्व परम्परा',f'{ad} सनातन धर्म इतिहास']
- leads=news(nq+hq);clean=[];ls=set()
+  for kind in ('events','births','deaths'):candidates += [classify(x,dom) for x in wiki(lang,m,d,kind)]
+ candidates=[normalize_nepali(x) for x in candidates];merged=dedupe(existing+candidates)
+ nq=[f'{mne} {int(bs["day"])} नेपाल इतिहास',f'{mne} {int(bs["day"])} नेपालको ऐतिहासिक घटना',f'{ad} नेपालको इतिहास'];hq=[f'{mne} {int(bs["day"])} हिन्दू धर्म इतिहास',f'{mne} {int(bs["day"])} हिन्दू पर्व परम्परा',f'{ad} सनातन धर्म इतिहास'];leads=news(nq+hq);clean=[];ls=set()
  for x in leads:
   x=classify(x,'hindu-dharma' if x.get('query') in hq else 'nepal');k=(x['domain'],norm(x['title']))
   if k[1] and k not in ls:ls.add(k);clean.append(x)
- now=datetime.now(ZoneInfo('UTC')).replace(microsecond=0).isoformat().replace('+00:00','Z');counts={d:sum(x.get('domain')==d for x in merged) for d in ('nepal','hindu-dharma','world')};verified_local=sum(1 for x in merged if x.get('domain') in ('nepal','hindu-dharma') and x.get('source_tier')=='reference')
+ now=datetime.now(ZoneInfo('UTC')).replace(microsecond=0).isoformat().replace('+00:00','Z');counts={z:sum(x.get('domain')==z for x in merged) for z in ('nepal','hindu-dharma','world')};verified_local=sum(1 for x in merged if x.get('domain') in ('nepal','hindu-dharma') and x.get('source_tier')=='reference')
  if not merged and not clean:raise RuntimeError('Quality gate failed: no history data or research leads found')
- data.update({'version':6,'bs_year':int(bs['year']),'bs_month':int(bs['month']),'bs_month_ne':mne,'bs_day':int(bs['day']),'bs_date':bs.get('display'),'ad_date':ad,'last_researched':now,'events':[x for x in merged if x.get('type')=='event'][:180],'births':[x for x in merged if x.get('type')=='birth'][:80],'deaths':[x for x in merged if x.get('type')=='death'][:80],'research_leads':clean[:100],'research':{'status':'automated daily research v5','domains':['nepal','hindu-dharma','world'],'counts':counts,'verified_local_reference':verified_local,'nepali_native':sum(1 for x in merged if x.get('language')=='ne'),'needs_nepali_source':sum(1 for x in merged if x.get('translation_status')=='needs-nepali-source'),'research_leads':len(clean),'quality_gate':'passed' if merged or clean else 'failed','note':'Discovery results are never promoted to historical facts automatically.'},'sources':[{'name':'नेपाली विकिपिडिया','url':f'https://ne.wikipedia.org/wiki/Special:Search?search={quote(mne+" "+str(int(bs["day"]))) }','tier':'reference'},{'name':'English Wikipedia On This Day','url':'https://en.wikipedia.org/wiki/On_this_day','tier':'reference'}]})
+ data.update({'version':6,'bs_year':int(bs['year']),'bs_month':int(bs['month']),'bs_month_ne':mne,'bs_day':int(bs['day']),'bs_date':bs.get('display'),'ad_date':ad,'last_researched':now,'events':[x for x in merged if x.get('type')=='event'][:180],'births':[x for x in merged if x.get('type')=='birth'][:80],'deaths':[x for x in merged if x.get('type')=='death'][:80],'research_leads':clean[:100],'research':{'status':'automated daily research v5','domains':['nepal','hindu-dharma','world'],'counts':counts,'verified_local_reference':verified_local,'nepali_native':sum(1 for x in merged if x.get('language')=='ne'),'needs_nepali_source':sum(1 for x in merged if x.get('translation_status')=='needs-nepali-source'),'research_leads':len(clean),'quality_gate':'passed'},'sources':[{'name':'नेपाली विकिपिडिया','url':f'https://ne.wikipedia.org/wiki/Special:Search?search={quote(mne+" "+str(int(bs["day"]))) }','tier':'reference'},{'name':'English Wikipedia On This Day','url':'https://en.wikipedia.org/wiki/On_this_day','tier':'reference'}]})
  with open(p,'w',encoding='utf-8') as f:json.dump(data,f,ensure_ascii=False,indent=2);f.write('\n')
  print(f'Updated {p}: Nepal={counts["nepal"]}, Hindu={counts["hindu-dharma"]}, World={counts["world"]}, Nepali={sum(1 for x in merged if x.get("language")=="ne")}, leads={len(clean)}')
 if __name__=='__main__':main()
