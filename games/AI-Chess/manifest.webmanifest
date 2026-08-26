@@ -1,0 +1,13 @@
+{
+  "name": "AI Chess — नेपाली पात्रो",
+  "short_name": "AI Chess",
+  "description": "नेपाली पात्रोमा AI विरुद्ध chess खेल्नुहोस्।",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#b91c1c",
+  "background_color": "#f8fafc",
+  "lang": "ne",
+  "icons": []
+}
