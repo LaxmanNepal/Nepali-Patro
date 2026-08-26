@@ -1,107 +1,50 @@
 name: Sync Nepali Patro Data
-
 on:
   workflow_dispatch:
   schedule:
     - cron: '*/10 * * * *'
-
 permissions:
   contents: write
-
 concurrency:
   group: nepali-patro-data-sync
   cancel-in-progress: false
-
 jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - name: Checkout latest main
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Setup Python
-        uses: actions/setup-python@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.13'
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: npm
-      - name: Install dependencies
-        run: npm ci --no-audit --no-fund
-      - name: Collect NEPSE published JSON data
+      - name: Collect NEPSE data
         run: python scripts/sync_nepse_data.py
-      - name: Validate NEPSE datasets
+      - name: Build normalized company database
+        run: python scripts/build_nepse_companies.py
+      - name: Validate NEPSE snapshot
+        run: python backend/nepse/validate_snapshot.py
+      - name: Validate generated data
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          required = [
-            Path('data/nepse/nepse_data.json'),
-            Path('data/nepse/market/live.json'),
-            Path('data/nepse/market/status.json'),
-            Path('data/nepse/market/indices.json'),
-            Path('data/nepse/market/summary.json'),
-            Path('data/nepse/company/profiles.json'),
-            Path('data/nepse/company/financials.json'),
-          ]
-          for p in required:
-            if not p.exists():
-              raise SystemExit(f'Missing NEPSE dataset: {p}')
-            json.loads(p.read_text(encoding='utf-8'))
-            print('OK', p)
-          stocks=json.loads(Path('data/nepse/nepse_data.json').read_text(encoding='utf-8'))
-          if not isinstance(stocks,list) or len(stocks)<10:
-            raise SystemExit(f'NEPSE market dataset unexpectedly small: {len(stocks) if isinstance(stocks,list) else "not-array"}')
-          print('NEPSE securities:',len(stocks))
+          p=Path('data/nepse')
+          for name in ['nepse_data.json','market/live.json','market/status.json','market/indices.json','market/summary.json']:
+              f=p/name
+              if not f.exists(): raise SystemExit(f'Missing {f}')
+              json.loads(f.read_text(encoding='utf-8'))
+          companies=list((p/'companies').glob('*.json')) if (p/'companies').exists() else []
+          if len(companies)<10: raise SystemExit(f'Too few company files: {len(companies)}')
+          print('Validated',len(companies),'company JSON files')
           PY
-      - name: Collect financial feeds independently
-        id: financial
-        shell: bash
+      - name: Commit data
         run: |
-          set +e
-          python scripts/update_forex.py; echo "forex_status=$?" >> "$GITHUB_OUTPUT"
-          python scripts/update_gold_rates.py; echo "gold_status=$?" >> "$GITHUB_OUTPUT"
-          python scripts/update_petroleum_prices.py; echo "petroleum_status=$?" >> "$GITHUB_OUTPUT"
-      - name: Build single daily gold history JSON
-        run: python scripts/snapshot_gold_daily.py
-      - name: Collect resilient news feed
-        run: python scripts/update_news.py
-      - name: Collect optional feeds
-        continue-on-error: true
-        run: |
-          python scripts/update_reddit.py || true
-          python scripts/update_memes.py || true
-      - name: Validate generated JSON files
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          for root in ('feeds','data/nepse'):
-            p=Path(root)
-            if p.exists():
-              for f in p.rglob('*.json'):
-                json.loads(f.read_text(encoding='utf-8'))
-          news=json.loads(Path('feeds/news.json').read_text(encoding='utf-8'))
-          if not news.get('items'):
-            raise SystemExit('News feed contains no stored articles')
-          PY
-      - name: Commit data updates
-        shell: bash
-        run: |
-          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feeds data/nepse
-          if git diff --cached --quiet; then echo 'No data changes.'; exit 0; fi
-          git fetch origin main
-          git rebase origin/main
-          git add feeds data/nepse
-          git commit -m 'chore: update Nepali Patro data feeds'
+          git add data/nepse
+          if git diff --cached --quiet; then echo 'No NEPSE data changes'; exit 0; fi
+          git commit -m 'chore: update NEPSE market and company data'
+          git pull --rebase origin main
           git push origin HEAD:main
-      - name: Run deep validation
-        if: steps.financial.outputs.forex_status == '0' && steps.financial.outputs.gold_status == '0' && steps.financial.outputs.petroleum_status == '0'
-        run: npm run validate:all
