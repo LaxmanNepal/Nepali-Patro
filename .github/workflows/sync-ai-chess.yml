@@ -1,6 +1,9 @@
 name: Sync AI Chess Source
 
 on:
+  push:
+    paths:
+      - '.github/workflows/sync-ai-chess.yml'
   workflow_dispatch:
   schedule:
     - cron: '17 3 * * 1'
@@ -22,6 +25,14 @@ jobs:
           curl -fsSL https://raw.githubusercontent.com/Sop20Games/ai-chess/main/index.html -o games/AI-Chess/vendor/game.html
           curl -fsSL https://raw.githubusercontent.com/Sop20Games/ai-chess/main/style.css -o games/AI-Chess/vendor/style.css
           curl -fsSL https://raw.githubusercontent.com/Sop20Games/ai-chess/main/script.js -o games/AI-Chess/vendor/script.js
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('games/AI-Chess/vendor/game.html')
+          s=p.read_text(encoding='utf-8')
+          s=s.replace('href="./style.css"','href="./style.css"')
+          s=s.replace('src="./script.js"','src="./script.js"')
+          p.write_text(s,encoding='utf-8')
+          PY
 
       - name: Commit synchronized source
         run: |
