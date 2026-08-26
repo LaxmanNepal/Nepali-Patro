@@ -8,18 +8,25 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: live-tv-health
+  cancel-in-progress: true
+
 jobs:
   check-streams:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Check HLS streams
+
+      - name: Check remote Live TV catalog and streams
         run: python scripts/check_live_tv.py
-      - name: Commit status
+
+      - name: Commit health snapshot
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/live-tv-status.json
-          git diff --cached --quiet || git commit -m 'chore: update live TV stream health'
+          git add data/live-tv-health.json
+          git diff --cached --quiet || git commit -m 'chore: update live TV health snapshot'
           git push
