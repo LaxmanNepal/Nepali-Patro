@@ -1,173 +1,95 @@
 #!/usr/bin/env python3
-import html
-import json
-import os
-import re
+import html,json,os,re
 from datetime import datetime
 from urllib.parse import quote
-from urllib.request import Request, urlopen
+from urllib.request import Request,urlopen
 from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo
 
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-CAL_DIR = os.path.join(ROOT, "data", "calendar")
-HISTORY_DIR = os.path.join(ROOT, "data", "itihas")
-MONTHS = {1:("baishakh","बैशाख"),2:("jestha","जेठ"),3:("ashar","असार"),4:("shrawan","साउन"),5:("bhadra","भदौ"),6:("ashoj","असोज"),7:("kartik","कात्तिक"),8:("mangsir","मंसिर"),9:("poush","पुष"),10:("magh","माघ"),11:("fagun","फागुन"),12:("chaitra","चैत")}
-
+ROOT=os.path.abspath(os.path.join(os.path.dirname(__file__),"..")); CAL_DIR=os.path.join(ROOT,"data","calendar"); HISTORY_DIR=os.path.join(ROOT,"data","itihas")
+MONTHS={1:("baishakh","बैशाख"),2:("jestha","जेठ"),3:("ashar","असार"),4:("shrawan","साउन"),5:("bhadra","भदौ"),6:("ashoj","असोज"),7:("kartik","कात्तिक"),8:("mangsir","मंसिर"),9:("poush","पुष"),10:("magh","माघ"),11:("fagun","फागुन"),12:("chaitra","चैत")}
 
 def fetch(url):
-    req = Request(url, headers={"User-Agent": "Nepali-Patro-HistoryBot/2.0"})
-    with urlopen(req, timeout=25) as response:
-        return response.read().decode("utf-8", "replace")
-
-
-def fetch_json(url):
-    return json.loads(fetch(url))
-
-
+ r=Request(url,headers={"User-Agent":"Nepali-Patro-HistoryBot/3.0"})
+ with urlopen(r,timeout=25) as x:return x.read().decode("utf-8","replace")
+def jget(url):return json.loads(fetch(url))
 def today_bs():
-    iso = datetime.now(ZoneInfo("Asia/Kathmandu")).strftime("%Y-%m-%d")
-    for name in sorted(os.listdir(CAL_DIR)):
-        if not name.endswith(".json"):
-            continue
-        try:
-            data = json.load(open(os.path.join(CAL_DIR, name), encoding="utf-8"))
-        except Exception:
-            continue
-        for day in data.get("days", []):
-            if day.get("ad", {}).get("date") == iso:
-                return day
-    raise RuntimeError(f"BS date not found for {iso}")
-
-
-def ensure_structure():
-    os.makedirs(HISTORY_DIR, exist_ok=True)
-    for name in os.listdir(CAL_DIR):
-        if not name.endswith(".json"):
-            continue
-        try:
-            data = json.load(open(os.path.join(CAL_DIR, name), encoding="utf-8"))
-        except Exception:
-            continue
-        for day in data.get("days", []):
-            bs = day.get("bs", {})
-            month, number = bs.get("month"), bs.get("day")
-            if month not in MONTHS or not number:
-                continue
-            slug, nepali = MONTHS[month]
-            folder = os.path.join(HISTORY_DIR, slug)
-            os.makedirs(folder, exist_ok=True)
-            path = os.path.join(folder, f"{int(number)}.json")
-            if not os.path.exists(path):
-                payload = {"version":3,"bs_year":int(bs.get("year")),"bs_month":int(month),"bs_month_ne":nepali,"bs_day":int(number),"events":[],"births":[],"deaths":[],"research_leads":[],"sources":[],"last_researched":None}
-                with open(path, "w", encoding="utf-8") as handle:
-                    json.dump(payload, handle, ensure_ascii=False, indent=2)
-                    handle.write("\n")
-
-
-def wikipedia_on_this_day(month, day):
-    results = []
-    for kind, result_key, item_type in (("events","events","event"),("births","births","birth"),("deaths","deaths","death")):
-        url = f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/{kind}/{month:02d}/{day:02d}"
-        try:
-            payload = fetch_json(url)
-        except Exception as exc:
-            print(f"Wikipedia {kind} unavailable: {exc}")
-            continue
-        for item in payload.get(result_key) or payload.get("events") or []:
-            pages = item.get("pages") or []
-            page = pages[0] if pages else {}
-            text = (item.get("text") or "").strip()
-            if not text:
-                continue
-            results.append({"year":item.get("year"),"title":page.get("normalizedtitle") or page.get("title") or text[:100],"summary":text,"type":item_type,"source":"Wikipedia On This Day","url":page.get("content_urls",{}).get("desktop",{}).get("page", ""),"source_tier":"reference"})
-    return results
-
-
-def google_news_leads(queries):
-    leads = []
-    for query in queries:
-        url = "https://news.google.com/rss/search?q=" + quote(query) + "&hl=ne&gl=NP&ceid=NP:ne"
-        try:
-            root = ET.fromstring(fetch(url))
-        except Exception as exc:
-            print(f"Google News unavailable for {query!r}: {exc}")
-            continue
-        for item in root.findall(".//item")[:10]:
-            title = html.unescape((item.findtext("title") or "").strip())
-            link = (item.findtext("link") or "").strip()
-            description = html.unescape(re.sub(r"<[^>]+>", " ", item.findtext("description") or "")).strip()
-            if title:
-                leads.append({"title":title,"summary":description,"type":"research-lead","source":"Google News search","url":link,"query":query,"source_tier":"discovery"})
-    return leads
-
-
-def normalize_title(value):
-    return re.sub(r"[^\w\u0900-\u097F]+", "", str(value or "").casefold())
-
-
-def classify(item):
-    text = (str(item.get("title", "")) + " " + str(item.get("summary", ""))).casefold()
-    if item.get("type") == "birth": category = "जन्म"
-    elif item.get("type") == "death": category = "निधन"
-    elif any(x in text for x in ["युद्ध","सेना","फौज","battle","war"]): category = "युद्ध तथा सैन्य इतिहास"
-    elif any(x in text for x in ["भूकम्प","बाढी","पहिरो","दुर्घटना","earthquake","flood"]): category = "प्राकृतिक विपत्ति"
-    elif any(x in text for x in ["राजा","राणा","शाह","सरकार","राष्ट्रपति","संविधान","राजनीति"]): category = "राजनीति"
-    elif any(x in text for x in ["मन्दिर","पर्व","संस्कृति","heritage","temple"]): category = "संस्कृति तथा सम्पदा"
-    elif any(x in text for x in ["विज्ञान","प्रविधि","technology","science"]): category = "विज्ञान तथा प्रविधि"
-    elif item.get("type") == "nepal-history": category = "नेपाल इतिहास"
-    else: category = "विश्व इतिहास"
-    item["category"] = item.get("category") or category
-    item["importance"] = item.get("importance") or (5 if category in ("नेपाल इतिहास","युद्ध तथा सैन्य इतिहास") else 3)
-    item["confidence"] = item.get("confidence") or ("medium" if item.get("type") == "research-lead" else "high")
-    item["sources"] = item.get("sources") or ([{"name":item.get("source"),"url":item.get("url", ""),"tier":item.get("source_tier", "reference")}] if item.get("source") else [])
-    return item
-
-
+ iso=datetime.now(ZoneInfo("Asia/Kathmandu")).strftime("%Y-%m-%d")
+ for n in sorted(os.listdir(CAL_DIR)):
+  if n.endswith('.json'):
+   try:d=json.load(open(os.path.join(CAL_DIR,n),encoding='utf-8'))
+   except:continue
+   for day in d.get('days',[]):
+    if day.get('ad',{}).get('date')==iso:return day
+ raise RuntimeError(f'BS date not found for {iso}')
+def ensure_file(day):
+ bs=day['bs']; slug,ne=MONTHS[int(bs['month'])]; os.makedirs(os.path.join(HISTORY_DIR,slug),exist_ok=True); p=os.path.join(HISTORY_DIR,slug,f"{int(bs['day'])}.json")
+ if not os.path.exists(p):
+  with open(p,'w',encoding='utf-8') as f:json.dump({'version':4,'bs_year':int(bs['year']),'bs_month':int(bs['month']),'bs_month_ne':ne,'bs_day':int(bs['day']),'bs_date':bs.get('display'),'ad_date':day['ad']['date'],'events':[],'births':[],'deaths':[],'research_leads':[],'sources':[],'last_researched':None},f,ensure_ascii=False,indent=2);f.write('\n')
+ return p,slug,ne
+def wiki(lang,month,day,kind):
+ url=f'https://{lang}.wikipedia.org/api/rest_v1/feed/onthisday/{kind}/{month:02d}/{day:02d}'
+ try:p=jget(url)
+ except Exception as e:print(f'wiki {lang}/{kind}: {e}');return []
+ out=[]
+ for it in p.get(kind,[]):
+  pages=it.get('pages') or []; pg=pages[0] if pages else {}; text=(it.get('text') or '').strip()
+  if not text:continue
+  out.append({'year':it.get('year'),'title':pg.get('normalizedtitle') or pg.get('title') or text[:100],'summary':text,'type':{'events':'event','births':'birth','deaths':'death'}[kind],'source':f'Wikipedia {lang} On This Day','url':pg.get('content_urls',{}).get('desktop',{}).get('page',''),'source_tier':'reference'})
+ return out
+def news(queries):
+ out=[]
+ for q in queries:
+  try:r=ET.fromstring(fetch('https://news.google.com/rss/search?q='+quote(q)+'&hl=ne&gl=NP&ceid=NP:ne'))
+  except Exception as e:print(f'news: {e}');continue
+  for it in r.findall('.//item')[:8]:
+   t=html.unescape((it.findtext('title') or '').strip()); link=(it.findtext('link') or '').strip(); desc=html.unescape(re.sub(r'<[^>]+>',' ',it.findtext('description') or '')).strip()
+   if t:out.append({'title':t,'summary':desc,'type':'research-lead','source':'Google News discovery','url':link,'query':q,'source_tier':'discovery'})
+ return out
+def norm(v):return re.sub(r'[^\w\u0900-\u097F]+','',str(v or '').casefold())
+def domain_for(item,default='world'):
+ t=(str(item.get('title',''))+' '+str(item.get('summary',''))).casefold()
+ if any(x in t for x in ['नेपाल','नेपाली','काठमाडौं','काठमाडौँ','लुम्बिनी','गोरखा','शाह','राणा','पृथ्वीनारायण','त्रिभुवन','जनकपुर','पशुपतिनाथ','सगरमाथा']):return 'nepal'
+ if any(x in t for x in ['हिन्दू','हिन्दु','शिव','विष्णु','राम','कृष्ण','कृष्ण','महादेव','वेद','उपनिषद','पुराण','रामायण','महाभारत','गीता','दशैं','दशैँ','तिहार','शिवरात्रि','जनै पूर्णिमा','होली']):return 'hindu-dharma'
+ return default
+def classify(item,domain=None):
+ d=domain or domain_for(item); t=(str(item.get('title',''))+' '+str(item.get('summary',''))).casefold(); typ=item.get('type')
+ if typ=='birth':cat='जन्म'
+ elif typ=='death':cat='निधन'
+ elif d=='hindu-dharma':cat='हिन्दू धर्म तथा परम्परा'
+ elif any(x in t for x in ['युद्ध','सेना','फौज','battle','war']):cat='युद्ध तथा सैन्य इतिहास'
+ elif any(x in t for x in ['भूकम्प','बाढी','पहिरो','दुर्घटना','earthquake','flood']):cat='प्राकृतिक विपत्ति'
+ elif any(x in t for x in ['राजा','राणा','शाह','सरकार','राष्ट्रपति','संविधान','राजनीति']):cat='राजनीति'
+ elif any(x in t for x in ['मन्दिर','पर्व','संस्कृति','heritage','temple']):cat='संस्कृति तथा सम्पदा'
+ elif any(x in t for x in ['विज्ञान','प्रविधि','technology','science']):cat='विज्ञान तथा प्रविधि'
+ elif d=='nepal':cat='नेपाल इतिहास'
+ else:cat='विश्व इतिहास'
+ item.update({'domain':d,'category':item.get('category') or cat,'importance':item.get('importance') or (5 if d in ('nepal','hindu-dharma') else 3),'confidence':item.get('confidence') or ('medium' if typ=='research-lead' else 'high')})
+ if item.get('source'):item['sources']=item.get('sources') or [{'name':item['source'],'url':item.get('url',''),'tier':item.get('source_tier','reference')}]
+ return item
 def main():
-    ensure_structure()
-    day = today_bs()
-    bs = day["bs"]
-    ad_date = day["ad"]["date"]
-    ad_month, ad_day = map(int, ad_date.split("-")[1:])
-    slug, month_ne = MONTHS[int(bs["month"])]
-    path = os.path.join(HISTORY_DIR, slug, f"{int(bs['day'])}.json")
-    data = json.load(open(path, encoding="utf-8"))
-
-    events = [classify(x) for x in data.get("events", []) if isinstance(x, dict)]
-    seen = {normalize_title(x.get("title")) for x in events if x.get("title")}
-
-    reference_events = wikipedia_on_this_day(ad_month, ad_day)
-    for item in reference_events:
-        key = normalize_title(item.get("title"))
-        if key and key not in seen:
-            events.append(classify(item))
-            seen.add(key)
-
-    queries = [f"{month_ne} {int(bs['day'])} इतिहास नेपाल",f"{month_ne} {int(bs['day'])} ऐतिहासिक घटना नेपाल",f"{ad_date} Nepal history",f"{ad_month:02d}/{ad_day:02d} Nepal historical event",f"{month_ne} {int(bs['day'])} युद्ध नेपाल",f"{month_ne} {int(bs['day'])} व्यक्तित्व जन्म निधन"]
-    leads = google_news_leads(queries)
-    unique_leads, lead_seen = [], set()
-    for lead in leads:
-        key = normalize_title(lead.get("title"))
-        if key and key not in lead_seen:
-            lead_seen.add(key)
-            unique_leads.append(lead)
-
-    now = datetime.now(ZoneInfo("UTC")).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-    sources = [
-        {"name":"Wikipedia On This Day — events","url":f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/events/{ad_month:02d}/{ad_day:02d}","tier":"reference"},
-        {"name":"Wikipedia On This Day — births","url":f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/births/{ad_month:02d}/{ad_day:02d}","tier":"reference"},
-        {"name":"Wikipedia On This Day — deaths","url":f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/deaths/{ad_month:02d}/{ad_day:02d}","tier":"reference"},
-        {"name":"Google News — Nepal history discovery","url":f"https://news.google.com/rss/search?q={quote(month_ne + ' ' + str(int(bs['day'])) + ' इतिहास नेपाल')}&hl=ne&gl=NP&ceid=NP:ne","tier":"discovery"}
-    ]
-
-    data.update({"version":3,"bs_year":int(bs["year"]),"bs_month":int(bs["month"]),"bs_month_ne":month_ne,"bs_day":int(bs["day"]),"bs_date":bs.get("display"),"ad_date":ad_date,"last_researched":now,"events":events[:100],"births":[x for x in events if x.get("type")=="birth"][:50],"deaths":[x for x in events if x.get("type")=="death"][:50],"research_leads":unique_leads[:60],"research":{"status":"automated daily research","method":"Wikipedia On This Day reference data + Google News discovery leads + existing curated events","reference_sources_checked":3,"discovery_queries":len(queries),"reference_candidates":len(reference_events),"research_leads":len(unique_leads),"events_published":len(events),"note":"Google News results are discovery leads and are not automatically promoted to historical facts."},"sources":sources})
-
-    with open(path, "w", encoding="utf-8") as handle:
-        json.dump(data, handle, ensure_ascii=False, indent=2)
-        handle.write("\n")
-    print(f"Updated {path} for {ad_date} with {len(events)} events, {len(unique_leads)} research leads")
-
-
-if __name__ == "__main__":
-    main()
+ day=today_bs(); p,slug,mne=ensure_file(day); bs=day['bs']; ad=day['ad']['date']; m,d=map(int,ad.split('-')[1:]); data=json.load(open(p,encoding='utf-8'))
+ existing=[classify(x,x.get('domain')) for x in data.get('events',[]) if isinstance(x,dict)]; seen={(x.get('domain'),norm(x.get('title'))) for x in existing if x.get('title')}
+ candidates=[]
+ # Nepal-specific and Hindu research are deliberately separate from world research.
+ for lang,dom in [('ne','nepal'),('en','world')]:
+  for kind in ('events','births','deaths'):
+   for x in wiki(lang,m,d,kind):candidates.append(classify(x,dom if dom=='nepal' else None))
+ # Hindu domain: research-date and tradition queries; these remain discovery leads unless sourced/curated.
+ hindu_queries=[f'{mne} {int(bs["day"])} हिन्दू धर्म इतिहास',f'{mne} {int(bs["day"])} हिन्दू पर्व परम्परा',f'{ad} Hindu history festival',f'{ad} Sanatana Dharma history']
+ nepal_queries=[f'{mne} {int(bs["day"])} नेपाल इतिहास',f'{mne} {int(bs["day"])} नेपालको ऐतिहासिक घटना',f'{ad} Nepal history',f'{ad} नेपालको इतिहास']
+ leads=news(nepal_queries+hindu_queries)
+ for x in candidates:
+  key=(x.get('domain'),norm(x.get('title')))
+  if key[1] and key not in seen:existing.append(x);seen.add(key)
+ lead_seen=set(); clean=[]
+ for x in leads:
+  x['domain']='hindu-dharma' if any(q in x.get('query','') for q in hindu_queries) else 'nepal'
+  x=classify(x,x['domain']);k=(x['domain'],norm(x['title']))
+  if k[1] and k not in lead_seen:lead_seen.add(k);clean.append(x)
+ now=datetime.now(ZoneInfo('UTC')).replace(microsecond=0).isoformat().replace('+00:00','Z')
+ sources=[{'name':'Nepali Wikipedia On This Day','url':f'https://ne.wikipedia.org/api/rest_v1/feed/onthisday/events/{m:02d}/{d:02d}','tier':'reference'},{'name':'English Wikipedia On This Day','url':f'https://en.wikipedia.org/api/rest_v1/feed/onthisday/events/{m:02d}/{d:02d}','tier':'reference'}]
+ data.update({'version':4,'bs_year':int(bs['year']),'bs_month':int(bs['month']),'bs_month_ne':mne,'bs_day':int(bs['day']),'bs_date':bs.get('display'),'ad_date':ad,'last_researched':now,'events':existing[:150],'births':[x for x in existing if x.get('type')=='birth'][:60],'deaths':[x for x in existing if x.get('type')=='death'][:60],'research_leads':clean[:100],'research':{'status':'automated daily research v3','domains':['nepal','hindu-dharma','world'],'nepal_reference_candidates':sum(1 for x in existing if x.get('domain')=='nepal'),'hindu_reference_candidates':sum(1 for x in existing if x.get('domain')=='hindu-dharma'),'world_reference_candidates':sum(1 for x in existing if x.get('domain')=='world'),'research_leads':len(clean),'note':'Discovery results are not promoted to facts automatically; curated/reference content is preferred.'},'sources':sources})
+ with open(p,'w',encoding='utf-8') as f:json.dump(data,f,ensure_ascii=False,indent=2);f.write('\n')
+ print(f'Updated {p}: Nepal={sum(x.get("domain")=="nepal" for x in existing)}, Hindu={sum(x.get("domain")=="hindu-dharma" for x in existing)}, World={sum(x.get("domain")=="world" for x in existing)}, leads={len(clean)}')
+if __name__=='__main__':main()
