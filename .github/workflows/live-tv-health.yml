@@ -34,10 +34,31 @@ import json
 from pathlib import Path
 p=Path('data/live-tv-health.json')
 d=json.loads(p.read_text(encoding='utf-8'))
-assert d.get('version') == 3
+assert d.get('version') == 4
 assert isinstance(d.get('results'), list)
 assert d.get('channelCount') == len(d['results'])
-print(f"Checked {d['channelCount']} channels: {d['onlineCount']} online, {d['offlineCount']} offline")
+for r in d['results']:
+    assert r.get('status') in {'online','degraded','offline','geo_blocked','invalid'}
+print(f"Checked {d['channelCount']} channels: {d['onlineCount']} online, {d['degradedCount']} degraded, {d['offlineCount']} offline, {d['geoBlockedCount']} geo-blocked, {d['invalidCount']} invalid")
+PY
+
+      - name: Write workflow summary
+        run: |
+          python - <<'PY'
+import json
+from pathlib import Path
+d=json.loads(Path('data/live-tv-health.json').read_text(encoding='utf-8'))
+print('## Live TV health')
+print(f"- Channels: {d['channelCount']}")
+print(f"- Online: {d['onlineCount']}")
+print(f"- Degraded: {d['degradedCount']}")
+print(f"- Offline: {d['offlineCount']}")
+print(f"- Geo-blocked: {d['geoBlockedCount']}")
+print(f"- Invalid: {d['invalidCount']}")
+print(f"- Generated: {d['generatedAt']}")
+with open(__import__('os').environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
+    f.write(Path('/dev/stdin').read_text() if False else '')
+    f.write(f"## Live TV health\n\n| Metric | Count |\n|---|---:|\n| Channels | {d['channelCount']} |\n| Online | {d['onlineCount']} |\n| Degraded | {d['degradedCount']} |\n| Offline | {d['offlineCount']} |\n| Geo-blocked | {d['geoBlockedCount']} |\n| Invalid | {d['invalidCount']} |\n\nGenerated: `{d['generatedAt']}`\n")
 PY
 
       - name: Commit health snapshot
