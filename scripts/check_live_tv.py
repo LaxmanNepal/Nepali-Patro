@@ -1,8 +1,6 @@
 import datetime as dt
 import json, pathlib, re, urllib.error, urllib.parse, urllib.request
-ROOT=pathlib.Path(__file__).resolve().parents[1]
-CATALOG_URL='https://raw.githubusercontent.com/LaxmanNepal/LaxmanNepalApps/refs/heads/main/TV/list.json'
-OUT=ROOT/'data/live-tv-health.json'; HISTORY=ROOT/'data/live-tv-history.json'; UA='Nepali-Patro-LiveTV-HealthCheck/6.0'
+ROOT=pathlib.Path(__file__).resolve().parents[1]; CATALOG_URL='https://raw.githubusercontent.com/LaxmanNepal/LaxmanNepalApps/refs/heads/main/TV/list.json'; OUT=ROOT/'data/live-tv-health.json'; HISTORY=ROOT/'data/live-tv-history.json'; UA='Nepali-Patro-LiveTV-HealthCheck/7.0'; QUARANTINE_AFTER=5; RECOVER_AFTER=2
 def fetch(url,timeout=12,accept='*/*'):
  req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':accept})
  with urllib.request.urlopen(req,timeout=timeout) as x:return x.read(),x.status,x.headers
@@ -64,25 +62,25 @@ def logo(url):
  except Exception as e:return {'status':'offline','error':err(e)}
 def load_history():
  try:return json.loads(HISTORY.read_text(encoding='utf-8'))
- except:return {'version':1,'channels':{}}
+ except:return {'version':2,'channels':{}}
 results=[];history=load_history();now=dt.datetime.now(dt.timezone.utc).isoformat()
 for c in load_catalog():
  cid=str(c.get('id') or c.get('slug') or c.get('name') or c.get('title') or '').strip();name=str(c.get('name') or c.get('title') or cid).strip();us=urls(c);checks=[stream(u) for u in us];good=next((i for i,x in enumerate(checks) if x.get('status')=='online'),None)
  state='online' if good is not None else 'degraded' if any(x.get('status')=='degraded' for x in checks) else 'geo_blocked' if any(x.get('status')=='geo_blocked' for x in checks) else 'invalid' if any(x.get('status')=='invalid' for x in checks) else 'offline'
- h=history.setdefault('channels',{}).setdefault(cid,{'checks':0,'successes':0,'failures':0,'consecutiveFailures':0,'latencies':[],'sources':{}});h['checks']+=1
- if state=='online':h['successes']+=1;h['consecutiveFailures']=0
- else:h['failures']+=1;h['consecutiveFailures']+=1
+ h=history.setdefault('channels',{}).setdefault(cid,{'checks':0,'successes':0,'failures':0,'consecutiveFailures':0,'consecutiveSuccesses':0,'quarantined':False,'quarantinedAt':None,'recoveredAt':None,'latencies':[],'sources':{}});h['checks']+=1
+ if state=='online':h['successes']+=1;h['consecutiveFailures']=0;h['consecutiveSuccesses']=h.get('consecutiveSuccesses',0)+1
+ else:h['failures']+=1;h['consecutiveFailures']+=1;h['consecutiveSuccesses']=0
+ if h.get('quarantined'):
+  if h['consecutiveSuccesses']>=RECOVER_AFTER:h['quarantined']=False;h['recoveredAt']=now
+ elif h['consecutiveFailures']>=QUARANTINE_AFTER:h['quarantined']=True;h['quarantinedAt']=now
  lat=[x['latencyMs'] for x in checks if isinstance(x.get('latencyMs'),int)];h['latencies']=(h.get('latencies',[])+lat)[-50:]
  for i,x in enumerate(checks):
-  sh=h.setdefault('sources',{}).setdefault(us[i],{'checks':0,'successes':0,'failures':0,'latencies':[]});sh['checks']+=1
-  if x.get('status')=='online':sh['successes']+=1
-  else:sh['failures']+=1
+  sh=h.setdefault('sources',{}).setdefault(us[i],{'checks':0,'successes':0,'failures':0,'latencies':[]});sh['checks']+=1;sh['successes']+=x.get('status')=='online';sh['failures']+=x.get('status')!='online'
   if isinstance(x.get('latencyMs'),int):sh['latencies']=(sh.get('latencies',[])+[x['latencyMs']])[-30:]
- uptime=round(100*h['successes']/h['checks'],1) if h['checks'] else 0;avg=round(sum(h['latencies'])/len(h['latencies'])) if h['latencies'] else None
- source_scores=[]
+ scores=[]
  for u in us:
-  sh=h['sources'][u];rate=100*sh['successes']/sh['checks'] if sh['checks'] else 0;la=sum(sh['latencies'])/len(sh['latencies']) if sh['latencies'] else 99999;score=rate-(la/1000);source_scores.append((score,u))
- ranked=sorted(source_scores,reverse=True);best=ranked[0][1] if ranked else None
- lu=c.get('image') or c.get('logo') or c.get('thumbnail');results.append({'id':cid,'name':name,'title':c.get('title'),'status':state,'sourceCount':len(us),'workingSource':good,'workingUrl':us[good] if good is not None else best,'bestSource':best,'uptimePercent':uptime,'checks':h['checks'],'consecutiveFailures':h['consecutiveFailures'],'avgLatencyMs':avg,'logo':lu,'logoStatus':logo(lu),'streamChecks':checks})
-HISTORY.write_text(json.dumps({'version':1,'updatedAt':now,'channels':history.get('channels',{})},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-out={'version':6,'generatedAt':now,'catalog':CATALOG_URL,'channelCount':len(results),'onlineCount':sum(x['status']=='online' for x in results),'degradedCount':sum(x['status']=='degraded' for x in results),'offlineCount':sum(x['status']=='offline' for x in results),'geoBlockedCount':sum(x['status']=='geo_blocked' for x in results),'invalidCount':sum(x['status']=='invalid' for x in results),'results':results};OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(json.dumps({k:out[k] for k in ('generatedAt','channelCount','onlineCount','degradedCount','offlineCount','geoBlockedCount','invalidCount')}))
+  sh=h['sources'][u];rate=100*sh['successes']/sh['checks'] if sh['checks'] else 0;la=sum(sh['latencies'])/len(sh['latencies']) if sh['latencies'] else 99999;scores.append((rate-la/1000,u))
+ best=max(scores)[1] if scores else None;uptime=round(100*h['successes']/h['checks'],1) if h['checks'] else 0;avg=round(sum(h['latencies'])/len(h['latencies'])) if h['latencies'] else None;lu=c.get('image') or c.get('logo') or c.get('thumbnail')
+ results.append({'id':cid,'name':name,'title':c.get('title'),'status':state,'quarantined':bool(h.get('quarantined')),'quarantineReason':'repeated_failures' if h.get('quarantined') else None,'quarantinedAt':h.get('quarantinedAt'),'recoveredAt':h.get('recoveredAt'),'sourceCount':len(us),'workingUrl':us[good] if good is not None else best,'bestSource':best,'uptimePercent':uptime,'checks':h['checks'],'consecutiveFailures':h['consecutiveFailures'],'avgLatencyMs':avg,'logo':lu,'logoStatus':logo(lu),'streamChecks':checks})
+HISTORY.update({'version':2,'updatedAt':now});HISTORY.write_text(json.dumps(history,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+out={'version':7,'generatedAt':now,'catalog':CATALOG_URL,'channelCount':len(results),'onlineCount':sum(x['status']=='online' for x in results),'degradedCount':sum(x['status']=='degraded' for x in results),'offlineCount':sum(x['status']=='offline' for x in results),'geoBlockedCount':sum(x['status']=='geo_blocked' for x in results),'invalidCount':sum(x['status']=='invalid' for x in results),'quarantinedCount':sum(x['quarantined'] for x in results),'results':results};OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(json.dumps({k:out[k] for k in ('generatedAt','channelCount','onlineCount','degradedCount','offlineCount','quarantinedCount')}))
