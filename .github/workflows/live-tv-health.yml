@@ -24,43 +24,31 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Check remote Live TV catalog and streams
         run: python scripts/check_live_tv.py
-
       - name: Validate health snapshot
-        run: python - <<'PY'
-import json
-from pathlib import Path
-p=Path('data/live-tv-health.json')
-d=json.loads(p.read_text(encoding='utf-8'))
-assert d.get('version') == 4
-assert isinstance(d.get('results'), list)
-assert d.get('channelCount') == len(d['results'])
-for r in d['results']:
-    assert r.get('status') in {'online','degraded','offline','geo_blocked','invalid'}
-print(f"Checked {d['channelCount']} channels: {d['onlineCount']} online, {d['degradedCount']} degraded, {d['offlineCount']} offline, {d['geoBlockedCount']} geo-blocked, {d['invalidCount']} invalid")
-PY
-
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/live-tv-health.json').read_text(encoding='utf-8'))
+          assert d.get('version') == 5
+          assert isinstance(d.get('results'), list)
+          assert d.get('channelCount') == len(d['results'])
+          allowed={'online','degraded','offline','geo_blocked','invalid'}
+          assert all(r.get('status') in allowed for r in d['results'])
+          assert d['onlineCount']+d['degradedCount']+d['offlineCount']+d['geoBlockedCount']+d['invalidCount']==d['channelCount']
+          print(f"Checked {d['channelCount']} channels: {d['onlineCount']} online, {d['degradedCount']} degraded, {d['offlineCount']} offline, {d['geoBlockedCount']} geo-blocked, {d['invalidCount']} invalid")
+          PY
       - name: Write workflow summary
         run: |
           python - <<'PY'
-import json
-from pathlib import Path
-d=json.loads(Path('data/live-tv-health.json').read_text(encoding='utf-8'))
-print('## Live TV health')
-print(f"- Channels: {d['channelCount']}")
-print(f"- Online: {d['onlineCount']}")
-print(f"- Degraded: {d['degradedCount']}")
-print(f"- Offline: {d['offlineCount']}")
-print(f"- Geo-blocked: {d['geoBlockedCount']}")
-print(f"- Invalid: {d['invalidCount']}")
-print(f"- Generated: {d['generatedAt']}")
-with open(__import__('os').environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
-    f.write(Path('/dev/stdin').read_text() if False else '')
-    f.write(f"## Live TV health\n\n| Metric | Count |\n|---|---:|\n| Channels | {d['channelCount']} |\n| Online | {d['onlineCount']} |\n| Degraded | {d['degradedCount']} |\n| Offline | {d['offlineCount']} |\n| Geo-blocked | {d['geoBlockedCount']} |\n| Invalid | {d['invalidCount']} |\n\nGenerated: `{d['generatedAt']}`\n")
-PY
-
+          import json,os
+          from pathlib import Path
+          d=json.loads(Path('data/live-tv-health.json').read_text(encoding='utf-8'))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
+            f.write(f"## Live TV health\n\n| Metric | Count |\n|---|---:|\n| Channels | {d['channelCount']} |\n| Online | {d['onlineCount']} |\n| Degraded | {d['degradedCount']} |\n| Offline | {d['offlineCount']} |\n| Geo-blocked | {d['geoBlockedCount']} |\n| Invalid | {d['invalidCount']} |\n\nGenerated: `{d['generatedAt']}`\n")
+          PY
       - name: Commit health snapshot
         run: |
           git config user.name 'github-actions[bot]'
