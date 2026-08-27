@@ -1,8 +1,12 @@
 {
-  "version": 2,
-  "generatedAt": "2026-08-26T10:37:39.324921+00:00",
+  "version": 5,
+  "generatedAt": null,
   "catalog": "https://raw.githubusercontent.com/LaxmanNepal/LaxmanNepalApps/refs/heads/main/TV/list.json",
   "channelCount": 0,
   "onlineCount": 0,
+  "degradedCount": 0,
+  "offlineCount": 0,
+  "geoBlockedCount": 0,
+  "invalidCount": 0,
   "results": []
 }
