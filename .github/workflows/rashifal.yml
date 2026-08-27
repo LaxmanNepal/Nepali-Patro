@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '15 18 * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/fetch_rashifal.py'
+      - '.github/workflows/rashifal.yml'
 
 permissions:
   contents: write
