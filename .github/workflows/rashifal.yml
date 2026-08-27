@@ -1,4 +1,4 @@
-name: Daily Rashifal Sync
+name: Rashifal Sync
 
 on:
   schedule:
@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - 'scripts/fetch_rashifal.py'
+      - 'scripts/fetch_weekly_rashifal.py'
       - '.github/workflows/rashifal.yml'
 
 permissions:
@@ -28,30 +29,44 @@ jobs:
       - name: Install dependencies
         run: python -m pip install requests beautifulsoup4
 
-      - name: Fetch today's Rashifal
+      - name: Fetch today's daily Rashifal
         run: python scripts/fetch_rashifal.py
 
-      - name: Validate all 12 signs
+      - name: Fetch current weekly Rashifal
+        run: python scripts/fetch_weekly_rashifal.py
+
+      - name: Validate daily and weekly data
         run: |
           python - <<'PY'
           import json
           from datetime import datetime
           from pathlib import Path
           from zoneinfo import ZoneInfo
-          d = datetime.now(ZoneInfo('Asia/Kathmandu')).date().isoformat()
-          p = Path('data/rashifal') / f'{d}.json'
-          assert p.exists(), f'Missing {p}'
-          j = json.loads(p.read_text(encoding='utf-8'))
-          assert len(j.get('signs', [])) == 12
-          assert len({x.get('id') for x in j['signs']}) == 12
-          assert all(x.get('prediction') for x in j['signs'])
-          print(f'Validated {d}: 12 unique signs')
+
+          now = datetime.now(ZoneInfo('Asia/Kathmandu'))
+          daily = Path('data/rashifal') / f'{now.date().isoformat()}.json'
+          assert daily.exists(), f'Missing {daily}'
+          d = json.loads(daily.read_text(encoding='utf-8'))
+          assert len(d.get('signs', [])) == 12
+          assert len({x.get('id') for x in d['signs']}) == 12
+          assert all(x.get('prediction') for x in d['signs'])
+
+          week_start = now.date().isoformat()
+          from datetime import timedelta
+          week_start = (now.date() - timedelta(days=now.weekday())).isoformat()
+          weekly = Path('data/rashifal-weekly') / f'{week_start}.json'
+          assert weekly.exists(), f'Missing {weekly}'
+          w = json.loads(weekly.read_text(encoding='utf-8'))
+          assert len(w.get('signs', [])) == 12
+          assert len({x.get('id') for x in w['signs']}) == 12
+          assert all(x.get('prediction') for x in w['signs'])
+          print(f'Validated daily {daily.name} and weekly {weekly.name}')
           PY
 
-      - name: Commit today's Rashifal
+      - name: Commit Rashifal snapshots
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/rashifal/
-          git diff --cached --quiet || git commit -m "Update daily Rashifal"
+          git add data/rashifal/ data/rashifal-weekly/
+          git diff --cached --quiet || git commit -m "Update daily and weekly Rashifal"
           git push
