@@ -2,7 +2,8 @@ name: Daily Rashifal Sync
 
 on:
   schedule:
-    - cron: '15 18 * * *'
+    - cron: '30 18 * * *'
+    - cron: '30 6 * * *'
   workflow_dispatch:
   push:
     paths:
@@ -29,6 +30,23 @@ jobs:
 
       - name: Fetch today's Rashifal
         run: python scripts/fetch_rashifal.py
+
+      - name: Validate all 12 signs
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+          d = datetime.now(ZoneInfo('Asia/Kathmandu')).date().isoformat()
+          p = Path('data/rashifal') / f'{d}.json'
+          assert p.exists(), f'Missing {p}'
+          j = json.loads(p.read_text(encoding='utf-8'))
+          assert len(j.get('signs', [])) == 12
+          assert len({x.get('id') for x in j['signs']}) == 12
+          assert all(x.get('prediction') for x in j['signs'])
+          print(f'Validated {d}: 12 unique signs')
+          PY
 
       - name: Commit today's Rashifal
         run: |
