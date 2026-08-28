@@ -17,7 +17,7 @@ concurrency:
 jobs:
   update-interest-rates:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
@@ -40,6 +40,21 @@ jobs:
 
       - name: Generate SEO hub and bank pages
         run: python scripts/generate_interest_rate_pages.py
+
+      - name: Validate generated public assets
+        run: |
+          set -euo pipefail
+          test -f interest-rate/index.html
+          test -f interest-rate/sitemap-interest-rates.xml
+          test -f feeds/interest_rates/current.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('feeds/interest_rates/current.json').read_text())
+          assert isinstance(data.get('banks'), list)
+          assert data.get('updatedAt')
+          print('Public dataset validation passed:', len(data['banks']), 'banks')
+          PY
 
       - name: Commit changed interest-rate data and pages
         run: |
