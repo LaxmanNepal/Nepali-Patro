@@ -35,6 +35,9 @@ jobs:
       - name: Fetch, normalize and validate interest rates
         run: python scripts/interest_rate_fetcher.py
 
+      - name: Run data quality gate
+        run: python scripts/test_interest_rate_pipeline.py
+
       - name: Commit changed interest-rate data
         run: |
           set -euo pipefail
