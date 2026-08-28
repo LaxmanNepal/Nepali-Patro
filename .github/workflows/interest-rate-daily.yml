@@ -1,0 +1,47 @@
+name: Daily Nepal Bank Interest Rates
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub cron is UTC. Run twice daily around Nepal business hours.
+    - cron: '15 3 * * *'
+    - cron: '15 9 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: interest-rate-daily
+  cancel-in-progress: false
+
+jobs:
+  update-interest-rates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Fetch and validate interest rates
+        run: python scripts/fetch_interest_rates.py
+
+      - name: Commit changed interest-rate data
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add feeds/interest_rates/
+          if git diff --cached --quiet; then
+            echo 'Interest-rate data unchanged.'
+            exit 0
+          fi
+          git commit -m 'chore: update Nepal bank interest rates'
+          git pull --rebase origin main
+          git push origin HEAD:main
