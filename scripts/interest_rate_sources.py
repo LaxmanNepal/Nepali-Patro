@@ -1,11 +1,5 @@
-"""Official interest-rate source adapters.
-
-This module keeps source-specific extraction rules separate from the daily
-pipeline. It intentionally fails closed: an adapter must explicitly prove
-that it found a supported table before data can be marked verified.
-"""
+"""Official interest-rate source adapters."""
 from dataclasses import dataclass
-from typing import Callable
 
 
 @dataclass(frozen=True)
@@ -17,30 +11,13 @@ class SourceAdapter:
     enabled: bool = True
 
 
-# Verified official source endpoints discovered for the first adapter batch.
-# Parsing implementations are enabled only when their page structure has
-# passed validation tests in the fetcher.
 ADAPTERS = {
-    "nabil-bank": SourceAdapter(
-        bank_id="nabil-bank",
-        url="https://www.nabilbank.com/interest-rate",
-        parser="nabil_html_table_v1",
-    ),
-    "nic-asia-bank": SourceAdapter(
-        bank_id="nic-asia-bank",
-        url="https://www.nicasiabank.com/interest-rates/",
-        parser="nic_asia_html_table_v1",
-    ),
-    "global-ime-bank": SourceAdapter(
-        bank_id="global-ime-bank",
-        url="https://www.globalimebank.com/interest-rates/",
-        parser="global_ime_html_table_v1",
-    ),
-    "nepal-bank": SourceAdapter(
-        bank_id="nepal-bank",
-        url="https://www.nepalbank.com.np/interest-rate",
-        parser="nepal_bank_html_table_v1",
-    ),
+    "nabil-bank": SourceAdapter("nabil-bank", "https://www.nabilbank.com/interest-rate", "nabil_html_table_v1"),
+    "nic-asia-bank": SourceAdapter("nic-asia-bank", "https://www.nicasiabank.com/interest-rates/", "nic_asia_html_table_v1"),
+    "global-ime-bank": SourceAdapter("global-ime-bank", "https://www.globalimebank.com/interest-rates/", "global_ime_html_table_v1"),
+    "nepal-bank": SourceAdapter("nepal-bank", "https://www.nepalbank.com.np/digital/interest-rate", "nepal_bank_html_table_v1"),
+    "nmb-bank": SourceAdapter("nmb-bank", "https://nmb.com.np/interest-rate", "nmb_html_table_v1"),
+    "rastriya-banijya-bank": SourceAdapter("rastriya-banijya-bank", "https://www.rbb.com.np/content/base-rate-and-spread-rate", "rbb_html_table_v1"),
 }
 
 
