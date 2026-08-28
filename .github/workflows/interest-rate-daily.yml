@@ -3,7 +3,7 @@ name: Daily Nepal Bank Interest Rates
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron is UTC. Run twice daily around Nepal business hours.
+    # GitHub cron is UTC: 09:15 and 15:15 Nepal time.
     - cron: '15 3 * * *'
     - cron: '15 9 * * *'
 
@@ -29,8 +29,11 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Fetch and validate interest rates
-        run: python scripts/fetch_interest_rates.py
+      - name: Install parser dependencies
+        run: python -m pip install --disable-pip-version-check beautifulsoup4
+
+      - name: Fetch, normalize and validate interest rates
+        run: python scripts/interest_rate_fetcher.py
 
       - name: Commit changed interest-rate data
         run: |
