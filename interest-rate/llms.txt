@@ -1,0 +1,29 @@
+# Nepali Patro — Nepal Bank Interest Rates
+
+## Primary resource
+- https://apps.laxmannepal.com.np/Nepali-Patro/interest-rate/
+
+## Machine-readable current dataset
+- https://apps.laxmannepal.com.np/Nepali-Patro/feeds/interest_rates/current.json
+
+## Historical snapshots
+- https://apps.laxmannepal.com.np/Nepali-Patro/feeds/interest_rates/history.json
+
+## Bank pages
+- Each bank has a dedicated page under /interest-rate/bank/.
+
+## Methodology
+- Prefer official bank interest-rate sources.
+- Preserve source URL and fetch timestamp.
+- Normalize savings, fixed-deposit, recurring-deposit, call-deposit, loan and base-rate records.
+- Do not invent or silently infer missing rates.
+- Records that fail semantic validation remain in review status.
+
+## Search topics
+- Nepal bank interest rates
+- Nepali bank interest rates
+- fixed deposit interest rate Nepal
+- FD interest rate Nepal
+- savings interest rate Nepal
+- नेपालका बैंकको ब्याजदर
+- मुद्दती निक्षेप ब्याजदर
