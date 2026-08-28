@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nepal Bank Interest Rates",
+  "type": "object",
+  "required": ["schemaVersion", "country", "currency", "updatedAt", "banks"],
+  "properties": {
+    "schemaVersion": {"type": "string"},
+    "country": {"const": "Nepal"},
+    "currency": {"const": "NPR"},
+    "updatedAt": {"type": "string", "format": "date-time"},
+    "banks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "category", "status", "rates", "source"],
+        "properties": {
+          "id": {"type": "string"},
+          "name": {"type": "string"},
+          "category": {"type": "string"},
+          "status": {"enum": ["verified", "stale", "source_to_verify", "error"]},
+          "rates": {"type": "object"},
+          "source": {
+            "type": "object",
+            "required": ["name", "url", "type"],
+            "properties": {
+              "name": {"type": "string"},
+              "url": {"type": "string", "format": "uri"},
+              "type": {"type": "string"},
+              "verifiedAt": {"type": ["string", "null"], "format": "date-time"}
+            }
+          }
+        }
+      }
+    }
+  }
+}
