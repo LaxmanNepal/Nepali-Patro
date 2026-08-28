@@ -38,16 +38,19 @@ jobs:
       - name: Run data quality gate
         run: python scripts/test_interest_rate_pipeline.py
 
-      - name: Commit changed interest-rate data
+      - name: Generate SEO hub and bank pages
+        run: python scripts/generate_interest_rate_pages.py
+
+      - name: Commit changed interest-rate data and pages
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feeds/interest_rates/
+          git add feeds/interest_rates/ interest-rate/
           if git diff --cached --quiet; then
-            echo 'Interest-rate data unchanged.'
+            echo 'Interest-rate data and pages unchanged.'
             exit 0
           fi
-          git commit -m 'chore: update Nepal bank interest rates'
+          git commit -m 'chore: update Nepal bank interest rates and pages'
           git pull --rebase origin main
           git push origin HEAD:main
