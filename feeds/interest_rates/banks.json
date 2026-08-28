@@ -1,18 +1,20 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "1.1",
   "country": "Nepal",
   "currency": "NPR",
   "description": "Registry of Nepal banks and official sources used for daily interest-rate verification.",
   "lastUpdated": "2026-08-29T00:00:00+05:45",
   "banks": [
-    {"id":"nabil-bank","name":"Nabil Bank","category":"commercial-bank","officialUrl":"https://www.nabilbank.com/","rateSourceUrl":"https://www.nabilbank.com/individual/interest-rates","status":"source_to_verify"},
-    {"id":"nic-asia-bank","name":"NIC Asia Bank","category":"commercial-bank","officialUrl":"https://www.nicasiabank.com/","rateSourceUrl":"https://www.nicasiabank.com/interest-rates","status":"source_to_verify"},
-    {"id":"global-ime-bank","name":"Global IME Bank","category":"commercial-bank","officialUrl":"https://www.globalimebank.com/","rateSourceUrl":"https://www.globalimebank.com/interest-rates","status":"source_to_verify"},
+    {"id":"nabil-bank","name":"Nabil Bank","category":"commercial-bank","officialUrl":"https://www.nabilbank.com/","rateSourceUrl":"https://www.nabilbank.com/interest-rate","status":"active"},
+    {"id":"nic-asia-bank","name":"NIC Asia Bank","category":"commercial-bank","officialUrl":"https://www.nicasiabank.com/","rateSourceUrl":"https://www.nicasiabank.com/interest-rates/","status":"active"},
+    {"id":"global-ime-bank","name":"Global IME Bank","category":"commercial-bank","officialUrl":"https://www.globalimebank.com/","rateSourceUrl":"https://www.globalimebank.com/interest-rates/","status":"active"},
+    {"id":"nepal-bank","name":"Nepal Bank","category":"commercial-bank","officialUrl":"https://www.nepalbank.com.np/","rateSourceUrl":"https://www.nepalbank.com.np/digital/interest-rate","status":"active"},
+    {"id":"nmb-bank","name":"NMB Bank","category":"commercial-bank","officialUrl":"https://nmb.com.np/","rateSourceUrl":"https://nmb.com.np/interest-rate","status":"active"},
+    {"id":"rastriya-banijya-bank","name":"Rastriya Banijya Bank","category":"commercial-bank","officialUrl":"https://www.rbb.com.np/","rateSourceUrl":"https://www.rbb.com.np/content/base-rate-and-spread-rate","status":"active"},
     {"id":"sanima-bank","name":"Sanima Bank","category":"commercial-bank","officialUrl":"https://www.sanimabank.com/","rateSourceUrl":"https://www.sanimabank.com/interest-rates","status":"source_to_verify"},
     {"id":"kumari-bank","name":"Kumari Bank","category":"commercial-bank","officialUrl":"https://www.kumaribank.com/","rateSourceUrl":"https://www.kumaribank.com/interest-rate","status":"source_to_verify"},
     {"id":"prabhu-bank","name":"Prabhu Bank","category":"commercial-bank","officialUrl":"https://www.prabhubank.com/","rateSourceUrl":"https://www.prabhubank.com/interest-rate","status":"source_to_verify"},
     {"id":"siddhartha-bank","name":"Siddhartha Bank","category":"commercial-bank","officialUrl":"https://www.siddharthabank.com/","rateSourceUrl":"https://www.siddharthabank.com/interest-rate","status":"source_to_verify"},
-    {"id":"nmb-bank","name":"NMB Bank","category":"commercial-bank","officialUrl":"https://www.nmb.com.np/","rateSourceUrl":"https://www.nmb.com.np/interest-rates","status":"source_to_verify"},
     {"id":"everest-bank","name":"Everest Bank","category":"commercial-bank","officialUrl":"https://everestbankltd.com/","rateSourceUrl":"https://everestbankltd.com/interest-rate","status":"source_to_verify"},
     {"id":"standard-chartered-bank-nepal","name":"Standard Chartered Bank Nepal","category":"commercial-bank","officialUrl":"https://www.sc.com/np/","rateSourceUrl":"https://www.sc.com/np/rates-and-charges/","status":"source_to_verify"}
   ]
