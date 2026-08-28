@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "lastVerified": "2026-08-29",
+  "sources": [
+    {
+      "id": "nrb-quarterly-interest-rates",
+      "name": "Nepal Rastra Bank - Quarterly Interest Rate",
+      "type": "regulatory-reference",
+      "url": "https://www.nrb.org.np/category/quarterly-interest-rate/",
+      "role": "cross-check",
+      "notes": "Use NRB publications as a regulatory/reference validation layer, not as a substitute for each bank's current published rate."
+    },
+    {
+      "id": "nrb-deposit-lending-rates",
+      "name": "Nepal Rastra Bank - Deposit/Lending Rates",
+      "type": "regulatory-reference",
+      "url": "https://www.nrb.org.np/cmfm_rates/policy_rates/",
+      "role": "cross-check"
+    },
+    {
+      "id": "nabil-official",
+      "name": "Nabil Bank - Official",
+      "type": "bank-official",
+      "url": "https://www.nabilbank.com/",
+      "role": "primary"
+    },
+    {
+      "id": "nic-asia-official",
+      "name": "NIC ASIA Bank - Official",
+      "type": "bank-official",
+      "url": "https://www.nicasiabank.com/",
+      "role": "primary"
+    },
+    {
+      "id": "global-ime-official",
+      "name": "Global IME Bank - Official",
+      "type": "bank-official",
+      "url": "https://www.globalimebank.com/",
+      "role": "primary"
+    }
+  ]
+}
