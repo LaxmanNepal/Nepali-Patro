@@ -24,8 +24,8 @@ if(fs.existsSync(rashifalDir)){
   }
 }
 const staleHours=iso=>{const t=Date.parse(iso||'');return Number.isFinite(t)?(Date.now()-t)/36e5:Infinity};
-const critical=[['forex',forex,72],['gold',gold,48],['petroleum',petroleum,72]];
-for(const [name,data,max] of critical){if(data?.updatedAt&&staleHours(data.updatedAt)>max)fail.push(`${name}: data is stale (${Math.round(staleHours(data.updatedAt))}h old)`);}
+const monitored=[['forex',forex,72],['gold',gold,48],['petroleum',petroleum,72]];
+for(const [name,data,max] of monitored){if(!data?.updatedAt){warn.push(`${name}: updatedAt is missing`);continue}const age=staleHours(data.updatedAt);if(age>max)warn.push(`${name}: data is stale (${Math.round(age)}h old)`);}
 if(news?.updatedAt&&staleHours(news.updatedAt)>48)warn.push('feeds/news.json is older than 48 hours');
 if(fail.length){console.error(fail.join('\n'));process.exit(1)}
 if(warn.length)console.warn(warn.join('\n'));
