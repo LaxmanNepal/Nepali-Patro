@@ -3,9 +3,9 @@ from urllib.request import Request,urlopen
 from datetime import datetime,timezone
 import json,re
 
-SOURCE='https://kalimatimarket.gov.np/'
+SOURCE='https://kalimatimarket.gov.np/price'
 DEV=str.maketrans('०१२३४५६७८९','0123456789')
-FRUIT_WORDS=['स्याउ','केरा','कागती','अनार','आँप','तरबुजा','जुनार','भुई कटहर','काक्रो','कटहर','नासपाती','मेवा','लप्सी','किवि','आभोकाडो','अमला','नरिवल','ड्रागन फ्रुट']
+FRUIT_WORDS=['स्याउ','केरा','कागती','अनार','आँप','तरबुजा','जुनार','भुई कटहर','कटहर','नासपाती','मेवा','लप्सी','किवि','आभोकाडो','अमला','नरिवल','ड्रागन फ्रुट']
 OTHER_WORDS=['माछा','तोफु','गुन्दुक','इमली','तामा','च्याउ','कुरीलो','न्यूरो','पार्सले','सेलरी','पुदीना','धनिया']
 class TableParser(HTMLParser):
     def __init__(self): super().__init__(); self.in_td=False; self.row=[]; self.rows=[]; self.buf=[]
@@ -43,7 +43,7 @@ def main():
         name=clean(re.sub(r'\s*\([^)]*\)\s*$','',row[0]))
         items.append({'name':name,'nameRaw':row[0],'unit':unit(row[0]),'min':lo,'max':hi,'avg':avg,'category':cat(name)})
     if len(items)<10: raise RuntimeError(f'Only {len(items)} price rows parsed; source layout may have changed')
-    heading=re.search(r'संकलित दैनिक थोक मूल्य\s*-\s*(?:वि\.सं\.)?\s*([^<\n]+)',html)
+    heading=re.search(r'संकलित दैनिक थोक मूल्य[^\n<]*?(?:वि\.सं\.)?\s*([^<\n]+)',html)
     published_bs=clean(heading.group(1)) if heading else None
     payload={'schemaVersion':1,'source':SOURCE,'sourceName':'कालीमाटी फलफूल तथा तरकारी बजार विकास समिति','publishedBs':published_bs,'publishedAd':datetime.now().strftime('%Y-%m-%d'),'scrapedAt':datetime.now(timezone.utc).isoformat(),'itemCount':len(items),'items':items}
     with open('data/vegetables.json','w',encoding='utf-8') as f: json.dump(payload,f,ensure_ascii=False,indent=2)
