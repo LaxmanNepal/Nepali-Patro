@@ -57,11 +57,16 @@ jobs:
           from pathlib import Path
           d=json.loads(Path('feeds/interest_rates/current.json').read_text(encoding='utf-8'))
           assert d.get('country') == 'Nepal'
-          assert d.get('updatedAt')
-          assert isinstance(d.get('banks'), list)
           html=Path('interest-rate/index.html').read_text(encoding='utf-8')
           assert 'नेपालका बैंकहरूको ब्याजदर' in html
-          print(f"Interest-rate feature passed: {len(d['banks'])} bank records")
+          banks=d.get('banks')
+          if not isinstance(banks, list):
+              raise SystemExit('Interest-rate feed banks must be a list')
+          if d.get('status') == 'awaiting_first_live_run' and not banks:
+              print('Interest-rate feature is awaiting its first live run; allowing Pages deployment.')
+          elif not d.get('updatedAt'):
+              raise SystemExit('Interest-rate feed has no updatedAt after live data was expected')
+          print(f"Interest-rate validation passed: {len(banks)} bank records")
           PY
       - name: Validate history dataset
         run: |
