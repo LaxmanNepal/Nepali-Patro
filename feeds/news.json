@@ -1,23 +1,114 @@
 {
-  "updatedAt": "2026-08-29T17:06:30.721188+00:00",
-  "lastSuccessfulUpdate": "2026-08-29T17:06:30.721188+00:00",
-  "newestPublishedTime": "2026-08-29T16:57:54+00:00",
+  "updatedAt": "2026-08-29T21:56:14.240277+00:00",
+  "lastSuccessfulUpdate": "2026-08-29T21:56:14.240277+00:00",
+  "newestPublishedTime": "2026-08-29T20:16:07+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 32,
-  "failedFeeds": 2,
-  "failedFeedDetails": [
+  "successfulFeeds": 34,
+  "failedFeeds": 0,
+  "failedFeedDetails": [],
+  "items": [
     {
-      "url": "https://rajdhanidaily.com/feed",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "title": "रसुवा बाढीमा बेपत्ता प्रहरी सहायक हवलदार विष्टको शव पहिचान",
+      "description": "कास्की । रसुवा बाढीमा परी बेपत्ता भएका नेपाल प्रहरीका प्रहरी सहायक हवलदार दीपेन्द्र विष्टको शव पहिचान भएको छ । पाल्पाको तानसेन नगरपालिका–१० घर भई इलाका प्रहरी कार्यालय टिमुरे, रसुवामा कार्यरत ३४ वर्षीय विष्ट बाढीपछि बेपत्ता भएका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-bhotekoshi-trishuli-flood_npl-(4)_dqxgrzoifi_hjSXfoLzWu.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-29T20:16:07+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588448/body-of-missing-police-assistant-constable-bista-identified-in-rasuwa-floods",
+      "category": "national"
     },
     {
-      "url": "https://bankingkhabar.com/feed",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
-    }
-  ],
-  "items": [
+      "title": "पोखरा महानगरले थाल्यो राहत सङ्कलन अभियान",
+      "description": "गण्डकी । रसुवाको भोटेकोशी नदीमा गएको बाढीबाट प्रभावितहरूको राहत तथा पुनः स्थापनाका लागि पोखरा महानगरपालिकाले राहत सहयोग अभियान सञ्चालन गर्ने भएको छ । बाढी प्रभावितहरूका लागि आवश्यक लत्ताकपडा, खाद्यान्न, बन्दोबस्तीका सामग्री, औषधिलगायत सामग्री सङ्कलनका लागि राहत",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/pokhara-mahanagarpalika_OCswpLUXaU.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-29T19:42:31+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588447/pokhara-metropolitan-city-launches-relief-collection-campaign",
+      "category": "national"
+    },
+    {
+      "title": "सहिद लखन गाउँपालिकालाई सङ्कटग्रस्त क्षेत्र घोषणा गर्न माग",
+      "description": "पोखरा । भोटेकोशी नदीमा आएको बाढीका कारण क्षति भएका सबैजसो पालिकाहरूलाई सरकारले सङ्कटग्रस्त घोषणा गरेको छ । तर, गोरखाको सहिद लखन गाउँपालिकालाई छुटाइएको भन्दै पुनः समावेश गर्न माग गरिएको छ । गाउँपालिकाका अध्यक्ष रमेशबाबु थापाले",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/gorkha_GuBJ0cnlLp.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-29T19:32:57+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588446/demand-to-declare-shahid-lakhan-rural-municipality-a-crisis-area",
+      "category": "national"
+    },
+    {
+      "title": "माथिल्लो त्रिशूली ३ ‘ए’ मा फसेकाहरूको रातभर उद्धार प्रयास : फ्लडलाइट र सर्च क्यामेरासहित सेना परिचालन",
+      "description": "काठमाडौँ । अविरल वर्षापछिको बाढीका कारण माथिल्लो त्रिशूली ३ ‘ए’ जलविद्युत आयोजना क्षेत्रमा फसेका नागरिकहरूको उद्धारका लागि नेपाली सेनासहितको टोली रातभर युद्धस्तरमा खटिएको छ। प्रतिकूल मौसम, लगातारको वर्षा र रातको अँध्यारोका बिच पनि प्रभावितहरूको सकुशल",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/trishulu-a-badhi-(2)_G0o3E09y2E.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-29T19:08:16+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588445/night-long-rescue-efforts-for-those-trapped-in-upper-trishuli-3-a-army-mobilized-with-floodlights-and-search-cameras",
+      "category": "national"
+    },
+    {
+      "title": "न्युक्यासलको जित , टोटनहमको अर्को हार",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-08-29T18:50:12+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/174695",
+      "category": "sports"
+    },
+    {
+      "title": "सुरूङभित्र उद्धार गर्न ६ सदस्यीय चिनियाँ टोली परिचालन, थप टोली सीमामा 'स्ट्यान्डबाई'",
+      "description": "विनाशकारी भोटेकोशी बाढीपछि विभिन्न जलविद्युत आयोजनाको सुरूङभित्र फसेका श्रमिक तथा प्राविधिकहरूको उद्धारका लागि ६ सदस्यीय चिनियाँ विज्ञ टोली परिचालन गरिएको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-08-29T18:26:00+00:00",
+      "articleUrl": "https://www.setopati.com/kinmel/medical/397140",
+      "category": "national"
+    },
+    {
+      "title": "१२ बजे १२ समाचार: क्यान्सर उपचारमा अत्यावश्यक औषधिको अभाव, प्रधानमन्त्री राहत कोषमा थपियो ४ अर्ब",
+      "description": "काठमाडौँ । आज दिनभरका मुख्य १२ घटनाक्रम रातोपाटी डटकमको नियमित प्रस्तुति ‘१२ बजे १२ समाचार’मा प्रस्तुत गरेका छौँ । १.क्यान्सर उपचारमा अत्यावश्यक औषधिको अभाव पछिल्लो तीन महिनादेखि क्यान्सर उपचारका लागि अत्यावश्यक मानिएका ‘सिस्प्लाटिन’ र ‘कार्बोप्लाटिन’ औषधिको बजारमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/12-am-final_viqawbfig2-(1)_fam6WtIhIE.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-29T18:17:50+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588444/12-oclock-12-news-shortage-of-essential-medicines-for-cancer-treatment-rs-4-billion-added-to-prime-ministers-relief-fund",
+      "category": "politics"
+    },
+    {
+      "title": "बाढीले बगाएको शव राष्ट्रिय परिचयपत्रको बायोमेट्रिक मार्फत पहिचान गर्न गाह्रो छ: मिश्र",
+      "description": "काठमाडौं । प्रधानमन्त्री वालेन्द्र शाह (बालेन) का सूचना, सञ्चार तथा प्रविधि संयोजक विवेक मिश्रले बाढीमा परेर ज्यान गुमाएका व्यक्तिहरूको शव पहिचानमा राष्ट्रिय परिचयपत्रको बायोमेट्रिक विवरण प्रयोग गर्न प्राविधिक रूपमा कठिन हुने दाबी गरेका छन् । पूर्व डीआईजी रमेश खरेल लगायतले सामाजिक सञ्जालमा बायोमेट्रिक पहिचानबारे प्रश्न उठाएपछि मिश्रले प्राविधिक कारण देखाउँदै",
+      "imageUrl": "",
+      "sourceLogo": "https://www.techpana.com/favicon.ico",
+      "sourceName": "टेकपाना",
+      "publishedTime": "2026-08-29T18:09:28+00:00",
+      "articleUrl": "https://techpana.com/2026/158784/flood-victim-body-identification-through-national-id-biometric-difficult",
+      "category": "technology"
+    },
+    {
+      "title": "पहिचान नखुलेका शव हतारमा व्यवस्थापन गर्नु अनुचित: डा. बाबुराम भट्टराई",
+      "description": "काठमाडौँ । पूर्वप्रधानमन्त्री डा. बाबुराम भट्टराईले बाढी पहिरो तथा विपद्‍मा ज्यान गुमाएका पहिचान खुल्न बाँकी शवहरूको हतारमा अन्तिम व्यवस्थापन (गाड्ने/दाहसंस्कार गर्ने) गरिएको भन्दै सरकारको कार्यशैलीप्रति गम्भीर प्रश्न उठाएका छन् । भोटेकोशी लगायतका क्षेत्रमा आएको बाढीपहिरोमा परी",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/baburam-bhattarai_hFlieymBEX.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-29T17:41:45+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588443/it-is-inappropriate-to-hastily-dispose-of-unidentified-bodies-dr-baburam-bhattarai",
+      "category": "national"
+    },
+    {
+      "title": "कामपाले चार करोड ५४ लाखभन्दा बढी सहयोग गर्ने",
+      "description": "काठमाडौँ, भदौ १३ गते । काठमाडौँ महानगरपालिकाले रसुवा भोटेकोशी बाढीजन्य विपद् व्यवस्थापन गर्न चार करोड ५४ लाख १४ हजार ७८७ सहयोग गर्नेभएको छ। भोटेकोशी बाढीबाट पुगेको क्षति व्यवस्थापन...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379127/conversions/Sunita-Dangol-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-08-29T17:27:40+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220462",
+      "category": "national"
+    },
     {
       "title": "किएभ नजिकै डिपोमा रुसी आक्रमण, कम्तीमा ३७ जनाको मृत्यु",
       "description": "काठमाडौँ । किएभ नजिकैको डिपोमा रातभरि रुसले ड्रोन आक्रमण गर्दा विस्फोटक पदार्थ रहेको डिपो वरपरका कम्तीमा ३७ जनाको मृत्यु भएको अधिकारीहरूले शनिवार बताएका छन् । राजधानीको पश्चिमी उपनगर नजिक रहेको उक्त डिपोमा ‘विस्फोटक वस्तुहरू’ भण्डारण गरिएको",
@@ -169,7 +260,7 @@
       "category": "national"
     },
     {
-      "title": "सुरुङमा फसेका ६ सयको चार दिनसम्म पनि उद्धार भएन",
+      "title": "सुरुङमा फसेका ६ सयको चार दिनसम्म पनि भएन उद्धार",
       "description": "गृहमन्त्री सुदन गुरुङले माथिल्लो त्रिशुली थ्री–ए पुगेर फोटो खिचाउँदै सुरुङमा फसेकाको उद्दार गर्न आफैँ फिल्डमा खटिएको प्रचार गरे । तर, जमिनमुनि कैयौं किलोमिटरभित्र सास छ कि, भनेर आस गरिएका करिब ६ सय मानिसहरूलाई बाहिर निकाल्ने गम्भीर अपरेसन अझै पनि सुरु हुनसकेको छैन ।",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Surung-Uddhar.jpg",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
@@ -1539,7 +1630,7 @@
       "category": "national"
     },
     {
-      "title": "बाढी प्रभावित जिल्लामा इन्धन आपूर्ति कसरी भइरहेको छ ?",
+      "title": "बाढी प्रभावित जिल्लामा कसरी भइरहेको छ इन्धन आपूर्ति ?",
       "description": "निगमका अनुसार खोज तथा उद्धार कार्यमा संलग्न हेलिकप्टरका लागि आवश्यक इन्धन नेपाली सेनासँगको समन्वयमा नुवाकोटस्थित नेपाली सेनाको ब्यारेकबाट रिफ्यूलिङ सेवाको प्रवन्ध मिलाइएको छ ।",
       "imageUrl": "",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
@@ -1989,16 +2080,6 @@
       "category": "national"
     },
     {
-      "title": "त्रिशूली- ३ ‘बी’ मा फसेकाहरुको अवस्था अन्योल",
-      "description": "काठमाडौँ । त्रिशूली क्षेत्रमा विपद् आएको आज चौथो दिन भइसक्दा पनि त्रिशूली जलविद्युत आयोजना-३ ‘बी’ मा रहेका व्यक्तिहरूको वास्तविक अवस्थाबारे स्पष्ट र आधिकारिक जानकारी सार्वजनिक हुन सकेको छैन। चार दिनदेखि आफ्ना आफन्तको अवस्थाबारे जानकारीको प्रतीक्षामा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/trishuli-bazar-drone-photos_npl-(2)_uHVMDzC2Tu.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-29T10:56:56+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588381/confusion-over-the-condition-of-those-trapped-in-trishuli-3-b",
-      "category": "national"
-    },
-    {
       "title": "शिक्षामा बजेटको समानुपातिक र आवश्यकतामा आधारित वितरण आवश्यक : मुख्यमन्त्री भट्ट",
       "description": "धनगढी । सुदूरपश्चिम प्रदेशका मुख्यमन्त्री खगराज भट्टले शिक्षाको गुणस्तर सुधारका लागि बजेटको समानुपातिक तथा आवश्यकतामा आधारित वितरण गर्नुपर्ने बताएका छन् । वर्ल्ड भिजनको समन्वयमा नेपाल पत्रकार महासंघ सुदूरपश्चिम प्रदेश समितिले धनगढीमा आयोजना गरेको प्रदेशस्तरीय विद्यालय दिवा खाजा सम्मेलनलाई सम्बोधन गर्दै मुख्यमन्त्री भट्टले शैक्षिक सुधारसँगै विद्यालयका भौतिक प",
       "imageUrl": "",
@@ -2007,6 +2088,16 @@
       "publishedTime": "2026-08-29T10:56:56+00:00",
       "articleUrl": "https://rajdhanidaily.com/id/146488/",
       "category": "politics"
+    },
+    {
+      "title": "त्रिशूली- ३ ‘बी’ मा फसेकाहरुको अवस्था अन्योल",
+      "description": "काठमाडौँ । त्रिशूली क्षेत्रमा विपद् आएको आज चौथो दिन भइसक्दा पनि त्रिशूली जलविद्युत आयोजना-३ ‘बी’ मा रहेका व्यक्तिहरूको वास्तविक अवस्थाबारे स्पष्ट र आधिकारिक जानकारी सार्वजनिक हुन सकेको छैन। चार दिनदेखि आफ्ना आफन्तको अवस्थाबारे जानकारीको प्रतीक्षामा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/trishuli-bazar-drone-photos_npl-(2)_uHVMDzC2Tu.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-29T10:56:56+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588381/confusion-over-the-condition-of-those-trapped-in-trishuli-3-b",
+      "category": "national"
     },
     {
       "title": "जेनजी आन्दोलनका क्रममा कारागारबाट फरार जबरजस्ती करणीका दोषी पुनः पक्राउ",
@@ -2269,7 +2360,7 @@
       "category": "national"
     },
     {
-      "title": "सरकारले पुनर्निर्माणमा अन्तर्राष्ट्रिय सहयोग माग्ने, हुनसक्छ दातृ निकायको सम्मेलन",
+      "title": "सरकारले पुनर्निर्माणमा अन्तर्राष्ट्रिय सहयोग माग्ने, हुन सक्छ दातृ निकाय सम्मेलन",
       "description": "परराष्ट्रमन्त्री शिशिर खनालले विपद्‌बाट भएको ठूलो क्षतिको पुनर्स्थापना तथा पुनर्निर्माणका लागि नेपालले अन्तर्राष्ट्रिय सहयोग लिनुपर्ने अवस्था रहेको बताएका छन्। यसका लागि दाता सम्मेलन गर्ने सम्मको उनले संकेत गरेका छन् ।",
       "imageUrl": "",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
@@ -2309,7 +2400,7 @@
       "category": "business"
     },
     {
-      "title": "रसुवाका दुई टावरमार्फत नेपाल टेलिकमको सेवा सुचारू",
+      "title": "रसुवाका दुई टावरमार्फत नेपाल टेलिकमको सेवा पुनः सुरु",
       "description": "नेपाल टेलिकमले रसुवाको त्रिशूली थ्रीए जलविद्युत आयोजनासँगै रहेको टावरमार्फत सेवा सुचारू गरेको छ ।",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Tawer.jpg",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
@@ -2456,7 +2547,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-08-29T08:55:54+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2006382/european-union-to-provide-2-million-euros-in-aid-for-flood-victims",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "त्रिशूली-३ ‘बी’ आयोजनामा उद्धार प्रयास जारी, टोली परिचालन",
@@ -2479,14 +2570,14 @@
       "category": "national"
     },
     {
-      "title": "१८४ जना पर्यटकको उद्धार, ४२० जना अझै सम्पर्कविहीन",
+      "title": "१८४ पर्यटकको उद्धार, ४२० अझै सम्पर्कविहीन",
       "description": "१० भदौमा आएको बाढीका कारण रसुवागढी नाका हुँदै कैलाश मानसरोवर यात्रामा जाने धेरै पर्यटक सम्पर्कविहीन भएका थिए ।",
       "imageUrl": "",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-08-29T08:44:04+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2006379/number-of-rescued-tourists-reaches-184-420-still-uncontacted",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "रसुवा बाढी: लेदो हटाएर बचेका सामान निकाल्दै स्थानीय (तस्बिरहरू)",
@@ -2559,14 +2650,14 @@
       "category": "national"
     },
     {
-      "title": "निर्माण व्यवसायी महासंघले सहायता सामान ओसार्न सवारी साधनको जोहो गर्दै",
+      "title": "सहायता सामान ओसार्न सवारीसाधन जोहो गर्दै निर्माण व्यवसायी महासंघ",
       "description": "१३ भदौ, काठमाडौं । नेपाल निर्माण व्यवसायी महासंघले बाढी प्रभावित जिल्लामा सहयोग सामग्री पुर्‍याउन आवश्यक सवारी साधनको जोहो सुरु गरेको छ । सोही क्रममा महासंघले आफ्नो सदस्यहरुसँग पिकअप, मिनी ट्रक लगायन सवारी साधन उपलब्ध गराउन माग गरेको छ । ती सवारी साधन पूर्वाधार विकास मन्त्रालयसँग समन्वय गरी मानवीय सहायताको काममा उपयोग गरिने महासंघले जनाएको छ […]",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2020/05/fcan-nirman-byabasayi-mahasangh.jpg",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-08-29T08:08:03+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2006364/construction-entrepreneurs-federation-is-providing-vehicles-to-transport-relief-goods",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "भव्य सेट, कमजोर कथा: यशको ‘टक्सिक’ तीन घण्टाको टर्चर",
@@ -2919,14 +3010,14 @@
       "category": "business"
     },
     {
-      "title": "चीनले नेपाललाई २० लाख अमेरिकी डलर सहयोग पठाउँदै",
+      "title": "नेपाललाई २० लाख डलर सहयोग पठाउँदै चीन",
       "description": "१३ भदौ, काठमाडौं । चीनले नेपाललाई २० लाख अमेरिकी डलर नगद सहयोग पठाउँदै छ । परराष्ट्रमन्त्री शिशिर खनालका अनुसार चीनले राहत सामग्री बोकेका दुईवटा कार्गो विमान र सुरुङसम्बन्धी विज्ञहरूको दुईवटा टोलीसँगै नेपाली सरकारलाई २० लाख अमेरिकी डलर नगद सहयोग पठाउँदै छ । यसअघि अन्य दले पनि नेपाललाई सहयोग गर्ने प्रतिबद्धता जनाएका छन् । भारतले राहत सामग्री […]",
       "imageUrl": "",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-08-29T07:04:43+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2006317/china-sending-2-million-in-cash-assistance-to-nepal",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "अन्तर्राष्ट्रिय उद्धार टोलीलाई परिचालनको अनुमति दिन कांग्रेसको माग",
@@ -4916,106 +5007,6 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-08-28T16:06:45+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2006007/see-in-the-picture-guljar-bazaar-in-rasuwa-nuwakot-devastated-by-floods-before-and-now",
-      "category": "national"
-    },
-    {
-      "title": "नेपाल टेलिकमको लिखित परीक्षाको मिति सर्‍यो",
-      "description": "काठमाडौँ । नेपाल टेलिकमले विभिन्न पदका लागि सञ्चालन हुने लिखित परीक्षाको मिति सारेको छ । टेलिकमले सामाजिक सञ्जालमार्फत लिखित परीक्षा कार्यक्रम संशोधन गरिएको सूचना प्रकाशित गर्दै परीक्षाको नयाँ तालिका सार्वजनिक गरेको हो। टेलिकमको पूर्वप्रकाशित विज्ञापनअनुसार लोकसेवा",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/NTC-nepal-telecom_dFGj2S9WOw.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-28T16:06:32+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588239/nepal-telecoms-written-exam-date-postponed",
-      "category": "national"
-    },
-    {
-      "title": "माटोमुनिबाट बालिका रोएको आवाज आएपछि सशस्त्र प्रहरीले गर्‍यो उद्धार, अचेत अवस्थामा फेला",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-08-28T16:05:59+00:00",
-      "articleUrl": "https://www.setopati.com/social/397085",
-      "category": "national"
-    },
-    {
-      "title": "दीपकराज गिरीले गरे बाढीपीडितलाई तीन लाख सहयोगको घोषणा",
-      "description": "पाली फिल्मका अभिनेता दीपकराज गिरीले बुधबार रसुवाको भोटेकोशीमा आएको बाढीबाट पीडित बनेकाहरुका लागि राहत कोषमा तीन लाख रुपैयाँ सहयोगको घोषणा गरेका छन् ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-08-28T16:05:42+00:00",
-      "articleUrl": "https://nepallive.com/story/349306",
-      "category": "national"
-    },
-    {
-      "title": "भोटेकोशीमा फेरि बाढी बढ्याे, मुग्लिनसम्म उच्च सतर्कता अपनाउन आग्रह",
-      "description": "काठमाडौँ । भदौ १२ गते राति जिल्ला प्रहरी कार्यालय रसुवामा चीनतर्फबाट प्राप्त सूचनाअनुसार भोटेकोशी नदीमा पुनः बाढी बढेको छ । राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणअन्तर्गत बाढी पूर्वानुमान महाशाखाले जारी गरेको सूचनामा भनिएको छ, ‘त्रिशुली नदीको तटिय क्षेत्र (मुग्लिनसम्म) अर्को सूचना नआउदासम्म उच्च सतर्कतासहित सुरक्षित स्थानमा रहन अनुरोध छ।’ प",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-08-28T16:05:38+00:00",
-      "articleUrl": "https://nepalpress.com/2026/08/28/758214/floods-rise-again-in-bhotekoshi-urge-people-to-adopt-high-alert-up-to-muglin/",
-      "category": "national"
-    },
-    {
-      "title": "‘४०-५० विद्यार्थीसहित सुरक्षित आयौं, १५ जना अझै उद्धारको पर्खाइमा छन्’",
-      "description": "'हामी उद्धार भएको सुनेपछि उनीहरू पनि त्यही ठाउँमा आएर बसेका छन् । १५ जना जति जम्मा भएको भन्ने कुरा आएको छ । मैले उद्धारको लागि यहाँ सेनालाई पनि भनिसकेको छु । तर, उहाँहरूले आज सम्भव छैन भोलि दिनभरमा गर्छौँ भन्नुभएको छ ।'",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Rajendra-dawadi.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-28T16:04:19+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2006026/we-arrived-safely-with-40-50-students-15-are-still-awaiting-rescue",
-      "category": "national"
-    },
-    {
-      "title": "शवगृहले थेगेन, करिडोरमै कुहिन थाले शव",
-      "description": "फ्रिजर बाहेकका शवलाई अस्पतालको करिडोर र बाहिरी क्षेत्रमा त्रिपाल लगाएर राखिएको छ । प्रहरीले ती क्षेत्रलाई घेरा हालेर सर्वसाधारण प्रवेशमा रोक लगाएको छ । तापक्रमका कारण त्यहाँका शव कुहिन थालेका छन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Sab-manage.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-28T16:02:11+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2005999/the-morgue-was-not-filled-the-bodies-started-rotting-in-the-corridors",
-      "category": "national"
-    },
-    {
-      "title": "६ वर्षकी बालिका माटाेमुनि राेएकाे आवाज आएपछि सशस्त्रले गर्‍याे उद्धार, अवस्था अचेत",
-      "description": "काठमाडाैँ । रसुवाको गोसाईकुण्ड गाउँपालिका–२ टिमुरेमा बाढी–पहिरो गएको दोस्रो दिन सशस्त्र प्रहरी बलको उद्धार टोलीले माटोमुनि पुरिएकी करिब ६ वर्षीया बालिकालाई सकुशल उद्धार गरेको छ । शुक्रबार साँझ करिब ६ : १५ बजे टिमुरे क्षेत्रमा खोज तथा उद्धारमा खटिएको सशस्त्र प्रहरीको टोलीले माटोमुनिबाट बालिका रोइरहेको आवाज सुनेपछि तत्काल खोजी थालेको थियो । त्यसक्रममा माटोमुनि",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-08-28T16:00:32+00:00",
-      "articleUrl": "https://nepalpress.com/2026/08/28/758210/armed-forces-rescue-6-year-old-girl-after-hearing-her-cries-under-the-ground-condition-is-unconscious/",
-      "category": "national"
-    },
-    {
-      "title": "खोज तथा उद्धार प्रभावकारी बनाउन सरकारले माग्यो सामग्री सहयोग, यस्तो छ अत्यावश्यक सामग्रीको सूचि",
-      "description": "सरकारले विवरण नै बनाएर इच्छुक दातृ निकाय, विकास साझेदार संघसंस्था, नागरिक समाज, निजी क्षेत्र लगायतसँग खोज, उद्धार तथा राहत सामग्री उपलब्ध गराइदिन अनुरोध गरेको छ ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-08-28T15:58:06+00:00",
-      "articleUrl": "https://nepallive.com/story/349305",
-      "category": "politics"
-    },
-    {
-      "title": "भोटेकोशी बाढी : ५७९ जनाको शव फेला, १ हजार ९२४ अझै सम्पर्कविहीन",
-      "description": "काठमाडौं । रसुवाको भोटेकोशीमा आएको बाढीपछि जारी खोज, उद्धार तथा राहतसम्बन्धी पछिल्लो विवरणअनुसार हालसम्म ५७९ जनाको शव फेला परेको छ भने १ हजार ९२४ जना अझै सम्पर्कविहीन रहेको राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणले जनाएको छ । प्राधिकरणका अनुसार फेला परेका शवमध्ये रसुवामा १२, नुवाकोटमा ३७, धादिङमा ४०, गोरखामा ४६, नवलपरासी पूर्वमा १५४, नवलपरास",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-08-28T15:51:26+00:00",
-      "articleUrl": "https://nepalnews.com/2026/08/28/bhotekoshi-flood-579-bodies-found-1924-still-missing/",
-      "category": "business"
-    },
-    {
-      "title": "उचाइको हिमनदी भत्किँदा सीमावर्ती क्षेत्रमा बाढी : चिनियाँ विदेश मन्त्रालयका प्रवक्ता",
-      "description": "काठमाडौँ । नेपाल र चीनको सीमावर्ती भूभागमा हालै गएको विनाशकारी बाढी तथा पहिरो उच्च उचाइमा रहेको हिमनदी भत्केका कारण आएको विज्ञहरूले बताएका छन्। चिनियाँ तथा नेपाली विज्ञ र सम्बन्धित निकायहरूले घटनाको कारणबारे गरेको प्रारम्भिक अध्ययनले सो",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/450952222_1529278107943967_6014358792755077159_n_CI1ifPiAUk.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-28T15:51:20+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588238/high-altitude-glacier-collapse-causes-flooding-in-border-areas-chinese-foreign-ministry-spokesperson",
       "category": "national"
     }
   ]
