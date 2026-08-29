@@ -9,10 +9,14 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: quality-gate-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -32,6 +36,11 @@ jobs:
       - name: Install locked dependencies
         run: npm ci --no-audit --no-fund
 
+      - name: Generate all derived data
+        run: |
+          npm run generate
+          npm run generate:routes
+
       - name: Validate generated site
         run: npm run validate
 
@@ -39,7 +48,7 @@ jobs:
         run: npm run validate:data
 
       - name: Check feed producer syntax
-        run: python -m py_compile scripts/update_news.py scripts/update_forex.py scripts/update_gold_rates.py
+        run: python -m py_compile scripts/update_news.py scripts/update_forex.py scripts/update_gold_rates.py scripts/fetch_rashifal.py
 
       - name: Check JavaScript syntax
         shell: bash
@@ -49,6 +58,31 @@ jobs:
             node --check "$file"
           done < <(find . -type f -name '*.js' -not -path './node_modules/*' -not -path './.git/*' -print0)
 
+      - name: Validate Rashifal archive schema
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          root=Path('data/rashifal')
+          files=sorted(root.glob('*.json'))
+          if not files:
+              raise SystemExit('No Rashifal archive files found')
+          for p in files:
+              d=json.loads(p.read_text(encoding='utf-8'))
+              if d.get('date') != p.stem: raise SystemExit(f'{p}: date mismatch')
+              signs=d.get('signs')
+              if not isinstance(signs,list) or len(signs)!=12: raise SystemExit(f'{p}: expected 12 signs')
+              ids=[x.get('id') for x in signs]
+              if len(set(ids))!=12: raise SystemExit(f'{p}: duplicate sign ids')
+              if any(not x.get('prediction') or len(x['prediction'].strip()) < 40 for x in signs):
+                  raise SystemExit(f'{p}: invalid prediction text')
+          print(f'Rashifal archive validation passed: {len(files)} snapshots')
+          PY
+
       - name: Enforce one shared header/footer on public pages
         shell: bash
         run: |
@@ -56,17 +90,10 @@ jobs:
           pages=(index.html calendar/index.html panchanga/index.html parba/index.html saith/index.html rashifal/index.html news/index.html forex/index.html converter/index.html itihas-aaja/index.html gold-price/index.html)
           failed=0
           for file in "${pages[@]}"; do
-            if [[ ! -f "$file" ]]; then
-              echo "ERROR: missing public page: $file"
-              failed=1
-              continue
-            fi
-            if ! grep -q 'js/shared-shell.js' "$file"; then
-              echo "ERROR: $file does not load the shared shell"
-              failed=1
-            fi
+            if [[ ! -f "$file" ]]; then echo "ERROR: missing public page: $file"; failed=1; continue; fi
+            grep -q 'js/shared-shell.js' "$file" || { echo "ERROR: $file does not load shared shell"; failed=1; }
           done
-          if [[ "$failed" -ne 0 ]]; then exit 1; fi
+          [[ "$failed" -eq 0 ]]
 
       - name: Reject legacy page-local navigation
         shell: bash
@@ -79,4 +106,4 @@ jobs:
               failed=1
             fi
           done
-          if [[ "$failed" -ne 0 ]]; then exit 1; fi
+          [[ "$failed" -eq 0 ]]
