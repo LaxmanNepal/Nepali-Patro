@@ -14,10 +14,19 @@ const news=readJSON('feeds/news.json');if(!news||!Array.isArray(news.items)||!ne
 const forex=readJSON('feeds/forex.json');if(!forex||forex.base!=='NPR'||!Array.isArray(forex.rates)||forex.rates.length<5)fail.push('feeds/forex.json is missing a valid NRB rate table');else {for(const [i,r] of forex.rates.entries()){for(const k of ['currency','name','unit','buy','sell'])if(r[k]===undefined)fail.push(`feeds/forex.json rate ${i}: missing ${k}`);if(!(Number(r.unit)>0))fail.push(`feeds/forex.json rate ${i}: invalid unit`);if(!Number.isFinite(Number(r.buy))||!Number.isFinite(Number(r.sell)))fail.push(`feeds/forex.json rate ${i}: invalid numeric rate`)}if(!forex.updatedAt)fail.push('feeds/forex.json: updatedAt missing');}
 const gold=readJSON('feeds/gold_silver.json');if(!gold||!gold.gold||!gold.silver)fail.push('feeds/gold_silver.json is missing gold/silver');else {for(const k of ['gold','silver']){if(!gold[k].price||!gold[k].unit)fail.push(`feeds/gold_silver.json: ${k} price/unit missing`);if(!['up','down','flat'].includes(gold[k].trend))fail.push(`feeds/gold_silver.json: ${k} trend invalid`)}if(!gold.updatedAt)fail.push('feeds/gold_silver.json: updatedAt missing');}
 const petroleum=readJSON('feeds/petroleum_prices.json');if(!petroleum)fail.push('feeds/petroleum_prices.json is missing');else {const latest=petroleum.latest||petroleum;for(const k of ['petrol','diesel']){const v=latest?.[k]?.price??latest?.[k];if(!Number.isFinite(Number(v)))fail.push(`feeds/petroleum_prices.json: ${k} price missing/non-numeric`)}if(!petroleum.updatedAt)fail.push('feeds/petroleum_prices.json: updatedAt missing');if(petroleum.history!==undefined&&!Array.isArray(petroleum.history))fail.push('feeds/petroleum_prices.json: history must be an array');}
+const rashifalDir=path.join(root,'data/rashifal');
+if(fs.existsSync(rashifalDir)){
+  for(const p of fs.readdirSync(rashifalDir).filter(x=>/^\d{4}-\d{2}-\d{2}\.json$/.test(x))){
+    const d=readJSON(`data/rashifal/${p}`); const signs=d?.signs;
+    if(!d?.date||d.date!==p.slice(0,-5)) fail.push(`Rashifal ${p}: date mismatch`);
+    if(!Array.isArray(signs)||signs.length!==12) fail.push(`Rashifal ${p}: expected 12 signs`);
+    else {const ids=signs.map(x=>x.id);if(new Set(ids).size!==12)fail.push(`Rashifal ${p}: duplicate sign ids`);if(signs.some(x=>typeof x.prediction!=='string'||x.prediction.trim().length<40))fail.push(`Rashifal ${p}: invalid prediction text`);}
+  }
+}
 const staleHours=iso=>{const t=Date.parse(iso||'');return Number.isFinite(t)?(Date.now()-t)/36e5:Infinity};
 const critical=[['forex',forex,72],['gold',gold,48],['petroleum',petroleum,72]];
 for(const [name,data,max] of critical){if(data?.updatedAt&&staleHours(data.updatedAt)>max)fail.push(`${name}: data is stale (${Math.round(staleHours(data.updatedAt))}h old)`);}
 if(news?.updatedAt&&staleHours(news.updatedAt)>48)warn.push('feeds/news.json is older than 48 hours');
 if(fail.length){console.error(fail.join('\n'));process.exit(1)}
 if(warn.length)console.warn(warn.join('\n'));
-console.log(`Deep data validation passed: calendar, Panchanga, converter, news, gold/silver, petroleum and NRB forex feeds verified.`);
+console.log(`Deep data validation passed: calendar, Panchanga, converter, news, gold/silver, petroleum, NRB forex and Rashifal archives verified.`);
