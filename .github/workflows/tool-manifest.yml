@@ -1,0 +1,37 @@
+name: Generate Tool Manifest
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/index.html'
+      - 'scripts/generate-tool-manifest.mjs'
+      - '.github/workflows/tool-manifest.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tool-manifest-main
+  cancel-in-progress: true
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate manifest
+        run: node scripts/generate-tool-manifest.mjs
+      - name: Commit manifest if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/tool-manifest.json
+          if git diff --cached --quiet; then
+            echo 'No manifest changes.'
+          else
+            git commit -m 'chore: refresh tool manifest'
+            git push
+          fi
