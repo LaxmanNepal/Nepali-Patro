@@ -65,12 +65,9 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
           root=Path('data/rashifal')
           files=sorted(root.glob('*.json'))
-          if not files:
-              raise SystemExit('No Rashifal archive files found')
+          if not files: raise SystemExit('No Rashifal archive files found')
           for p in files:
               d=json.loads(p.read_text(encoding='utf-8'))
               if d.get('date') != p.stem: raise SystemExit(f'{p}: date mismatch')
@@ -83,17 +80,22 @@ jobs:
           print(f'Rashifal archive validation passed: {len(files)} snapshots')
           PY
 
-      - name: Enforce one shared header/footer on public pages
+      - name: Validate public shell output
         shell: bash
         run: |
           set -euo pipefail
+          rm -rf _shell-test
+          mkdir -p _shell-test
+          rsync -a --exclude '.git/' --exclude 'node_modules/' --exclude '_shell-test/' ./ _shell-test/
+          node scripts/apply_shared_shell.mjs _shell-test
           pages=(index.html calendar/index.html panchanga/index.html parba/index.html saith/index.html rashifal/index.html news/index.html forex/index.html converter/index.html itihas-aaja/index.html gold-price/index.html)
           failed=0
           for file in "${pages[@]}"; do
-            if [[ ! -f "$file" ]]; then echo "ERROR: missing public page: $file"; failed=1; continue; fi
-            grep -q 'js/shared-shell.js' "$file" || { echo "ERROR: $file does not load shared shell"; failed=1; }
+            if [[ ! -f "_shell-test/$file" ]]; then echo "ERROR: missing public page: $file"; failed=1; continue; fi
+            grep -q 'js/shared-shell.js' "_shell-test/$file" || { echo "ERROR: $file does not load shared shell"; failed=1; }
           done
           [[ "$failed" -eq 0 ]]
+          rm -rf _shell-test
 
       - name: Reject legacy page-local navigation
         shell: bash
