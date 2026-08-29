@@ -1,0 +1,78 @@
+name: Sync Official Gold & Silver Prices
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run frequently enough to catch the daily rate publication.
+    - cron: '*/15 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gold-price-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Fetch and validate official NEGOSIDA rates
+        run: python scripts/update_gold_rates.py
+
+      - name: Validate gold feed contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          feed = Path('feeds/gold_silver.json')
+          legacy = Path('data/gold-price.json')
+          for path in (feed, legacy):
+              if not path.exists():
+                  raise SystemExit(f'Missing generated file: {path}')
+              json.loads(path.read_text(encoding='utf-8'))
+
+          data = json.loads(feed.read_text(encoding='utf-8'))
+          required = [
+              'fine_gold_tola', 'gold_22k_tola', 'silver_tola',
+              'fine_gold_10g', 'gold_22k_10g', 'silver_10g'
+          ]
+          details = data.get('details', {})
+          missing = [key for key in required if not isinstance(details.get(key), (int, float))]
+          if missing:
+              raise SystemExit(f'Missing numeric gold fields: {missing}')
+          if details['fine_gold_tola'] <= 0 or details['silver_tola'] <= 0:
+              raise SystemExit('Gold/silver prices must be positive')
+          if not data.get('date_ad'):
+              raise SystemExit('Missing date_ad')
+          if not data.get('sourceUrl'):
+              raise SystemExit('Missing sourceUrl')
+          print('Gold feed contract OK:', data['date_ad'], details['fine_gold_tola'])
+          PY
+
+      - name: Commit changed price data
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add feeds/gold_silver.json data/gold-price.json
+          if git diff --cached --quiet; then
+            echo 'No gold/silver price change.'
+            exit 0
+          fi
+          git commit -m 'chore: update official gold and silver prices'
+          git pull --rebase origin main
+          git push origin HEAD:main
