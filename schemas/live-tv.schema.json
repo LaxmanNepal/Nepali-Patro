@@ -1,0 +1,26 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://apps.laxmannepal.com.np/Nepali-Patro/schemas/live-tv.schema.json",
+  "title":"Nepali Patro Live TV Channel",
+  "type":"object",
+  "required":["title"],
+  "properties":{
+    "id":{"type":"string","minLength":1},
+    "slug":{"type":"string","minLength":1},
+    "title":{"type":"string","minLength":1},
+    "name":{"type":"string","minLength":1},
+    "image":{"type":"string","format":"uri"},
+    "logo":{"type":"string","format":"uri"},
+    "m3u8":{"type":"string","format":"uri"},
+    "m3u8Url":{"type":"string","format":"uri"},
+    "streamUrl":{"type":"string","format":"uri"},
+    "stream":{"type":"string","format":"uri"},
+    "url":{"type":"string","format":"uri"},
+    "country":{"type":"string"},
+    "language":{"type":"string"},
+    "category":{"type":"string"},
+    "aliases":{"type":"array","items":{"type":"string"}},
+    "sources":{"type":"array","items":{"oneOf":[{"type":"string","format":"uri"},{"type":"object"}]}}
+  },
+  "additionalProperties":true
+}
