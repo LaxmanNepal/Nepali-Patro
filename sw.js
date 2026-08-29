@@ -1,6 +1,6 @@
-const CACHE_NAME='nepali-patro-v2026-08-30-02';
+const CACHE_NAME='nepali-patro-v2026-08-30-03';
 const OFFLINE_URL='./offline.html';
-const APP_SHELL=['./','./index.html','./manifest.json','./assets/logo.svg','./offline.html','./css/main.css','./css/mobile-nav.css','./js/mobile-nav.js'];
+const APP_SHELL=['./','./index.html','./manifest.json','./assets/logo.svg','./offline.html','./css/main.css','./css/homepage-redesign.css','./css/mobile-nav.css','./js/mobile-nav.js','./js/homepage-runtime.js','./js/homepage-ui.js'];
 const sameOrigin=u=>u.origin===self.location.origin;
 const isCacheable=res=>res&&res.ok&&(res.type==='basic'||res.type==='default');
 const canonicalRequest=req=>{
