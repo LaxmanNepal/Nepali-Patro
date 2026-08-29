@@ -1,0 +1,68 @@
+name: Backfill Gold Price History
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 2 * * 0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gold-history-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Recover archived official snapshots
+        run: python scripts/backfill_gold_history.py
+
+      - name: Normalize and preserve recovered history
+        run: python scripts/normalize_gold_history.py
+
+      - name: Regenerate statistics
+        run: python scripts/gold_history_stats.py
+
+      - name: Validate history
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/gold-price-history.json').read_text(encoding='utf-8'))
+          if d.get('schema') != 'gold-price-history/v1': raise SystemExit('bad schema')
+          rows=d.get('records',[])
+          dates=[r.get('date_ad') for r in rows]
+          if dates != sorted(set(dates)): raise SystemExit('duplicate/unsorted dates')
+          if len(rows) > 365: raise SystemExit('history exceeds 365 records')
+          required={'fine_gold_tola','gold_22k_tola','silver_tola','fine_gold_10g','gold_22k_10g','silver_10g'}
+          for r in rows:
+              if set(r.get('prices',{})) != required: raise SystemExit('invalid price schema')
+          print(f'Backfilled history records: {len(rows)}')
+          PY
+
+      - name: Commit recovered history
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/gold-price-history.json data/gold-price-stats.json
+          if git diff --cached --quiet; then
+            echo 'No new historical records.'
+            exit 0
+          fi
+          git commit -m 'chore: backfill gold price history'
+          git pull --rebase origin main
+          git push origin HEAD:main
