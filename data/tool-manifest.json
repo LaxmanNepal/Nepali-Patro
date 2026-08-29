@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T22:37:21.565Z",
-  "count": 27,
+  "generatedAt": "2026-08-29T22:37:40.789Z",
+  "count": 28,
   "tools": [
     {
       "id": "itihas-aaja",
@@ -178,6 +178,14 @@
       "name": "Nepse",
       "title": "NEPSE Live — नेपाली पात्रो",
       "url": "nepse/"
+    },
+    {
+      "id": "nepse",
+      "path": "Nepse/",
+      "icon": "💹",
+      "name": "NEPSE",
+      "title": "NEPSE Live",
+      "url": "Nepse/"
     },
     {
       "id": "panchang",
