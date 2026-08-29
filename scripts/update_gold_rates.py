@@ -13,9 +13,21 @@ LEGACY_OUT = Path("data/gold-price.json")
 CALENDAR_ROOT = Path("data/calendar")
 MAX_HISTORY = 365
 
+MONTH_ALIASES = {
+    "बैशाख": 1, "जेठ": 2, "असार": 3, "साउन": 4, "श्रावण": 4,
+    "भदौ": 5, "भाद्र": 5, "आश्विन": 6, "आसोज": 6,
+    "कार्तिक": 7, "मंसिर": 8, "पुष": 9, "पौष": 9,
+    "माघ": 10, "फागुन": 11, "फाल्गुन": 11, "चैत": 12, "चैत्र": 12,
+}
+
 
 def nepali_number(value):
     return str(value).translate(str.maketrans("0123456789", "०१२३४५६७८९"))
+
+
+def nepali_int(value):
+    table = str.maketrans("०१२३४५६७८९", "0123456789")
+    return int(str(value).translate(table))
 
 
 def fetch(url, attempts=3):
@@ -63,20 +75,34 @@ def formatted(value):
     return nepali_number(f"{value:,.2f}".rstrip("0").rstrip("."))
 
 
-def find_bs(ad_date):
-    for path in sorted(CALENDAR_ROOT.glob("*.json")):
-        try:
-            data = json.loads(path.read_text(encoding="utf-8"))
-            for day in data.get("days", []):
-                if day.get("ad", {}).get("date") == ad_date:
-                    bs = day.get("bs", {})
-                    return bs.get("display") or (
-                        f"{bs.get('monthNepali', '')} "
-                        f"{nepali_number(bs.get('day', ''))}, {bs.get('year', '')}"
-                    )
-        except Exception:
-            continue
-    return ""
+def find_published_bs(text):
+    month_pattern = "|".join(map(re.escape, sorted(MONTH_ALIASES, key=len, reverse=True)))
+    pattern = rf"([०-९0-9]{{1,2}})\s*({month_pattern})\s*([०-९0-9]{{4}})"
+    matches = re.findall(pattern, text)
+    if not matches:
+        raise RuntimeError("could not identify the official published Bikram Sambat date")
+
+    # The price block is near the beginning of the page. Prefer the first valid BS date.
+    for day_raw, month_name, year_raw in matches:
+        day = nepali_int(day_raw)
+        year = nepali_int(year_raw)
+        month = MONTH_ALIASES[month_name]
+        if 1 <= day <= 32 and 2000 <= year <= 2200:
+            return {"year": year, "month": month, "day": day}
+    raise RuntimeError("official published BS date was malformed")
+
+
+def bs_to_ad(bs):
+    target = (bs["year"], bs["month"], bs["day"])
+    calendar_file = CALENDAR_ROOT / f"{bs['year']}.json"
+    if not calendar_file.exists():
+        raise RuntimeError(f"calendar mapping missing for BS {bs['year']}")
+    data = json.loads(calendar_file.read_text(encoding="utf-8"))
+    for day in data.get("days", []):
+        item = day.get("bs", {})
+        if (item.get("year"), item.get("month"), item.get("day")) == target:
+            return day["ad"]["date"], item.get("display", "")
+    raise RuntimeError(f"calendar mapping missing for BS {target}")
 
 
 def item(kind, price, change, unit="प्रति तोला"):
@@ -103,7 +129,9 @@ def parse_official(raw):
     details = {key: money(text, pattern) for key, pattern in patterns.items()}
     if details["fine_gold_tola"] <= 0 or details["silver_tola"] <= 0:
         raise RuntimeError("official source returned non-positive rates")
-    return details
+    published_bs = find_published_bs(text)
+    date_ad, date_bs = bs_to_ad(published_bs)
+    return details, date_ad, date_bs
 
 
 def load_json(path):
@@ -151,12 +179,11 @@ def build_feed(details, old, ad_date, bs_date, now):
 
 
 def build_legacy(feed):
-    details = feed["details"]
     return {
         "source": feed["sourceUrl"],
         "source_name": feed["source"],
         "updated_at": feed["updatedAt"],
-        "current": details,
+        "current": feed["details"],
         "history": feed["history"],
     }
 
@@ -164,24 +191,21 @@ def build_legacy(feed):
 def main():
     raw = fetch(OFFICIAL_URL)
     try:
-        details = parse_official(raw)
+        details, ad_date, bs_date = parse_official(raw)
     except Exception as exc:
         raise RuntimeError(
             "NEGOSIDA page format changed; refusing to publish stale or guessed data: " + str(exc)
         ) from exc
 
     now = datetime.now(ZoneInfo("Asia/Kathmandu"))
-    ad_date = now.date().isoformat()
     old = load_json(FEED_OUT)
-    bs_date = find_bs(ad_date)
-
     feed = build_feed(details, old, ad_date, bs_date, now)
     legacy = build_legacy(feed)
 
     atomic_write(FEED_OUT, feed)
     atomic_write(LEGACY_OUT, legacy)
     print(
-        f"Updated official gold feed: {ad_date}; "
+        f"Updated official gold feed: {bs_date} / {ad_date}; "
         f"fine={details['fine_gold_tola']}; 22k={details['gold_22k_tola']}; "
         f"silver={details['silver_tola']}"
     )
