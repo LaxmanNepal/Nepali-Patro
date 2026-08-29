@@ -2,7 +2,6 @@ name: Rashifal Sync
 
 on:
   schedule:
-    # Hourly: Nepali Patro can publish the new daily forecast after midnight.
     - cron: '0 * * * *'
   workflow_dispatch:
   push:
@@ -13,7 +12,6 @@ on:
 
 permissions:
   contents: write
-
 concurrency:
   group: rashifal-sync
   cancel-in-progress: true
@@ -25,23 +23,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-
+        with: {fetch-depth: 1}
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: pip
-
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4
-
-      - name: Fetch current daily and weekly snapshots
+      - name: Fetch daily and weekly snapshots
         run: |
           python scripts/fetch_rashifal.py
           python scripts/fetch_weekly_rashifal.py
-
       - name: Validate snapshots
         shell: bash
         run: |
@@ -51,40 +44,29 @@ jobs:
           from datetime import datetime, timedelta
           from pathlib import Path
           from zoneinfo import ZoneInfo
-
-          root = Path('.')
-          now = datetime.now(ZoneInfo('Asia/Kathmandu'))
-          daily_path = root / 'data/rashifal' / f'{now.date().isoformat()}.json'
-          weekly_start = now.date() - timedelta(days=now.weekday())
-          weekly_path = root / 'data/rashifal-weekly' / f'{weekly_start.isoformat()}.json'
-
-          if not daily_path.exists(): raise SystemExit(f'Missing daily snapshot: {daily_path}')
-          if not weekly_path.exists(): raise SystemExit(f'Missing weekly snapshot: {weekly_path}')
-
-          d=json.loads(daily_path.read_text(encoding='utf-8'))
-          w=json.loads(weekly_path.read_text(encoding='utf-8'))
-
-          for label, obj, expected_date in [('daily', d, now.date().isoformat()), ('weekly', w, weekly_start.isoformat())]:
-              if obj.get('source') != 'Nepali Patro': raise SystemExit(f'{label}: wrong source')
+          now=datetime.now(ZoneInfo('Asia/Kathmandu'))
+          daily=Path('data/rashifal')/f'{now.date()}.json'
+          week=now.date()-timedelta(days=now.weekday())
+          weekly=Path('data/rashifal-weekly')/f'{week}.json'
+          if not daily.exists(): raise SystemExit(f'Missing daily snapshot: {daily}')
+          if not weekly.exists(): raise SystemExit(f'Missing weekly snapshot: {weekly}')
+          d=json.loads(daily.read_text(encoding='utf-8')); w=json.loads(weekly.read_text(encoding='utf-8'))
+          allowed_daily={'Nepali Patro','Ramro Patro'}
+          if d.get('source') not in allowed_daily: raise SystemExit(f"daily: unsupported source {d.get('source')}")
+          if w.get('source')!='Nepali Patro': raise SystemExit('weekly: source must be Nepali Patro')
+          if d.get('date')!=now.date().isoformat(): raise SystemExit('daily: wrong date')
+          if w.get('weekStart')!=week.isoformat(): raise SystemExit('weekly: wrong week')
+          for label,obj in [('daily',d),('weekly',w)]:
               signs=obj.get('signs')
               if not isinstance(signs,list) or len(signs)!=12: raise SystemExit(f'{label}: expected 12 signs')
               ids=[x.get('id') for x in signs]
-              if len(set(ids))!=12: raise SystemExit(f'{label}: duplicate/missing sign ids')
-              if any(not x.get('prediction') or len(x['prediction'].strip()) < 40 for x in signs):
-                  raise SystemExit(f'{label}: invalid prediction text')
-              if label == 'daily' and obj.get('date') != expected_date: raise SystemExit('daily: wrong date')
-              if label == 'weekly' and obj.get('weekStart') != expected_date: raise SystemExit('weekly: wrong week')
-          print(f'Validated {daily_path} and {weekly_path}')
+              if len(set(ids))!=12: raise SystemExit(f'{label}: duplicate/missing signs')
+              if any(not x.get('prediction') or len(x['prediction'].strip())<40 for x in signs): raise SystemExit(f'{label}: invalid prediction')
+          print(f'Validated daily={daily} source={d.get("source")} weekly={weekly}')
           PY
-
       - name: Commit snapshots if changed
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/rashifal/ data/rashifal-weekly/
-          if git diff --cached --quiet; then
-            echo 'No Rashifal changes to commit.'
-          else
-            git commit -m 'chore: sync daily and weekly Rashifal'
-            git push
-          fi
+          if git diff --cached --quiet; then echo 'No Rashifal changes to commit.'; else git commit -m 'chore: sync daily and weekly Rashifal'; git push; fi
