@@ -1,0 +1,24 @@
+{
+  "schema": "gold-price-history/v1",
+  "source": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
+  "sourceUrl": "https://negosida.org/",
+  "generatedAt": "2026-08-30T00:00:00+05:45",
+  "recordCount": 7,
+  "fields": [
+    "fine_gold_tola",
+    "gold_22k_tola",
+    "silver_tola",
+    "fine_gold_10g",
+    "gold_22k_10g",
+    "silver_10g"
+  ],
+  "records": [
+    {"date_ad":"2026-08-21","date_bs":"भदौ ०५, २०८३","prices":{"fine_gold_tola":316700,"gold_22k_tola":null,"silver_tola":4985,"fine_gold_10g":null,"gold_22k_10g":null,"silver_10g":null},"availability":{"fine_gold_tola":true,"gold_22k_tola":false,"silver_tola":true,"fine_gold_10g":false,"gold_22k_10g":false,"silver_10g":false},"source":"NEGOSIDA"},
+    {"date_ad":"2026-08-24","date_bs":"भदौ ०८, २०८३","prices":{"fine_gold_tola":322700,"gold_22k_tola":295595,"silver_tola":4965,"fine_gold_10g":276665,"gold_22k_10g":253425,"silver_10g":4256.5},"availability":{"fine_gold_tola":true,"gold_22k_tola":true,"silver_tola":true,"fine_gold_10g":true,"gold_22k_10g":true,"silver_10g":true},"source":"NEGOSIDA"},
+    {"date_ad":"2026-08-25","date_bs":"भदौ ०९, २०८३","prices":{"fine_gold_tola":322200,"gold_22k_tola":null,"silver_tola":4900,"fine_gold_10g":null,"gold_22k_10g":null,"silver_10g":null},"availability":{"fine_gold_tola":true,"gold_22k_tola":false,"silver_tola":true,"fine_gold_10g":false,"gold_22k_10g":false,"silver_10g":false},"source":"NEGOSIDA"},
+    {"date_ad":"2026-08-26","date_bs":"भदौ १०, २०८३","prices":{"fine_gold_tola":322100,"gold_22k_tola":null,"silver_tola":4975,"fine_gold_10g":null,"gold_22k_10g":null,"silver_10g":null},"availability":{"fine_gold_tola":true,"gold_22k_tola":false,"silver_tola":true,"fine_gold_10g":false,"gold_22k_10g":false,"silver_10g":false},"source":"NEGOSIDA"},
+    {"date_ad":"2026-08-27","date_bs":"भदौ ११, २०८३","prices":{"fine_gold_tola":320900,"gold_22k_tola":null,"silver_tola":4965,"fine_gold_10g":null,"gold_22k_10g":null,"silver_10g":null},"availability":{"fine_gold_tola":true,"gold_22k_tola":false,"silver_tola":true,"fine_gold_10g":false,"gold_22k_10g":false,"silver_10g":false},"source":"NEGOSIDA"},
+    {"date_ad":"2026-08-28","date_bs":"भदौ १२, २०८३","prices":{"fine_gold_tola":318500,"gold_22k_tola":null,"silver_tola":4965,"fine_gold_10g":null,"gold_22k_10g":null,"silver_10g":null},"availability":{"fine_gold_tola":true,"gold_22k_tola":false,"silver_tola":true,"fine_gold_10g":false,"gold_22k_10g":false,"silver_10g":false},"source":"NEGOSIDA"},
+    {"date_ad":"2026-08-29","date_bs":"भदौ १३, २०८३","prices":{"fine_gold_tola":318500,"gold_22k_tola":291745,"silver_tola":4965,"fine_gold_10g":273060,"gold_22k_10g":250120,"silver_10g":4256.5},"availability":{"fine_gold_tola":true,"gold_22k_tola":true,"silver_tola":true,"fine_gold_10g":true,"gold_22k_10g":true,"silver_10g":true},"source":"NEGOSIDA"}
+  ]
+}
