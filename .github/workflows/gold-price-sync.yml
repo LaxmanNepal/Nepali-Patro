@@ -3,7 +3,6 @@ name: Sync Official Gold & Silver Prices
 on:
   workflow_dispatch:
   schedule:
-    # Run frequently enough to catch the daily rate publication.
     - cron: '*/15 * * * *'
 
 permissions:
@@ -17,7 +16,6 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
@@ -32,35 +30,21 @@ jobs:
       - name: Fetch and validate official NEGOSIDA rates
         run: python scripts/update_gold_rates.py
 
-      - name: Validate gold feed contract
+      - name: Strict feed health validation
+        run: python scripts/validate_gold_feed.py
+
+      - name: Detect stale source publication
         run: |
           python - <<'PY'
           import json
+          from datetime import date
           from pathlib import Path
-
-          feed = Path('feeds/gold_silver.json')
-          legacy = Path('data/gold-price.json')
-          for path in (feed, legacy):
-              if not path.exists():
-                  raise SystemExit(f'Missing generated file: {path}')
-              json.loads(path.read_text(encoding='utf-8'))
-
-          data = json.loads(feed.read_text(encoding='utf-8'))
-          required = [
-              'fine_gold_tola', 'gold_22k_tola', 'silver_tola',
-              'fine_gold_10g', 'gold_22k_10g', 'silver_10g'
-          ]
-          details = data.get('details', {})
-          missing = [key for key in required if not isinstance(details.get(key), (int, float))]
-          if missing:
-              raise SystemExit(f'Missing numeric gold fields: {missing}')
-          if details['fine_gold_tola'] <= 0 or details['silver_tola'] <= 0:
-              raise SystemExit('Gold/silver prices must be positive')
-          if not data.get('date_ad'):
-              raise SystemExit('Missing date_ad')
-          if not data.get('sourceUrl'):
-              raise SystemExit('Missing sourceUrl')
-          print('Gold feed contract OK:', data['date_ad'], details['fine_gold_tola'])
+          d=json.loads(Path('feeds/gold_silver.json').read_text(encoding='utf-8'))
+          source=date.fromisoformat(d['date_ad'])
+          age=(date.today()-source).days
+          print(f'Source publication age: {age} day(s)')
+          if age > 7:
+              raise SystemExit('Official source data is older than 7 days; refusing deployment')
           PY
 
       - name: Commit changed price data
