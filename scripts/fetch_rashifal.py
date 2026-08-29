@@ -15,7 +15,7 @@ SIGNS = [
     ('libra', 'तुला', 'Libra'), ('scorpio', 'वृश्चिक', 'Scorpio'), ('sagittarius', 'धनु', 'Sagittarius'),
     ('capricorn', 'मकर', 'Capricorn'), ('aquarius', 'कुम्भ', 'Aquarius'), ('pisces', 'मीन', 'Pisces')
 ]
-HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; LaxmanNepal-RashifalBot/2.0)'}
+HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; LaxmanNepal-RashifalBot/3.0)'}
 
 
 def get_bs_for_ad(ad_date):
@@ -31,22 +31,33 @@ def get_bs_for_ad(ad_date):
     raise RuntimeError(f'BS date not found for {ad_date}')
 
 
+def normalize(text):
+    return ' '.join(str(text or '').replace('\u00a0', ' ').split())
+
+
 def extract_prediction(soup, nepali, english):
-    heading_re = re.compile(rf'^{re.escape(nepali)}\s*-\s*{re.escape(english)}$', re.I)
+    # Nepali Patro currently renders headings like "मेष-Aries" rather than
+    # the older "मेष - Aries" form. Match the English sign name and allow
+    # either spacing around the separator so source markup changes do not
+    # silently break the daily archive.
+    english_re = re.compile(rf'\b{re.escape(english)}\b', re.I)
     heading = None
     for tag in soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5']):
-        text = ' '.join(tag.get_text(' ', strip=True).split())
-        if heading_re.search(text):
+        text = normalize(tag.get_text(' ', strip=True))
+        if english_re.search(text) and ('-' in text or '–' in text or '—' in text):
             heading = tag
             break
+
     if heading is None:
         raise RuntimeError(f'Missing source heading for {english}')
 
     # The Nepali Patro page puts the actual forecast after the sign heading.
-    # Walk forward and take the first substantial text block that is not navigation/meta text.
-    for node in heading.find_all_next(['p', 'div', 'span', 'li']):
-        text = ' '.join(node.get_text(' ', strip=True).split())
-        if not text or text == heading.get_text(' ', strip=True):
+    # Walk forward and take the first substantial text block that is not
+    # navigation/meta text. Prefer paragraphs/list items over giant wrappers.
+    candidates = []
+    for node in heading.find_all_next(['p', 'li', 'div', 'span']):
+        text = normalize(node.get_text(' ', strip=True))
+        if not text or text == normalize(heading.get_text(' ', strip=True)):
             continue
         if len(text) < 80 or len(text) > 3000:
             continue
@@ -55,23 +66,34 @@ def extract_prediction(soup, nepali, english):
             continue
         if 'राशिफल' in text and len(text) < 150:
             continue
-        return text
+        candidates.append(text)
+        if node.name in ('p', 'li'):
+            return text
+
+    if candidates:
+        return candidates[0]
     raise RuntimeError(f'Missing prediction for {english}')
 
 
 def fetch_sign(slug, nepali, english):
     url = f'{SOURCE_BASE}/{slug}'
-    response = requests.get(url, timeout=30, headers=HEADERS)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, 'html.parser')
-    prediction = extract_prediction(soup, nepali, english)
-    return {
-        'id': slug,
-        'nepali': nepali,
-        'english': english,
-        'prediction': prediction,
-        'sourceUrl': url,
-    }
+    last_error = None
+    for attempt in range(3):
+        try:
+            response = requests.get(url, timeout=45, headers=HEADERS)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, 'html.parser')
+            prediction = extract_prediction(soup, nepali, english)
+            return {
+                'id': slug,
+                'nepali': nepali,
+                'english': english,
+                'prediction': prediction,
+                'sourceUrl': url,
+            }
+        except Exception as exc:
+            last_error = exc
+    raise RuntimeError(f'Failed to fetch {english}: {last_error}')
 
 
 def main():
