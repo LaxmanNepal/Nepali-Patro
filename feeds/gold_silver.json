@@ -1,14 +1,19 @@
 {
-  "date_bs": "भदौ ०८, २०८३",
-  "date_ad": "2026-08-24",
+  "date_bs": "भदौ १३, २०८३",
+  "date_ad": "2026-08-29",
   "source": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
   "sourceUrl": "https://negosida.org/",
-  "updatedAt": "2026-08-24T16:25:00+05:45",
-  "gold": {"type":"छापावाल","unit":"प्रति तोला","price":"३,२२,७००","change":"+६,०००","trend":"up","_numeric":322700},
-  "silver": {"type":"चाँदी","unit":"प्रति तोला","price":"४,९६५","change":"-२०","trend":"down","_numeric":4965},
-  "details": {"fine_gold_tola":322700,"gold_22k_tola":295595,"silver_tola":4965,"fine_gold_10g":276665,"gold_22k_10g":253425,"silver_10g":4256.5},
+  "updatedAt": "2026-08-30T00:00:00+05:45",
+  "gold": {"type":"छापावाल","unit":"प्रति तोला","price":"३,१८,५००","change":"०","trend":"flat","_numeric":318500},
+  "silver": {"type":"चाँदी","unit":"प्रति तोला","price":"४,९६५","change":"०","trend":"flat","_numeric":4965},
+  "details": {"fine_gold_tola":318500,"gold_22k_tola":291745,"silver_tola":4965,"fine_gold_10g":273060,"gold_22k_10g":250120,"silver_10g":4256.5},
   "history": [
     {"date_ad":"2026-08-21","date_bs":"भदौ ०५, २०८३","fine_gold_tola":316700,"gold_22k_tola":290100,"silver_tola":4985,"fine_gold_10g":271520,"gold_22k_10g":248710,"silver_10g":4274},
-    {"date_ad":"2026-08-24","date_bs":"भदौ ०८, २०८३","fine_gold_tola":322700,"gold_22k_tola":295595,"silver_tola":4965,"fine_gold_10g":276665,"gold_22k_10g":253425,"silver_10g":4256.5}
+    {"date_ad":"2026-08-24","date_bs":"भदौ ०८, २०८३","fine_gold_tola":322700,"gold_22k_tola":295595,"silver_tola":4965,"fine_gold_10g":276665,"gold_22k_10g":253425,"silver_10g":4256.5},
+    {"date_ad":"2026-08-25","date_bs":"भदौ ०९, २०८३","fine_gold_tola":322200,"silver_tola":4900},
+    {"date_ad":"2026-08-26","date_bs":"भदौ १०, २०८३","fine_gold_tola":322100,"silver_tola":4975},
+    {"date_ad":"2026-08-27","date_bs":"भदौ ११, २०८३","fine_gold_tola":320900,"silver_tola":4965},
+    {"date_ad":"2026-08-28","date_bs":"भदौ १२, २०८३","fine_gold_tola":318500,"silver_tola":4965},
+    {"date_ad":"2026-08-29","date_bs":"भदौ १३, २०८३","fine_gold_tola":318500,"gold_22k_tola":291745,"silver_tola":4965,"fine_gold_10g":273060,"gold_22k_10g":250120,"silver_10g":4256.5}
   ]
 }
