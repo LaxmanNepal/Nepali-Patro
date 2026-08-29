@@ -1,0 +1,32 @@
+name: Gold Data Health
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 18 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: gold-data-health
+  cancel-in-progress: false
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v6
+        with: {python-version: '3.13'}
+      - name: Generate health report
+        run: python scripts/gold_data_health.py
+      - name: Validate health JSON
+        run: python -m json.tool data/gold-data-health.json >/dev/null
+      - name: Commit health report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/gold-data-health.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'chore: update gold data health'
+          git pull --rebase origin main
+          git push origin HEAD:main
