@@ -30,8 +30,30 @@ jobs:
       - name: Fetch and validate official NEGOSIDA rates
         run: python scripts/update_gold_rates.py
 
+      - name: Build normalized daily history database
+        run: python scripts/normalize_gold_history.py
+
       - name: Strict feed health validation
         run: python scripts/validate_gold_feed.py
+
+      - name: Validate normalized history database
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/gold-price-history.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          if d.get('schema') != 'gold-price-history/v1': raise SystemExit('Invalid history schema')
+          records=d.get('records',[])
+          if d.get('recordCount') != len(records): raise SystemExit('recordCount mismatch')
+          dates=[r.get('date_ad') for r in records]
+          if dates != sorted(set(dates)): raise SystemExit('History dates are not unique/sorted')
+          required=['fine_gold_tola','gold_22k_tola','silver_tola','fine_gold_10g','gold_22k_10g','silver_10g']
+          for r in records:
+              if set(r.get('prices',{})) != set(required): raise SystemExit(f'Bad price schema: {r}')
+              if set(r.get('availability',{})) != set(required): raise SystemExit(f'Bad availability schema: {r}')
+          print(f'Normalized history OK: {len(records)} daily records')
+          PY
 
       - name: Detect stale source publication
         run: |
@@ -52,11 +74,11 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feeds/gold_silver.json data/gold-price.json
+          git add feeds/gold_silver.json data/gold-price.json data/gold-price-history.json
           if git diff --cached --quiet; then
-            echo 'No gold/silver price change.'
+            echo 'No gold/silver data change.'
             exit 0
           fi
-          git commit -m 'chore: update official gold and silver prices'
+          git commit -m 'chore: update gold price database'
           git pull --rebase origin main
           git push origin HEAD:main
