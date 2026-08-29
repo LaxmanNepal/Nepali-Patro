@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "source": "https://kalimatimarket.gov.np/",
+  "sourceName": "कालीमाटी फलफूल तथा तरकारी बजार विकास समिति",
+  "publishedBs": "भदौ १३, २०८३",
+  "publishedAd": "2026-08-29",
+  "scrapedAt": "2026-08-29T00:00:00Z",
+  "itemCount": 15,
+  "items": [
+    {"name":"गोलभेडा ठूलो(नेपाली)","nameRaw":"गोलभेडा ठूलो(नेपाली) (के.जी.)","unit":"के.जी.","min":70,"max":80,"avg":75,"category":"vegetable"},
+    {"name":"गोलभेडा ठूलो(भारतीय)","nameRaw":"गोलभेडा ठूलो(भारतीय) (केजी)","unit":"के.जी.","min":80,"max":90,"avg":85,"category":"vegetable"},
+    {"name":"गोलभेडा सानो(लोकल)","nameRaw":"गोलभेडा सानो(लोकल) (के.जी.)","unit":"के.जी.","min":35,"max":45,"avg":40,"category":"vegetable"},
+    {"name":"आलु रातो(लाम्चो)","nameRaw":"आलु रातो(लाम्चो) (के.जी.)","unit":"के.जी.","min":48,"max":51,"avg":49.5,"category":"vegetable"},
+    {"name":"आलु रातो(भारतीय)","nameRaw":"आलु रातो(भारतीय) (के जी)","unit":"के.जी.","min":38,"max":40,"avg":39,"category":"vegetable"},
+    {"name":"आलु सेतो","nameRaw":"आलु सेतो (के.जी.)","unit":"के.जी.","min":35,"max":40,"avg":37.5,"category":"vegetable"},
+    {"name":"गाजर(लोकल)","nameRaw":"गाजर(लोकल) (के.जी.)","unit":"के.जी.","min":100,"max":120,"avg":110,"category":"vegetable"},
+    {"name":"बन्दा(लोकल)","nameRaw":"बन्दा(लोकल) (के.जी.)","unit":"के.जी.","min":30,"max":40,"avg":35,"category":"vegetable"},
+    {"name":"काउली स्थानिय","nameRaw":"काउली स्थानिय (के.जी.)","unit":"के.जी.","min":90,"max":110,"avg":100,"category":"vegetable"},
+    {"name":"मूला रातो","nameRaw":"मूला रातो (के.जी.)","unit":"के.जी.","min":20,"max":30,"avg":25,"category":"vegetable"},
+    {"name":"भन्टा लाम्चो","nameRaw":"भन्टा लाम्चो (के.जी.)","unit":"के.जी.","min":15,"max":25,"avg":20,"category":"vegetable"},
+    {"name":"बोडी(तने)","nameRaw":"बोडी(तने) (के.जी.)","unit":"के.जी.","min":60,"max":80,"avg":70,"category":"vegetable"},
+    {"name":"घिउ सिमी(लोकल)","nameRaw":"घिउ सिमी(लोकल) (के.जी.)","unit":"के.जी.","min":70,"max":100,"avg":86.67,"category":"vegetable"},
+    {"name":"तितो करेला","nameRaw":"तितो करेला (के.जी.)","unit":"के.जी.","min":30,"max":50,"avg":40,"category":"vegetable"},
+    {"name":"लौका","nameRaw":"लौका (के.जी.)","unit":"के.जी.","min":40,"max":60,"avg":50,"category":"vegetable"}
+  ]
+}
