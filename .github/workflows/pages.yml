@@ -60,8 +60,7 @@ jobs:
           html=Path('interest-rate/index.html').read_text(encoding='utf-8')
           assert 'नेपालका बैंकहरूको ब्याजदर' in html
           banks=d.get('banks')
-          if not isinstance(banks, list):
-              raise SystemExit('Interest-rate feed banks must be a list')
+          if not isinstance(banks, list): raise SystemExit('Interest-rate feed banks must be a list')
           if d.get('status') == 'awaiting_first_live_run' and not banks:
               print('Interest-rate feature is awaiting its first live run; allowing Pages deployment.')
           elif not d.get('updatedAt'):
@@ -77,9 +76,14 @@ jobs:
           if not files: raise SystemExit('No history JSON files found')
           for p in files:
               d=json.loads(p.read_text(encoding='utf-8'))
-              for key in ('events','births','deaths','research_leads'):
+              required=('events','births','deaths','research_leads')
+              for key in required:
                   if not isinstance(d.get(key),list): raise SystemExit(f'{p}: {key} must be a list')
-              if not d.get('ad_date') or not d.get('bs_year'): raise SystemExit(f'{p}: missing date metadata')
+              # Current history schema stores BS date metadata, not ad_date.
+              if not isinstance(d.get('bs_year'),int): raise SystemExit(f'{p}: missing/invalid bs_year')
+              if not isinstance(d.get('bs_month'),int): raise SystemExit(f'{p}: missing/invalid bs_month')
+              if not isinstance(d.get('bs_day'),int): raise SystemExit(f'{p}: missing/invalid bs_day')
+              if not (1 <= d['bs_month'] <= 12 and 1 <= d['bs_day'] <= 32): raise SystemExit(f'{p}: invalid BS date')
           print(f'History dataset passed: {len(files)} files')
           PY
       - name: Validate local news feed schema
