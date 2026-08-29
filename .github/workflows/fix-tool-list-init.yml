@@ -1,0 +1,31 @@
+name: Fix tool list initialization
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-tool-list-init.yml'
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch tool-list initialization
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('js/tool-list.js')
+          s = p.read_text(encoding='utf-8')
+          old = "document.addEventListener('DOMContentLoaded',()=>{document.addEventListener('input',e=>{if(e.target.matches('[data-tool-search]'))render()});document.addEventListener('click',e=>{const b=e.target.closest('[data-tool-filter]');if(b){e.preventDefault();setFilter(b.dataset.toolFilter)}});init()})()"
+          new = "(()=>{const bind=()=>{document.addEventListener('input',e=>{if(e.target.matches('[data-tool-search]'))render()});document.addEventListener('click',e=>{const b=e.target.closest('[data-tool-filter]');if(b){e.preventDefault();setFilter(b.dataset.toolFilter)}});init()};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',bind,{once:true});else bind()})()"
+          if old not in s:
+              raise SystemExit('Expected tool-list bootstrap was not found')
+          p.write_text(s.replace(old, new), encoding='utf-8')
+          PY
+      - name: Commit patch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add js/tool-list.js
+          git diff --cached --quiet || git commit -m 'fix: initialize tools list after dynamic script load'
+          git push
