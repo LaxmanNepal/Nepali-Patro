@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const root=process.cwd();
+const read=(p)=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kathmandu',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+const rash=read(`data/rashifal/${today}.json`);
+assert.equal(rash.source,'Nepali Patro');
+assert.equal(rash.signs.length,12);
+assert.equal(new Set(rash.signs.map(x=>x.id)).size,12);
+assert.ok(rash.signs.every(x=>x.prediction?.trim().length>=40));
+const forex=read('feeds/forex.json');
+assert.equal(forex.source,'Nepal Rastra Bank');
+assert.ok(forex.rates.length>=5);
+assert.ok(forex.rates.every(x=>Number(x.buy)>0&&Number(x.sell)>0));
+const gold=read('feeds/gold_silver.json');
+for(const k of ['fine_gold_tola','gold_22k_tola','silver_tola','fine_gold_10g','gold_22k_10g','silver_10g']) assert.ok(Number(gold.details?.[k])>0,`invalid ${k}`);
+const interest=read('feeds/interest_rates/current.json');
+assert.ok(interest.banks?.length);
+console.log('Core data contracts passed for',today);
