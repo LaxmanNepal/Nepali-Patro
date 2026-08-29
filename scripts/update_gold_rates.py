@@ -26,8 +26,7 @@ def nepali_number(value):
 
 
 def nepali_int(value):
-    table = str.maketrans("०१२३४५६७८९", "0123456789")
-    return int(str(value).translate(table))
+    return int(str(value).translate(str.maketrans("०१२३४५६७८९", "0123456789")))
 
 
 def fetch(url, attempts=3):
@@ -81,11 +80,8 @@ def find_published_bs(text):
     matches = re.findall(pattern, text)
     if not matches:
         raise RuntimeError("could not identify the official published Bikram Sambat date")
-
-    # The price block is near the beginning of the page. Prefer the first valid BS date.
     for day_raw, month_name, year_raw in matches:
-        day = nepali_int(day_raw)
-        year = nepali_int(year_raw)
+        day, year = nepali_int(day_raw), nepali_int(year_raw)
         month = MONTH_ALIASES[month_name]
         if 1 <= day <= 32 and 2000 <= year <= 2200:
             return {"year": year, "month": month, "day": day}
@@ -151,11 +147,16 @@ def build_feed(details, old, ad_date, bs_date, now):
     old_details = old.get("details", {})
     old_gold = float(old_details.get("fine_gold_tola", details["fine_gold_tola"]))
     old_silver = float(old_details.get("silver_tola", details["silver_tola"]))
+    changed = (
+        old.get("date_ad") != ad_date
+        or any(float(old_details.get(k, -1)) != float(v) for k, v in details.items())
+    )
+    published_at = now.isoformat() if changed else old.get("updatedAt", now.isoformat())
 
     current = {
         "date_ad": ad_date,
         "date_bs": bs_date,
-        "updatedAt": now.isoformat(),
+        "updatedAt": published_at,
         "gold": item("छापावाल", details["fine_gold_tola"], details["fine_gold_tola"] - old_gold),
         "silver": item("चाँदी", details["silver_tola"], details["silver_tola"] - old_silver),
         "details": details,
@@ -170,7 +171,7 @@ def build_feed(details, old, ad_date, bs_date, now):
         "date_ad": ad_date,
         "source": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
         "sourceUrl": OFFICIAL_URL,
-        "updatedAt": now.isoformat(),
+        "updatedAt": published_at,
         "gold": current["gold"],
         "silver": current["silver"],
         "details": details,
@@ -205,7 +206,7 @@ def main():
     atomic_write(FEED_OUT, feed)
     atomic_write(LEGACY_OUT, legacy)
     print(
-        f"Updated official gold feed: {bs_date} / {ad_date}; "
+        f"Official gold feed: {bs_date} / {ad_date}; "
         f"fine={details['fine_gold_tola']}; 22k={details['gold_22k_tola']}; "
         f"silver={details['silver_tola']}"
     )
