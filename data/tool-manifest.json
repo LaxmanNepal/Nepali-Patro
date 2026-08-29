@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-29T22:37:21.565Z",
+  "count": 27,
+  "tools": [
+    {
+      "id": "itihas-aaja",
+      "path": "itihas-aaja/",
+      "icon": "📜",
+      "name": "आजको इतिहास",
+      "title": "आजको इतिहास — नेपाली पात्रो",
+      "url": "itihas-aaja/"
+    },
+    {
+      "id": "jyotish",
+      "path": "jyotish/",
+      "icon": "🔱",
+      "name": "ज्योतिष",
+      "title": "ज्योतिष — नेपाली पात्रो",
+      "url": "jyotish/"
+    },
+    {
+      "id": "vegetables",
+      "path": "vegetables/",
+      "icon": "🥦",
+      "name": "तरकारी मूल्य",
+      "title": "तरकारी तथा फलफूलको भाउ — नेपाली पात्रो",
+      "url": "vegetables/"
+    },
+    {
+      "id": "panchanga",
+      "path": "panchanga/",
+      "icon": "☀️",
+      "name": "पञ्चाङ्ग",
+      "title": "आजको पञ्चाङ्ग — नेपाली पात्रो",
+      "url": "panchanga/"
+    },
+    {
+      "id": "parba",
+      "path": "parba/",
+      "icon": "🎉",
+      "name": "पर्व",
+      "title": "पर्व तथा बिदा — नेपाली पात्रो",
+      "url": "parba/"
+    },
+    {
+      "id": "calendar",
+      "path": "calendar/",
+      "icon": "📅",
+      "name": "पात्रो",
+      "title": "पात्रो — नेपाली पात्रो",
+      "url": "calendar/"
+    },
+    {
+      "id": "patro",
+      "path": "patro/",
+      "icon": "🗓️",
+      "name": "पात्रो",
+      "title": "पात्रो — नेपाली पात्रो",
+      "url": "patro/"
+    },
+    {
+      "id": "interest-rate",
+      "path": "interest-rate/",
+      "icon": "📈",
+      "name": "ब्याजदर",
+      "title": "नेपालका बैंकहरूको ब्याजदर २०८३ | Bank Interest Rates Nepal | Nepali Patro",
+      "url": "interest-rate/"
+    },
+    {
+      "id": "converter",
+      "path": "converter/",
+      "icon": "⇄",
+      "name": "मिति रूपान्तरण",
+      "title": "मिति रूपान्तरण — नेपाली पात्रो",
+      "url": "converter/"
+    },
+    {
+      "id": "rashifal",
+      "path": "rashifal/",
+      "icon": "♈",
+      "name": "राशिफल",
+      "title": "राशिफल — नेपाली पात्रो",
+      "url": "rashifal/"
+    },
+    {
+      "id": "live-tv",
+      "path": "live-tv/",
+      "icon": "📺",
+      "name": "लाइभ टिभी",
+      "title": "लाइभ टिभी — नेपाली पात्रो",
+      "url": "live-tv/"
+    },
+    {
+      "id": "forex",
+      "path": "forex/",
+      "icon": "💱",
+      "name": "विदेशी मुद्रा",
+      "title": "विदेशी मुद्रा दर तथा रूपान्तरण — नेपाली पात्रो",
+      "url": "forex/"
+    },
+    {
+      "id": "news",
+      "path": "news/",
+      "icon": "📰",
+      "name": "समाचार",
+      "title": "ताजा समाचार — नेपाली पात्रो",
+      "url": "news/"
+    },
+    {
+      "id": "saith",
+      "path": "saith/",
+      "icon": "✨",
+      "name": "साइत",
+      "title": "शुभ साइत तथा मुहूर्त — नेपाली पात्रो",
+      "url": "saith/"
+    },
+    {
+      "id": "gold-price",
+      "path": "gold-price/",
+      "icon": "🪙",
+      "name": "सुनको मूल्य",
+      "title": "नेपाल सुनचाँदीको मूल्य — नेपाली पात्रो",
+      "url": "gold-price/"
+    },
+    {
+      "id": "data-health",
+      "path": "data-health/",
+      "icon": "🧰",
+      "name": "Data Health",
+      "title": "Data Health · नेपाली पात्रो",
+      "url": "data-health/"
+    },
+    {
+      "id": "demo",
+      "path": "demo/",
+      "icon": "🧰",
+      "name": "Demo",
+      "title": "Demo — नेपाली पात्रो",
+      "url": "demo/"
+    },
+    {
+      "id": "festivals",
+      "path": "festivals/",
+      "icon": "🧰",
+      "name": "Festivals",
+      "title": "पर्व तथा बिदा — नेपाली पात्रो",
+      "url": "festivals/"
+    },
+    {
+      "id": "games",
+      "path": "games/",
+      "icon": "🧰",
+      "name": "Games",
+      "title": "खेलहरू — नेपाली पात्रो",
+      "url": "games/"
+    },
+    {
+      "id": "kundali",
+      "path": "kundali/",
+      "icon": "🧰",
+      "name": "Kundali",
+      "title": "जन्मकुण्डली — नेपाली पात्रो",
+      "url": "kundali/"
+    },
+    {
+      "id": "memes",
+      "path": "memes/",
+      "icon": "🧰",
+      "name": "Memes",
+      "title": "Meme Generator — नेपाली पात्रो",
+      "url": "memes/"
+    },
+    {
+      "id": "nepse",
+      "path": "nepse/",
+      "icon": "🧰",
+      "name": "Nepse",
+      "title": "NEPSE Live — नेपाली पात्रो",
+      "url": "nepse/"
+    },
+    {
+      "id": "panchang",
+      "path": "panchang/",
+      "icon": "🧰",
+      "name": "Panchang",
+      "title": "पञ्चाङ्ग — नेपाली पात्रो",
+      "url": "panchang/"
+    },
+    {
+      "id": "petroleum-price",
+      "path": "petroleum-price/",
+      "icon": "🧰",
+      "name": "Petroleum Price",
+      "title": "नेपाल पेट्रोलियम मूल्य — नेपाली पात्रो",
+      "url": "petroleum-price/"
+    },
+    {
+      "id": "preeti-to-unicode",
+      "path": "preeti-to-unicode/",
+      "icon": "🧰",
+      "name": "Preeti To Unicode",
+      "title": "Preeti to Unicode Converter — नेपाली पात्रो",
+      "url": "preeti-to-unicode/"
+    },
+    {
+      "id": "radio",
+      "path": "radio/",
+      "icon": "🧰",
+      "name": "Radio",
+      "title": "नेपाली रेडियो — नेपाली पात्रो",
+      "url": "radio/"
+    },
+    {
+      "id": "saait",
+      "path": "saait/",
+      "icon": "🧰",
+      "name": "Saait",
+      "title": "साइत — नेपाली पात्रो",
+      "url": "saait/"
+    }
+  ]
+}
