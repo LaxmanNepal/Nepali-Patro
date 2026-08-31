@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-31T18:12:24.697653+00:00",
-  "lastSuccessfulUpdate": "2026-08-31T18:12:24.697653+00:00",
-  "newestPublishedTime": "2026-08-31T18:03:25+00:00",
+  "updatedAt": "2026-08-31T22:48:31.582050+00:00",
+  "lastSuccessfulUpdate": "2026-08-31T22:48:31.582050+00:00",
+  "newestPublishedTime": "2026-08-31T21:48:04+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -10,14 +10,184 @@
   "failedFeedDetails": [],
   "items": [
     {
+      "title": "राफिन्हा र लामिने यमलको दुई–दुई गोलः बार्सिलोनाको सानदार जित",
+      "description": "काठमाडौँ । स्पेनिस ला लिगा फुटबल अन्तर्गत नेपाली समय अनुसार मंगलबार भएको खेलमा बार्सिलोनाले रायो भालेकानोमाथि ५–२ को फराकिलो जित दर्ता गरेको छ । घरेलु मैदानमा भएको खेलमा बार्सिलोनालाई जिताउन राफिन्हा र लामिने यमलले उत्कृष्ट प्रदर्शन गर्दै",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/barca_MRJYMbMNHa.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T21:48:04+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588948/two-goals-each-from-rafinha-and-lamine-yamal-barcelonas-stunning-victory",
+      "category": "national"
+    },
+    {
+      "title": "एस्टन भिल्लामाथि आर्सनलको जित, साकाको निर्णायक गोल",
+      "description": "काठमाडौँ । इङ्लिस प्रिमियर लिग अन्तर्गत मंगलबार भएको प्रतिस्पर्धात्मक खेलमा आर्सनलले एस्टन भिल्लालाई १–० गोल अन्तरले पराजित गरेको छ । एस्टन भिल्लाको मैदानमा भएको खेलमा आर्सनललाई जित दिलाउन बुकायो साकाले निर्णायक गोल गरे । उनले खेलको ५९",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/aresnal_UGaGQ5NfD8.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T21:03:03+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588947/arsenal-win-over-aston-villa-saka-scores-decisive-goal",
+      "category": "national"
+    },
+    {
+      "title": "हेटौँडा–काठमाडौँ आवतजावतमा ‘वान–वे’ रुट",
+      "description": "हेटौँडा । हेटौँडा–काठमाडौँ सडकमा सवारी चाप बढेपछि आजदेखि साना यात्रुवाहक सवारीका लागि आउँदा र जाँदा फरकफरक मार्ग प्रयोग गर्नुपर्ने भएको छ । स्थानीय प्रशासनले १४ सिटभन्दा कम क्षमताका सवारीसाधन भीमफेदी–कुलेखानी–सिस्नेरी–दक्षिणकाली हुँदै जानेछन् । काठमाडौँबाट हेटौँडा आउने",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/image-(8)_0F194HRRFH.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T20:44:15+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588946/one-way-route-for-hetauda-kathmandu-travel",
+      "category": "national"
+    },
+    {
+      "title": "बडीमालिका स्वास्थ्य शिविरबाट ९ सयभन्दा बढी तीर्थयात्री लाभान्वित",
+      "description": "सुदूरपश्चिम । धार्मिक तथा पर्यटकीय क्षेत्र बडीमालिकामा यही भदौ ११ गतेसम्म लागेको मेलाका अवसरमा सञ्चालित स्वास्थ्य शिविरबाट ९ सयभन्दा बढी तीर्थयात्री लाभान्वित भएका छन् । सशस्त्र प्रहरी बल नेपाल नं ७ वैद्यनाथ बाहिनी मुख्यालयको आयोजना, सशस्त्र",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bajura_p4f28qgojq_GTbkl6JXnV.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T20:41:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588945/over-900-pilgrims-benefit-from-badimalika-health-camp",
+      "category": "national"
+    },
+    {
+      "title": "प्रदूषण गराएको भन्दै हर्मुजमा एक कार्गो जहाज इरानको नियन्त्रणमा",
+      "description": "काठमाडौँ । इरानी अधिकारीहरूले हर्मुज जलमार्गमा तेल र अर्ध ठोस अवस्थाको इन्धनजन्य फोहोर फालेको भन्दै एक कार्गो जहाजलाई कब्जा गरेको इरानी सञ्चार माध्यमले सोमबार जनाएका छन् । “समुद्रमा तेल फालेका तस्बिर प्रकाशित भएपछि विशेषज्ञ र सफाइ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/stste-of-hurmuz_VSWyW6C8jC.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T20:12:17+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588944/iran-seizes-cargo-ship-in-strait-of-hormuz-for-pollution",
+      "category": "national"
+    },
+    {
+      "title": "मर्स्याङ्दी नदीमा जल सतहले सतर्कता तह पार, तल्लो तटीय क्षेत्रका बासिन्दालाई बिहानसम्म सतर्क रहन आग्रह",
+      "description": "काठमाडौँ । भदौ १६ गते बिहान १ः२० बजेको पछिल्लो मापनअनुसार लमजुङस्थित मर्स्याङ्दी नदीमा पानीको सतहले सतर्कता तह पार गरेको छ । बाढी पूर्वानुमान महाशाखाले नदी तटीय क्षेत्रमा बाढीको जोखिम बढेको भन्दै विशेष सूचना जारी गरेको हो",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/mausam-bivag_61btcy1gq1_egxpRdrl0U.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T20:08:33+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588943/water-level-in-marsyangdi-river-crosses-alert-level-residents-of-lower-coastal-areas-urged-to-remain-vigilant-until-morning",
+      "category": "national"
+    },
+    {
+      "title": "ताप्लेजुङ गोल्डकपः झापा–११ सेमिफाइनलमा प्रवेश",
+      "description": "ताप्लेजुङ । ताप्लेजुङ गोल्डकपको सेमिफाइनलमा झापा(११ फुटबल क्लब प्रवेश गरेको छ । ताप्लेजुङमा जारी अन्तर्राष्ट्रिय आमन्त्रण चौथो ताप्लेजुङ गोल्डकपअन्तर्गत सोमबार भएको क्वार्टरफाइनलको अन्तिम खेलमा विभागीय टोली नेपाल पुलिस क्लबलाई १–० गोल अन्तरले पराजित गर्दै झापा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/W8LmQ2wyHf.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T19:29:05+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588942/taplejung-gold-cup-jhapa-11-advances-to-semifinals",
+      "category": "national"
+    },
+    {
+      "title": "विपन्नलाई उपचारमा छुट",
+      "description": "खोटाङ । खोटाङ जिल्लाका विपन्न नागरिकलाई यहाँका केही अस्पतालले विशेष छुट उपलब्ध गराउने भएका छन् । तवाचुङ नगरपालिका र खोटेहाङ र जन्तेढुङ्गा गाउँपालिकाका विपन्न नागरिकलाई काठमाडौँ मेडिकल कलेज (केएमसी) अस्पताल र नोवेल मेडिकल कलेज विराटनगरले उपचारमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/khotang-map_aF2zEZSUAf.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T19:24:33+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588941/discount-on-treatment-for-the-poor",
+      "category": "national"
+    },
+    {
+      "title": "बाढी प्रभावित बस्ती जोड्न धमाधम तुइन निर्माण गरिँदै",
+      "description": "नुवाकोट । नुवाकोटको सदरमुकाम विदुरसँग सम्पर्क कायम गर्ने उद्देश्यका साथ धमाधम तुइन निर्माण सुरु गरिएको छ । त्रिशूली नदीमा आएको बाढीले पुल बगाउनुका साथै सडकमा क्षति पुर्‍याएपछि विदुरसहित रसुवासम्मको सडक यातायात अवरुद्ध भएको छ । त्रिशूली",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nuwakot_cd0lnixuvi_QB9kZtR3FT.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T19:11:40+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588940/construction-of-bridges-is-underway-to-connect-flood-affected-settlements",
+      "category": "national"
+    },
+    {
+      "title": "बाढीपहिरो प्रभावितको उद्धार र राहतका लागि पूर्ण ट्रेडिङ जापानद्वारा २१ लाख सहयोग",
+      "description": "काठमाडौँ । रसुवा, नुवाकोट, धादिङलगायतका जिल्लाहरूमा हालै आएको विनाशकारी बाढी र पहिरोबाट प्रभावितहरूको उद्धार तथा राहतका लागि ‘पूर्ण ट्रेडिङ जापान’ ले २१ लाख रुपैयाँ आर्थिक सहयोग प्रदान गरेको छ । विगत १३ वर्षदेखि नेपाली उत्पादनलाई जापानको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/purana-trading_6jv3iDOcRt.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T19:06:39+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588939/full-trading-japan-provides-rs-21-million-for-rescue-and-relief-of-flood-and-landslide-victims",
+      "category": "national"
+    },
+    {
+      "title": "राहत सङ्कलनका नाममा हुने दुरुपयोग रोक्न म्याग्दीमा कडाइ",
+      "description": "म्याग्दी । भोटेकोशी बाढीपीडितको सहयोगका लागि सरकारले सार्वजनिक गरेको खाताबाहेक म्याग्दीमा व्यक्तिगत तथा संस्थागत रूपमा राहत सङ्कलन गर्न नदिइने भएको छ । जिल्ला प्रशासन कार्यालयमा सोमबार बसेको राजनीतिक दल, सुरक्षा निकाय तथा सामाजिक सङ्घसंस्थाका प्रतिनिधिको बैठकले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/jilla-parsasan-myagdi_1yBYb55oOc.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T18:51:13+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588938/strict-measures-in-myagdi-to-prevent-abuse-in-the-name-of-relief-collection",
+      "category": "national"
+    },
+    {
+      "title": "नदी सतह बढेकाले सतर्क रहन अपिल",
+      "description": "चाँदनी हमालकाठमाडौँ, भदौ १५ गते । आज अपराह्नदेखि देशका विभिन्न भूभागमा भारी वर्षा सुरु भएको छ । जसका कारण ठुला तथा साना नदीहरुमा बाढीको बहाव उच्च हुने खतरा बढेको जल तथा मौसम विज्ञा...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379537/conversions/Badhi-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-08-31T18:46:42+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220705",
+      "category": "national"
+    },
+    {
+      "title": "बाढीपीडितका लागि मिस नेपाल दीपमाला ढकालद्वारा १ लाख सहयोग",
+      "description": "काठमाडौँ । मिस नेपाल २०२६ तथा गैरआवासीय नेपाली संघकी दोस्रो पुस्ता संयोजक दीपमाला ढकालले बाढीपीडितको राहतका लागि आर्थिक सहयोग प्रदान गरेकी छन् । ढकालले गत भदौ १० गते रसुवा–भोटेकोशी क्षेत्रमा आएको विनाशकारी बाढी बाट प्रभावितहरूको सहयोगार्थ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/deepmala_xs57WOXkmd.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T18:45:14+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588937/miss-nepal-deepmala-dhakal-donates-rs-100000-for-flood-victims",
+      "category": "national"
+    },
+    {
+      "title": "LIVE UPDATES : सार्वजनिक हुन सकेन बेपत्ताको विवरण, कतिपय ठाउँमा आकासमा मात्रै देखियो सरकार",
+      "description": "गत भदौ १० गते रसुवाको भोटेकोशी क्षेत्रमा आएको विनाशकारी बाढीपछि प्रभावित क्षेत्रमा उद्धार र राहत कार्य जारी रहे पनि अवस्था अझै चुनौतीपूर्ण बनेको छ । राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणको सोमबार साँझ ६",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/live-news-cover_PeFbGzpqDE.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T18:36:31+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588936/live-updates-details-of-the-missing-could-not-be-made-public-the-government-was-only-visible-in-the-sky-in-some-places",
+      "category": "politics"
+    },
+    {
       "title": "भोटेकोशी बाढी: ३१५ पर्यटकको उद्धार, ५८३ सम्पर्कविहीन",
       "description": "काठमाडौँ । रसुवाको भोटेकोशीमा आएको बाढीमा परी हराएका विभिन्न देशका पर्यटकमध्ये ३१५ जनाको उद्धार गरिएको छ । पर्यटन बोर्डका निमित्त प्रमुख कार्यकारी अधिकृत हिक्मतसिंह ऐरले गोसाइँकुण्ड र कैलाश मानसरोवर यात्राका क्रममा हराएकामध्ये १२ देशका ३१५ विदेशी",
       "imageUrl": "https://npcdn.ratopati.com/media/news/nepal-tourism-board_vhi9p5cCxa.jpg",
       "sourceLogo": "https://ratopati.com/favicon.ico",
       "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-31T18:03:25+00:00",
+      "publishedTime": "2026-08-31T18:30:00+00:00",
       "articleUrl": "https://www.ratopati.com/story/588933/bhotekoshi-flood-315-tourists-rescued-583-missing",
       "category": "national"
+    },
+    {
+      "title": "मार्दी खोलामा जल सतहले सतर्कता तह पार, बिहानसम्म उच्च सतर्क रहन आग्रह",
+      "description": "काठमाडौँ । कास्की जिल्ला भएर बग्ने मार्दी खोलामा पानीको सतहले सतर्कता तह पार गरेको छ । बाढी पूर्वानुमान महाशाखाले भदौ एक सूचना जारी गर्दै नदी तटीय क्षेत्रका बासिन्दालाई उच्च सतर्कता अपनाउन निर्देश गरेको हो । महाशाखाका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/mausam-bivag_61btcy1gq1_egxpRdrl0U.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T18:23:46+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588935/water-level-in-mardi-river-crosses-alert-level-urges-to-remain-on-high-alert-until-morning",
+      "category": "national"
+    },
+    {
+      "title": "१२ बजे १२ समाचार: बाढी प्रभावित क्षेत्रमा महामारीको जोखिम, तातोपानी नाका अनिश्चितकालका लागि बन्द",
+      "description": "काठमाडौँ । आज दिनभरका मुख्य १२ घटनाक्रम रातोपाटी डटकमको नियमित प्रस्तुति ‘१२ बजे १२ समाचार’मा प्रस्तुत गरेका छौँ– १. बाढी प्रभावित क्षेत्रमा महामारीको जोखिम बाढी प्रभावित क्षेत्रका नागरिकमा झाडापखाला लाग्न लागेको छ । प्रभावित क्षेत्रका नागरिक श्ुद्ध",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/12-news-(2)_d2eIomCd4o.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-08-31T18:15:21+00:00",
+      "articleUrl": "https://www.ratopati.com/story/588934/12-oclock-12-news-epidemic-risk-in-flood-affected-areas-tatopani-checkpoint-closed-indefinitely",
+      "category": "national"
+    },
+    {
+      "title": "मध्यपश्चिम विश्वविद्यालयले कर्मचारीको तलब काटेर बाढीपीडितलाई सहयोग गर्ने",
+      "description": "काठमाडौं। मध्यपश्चिम विश्वविद्यालयले कर्मचारीको तलब कट्टी गरी बाढीपीडितलाई सहयोग गर्ने भएको छ । भदौ १० गते भोटेकोशी नदीमा आएको बाढीबाट प्रभावितहरुका लागि मध्यपश्चिमि विश्वविद्यालयले उपकुलपति, डिनसहितका कर्मचारीको तलबाट निश्चित रकम कट्टी गरी प्रधानमन्त्री दैवी प्रकोप कोषमा जम्मा गर्ने निर्णय गरेको हो। सोमबार बसेको कार्यकारी परिषदको वैठकले उक्त निर्णय गरेको हो",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-08-31T18:12:20+00:00",
+      "articleUrl": "https://nepalnews.com/2026/08/31/midwestern-university-to-cut-employee-salaries-to-help-flood-victims/",
+      "category": "business"
     },
     {
       "title": "‘उद्धार र राहतसँगै पूर्वाधार निर्माण प्राथमिकतामा छ’",
@@ -4838,176 +5008,6 @@
       "publishedTime": "2026-08-31T04:13:27+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/08/2007493/15-mps-propose-amendments-to-domestic-airlines-liability-bill",
       "category": "politics"
-    },
-    {
-      "title": "प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा सिंगापुर बेभरेजेजको २० लाख सहयोग",
-      "description": "१५ भदौ, काठमाडौं । झापाको मेचीनगर-४ मा रहेको सिंगापुर बेभरेजेज नेपाल प्रालिले प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा २० लाख रुपैयाँ सहयोग गर्ने घोषणा गरेको छ । रसुवाको भोटेकोशीमा आएको विनाशकारी बाढीबाट प्रभावितलाई राहत तथा उद्धार कार्यमा सहयोग पुर्‍याउने उद्देश्यले कोषमा उक्त सहयोग गर्ने निर्णय भएको सिंगापुर बेभरेजेजले जनाएको छ । राष्ट्र र नागरिकमाथि परेको य",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Nimbu.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-31T04:13:11+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2007501/singapore-beverages-donates-2-million-to-prime-ministers-disaster-relief-fund",
-      "category": "politics"
-    },
-    {
-      "title": "पाल्पाको लाखे संस्कृति जोगाउन युवा सक्रिय",
-      "description": "पाल्पा, १५ भदौ । तानसेनका चोकमा अचेल साँझपख ढोल र झ्याम्टाको आवाज गुञ्जिन थाल्छ । भिडको बीचमा डरलाग्दो मुकुण्डो लगाएको लाखे देखापर्दछ । लाखेसँगै भुच्चा पनि नाच्दै अघि बढ्छ । यहाँका...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/379436/conversions/laakhey-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-08-31T04:12:40+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/220645",
-      "category": "national"
-    },
-    {
-      "title": "सन्दीपको फाइफर, नेपालसामु ८८ रनको लक्ष्य",
-      "description": "काठमाडौँ । तेस्रो संस्करणको पुरुष एसीसी प्रिमियर कपमा आफ्नो पहिलो खेलमा नेपालले जितका लागि ८८ रनको लक्ष्य पाएको छ । सोमबार बिहान मलेसियाको बाङ्गीस्थित वाईएसडी–यूकेएम ओभल जारी खेलमा बहराइनले ३६.२ ओभरमा सबै विकेट गुमाएर ८७",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/acc-premier-cup-nepal_Q9eXDgEJsZ.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-31T04:11:43+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588733/sandeeps-phifer-nepal-set-a-target-of-88-runs",
-      "category": "national"
-    },
-    {
-      "title": "एसीसी प्रिमियर कप: कप्तान सन्दीपको घातक बलिङमा बहराइन ८७ रनमा अलआउट",
-      "description": "तेस्रो संस्करणको पुरुष एसिसी प्रिमियर कप अन्तर्गत नेपालले बहराइनसँग प्रतिस्पर्धा गरिरहेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-08-31T04:09:40+00:00",
-      "articleUrl": "https://nepalpress.com/2026/08/31/758853/acc-premier-cup-bahrain-all-out-for-87-runs-on-captain-sandeeps-lethal-bowling/",
-      "category": "national"
-    },
-    {
-      "title": "सन्दीपले लिए ५ विकेट, बहराइन ८७ रनमा अलआउट",
-      "description": "१५ भदौ, काठमाडौं । कप्तान सन्दीप लामिछानेले ५ विकेट लिएपछि एसीसी प्रिमियर कपको आफ्नो पहिलो खेलमा नेपालले बहराइनलाई ८७ रनमा अलआउट गरेको छ । टस हारेर पहिले ब्याटिङको निम्तो पाएको बहराइन ३६.२ ओभरमा ८७ रनमा अलआउट भएको हो । सन्दीपले १० ओभरमा १४ रन मात्र खर्चेर ५ विकेट लिए । ललित राजवंशीले ३, करण केसीले […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/04/AW8A1371.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-31T04:09:26+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2007481/sandeep-takes-5-wickets-bahrain-all-out-for-87-runs",
-      "category": "national"
-    },
-    {
-      "title": "‘विपद् पुनर्निर्माणका नाममा नेपाललाई थप ऋण नथोपर्नू’",
-      "description": "वक्तव्यमा विश्वव्यापी हरितगृह ग्यास उत्सर्जनमा नेपालको योगदान नगण्य भए तापनि जलवायु परिवर्तनको गम्भीर असर भोगिरहेकाले सहयोगको नाममा ऋण थोपर्नु थप अन्याय हुने ठहर गरिएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-31T04:06:23+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2007496/nepal-should-not-be-burdened-with-additional-debt-in-the-name-of-disaster-reconstruction",
-      "category": "national"
-    },
-    {
-      "title": "ढोल–झ्याम्टासँगै जाग्दैछ पाल्पाको लाखे संस्कृति",
-      "description": "पाल्पा । हिजोआज साँझ पर्नासाथ तानसेनका चोकमा ढोल र झ्याम्टाको आवाज गुञ्जिन थाल्छ । भीडको बीचबाट डरलाग्दो मुकुण्डो लगाएको लाखे निस्कन्छ । उसको चालसँगै भुच्चा पनि नाच्दै अघि बढ्छ । दर्शकका लागि यो मनोरञ्जनको दृश्य हो, तर यहाँका केही युवाका लागि भने आफ्ना पुर्खाले छाडेर गएको संस्कृति जोगाउने अभियान हो । कुनै समय नेवार समुदायको […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-08-31T04:05:09+00:00",
-      "articleUrl": "https://nepalpress.com/2026/08/31/758850/palpas-lacquerware-culture-is-awakening-with-the-sound-of-drums-and-cymbals/",
-      "category": "national"
-    },
-    {
-      "title": "मधेशका १६२ जना अझै सम्पर्कविहीन, फर्किने आशामा परिवार, खोजिदिन हारगुहार",
-      "description": "प्रहरीको विवरणअनुसार सबैभन्दा बढी सप्तरीका ४९ जना सम्पर्कविहीन भएका छन् । तीमध्ये एक जना सम्पर्कमा आएका छन् । पर्साका ४० जनामध्ये दुई जना सम्पर्कमा आएका छन् भने बाराका २५ जनामध्ये दुई जना सम्पर्कमा आएका छन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/rasuwa-badhi_madhesh.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-08-31T04:03:06+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/08/2007490/162-people-from-madhesh-still-uncontacted-families-hoping-for-their-return-desperate-to-find-them",
-      "category": "national"
-    },
-    {
-      "title": "सोमबार कहाँ–कहाँ छ बाढीको जोखिम ?",
-      "description": "काठमाडौँ । बाढी पूर्वानुमान महाशाखाले सोमबार बिहान ८ बजे जारी गरेको बुलेटिनअनुसार भदौ १० गते रसुवाको भोटेकोशीमा आएको बाढीपछि हाल भोटेकोशी र त्रिशूली नदीको बहाव सतर्कता तहभन्दा तल रहेको छ। बहाव तल रहे तापनि ती क्षेत्रहरूमा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/flood-cover_nIzgeU6N1T.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-31T03:50:58+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588732/where-is-the-risk-of-flooding-on-monday",
-      "category": "national"
-    },
-    {
-      "title": "बैंकले बाढीग्रस्त क्षेत्रका सर्वसाधारणलाई दिएका थिए साढे २ अर्ब ऋण, भल्टको १५ करोड बगायो",
-      "description": "बैंकिङ खबर / रसुवा र नुवाकोटमा आएको विनाशकारी बाढीले बैंकिङ क्षेत्रलाई समेत ठूलो क्षति पुर्‍याएको छ । बाढीबाट ११ वटा वाणिज्य बैंकका १६ वटा शाखा पूर्ण रूपमा क्षतिग्रस्त हुँदा ती शाखाबाट सर्वसाधारण तथा व्यवसायीलाई प्रवाह गरिएको २ अर्ब ३३ करोड रुपैयाँभन्दा बढी कर्जा प्रभावित भएको छ । प्राप्त प्रारम्भिक विवरणअनुसार ती १६ वटा शाखामा २ […] The post बैंकले बाढीग्रस",
-      "imageUrl": "",
-      "sourceLogo": "https://bankingkhabar.com/favicon.ico",
-      "sourceName": "बैंकिङ खबर",
-      "publishedTime": "2026-08-31T03:47:11+00:00",
-      "articleUrl": "https://bankingkhabar.com/archives/167611",
-      "category": "business"
-    },
-    {
-      "title": "औद्योगिक घरानादेखि बैंकिङ क्षेत्रबाट करोडौंको सहयोग",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-08-31T03:40:13+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13615",
-      "category": "national"
-    },
-    {
-      "title": "विपत्तिमा कालोबजारीः गोरखामा बाँडिएका ग्यास सिलिण्डरको तौल झण्डै ५ किलो कम !",
-      "description": "काठमाडौँमा । विपत्तिमा पनि खाना पकाउने एलपी ग्यासमा कालोबजारी भएको पाइएको छ । गोरखामा वितरण भएका ग्यासमा व्यापक कालोबजारी भएको पाइएको हो । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा)का सांसद कविन्द्र बुर्लाकोटीले सामाजिक सञ्जाल (फेसबुक) मार्फत ग्यासमा कालोबजारी भइरहेको जनाएका हुन् । उनले उक्त विषयमा तत्काल छानविन गरी कारवाही प्रक्रिया अघि बढाइएको समेत बताएका छन् । ",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-08-31T03:35:47+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/08/black-marketing-in-disaster-gas-cylinders-distributed-in-gorkha-weigh-less-than-5-kg.html",
-      "category": "business"
-    },
-    {
-      "title": "टनेलमा फसेकाहरुको उद्दारदेखि रसुवामा राहत–उद्दारको पर्खाईमा बसेकाहरुबारे सरकार के गर्दैछ ?",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-08-31T03:34:21+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13614",
-      "category": "politics"
-    },
-    {
-      "title": "‘आई लभ यू’ : बाढीमा बेपत्ता हुनुअघि श्रीमतीको अन्तिम सन्देश",
-      "description": "काठमाडौँ । रसुवामा आएको भीषण बाढीमा आफ्नी नवविवाहिता पत्नी बेपत्ता हुनुअघि बेलायतमा रहेका प्रमोद पौडेलले उनीसँग भएको अन्तिम कुराकानी सार्वजनिक गरेका छन्। भोटेकोशी नदीमा बाढी आउनुअघि बुधबार पौडेलले आफ्नी श्रीमती सुमित्रासँग अन्तिम पटक कुरा गरेका थिए। इस्ट ससेक्समा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/pramod-poudel_o4DZSUIEEw.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-08-31T03:32:33+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588731/i-love-you-wifes-last-message-before-disappearing-in-flood",
-      "category": "national"
-    },
-    {
-      "title": "मालवस्तु ‘कन्टेनर’ कोरलानाकातर्फ ‘डाईभर्ट’ हुँदै",
-      "description": "मुस्ताङ। रसुवागढी–केरुङतर्फबाट पैठारी गरिने मालवस्तु र कन्टेनर धमाधम मुस्ताङको कोरलानाकातर्फ ‘डाईभर्ट’हुन थालेका छन् । नेपाल–चीनबीचको (रसुवागढी—केरुङ) नाका विनासकारी बाढीका कारण पूर्ण रुपमा क्षति भएसँगै कोरलाना मार्फत् मालवस्तु र कन्टेनरहरु आउन थालेका हुन् । मुस्ताङको जोमसोमस्थित सशस्त्र प्रहरीको चेकपोष्टबाट आइतबार साँझ ६६ मालवाहक कन्टेनरको विवरण सङ्कलन गरिए",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-08-31T03:32:22+00:00",
-      "articleUrl": "https://nepalnews.com/2026/08/31/goods-being-diverted-to-koralana-by-container/",
-      "category": "business"
-    },
-    {
-      "title": "केरुङमा पहिरोको जोखिम निगरानी गर्न चीनले प्रयोग गर्‍यो लेजरमा आधारित एआई उपकरण",
-      "description": "काठमाडौं । चीनले १० भदौमा नेपाल-चीन सीमा क्षेत्रमा पर्ने केरुङ नाकामा गएको विनाशकारी पहिरोपछिको खोजी तथा उद्धारका लागि प्रविधिको प्रयोगलाई तीब्र बनाएको छ । चीनले केरुङ नाकामा पहिरो र चट्टान खस्ने जोखिमको वास्तविक समयमै निगरानी गर्न लेजरमा आधारित आर्टिफिसियल इन्टेलिजेन्स (एआई) उपकरणको प्रयोग सुरु गरेको छ । पहिरोका कारण प्रभावित क्षेत्रमा महत्वपूर्ण सडकमार्ग प",
-      "imageUrl": "",
-      "sourceLogo": "https://www.techpana.com/favicon.ico",
-      "sourceName": "टेकपाना",
-      "publishedTime": "2026-08-31T03:31:24+00:00",
-      "articleUrl": "https://techpana.com/2026/158810/china-deploys-laser-based-ai-device-to-monitor-landslide-risks-in-kerung",
-      "category": "technology"
-    },
-    {
-      "title": "मतयाः परम्परा धान्दै युवा पूस्ता, पूर्वज सम्झिदैं दीपयात्रा",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-08-31T03:29:48+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13613",
-      "category": "national"
     }
   ]
 }
