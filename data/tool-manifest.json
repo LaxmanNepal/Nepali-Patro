@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T23:47:43.550Z",
-  "count": 28,
+  "generatedAt": "2026-09-01T00:11:15.968Z",
+  "count": 40,
   "tools": [
     {
       "id": "itihas-aaja",
@@ -124,6 +124,14 @@
       "url": "gold-price/"
     },
     {
+      "id": "calculator",
+      "path": "calculator/",
+      "icon": "🧰",
+      "name": "Calculator",
+      "title": "क्यालकुलेटर — नेपाली पात्रो",
+      "url": "calculator/"
+    },
+    {
       "id": "data-health",
       "path": "data-health/",
       "icon": "🧰",
@@ -138,6 +146,30 @@
       "name": "Demo",
       "title": "Demo — नेपाली पात्रो",
       "url": "demo/"
+    },
+    {
+      "id": "dharma",
+      "path": "dharma/",
+      "icon": "🧰",
+      "name": "Dharma",
+      "title": "धर्म र संस्कृति — नेपाली पात्रो",
+      "url": "dharma/"
+    },
+    {
+      "id": "eclipse",
+      "path": "eclipse/",
+      "icon": "🧰",
+      "name": "Eclipse",
+      "title": "ग्रहण जानकारी — नेपाली पात्रो",
+      "url": "eclipse/"
+    },
+    {
+      "id": "events",
+      "path": "events/",
+      "icon": "🧰",
+      "name": "Events",
+      "title": "पर्व तथा कार्यक्रम — नेपाली पात्रो",
+      "url": "events/"
     },
     {
       "id": "festivals",
@@ -172,6 +204,14 @@
       "url": "memes/"
     },
     {
+      "id": "namakaran",
+      "path": "namakaran/",
+      "icon": "🧰",
+      "name": "Namakaran",
+      "title": "नामकरण सुझाव — नेपाली पात्रो",
+      "url": "namakaran/"
+    },
+    {
       "id": "nepse",
       "path": "nepse/",
       "icon": "🧰",
@@ -196,6 +236,14 @@
       "url": "panchang/"
     },
     {
+      "id": "personal-rashifal",
+      "path": "personal-rashifal/",
+      "icon": "🧰",
+      "name": "Personal Rashifal",
+      "title": "व्यक्तिगत राशिफल — नेपाली पात्रो",
+      "url": "personal-rashifal/"
+    },
+    {
       "id": "petroleum-price",
       "path": "petroleum-price/",
       "icon": "🧰",
@@ -212,6 +260,14 @@
       "url": "preeti-to-unicode/"
     },
     {
+      "id": "print-calendar",
+      "path": "print-calendar/",
+      "icon": "🧰",
+      "name": "Print Calendar",
+      "title": "प्रिन्ट पात्रो — नेपाली पात्रो",
+      "url": "print-calendar/"
+    },
+    {
       "id": "radio",
       "path": "radio/",
       "icon": "🧰",
@@ -220,12 +276,52 @@
       "url": "radio/"
     },
     {
+      "id": "regional-time",
+      "path": "regional-time/",
+      "icon": "🧰",
+      "name": "Regional Time",
+      "title": "विश्व समय — नेपाली पात्रो",
+      "url": "regional-time/"
+    },
+    {
       "id": "saait",
       "path": "saait/",
       "icon": "🧰",
       "name": "Saait",
       "title": "साइत — नेपाली पात्रो",
       "url": "saait/"
+    },
+    {
+      "id": "sankalpa",
+      "path": "sankalpa/",
+      "icon": "🧰",
+      "name": "Sankalpa",
+      "title": "संकल्प — नेपाली पात्रो",
+      "url": "sankalpa/"
+    },
+    {
+      "id": "timeline",
+      "path": "timeline/",
+      "icon": "🧰",
+      "name": "Timeline",
+      "title": "मिति टाइमलाइन — नेपाली पात्रो",
+      "url": "timeline/"
+    },
+    {
+      "id": "tithi-finder",
+      "path": "tithi-finder/",
+      "icon": "🧰",
+      "name": "Tithi Finder",
+      "title": "तिथि खोजकर्ता — नेपाली पात्रो",
+      "url": "tithi-finder/"
+    },
+    {
+      "id": "vedic-clock",
+      "path": "vedic-clock/",
+      "icon": "🧰",
+      "name": "Vedic Clock",
+      "title": "वैदिक घडी — नेपाली पात्रो",
+      "url": "vedic-clock/"
     }
   ]
 }
