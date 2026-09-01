@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T00:11:15.968Z",
-  "count": 40,
+  "generatedAt": "2026-09-01T00:27:21.590Z",
+  "count": 35,
   "tools": [
     {
       "id": "itihas-aaja",
@@ -124,14 +124,6 @@
       "url": "gold-price/"
     },
     {
-      "id": "calculator",
-      "path": "calculator/",
-      "icon": "🧰",
-      "name": "Calculator",
-      "title": "क्यालकुलेटर — नेपाली पात्रो",
-      "url": "calculator/"
-    },
-    {
       "id": "data-health",
       "path": "data-health/",
       "icon": "🧰",
@@ -162,14 +154,6 @@
       "name": "Eclipse",
       "title": "ग्रहण जानकारी — नेपाली पात्रो",
       "url": "eclipse/"
-    },
-    {
-      "id": "events",
-      "path": "events/",
-      "icon": "🧰",
-      "name": "Events",
-      "title": "पर्व तथा कार्यक्रम — नेपाली पात्रो",
-      "url": "events/"
     },
     {
       "id": "festivals",
@@ -236,14 +220,6 @@
       "url": "panchang/"
     },
     {
-      "id": "personal-rashifal",
-      "path": "personal-rashifal/",
-      "icon": "🧰",
-      "name": "Personal Rashifal",
-      "title": "व्यक्तिगत राशिफल — नेपाली पात्रो",
-      "url": "personal-rashifal/"
-    },
-    {
       "id": "petroleum-price",
       "path": "petroleum-price/",
       "icon": "🧰",
@@ -258,14 +234,6 @@
       "name": "Preeti To Unicode",
       "title": "Preeti to Unicode Converter — नेपाली पात्रो",
       "url": "preeti-to-unicode/"
-    },
-    {
-      "id": "print-calendar",
-      "path": "print-calendar/",
-      "icon": "🧰",
-      "name": "Print Calendar",
-      "title": "प्रिन्ट पात्रो — नेपाली पात्रो",
-      "url": "print-calendar/"
     },
     {
       "id": "radio",
@@ -298,14 +266,6 @@
       "name": "Sankalpa",
       "title": "संकल्प — नेपाली पात्रो",
       "url": "sankalpa/"
-    },
-    {
-      "id": "timeline",
-      "path": "timeline/",
-      "icon": "🧰",
-      "name": "Timeline",
-      "title": "मिति टाइमलाइन — नेपाली पात्रो",
-      "url": "timeline/"
     },
     {
       "id": "tithi-finder",
