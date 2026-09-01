@@ -1,0 +1,1 @@
+const NP={today:new Date(),fmt:d=>new Intl.DateTimeFormat('ne-NP',{dateStyle:'full'}).format(d),pad:n=>String(n).padStart(2,'0')};function set(id,v){const e=document.getElementById(id);if(e)e.innerHTML=v}function neTime(){return new Intl.DateTimeFormat('ne-NP',{timeZone:'Asia/Kathmandu',hour:'2-digit',minute:'2-digit',second:'2-digit'}).format(new Date())}
