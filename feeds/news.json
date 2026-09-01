@@ -1,19 +1,57 @@
 {
-  "updatedAt": "2026-09-01T18:45:37.215620+00:00",
-  "lastSuccessfulUpdate": "2026-09-01T18:45:37.215620+00:00",
-  "newestPublishedTime": "2026-09-01T18:34:42+00:00",
+  "updatedAt": "2026-09-01T21:21:32.799921+00:00",
+  "lastSuccessfulUpdate": "2026-09-01T21:21:32.799921+00:00",
+  "newestPublishedTime": "2026-09-01T20:52:24+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 33,
-  "failedFeeds": 1,
+  "successfulFeeds": 31,
+  "failedFeeds": 3,
   "failedFeedDetails": [
+    {
+      "url": "https://rajdhanidaily.com/feed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
     {
       "url": "https://nepalpress.com/feed/",
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
+    },
+    {
+      "url": "https://www.nepalitelecom.com/feed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "title": "भोटेकोशी बाढी: बाँकेमा सहयोग जुट्दै",
+      "description": "बाँके । भोटेकोशी बाढीबाट प्रभावित नागरिकको उद्धार तथा राहतका लागि नेपालगन्ज उद्योग वाणिज्य सङ्घले रु पाँच लाख ६० हजार सहयोग गर्ने निर्णय गरेको छ । सङ्घका नवनिर्वाचित अध्यक्ष चिरन्जीवी ओलीले रसुवा र नुवाकोटका बाढीपीडितका लागि सङ्घका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/banke-district-map_buY1dHpxrb.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T20:52:24+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589193/bhotekoshi-flood-help-is-being-mobilized-in-banke",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढी: समुदायले नै जुटाउँदैछ सहयोग",
+      "description": "म्याग्दी । म्याग्दीको भौगोलिक रूपमा विकट मानिएको गुर्जाका बासिन्दाले भोटेकोशी बाढी पीडितका लागि रु दुई लाख ५० हजार सहयोग गरेका छन् । यही भदौ १० गते भोटेकोशी नदीमा आएको बाढीबाट प्रभावित रसुवा, नुवाकोट, धादिङलगायत जिल्लामा राहत,",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/myagdi_Yxx1IewRfU.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T20:30:55+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589192/bhotekoshi-flood-community-is-raising-funds",
+      "category": "national"
+    },
+    {
+      "title": "बागलुङमा १५ किलोमिटर पदमार्ग निर्माण",
+      "description": "बागलुङ । बागलुङमा आर्थिक वर्ष २०८२/८३ मा १५ दशमलव पाँच किलोमिटर पदमार्ग निर्माण भएको छ । एकीकृत सेवा कार्यालय सामाजिक विकास तथा शिक्षा शाखा प्रमुख श्यामकुमार थापाका अनुसार पदमार्ग निर्माणका लागि रु तीन करोड ३५ लाख",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/baglung_bwi9euee5r_9OfhoDvtTK.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T20:27:20+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589191/construction-of-15-kilometer-hiking-trail-in-baglung",
+      "category": "national"
+    },
     {
       "title": "बाँकेमा एचपिभी खोप अभियान सुरु हुँदै",
       "description": "बाँके । बाँकेमा छ हजार किशोरीलाई लक्षित गरी एचपिभी (ह्युमन प्यापिलोमा भाइरस) विरुद्धको खोप अभियान सुरु गरिने भएको छ । अभियानअन्तर्गत आगामी भदौ ३० गतेदेखि खोप लगाउन सुरु गरिने स्वास्थ्य कार्यालय, बाँकेकी प्रमुख सुनिता पौडेलले",
@@ -4982,36 +5020,6 @@
       "sourceName": "नेपाल प्रेस",
       "publishedTime": "2026-09-01T04:19:03+00:00",
       "articleUrl": "https://nepalpress.com/2026/09/01/758904/state-investment-in-ailing-industries-dont-prepare-to-raise-money-elephants-again/",
-      "category": "national"
-    },
-    {
-      "title": "जोखिममा नदीकिनारका बस्ती",
-      "description": "१० भदौमा तिब्बतबाट भोटेकोशी हुँदै उर्लिएको बाढीले रसुवाका टिमुरे र स्याफ्रुबेँसीजस्ता बस्ती एकैछिनमा सखाप बनायो। विनाशकारी बाढीले त्रिशूली, बेत्रावती र मैलुङदेखि धादिङको फुर्केखोलासम्मका बस्ती, खेती, पुल र सडक बगाउँदा धनजनको अकल्पनीय क्षति भएको छ। हालसम्म एक हजार हाराहारी शव फेला परेका छन् भने चार हजारभन्दा बढी मानिस सम्पर्कविहीन छन्। मानवीय क्षतिकै यकिन विव",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-01T04:15:38+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/01/riverside-settlements-at-risk/",
-      "category": "business"
-    },
-    {
-      "title": "भोटेकोशी र त्रिशूली नदीको बहाव सर्तकता तहभन्दा तल : बाढी पूर्वानुमान महाशाखा",
-      "description": "काठमाडौँ। भोटेकोशी र त्रिशूली नदीको बहाव सर्तकता तहभन्दा तल रहेता पनि उच्च सतर्कता अपाउन आग्रह गरिएको छ । जल विज्ञान तथा जलस्रोत अनुसन्धान केन्द्र, बाढी पूर्वानुमान महाशाखाले यही भदौ १० गते भोटेकोशी मा आएको बाढीपश्चात ती नदीमा पानीको बहाव तल रहेतापनि सतर्कता अपाउन भनेको हो । बाढी पूवार्नुमान महाशाखाद्वारा आज यहाँ जारी बाढी पूर्वानुमान बुलेटिनमा […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-01T04:14:55+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/01/flow-of-bhotekoshi-and-trishuli-rivers-below-alert-level-flood-forecasting-division/",
-      "category": "business"
-    },
-    {
-      "title": "बाढीप्रभावित बालबालिकाको फोटो-भिडियो सामाजिक सञ्जालमा पोस्ट नगर्न अपिल",
-      "description": "काठमाडौँ । भोटेकोशी र त्रिशूली नदीमा आएको विनाशकारी बाढीबाट पीडित तथा प्रभावित बालबालिकाको फोटो र भिडियो सामाजिक सञ्जाल एवं सञ्चार माध्यममा पोस्ट नगर्न राष्ट्रिय बाल अधिकार परिषद्ले अपिल गरेको छ। परिषद्का अधिकृत तथा सूचना अधिकारी रामबहादुर",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-badhi-photo_7AqUfIPFEE.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T04:13:37+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588982/appeal-not-to-post-photos-and-videos-of-flood-affected-children-on-social-media",
       "category": "national"
     }
   ]
