@@ -53,3 +53,21 @@ A separate compact conversion index is generated for the full supported range of
 ## Deployment
 
 GitHub Actions generates and validates the data, then deploys the static site to GitHub Pages. All repository-writing workflows share a concurrency group so generated-data, news and gold-price commits do not race each other.
+
+
+## Additional feature pages
+
+- `/calculator/` — simple calculator
+- `/namakaran/` — naming suggestions
+- `/regional-time/` — world and regional time
+- `/sankalpa/` — Sankalpa text helper
+- `/timeline/` — personal date timeline
+- `/tithi-finder/` — simple Tithi finder
+- `/vedic-clock/` — traditional time display
+- `/eclipse/` — eclipse information
+- `/print-calendar/` — print-friendly monthly calendar
+- `/personal-rashifal/` — personalised horoscope guidance
+- `/dharma/` — religion and culture hub
+- `/events/` — personal events organiser
+
+The existing `/radio/`, `/jyotish/`, `/saith/` and calendar/converter features remain separate and were not duplicated. Unit Converter was intentionally excluded.
