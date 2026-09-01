@@ -1,17 +1,13 @@
 {
-  "updatedAt": "2026-09-01T21:21:32.799921+00:00",
-  "lastSuccessfulUpdate": "2026-09-01T21:21:32.799921+00:00",
-  "newestPublishedTime": "2026-09-01T20:52:24+00:00",
+  "updatedAt": "2026-09-01T23:22:52.739747+00:00",
+  "lastSuccessfulUpdate": "2026-09-01T23:22:52.739747+00:00",
+  "newestPublishedTime": "2026-09-01T23:19:24+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 31,
-  "failedFeeds": 3,
+  "successfulFeeds": 32,
+  "failedFeeds": 2,
   "failedFeedDetails": [
-    {
-      "url": "https://rajdhanidaily.com/feed",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
-    },
     {
       "url": "https://nepalpress.com/feed/",
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
@@ -22,6 +18,116 @@
     }
   ],
   "items": [
+    {
+      "title": "फोहर बेचेर व्यासले कमायो २७ लाख",
+      "description": "तनहुँ । तनहुँको व्यास नगरपालिकाले फोहरजन्य वस्तु बिक्री गरेर एक वर्षमा रु २७ लाख आम्दानी गरेको छ । नगरपालिकाले आर्थिक वर्ष २०८२/८३ मा पुनः प्रयोगयोग्य बनाइएका फोहर बिक्री गरी उक्त आम्दानी गरेको हो । नगरपालिकाका प्रमुख",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/byas_nagarpalika_VoWaxzzVyI.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T23:19:24+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589204/vyas-earns-27-million-by-selling-garbage",
+      "category": "national"
+    },
+    {
+      "title": "बुधबार कुन राशिका लागि शुभ ? हेर्नुहोस् राशिफल",
+      "description": "आजको पञ्चाङ्ग वि.सं.२०८३ साल भाद्र १७ गते । बुधबार । इस्वी सन् २०२६ सेप्टेम्बर २ तारिख । नेपाल संवत् ११४६ । रौद्र संवत्सर । दक्षिणायन । वर्षा ऋतु । श्रीशाके १९४८ । भाद्र कृष्णपक्ष । तिथि–षष्ठी,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_68mF8G6CaS.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T23:16:37+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589203/which-zodiac-sign-is-auspicious-on-wednesday-see-horoscope",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढी: पोखरामा २१ शवको सनाखत",
+      "description": "कास्की । रसुवा भोटेकोशी बाढीपछि उद्धार तथा खोजतलासका क्रममा भेटिएका र परीक्षण तथा व्यवस्थापनका लागि पोखरा ल्याइएका १०२ शवमध्ये मङ्गलबार २१ शवको सनाखत गरी परिवारलाई बुझाइएको छ । पहिचान हुन नसकेका ७६ शवलाई पोखरा–१६ माथिल्लो दीपस्थित",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/pokhara-dead-body-management_npl_arjungaha-(6)_yzVFXTS5Lj.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T23:11:01+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589202/bhotekoshi-flood-21-bodies-identified-in-pokhara",
+      "category": "national"
+    },
+    {
+      "title": "पुस्तकालयको गौरव पुनः स्थापित गर्दै गुरुकुल",
+      "description": "महोत्तरी । प्राचीन संस्कृत भाषा र साहित्य साधनाको केन्द्र मानिने महोत्तरीको मटिहानीस्थित राजकीय संस्कृत माध्यमिक विद्यालय (गुरुकुल) ले पठन संस्कृतिलाई जोड दिँदै पाँच दशकअघिको पुस्तकालय जगाउने अभियान थालेको छ । शङ्कर आदर्श पुस्तकालयलाई फेरि पनि पुरानै",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/OCyA98bvve.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T23:08:43+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589201/gurukul-reestablishing-the-pride-of-the-library",
+      "category": "national"
+    },
+    {
+      "title": "गौरीघाट क्षेत्रलाई मौलिक स्वरूप दिइँदै",
+      "description": "काठमाडौँ । काठमाडौँ महानगरपालिकाले गौरीघाट गुह्येश्वरी क्षेत्रमा ढुङ्गा छपाइ सुरु गरेको छ । करिब एक हजार ७०० वर्ग मिटरमा ढुङ्गा छापिनेछ । प्राचीन महत्वका क्षेत्रका रूपमा रहेको उक्त स्थानमा कालोपत्र हटाई ढुङ्गा छाप्न थालिएको वडा",
+      "imageUrl": "https://npcdn.ratopati.com/media/gallery/pashupati8_d88BzF1iHi.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T23:05:13+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589200/gaurighat-area-being-given-an-original-look",
+      "category": "national"
+    },
+    {
+      "title": "भोजपुरमा वनबाट ९ करोड ६९ लाख राजस्व सङ्कलन",
+      "description": "भोजपुर । जिल्लामा काठ तथा गैरकाष्ठ वन पैदावारको निकासीबाट रु नौ करोड बढी राजस्व सङ्कलन भएको छ । डिभिजन वन कार्यालयले आर्थिक वर्ष २०८२/८३ मा वन क्षेत्रसँग सम्बन्धित विभिन्न गतिविधिबाट रु नौ करोड ६९ लाख",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/CULvK9DfpY.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T21:37:53+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589199/revenue-collection-of-969-million-from-forests-in-bhojpur",
+      "category": "national"
+    },
+    {
+      "title": "नदी किनारमा थुप्रिएका काठको निगरानी र जफत सुरु",
+      "description": "चितवन । डिभिजन वन कार्यालय चितवनले भोटेकोशी र त्रिशूली हुँदै नारायणी नदीमा आएको बाढीले नदी किनारमा थुपारेका गोलिया काठ तथा दाउराको निगरानी तथा जफत गर्ने अभियान सुरु गरेको छ । कार्यालयले ज्यानको जोखिम मोलेर वा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/10-nuwakot-trishuli-river-flood_-914_C2JOZ0qV8v.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T21:33:31+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589198/monitoring-and-confiscation-of-wood-piled-up-on-river-banks-begins",
+      "category": "national"
+    },
+    {
+      "title": "बाढीपीडितलाई होटल मेची क्राउनद्वारा २६ लाख सहयोग",
+      "description": "झापा । मेचीनगर–८ स्थित होटल मेची क्राउनले भोटेकोशी बाढीबाट प्रभावित क्षेत्रका नागरिकको उद्धार, राहत तथा पुनः स्थापनाका लागि रु २६ लाख सहयोग प्रदान गरेको छ । प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा जम्मा गरिदिन अनुरोध गर्दै होटलका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/jhapa__dhzolqasr2_QnjZRO8TPN.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T21:30:33+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589197/hotel-mechi-crown-provides-rs-26-million-in-assistance-to-flood-victims",
+      "category": "national"
+    },
+    {
+      "title": "बाढीबाट प्रभावित नेपाल टेलिकमका ११३ साइट पुनः सञ्चालनमा",
+      "description": "काठमाडौँ । नेपाल टेलिकमले भोटेकोशी बाढीबाट प्रभावित थप तीन वटा साइट पुनः सञ्चालनमा ल्याएको छ । मंगलबार धादिङको कल्लेरी र नुवाकोटको भद्रटार थप्रेक तथा पुसनटार साइट पुनः सञ्चालनमा आएका हुन् । कल्लेरी साइटबाट आदमघाट, पिपलटार, सुनौलाबजार,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ntc-tower_zU3bxwws9q.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T21:28:04+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589196/113-nepal-telecom-sites-affected-by-floods-resume-operations",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढीपीडितका लागि ४१ लाख ११ हजार सहयोग",
+      "description": "कास्की । भोटेकोशी नदीमा आएको विनाशकारी बाढीबाट प्रभावित नागरिकको उद्धार, राहत तथा पुनः स्थापनाका लागि पोखराका व्यवसायी नारायणप्रसाद पौडेलको नेतृत्वमा सञ्चालित व्यावसायिक तथा शैक्षिक प्रतिष्ठानले रु ४१ लाख ११ हजार १११ सहयोग गरेका छन् । सहयोग",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-flood-2_Z8EsVx6gSK.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T21:25:56+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589195/411-million-assistance-for-bhotekoshi-flood-victims",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढी: काभ्रेबाट एक करोड १० लाख सहयोग",
+      "description": "काभ्रे । प्राकृतिक विपद् व्यहोरेका काभ्रेपलान्चोकका सात वटा स्थानीय तहले भोटेकोशी नदीमा आएको बाढीबाट प्रभावित नागरिकको उद्धार, राहत तथा पुनः स्थापनाका लागि आर्थिक सहयोग गर्ने निर्णय गरेका छन् । जिल्लाका विभिन्न वडा तथा सामाजिक, सहकारी तथा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kavrepalanchok_wpemnfgzgo_sznxzhia8z_G9XRzkVeqL.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T21:22:57+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589194/bhotekoshi-flood-rs-11-million-assistance-from-kavre",
+      "category": "national"
+    },
     {
       "title": "भोटेकोशी बाढी: बाँकेमा सहयोग जुट्दै",
       "description": "बाँके । भोटेकोशी बाढीबाट प्रभावित नागरिकको उद्धार तथा राहतका लागि नेपालगन्ज उद्योग वाणिज्य सङ्घले रु पाँच लाख ६० हजार सहयोग गर्ने निर्णय गरेको छ । सङ्घका नवनिर्वाचित अध्यक्ष चिरन्जीवी ओलीले रसुवा र नुवाकोटका बाढीपीडितका लागि सङ्घका",
@@ -1491,16 +1597,6 @@
       "publishedTime": "2026-09-01T13:37:05+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2008814/14-gas-vehicles-stopped-by-landslides-reach-kathmandu",
       "category": "national"
-    },
-    {
-      "title": "बाढीबाट प्रभावित नेपाल टेलिकमका ११३ साइट पुनः सञ्चालनमा",
-      "description": "काठमाडौं । नेपाल टेलिकमले भोटेकोशी बाढीबाट प्रभावित थप तीन वटा साइट पुनः सञ्चालनमा ल्याएको छ। आज धादिङको कल्लेरी र नुवाकोटको भद्रटार थप्रेक तथा पुसनटार साइट पुनः सञ्चालनमा आएका हुन्। कल्लेरी साइटबाट आदमघाट, पिपलटार, सुनौलाबजार, घुमाउने डाँडा, कल्लेरी, बेल्टार आदि स्थानका सेवाग्राही लाभान्वित हुनेछन्। भद्रटार थप्रेक साइटबाट पञ्चकन्या, थप्रेक, महाकाली, समुन्द्",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-01T13:36:01+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/01/113-nepal-telecom-sites-affected-by-floods-resume-operations/",
-      "category": "business"
     },
     {
       "title": "अहिलेसम्म भारतमा भेटिए ९ शव, पश्चिम नवलपरासीमा ६८ शव गाडियो",
@@ -3081,16 +3177,6 @@
       "publishedTime": "2026-09-01T10:28:08+00:00",
       "articleUrl": "https://www.bbc.com/nepali/articles/cgrvnnzkgv1o?at_medium=RSS&at_campaign=rss",
       "category": "national"
-    },
-    {
-      "title": "नदी किनारमा थुप्रिएका काठको निगरानी र जफत सुरु",
-      "description": "चितवन । डिभिजन वन कार्यालय चितवनले भोटेकोशी र त्रिशूली हुँदै नारायणी नदीमा आएको बाढीले नदी किनारमा थुपारेका गोलिया काठ तथा दाउराको निगरानी तथा जफत गर्ने अभियान सुरु गरेको छ। कार्यालयले ज्यानको जोखिम मोलेर वा अवैध रूपमा नदी किनारबाट काठ संकलन नगर्न सर्वसाधारणलाई आग्रह गरेको छ। कार्यालयका प्रमुख एवं वरिष्ठ डिभिजनल वन अधिकृत विष्णुप्रसाद आचार्यका अनुसार […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-01T10:28:00+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/01/monitoring-and-confiscation-of-wood-piled-up-on-river-banks-begins/",
-      "category": "business"
     },
     {
       "title": "पोखरामा ७६ शव गाडेर व्यवस्थापन",
@@ -4930,96 +5016,6 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-01T04:34:38+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2008276/rasuwa-flood-kushs-body-being-cremated-after-losing-hope-of-finding-his-soul",
-      "category": "national"
-    },
-    {
-      "title": "मृतक र बेपत्ताको सम्झनामा चीनमा शोक सभा",
-      "description": "१६ भदौ, काठमाडौँ । चीनको दक्षिण-पश्चिम सिजाङ (तिब्बत) स्वायत्त क्षेत्रस्थित केरुङमा गएको विनाशकारी पहिरोमा परी ज्यान गुमाउने तथा बेपत्ता भएकाहरूको स्मृतिमा मंगलबार बिहान विशेष शोक सभा आयोजना गरिएको छ। भदौ १० गते आएको लेदोसहितको भीषण पहिरोका कारण त्यस क्षेत्रमा ठूलो मानवीय तथा भौतिक क्षति भएको थियो। चिनियाँ समाचार एजेन्सी सिन्ह्वाका अनुसार, स्थानीय अधिकारीहरू",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/sok-sava-in-china.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-01T04:34:17+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008286/mourning-ceremony-in-china-to-remember-the-dead-and-missing",
-      "category": "national"
-    },
-    {
-      "title": "राजीनामा दिँदै ट्रम्पका ‘ड्रोन म्यान’",
-      "description": "१६ भदौ, काठमाडौं । अमेरिकी सेनाका सेक्रेटरी ड्यान ड्रिस्कलले करिब १८ महिनासम्म उक्त पदमा रहेपछि राजीनामाको घोषणा गरेका छन्। उनले पद छाड्न लागेको अमेरिकी मिडिया साझेदार सीबीएसले पुष्टि गरेको छ। सीबीएसका अनुसार, ड्रिस्कल र रक्षामन्त्री पिट हेगसेथबीच महिनौँदेखि मतभेद र टकराव चलिरहेको थियो। ड्रिस्कल हालसम्मकै सबैभन्दा कम उमेरका आर्मी सेक्रेटरी हुन्। उनलाई प्रायः",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/drone-man.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-01T04:32:31+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008283/trumps-drone-man-resigns",
-      "category": "national"
-    },
-    {
-      "title": "यी हुन् धादिङमा सवारी सञ्चालनका लागि कायम गरिएका चार अस्थायी रुट",
-      "description": "धादिङ । यही १० भदौको बिहान भोटेकोशीसहित त्रिशूली नदीमा आएको अकल्पनीय बाढीबाट सडक तथा पुलमा क्षति पुगेपछि धादिङ जिल्ला सदरमुकामबाट विभिन्न गन्तव्यतर्फ यातायात सञ्चालन सहज बनाउन चारवटा वैकल्पिक सडकलाई अस्थायी यातायात रुट कायम गरिएको छ । तीमध्ये धादिङबेँशी–सुनौलाबजार–भोर्ले, लस्करे– कोशीखोला–फोर्सेटार–कल्लेरीटार प्रभावकारी रहेको जनाइएको छ । कूल ३६ किलोमिटर सो स",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-01T04:32:13+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/146730/",
-      "category": "national"
-    },
-    {
-      "title": "रसुवा बाढीका पीडित श्रीनाथ गणबाहिर उद्धारको प्रतीक्षामा (तस्बिरहरू)",
-      "description": "काठमाडौँ । भोटेकोशी बाढीका पीडितहरु रसुवाको श्रीनाथ गणबाहिर उद्धारको प्रतीक्षामा बस्ने गरेका छन् । कतिपय आफन्तहरु विभिन्न हाइड्रोको सुरुङमार्गमा फसेको भन्दै उनीहरुले छिटो उद्धारको लागि हारगुहार गर्ने गरेका छन् । सेनाले उद्धार गरेका व्यक्तिहरूलाई यही गणमा ल्याइने",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/2-rasuwa-badhi_rescue-waiting_npl-(5)_wJrNczb4ON.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T04:31:02+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588984/rasuwa-flood-victims-await-rescue-outside-srinath-ganabahir-photos",
-      "category": "national"
-    },
-    {
-      "title": "रसुवाका बाढीपीडितलाई मधेस प्रदेश नेकपाका सांसद र कर्मचारीको १५ दिनको तलब सहयोग",
-      "description": "जनकपुरधाम। रसुवाको भोटेकोशीमा आएको बाढीले निम्त्याएको विनाशबाट प्रभावित परिवारको राहत तथा पुनर्स्थापनाका लागि मधेस प्रदेशको नेपाल कम्युनिस्ट पार्टी (नेकपा) संसदीय दलको कार्यालयले १५ दिन बराबरको तलब सहयोग प्रदान गर्ने भएको छ। संसदीय दलमा आबद्ध प्रदेशसभा सदस्य, स्वकीय",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/yubaraj-bhattarai-696x387_HsgfYc3ZNm.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T04:30:17+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588983/madhes-province-ncp-mps-and-employees-donate-15-days-salary-to-flood-victims-in-rasuwa",
-      "category": "politics"
-    },
-    {
-      "title": "त्रिशूली वारिपारि बिरानो भए बस्ती, चीन सिमानादेखि गल्छीसम्म जोड्ने सेतु छैन",
-      "description": "त्रिशूली नदीमा आएको बाढीले दर्जनौं पुल र सडक बगाएपछि वारिपारिका बस्तीहरूबीचको सम्बन्ध पूर्ण रूपमा टुटेको छ। सञ्चार, बिजुली, खाद्यान्न र स्वास्थ्योपचारजस्ता अत्यावश्यक सेवाबाट वञ्चित हुँदा प्रभावित क्षेत्रका स्थानीय बासिन्दा भन्छन्- ढुंगेयुगमा फर्किएजस्तो भयो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/rasuwa-badhi.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-01T04:22:27+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008261/the-settlement-beyond-the-trishuli-border-is-deserted-there-is-no-bridge-connecting-the-chinese-border-to-galchhi",
-      "category": "national"
-    },
-    {
-      "title": "भोटेकोशी बाढीपछि रसुवामा विद्युत् पुनःस्थापनाको काम तीव्र, दुर्गम बस्तीमा पोर्टेबल सौर्य प्रणाली",
-      "description": "काठमाडौं । भोटेकोशी नदीमा आएको विनाशकारी बाढीबाट विद्युत् पूर्वाधारमा ठुलो क्षति पुगेपछि ऊर्जा, जलस्रोत तथा सिँचाइ मन्त्रालयले रसुवा र नुवाकोटमा विद्युत् सेवा पुनःस्थापना तथा प्रभावित जलविद्युत् आयोजनामा उद्धार कार्यलाई तीव्रता दिएको छ । मन्त्रालयले सार्वजनिक गरेको प्रगति विवरण अनुसार प्रभावित जलविद्युत् आयोजना, विद्युत् संरचना तथा समुदायको उद्धार, राहत, समन",
-      "imageUrl": "",
-      "sourceLogo": "https://www.techpana.com/favicon.ico",
-      "sourceName": "टेकपाना",
-      "publishedTime": "2026-09-01T04:20:16+00:00",
-      "articleUrl": "https://techpana.com/2026/158828/bhote-koshi-flood-rasuwa-electricity-restoration-portable-solar-system",
-      "category": "technology"
-    },
-    {
-      "title": "भोटेकोशी बाढी सम्बन्धमा छलफल गर्न आज सर्वदलीय बैठक बस्दै",
-      "description": "काठमाडौं । भोटेकोशी बाढीबाट भएको क्षति, खोजी तथा उद्धार, राहत र पुनःस्थापनाका विषयमा छलफल गर्न आज सर्वदलीय बैठक बस्दैछ । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा)का प्रवक्ता जगदीश खरेलका अनुसार बैठक आज दिउँसो २ बजे सिंहदरबारस्थित रास्वपा संसदीय दलको कार्यालयमा बस्नेछ । बैठकमा भोटेकोशी बाढीबाट भएको क्षतिको अवस्था, बेपत्ताको खोजी, प्रभावितको उद्धार, राहत वितरण तथा ",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-01T04:19:24+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/146728/",
-      "category": "politics"
-    },
-    {
-      "title": "रुग्ण उद्योगमा राज्यको लगानी : फेरि ‘मत्ता हात्ती’ पाल्ने तयारी नहोस्",
-      "description": "सरकारले उद्योगहरू आफैँ चलाउनुपर्छ भन्ने सोच पुरानो भइसक्यो। कतिपय उद्योगमा सरकारको स्वामित्व कायम राखेर निजी क्षेत्रसँग संयुक्त लगानी वा व्यवस्थापन साझेदारी (Public Private Partnership) गर्न सकिन्छ। यसले सरकारको पूँजी र निजी क्षेत्रको व्यवस्थापन क्षमताको सही संयोजन गराउन सक्छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-09-01T04:19:03+00:00",
-      "articleUrl": "https://nepalpress.com/2026/09/01/758904/state-investment-in-ailing-industries-dont-prepare-to-raise-money-elephants-again/",
       "category": "national"
     }
   ]
