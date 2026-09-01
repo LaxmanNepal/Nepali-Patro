@@ -2,25 +2,25 @@
   "schema": "gold-price-stats/v1",
   "source": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
   "sourceUrl": "https://negosida.org/",
-  "generatedAt": "2026-08-31T23:27:41.091162+05:45",
-  "latestDate": "2026-08-31",
+  "generatedAt": "2026-09-01T07:03:02.918047+05:45",
+  "latestDate": "2026-09-01",
   "windows": {
     "7": {
       "fine_gold_tola": {
         "count": 7,
         "min": 306600.0,
-        "max": 322200,
-        "average": 318185.71,
-        "first": 322200,
+        "max": 322100,
+        "average": 315957.14,
+        "first": 322100,
         "last": 306600.0,
-        "change": -15600.0,
-        "change_percent": -4.84
+        "change": -15500.0,
+        "change_percent": -4.81
       },
       "gold_22k_tola": {
-        "count": 3,
+        "count": 4,
         "min": 280845.0,
         "max": 291745.0,
-        "average": 288111.67,
+        "average": 286295.0,
         "first": 291745.0,
         "last": 280845.0,
         "change": -10900.0,
@@ -30,39 +30,39 @@
         "count": 7,
         "min": 4780.0,
         "max": 4975,
-        "average": 4930.71,
-        "first": 4900,
+        "average": 4913.57,
+        "first": 4975,
         "last": 4780.0,
-        "change": -120.0,
-        "change_percent": -2.45
+        "change": -195.0,
+        "change_percent": -3.92
       }
     },
     "30": {
       "fine_gold_tola": {
-        "count": 9,
+        "count": 10,
         "min": 306600.0,
         "max": 322700,
-        "average": 318522.22,
+        "average": 317330.0,
         "first": 316700,
         "last": 306600.0,
         "change": -10100.0,
         "change_percent": -3.19
       },
       "gold_22k_tola": {
-        "count": 5,
+        "count": 6,
         "min": 280845.0,
         "max": 295595,
-        "average": 290006.0,
+        "average": 288479.17,
         "first": 290100,
         "last": 280845.0,
         "change": -9255.0,
         "change_percent": -3.19
       },
       "silver_tola": {
-        "count": 9,
+        "count": 10,
         "min": 4780.0,
         "max": 4985,
-        "average": 4940.56,
+        "average": 4924.5,
         "first": 4985,
         "last": 4780.0,
         "change": -205.0,
@@ -71,30 +71,30 @@
     },
     "90": {
       "fine_gold_tola": {
-        "count": 9,
+        "count": 10,
         "min": 306600.0,
         "max": 322700,
-        "average": 318522.22,
+        "average": 317330.0,
         "first": 316700,
         "last": 306600.0,
         "change": -10100.0,
         "change_percent": -3.19
       },
       "gold_22k_tola": {
-        "count": 5,
+        "count": 6,
         "min": 280845.0,
         "max": 295595,
-        "average": 290006.0,
+        "average": 288479.17,
         "first": 290100,
         "last": 280845.0,
         "change": -9255.0,
         "change_percent": -3.19
       },
       "silver_tola": {
-        "count": 9,
+        "count": 10,
         "min": 4780.0,
         "max": 4985,
-        "average": 4940.56,
+        "average": 4924.5,
         "first": 4985,
         "last": 4780.0,
         "change": -205.0,
@@ -103,30 +103,30 @@
     },
     "365": {
       "fine_gold_tola": {
-        "count": 9,
+        "count": 10,
         "min": 306600.0,
         "max": 322700,
-        "average": 318522.22,
+        "average": 317330.0,
         "first": 316700,
         "last": 306600.0,
         "change": -10100.0,
         "change_percent": -3.19
       },
       "gold_22k_tola": {
-        "count": 5,
+        "count": 6,
         "min": 280845.0,
         "max": 295595,
-        "average": 290006.0,
+        "average": 288479.17,
         "first": 290100,
         "last": 280845.0,
         "change": -9255.0,
         "change_percent": -3.19
       },
       "silver_tola": {
-        "count": 9,
+        "count": 10,
         "min": 4780.0,
         "max": 4985,
-        "average": 4940.56,
+        "average": 4924.5,
         "first": 4985,
         "last": 4780.0,
         "change": -205.0,
