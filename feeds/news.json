@@ -1,23 +1,349 @@
 {
-  "updatedAt": "2026-09-01T23:22:52.739747+00:00",
-  "lastSuccessfulUpdate": "2026-09-01T23:22:52.739747+00:00",
-  "newestPublishedTime": "2026-09-01T23:19:24+00:00",
+  "updatedAt": "2026-09-02T01:06:58.783892+00:00",
+  "lastSuccessfulUpdate": "2026-09-02T01:06:58.783892+00:00",
+  "newestPublishedTime": "2026-09-02T01:05:20+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 32,
-  "failedFeeds": 2,
+  "successfulFeeds": 33,
+  "failedFeeds": 1,
   "failedFeedDetails": [
     {
       "url": "https://nepalpress.com/feed/",
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
-    },
-    {
-      "url": "https://www.nepalitelecom.com/feed",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "title": "विपद्का बीच सरकारको सन्देश : ‘नेपाल बन्द छैन, भ्रमणका लागि खुला छ’",
+      "description": "काठमाडौं । प्राकृतिक विपद्का कारण केही क्षेत्रमा जनजीवन, व्यवसाय तथा रोजगारी प्रभावित भए पनि नेपालका अधिकांश भूभागमा अवस्था सामान्य रहेको संस्कृति, पर्यटन तथा नागरिक उड्डयन मन्त्रालयले जनाएको छ। मन्त्रालयले विश्व समुदाय तथा अन्तर्राष्ट्रिय पर्यटन क्षेत्रलाई नेपाल भ्रमणका लागि खुला रहेको सन्देश दिएको छ। मन्त्रालयका अनुसार अधिकांश स्थानमा जनजीवन नियमित बन्दै ग",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-02T01:05:20+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/02/%e0%a4%b5%e0%a4%bf%e0%a4%aa%e0%a4%a6%e0%a5%8d%e0%a4%95%e0%a4%be-%e0%a4%ac%e0%a5%80%e0%a4%9a-%e0%a4%b8%e0%a4%b0%e0%a4%95%e0%a4%be%e0%a4%b0%e0%a4%95%e0%a5%8b-%e0%a4%b8%e0%a4%a8%e0%a5%8d%e0%a4%a6/",
+      "category": "business"
+    },
+    {
+      "title": "कोरलातर्फ भने कारोबार बढ्दै",
+      "description": "हरिकृष्ण शर्मा मुक्तिनाथ (मुस्ताङ), भदौ १७ गते । भोटेकोशी नदीमा आएको बाढीका कारण रसुवाको टिमुरेस्थित भन्सार कार्यालय बगाएपछि रसुवागढीबाट हुने आयात मुस्ताङको लिजी–नेचुङ (कोरला) नाका...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379810/conversions/211-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-02T01:04:33+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220895",
+      "category": "national"
+    },
+    {
+      "title": "सङ्खुवासभाका क्रोनिक सडक निर्माणमा ढिलाइ",
+      "description": "विराटनगर । सङ्खुवासभा जिल्लामा सञ्चालित दुई ठूला बहुवर्षे सडक आयोजनाहरू वर्षौँदेखि अलपत्र परेपछि कोशी प्रदेशको भौतिक पूर्वाधार विकास मन्त्रालयले निर्माण कम्पनीलाई अन्तिम चेतावनी दिएको छ । निर्माण व्यवसायीले पटक–पटक म्याद थप्दा पनि काम सम्पन्न नगरेपछि भौतिक",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/2_21J796jhlP.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-02T01:02:44+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589212/delays-in-construction-of-chronic-roads-in-sankhuwasabha",
+      "category": "national"
+    },
+    {
+      "title": "हिमबाढीमा मकवानपुरका ४५ जनाको उद्धार, ६४ सम्पर्कविहीन",
+      "description": "अनिल पराजुलीहेटौँडा, भदौ १७ गते । रसुवाको भोटेकोशी क्षेत्रमा आएको विनाशकारी हिमबाढीमा परेका मकवानपुरका ४५ जनाको उद्धार गरिएको छ। जिल्ला प्रशासन कार्यालय मकवानपुरका प्रमुख जिल्ला अध...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379808/conversions/RN_Trishulib`-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-02T01:01:20+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220894",
+      "category": "national"
+    },
+    {
+      "title": "अन्योलमा चीनतर्फको व्यापार",
+      "description": "काठमाडौँ, भदौ १७ गते । एकातिर बाढीले चीनसँगको मुख्य व्यापारिक नाका रसुवागढी पूर्ण क्षतिग्रस्त बनेको र अर्कोतिर चीनले तातोपानीस्थित आफ्नातर्फको भन्सार नाका बन्द गरेपछि चीनसँगको व्या...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379806/conversions/2322-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-02T01:00:04+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220893",
+      "category": "national"
+    },
+    {
+      "title": "‘स्थलगत अध्ययन नगरी पञ्चकुण्ड हिमताललाई जोखिमयुक्त भन्न मिल्दैन’",
+      "description": "म्याग्दी । म्याग्दीका उद्धारकर्मी इन्द्रसिंह शेरचनले विसं २०६० मा पहिलोपटक अन्नपूर्ण आधार शिविर पुग्दा ससाना पाँच ताल प्रष्ट देखे । म्याग्दीको अन्नपूर्ण गाउँपालिका–४ मा समुद्री सतहदेखि चार हजार ५० मिटर उचाइमा रहेको पञ्चकुण्ड ताल पछिल्लो समय",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ms1rxq8kep.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-02T00:58:46+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589211/panchakunda-glacier-cannot-be-called-risky-without-on-site-studies",
+      "category": "national"
+    },
+    {
+      "title": "ताप्लेजुङ गोल्डकपः फाइनल पुग्न फिदिम र झापा ११ खेल्दै",
+      "description": "चन्द्र पन्दाकताप्लेजुङ, भदौ १७ गते । ताप्लेजुङमा जारी अन्तर्राष्ट्रिय आमन्त्रण चौथो ताप्लेजुङ गोल्डकप फुटबल प्रतियोगितामा बुधबार दोस्रो सेमिफाइनल खेल हुने भएको छ । प्रतियोगिताको फा...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379805/conversions/Jhapa-11-Toli-Taplejung-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-02T00:57:03+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220892",
+      "category": "national"
+    },
+    {
+      "title": "बाँकेमा बाढी पीडितका लागि सहयोग जुट्दै",
+      "description": "बाँके । रसुवाको भोटेकोशीमा आएको आकस्मिक बाढीबाट प्रभावित नागरिकको उद्धार तथा राहतका लागि नेपालगन्ज उद्योग वाणिज्य सङ्घले पाँच लाख ६० हजार रुपैयाँ सहयोग गर्ने निर्णय गरेको छ । सङ्घका नवनिर्वाचित अध्यक्ष चिरन्जीवी ओलीले रसुवा र नुवाकोटका बाढीपीडितका लागि सङ्घका नवनिर्वाचित पदाधिकारी र कर्मचारीहरूबाट रु पाँच लाख ६० हजार सङ्कलन गरिएको जानकारी दिए । उनले बाढीपीडि",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-09-02T00:55:54+00:00",
+      "articleUrl": "https://clickmandu.com/2026/09/487877.html",
+      "category": "business"
+    },
+    {
+      "title": "आज दुई संसदीय समितिको बैठक बस्दै",
+      "description": "१७ भदौ, काठमाडौं । संघीय संसद् मातहतका दुई वटा संसदीय समितिको बैठक आज बस्दैछ छ । संसद्‍ सचिवालयका अनुसार अन्तर्राष्ट्रिय सम्बन्ध र पर्यटन समिति र विधायन व्यवस्थापन समितिको बैठक बस्ने भएको हो । बुधबार बिहान साढे ९ बजे बस्ने अन्तर्राष्ट्रिय सम्बन्ध र पर्यटन समितिको बैठकमा ‘रसुवा बाढी पहिरोका कारण पर्यटन क्षेत्रमा परेका प्रभाव’का बारेमा छलफल गर्ने […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/09/sanghiya-samsad-sachibalaya.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-02T00:54:15+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008928/two-parliamentary-committees-are-meeting-today-2",
+      "category": "politics"
+    },
+    {
+      "title": "बगैँचामा स्याउ लटरम्म, किसानलाई बजारको चिन्ता",
+      "description": "१७ भदौ, चैनपुर (बझाङ) । रोल परी सोह्र घर छ्या, त्यई परी घर छैन आलु राख्न्या छानु छियो, स्याउ राख्न्या ठौर छैन… बगैँचामा लटरम्म फलेको स्याउ देखाउँदै गीत सुनाउँदा भरूनी थापाको अनुहारमा पीडा झल्किन्थ्यो । १६ वर्षको मेहेनत बगैँचामा फल बनेर झुल्दा पनि बेचैन छ उनको मन । रूखका हाँगा स्याउले झुकेका छन् । हाँगामा […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/apple-garden-scaled.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-02T00:52:24+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008924/apples-are-in-abundance-in-the-orchard-farmers-are-worried-about-the-market",
+      "category": "national"
+    },
+    {
+      "title": "रसुवा बाढीमा मृत्यु भएकाको सम्झनामा दीप प्रज्वलन",
+      "description": "वसन्त पराजुली नारायणगढ, भदौ १७ गते । रसुवा बाढीमा परी मृत्यु भएका व्यक्तिको सम्मानमा चितवनमा सामूहिक प्रार्थनासहित दीप प्रज्वलन गरी श्रद्धाञ्जली अर्पण गरिएको छ।चितवनमा शव व्यवस्थाप...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379804/conversions/d86d2982-e443-427b-921d-92a68ea8dc18-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-02T00:52:20+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220891",
+      "category": "national"
+    },
+    {
+      "title": "प्रतिनिधिसभाको बैठक बस्दै, के छ कार्यसूची?",
+      "description": "प्रतिनिधिसभाको बैठक आज बस्दैछ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-02T00:50:51+00:00",
+      "articleUrl": "https://www.setopati.com/social/397417",
+      "category": "politics"
+    },
+    {
+      "title": "इन्धनको मूल्य नबढाउने आयल निगमको निर्णय",
+      "description": "काठमाडौं । नेपाल आयल निगमले इन्डियन आयल कर्पोरेसन (आईओसी) बाट पेट्रोलियम पदार्थको खरिद मूल्य बढेर आए पनि उपभोक्ताका लागि इन्धनको खुद्रा बिक्री मूल्य यथावत् राख्ने निर्णय गरेको छ। भोटेकोसी नदीमा आएको असाधारण बाढी तथा त्यसबाट सिर्जित विषम परिस्थितिलाई ध्यानमा राख्दै निगम सञ्चालक समितिले हाल कायम रहेको मूल्यलाई निरन्तरता दिने निर्णय गरेको हो। आईओसीले भदौ १५ गते",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-02T00:49:54+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/02/%e0%a4%87%e0%a4%a8%e0%a5%8d%e0%a4%a7%e0%a4%a8%e0%a4%95%e0%a5%8b-%e0%a4%ae%e0%a5%82%e0%a4%b2%e0%a5%8d%e0%a4%af-%e0%a4%a8%e0%a4%ac%e0%a4%a2%e0%a4%be%e0%a4%89%e0%a4%a8%e0%a5%87-%e0%a4%86%e0%a4%af/",
+      "category": "business"
+    },
+    {
+      "title": "सुनकोशी र बुढीगण्डकीमा सतर्कता तह पार, तल्लो तटीय क्षेत्रमा सतर्क रहन आग्रह",
+      "description": "सिन्धुलीको खुर्कोटस्थित सुनकोशी नदी र गोरखाको आरुघाटस्थित बुढीगण्डकी नदीमा जलसतहले सतर्कता तह पार गरेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-02T00:48:00+00:00",
+      "articleUrl": "https://nepallive.com/story/349615",
+      "category": "national"
+    },
+    {
+      "title": "प्रतिनिधिसभाको बैठक बस्दै, सभामुखले भोटेकोशी बाढीबारे विशेष प्रस्ताव प्रस्तुत गर्ने",
+      "description": "१७ भदौ, काठमाडौं । प्रतिनिधिसभाको बैठक आज बस्दै छ । बैठक बुधबार दिउँसो १ बजेका लागि डाकिएको छ । सिंहदरबारमा बस्ने बैठकमा सभामुख डोलप्रसाद अर्यालले भोटेकोशी बाढी र त्यसले निम्त्याएको क्षतिका सम्बन्धमा ‘विशेष प्रस्ताव प्रस्तुत’ गर्ने सम्भावित कार्यसूची छ । बैठकमा सभामुख अर्यालले भोटेकोशी बाढीका कारण भएको जनधनको क्षतिप्रति गहिरो दुःख प्रकट गर्नेछन् । विशेष […]",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-02T00:47:41+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008925/house-of-representatives-meeting-underway-speaker-to-present-special-resolution-on-bhotekoshi-flood",
+      "category": "politics"
+    },
+    {
+      "title": "प्रतिनिधिसभाको बैठक बस्दै, सभामुखले विशेष प्रस्ताव प्रस्तुत गर्ने",
+      "description": "काठमाडौं । सङ्घीय संसद्, प्रतिनिधिसभाको बैठक आज अपराह्न १ बजे बस्दैछ । सिंहदरबारमा बस्ने बैठकमा सभामुख डोलप्रसाद अर्यालले भोटेकोशी बाढी र त्यसले निम्त्याएको क्षतिका सम्बन्धमा ‘विशेष प्रस्ताव प्रस्तुत’ गर्ने सम्भावित कार्यसूची छ । बैठकमा सभामुख अर्यालले भोटेकोशी बाढीका कारण भएको जनधनको क्षतिप्रति गहिरो दुःख प्रकट गर्नेछन् । ‘प्रतिनिधिसभाको यो बैठक, मिति २०८३ ",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-09-02T00:45:30+00:00",
+      "articleUrl": "https://clickmandu.com/2026/09/487875.html",
+      "category": "business"
+    },
+    {
+      "title": "मधेस सरकारले बाढी प्रभावित क्षेत्रमा १ करोड ९६ लाख बराबरको राहत सामग्री सहयोग गर्ने",
+      "description": "जनकपुरधाम । मधेस प्रदेश सरकार मन्त्रिपरिषद्ले रसुवाको भोटेकोशी र त्रिशूलीमा आएको बाढीबाट प्रभावितहरूका लागि १ करोड ९६ लाख रुपैयाँ बराबरको आवश्यकता अनुसार टेन्ट र कम्बल वितरण गर्ने निर्णय गरेको छ । त्यस्तै, मधेस प्रदेशका नागरिक",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/mantri-parisad-madhes1_fu13kCZKya.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-02T00:43:52+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589210/madhesh-government-to-provide-relief-materials-worth-rs-196-million-to-flood-affected-areas",
+      "category": "politics"
+    },
+    {
+      "title": "रसुवा बाढीको प्रभावबारे पर्यटन समितिमा छलफल",
+      "description": "काठमाडौँ, भदौ १७ गते । अन्तर्राष्ट्रिय सम्बन्ध र पर्यटन समिति र विधायन व्यवस्थापन समितिको बैठक बुधबार बस्दैछ । बिहान ९ः३० बजे बस्ने अन्तर्राष्ट्रिय सम्बन्ध र पर्यटन समितिको बैठकमा...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379803/conversions/1-739187656_957960390620329_183487081138976806_n_szMDJlvKaR-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-02T00:42:30+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220890",
+      "category": "national"
+    },
+    {
+      "title": "‘अन्याय भयो, न्याय खोजौँ’",
+      "description": "काठमाडौँ, भदौ १७ गते । राष्ट्रिय सभाका सदस्यले अरूको कारणले सृजित सङ्कटबाट पीडित नेपालले अन्यायपूर्ण व्यवहार कहिलेसम्म सहेर बस्ने प्रश्न गरेका छन् । सभाका सदस्यले जलवायु परिवर्तनको...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379801/conversions/RS_KTMIMG_20260901_133011-(1)-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-02T00:40:49+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220889",
+      "category": "national"
+    },
+    {
+      "title": "आज यस्तो छ विदेशी मुद्राको विनिमयदर",
+      "description": "नेपाल राष्ट्र बैंकले बुधबारका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ। राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५१ रुपैयाँ ६३ पैसा र बिक्रीदर १५२ रुपैयाँ २३ पैसा निर्धारण गरिएको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-02T00:39:13+00:00",
+      "articleUrl": "https://nepallive.com/story/349614",
+      "category": "national"
+    },
+    {
+      "title": "प्रतिनिधिसभाको बैठक बस्दै",
+      "description": "काठमाडौँ, भदौ १७ गते । सङ्घीय संसद्, प्रतिनिधिसभाको बैठक बुधबार अपराह्न १ बजे बस्दैछ । सिंहदरबारमा बस्ने बैठकमा सभामुख डोलप्रसाद अर्यालले भोटेकोशी बाढी र त्यसले निम्त्याएको क्षतिका...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379800/conversions/images-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-02T00:38:11+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220888",
+      "category": "politics"
+    },
+    {
+      "title": "सिसिटिभीबाट बाढीको निगरानी",
+      "description": "काठमाडौँ, भदौ १७ गते । भोटेकोशीमा आएको हिमबाढीपछि त्यस क्षेत्रको बाढी तथा नदीजन्य जलमापनको निगरानी अब सिसिटिभी क्यामरामार्फत हुने भएको छ । हिमबाढीले उक्त क्षेत्रको जलमापन केन्द्र ब...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379799/conversions/2332-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-02T00:36:58+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220887",
+      "category": "national"
+    },
+    {
+      "title": "खाली पेटमा कागती पानी खानुहुन्छ ? शरीरलाई हुन सक्छ यस्ता हानी",
+      "description": "काठमाडौँ । बिहान उठ्ने बित्तिकै केही मान्छे तात्तातो चिया खान मन पराउँछन् । केहीले भने आफ्नो दिनको शुरुआत कागती पानीको साथमा गर्छन् । नियमित रूपमा खाली पेटमा कागती पानी पिउँदा शरीरको तौल कम हुने उनीहरूको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/leman-water_BMxdBEnpUE.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-02T00:36:57+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589209/drinking-lemon-water-on-an-empty-stomach-can-cause-these-harms-to-the-body",
+      "category": "national"
+    },
+    {
+      "title": "मर्स्याङ्दी नदीमा पानीको सतह खतरा तहभन्दा माथि, सतर्क रहन आग्रह",
+      "description": "लमजुङस्थित मर्स्याङ्दी नदीको भकुण्डेबेँसी जलमापन केन्द्रमा जलसतह खतरा तह पार गरेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-02T00:34:37+00:00",
+      "articleUrl": "https://nepallive.com/story/349613",
+      "category": "national"
+    },
+    {
+      "title": "चार बुँदे सहमति पश्चात हरवा–चरवाको धर्ना स्थगित",
+      "description": "–सुभाष कायस्थ जनकपुरधाम । गत एक सातादेखि जारी हरवा–चरवाहरुको धर्ना मधेश प्रदेश सरकारसँगको चार बुँदे सहमति पश्चात स्थगित भएको छ । लगत संकलन प्रमाणीकरण र परिचयपत्र वितरण तथा भूमिहीन हरवा–चरवा परिवारको पहिचान गरी दिगो पुनःस्थापना सुनिश्चित गर्ने स्पष्ट कार्ययोजना तत्काल स्वीकृत गरी कार्यान्वयनसहितका दुई बुँदे माग अघि सार्दै हरवा–चरवा आन्दोलन संघर्ष समितिले सात ",
+      "imageUrl": "",
+      "sourceLogo": "https://dainiknepal.com/favicon.ico",
+      "sourceName": "दैनिक नेपाल",
+      "publishedTime": "2026-09-02T00:34:33+00:00",
+      "articleUrl": "https://www.dainiknepal.com/2026/09/836329.html",
+      "category": "national"
+    },
+    {
+      "title": "आजका लागि तोकियो विदेशी मुद्राको विनिमयदर",
+      "description": "काठमाडौँ, भदौ १७ गते । नेपाल राष्ट्र बैङ्कले बुधबारका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैङ्कका अनुसार अमेरिकी डलर एकको खरिददर १५१ रुपियाँ ६३ पैसा र बिक्रीदर...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/379798/conversions/money-exchange-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-02T00:34:26+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/220886",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढीः काभ्रेबाट एक करोड १० लाख सहयोग",
+      "description": "काभ्रे। प्राकृतिक विपद् व्यहोरेका काभ्रेपलाञ्चोकका सात वटा स्थानीय तहले भोटेकोशी नदीमा आएको बाढीबाट प्रभावित नागरिकको उद्धार, राहत तथा पुनःस्थापनाका लागि आर्थिक सहयोग गर्ने निर्णय गरेका छन्। जिल्लाका विभिन्न वडा तथा सामाजिक, सहकारी तथा निजी संस्थाले बाढी प्रभावितका लागि राहत रकम उपलब्ध गराउने घोषणा गरेका छन्। धुलिखेल नगरपालिकाले बाढी प्रभावितको उद्धार तथा रा",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-02T00:34:07+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/02/%e0%a4%ad%e0%a5%8b%e0%a4%9f%e0%a5%87%e0%a4%95%e0%a5%8b%e0%a4%b6%e0%a5%80-%e0%a4%ac%e0%a4%be%e0%a4%a2%e0%a5%80%e0%a4%83-%e0%a4%95%e0%a4%be%e0%a4%ad%e0%a5%8d%e0%a4%b0%e0%a5%87%e0%a4%ac%e0%a4%be%e0%a4%9f/",
+      "category": "business"
+    },
+    {
+      "title": "रसुवा बाढीः पोखरामा २१ शवको सनाखत",
+      "description": "कास्की । रसुवा भोटेकोशी बाढीपछि उद्धार तथा खोजतलासका क्रममा भेटिएका र परीक्षण तथा व्यवस्थापनका लागि पोखरा ल्याइएका १०२ शवमध्ये मङ्गलबार २१ शवको सनाखत गरी परिवारलाई बुझाइएको छ । पहिचान हुन नसकेका ७६ शवलाई पोखरा–१६ माथिल्लो दीपस्थित सिसौघारीमा सुरक्षित रूपमा व्यवस्थापन गरिएको जिल्ला प्रशासन कार्यालयका सहायक प्रमुख जिल्ला अधिकारी चित्राङ्गत बरालले जानकारी दिए ।",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-09-02T00:33:52+00:00",
+      "articleUrl": "https://clickmandu.com/2026/09/487873.html",
+      "category": "business"
+    },
+    {
+      "title": "यस्तो छ आज विदेशी मुद्राको भाउ",
+      "description": "१७ भदौ, काठमाडौं । नेपाल राष्ट्र बैङ्कले आजका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैङ्कका अनुसार अमेरिकी डलर एकको खरिददर १५१ रुपैयाँ ६३ पैसा र बिक्रीदर १५२ रुपैयाँ २३ पैसा निर्धारण गरिएको छ । युरोपियन युरो एकको खरिददर १७५ रुपैयाँ ७८ पैसा र बिक्रीदर १७६ रुपैयाँ ४८ पैसा, युके पाउन्ड स्ट्रलिङ एकको […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2023/05/RMB-and-Dollar.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-02T00:33:33+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008922/this-is-the-foreign-exchange-rate-today-80",
+      "category": "national"
+    },
+    {
+      "title": "घोषणामा नै सीमित लमजुङको ‘स्मार्ट फिल्म सिटी’ सपना",
+      "description": "लमजुङ। लमजुङलाई अन्तरराष्ट्रियस्तरको चलचित्र छायाङ्कन केन्द्रका रूपमा विकास गर्ने उद्देश्यसहित सात वर्षअघि अघि सारिएको ‘स्मार्ट फिल्म सिटी’ निर्माण योजना अझै कार्यान्वयन हुन सकेको छैन । ठूलो लगानीको महत्वाकाङ्क्षी योजना सार्वजनिक हुँदा लमजुङलाई नेपालको चलचित्र हबका रूपमा विकास गर्ने, पर्यटन प्रवद्र्धन गर्ने, रोजगारी सिर्जना गर्ने तथा स्थानीय अर्थतन्त्रमा टेव",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-02T00:33:00+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/02/%e0%a4%98%e0%a5%8b%e0%a4%b7%e0%a4%a3%e0%a4%be%e0%a4%ae%e0%a4%be-%e0%a4%a8%e0%a5%88-%e0%a4%b8%e0%a5%80%e0%a4%ae%e0%a4%bf%e0%a4%a4-%e0%a4%b2%e0%a4%ae%e0%a4%9c%e0%a5%81%e0%a4%99%e0%a4%95%e0%a5%8b/",
+      "category": "business"
+    },
+    {
+      "title": "आजको विनिमयदर : अमेरिकी डलरको बिक्रीदर १५२ रुपैयाँ २३ पैसा हुँदा अरु देशको मुद्राको कति ?",
+      "description": "काठमाडौं । नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५१ रुपैयाँ ६३ पैसा र बिक्रीदर १५२ रुपैयाँ २३ पैसा निर्धारण गरिएको छ । युरोपियन युरो एकको खरिददर १७५ रुपैयाँ ७८ पैसा र बिक्रीदर १७६ रुपैयाँ ४८ पैसा, युके पाउन्ड स्ट्रलिङ एकको खरिददर २०५ […] The post आजको विनिमयदर : अमेरिकी डलरको",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-02T00:25:13+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/146779/",
+      "category": "national"
+    },
+    {
+      "title": "एरिजोनामा देखेको सपना, पूरा गर्दैछन् लोमान्थाङको ४७०० मिटर उचाइमा",
+      "description": "उनी अमेरिकाको एरिजोना पुगेका थिए। चिसो मौसम छल्न त्यहाँ पुगेका अमेरिकी वृद्धवृद्धाहरू तीन–चार महिना त्यहीँ बिताउँथे।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-02T00:10:56+00:00",
+      "articleUrl": "https://www.setopati.com/kinmel/tourism/397385",
+      "category": "national"
+    },
+    {
+      "title": "प्रतिनिधिसभाको बैठक बस्दै, यस्तो छ सम्भावित कार्यसूची",
+      "description": "काठमाडौँ । सङ्घीय संसद्, प्रतिनिधिसभाको बैठक आज अपराह्न १ः०० बजे बस्दै छ । सिंहदरबारमा बस्ने आजको बैठकमा सभामुख डोलप्रसाद अर्यालले भोटेकोशी बाढी र त्यसले पुर्‍याएको क्षतिका सम्बन्धमा ‘विशेष प्रस्ताव’ प्रस्तुत गर्ने सम्भावित कार्यसूची रहेको छ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dp-aryal_vAgRU0pzlY.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-01T23:27:18+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589205/house-of-representatives-meeting-underway-here-is-the-possible-agenda",
+      "category": "politics"
+    },
     {
       "title": "फोहर बेचेर व्यासले कमायो २७ लाख",
       "description": "तनहुँ । तनहुँको व्यास नगरपालिकाले फोहरजन्य वस्तु बिक्री गरेर एक वर्षमा रु २७ लाख आम्दानी गरेको छ । नगरपालिकाले आर्थिक वर्ष २०८२/८३ मा पुनः प्रयोगयोग्य बनाइएका फोहर बिक्री गरी उक्त आम्दानी गरेको हो । नगरपालिकाका प्रमुख",
@@ -116,16 +442,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-09-01T21:25:56+00:00",
       "articleUrl": "https://www.ratopati.com/story/589195/411-million-assistance-for-bhotekoshi-flood-victims",
-      "category": "national"
-    },
-    {
-      "title": "भोटेकोशी बाढी: काभ्रेबाट एक करोड १० लाख सहयोग",
-      "description": "काभ्रे । प्राकृतिक विपद् व्यहोरेका काभ्रेपलान्चोकका सात वटा स्थानीय तहले भोटेकोशी नदीमा आएको बाढीबाट प्रभावित नागरिकको उद्धार, राहत तथा पुनः स्थापनाका लागि आर्थिक सहयोग गर्ने निर्णय गरेका छन् । जिल्लाका विभिन्न वडा तथा सामाजिक, सहकारी तथा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/kavrepalanchok_wpemnfgzgo_sznxzhia8z_G9XRzkVeqL.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T21:22:57+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589194/bhotekoshi-flood-rs-11-million-assistance-from-kavre",
       "category": "national"
     },
     {
@@ -445,7 +761,7 @@
       "sourceLogo": "https://nepalnews.com/favicon.ico",
       "sourceName": "नेपालन्युज",
       "publishedTime": "2026-09-01T16:29:21+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/01/flood-victims-have-inadequate-access-to-food-water-and-health-services/",
+      "articleUrl": "https://nepalnews.com/2026/09/01/%e0%a4%ac%e0%a4%be%e0%a4%a2%e0%a5%80-%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%ad%e0%a4%be%e0%a4%b5%e0%a4%bf%e0%a4%a4%e0%a4%b2%e0%a4%be%e0%a4%88-%e0%a4%96%e0%a4%be%e0%a4%a8%e0%a4%be-%e0%a4%aa%e0%a4%be/",
       "category": "business"
     },
     {
@@ -2096,7 +2412,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-01T11:56:57+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2008687/highest-insurance-claims-ever-for-flood-damage-20-billion-in-engineering-contract-insurance-alone",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "किन प्रदेशसभा बैठकमा पलेंटी कसेर बसे कर्णालीका पूर्वमुख्यमन्त्री शर्मा ?",
@@ -2136,7 +2452,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-01T11:51:18+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2008678/2-1-million-collected-from-rajesh-hamals-meet-and-greet-donated-to-the-prime-ministers-fund",
-      "category": "politics"
+      "category": "entertainment"
     },
     {
       "title": "पिकलबलमा सुवर्णलाई दोहोरो उपाधि",
@@ -4697,326 +5013,6 @@
       "publishedTime": "2026-09-01T05:29:32+00:00",
       "articleUrl": "https://nepalsamaya.com/detail/145062",
       "category": "politics"
-    },
-    {
-      "title": "सुनको मूल्य तोलामा पाँच सय रुपैयाँले घट्यो",
-      "description": "काठमाडौं । नेपाली बजारमा सुनको मूल्य आज तोलामा पाँच सय रुपैयाँले घटेको छ। नेपाल सुनचाँदी व्यवसायी महासंघका अनुसार सोमबार प्रतितोला ३ लाख ६ हजार ६ सय रुपैयाँमा कारोबार भएको छापावाल सुनको मूल्य मंगलबार घटेर ३",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/gold-(4)_ufmo8stvl7_xyceyxrbf6_CvCBw1rk0X.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T05:28:11+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588995/gold-price-drops-by-rs-500-per-tola",
-      "category": "national"
-    },
-    {
-      "title": "बाढीमा ज्यान गुमाएका भारतीय नागरिकको शव पहिचानका लागि अपनाउनुपर्ने प्रक्रिया सार्वजनिक",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-09-01T05:27:31+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/145061",
-      "category": "national"
-    },
-    {
-      "title": "इतिहासको साक्षी भूगोलपार्क",
-      "description": "न्युरोड सहरलाई काठमाडौँ उपत्यकाको केन्द्र मानिन्छ । किनकि नेपालमा आधुनिक तथा सुविधासम्पन्न सहरको विकास विस्तार यही स्थानबाट भएको विश्वास गरिन्छ । ऐतिहासिक एवं पुरातात्त्विक दरबार ह...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/379638/conversions/Asar-Muna-2083-Inner-page-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-01T05:27:23+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/220789",
-      "category": "national"
-    },
-    {
-      "title": "बाढी प्रभावितलाई लोमस फर्मास्युटिकल्सको ८८ लाख बराबरको औषधि तथा राहत सामाग्री सहयोग",
-      "description": "उनका अनुसार आइतबार तेस्रो खेपअन्तर्गत सर्जिकल किट तथा शव व्यवस्थापनका लागि अत्यावश्यक ब्यागहरू सहयोगस्वरूप उपलब्ध गराइएको हो। यसअघि कम्पनीले तीन चरणमा गरी सशस्त्र प्रहरी बललाई मात्रै ५० लाख रुपैयाँ बराबरको औषधि हस्तान्तरण गरिसकेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-09-01T05:27:10+00:00",
-      "articleUrl": "https://nepalpress.com/2026/09/01/759189/lomas-pharmaceuticals-provides-medicines-and-relief-materials-worth-rs-8-8-million-to-flood-victims/",
-      "category": "national"
-    },
-    {
-      "title": "कर्णाली प्रदेश सरकारले प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा दुई करोड रुपैयाँ जम्मा गर्ने",
-      "description": "सुर्खेत । कर्णाली प्रदेश सरकारले प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा दुई करोड रुपैयाँ जम्मा गर्ने निर्णय गरेको छ । रसुवाको भोटेकोशीमा आएको बाढीपछि प्रभावित क्षेत्रमा राहत, उद्धार, पुनर्स्थापना तथा क्षतिग्रस्त संरचनाको पुनर्निर्माण एवं विपत् व्यवस्थापनका लागि",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/karnali-cabinet_j4bU2Oho41.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T05:27:08+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588994/karnali-provincial-government-to-deposit-rs-20-million-in-prime-ministers-disaster-relief-fund",
-      "category": "politics"
-    },
-    {
-      "title": "गुप्तचर प्रधानमन्त्री मातहत राख्ने सरकारको प्रस्तावमा एमालेको समर्थन",
-      "description": "१५ भदौ, काठमाडौं । राष्ट्रिय अनुसन्धान विभाग (राअवि)लाई प्रधानमन्त्री तथा मन्त्रिपरिषद्को कार्यालय अन्तर्गत राख्ने सरकारको प्रस्तावमा नेकपा एमालेले समर्थन जनाएको छ । यस सम्बन्धी ‘नेपाल विशेष सेवा ऐन २०४२ को साविकको व्यवस्था जगाउनेसम्बन्धी विधेयक’ राष्ट्रिय सभामा विचाराधीन छ । उक्त विधेयकको दफा ४(१)मा ‘सेवासम्बन्धी कार्य सञ्चालन गर्न प्रधानमन्त्री तथा मन्त्रि",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/National-Inteliganece-raabi.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-01T05:26:26+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008313/uml-supports-governments-proposal-to-place-intelligence-under-the-prime-minister",
-      "category": "politics"
-    },
-    {
-      "title": "सुन र चाँदीको मूल्य घट्यो, तोलाको कति ?",
-      "description": "काठमाडौं । साताको कारोबारको तेस्रो दिन मंगलबार सुनको मूल्य घटेको छ । कारोबारको अघिल्लो दिनको तुलनामा आज सुनको मूल्य प्रतितोला ५ सय रुपैयाँले घटेको हो । कारोबारको अघिल्लो दिन प्रतितोला ३ लाख ६ हजार ६ सय रुपैयाँमा कारोबार भईरहेको छापावाला सुन, आज ५ सय रुपैयाँले घटेर ३ लाख ६ हजार १ सय रुपैयाँमा कारोबार भईरहेको Continue reading \"सुन र चाँदीको मूल्य घट्यो, तोलाको",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-01T05:23:25+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/the-price-of-gold-and-silver-has-fallen-7.html",
-      "category": "business"
-    },
-    {
-      "title": "प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा नागरिक लगानी कोषको एक करोड एक लाख सहयोग",
-      "description": "रसुवाको भोटेकोशी तथा त्रिशूली नदीमा आएको विनाशकारी बाढी तथा प्राकृतिक विपद्का कारण मानवीय तथा भौतिक क्षेत्रमा ठूलो क्षति पुगेको दुःखद परिस्थितिमा सरकारको राहत, उद्धार तथा पुनः स्थापना कार्यमा सहयोग पुर्‍याउने उद्देश्यले कोषले उक्त रकम जम्मा गरेको बताइएको छ ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-09-01T05:23:19+00:00",
-      "articleUrl": "https://nepalpress.com/2026/09/01/759186/citizens-investment-fund-contributes-rs-10-million-to-prime-ministers-disaster-relief-fund/",
-      "category": "politics"
-    },
-    {
-      "title": "सुनचाँदीको मूल्य घट्यो, कतिमा हुँदैछ कारोबार ?",
-      "description": "काठमाडौँ। स्थानीय बजारमा आज सुनचाँदीको मूल्य घटेको छ। नेपाल सुनचाँदी व्यवसायी महासंघका अनुसार आज सुनको मूल्य प्रतितोलामा ५०० रुपैयाँले घटेर ३ लाख ६ हजार १०० रुपैयाँमा कारोबार भइरहेको छ।अघिल्लो दिन सुनको मूल्य प्रतितोला ३ लाख ६ हजार ६०० रुपैयाँमा कारोबार भएको थियो। त्यस्तै, चाँदीको मूल्य पनि आज घटेको छ। महासंघका अनुसार आज चाँदीको मूल्य प्रतितोलामा […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-01T05:21:40+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/01/the-price-of-gold-and-silver-has-dropped-at-what-price-is-it-being-traded/",
-      "category": "business"
-    },
-    {
-      "title": "बाबाले सोध्लान् नि खै छोरा भन्लान् रण जित्दै छ भन्दिए...",
-      "description": "नौ वर्षको उमेरदेखि नै उनले जीविकोपार्जनका लागि लोकलयमा गीत गाउन थाले । केटाकेटी उमेरमा नै उनले आफ्नै बाबुबाट वाद्यवादन र नाचगानको सिप प्राप्त गर्दै सडक गायकका रूपमा आफूलाई उभ्याए ।...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/379639/conversions/kamal-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-01T05:19:30+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/220787",
-      "category": "national"
-    },
-    {
-      "title": "विपत्तिको चपेटामा बैंकिङ क्षेत्र : ५५ करोडको सम्पत्ति नष्ट, १८ करोड नगद बेपत्ता",
-      "description": "बैंकिङ खबर / नुवाकोट र रसुवामा आएको प्राकृतिक विपत्तिले मानवीय तथा भौतिक संरचनासँगै बैंकिङ क्षेत्रलाई समेत गम्भीर क्षति पुर्‍याएको छ । यी दुई जिल्लामा सञ्चालित विभिन्न बैंकका १७ वटा शाखा तथा काउन्टरमा पुगेको क्षतिको पछिल्लो विवरणले बैंकिङ पूर्वाधारदेखि कर्मचारी, नगद, निक्षेप र कर्जा कारोबारसम्म प्रभावित भएको देखाएको छ । प्राप्त विवरणअनुसार नुवाकोट र रसुवाका ",
-      "imageUrl": "",
-      "sourceLogo": "https://bankingkhabar.com/favicon.ico",
-      "sourceName": "बैंकिङ खबर",
-      "publishedTime": "2026-09-01T05:17:48+00:00",
-      "articleUrl": "https://bankingkhabar.com/archives/167703",
-      "category": "business"
-    },
-    {
-      "title": "हर्कले बैठकमा नबोलाएपछि आन्तरिक रणनीति बनाउन सुदन समूह छुट्टै छलफलमा",
-      "description": "काठमाडौं । श्रम संस्कृति पार्टीसँग पूर्वमाओवादी नेता सुदन किरातीले गरेको एकता चार महिनामै संकटमा परेको छ । आजबाट सुरू भएको श्रम संस्कृतिको केन्द्रीय समिति बैठकमा किराती समूहलाई नबोलाइएपछि आन्तरिक खटपट सतहमा आएको हो । श्रम संस्कृति पार्टीबाट कोशी प्रदेशको भावी मुख्यमन्त्रीका रूपमा स्वयं हर्क साम्पाङले किराँतीको प्रचार गरेका थिए । तर, साम्पाङको कार्यशैलीका कार",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-09-01T05:17:29+00:00",
-      "articleUrl": "https://nepalpress.com/2026/09/01/759181/sudan-group-in-separate-discussions-to-formulate-internal-strategy-after-hark-not-invited-to-meeting/",
-      "category": "national"
-    },
-    {
-      "title": "प्रतिनिधिसभाको संसदीय क्यालेन्डर प्रभावित",
-      "description": "सिंहदरबारमा बस्ने बैठकमा प्रतिनिधिसभाको बैठक कहिले राख्ने भन्ने विषयमा छलफल हुनेछ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/DP-aryal-3.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-01T05:15:39+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008306/parliamentary-calendar-of-the-house-of-representatives-affected",
-      "category": "politics"
-    },
-    {
-      "title": "आप्रवासी बालबालिका र मौसमी शिक्षा",
-      "description": "विद्या छैन तर ठूलो कुल छ भने त्यस्तो विशाल कुलको काम छैन । निचकुलमा जन्मिएको भएपनि यदि विद्वान छ भने ऊ देवताद्वारा पनि पुजित हुन्छ । विद्या पढेको व्यक्ति नै सम्मानित हुन्छ, प्रशंसित हुन्छ । यो चाणक्य नीतिको भनाइ हो । यस्तै स्थानान्तरित बालबालिकालाई शिक्षाका माध्यमबाट कोपिला नेपाले सन् २०१२देखि काम गर्दै आएको छ । […] The post आप्रवासी बालबालिका र मौसमी शिक्षा",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-01T05:15:19+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/146732/",
-      "category": "national"
-    },
-    {
-      "title": "रसुवा बाढी पीडितका लागि नबिल बैंकको रक्तदान कार्यक्रम",
-      "description": "एक जिम्मेवार संस्थाका रूपमा नबिल बैंक पीडित समुदायसँग ऐक्यबद्धता जनाउँदै उहाँहरूको साथमा उभिएको बैंकका प्रमुख मानव संसाधन अधिकृत दिवस कार्कीले बताए । उनले यस रक्तदान कार्यक्रममार्फत हामी जारी मानवीय सहायता कार्यमा योगदान पुर्‍याउनुका साथै यस कठिन घडीमा जीवन बचाउने प्रयासहरूमा सहयोग पुग्ने बताए ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-09-01T05:15:13+00:00",
-      "articleUrl": "https://nepalpress.com/2026/09/01/759178/nabil-banks-blood-donation-program-for-rasuwa-flood-victims/",
-      "category": "national"
-    },
-    {
-      "title": "बाढी प्रभावितका लागि सिप्रभ्य समूहका सिप्रदी तथा भोटेकोशी पावरको ५ करोड सहयोग",
-      "description": "काठमाडौं । सिप्रभ्य समूह अन्तर्गतका सिप्रदी तथा भोटेकोशी पावर कम्पनीले प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा ५ करोड १ लाख रुपैयाँ सहयोग गरेका छन् । रसुवाको विनाशकारी बाढीबाट प्रभावित परिवार तथा समुदायको उद्धार, राहत र पुनर्स्थापनामा सहयोग पुर्‍याउने उद्देश्यले उक्त रकम सहयोग गरिएको समूहले जनाएको छ । यसबाट बाढी प्रभावित क्षेत्रका तत्कालीन आवश्यकता सम्बोधन गर",
-      "imageUrl": "",
-      "sourceLogo": "https://www.techpana.com/favicon.ico",
-      "sourceName": "टेकपाना",
-      "publishedTime": "2026-09-01T05:08:24+00:00",
-      "articleUrl": "https://techpana.com/2026/158829/siprabhya-group-sipradi-bhotekoshi-power-5-crore-flood-relief-support",
-      "category": "technology"
-    },
-    {
-      "title": "त्रिविको शिक्षाध्यक्षमा अञ्जना सिंह र रजिस्ट्रारमा रवीन्द्र शिवाकोटी नियुक्त",
-      "description": "सरकारले गत वैशाखामा अध्यादेश मार्फत त्रिविका पदाधिकारीहरूलाई पदमुक्त गरेको थियो ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-01T05:05:00+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008300/anjana-singh-appointed-as-rector-of-tribhuvan-university-ravindra-shiwakoti-as-registrar",
-      "category": "national"
-    },
-    {
-      "title": "ग्यास नपाएको विरोधमा सडकमै रित्तो सिलिण्डर राखेर विरोध",
-      "description": "१६ भदौ, गोरखा । ग्यास नपाएको विरोधमा गोरखाका स्थानीयले सडकमा रित्तो सिलिण्डर राखेर विरोध जनाएका छन् । मंगलबार सिरानचोक गाउँपालिका ४ चोरकाटेका स्थानीयले विरोध स्वरुप रित्तो सिलिण्डर सडकमा राखेका हुन् । ‘असार यता यहाँ ग्यासको हाहाकार छ’ स्थानीय मदन श्रेष्ठले भने, ‘आएको ग्यास पनि सबै गोरखा बजार मात्र जान्छ ।’ ग्यास नपाउँदा चुलोचौका गर्न समेत […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/gas-local.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-01T05:02:46+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008301/protesters-place-empty-cylinders-on-the-road-to-protest-against-lack-of-gas",
-      "category": "national"
-    },
-    {
-      "title": "मस्जिदमा भएको गोलीबारीको घटनामा १७ वर्षीया किशोरीविरुद्ध अभियोग",
-      "description": "क्यालिफोर्निया । मे महिनामा क्यालिफोर्नियाको सान डिएगोस्थित मस्जिदमा तीन जनाको मृत्यु हुने गरी भएको गोलीबारीको घटनामा घटनामा १७ वर्षीया किशोरीविरुद्ध अभियोग दर्ता गरिएको छ । उत्तर क्यारोलिनाको ग्रान्ड जुरीले सोमबार घटनामा सहयोग गरेको आरोपमा सारा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/goli_ayJuj9FFCo.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T04:59:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588992/17-year-old-charged-in-mosque-shooting",
-      "category": "national"
-    },
-    {
-      "title": "रुकुमपूर्वको सिस्नेमा जिप दुर्घटना हुँदा ८ जना घाइते",
-      "description": "१६ भदौ, काठमाडौं । रुकुमपूर्वको सिस्ने गाउँपालिका-८ स्यालापाखा सडक खण्डमा जिप दुर्घटनामा परेको छ रुकुमपूर्वका डीएसपी खुमानन्द पाण्डेका अनुसार रुकुमपूर्वको लाम्फाकोटबाट रुकुमपश्चिमको खलंगातर्फ जाँदै गरेको भे१ज ६०४५ नम्बरको जिप मंगलबार बिहान दुर्घटनामा परेको हो । दुर्घटनामा परी ८ जना घाइते भएका छन् । उनीहरूलाई उद्धार गरी जिल्ला अस्पताल ल्याउने तयारी भइरहेको छ ",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2017/11/Accident.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-01T04:57:45+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008298/8-injured-in-jeep-accident-in-sisne-east-of-rukum",
-      "category": "national"
-    },
-    {
-      "title": "पश्चिम एशियामा फेरि बढ्यो सैन्य तनाव, ट्रम्पले दिए इरानमाथि कडा कारबाही गर्ने धम्की",
-      "description": "दुबई । हालैका हप्ताहरूमा मत्थर भएको इरान र अमेरिकाबिचको आक्रमण पुनः भड्किएको छ । अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पले सोमबार इरानमाथि थप कडा कारबाही गर्ने चेतावनी दिएका छन् । आइतबार अमेरिकाले इरानको लाराक द्वीपमा आक्रमण गरेको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/trump_v55iZElQot.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T04:52:41+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588991/military-tensions-rise-again-in-west-asia-trump-threatens-to-take-strong-action-against-iran",
-      "category": "national"
-    },
-    {
-      "title": "भोटेकोशी बाढी प्रभावितलाई रिलायन्स स्पिनिङ मिल्सको १ करोड सहयोग",
-      "description": "काठमाडौँ । रिलायन्स स्पिनिङ मिल्स लिमिटेडले भोटेकोशी बाढी प्रभावितको सहयोगार्थ नेपाल सरकारलाई १ करोड रुपैयाँ हस्तान्तरण गरेको छ । कम्पनीका प्रबन्ध निर्देशक अक्षय गोल्याण र निर्देशक सशिकान्त अग्रवालले सोमबार ‍प्रधानमन्त्री दैवी प्रकोप उद्दार कोषमा जम्मा गर्ने गरी अर्थमन्त्री डा. स्वर्णिम वाग्लेलाई चेक हस्तान्तरण गरेका छन् । गोल्याण ग्रुप अन्तर्गतको रिलायन्स स",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-09-01T04:50:54+00:00",
-      "articleUrl": "https://nepalpress.com/2026/09/01/759175/reliance-spinning-mills-provides-rs-10-million-assistance-to-bhotekoshi-flood-victims/",
-      "category": "national"
-    },
-    {
-      "title": "प्रतिनिधिसभाको कार्यव्यवस्था परामर्श समितिको बैठक बस्दै",
-      "description": "काठमाडौँ । प्रतिनिधिसभाको कार्यव्यवस्था परामर्श समितिको बैठक बस्दैछ । आज बिहान ११ बजे सिंहदरबारमा बैठक बस्ने भएको हो । बैठकमा प्रतिनिधिसभाको आगामी बैठक कहिले राख्ने र के कस्ता एजेन्डा अगाडि बढाउने भनेर छलफल हुनेछ । यसअघि सोमबार",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/dp-aryal_WQwAkf7aLm.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T04:48:21+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588990/meeting-of-the-business-advisory-committee-of-the-house-of-representatives-is-being-held",
-      "category": "politics"
-    },
-    {
-      "title": "झापा गाउँपालिकाद्वारा उद्धार कोषमा २५ लाख सहयोग",
-      "description": "झापा । झापाको झापा गाउँपालिकाले भोटेकोशी नदीमा आएको विनाशकारी बाढीबाट प्रभावित नागरिकको राहत, उद्धार तथा पुनःस्थापनाका लागि प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा २५ लाख २८ हजार २८८ रुपैंयाँ सहयोग गर्ने निर्णय गरेको छ । गाउँपालिकाले जनप्रतिनिधि, कर्मचारी तथा शिक्षकबाट रकम संकलन गरी प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा जम्मा गर्ने जनाएको छ। गाउँपालिकाकी कार",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-01T04:46:41+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/01/jhapa-rural-municipality-contributes-2-5-million-to-the-rescue-fund/",
-      "category": "business"
-    },
-    {
-      "title": "बेलारुसका आर्टसियोम कुड्रासोउ कर्णाली शिवराजमा अनुबन्ध",
-      "description": "१६ भदौ, काठमाडौं । नेपाल भलिबल लिग (एनभीएल) का लागि कर्णाली शिवराजले दोस्रो विदेशी खेलाडीका रूपमा बेलारुसका आर्टसियोम कुड्रासोउलाई अनुबन्ध गरेको छ । आउटसाइड हिटर पोजिसनमा खेल्ने कुड्रासोउको आगमनसँगै कर्णाली शिवराजको आक्रमण थप बलियो हुने अपेक्षा गरिएको टोलीले जनाएको छ । यसअघि कर्णाली शिवराजले पोल्याण्डका सेटर एमिलियन स्मेटेकलाई पहिलो विदेशी खेलाडीका रूपमा अनु",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/karnali-shivraj-foreign2.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-01T04:45:34+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008291/belarus-artsyom-kudrasou-signs-for-karnali-shivraj",
-      "category": "national"
-    },
-    {
-      "title": "कन्दराको कन्सर्टमार्फत प्रधानमन्त्री राहत कोषमा २१ लाख प्रदान",
-      "description": "काठमाडौँ । कन्दरा ब्यान्डले कन्सर्टमार्फत बाढी पीडितका २१ लाख नेपाली रुपैयाँ प्रधानमन्त्री राहत कोषमा हस्तान्तरण गरेको छ। कन्दराको आह्वान र अग्रसरतामा बिएनएमको आयोजना तथा एटलान्टा, अमेरिकामा रहेका नेपाली दर्शक, संघ–संस्था, व्यवसायी, कलाकार, शुभेच्छुक तथा समुदायको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/whatsapp-image-2026-08-31-at-08.29.30_YJSms6tvz6.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T04:44:28+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588989/kandaras-concert-contributes-rs-21-million-to-prime-ministers-relief-fund",
-      "category": "politics"
-    },
-    {
-      "title": "एयर इन्डिया विमान दुर्घटनामा खटिएको भारतीय फरेन्सिक टोली नै बाढीपीडितको पहिचानका लागि नेपालमा",
-      "description": "काठमाडौँ । नेपालमा आएको विनाशकारी बाढीका कारण ज्यान गुमाएका पीडितहरूको शव पहिचानका लागि भारतबाट १९ सदस्यीय डीएनए विज्ञ टोली काठमाडौँ आइपुगेर काम सुरु गरेको छ। जैविक नमुना सङ्कलन, संरक्षण र विश्लेषण गरी शवहरूलाई आफन्तको जिम्मा लगाउने",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/786157212_3027401824260623_1891412838893138125_n_1UQiSsUD8j.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T04:40:21+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588988/indian-forensic-team-deployed-in-air-india-crash-arrives-in-nepal-to-identify-flood-victims",
-      "category": "national"
-    },
-    {
-      "title": "भोटेकोशीमा आएको बाढीबाट बैंकहरुका १७ शाखाबाट १७ करोड बगायो, भौतिक क्षति कति ? (विवरणसहित)",
-      "description": "काठमाडौँ । भोटेकोशीमा आएको बाढीले बैंकहरुमा करोडौँको क्षति गरेको छ । बैंकहरुका शाखा कार्यालयसहित कार्यालयमा रहेका भल्ट, नगद तथा जिन्सी सामान बाढीले बगाउँदा १७ बैंकहरुमा ८० करोड बराबरको क्षति भएको अनुमान गरिएको हो । बाढीले १७ बैंकका शाखा कार्यालयमा भल्टमा राखिएको १७ करोड २४ लाख ५७ हजार ३ सय ७५ रुपैयाँ नगद बगाएको छ । Continue reading \"भोटेकोशीमा आएको बाढीबाट ब",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-01T04:39:01+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/bhotekoshi-flood-drains-rs-170-million-from-17-branches-of-banks-how-much-physical-damage-with-details.html",
-      "category": "business"
-    },
-    {
-      "title": "बाढीपीडितको घाउमा कलाकर्मीको मल्हम",
-      "description": "रसुवाको भोटेकोशीसहित विभिन्न जिल्लामा आएको बाढीपहिरोबाट प्रभावित नागरिकको राहत तथा उद्धारका लागि विभिन्न क्षेत्रका कलाकारले सहयोगको हात अघि बढाएका छन्। बाढीपहिरोमा परी ज्यान गुमाएकाहरूप्रति श्रद्धाञ्जलि अर्पण गर्दै कलाकारहरूले सामाजिक सञ्जालमार्फत दुःख व्यक्त गर्नुका साथै राहत तथा उद्धारका लागि आर्थिक सहयोगसमेत जुटाउन थालेका छन्। कतिपय कलाकारले आफूले प्रधानम",
-      "imageUrl": "",
-      "sourceLogo": "https://newsofnepal.com/favicon.ico",
-      "sourceName": "न्युज अफ नेपाल",
-      "publishedTime": "2026-09-01T04:38:16+00:00",
-      "articleUrl": "https://newsofnepal.com/2026/09/01/785117/",
-      "category": "entertainment"
-    },
-    {
-      "title": "धरानमा आजदेखि श्रम संस्कृतिको केन्द्रीय समिति बैठक, सुदन समूहलाई बोलाइएन",
-      "description": "हर्क साम्पाङ नेतृत्वको श्रम संस्कृति पार्टीको केन्द्रीय कमिटी बैठक आज धरानको होटल गोर्खामा बस्दैछ । पूर्वमन्त्री सुदन किराती समूहसँग पार्टी एकता भएको चार महिनापछि पहिलोपटक बस्न लागेको बैठकमा किराती समूहलाई भने बोलाइएको छैन ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalpress.com/favicon.ico",
-      "sourceName": "नेपाल प्रेस",
-      "publishedTime": "2026-09-01T04:36:41+00:00",
-      "articleUrl": "https://nepalpress.com/2026/09/01/759173/central-committee-meeting-of-labor-culture-to-begin-in-dharan-today-sudan-group-not-invited/",
-      "category": "national"
-    },
-    {
-      "title": "ट्रम्पका ‘ड्रोन म्यान’ले दिए राजीनामा",
-      "description": "वाशिङटन डीसी । अमेरिकी सेनाका सचिव ड्यान ड्रिस्कोलले राजीनामा दिएका छन् । पदमा बसेको करिब १८ महीनामै उनको यो राजीनामा आएको हो । रक्षामन्त्री पिट हेगसेथसँग महिनौँदेखि जारी विवाद र तनावपछि उनले पदबाट राजीनामा दिएको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/dron-man_xvRW6fMATG.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-01T04:35:33+00:00",
-      "articleUrl": "https://www.ratopati.com/story/588985/trumps-drone-man-resigns",
-      "category": "national"
-    },
-    {
-      "title": "रसुवा बाढी : सास भेटिने आस मारेपछि कुशको शव बनाएर अन्त्येष्टि",
-      "description": "गोसाइँकुण्ड हिँडेका धादिङका तीर्थयात्रीहरू बेत्रावतीबाट बेपत्ता भएपछि आफन्तहरू सास भेटिने आस बोकेर काठमाडौं, चितवन हुँदै पोखरासम्म भौंतारिए। तर, यतिका दिनसम्म पनि एक जनाबाहेक कसैको अत्तोपत्तो नलागेपछि निराश बनेका परिवारजनले अब कुशको शव बनाएर सामूहिक अन्त्येष्टि गर्दै छन्।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/dead-in-rasuwa-badhi.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-01T04:34:38+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2008276/rasuwa-flood-kushs-body-being-cremated-after-losing-hope-of-finding-his-soul",
-      "category": "national"
     }
   ]
 }
