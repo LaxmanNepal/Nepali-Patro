@@ -1,0 +1,10 @@
+(()=>{'use strict';
+const ROOT='https://apps.laxmannepal.com.np/Nepali-Patro/';
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+const money=n=>{const x=Number(n);return Number.isFinite(x)?x.toLocaleString('ne-NP',{maximumFractionDigits:2}):'—'};
+async function get(file){const r=await fetch(`${ROOT}${file}`,{cache:'no-cache'});if(!r.ok)throw Error(`${file} HTTP ${r.status}`);return r.json()}
+function render(data){const root=document.querySelector('#financePreview');if(!root)return;const g=data.gold,p=data.petroleum,f=data.forex;const usd=(f.rates||[]).find(x=>x.currency==='USD'),kwd=(f.rates||[]).find(x=>x.currency==='KWD');root.innerHTML=`<div class="finance-preview-grid"><a href="${ROOT}gold-price/"><span>🪙 सुन</span><strong>रु. ${esc(g.gold?.price||'—')}</strong><small>${esc(g.updatedAt||g.date_ad||'')}</small></a><a href="${ROOT}petroleum-price/"><span>⛽ पेट्रोल</span><strong>रु. ${money(p.latest?.petrol)}/L</strong><small>${esc(p.latest?.effective_label||p.date_ad||'')}</small></a><a href="${ROOT}forex/"><span>💵 USD</span><strong>रु. ${money(usd?.sell)}</strong><small>बिक्री दर</small></a><a href="${ROOT}forex/"><span>🇰🇼 KWD</span><strong>रु. ${money(kwd?.sell)}</strong><small>बिक्री दर</small></a></div>`}
+async function load(){const root=document.querySelector('#financePreview');if(!root)return;try{const [gold,petroleum,forex]=await Promise.all([get('feeds/gold_silver.json'),get('feeds/petroleum_prices.json'),get('feeds/forex.json')]);const data={gold,petroleum,forex,updatedAt:gold.updatedAt||forex.date_ad||petroleum.date_ad||''};window.NepaliPatroHome?.set('finance',data);render(data)}catch(error){console.error('[Nepali Patro finance]',error);window.NepaliPatroHome?.set('finance',{error});root.innerHTML='<p class="finance-preview-empty">वित्तीय डेटा अहिले उपलब्ध छैन। विस्तृत दरका लागि सम्बन्धित सेवा खोल्नुहोस्।</p>'}}
+function init(){load()}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+})();
