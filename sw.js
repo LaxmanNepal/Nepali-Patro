@@ -1,6 +1,6 @@
-const CACHE_NAME='nepali-patro-v2026-09-04-01';
+const CACHE_NAME='nepali-patro-v2026-09-04-02';
 const OFFLINE_URL='./offline.html';
-const APP_SHELL=['./','./index.html','./manifest.json','./assets/logo.svg','./offline.html','./css/main.css','./css/homepage-redesign.css','./css/mobile-nav.css','./js/mobile-nav.js','./js/homepage-controller.js','./js/homepage-runtime.js','./js/homepage-finance.js','./js/nepal-clock.js'];
+const APP_SHELL=['./','./index.html','./manifest.json','./assets/logo.svg','./offline.html','./css/main.css','./css/homepage-redesign.css','./css/mobile-nav.css','./js/mobile-nav.js','./js/mobile-accessibility.js','./js/homepage-controller.js','./js/homepage-runtime.js','./js/homepage-finance.js','./js/nepal-clock.js','./js/news.js'];
 const sameOrigin=u=>u.origin===self.location.origin;
 const isCacheable=res=>res&&res.ok&&(res.type==='basic'||res.type==='default');
 const cacheRequest=req=>{const u=new URL(req.url);u.searchParams.delete('v');u.searchParams.delete('parba');return new Request(u.toString(),{method:'GET',headers:req.headers,mode:'same-origin',credentials:req.credentials,redirect:'follow'});};
@@ -11,4 +11,4 @@ async function cacheFirst(req){const key=cacheRequest(req);const cached=await ca
 self.addEventListener('install',e=>e.waitUntil((async()=>{const c=await caches.open(CACHE_NAME);await Promise.all(APP_SHELL.map(async path=>{try{await c.add(path);}catch{}}));await self.skipWaiting();})()));
 self.addEventListener('activate',e=>e.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)));await self.clients.claim();})()));
 self.addEventListener('message',e=>{if(e.data?.type==='SKIP_WAITING')self.skipWaiting();});
-self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;const u=new URL(r.url);if(!sameOrigin(u))return;if(r.mode==='navigate'||r.destination==='document')return;const path=u.pathname;const immutableData=/\/data\/(?:calendar\/\d+\.json|years\.json)$/.test(path);const feed=path.includes('/feeds/')||path.endsWith('.json');const asset=['script','style','font','image','manifest'].includes(r.destination);if(immutableData){e.respondWith(cacheFirst(r));return}if(feed){e.respondWith(networkFirst(r));return}if(asset){e.respondWith(staleWhileRevalidate(r));}});
+self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;const u=new URL(r.url);if(!sameOrigin(u))return;if(r.mode==='navigate'||r.destination==='document')return;const path=u.pathname;const calendarData=/\/data\/calendar\/\d+\.json$/.test(path);const yearIndex=/\/data\/years\.json$/.test(path);const feed=path.includes('/feeds/')||path.endsWith('.json');const asset=['script','style','font','image','manifest'].includes(r.destination);if(calendarData){e.respondWith(cacheFirst(r));return}if(yearIndex||feed){e.respondWith(networkFirst(r));return}if(asset){e.respondWith(staleWhileRevalidate(r));}});
