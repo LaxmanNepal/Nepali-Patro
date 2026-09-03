@@ -10,6 +10,7 @@ const todayAD=()=>{const p=npParts();return p.year+'-'+p.month+'-'+p.day};
 const set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};
 async function json(path){const r=await fetch(ROOT+path,{cache:'no-cache'});if(!r.ok)throw Error(path+' '+r.status);return r.json()}
 function publish(values){window.NepaliPatroHome?.merge(values)}
+function source(status,updatedAt=null,error=null){window.NepaliPatroHome?.source('calendar',{status,updatedAt,error})}
 function render(data,x){
  set('todayBs',x.bs?.display||'आजको नेपाली मिति उपलब्ध छैन');
  set('todayAd',new Intl.DateTimeFormat('en-US',{timeZone:'UTC',year:'numeric',month:'long',day:'numeric'}).format(new Date(x.ad.date+'T00:00:00Z')));
@@ -23,8 +24,8 @@ function render(data,x){
  cal.innerHTML=h+'</div>'}
  const rash=document.getElementById('rashifalPreview');if(rash)rash.innerHTML=Z.map(([s,n])=>'<a href="'+ROOT+'rashifal/"><i>'+s+'</i><b>'+n+'</b><span>दैनिक राशिफल</span></a>').join('');
 }
-function fail(e){console.error('[Nepali Patro homepage]',e);publish({status:'error',error:e});set('todayBs','आजको मिति उपलब्ध छैन');set('todayAd','डेटा लोड गर्न सकिएन');const p=document.getElementById('panchangaPreview');if(p)p.innerHTML='<div class="np-runtime-error">पात्रो डेटा लोड हुन सकेन। <button id="npRetry">पुनः प्रयास</button></div>';document.getElementById('npRetry')?.addEventListener('click',boot,{once:true})}
-async function boot(){try{publish({status:'loading',error:null});const years=await json('data/years.json');const ad=todayAD();const meta=(years.years||[]).find(y=>ad>=y.start&&ad<=y.end);if(!meta)throw Error('आजको BS वर्ष उपलब्ध छैन');const data=await json('data/calendar/'+meta.year+'.json');const x=(data.days||[]).find(d=>d?.ad?.date===ad);if(!x)throw Error('आजको मिति dataset मा भेटिएन: '+ad);publish({todayAd:ad,todayBs:x.bs,calendar:{year:meta.year,data,x}});render(data,x);publish({status:'ready'});return window.NepaliPatroHome?.state}catch(e){fail(e);throw e}}
+function fail(e){console.error('[Nepali Patro homepage]',e);source('error',null,e);publish({status:'error',error:e});set('todayBs','आजको मिति उपलब्ध छैन');set('todayAd','डेटा लोड गर्न सकिएन');const p=document.getElementById('panchangaPreview');if(p)p.innerHTML='<div class="np-runtime-error">पात्रो डेटा लोड हुन सकेन। <button id="npRetry">पुनः प्रयास</button></div>';document.getElementById('npRetry')?.addEventListener('click',boot,{once:true})}
+async function boot(){try{publish({status:'loading',error:null});source('loading');const years=await json('data/years.json');const ad=todayAD();const meta=(years.years||[]).find(y=>ad>=y.start&&ad<=y.end);if(!meta)throw Error('आजको BS वर्ष उपलब्ध छैन');const data=await json('data/calendar/'+meta.year+'.json');const x=(data.days||[]).find(d=>d?.ad?.date===ad);if(!x)throw Error('आजको मिति dataset मा भेटिएन: '+ad);publish({todayAd:ad,todayBs:x.bs,calendar:{year:meta.year,data,x}});render(data,x);source('ready',new Date().toISOString());publish({status:'ready'});return window.NepaliPatroHome?.state}catch(e){fail(e);throw e}}
 const start=()=>{const p=boot();window.NepaliPatroHome?.setReady(p)};
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 })();
