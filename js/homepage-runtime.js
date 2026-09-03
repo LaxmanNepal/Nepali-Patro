@@ -21,8 +21,6 @@ function render(data,x){
  for(let i=0;i<(first?.weekday?.index||0);i++)h+='<div></div>';
  for(const d of ds){h+='<a class="np-home-cal-cell '+(d.ad.date===x.ad.date?'is-today':'')+'" href="'+ROOT+'calendar/?date='+encodeURIComponent(d.ad.date)+'"><b>'+nep(d.bs.day)+'</b><small>'+esc(d.ad?.day||'')+'</small>'+(d.festival?'<span>'+esc(d.festival)+'</span>':'')+'</a>'}
  cal.innerHTML=h+'</div>'}
- const parba=document.getElementById('parbaPreview');
- if(parba){const rows=(data.days||[]).filter(d=>(d.festival||d.holiday)&&d.ad?.date>=x.ad.date).slice(0,3);parba.innerHTML=rows.length?rows.map(d=>'<article class="np-event"><small>'+esc(d.bs.display)+'</small><b>'+esc(d.festival||'बिदा')+'</b><span>'+(d.holiday?'🇳🇵 बिदा':'🎉 पर्व')+'</span></article>').join(''):'<div class="np-event">आगामी पर्व डेटा उपलब्ध छैन।</div>'}
  const rash=document.getElementById('rashifalPreview');if(rash)rash.innerHTML=Z.map(([s,n])=>'<a href="'+ROOT+'rashifal/"><i>'+s+'</i><b>'+n+'</b><span>दैनिक राशिफल</span></a>').join('');
 }
 function fail(e){console.error('[Nepali Patro homepage]',e);publish({status:'error',error:e});set('todayBs','आजको मिति उपलब्ध छैन');set('todayAd','डेटा लोड गर्न सकिएन');const p=document.getElementById('panchangaPreview');if(p)p.innerHTML='<div class="np-runtime-error">पात्रो डेटा लोड हुन सकेन। <button id="npRetry">पुनः प्रयास</button></div>';document.getElementById('npRetry')?.addEventListener('click',boot,{once:true})}
