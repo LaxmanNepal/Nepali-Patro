@@ -1,19 +1,1083 @@
 {
-  "updatedAt": "2026-09-05T09:17:54.853266+00:00",
-  "lastSuccessfulUpdate": "2026-09-05T09:17:54.853266+00:00",
-  "newestPublishedTime": "2026-09-05T09:16:30+00:00",
+  "updatedAt": "2026-09-05T12:45:50.881667+00:00",
+  "lastSuccessfulUpdate": "2026-09-05T12:45:50.881667+00:00",
+  "newestPublishedTime": "2026-09-05T12:44:00+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 33,
-  "failedFeeds": 1,
+  "successfulFeeds": 32,
+  "failedFeeds": 2,
   "failedFeedDetails": [
     {
       "url": "https://nepalpress.com/feed/",
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
+    },
+    {
+      "url": "https://www.nepalitelecom.com/feed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "title": "प्रधानमन्त्री राहत कोषमा ११ अर्बभन्दा बढी सङ्कलन",
+      "description": "काठमाडौं । रसुवाका बाढी प्रभावितका लागि आर्थिक सहयोग जुट्ने क्रम बढ्दै गएको छ । नेपाल सरकारको प्रधानमन्त्री दैवी प्रकोप उद्धार कोष र प्रधानमन्त्री राहत कोषमा हाल ११ अर्ब पाँच करोड ५६ लाख २६ हजार ९७१ रुपैयाँ मौज्दात रहेको प्रधानमन्त्री तथा मन्त्रिपरिषद् कार्यालयले जनाएको छ । सरकारले यसअघि उक्त कोषमा जम्मा भएको एक अर्ब रुपैयाँ बाढी […]",
+      "imageUrl": "",
+      "sourceLogo": "https://dainiknepal.com/favicon.ico",
+      "sourceName": "दैनिक नेपाल",
+      "publishedTime": "2026-09-05T12:44:00+00:00",
+      "articleUrl": "https://www.dainiknepal.com/2026/09/837131.html",
+      "category": "politics"
+    },
+    {
+      "title": "काठमाडौं रेड्सको रोमाञ्चक जित, मधेश वारियर्स ३–२ ले पराजित",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-05T12:43:24+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/145303",
+      "category": "national"
+    },
+    {
+      "title": "युद्धले आयातमा अवरोध आएपछि इराकमा इन्धन अभाव",
+      "description": "बग्दाद । मध्यपूर्व युद्धको कारण इराकमा पेट्रोल आपूर्ति घटेको कारण शनिबार बगदादमा इन्धन स्टेशनहरूमा लामो लाइन लागेको जनाइएको छ । पछिल्लो समयमा क्षेत्रीय शत्रुता बढ्दै जाँदा, बगदाद र अन्य प्रान्तहरूमा सरकारद्वारा सञ्चालित इन्धन स्टेशनहरू बाहिर लामो",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/iraq_yTkrOipkKi.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T12:43:09+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590060/iraq-faces-fuel-shortage-as-war-disrupts-imports",
+      "category": "national"
+    },
+    {
+      "title": "एक्लै बस्ने वृद्धाको कानमा देखे सुनका मुन्द्रा, त्यसपछि बुने हत्या योजना",
+      "description": "आमा दुई–तीन दिनसम्म आफूहरूकहाँ नआएपछि छोरा आमालाई खोज्दै गएका थिए।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-05T12:42:44+00:00",
+      "articleUrl": "https://www.setopati.com/social/397716",
+      "category": "national"
+    },
+    {
+      "title": "चार प्रदेशमा भारी वर्षाको सम्भावना",
+      "description": "काठमाडौँ, भदौ २० गते । जल तथा मौसम विज्ञान विभाग अन्तर्गतको मौसम पूर्वानुमान महाशाखाका अनुसार शनिबार राति चार प्रदेशको विभिन्न स्थानमा भारी वर्षाको सम्भावना छ । महाशाखाका अनुसार हा...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/380774/conversions/Raningj-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-05T12:40:23+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/221509",
+      "category": "national"
+    },
+    {
+      "title": "विद्यार्थीले देखेको बाढी- हेर्दाहेर्दै स्याप्रुबेंसी बग्यो, भाग्दाभाग्दै मान्छे बगे",
+      "description": "बाढीपछि तल हेर्दा त्यो दृश्य थिएन । त्यो चकाचौंध स्याप्रुबेंसी बाढी सुस्ताएपछि खण्डहर बगर बनेको थियो ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Syaprubesi-ka-Bidyarthi.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T12:40:12+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011287/a-student-witnessed-the-flood-the-syapru-river-flooded-as-he-watched-people-were-swept-away-as-they-ran-away",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढीको ११ औं दिन : १,३४४ शव फेला, पाँच हजार बेपत्ता",
+      "description": "परराष्ट्र मन्त्रालयले शनिबार दिउँसो २ बजेसम्मको अवस्थाबारे जारी गरेको पछिल्लो विवरण अनुसार बाढीका कारण हालसम्म १ हजार ३४४ जनाको शव फेला परेको छ भने करिब ५ हजार नागरिक अझै बेपत्ता छन् ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-05T12:39:12+00:00",
+      "articleUrl": "https://nepallive.com/story/349857",
+      "category": "national"
+    },
+    {
+      "title": "‘नदी किनारका बस्तीहरू महाविपत्तिको पर्खाइमा छन्, सेतीको टाइम बममाथि पोखरा’",
+      "description": "‘जसरी सेती नदी किनारमा हजारौं परिवार अव्यवस्थित रूपमा बसिरहेका छन् । ती सबैले हामी एउटा महाविपत्तिको पर्खाइमा छौं भनेर बुझ्नुपर्‍यो । सेती एउटा टाइम बम हो, जतिखेर पनि पड्किन सक्छ ।’",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/narayan-gurung-1.jpeg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T12:38:57+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010742/riverside-settlements-are-waiting-for-a-catastrophe-pokhara-on-setis-time-bomb",
+      "category": "national"
+    },
+    {
+      "title": "कर्मचारीलाई त्रसित बनाएर होइन, उत्प्रेरित गरेर काम लिनुपर्छ : प्रचण्ड",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-05T12:38:46+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/145302",
+      "category": "national"
+    },
+    {
+      "title": "बिछोडिएकी आमाप्रति समर्पित निर्मला घिमिरेको ‘माइतीको आँगन’ मा सार्वजनिक",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-05T12:34:00+00:00",
+      "articleUrl": "https://www.setopati.com/art/art-activity/397719",
+      "category": "national"
+    },
+    {
+      "title": "हुम्लाको सिमकोटमा विद्युत् आपूर्ति बन्द",
+      "description": "२० भदौ, हुम्ला । जिल्ला सदरमुकाम सिमकोटमा अनिश्चितकालका लागि विद्युत् सेवा अवरुद्ध हुँदा सर्वसाधारणको दैनिक जनजीवन प्रभावित भएको छ । नेपाल विद्युत् प्राधिकरणको हिल्दुम वितरण केन्द्रअन्तर्गत पावर हाउसमा समस्या भएपछि भदौ १६ गतेदेखि विद्युत् आपूर्ति बन्द भएको हो । वितरण केन्द्रका सूचना अधिकारी कृष्णप्रसाद वलीका अनुसार पावर हाउसमा सञ्चालनमा रहेको युनिट–९ को कन्ट",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/09/Simkot-Airport7.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T12:28:45+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011285/electricity-supply-cut-off-in-simkot-humla",
+      "category": "national"
+    },
+    {
+      "title": "एनभीएलमा काठमाडौँको विजयी सुरुवात, मधेसको लगातार दोस्रो हार",
+      "description": "काठमाडौँ । नेपाल भलिबल लिग (एनभीएल)मा काठमाडौँ रेड्सले विजयी सुरुवात गरेको छ । त्रिपुरेश्वरमा रहेको राष्ट्रिय खेलकुद परिषद् (राखेप) को कभर्डहलमा आज भएको पहिलो खेलमा काठमाडौँले मधेस वारियर्सलाई ३–२ को प्रतिस्पर्धात्मक सेटमा हराउँदै विजयी सुरुवात गरेको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nvl_qtzwpOa17W.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T12:28:38+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590059/kathmandus-winning-start-in-nvl-madhes-second-consecutive-loss",
+      "category": "national"
+    },
+    {
+      "title": "रोबोटिक्सको क्षेत्रमा चीनको चामत्कारिक फड्को, अब कारखानादेखि घरसम्म रोबोटकै राज !",
+      "description": "काठमाडौं । केही वर्ष अघिसम्म रोबोट भन्ने बित्तिकै हाम्रो दिमागमा कलकारखानामा मसिनरी काम गर्ने फलामे संरचनाको चित्र आउँथ्यो । तर, अहिले दृश्य पूर्ण रूपमा फेरिएको छ । रोबोटहरू अब दौडन, नाच्न, फुटबल र ब्याडमिन्टन खेल्न मात्र होइन, घरायसी काममा समेत पोख्त हुन थालेका छन् । विश्वलाई नै अचम्मित पार्ने गरी भइरहेको यो रोबोटिक विकासको दौडमा चीन सबैभन्दा अगाडि देखिएको ",
+      "imageUrl": "",
+      "sourceLogo": "https://www.techpana.com/favicon.ico",
+      "sourceName": "टेकपाना",
+      "publishedTime": "2026-09-05T12:25:26+00:00",
+      "articleUrl": "https://techpana.com/2026/158920/china-robotics-revolution-from-factories-to-households",
+      "category": "technology"
+    },
+    {
+      "title": "चुनावमा असहयोगको आरोप लागेका चार कांग्रेस नेताले पाए सफाइ",
+      "description": "बुटवल । प्रतिनिधिसभा सदस्य निर्वाचनमा पार्टीका आधिकारिक उम्मेदवारलाई असहयोग गरेको आरोप लागेका दाङका चार कांग्रेस नेताले सफाइ पाएका छन् । नेपाली कांग्रेस केन्द्रीय अनुशासन समितिले दाङका राजु खनाल, प्रचण्डविक्रम न्यौपाने, खगराज पाण्डे र प्रज्ञान न्यौपानेलाई अनुशासन उल्लंघनको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/char-neta_wXSm2rN9pc.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T12:23:54+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590058/four-congress-leaders-accused-of-non-cooperation-in-the-election-were-acquitted",
+      "category": "politics"
+    },
+    {
+      "title": "बङ्गलादेशमा ऊर्जा सङ्कटविरुद्ध विपक्षीको विरोध र्‍याली",
+      "description": "खाना पकाउने ग्यास, विद्युत् र मलको अभावलाई लिएर बङ्गलादेशमा शनिबार हजारौँ विपक्षी समर्थकले सरकारविरुद्ध विरोध र्‍याली निकालेका छन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/bangaladesh.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T12:22:40+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011280/opposition-holds-protest-rally-against-energy-crisis-in-bangladesh",
+      "category": "national"
+    },
+    {
+      "title": "अस्ति कुशको शव बनाएर दाहसंस्कार, आज जीवितै उद्धार",
+      "description": "बाढीपछि बेपत्ता भएकी बेत्रावतीकी चण्डिका श्रेष्ठ शनिबार भेटिएसँगै अब स्थानीयहरू आफ्ना आफन्त भेटिन्छन् कि भन्ने आशा बढाउन थालेका छन् । उनीहरू सबैको एउटै माग सुनिन्छ– सबैतिर खोजी गरियोस् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Nepal-police-2.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T12:21:45+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011274/kushs-body-was-cremated-yesterday-but-he-was-rescued-alive-today",
+      "category": "national"
+    },
+    {
+      "title": "उद्धारमा खटिएका नेपाली सेना, सशस्त्र प्रहरी र नेपाल प्रहरीको टोलीलाई सलाम !",
+      "description": "काठमाडौँ। नेपाली सेनाको नेतृत्वमा जारी खोज तथा उद्धारका क्रममा स्थानीय विद्युत् केन्द्र तथा घरमा फसेका व्यक्तिको जीवितै उद्धार सम्भव भएको छ। प्रलयकारी विपद्को यस दु:खद् घडीमा अर्थहीन सल्लाह दिने, नकारात्मक टीकाटिप्पणी गर्ने र विशेष गरी सरकारले केही गरेन भन्ने भाष्य निर्माण गर्ने प्रवृत्ति बढिरहेको अवस्थामा नेपाली सेनाको नेतृत्वमा सशस्त्र प्रहरी बल र नेपाल प्",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-05T12:18:03+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/05/salute-to-the-nepal-army-armed-police-force-and-nepal-police-teams-deployed-for-the-rescue/",
+      "category": "business"
+    },
+    {
+      "title": "लाइबेरियामा खोप अनुसन्धानका चिम्पान्जीको स्वास्थ्य जाँच",
+      "description": "चिम्पान्जीलाई शरीरभित्रै हस्तक्षेप हुने खालका अनुसन्धानमा प्रयोग गरिएको थियो र उनीहरूले लामो समयसम्म विभिन्न परीक्षण तथा पीडा सहनुपरेको थियो।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/chimpanji.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T12:17:33+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011275/health-check-up-of-chimpanzees-for-vaccine-research-in-liberia",
+      "category": "national"
+    },
+    {
+      "title": "पचास हजार राशिको धार्मिक, सांस्कृतिक पत्रकारिता पुरस्कार अक्षयकोष स्थापना",
+      "description": "काठमाडौँ, भदौ २० गते । धर्म, संस्कृति, अध्यात्म, पुरातत्व, इतिहास, भूगोललगायत नेपाली मौलिकतालाई प्रवद्र्धन गर्ने विषयमा कलम चलाउने नेपाली पत्रकारलाई पुरस्कृत गर्ने गरी धार्मिक, सां...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/380773/conversions/journal-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-05T12:16:30+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/221508",
+      "category": "national"
+    },
+    {
+      "title": "केन्तारो होसाकाबाट मैले जे सिकेँ",
+      "description": "“शिक्षकले सबैभन्दा ठूलो पाठ शब्दबाट होइन, व्यवहारबाट सिकाउँछन्।” यो वाक्य मैले धेरैपटक सुनेको थिएँ। यसको वास्तविक अर्थ भने मैले विख्यात जापानी च्याउ वैज्ञानिक केन्तारो होसाकासँग बिताएका दस दिनमा प्रत्यक्ष अनुभव गर्न पाएँ। केही वर्षयता नेपालको पहिलो अनुसन्धानमूलक विश्वविद्यालय (एमबस्ट)मा प्रांगारिक कृषि विषयअन्तर्गत स्नातकोत्तर तहमा जंगली औषधिजन्य च्याउमा अध्",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-05T12:15:31+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/05/what-i-learned-from-kentaro-hosaka/",
+      "category": "business"
+    },
+    {
+      "title": "‘बेरोजगार’ होइन ‘अश्रमिक’ : भाषिक सम्मान र सामाजिक न्याय",
+      "description": "भाषा केवल सञ्चारको माध्यम मात्र होइन, समाजको चरित्र हेर्ने ऐना पनि हो। हामीले प्रयोग गर्ने हरेक शब्दहरूले वस्तु वा अवस्थाको वर्णन मात्र गर्दैनन्, तिनले मानिसप्रति सम्मान, तिरस्कार, सहानुभूति वा पूर्वाग्रह पनि प्रस्तुत गर्छन्। त्यसैले कुनै",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/unemployed_RD4gKmFkJ2.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T12:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/589996/not-unemployed-but-unemployed-linguistic-respect-and-social-justice",
+      "category": "national"
+    },
+    {
+      "title": "विराटनगरमा ५९औँ राधाकृष्ण रथयात्रा, डीजेको ठाउँमा ‘भजन–कीर्तन’ (फोटो फिचर)",
+      "description": "खेमराज सापकोटा रानी (मोरङ), भदौ २० गते । यस वर्षको विराटनगरस्थित ऐतिहासिक राधाकृष्ण रथयात्राको माहोल केही फरक देखिएको छ । शनिबार दिउँसो सुरु भएको ५९औँ रथयात्रामा डीजे साउन्डको प्रय...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/380775/conversions/converted_image-(5)-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-05T12:14:57+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/221507",
+      "category": "national"
+    },
+    {
+      "title": "बाढी प्रभावित क्षेत्रमा करिब २० हेलिकोप्टर उडान, प्रतिकूल मौसम र विकट भूगोल चुनौती",
+      "description": "बाढीका कारण उर्लिएको तादी नदीमाथि नेपाली सेनाका सैन्य इन्जिनियरिङ टोलीले डोरीको पुल निर्माण गरिरहेका छन्। राष्ट्रिय सडक सञ्जालबाट सम्पर्कविच्छेद भएका क्षेत्रलाई पुनः सडक सञ्जालसँग जोड्न पुल निर्माण भइरहेको हो।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-05T12:14:16+00:00",
+      "articleUrl": "https://nepallive.com/story/349856",
+      "category": "national"
+    },
+    {
+      "title": "गिद्ध दिवसमा चर्चामा व्यासको संरक्षण अभ्यास",
+      "description": "अमरराज नहर्कीतनहुँ, भदौ २० गते। आज अन्तर्राष्ट्रिय गिद्ध सचेतना दिवस । गिद्ध संरक्षण र यसको पर्यावरणीय महत्वबारे सचेतना फैलाउने यो दिवसका अवसरमा तनहुँको व्यास नगरपालिका–१० दुम्सीस...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/380770/conversions/converted_image-(13)-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-05T12:14:12+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/221506",
+      "category": "national"
+    },
+    {
+      "title": "नामहरूको सूची",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-05T12:12:50+00:00",
+      "articleUrl": "https://www.setopati.com/literature/397718",
+      "category": "national"
+    },
+    {
+      "title": "बाढी अपडेट: पहिचान नभएका १ हजार ३० शव जमिनमुनि गाडियो",
+      "description": "काठमाडौँ । भोटेकोशी बाढीपछि फेला परेका एक हजार ३४४ मध्ये एक हजार ३० शव सुरक्षित रूपमा माटोमुनि व्यवस्थापन गरिएको छ । फेला परेका शवको पहिचानका लागि डिएनए नमूना सङ्कलनलगायत आवश्यक प्रक्रिया पूरा गरी हालसम्म २२२ महिला, ३५५ पुरूष र ४५३ संवेदनशील अवस्थाका पहिचान नखुलेका शव व्यवस्थापन गरिएको प्रहरीले जनाएको छ । शव पहिचानका लागि मृतकका […] The post बाढी अपडेट: पहिच",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-05T12:11:36+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/147154/",
+      "category": "national"
+    },
+    {
+      "title": "ब्रेन, जीन र समाज : हाम्रो सोच कसरी निर्माण हुन्छ ?",
+      "description": "प्रख्यात मानवशास्त्री जोसेफ हेनरिचले भनेजस्तै- मानव मस्तिष्क जैविक रूपमा धेरै हदसम्म समान भए पनि संस्थाहरू, इतिहास, धर्म, शिक्षा र सामाजिक अभ्यासहरूले मानिसको सोच्ने शैलीलाई गहिरोसँग आकार दिन्छन्। त्यसैले फरक समाजका मानिसहरूले एउटै प्रश्नलाई फरक ढङ्गले बुझ्न सक्छन्।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/yadav-aryal1.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T12:06:40+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011211/brain-genes-and-society-how-are-our-thoughts-formed",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढीः कर्तव्य पालनाका सिलसिलामा मृत्यु भएका परिवारलाई २५ लाख राहत",
+      "description": "काठमाडौँ, भदौ २० गते । सशस्त्र प्रहरी बल नेपालले कर्तव्य पालनाका सिलसिलामा भोटेकोशी बाढीमा परी मृत्यु भएका सशस्त्र प्रहरीका परिवारलाई २५ लाख राहत उपलब्ध गराउने भएको छ ।सशस्त्र प्रह...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/380769/conversions/kl-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-05T12:06:19+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/221505",
+      "category": "national"
+    },
+    {
+      "title": "रसुवा विपद्पछि हिमालयी जोखिमबारे उच्चस्तरीय अन्तर्राष्ट्रिय वैज्ञानिक संवाद हुँदै, यसरी बन्नुहोस् सहभागी",
+      "description": "काठमाडौं । भोटेकोशीमा हालै आएको विनाशकारी विपद्को वैज्ञानिक कारण र यसको जलवायु परिवर्तनसँगको सम्बन्धबारे मन्थन गर्न आगामी सोमबार (२२ भदौ) एक उच्चस्तरीय अन्तर्राष्ट्रिय वैज्ञानिक संवाद आयोजना हुने भएको छ । ‘माउन्टेन सुनामी इन द हिमालय: अन्डरस्ट्यान्डिङ द प्लाइट, द साइन्स एन्ड द पाथ टु रेजिलेन्स’ (हिमालयमा पर्वतीय सुनामी: सङ्कट, विज्ञान र उत्थानशीलताको मार्ग ब",
+      "imageUrl": "",
+      "sourceLogo": "https://www.techpana.com/favicon.ico",
+      "sourceName": "टेकपाना",
+      "publishedTime": "2026-09-05T12:01:51+00:00",
+      "articleUrl": "https://techpana.com/2026/158919/international-scientific-dialogue-on-himalayan-risks-after-rasuwa-disaster",
+      "category": "technology"
+    },
+    {
+      "title": "जनकपुरमा राजगुठी पोखरीको अतिक्रमण हटाउन सातदिने सूचना",
+      "description": "जनकपुरधाम, भदौ २० गते । जनकपुरधाम उपमहानगरपालिकाभित्र राजगुठीअन्तर्गत रहेका पोखरी तथा त्यस क्षेत्रमा भएका अतिक्रमण हटाउन गुठी संस्थानले सम्बन्धित व्यक्ति तथा संस्थालाई सात दिने सूच...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/380768/conversions/converted_image-(4)-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-05T12:00:19+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/221504",
+      "category": "national"
+    },
+    {
+      "title": "कुशको शव बनाएर काजकिरिया चल्दै थियो, ११औँ दिन चण्डिका जीवितै भेटिइन् !",
+      "description": "चण्डिका जीवितै भेटिएको खबर पाएपछि मृत्यु संस्कार गरिरहेका परिवारका सदस्यहरू काजकिरिया रोकेर अस्पताल पुगेका छन्। छोरीको फोन र सामाजिक सञ्जालमार्फत खबर पाएपछि उनीहरू तत्काल काठमाडौं आएका हुन्।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-05T12:00:00+00:00",
+      "articleUrl": "https://nepallive.com/story/349853",
+      "category": "national"
+    },
+    {
+      "title": "बालिका करणी अभियोगमा धनबहादुर पक्राउ",
+      "description": "बर्दिया । १६ वर्षीया बालिकालाई जबरजस्ती करणी गरेको अभियोगमा मधुवन नगरपालिका–५ बस्ने ३४ वर्षीय धनबहादुर चुदारालाई हिजो शुक्रबार बेलुकी प्रहरीले पक्राउ गरेको छ । धनबहादुरले ती बालिकालाई जबरजस्ती करणी गरेको भन्ने उजुरीको आधारमा इलाका प्रहरी कार्यालय ढोढरीबाट खटिएको प्रहरीले उनलाई पक्राउ गरेको हो । यस सम्बन्धमा प्रहरीले आवश्यक अनुसन्धान गरिरहेको छ । The post बाल",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-05T11:59:54+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/147153/",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढी : रसुवामा ४१ किलोमिटर सडक र आठ जलविद्युत् आयोजनामा पूर्ण क्षति",
+      "description": "रसुवा । भोटेकाशी बाढीले जिल्लाका निजी तथा सार्वजनिक सम्पत्तिमा ठूलो क्षति पुर्याएको छ । जिल्ला प्रशासन कार्यालयले यही १० गतेको बाढीले पुर्याएको क्षतिसम्बन्धी प्रारम्भिक विवरण सार्वजनिक गरेको छ । सहायक प्रमुख जिल्ला अधिकारी द्रुवप्रसाद अधिकारीका अनुसार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-badhi_27y4wVkjOC.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T11:56:37+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590056/bhotekoshi-flood-41-km-of-road-and-eight-hydroelectric-projects-completely-damaged-in-rasuwa",
+      "category": "national"
+    },
+    {
+      "title": "मुस्लिम समुदायद्वारा जुमाका क्रममा रकम जुटाएरु बाढीपीडीतलाई सहयोग",
+      "description": "राजविराज । सप्तरी सदुमुकाम राजविराज तथा आसपासका मस्जिदहरुबाट मुस्लिम समुदायका अगुवाहरुले जुमा (नमाज प्रार्थना) का क्रममा सहभागीहरुबाट रकम संकलन गरी रसुवाको भोटेकोशी क्षेत्रमा बाढीबाट प्रभावित नागरिकका लागी आर्थिक सहयोग जुटाएका छन । इस्लामिक संघ नेपालको आह्वानमा राजविराज मुस्लिम समाजका अगुवाहरुले नगर तथा आसपासका गरी ९ वटा मस्जिदबाट जुमाका क्रममा आएका सहभागीहर",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-05T11:55:04+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/147151/",
+      "category": "national"
+    },
+    {
+      "title": "बाढी पीडितलाई मुस्लिम समुदायको सहयोग",
+      "description": "विनय कर्णसप्तरी, भदौ २० गते । रसुवामा आएको बाढीबाट पीडितका लागि सप्तरीका मुस्लिम समुदायले आर्थिक सहयोग जुटाएका छन् ।राजविराज तथा आसपासका मस्जिदहरुबाट मुस्लिम समुदायका अगुवाहरुले शु...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/380766/conversions/Photo1-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-05T11:52:46+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/221502",
+      "category": "national"
+    },
+    {
+      "title": "नेपालको जलवायु न्यायका पक्षमा ३० देशका सांसद, चारबुँदे घोषणापत्र पारित",
+      "description": "नेपालजस्ता जलवायु परिवर्तनको उच्च असर भोगिरहेका मुलुकका लागि पर्याप्त, पहुँचयोग्य र न्यायोचित जलवायु वित्त उपलब्ध गराउन तथा आवश्यक प्रविधि हस्तान्तरण सुनिश्चित गर्न विश्वव्यापी रूपमा वकालत गर्ने प्रतिबद्धता घोषणापत्रमा गरिएको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-05T11:52:46+00:00",
+      "articleUrl": "https://nepallive.com/story/349855",
+      "category": "politics"
+    },
+    {
+      "title": "राज्यका निकायहरू अन्योलमा छन्, सरकारको लक्षण राम्रो छैनः प्रचण्ड",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-05T11:51:31+00:00",
+      "articleUrl": "https://www.setopati.com/politics/397717",
+      "category": "politics"
+    },
+    {
+      "title": "राजविराज उच्च बारमा बहादुरको प्रवेशले भिड्न्त रोचक",
+      "description": "राजविराज । कानुन व्यवसायीहरुको साझा संगठन राजविराज उच्च अदालत बार एशोसिएसनको भदौ २७ गते शनिबार चुनाव हुँदैछ । २२ पदका लागि हुन लागेको निर्वाचनमा ४३ जना उम्मेदवार चुनावी मैदानमा छन् । बृहत प्रजातान्त्रिक समूह (डिएलए) ले अधिवक्ता नविन सिंहको नेतृत्वमा तथा बृहत गणतान्त्रिक, लोकतान्त्रिक र प्रगतिशील समूहले बलराम सिंहको नेतृत्वमा प्यानल सहित उम्मेदवार उतारेको छ [",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-05T11:50:36+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/147149/",
+      "category": "national"
+    },
+    {
+      "title": "सुरुङभित्रको खोजी र उद्धारलाई सघाउन स्विट्जरल्याण्डले दियो अत्याधुनिक ड्रोन",
+      "description": "२१ भदौ, काठमाडौं । रसुवाको भोटेकोशी बाढीपछि जलविद्युत आयोजनाका सुरुङभित्र जारी खोजी तथा उद्धार कार्यलाई सघाउन स्विट्जरल्याण्डले नेपाललाई एक अत्याधुनिक ड्रोन सहयोग गरेको छ। ऊर्जा, जलस्रोत तथा सिँचाइ मन्त्रालयको आग्रहमा प्राप्त उक्त सेमी–अटोनोमस ड्रोन शनिबार नेपाल विद्युत् प्राधिकरणलाई हस्तान्तरण गरिएको हो। नेपालस्थित स्विस दूतावासका अनुसार नेपाल आइपुगेका एक स",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Drone.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T11:49:11+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011264/switzerland-provides-state-of-the-art-drone-to-aid-in-tunnel-search-and-rescue",
+      "category": "national"
+    },
+    {
+      "title": "माथिल्लो त्रिशुली १ को सुरुङमा दुई जनाको शव भेटियो",
+      "description": "तीमध्ये एक जनाको शव सुरुङबाट निकालिसकिएको सैनिक प्रवक्ता राजाराम बस्नेतले कान्तिपुरसँग बताए । उनले भने, ‘अर्को एक जनाको शव निकाल्ने क्रम जारी छ ।’",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-05T11:49:00+00:00",
+      "articleUrl": "https://nepallive.com/story/349854",
+      "category": "national"
+    },
+    {
+      "title": "‘बजेटले जनताको अपेक्षा सम्बोधन गर्नुपर्छ’",
+      "description": "धनगढी, भदौ २० गते । सुदूरपश्चिम प्रदेशका मुख्यमन्त्री खगराज भट्टले प्रदेशको बजेटले प्रदेशको आवश्यकता, सम्भावना र जनताको अपेक्षालाई सम्बोधन गर्नुु पर्ने बताउनुभएको छ । प्रदेश सरकार...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/380765/conversions/CM20000-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-05T11:48:37+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/221501",
+      "category": "national"
+    },
+    {
+      "title": "मुढो",
+      "description": "पहाडका बिहानहरू प्रायजसो घामसँगै उघ्रने गर्दछन् । डाँडाको टुप्पोमा घामको पहिलो धर्सो देखिन थालेसँगै गाउँका घरहरू पनि एकपछि अर्को गर्दै ब्युँझिन थाल्छन् । बारीका कान्लाहरूमा उभिएका पोथ्रा–पोथ्रीका पातमा रातभरको शीत टल्किरहेको हुन्छ । कतै गोठको ढोका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/story-pic_ZLtdYngHyD.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T11:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590041/round",
+      "category": "national"
+    },
+    {
+      "title": "उद्धार गरिएकी चण्डिकाको घुँडाको अप्रेसन हुँदै",
+      "description": "काठमाडौँ । बेत्रावतीबाट जीवितै उद्धार गरिएकी चण्डिका श्रेष्ठको घुँडाको अप्रेसन हुने भएको छ । उनको घुँडाको अप्रेसन गर्न लागिएको छोरा आशिष श्रेष्ठले जानकारी दिए । चण्डिकाको अहिले नेपाली सेनाको अस्पताल छाउनीमा उपचार जारी छ । नेपाली",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/chandrika-shrestha_nuXXU9laUv.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T11:43:28+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590055/rescued-chandika-undergoes-knee-surgery",
+      "category": "national"
+    },
+    {
+      "title": "पाल्पामा ऐतिहासिक विजयउत्सव मनाइयो",
+      "description": "पाल्पा । पाल्पामा २०७ औं ऐतिहासिक विजयउत्सव एंव भगवतीको रथयात्रा निकालिएको छ । बुटवलको जितगढी युद्धमा नेपाली सेनाले अंग्रेज सेनासँगको लडाईमा विजय हासिल गरेको खुसियालीमा यो विजयउत्सव मनाउन थालिएको हो । वि.सं. १९७७ सालदेखी बिजयउत्सव एंव भगवतीको रथयात्रा मनाउन थालिएको हो । वि.सं. १८७१ पौषदेखी १८७२ जेठसम्म पाल्पा नुवाकोट र बुटवल जितगढी भएको युद्धमा नेपाली […] Th",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-05T11:42:21+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/147147/",
+      "category": "national"
+    },
+    {
+      "title": "'हामीले काजकिरिया गरिसकेका थियौं, उहाँ जीवितै आउनुभयो'",
+      "description": "'बाढी गएको आठौं दिनसम्म खोजी गर्दा पनि भेटिनुभएन। अब सम्भावना छैन भनेर कुस बनाएर दाहसंस्कार गरी परिवारले काजकिरिया पनि सुरू गरिसकेको थियो,' उनले भने।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-05T11:39:00+00:00",
+      "articleUrl": "https://www.setopati.com/social/397715",
+      "category": "national"
+    },
+    {
+      "title": "प्रचण्डले भने– राज्यका निकायहरू अन्योलमा छन्, सरकारको लक्षण राम्रो छैन",
+      "description": "काठमाडौं । नेपाली कम्युनिस्ट पार्टीका संयोजक एवं पूर्व प्रधानमन्त्री पुष्पकमल दाहालले मुलुकको राजनीति, कर्मचारीतन्त्र र राज्यका विभिन्न निकायहरू अन्योलपूर्ण अवस्थामा रहेको बताएका छन् । शनिवार काठमाडौंमा आयोजित एक कार्यक्रममा बोल्दै दाहालले वर्तमान सरकारको कार्यशैलीप्रति टिप्पणी गर्दै सरकारका राम्रा काममा सहयोग र समर्थन रहने भएपनि नराम्रा कामको विरोध र आलोचना",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-05T11:37:03+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/147145/",
+      "category": "politics"
+    },
+    {
+      "title": "कस्तो छ उद्धार गरिएकी ६३ वर्षीया चण्डिका श्रेष्ठको स्वास्थ्य अवस्था ?",
+      "description": "काठमाडौँ । बेत्रावतीबाट जीवितै उद्धार गरिएकी चण्डिका श्रेष्ठको अहिले नेपाली सेनाको अस्पताल छाउनीमा उपचार जारी छ । नेपाली सेनाका प्रवक्ता राजाराम बस्नेतका अनुसार उनको चिकित्सकीय टोलीको निगरानीमा उपचार भइरहेको हो । प्रवक्ता बस्नेतले भने– ‘दाहिने तिघ्रामा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/chandrika-shrestha_nuXXU9laUv.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T11:36:17+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590054/what-is-the-health-condition-of-63-year-old-chandika-shrestha-who-was-rescued",
+      "category": "national"
+    },
+    {
+      "title": "बाढीले पुरेको घरभित्रबाट ‘बचाऊ–बचाऊ’ भनेपछि…",
+      "description": "काठमाडौँ। ११ दिनअघि रसुवाको भोटेकोशी नदीमा आएको बाढीले नुवाकोटको विदुर नगरपालिका–१० बेत्रावती बजारका अधिकांश घर पुर्‍यो। कतिपय बाढीमा बगे भने कति घरभित्रै पुरिएको अवस्थामा मृत फेला परे। तर, खोज तथा उद्धारमा खटिएका सुरक्षा फौजको संयुक्त टोलीले विनाशकारी बाढीमा पुरिएको एउटा घरबाट ११औँ दिनमा एक महिलाको जीवितै उद्धार गर्‍र्यो। टोलीले बेत्रावतीका आनन्दलाल श्रेष्ठ",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-05T11:33:18+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/05/after-shouting-save-me-save-me-from-inside-a-flooded-house/",
+      "category": "business"
+    },
+    {
+      "title": "प्रधानमन्त्री बालेन राष्ट्रसंघको महासभामा भाग लिन अमेरिका जाने",
+      "description": "काठमाडौं । प्रधानमन्त्री वालेन्द्र शाह संयुक्त राष्ट्रसङ्घको ८१ औं महासभामा सहभागी हुन अमेरिका जाने भएका छन् । प्रधानमन्त्री शाह अमेरिका जाने मिति तय भएको छैन, यद्यपि सेप्टेम्बर २२ देखि २६ सम्म महासभामा साधारण बहस सञ्जालन हुनेछ । प्रधानमन्त्री शाह नेपाली प्रतिनिधिमण्डलको नेतृत्व गर्दै राष्ट्रसङ्घको महासभामा जाने सूचना तथा सञ्चारमन्त्री डा. विक्रम तिमिल्सिनाल",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-05T11:30:10+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/147143/",
+      "category": "politics"
+    },
+    {
+      "title": "नेपाली सेनाको १० सदस्यीय टोली लन्डनमा, क्याम्ब्रियन गस्ती अभ्यासमा सहभागी हुने",
+      "description": "संयुक्त अधिराज्य बेलायतको वेल्स राज्यमा अक्टोबरमा हुने क्याम्ब्रियन पट्रोल एक्सरसाइज (गस्ती अभ्यास) मा सहभागी हुन नेपाली सेनाको १० सदस्यीय टोली शनिबार लन्डन पुगेको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Nepal-Army-On-UK.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T11:26:17+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011257/a-10-member-team-of-the-nepali-army-will-participate-in-the-cambrian-patrol-exercise-in-london",
+      "category": "national"
+    },
+    {
+      "title": "रेडक्रसको नाममा आएका राहत सामग्रीमा भन्सार शुल्कको विवाद",
+      "description": "नेपाल रेडक्रस सोसाइटीलाई विपद्को बेलामा दातृ निकायले पठाएको सामग्रीमा सरकारले भन्सार शुल्क लिने भएपछि सरकार र नेरेसो बीचमा विवाद उत्पन्न भएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Redcross-bhansar.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T11:24:28+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011245/controversy-over-customs-duties-on-relief-supplies-brought-in-the-name-of-the-red-cross",
+      "category": "national"
+    },
+    {
+      "title": "रसुवामा अस्ताएका मामा र भान्जाको कुशको शव बनाएर दाहसंस्कार",
+      "description": "मोरङ। भोटेकोशी बाढीमा परी अनोज धमला बेपत्ता भएपछि उनको परिवारसहित गाउँ शोकमा छ। ‘कतैबाट सकुशल फर्किएलान् कि !’ भन्ने झिनो आशा र आशङ्काबीच चलेको १० दिनको सकसपूर्ण पर्खाइ अन्ततः शुक्रबार लक्ष्मीमार्गस्थित स्थानीय घाटमा पुगेर रोकिएको छ। खोजीकार्य जारी रहे पनि फेला नपरेपछि, हिन्दू धार्मिक परम्पराअनुसार परिवारजनले अनोजको ‘कुशको शव’ बनाएर अन्तिम संस्कार गरेका छन्।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-05T11:15:59+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/05/funeral-of-deceased-uncle-and-nephew-in-rasuwa/",
+      "category": "business"
+    },
+    {
+      "title": "मानव सभ्यतादेखि शक्ति निर्माणसम्म",
+      "description": "नेपालका रैथाने शिल्पी समुदायको इतिहास केवल उत्पीडनको कथा होइन । यो श्रम, सीप, सिर्जना, ज्ञान र सभ्यता निर्माणको कथा पनि हो । पुस्तौँदेखि धातु, माटो, काठ, छाला, कपडा र अन्य प्राकृतिक सामग्रीसँग काम गर्दै आएका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nepal-people-shilpi_Pz6xEAxJTw.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T11:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590030/from-human-civilization-to-power-building",
+      "category": "national"
+    },
+    {
+      "title": "बाढीबाट रसुवामा कति भयो भौतिक क्षति ?",
+      "description": "जिल्ला प्रशासन कार्यालय रसुवाले बाढीले पुर्‍याएको क्षतिसम्बन्धी प्रारम्भिक विवरण सार्वजनिक गरेको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Rasuwa-Uttargaya-11-scaled.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T11:14:38+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011250/how-much-physical-damage-was-caused-in-rasuwa-due-to-the-flood",
+      "category": "national"
+    },
+    {
+      "title": "चिलिमेमा उद्धारको काम जारी, ठूला मेसिन लैजानेगरी बाटो बन्दैछ- भारतीय राजदूत",
+      "description": "२० भदौ, काठमाडौं । रसुवाको चिलिमे जलविद्युत् आयोजनामा भोटेकोशीमा आएको बाढीपछि मान्छे फसेको शंकासहित खोजी कार्य जारी राखिएको छ । नेपाली र भारतीय उद्धार टोलीले निरन्तर भग्नावशेष हटाउने काम गरिरहेका हुन् । नेपालका लागि भारतीय राजदूत नविन श्रीवास्तवले पानी र माटो हटाउने कार्य भइरहेको र चिलिमेस्थित सुरुङको छत नजिकै पुगेको जानकारी गराएका छन् । उनका […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/indian-team-at-chilime.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T11:13:30+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011249/rescue-work-continues-in-chilime-road-being-built-to-allow-large-machinery-to-be-transported-indian-ambassador",
+      "category": "politics"
+    },
+    {
+      "title": "उद्धार गरिएका चिनियाँ नागरिकलाई दूतावासको टोलीले भेट्यो",
+      "description": "काठमाडौँ । अपर त्रिशूली १ जलविद्युत् आयोजनाको सुरुङभित्रबाट उद्धार गरिएका चिनियाँ नागरिकलाई चिनियाँ राजदूतावासको टोलीले भेटेको छ । शनिबार काठमाडौँको छाउनीस्थित नेपाली सेनाको अस्पतालमा ल्याइए लगत्तै उद्धार गरिएका नागरिकलाई चिनियाँ दूतावासको टोलीले भेटको हो । नेपाली",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/791560632_2354305118436191_1881194017982297977_n_yUzyn1hl6g.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T11:12:20+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590052/embassy-team-meets-chinese-nationals-rescued-alive",
+      "category": "national"
+    },
+    {
+      "title": "जापानकी पहिलो साक्षरता राजदूत अदिति पौडेलको पुस्तकप्रेम",
+      "description": "‘तपाईं किताबभन्दा फोनतिर आकर्षित हुने सम्भावना सधैं बढी हुन्छ,’ उनले भनिन्, ‘त्यसैले पढ्ने बानी बसाल्नु अत्यन्त महत्त्वपूर्ण छ।’",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/aditi.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T11:10:44+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011241/japans-first-literacy-ambassador-aditi-poudel-loves-books",
+      "category": "politics"
+    },
+    {
+      "title": "भोटेकोशी बाढी पीडित महिलामाथि सामाजिक सञ्जालमा अभद्र टिप्पणी, सांसद रञ्जु दर्शनाको आपत्ति",
+      "description": "काठमाडौं । भोटेकोशी नदीमा आएको भीषण बाढीका कारण आफ्नो श्रीमान् बेपत्ता भएपछि सरकारसँग खोजीका लागि चित्कार गरिरहेकी एक महिलामाथि सामाजिक सञ्जालमा अश्लील र अपमानजनक कमेन्टको वर्षा भएको छ । पीडित महिलाको पीडामा मल्हम लगाउनुको साटो केही व्यक्ति उल्टै चरित्रहत्या गर्न लागिपरेका छन् । भाइरल भिडिओमा ती महिलाले काखमा सानो नानी च्यापेर रोइकराई गर्दै सरकारसँग आफ्नो श्",
+      "imageUrl": "",
+      "sourceLogo": "https://www.techpana.com/favicon.ico",
+      "sourceName": "टेकपाना",
+      "publishedTime": "2026-09-05T11:04:04+00:00",
+      "articleUrl": "https://techpana.com/2026/158918/bhote-koshi-flood-victim-targeted-with-vulgar-comments-on-social-media",
+      "category": "technology"
+    },
+    {
+      "title": "भोटेकोशी बाढीः मृत्यु भएका सशस्त्र प्रहरीका परिवारलाई २५ लाख राहत",
+      "description": "काठमाडौँ। सशस्त्र प्रहरी बल नेपालले कर्तव्य पालनाका सिलसिलामा भोटेकोशी बाढीमा परी मृत्यु भएका सशस्त्र प्रहरीका परिवारलाई २५ लाख राहत उपलब्ध गराउने भएको छ। सशस्त्र प्रहरीले मृतकका आश्रित परिवारलाई राष्ट्रसेवकका तर्फबाट तत्काल १५ लाख र ‘सशस्त्र प्रहरी कर्मचारीको मृत्यु भएमा निजको हकवालारआश्रित परिवारलाई उपलब्ध गराउने राहतसम्बन्धी कार्यविधि,२०७९’ बमोजिम पाँच ला",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-05T11:02:38+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/05/bhotekoshi-flood-rs-2-5-million-relief-for-families-of-deceased-armed-police-force-personnel/",
+      "category": "business"
+    },
+    {
+      "title": "एसिया प्यासिफिक छलफल : जलवायु न्यायलाई प्रमुख एजेन्डा बनाउन आह्वान",
+      "description": "रसुवामा यही भदौ १० गते आएको विनाशकारी बाढीबारे साउथ-इस्ट एसिया तथा एसिया-प्यासिफिकका देशका प्रतिनिधिहरूबीच छलफल भएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/asia.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T10:59:19+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011240/asia-pacific-dialogue-call-to-make-climate-justice-a-top-agenda",
+      "category": "national"
+    },
+    {
+      "title": "उद्धार गरिएका चिनियाँ नागरिकलाई पनि छाउनी ल्याइयो, स्वास्थ्य अवस्था सामान्य",
+      "description": "काठमाडौँ । अपर त्रिशूली १ जलविद्युत् आयोजनाको सुरुङभित्रबाट उद्धार गरिएका चिनियाँ नागरिकलाई पनि काठमाडौँको छाउनीस्थित नेपाली सेनाको अस्पतालमा ल्याइएको छ । उनको स्वास्थ्य अवस्था सामान्य रहेको जानकारी प्राप्त भएको नेपाल प्रहरीका प्रवक्ता अभिनारायण काफ्लेले रातोपाटीलाई",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/795462103_3079670135561792_5469865637545088094_n_hM1ivUUCRP.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T10:58:10+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590051/rescued-chinese-citizens-also-brought-to-camp-health-condition-normal",
+      "category": "national"
+    },
+    {
+      "title": "राज्यका निकाय अन्योलपूर्ण छन्, लक्षण राम्रो देखिएको छैन : प्रचण्ड",
+      "description": "२० भदौ, काठमाडौं । नेपाली कम्युनिष्ट पार्टीका संयोजक एवं पूर्वप्रधानमन्त्री पुष्पकमल दाहाल प्रचण्डले मुलुकको राजनीति, कर्मचारीतन्त्र र राज्यका विभिन्न निकायहरू अन्योलपूर्ण अवस्थामा रहेको टिप्पणी गरेका छन् । शनिवार कामठाडौंमा आयोजित एक कार्यक्रममा बोल्दै प्रचण्डले वर्तमान सरकारको कार्यशैलीप्रति टिप्पणी गर्दै सरकारका राम्रा काममा सहयोग र समर्थन रहने भएपनि नराम",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T10:55:29+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011238/state-bodies-are-confused-signs-are-not-looking-good-prachanda",
+      "category": "national"
+    },
+    {
+      "title": "‘बचाउ-बचाउ भनेको आवाज सुनियो, ४५ मिनेटमै महिलाको उद्धार गर्‍यौं’",
+      "description": "आधा देखिएको झ्याल फोडेर हाम्रा उद्धारकर्मीहरू त्यहाँ पसे । त्यहाँ पस्दा उहाँको शरीर आधा हिलोमा दबिएको थियो । थोरै शरीर र टाउको देखिएको अवस्थामा फेला पारेका थियौं ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/suman-bk-apf.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T10:53:27+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011221/we-heard-the-cry-for-help-we-rescued-the-woman-within-45-minutes",
+      "category": "national"
+    },
+    {
+      "title": "समयमै उद्धार भएको भए धेरैको ज्यान बच्ने रहेछ : प्रचण्ड",
+      "description": "प्रचण्डले भने, ‘अर्कोतिर समयमै उद्धार भएको भए अझ धेरैको ज्यान बच्ने रहेछ भन्ने पनि यसले प्रदर्शित गरेको छ ।’",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T10:51:26+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011233/many-lives-could-have-been-saved-if-rescue-had-been-carried-out-on-time-prachanda",
+      "category": "national"
+    },
+    {
+      "title": "केरुङ नाकामा सरसफाइ तीव्र, पहिरो प्रभावित क्षेत्रमा ३५ हजार ५०० वर्गमिटर डिसइन्फेक्सन",
+      "description": "केरुङ । चीनको दक्षिणपश्चिमी सिजाङ स्वायत्त क्षेत्रस्थित पहिरो प्रभावित केरुङ नाकाको मुख्य प्रभावित क्षेत्रमा स्वास्थ्यकर्मीहरूले व्यापक कीटाणुशोधन तथा सरसफाइ अभियान सञ्चालन गरेका छन् । सिन्ह्वाका अनुसार शनिबार विभिन्न स्वास्थ्य संस्थाका टोली परिचालन गरी पहिरोले प्रभावित नाकाको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/safai-kerung4_V2EIMZmU5G.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T10:50:37+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590050/cleanliness-intensified-at-kerung-border-crossing-35500-square-meters-disinfected-in-landslide-affected-areas",
+      "category": "national"
+    },
+    {
+      "title": "विराटनगरको रथयात्रा (फोटो फिचर)",
+      "description": "२० भदौ, विराटनगर । विराटनगरको पहिचानसँग जोडिएको राधाकृष्ण रथयात्रा निकालिएको छ। विराटनगरमा प्रत्येक वर्ष श्रीकृष्ण जन्माष्टमीको भोलिपल्ट निकालिने राधाकृष्ण रथयात्राले बजार परिक्रमा गर्नेछ। राधाकृष्ण मन्दिरबाट दिउँसो ३ बजे सुरु भएको रथयात्राले बजार क्षेत्र परिक्रमा गर्नेछ। विराटनगरको पानीट्यांकी चोकमा रहेको राधाकृष्ण मन्दिरबाट सुरु भएको रथयात्रा तीनपैनी चोक, ",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/biratnagar-rath-5.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T10:49:43+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011222/biratnagars-rath-yatra-photo-feature",
+      "category": "national"
+    },
+    {
+      "title": "अप्लाइड एआईमाथि भविष्य खोज्दै अमेरिकाको नेपाली स्टार्टअप ‘एल्केमी’",
+      "description": "काठमाडौँ । आर्टिफिसियल इन्टिलिजेन्स अर्थात् एआई । आजको दिनमा विश्वभरका मान्छेको लागि जीवनको अभिन्न अंगजस्तै बनेको छ । बिहान उठ्नेबित्तिकै मोबाइल चलाउँदादेखि कार्यलयका जटिल कामहरू फत्ते गर्नेसम्मका कामका लागि अहिले एआईको प्रयोग हुन्छ । तर, एआई",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/alkemy-1_Z5OPl7q8T9.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T10:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590024/us-based-nepali-startup-alchemy-looking-to-future-in-applied-ai",
+      "category": "national"
+    },
+    {
+      "title": "कर्मचारीमाथि कुनै किसिमको दबाब दिनुहुँदैन : प्रचण्ड",
+      "description": "काठमाडौँ । पूर्वप्रधानमन्त्री पुष्पकमल दाहाल ‘प्रचण्ड’ ले कर्मचारीलाई अनुशासित, कर्तव्यनिष्ठ र जिम्मेवार बनाउने नाममा उनीहरूमाथि कुनै किसिमको जबरजस्ती वा दबाब दिन नहुने बताएका छन् । निजामती सेवा दिवस–२०८३ को अवसरमा शनिबार काठमाडौँमा आयोजित निजामती कर्मचारी सम्मान",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/prachanda_kVjwnJFqza.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T10:44:49+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590049/no-pressure-should-be-put-on-employees-prachanda",
+      "category": "national"
+    },
+    {
+      "title": "कृष्णभीर ट्र्याक खोल्ने काम जारी, दुवैतर्फ गरी करिब २५२ मिटर खोलियो",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-05T10:38:00+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/145300",
+      "category": "national"
+    },
+    {
+      "title": "प्रिन्सिपल कमल खनाललाई ‘इन्टरनेशनल एक्सिलेन्स अवार्ड’",
+      "description": "सुन्दरहरैँचा(मोरङ) । मोरङको सुन्दरहरैँचा–१० स्थित हिमालय इङ्लिस स्कुलका संस्थापक प्रिन्सिपल कमल खनाल शिक्षाक्षेत्रमा पुर्‍याउँदै आएको योगदानका लागि ‘इन्टरनेशनल एक्सिलेन्स अवार्ड–२०२६’ बाट सम्मानित भएका छन्। काठमाडौंको जमलस्थित राष्ट्रिय नाचघरमा शनिबार, ५ सेप्टेम्बर २०२६ मा आयोजित ‘International Excellence Award 2026 – Nepal & International Summit’ समारोहमा ख",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-05T10:34:32+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/147140/",
+      "category": "national"
+    },
+    {
+      "title": "रसुवाका बाढीपीडितलाई जापानको दिपवे कम्पनीको ३६ लाख येन सहयोग",
+      "description": "रसुवाको भोटेकोशी नदीमा आएको विनाशकारी बाढीबाट प्रभावित नागरिकहरूको राहत तथा उद्धारका लागि जापानस्थित दिपओए जापान कम्पनी प्रालिले ३६ लाख जापानी येन आर्थिक सहयोग गरेको छ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Dipway-compuny.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T10:34:24+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011214/japans-deepoa-company-provides-3-6-million-yen-in-assistance-to-flood-victims-in-rasuwa",
+      "category": "national"
+    },
+    {
+      "title": "कुशको शव बनाएर किरिया बस्दै थियो परिवार, ११ औँ दिनमा बाढीबाट जीवितै फर्किइन् चण्डिका",
+      "description": "काठमाडौँ । रसुवाको भोटेकोशी नदीमा आएको भीषण बाढीले घर बगाएपछि परिवारले चण्डिका श्रेष्ठको माया मारिसकेका थिए। बाढी आएको आठ दिनसम्म अत्तोपत्तो नलागेपछि परिवारले कुशको शव बनाएर उनको काजकिरिया नै सुरु गरिसकेको थियो। तर, मृत्यु संस्कार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/795945552_28299976709686045_6672331989626049590_n_yRUQSDDcXN.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T10:33:42+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590048/the-family-was-living-in-a-hut-with-kushs-body-chandika-returned-alive-from-the-flood-on-the-11th-day",
+      "category": "national"
+    },
+    {
+      "title": "उत्तरगया गाउँपालिकाका २५० परिवारलाई राहत सामग्री हस्तान्तरण",
+      "description": "रसुवा । भोटेकोशी नदीमा आएको विनाशकारी बाढी तथा पहिरोबाट प्रभावित परिवारलाई तत्काल राहत उपलब्ध गराउने उद्देश्यले आवश्यक सामग्री वितरण गरिएको छ । उत्तरगया गाउँपालिकाको अनुरोधमा लिस्चा हिमालय ईभीको आर्थिक सहयोग तथा दिगो विकासका लागि एकता नेपालको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rahat_ECP1wAo7oN.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T10:32:56+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590047/relief-materials-handed-over-to-250-families-in-uttargaya-rural-municipality",
+      "category": "national"
+    },
+    {
+      "title": "हिमालको अभियोग",
+      "description": "भन, नाफाका सौदागरहरू- जब तिमीहरूले तेलका कुवाहरूबाट तिजोरी भऱ्यौ, के नेपालले आकाशमा धुवाँको विष घोलेको थियो? जब तिम्रा चिम्नीहरूले पृथ्वीको घाँटी निमोठे, के हाम्रा पहाडी छाप्राहरूले कोइला सल्काएका थिए? थिएनन्। तर तिम्रो विलासिताको राप सबैभन्दा पहिले हाम्रा हिमनदीहरूको नसामा ओर्लियो। २६ अगस्ट। पहाडको छाती चर्कियो। हिउँ, ढुङ्गा र लेदोको भेलले एकै झट्कामा निलिद",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Minbahadur-bista.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T10:30:39+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011194/himals-accusation",
+      "category": "national"
+    },
+    {
+      "title": "रसुवा बाढीमा बेपत्ता भएकी प्रमिलाकाे कुशको पुतला बनाएर दाहसंस्कार",
+      "description": "सल्यान । रसुवाको भोटेकोशीमा आएको बाढीका क्रममा बेपत्ता भएकी सल्यानको बागचौर नगरपालिका–८, गैरागाउँ निवासी प्रमिला बुढाथोकी (बस्नेत) को धार्मिक विधिअनुसार आज दाहसंस्कार गरिएको छ । बाढीपछि उनको भौतिक शरीर फेला नपरेपछि हिन्दु धार्मिक तथा सामाजिक परम्पराअनुसार कुशको पुतला बनाई अन्तिम संस्कार गरिएको हो । दाहसंस्कारका क्रममा उनका कान्छा छोराले विधिवत् प्रक्रिया अनु",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/790661846_1572649970380333_3073881650371489811_n_ym9k3Tg0nF.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T10:28:28+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590046/pramila-who-went-missing-in-the-rasuwa-floods-cremated-in-a-kush-effigy",
+      "category": "national"
+    },
+    {
+      "title": "बागमतीका उद्योगमन्त्रीको प्रश्न – अधिकार नदिने भए प्रदेश सरकार किन राख्ने ?",
+      "description": "काठमाडौं । बागमती प्रदेशका उद्योग, पर्यटन, श्रम तथा यातायात मन्त्री राजेन्द्र प्रजापतिले सङ्घीय सरकारले प्रदेश सरकारलाई पर्याप्त अधिकार नदिएको आरोप लगाएका छन् । शनिवार काठमाडौंमा आयोजित एक कार्यक्रममा उनले प्रदेश सरकार गठन भएको लामो समय भई सक्दा पनि संघीय सरकारले पर्याप्त अधिकार दिन कन्जुस्याइँ गरेको बताएका हुन् । उनले कतिपय प्रदेशमा रहेका अधिकारलाई सङ्घीय स",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-05T10:28:18+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/147137/",
+      "category": "politics"
+    },
+    {
+      "title": "सृजनालाई पारा ग्रान्ड प्रिक्समा ऐतिहासिक स्वर्ण",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-09-05T10:28:00+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/174760",
+      "category": "sports"
+    },
+    {
+      "title": "सकियो माथिल्लो त्रिशूली ३ ‘ए’ जलविद्युत आयोजनाको खोजीकार्य, भेटिएनन् थप",
+      "description": "काठमाडौं । माथिल्लो त्रिशूली ३ ‘ए’ जलविद्युत आयोजनाको सम्भावित सबै ठाउँमा खोजी तथा उद्धारको काम सम्पन्न भएको छ । शुक्रबार यो आयोजनाको सुरूङबाट सप्तरीका सञ्जय साह र काठमाडौंका कवीर महर्जनलाई जीवितै उद्धार र अर्का एक जनाको शव निकालिएको थियो । दुई जनाको जीवितै उद्धार हुँदा अन्यको पनि जीवित उद्धार हुनसक्ने सम्भावना बढेको थियो । आयोजनाको […] The post सकियो माथिल्",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-05T10:25:24+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/147138/",
+      "category": "national"
+    },
+    {
+      "title": "जसपाले प्रदेश सभा सदस्यहरूलाई कारबाही गरेपछि लुम्बिनी सरकारमा के होला ?",
+      "description": "काठमाडौँ । जनता समाजवादी पार्टी (जसपा) नेपालले लुम्बिनी प्रदेशका आफ्ना प्रदेश सभा सदस्यहरूलाई साधारण सदस्यसमेत नरहने गरी कारबाही गरेपछि त्यहाँको सरकारलाई थप समस्या आइपरेको छ । जसपा नेपालको केन्द्रीय कार्यकारिणी समितिको बैठकले लुम्बिनी प्रदेश सभामा पार्टीका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/lumbini-jasapa-karbahi_lABCGTd7Gp.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T10:20:30+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590045/what-will-happen-to-the-lumbini-government-after-jsp-takes-action-against-provincial-assembly-members",
+      "category": "politics"
+    },
+    {
+      "title": "अम्बेडकर एन्ड हिज धम्म",
+      "description": "डा. भीमराव अम्बेडकरलिखित बुद्ध एन्ड हिज धम्म पढेर बुद्ध र बौद्ध धर्म-दर्शन बुझेको र बुझाउन सकेको बुझाई राख्नेहरुको एक ठुलै जमात छ। यसबारेमा केही कुरा सुरु गर्नुअघि आचार्य रजनीश (ओशो) का एक अनुयायीको प्रसङ्ग सान्दर्भिक हुन्छ। विश्वविद्यालयमा अंग्रेजी विषयमा स्नातकोत्तर गर्दै गरेका एक विद्यार्थी थेसिस लेखनमा परामर्शका लागि भेट्न आएका थिए। उनको हातमा ‘जोर्बा दि",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-05T10:15:11+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/05/ambedkar-and-his-dhamma/",
+      "category": "business"
+    },
+    {
+      "title": "विद्यालयभित्रको त्रास: कलिला बालबालिकामाथि कुटपिट अपराध हो",
+      "description": "बिहान ९–१० बजेको हुँदो हो । म चियाको कप र हातमा मोबाइल बोकेर कौसीमा उभिएको थिएँ । मेरो चार वर्षको भतिज एलकेजीको झोला बोकेर दुई घरपर सडकपारि रहेको स्कुल जाँदै थियो । ललितपुरको धोबीघाटस्थित हाम्रो",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/teacher-punishes-schoolboy-student-beaten-caning-punishment-shut_5Mp9ToRIvq.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T10:15:04+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590044/school-terror-assault-on-young-children-is-a-crime",
+      "category": "national"
+    },
+    {
+      "title": "प्रेमको मधुर स्वर : ब्ल्याकहोलमा गीतहरू",
+      "description": "मानिसको हृदयमा विशिष्ट क्षणमा उद्भूत भएका विशेष भावनाहरूलाई लालित्यमय ढङ्गले अभिव्यक्त गर्ने शाब्दिक कला नै कविता हो। दैनन्दिन जीवनमा मानिसले अनेक प्रकारका दृश्य–परिदृश्यहरूलाई आफ्नै ढङ्गले देखेको, भोगेको, सम्झेको, कल्पना गरेको वा महसुस गरेको हुन्छ। जब त्यस्ता",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/black-hole-ma-geet-haru_48L6BXnHv4.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T10:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590010/the-sweet-voice-of-love-songs-in-the-black-hole",
+      "category": "national"
+    },
+    {
+      "title": "फेवातालमा कायकिङ गर्दा डुबेका युवाको गोताखोर टोलीद्वारा उद्धार",
+      "description": "कास्की । पोखराको फेवातालमा कायकिङ गर्ने क्रममा डुबेका उदयपुरका २१ वर्षीय आयुष तामाङको सशस्त्र प्रहरीको टोलीले अचेत अवस्थामा उद्धार गरेको छ । पोखरा महानगरपालिका–६ स्थित तालबाराही मन्दिर पछाडि फेवातालमा घुम्न आएका तामाङ कायकिङ गर्ने क्रममा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/792069604_1769687144186055_8373342639321658599_n_waiNNa3gJS.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T10:09:55+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590043/diving-team-rescues-youth-who-drowned-while-kayaking-in-fewa-lake",
+      "category": "national"
+    },
+    {
+      "title": "फेवातालमा डुबेका युवकको उद्धार",
+      "description": "२० भदौ, पोखरा । पोखराको फेवातालमा कायकिङ गर्ने क्रममा डुबेका एक जनाको सकुशल उद्धार भएको छ । उदयपुर घर भएका २१ वर्षीय आयुष तामाङको सशस्त्र प्रहरीको टोलीले उद्धार गरेको हो । कास्की जिल्लाको पोखरा महानगरपालिका–६ स्थित तालबाराही मन्दिर पछाडि फेवातालमा घुम्न आएका तामाङ कायकिङ गर्ने क्रममा डुबेका थिए । उक्त सूचना प्राप्त भएपछि सशस्त्र प्रहरी […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Phewa.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T10:08:44+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011208/rescue-of-a-young-man-who-drowned-in-fewa-lake",
+      "category": "national"
+    },
+    {
+      "title": "सिरियामा बारुदी सुरुङको जोखिम कायमै, बालबालिका बढी प्रभावित",
+      "description": "एजेन्सी। सिरियामा युद्धका क्रममा छाडिएका बारुदी सुरुङ तथा अन्य विस्फोटक पदार्थका कारण सर्वसाधारणको ज्यान जाने जोखिम अझै कायमै रहेको भन्दै संयुक्त राष्ट्रसंघले तत्काल जोखिम न्यूनीकरणका उपाय अपनाउन आग्रह गरेको छ। संयुक्त राष्ट्रसंघीय मानवीय मामिला समन्वय कार्यालय (ओसीएचए) का अनुसार विस्फोटक पदार्थको जोखिमले मानिसहरूको जीवन र सुरक्षामा मात्र नभई उनीहरूको आवतजाव",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-05T10:05:36+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/05/landmine-risk-remains-in-syria-children-most-affected/",
+      "category": "business"
+    },
+    {
+      "title": "ग्यासको चर्चाबीच अन्य उपभोग्य वस्तुको मूल्यवृद्धि ओझेलमा पर्‍यो : दुगड",
+      "description": "२० भदौ, काठमाडौं । पूर्वराज्यमन्त्री एवं उद्योगपति मोतीलाल दुगडले पेट्रोलियम पदार्थ र ग्यासको चर्चाकाबीच अन्य दैनिक उपभोग्य वस्तुको अस्वाभाविक मूल्यवृद्धि ओझेलमा परेको टिप्पणी गरेका छन् । शनिबार काठमाडौंमा आयोजित ‘बाढीपछिको आपूर्ति र मूल्य शृंखलामा परेको प्रभाव तथा चुनौती’ विषयक कार्यक्रममा बोल्दै उनले खाद्य उद्योगीसमेत रहनुभएका दुगडले बजारमा बिस्कुटदेखि साब",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Motilal-dugad.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T10:04:24+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011205/amidst-the-discussion-on-gas-the-price-hike-of-other-consumer-goods-was-overshadowed-dugad",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढीपछि पाँच हजार सम्पर्कविहीन",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-05T10:02:33+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/145299",
+      "category": "national"
+    },
+    {
+      "title": "चिलिमे जलविद्युत् आयोजनामा सुरुङभित्र फसेकाको उद्धार प्रयास जारी",
+      "description": "काठमाडौं। चिलिमे जलविद्युत् आयोजनामा सुरुङभित्र फसेकाको उद्धार प्रयास निरन्तर जारी रहेको छ। भौगोलिक विकटता, प्रतिकूल मौसम र सडक सञ्जाल पूर्ण रूपमा विच्छेद भएका कारण आवश्यक जनशक्ति, सामग्री तथा उपकरण घटनास्थलसम्म पुर्‍याउन चुनौती भइरहेको छ। हाल नेपाली सेना र भारतीय सेनाका २१ जना सुरुङभित्रै म्यानुअल रूपमा माटो तथा भारी भग्नावशेष हटाउने कार्यमा खटिएका छन्। २५०",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-05T10:01:38+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/05/rescue-efforts-continue-for-those-trapped-in-tunnels-at-chilime-hydropower-project/",
+      "category": "business"
+    },
+    {
+      "title": "'घर पनि लग्यो, व्यवसाय पनि लग्यो': बाढीका कारण विस्थापित भएकाहरूलाई भविष्यको चिन्ता",
+      "description": "अकस्मात् आएको विनाशकारी बाढीले अस्तव्यस्त बनेको जनजीवनलाई अब कसरी सम्हाल्ने भन्ने चिन्ताले पीडितहरू पिरोलिएका छन्।",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/e27c/live/cdc94360-a8f1-11f1-a291-b542ee92de7c.jpg",
+      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
+      "sourceName": "feeds.bbci.co.uk",
+      "publishedTime": "2026-09-05T09:57:32+00:00",
+      "articleUrl": "https://www.bbc.com/nepali/articles/cdr75j14jg1o?at_medium=RSS&at_campaign=rss",
+      "category": "national"
+    },
+    {
+      "title": "ग्यासको मूल्यवृद्धिलाई लिएर रास्वपाकै सांसदको असन्तुष्टि, संसद्‌मा विरोध जनाउने",
+      "description": "२० भदौ, काठमाडौं । खाना पकाउने ग्यासको मूल्यवृद्धिलाई लिएर सत्तारुढ दल (रास्वपा)भित्रै असन्तुष्टि देखा परेको छ । असन्तुष्ट सांसदहरूले यो विषयलाई लिएर संसद्‌मा विरोध जनाउने तयारी गरेका छन् । प्रतिनिधिसभाको बैठक भदौ २४ गते बस्दैछ । उक्त बैठकमा यो विषयलाई लिएर सम्बन्धित निकायलाई दबाब सिर्जना हुनेगरी कुरा उठ्ने बताउँछन्, रास्वपाकै सांसद बदन भण्डारी । ‘अहिले […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/badan-Bhandari.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T09:57:14+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011201/rsp-mps-unhappy-with-gas-price-hike-will-protest-in-parliament",
+      "category": "politics"
+    },
+    {
+      "title": "बाढीले घरसहित बगाएको थियो चन्डिकालाई, ११ दिनपछि जीवितै भेटिइन्",
+      "description": "‘बगरमा मान्छेको आउजाउ भइरहेको थियो । बाटो खन्ने काम पनि सुरु भएको छ । त्यही बेला मान्छेको आवाज आएपछि उद्धारको लागि प्रहरीलाई खबर गरेको हो,’ विदुर नगरपालिका १०– का वडा सदस्य मंगल तामाङले भने ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Nepal-police-2.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T09:48:12+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011198/chandika-was-swept-away-by-a-flood-along-with-her-house-but-she-was-found-alive-11-days-later",
+      "category": "national"
+    },
+    {
+      "title": "एक्सट्रिम एनभिएलमा आज २ खेल",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-09-05T09:47:00+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/174759",
+      "category": "sports"
+    },
+    {
+      "title": "इरानमाथि दबाब बढाउँदै अमेरिका र युरोप",
+      "description": "भियना। इरानले आणविक गतिविधिसम्बन्धी अन्तर्राष्ट्रिय नियम पालना नगरेको भन्दै अमेरिका, बेलायत, फ्रान्स र जर्मनीले इरानको आणविक विषय संयुक्त राष्ट्रसंघको सुरक्षा परिषद्मा पठाउने प्रस्ताव तयार गरेका छन्। प्रस्तावमाथि संयुक्त राष्ट्रसंघको आणविक निगरानी निकायको शासक मण्डलमा छलफल हुन सक्ने कूटनीतिक स्रोतहरूले बताएका छन्। इरानले आफ्नो सबै आणविक सामग्री तथा गतिविधिबा",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-05T09:45:41+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/05/america-and-europe-are-increasing-pressure-on-iran/",
+      "category": "business"
+    },
+    {
+      "title": "पर्याप्त अधिकार नदिए प्रदेश सरकार राख्नुको औचित्य छैन: मन्त्री प्रजापती",
+      "description": "काठमाडौँ । बागमती प्रदेशका उद्योग, पर्यटन, श्रम तथा यातायातमन्त्री राजेन्द्र प्रजापतीले सङ्घीय सरकारले प्रदेश सरकारलाई पर्याप्त अधिकार नदिएको आरोप लगाएका छन्। शनिबार काठमाडौँमा आयोजित एक कार्यक्रममा उनले प्रदेश सरकार गठन भएको लामो समय बित्दा पनि सङ्घीय",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/1788598096-f4j7o_YuQVX1jWjo.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T09:43:34+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590040/there-is-no-point-in-having-a-provincial-government-if-it-is-not-given-sufficient-authority-minister-prajapati",
+      "category": "politics"
+    },
+    {
+      "title": "चिलिमे जलविद्युत्‌मा उद्धार प्रयास : २५० मिटर सुरुङमध्ये १०० मिटर सफा गरियो",
+      "description": "हाल नेपाली सेना र भारतीय सेनाका २१ जना सुरुङभित्रै प्रवेश गरी म्यानुअल रूपमा माटो तथा भारी भग्नावशेष हटाउने काममा खटिएका छन् ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T09:42:02+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011196/chilime-hydropower-rescue-efforts-100-meters-of-250-meter-tunnel-cleared",
+      "category": "national"
+    },
+    {
+      "title": "अरबी खाँ हत्या प्रकरण : दोषीलाई कारबाही र न्यायका लागि आमाको बिलौना",
+      "description": "काठमाडौँ । बाँकेको नेपालगञ्ज–२१ बिर्ताका अरबी खाँको हत्यामा संलग्न दोषीलाई कारबाही गर्न उनकी आमा राविया खाँले माग गरेकी छन्। शनिबार काठमाडौँको संवाद डबलीमा पत्रकार सम्मेलन आयोजना गर्दै उनले हत्यालगत्तै जाहेरी दिँदा पनि दोषीलाई उन्मुक्ति दिने नियतका साथ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/arabi-kha_5PqvU3GA1T.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T09:41:14+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590039/arabi-khan-murder-case-mothers-cry-for-justice-and-action-against-the-culprits",
+      "category": "national"
+    },
+    {
+      "title": "रसुवा बाढीपछि नुवाकोटका चार बस्ती जोखिममा",
+      "description": "नुवाकोट । भोटेकोशी हुँदै त्रिशूली नदीमा आएको बाढीको बहावपछि नुवाकोटको चार स्थानका बस्ती उच्च जोखिममा परेका छन् । त्रिशूली नदीको बहाव परिवर्तनसहित पटक–पटक आएको बाढीले जग्गा कटान गर्न थालेपछि ती वस्ती जोखिममा परेका हुन् । जिल्लाको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-flood_dPI8aFSk98.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T09:39:17+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590038/four-settlements-in-nuwakot-at-risk-after-rasuwa-flood",
+      "category": "national"
+    },
+    {
+      "title": "कास्की पहिरो अपडेट : दुई कामदारको मृत्यु",
+      "description": "कास्की । कास्कीको माछापुच्छ्रे गाउँपालिका–१ साँदलस्थित निर्माणाधीन सुपर सेती जलविद्युत् आयोजनाको पहुँचमार्ग (एक्सेस रोड) खन्ने क्रममा पहिरो खस्दा गम्भीर घाइते भएका दुई कामदारको उपचारका क्रममा मृत्यु भएको छ । मृत्यु हुनेमा धनकुटाको पाख्रीबास नगरपालिका–८ घर भई",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/kaski_zVE0A1gexY.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T09:34:59+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590035/kaski-landslide-update-two-workers-killed",
+      "category": "national"
+    },
+    {
+      "title": "माथिल्लो त्रिशूली जलविद्युत् आयोजनाबाट एक चिनियाँ नागरिकको जीवितै उद्धार",
+      "description": "नुवाकोट । माथिल्लो त्रिशूली–१ जलविद्युत् आयोजनाबाट एक जना चिनियाँ नागरिकको जीवितै उद्धार गरिएको छ । नेपाली सेना र कोरियाको ‘डिजास्टर’ टोलीले आज दिउँसो १ः२० बजे आयोजनाको अडिट–४ टनेलबाट चिनियाँ नागरिकको उद्धार गरेको नेपाली सेनाले जनाएको छ । गत भदौ १० गते रसुवाको भोटेकोशी नदीमा गएको भीषण बाढीका कारण उक्त आयोजनामा ठूलो क्षति पुगेको थियो ।",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-09-05T09:30:24+00:00",
+      "articleUrl": "https://clickmandu.com/2026/09/489079.html",
+      "category": "business"
+    },
+    {
+      "title": "सरकारले जोखिमयुक्त स्थानको बसोवास सार्नेगरी कानुन बनाउँदै",
+      "description": "भूमि व्यवस्था, सहकारी, सङ्‍घीय मामिला तथा सामान्य प्रशासन मन्त्रालयले तयार पारेको भूमि सम्बन्धी केही नेपाल ऐनलाई संशोधन गर्न बनेको विधेयकमा जोखिमयुक्त स्थानको बस्ती सार्नेसम्बन्धी प्रावधान राखिएको छ ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T09:30:21+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011191/government-enacting-laws-to-relocate-residents-from-risky-locations",
+      "category": "politics"
+    },
+    {
+      "title": "रसुवा बाढी प्रभावित घाइतेको उपचारमा सहयोग गर्न एमालेको रक्तदान कार्यक्रम",
+      "description": "काठमाडौँ । नेकपा एमाले सम्पर्क विशेष कमिटीले रसुवा बाढी घाइतेहरूको उपचारमा सहयोग पुर्‍याउने उद्देश्यले रक्तदान कार्यक्रम आयोजना गरेको छ । शनिबार एमाले पार्टी कार्यालय, च्यासलमा रक्तदान कार्यक्रम आयोजना गरिएको हो । कार्यक्रममा पार्टीका नेता, कार्यकर्ता",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/1788591647-l8nls_djQia1dvDo.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T09:28:43+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590034/umls-blood-donation-program-to-support-the-treatment-of-those-injured-in-the-rasuwa-flood",
+      "category": "politics"
+    },
+    {
+      "title": "शिक्षण अस्पतालको त्यो भित्ता : जहाँ आँसु र आशाहरू सँगै टाँसिएका छन्",
+      "description": "काठमाडौँ । महाराजगन्जस्थित त्रिभुवन विश्वविद्यालय शिक्षण अस्पतालको एउटा भित्ता अहिले सामान्य भित्ता रहेन । यो त आँसु, पर्खाइ र कहिल्यै नमर्ने आशाको मौन साक्षी बनेको छ । रसुवाको भोटेकोशी नदीमा आएको विनाशकारी बाढीले घर, बस्ती, पुल र",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/missing-picture-wall_QTwWPoKtdq.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T09:27:46+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590033/that-wall-of-the-teaching-hospital-where-tears-and-hopes-are-intertwined",
+      "category": "national"
+    },
+    {
+      "title": "व्यवसायीलाई उद्योग सचिवको आग्रह- ग्यास आपूर्तिमा मानवीय उत्तरदायित्व बुझिदिनुस्",
+      "description": "२० भदौ, काठमाडौं । उद्योग, वाणिज्य तथा आपूर्ति मन्त्रालयले बजारमा खाना पकाउने ग्यास (एलपी ग्यास) लगायतका दैनिक उपभोग्य वस्तुको आपूर्ति व्यवस्थालाई सामान्य तुल्याउन सरकारले हरसम्भव प्रयास गरिरहेको जनाएको छ । शनिबार काठमाडौंमा आयोजित ‘रसुवा बाढीपछिको आपूर्ति तथा मूल्य शृंखलामा परेको प्रभाव र चुनौती’ विषयक अन्तरक्रिया कार्यक्रममा बोल्दै मन्त्रालयका सहसचिव नेत्र",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Netra-subedi-udyog-sachib.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T09:24:26+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011188/industry-secretary-urges-businessmen-to-understand-human-responsibility-in-gas-supply",
+      "category": "national"
+    },
+    {
+      "title": "बाढीले 'बगाएर लडाइदिएको' घरमा जीवितै फेला परिन् चण्डिका श्रेष्ठ",
+      "description": "नुवाकोटको बेत्रावती बजारस्थित एउटा घरमा एक महिला जीवितै फेला परेकी र उनलाई उद्धार गरिएको सशस्त्र प्रहरी बलले जनाएको छ।",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/614f/live/6473c120-a90e-11f1-b109-879e35c24276.png",
+      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
+      "sourceName": "feeds.bbci.co.uk",
+      "publishedTime": "2026-09-05T09:21:52+00:00",
+      "articleUrl": "https://www.bbc.com/nepali/articles/c74kqevq2xgo?at_medium=RSS&at_campaign=rss",
+      "category": "national"
+    },
+    {
+      "title": "कास्कीमा पहिरोमा परी दुई जना गम्भीर घाइते",
+      "description": "कास्की । कास्कीको माछापुच्छ्रे गाउँपालिका-१ साँदलमा निर्माणाधीन सुपरसेती जलविद्युत् आयोजनाको पहुँचमार्ग(एस्सेस रोड) खन्ने क्रममा पहिरो खस्दा दुई जना कामदार गम्भीर घाइते भएका छन् । जिल्ला प्रशासन कार्यालय कास्कीका सूचना अधिकारी एवं सहायक प्रमुख जिल्ला अधिकारी चित्राङ्गत",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/kaski_zVE0A1gexY.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-05T09:21:41+00:00",
+      "articleUrl": "https://www.ratopati.com/story/590031/two-seriously-injured-in-landslide-in-kaski",
+      "category": "national"
+    },
+    {
+      "title": "रुस-युक्रेन युद्ध अन्त्य गर्न अमेरिकाको नयाँ प्रयास",
+      "description": "अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पले चार वर्षभन्दा लामो समयदेखि जारी युक्रेन युद्ध अन्त्य गर्ने प्रयासस्वरूप आफ्ना विशेष दूत स्टिभ विट्कफ र जेरेड कुशनरलाई मस्को र किएभ पठाउने घोषणा गरेका छन्।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/07/Russia-attack-Ukraine.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T09:20:20+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011185/new-us-effort-to-end-russia-ukraine-war",
+      "category": "national"
+    },
     {
       "title": "सिद्धार्थनगर में इलाज के दौरान दो वर्षीय बच्ची की मौत, परिजनों ने डॉक्टर पर लगाया लापरवाही का आरोप",
       "description": "‘हाड़ा’ विकास सिंह सिद्धार्थनगर : जिला मुख्यालय के निकट स्थित डॉ. संजय चौधरी हॉस्पिटल में शनिवार सुबह इलाज के दौरान दो वर्षीय बच्ची की मौत हो गई। घटना के बाद परिजनों ने चिकित्सकीय लापरवाही और इंजेक्शन की अधिक मात्रा दिए जाने का आरोप लगाते हुए अस्पताल परिसर में हंगामा किया। सूचना पर पहुंची पुलिस ने ... Read more The post सिद्धार्थनगर में इलाज के दौरान दो वर्ष",
@@ -43,6 +1107,16 @@
       "publishedTime": "2026-09-05T09:16:00+00:00",
       "articleUrl": "https://gorkhapatraonline.com/news/221477",
       "category": "national"
+    },
+    {
+      "title": "रास्वपा सांसद भण्डारीको प्रश्न- ग्यासको ढुवानी खर्च बढाउनुको वैज्ञानिक आधार के हो ?",
+      "description": "२० भदौ, काठमाडौं । राष्ट्रिय स्वतन्त्र पार्टीका सांसद बदन भण्डारीले खाना पकाउने एलपी ग्यासको ढुवानी खर्चमा गरिएको वृद्धिको वैज्ञानिक आधारमाथि प्रश्न उठाएका छन् । नेपाल आर्थिक पत्रकार समाज (सेजन) द्वारा राजधानीमा आयोजित ‘बाढीपहिरोपछिको आपूर्ति तथा मूल्य शृखंलामा परेको प्रभाव र चुनौती’ विषयक अन्तरक्रिया कार्यक्रममा बोल्दै सांसद भण्डारीले नेपाल आयल निगमले विपद्",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/badan-Bhandari.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T09:15:41+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011182/question-from-rashtriya-swayamsevak-sangh-rss-mp-bhandari-what-is-the-scientific-basis-for-increasing-the-cost-of-gas-transportation",
+      "category": "politics"
     },
     {
       "title": "अङ्ग्रेजलाई परास्त गरेको सम्झनामा भगवती रथयात्रा",
@@ -82,6 +1156,16 @@
       "sourceName": "गोरखापत्र",
       "publishedTime": "2026-09-05T09:13:29+00:00",
       "articleUrl": "https://gorkhapatraonline.com/news/221476",
+      "category": "national"
+    },
+    {
+      "title": "कङ्गोमा इबोला नियन्त्रण योजना सुरू",
+      "description": "स्वास्थ्य सुविधाहरूबाट वञ्चित रहेका समुदायहरूमा मृत्युको अनुपात उच्च रहेको विषयमा चिन्तित रहेको स्वास्थ्य अधिकारीहरूले जनाइएका छन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2016/07/ibola.jpeg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-05T09:13:01+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2011180/ebola-control-plan-launched-in-congo",
       "category": "national"
     },
     {
@@ -275,26 +1359,6 @@
       "category": "national"
     },
     {
-      "title": "बिछोडिएकी आमाप्रति समर्पित निर\\मला घिमिरेको ‘माइतीको आँगन’मा सार्वजनिक",
-      "description": "गीतमा शब्द तथा संगीत सुमन पण्डितको रहेको छ भने अशेष अधिकारीले संगीत निर्माताको जिम्मेवारी सम्हालेका छन्। गीतका संगीत संयोजक रमेश सेन्चुरी हुन्।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-09-05T08:43:00+00:00",
-      "articleUrl": "https://nepallive.com/story/349843",
-      "category": "national"
-    },
-    {
-      "title": "प्रधानमन्त्री राहत कोषमा ११ अर्बभन्दा बढी सङ्कलन",
-      "description": "काठमाडौँ । रसुवाका बाढी प्रभावितका लागि आर्थिक सहयोग जुट्ने क्रम बढ्दै गएको छ । नेपाल सरकारको प्रधानमन्त्री दैवी प्रकोप उद्धार कोष र प्रधानमन्त्री राहत कोषमा हाल रु ११ अर्ब पाँच करोड ५६ लाख २६ हजार",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/pm-office_mVEhVYJDSY.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-05T08:42:40+00:00",
-      "articleUrl": "https://www.ratopati.com/story/590021/over-11-billion-collected-in-prime-ministers-relief-fund",
-      "category": "politics"
-    },
-    {
       "title": "बदलिँदै भूमि ऐन, भूमिहीन दलितलाई जग्गा दिने उद्देश्य",
       "description": "२० भदौ, काठमाडौं । भूमि ऐन बदलिँदैछ । यसका निम्ति भूमि व्यवस्था, सहकारी, सङ्‍घीय मामिला तथा सामान्य प्रशासन मन्त्रालयले भूमि सम्बन्धी केही नेपाल ऐनलाई संशोधन गर्न बनेको विधेयक, २०८३ तयार पारेको छ । तयार विधेयक विधायन ऐनअनुसार सर्वसाधारणको राय लिन सार्वजनिक गरिएको छ । विधेयक तर्जुमा गर्नुपर्नको कारणमा लेखिएको छ, ‘भूमिहीन दलित र भूमिहीन सुकुमवासीलाई जग्गा […]",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/06/Prativa-rawal.jpg",
@@ -376,7 +1440,7 @@
     },
     {
       "title": "माथिल्लो त्रिशूली १ को सुरुङमा फसेका चिनियाँ कामदार र बेत्रावतीको घरबाट एक महिलाको जीवितै उद्धार",
-      "description": "भदौ १० गतेको बाढीका कारण प्रभावित माथिल्लो त्रिशूली १को अडिट ४ टनलबाट एक चिनियाँ कामदारको शनिवार जीवितै उद्धार गरिएको नेपाली सेनाले जनाएको छ।",
+      "description": "भदौ १० गतेको बाढीका कारण प्रभावित प्रभावित जलविद्युत् आयोजनाको सुरुङबाट एक र बेत्रावतीमा ढलेको एउटा चारतल्ले घरबाट एक गरी कुल दुई जनालाई शनिवार जीवितै उद्धार गरिएको छ।",
       "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/bdc1/live/393ffe80-a902-11f1-a754-35a7649119a8.jpg",
       "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
       "sourceName": "feeds.bbci.co.uk",
@@ -442,16 +1506,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-09-05T08:20:05+00:00",
       "articleUrl": "https://www.ratopati.com/story/590018/shrestha-who-was-found-alive-on-the-11th-day-was-able-to-speak-and-drank-water-provided-by-the-rescue-team",
-      "category": "national"
-    },
-    {
-      "title": "११औं दिन माथिल्लो त्रिशूली जलविद्युत् आयोजनाबाट एक चिनियाँ नागरिकको जीवितै उद्धार",
-      "description": "नुवाकोट । माथिल्लो त्रिशूली–१ जलविद्युत् आयोजनाबाट एक जना चिनियाँ नागरिकको जीवितै उद्धार गरिएको छ । नेपाली सेना र कोरियाको ‘डिजास्टर’ टोलीले आज दिउँसो १ः२० बजे आयोजनाको अडिट–४ टनेलबाट चिनियाँ नागरिकको उद्धार गरेको नेपाली सेनाले जनाएको छ । गत १० भदौमा रसुवाको भोटेकोशी नदीमा गएको भीषण बाढीका कारण सो आयोजनामा ठूलो क्षति पुगेको थियो । The post ११औं दिन माथिल्लो ",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-05T08:18:48+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/147129/",
       "category": "national"
     },
     {
@@ -555,7 +1609,7 @@
       "category": "national"
     },
     {
-      "title": "ग्यासको मूल्यवृद्धिबारे आयल निगमका प्रमुखको तर्क : मासुको तुलनामा ग्यास महँगो होइन",
+      "title": "ग्यास मूल्यवृद्धिबारे आयल निगम प्रमुखको तर्क : मासुको तुलनामा ग्यास महँगो होइन",
       "description": "सांसद तथा उपभोक्ता अधिकारकर्मीहरूले मूल्यवृद्धिको चर्को विरोध गरिरहेका बेला कार्यकारी निर्देशक साहले मासुको मूल्यसँग ग्यासको तुलना गरेका हुन्।",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Nagendra-Sah_edit.jpg",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
@@ -763,16 +1817,6 @@
       "publishedTime": "2026-09-05T07:27:36+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2011122/1344-bodies-found-in-rasuwa-floods-5000-missing",
       "category": "national"
-    },
-    {
-      "title": "‘रसुवा बाढीपछि नुवाकोटका चार बस्ती जोखिममा’",
-      "description": "त्रिशूली। भोटेकोशी हुँदै त्रिशूली नदीमा आएको बाढीको बहावपछि नुवाकोटको चार स्थानका बस्ती उच्च जोखिममा परेका छन्। त्रिशूली नदीको बहाव परिवर्तनसहित पटक–पटक आएको बाढीले जग्गा कटान गर्न थालेपछि ती वस्ती जोखिममा परेका हुन्। जिल्लाको पश्चिमतर्फ रहेको तारकेश्वर गाउँपालिका–४ को दर्शनटार क्षेत्रको बस्ती सबैभन्दा बढी प्रभावित भएको नुवाकोटका प्रमुख जिल्ला अधिकारी शम्भुप",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-05T07:23:59+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/05/four-settlements-in-nuwakot-at-risk-after-rasuwa-flood/",
-      "category": "business"
     },
     {
       "title": "स्कुटर र मिनी ट्रक ठोक्किँदा एक जनाको मृत्यु",
@@ -1392,7 +2436,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-05T04:47:10+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2011073/silicon-education-provides-rs-800000-assistance-to-flood-victims",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "भाद्र कृष्ण नवमीः श्रीकृष्ण रथयात्रा तथा शोभा यात्रा गरिँदै",
@@ -1493,16 +2537,6 @@
       "publishedTime": "2026-09-05T04:11:16+00:00",
       "articleUrl": "https://nepalsamaya.com/detail/145295",
       "category": "national"
-    },
-    {
-      "title": "सिरियामा बारुदी सुरुङको जोखिम कायमै, बालबालिका बढी प्रभावित",
-      "description": "यस्ता प्रयासबाट सर्वसाधारणलाई सुरक्षित रूपमा घर फर्किन र जोखिमबाट मुक्त भएर आफ्नो दैनिक जीवन पुनः सुरु गर्न सहयोग पुग्ने संयुक्त राष्ट्रसंघले जनाएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-05T04:10:08+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/05/landmine-risk-remains-in-syria-children-most-affected/",
-      "category": "business"
     },
     {
       "title": "बाढी प्रभावित ९ विद्यार्थीलाई एम्बिसन गुरु कलेजले पूर्ण छात्रवृत्ति दिने",
@@ -2112,7 +3146,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-05T01:29:48+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2011012/munni-distributing-relief-to-flood-victims",
-      "category": "national"
+      "category": "entertainment"
     },
     {
       "title": "नेपालमाथि भएको जलवायु अन्यायबारे विश्वव्यापी बहस",
@@ -2162,7 +3196,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-05T01:08:44+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2011003/jhingedau-2-song-jethani-deurani-released-aanchal-and-kekis-duet",
-      "category": "national"
+      "category": "entertainment"
     },
     {
       "title": "चोरी हुने डरले घरको छतमै स्कर्पियो पार्क, क्रेनको सहारामा उचालेर राखियो",
@@ -2222,7 +3256,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-05T00:56:54+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2010999/trailer-of-akshara-released-10-percent-of-earnings-to-be-donated-to-prime-ministers-fund",
-      "category": "politics"
+      "category": "entertainment"
     },
     {
       "title": "बाढी प्रभावित र उद्धारकर्मीलाई मनोपरामर्श",
@@ -3982,1036 +5016,6 @@
       "sourceName": "क्लिकमाण्डु",
       "publishedTime": "2026-09-04T12:20:45+00:00",
       "articleUrl": "https://clickmandu.com/2026/09/489000.html",
-      "category": "business"
-    },
-    {
-      "title": "भोटेकोशी बाढी : राहत, उद्धार र पुनर्स्थापनाका लागि अहिलेसम्म कति देशबाट आयो सहयोग?",
-      "description": "हालसम्म २९ देशसहित अन्तर्राष्ट्रिय संस्थाहरुले सहयोग गरेको परराष्ट्र मन्त्रालयले जनाएको छ ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-09-04T12:20:12+00:00",
-      "articleUrl": "https://nepallive.com/story/349800",
-      "category": "national"
-    },
-    {
-      "title": "धुर्कोटका सुन्तला बिक्री हुन थाले",
-      "description": "गुल्मी । तपाई सुन्तला कहिले खानुहुन्छ ? सामान्यतया कात्तिकको अन्तिमदेखि मंसिर र पौषसम्म । बढी नै रहेभने माघको पहिलो सातासम्म । तर गुल्मीमा भदौ महिनामा नै सुन्तला बिक्री भइरहेको छ भन्ने सुन्दा तपाइलाई अचम्म लाग्न सक्छ । तर अब अचम्म मान्नुपर्दैन । ’cause गुल्मीको धुर्केट गाउँपालिकामा उत्पादन भएका सुन्तला बजारमा बिक्रीको लागि राखिएको छ । […] The post धुर्कोटका ",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-04T12:19:51+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/147053/",
-      "category": "national"
-    },
-    {
-      "title": "‘भगवान श्रीकृष्णको महिमाले छोराको पुनर्जन्म भो’",
-      "description": "राजविराज । सप्तरीको तिलाठी कोइलाडी गाउँपालिका ४ साह टोलमा अवस्थित रामफल साह र कपुर देवी साह दम्पतिको घर र टोलमा अहिले खुशियाली छाएको छ । कार्यस्थलमा सुरुङ्गभित्र छिरेका बेला आएको भिषण बाढीले मृत्यू भएको हुन सक्ने आशंका गरिएका ३२ बर्षीय छोरा सञ्जय साह एक्कासी १० दिनपछि जिवितै उद्धार गरिएको खवर शुक्रबार विहान १० बजेतिर प्राप्त […] The post ‘भगवान श्रीकृष्णको म",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-04T12:17:44+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/147051/",
-      "category": "national"
-    },
-    {
-      "title": "बाढी प्रभावित क्षेत्रको स्थलगत अध्ययन गर्न निर्माण व्यवसायी महासङ्घको टोली त्रिशूलीमा",
-      "description": "नुवाकोट। नेपाल निर्माण व्यवसायी महासङ्घका अध्यक्ष निकोलस पाण्डेको नेतृत्वमा वरिष्ठ उपाध्यक्ष रामजी पन्त, उपाध्यक्ष बालकृष्ण थापा तथा जिल्ला निर्माण व्यवसायी संघ, नुवाकोटका पदाधिकारीसहितको संयुक्त टोली शुक्रबार रसुवा–भोटेकोसी बाढी प्रभावित क्षेत्रको स्थलगत निरीक्षण तथा अध्ययनका लागि",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/toli_DazgrAhya1.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T12:16:20+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589885/construction-entrepreneurs-federation-team-in-trishuli-to-conduct-on-site-study-of-flood-affected-areas",
-      "category": "national"
-    },
-    {
-      "title": "बाढीले बगाएका झोलुङ्गे पुलको मर्मत र निर्माणको प्रक्रिया शुरु",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-09-04T12:15:31+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/145269",
-      "category": "national"
-    },
-    {
-      "title": "‘ग्लोबल वार्मिङको सवालमा प्रधानमन्त्रीले नेपालको तर्फबाट महासभामा अपिल गर्नुपर्छ’",
-      "description": "भदौ १० गते बिहान नेपाल–चीन सीमास्थित भोटेकोशी–ल्हेन्दे नदीमा आएको विनाशकारी बाढीका कारण रसुवा, नुवाकोट, धादिङ, गोरखा र तनहुँ जिल्लाका नदी तटीय क्षेत्रमा जनधनको ठुलो क्षति भयो । हिउँ–चट्टानसहितको पहिरो नदीमा खस्दा बाढी आएको भूगर्भ विज्ञहरूले",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/lubharaj-neupane1_6OhN2Ew9kA.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T12:15:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589859/the-prime-minister-should-appeal-to-the-general-assembly-on-behalf-of-nepal-on-the-issue-of-global-warming",
-      "category": "politics"
-    },
-    {
-      "title": "आसियानसँग सम्बन्ध सुधार्दै म्यान्मा",
-      "description": "म्यान्माका राष्ट्रपति मिन आङ ह्लाइङ आसियानसँग सम्बन्ध सुधार तथा विदेशी लगानी आकर्षित गर्ने प्रयासस्वरूप शुक्रबार भियतनाम पुगेका छन्। सन् २०२१ को सैनिक सत्ता कब्जापछि क्षेत्रीय तथा अन्तर्राष्ट्रिय रूपमा बढेको कूटनीतिक एकान्तता अन्त्य गर्ने उनको प्रयासका रूपमा यो भ्रमणलाई हेरिएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/myanma.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T12:13:52+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010826/myanmar-improving-relations-with-asean",
-      "category": "national"
-    },
-    {
-      "title": "माथिल्लो त्रिशूली-३ ‘बी’ मा ठूला उपकरण पुर्‍याउनै सकस",
-      "description": "त्रिशूली ३ बी मा १९१ जना कर्मचारी तथा श्रमिकहरू सम्पर्कविहीन छन् । आयोजनाकी उपनिर्देशक लीला अर्यालका अनुसार खोजीका क्रममा अहिलेसम्म भवन वा मानिस रहेको कुनै संरचना भेटिएको छैन ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Trishuli-3-B.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T12:12:48+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010810/large-machines-are-about-to-be-delivered-to-upper-trishuli-3-b",
-      "category": "business"
-    },
-    {
-      "title": "सुदूरपश्चिममा धुमधामसँग गौरा पर्व मनाइँदै",
-      "description": "धनगढी । सुदूरपश्चिमको प्रमुख सांस्कृतिक पर्व गौरा शुक्रबार धुमधामका साथ मनाइँदै छ । गौरा पर्वअन्तर्गत शुक्रबारको दिनलाई ‘अठ्यावाली’ भनिन्छ । यस दिन गौरा घरमा भित्र्याइएको गौरालाई गौरा खलामा लगेर व्रतालु महिलाहरूले पूजाआजा गर्ने परम्परा छ । विरुडा पञ्चमीका दिन भिजाइएको पाँच प्रकारका गेडागुडी तथा अन्नबाट तयार पारिएको बिरुडाले गौरादेवीको पूजा गरिन्छ । व्रतालु म",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-04T12:10:28+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/147049/",
-      "category": "national"
-    },
-    {
-      "title": "भदौ २२ र २३ गते राहदानी विभागका सेवा नियमित सञ्चालन हुने",
-      "description": "राहदानी विभागले यही भदौ २२ र २३ गते विभागबाट प्रवाह हुँदै आएका सम्पूर्ण सेवाहरू नियमित रूपमा सञ्चालन हुने जनाएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2023/03/Rahadani-Bivag-2.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T12:07:06+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010820/passport-department-services-to-operate-regularly-on-bhadra-22-and-23",
-      "category": "national"
-    },
-    {
-      "title": "एनसेलका सिइओ माइकलले दिए पदबाट राजीनामा",
-      "description": "काठमाडौँ । एनसेलका प्रमुख कार्यकारी अधिकृत (सिइओ)ले राजीनामा दिएका छन् । एनसेलका सिइओ माइकल फोलेले पदबाट राजीनामा दिएका हुन् । उनले पारिवारिक कारण देखाउँदै पदबाट राजीनामा दिएको कम्पनीका एक अधिकारीले बताएका छन् । फोले गत वर्षको असोज अन्तिम सातामा एनसेलको सिइओ नियुक्त भएका थिए । माइकलको राजीनामा कम्पनीले भदौ ९ गते स्वीकृतसमेत गरिसकेको छ । Continue reading \"एनस",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-04T12:07:00+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/ncell-ceo-michael-resigns.html",
-      "category": "business"
-    },
-    {
-      "title": "नेपालकाे विपदमा चीनको अतुलनीय सहयोग, परराष्ट्रमन्त्रीले दिए धन्यवाद",
-      "description": "नेपालमा आएको विनाशकारी बाढी र पहिरोपछि छिमेकी चीनले उद्धार तथा राहतका लागि सहयोग थप तीव्र बनाएको छ। चीनको सहयोगले उद्दार र राहतमा सहयोग पुगेको मात्र छैन विस्थापितको व्यवस्थापन र पुनर्निर्माणमा पनि ठुलो भरोसा बढेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-09-04T12:06:05+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13650",
-      "category": "politics"
-    },
-    {
-      "title": "७ वर्षदेखि अल्झिएको राँके–गैँडे सडक : हिउँदमा धुलो, बर्खामा हिलो",
-      "description": "इलाम । पश्चिम इलामका बासिन्दालाई तराईसँग जोड्ने राँके–गैँडे सडक निर्माण सुरु भएको सात वर्ष बितिसक्दा पनि पूरा हुन सकेको छैन । २०७६ सालमा शिलान्यास गरिएको सडक निर्माणले गति लिन नसक्दा स्थानीयले वर्षौंदेखि हिउँदमा धुलो र बर्खामा हिलोमा यात्रा गर्नुपर्ने बाध्यता भोगिरहेका छन् । फाकफोकथुम हुँदै माङ्सेबुङ गाउँपालिका र झापासम्म जोडिने करिब ५२ किलोमिटर सडकको साढे [",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-04T12:05:52+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/147047/",
-      "category": "national"
-    },
-    {
-      "title": "राष्ट्रपतिले गरे पाटन कृष्ण मन्दिरको दर्शन, तस्बिरहरू",
-      "description": "काठमाडौँ। राष्ट्रपति रामचन्द्र पौडेल ललितपुरको पाटनस्थित कृष्ण मन्दिर पुगेर दर्शन गरेका छन्। श्रीकृष्ण जन्माष्टमी पर्वको अवसरमा शुक्रबार अपराह्न उनले मन्दिर दर्शन र पुजारीबाट फुल–प्रसाद ग्रहण गरे । ललितपुर–२ बाट निर्वाचित प्रतिनिधि सभा सदस्य जगदीश खरेल र",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/darsan_9txP2sxy9P.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T12:05:19+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589884/president-visits-patan-krishna-temple-photos",
-      "category": "politics"
-    },
-    {
-      "title": "वडाध्यक्षको सिफारिसका आधारमा बाढीपीडितलाई राहत दिइने",
-      "description": "१९ भदौ, काठमाडौं । राहत वितरण केन्द्र जिल्ला समन्वय समिति, नुवाकोटले वडाध्यक्षको सिफारिसमा बाढीपीडितलाई दैनिक उपभोग्य सामग्री उपलब्ध गराउने भएको छ । वडाध्यक्षको सिफारिस वा मौखिक जानकारीका आधारमा बाढीबाट प्रभावित, असाह्य, असक्त वा अन्य कुनै कारणले दैनिक उपभोगको सामान अभाव भएका व्यक्तिहरूले राहत लिन सक्ने नुवाकोटका प्रमुख जिल्ला अधिकारी शम्भुप्रसाद रेग्मीद्वार",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/Rahat-sankalan1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T12:03:33+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010788/to-be-given-to-flood-victims-based-on-the-recommendation-of-the-ward-chairperson",
-      "category": "national"
-    },
-    {
-      "title": "भारत र जापानबीच ऐतिहासिक टी-२०आई खेल हुने",
-      "description": "१९ भदौ, काठमाडौं । भारत र जापान पुरुष क्रिकेट टोलीबीच पहिलोपटक अन्तर्राष्ट्रिय टी–२० खेल हुने भएको छ । भारतीय क्रिकेट नियन्त्रण बोर्ड (बीसीसीआई) ले सेप्टेम्बर २२ मा जापानको तोचिगी प्रिफेक्चरस्थित सानो अन्तर्राष्ट्रिय क्रिकेट मैदानमा टी–२० अन्तर्राष्ट्रिय खेल हुने घोषणा गरेको हो । यो खेल भारत–जापान कूटनीतिक सम्बन्धको ७५औं वार्षिकोत्सवको औपचारिक सुरुवातका रूपम",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/idnia-japan.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T12:03:08+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010798/historic-t20i-match-to-be-played-between-india-and-japan",
-      "category": "national"
-    },
-    {
-      "title": "बाढीले क्षतिग्रस्त झोलुङ्गे पुलको मर्मत सुरु",
-      "description": "सरकारले रसुवाको भोटेकोशी नदीमा आएको भीषण बाढीले क्षति पुर्‍याइएका २० वटा झोलुङ्गे पुलको मर्मतमा सुरु भएको जनाएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Jholunge-pul.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T12:02:49+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010811/repairs-to-flood-damaged-suspension-bridge-begin",
-      "category": "national"
-    },
-    {
-      "title": "गुठी संस्थानले अतिक्रमण गरी निर्माण गरिएका संरचना हटाउने",
-      "description": "जनकपुरधाम । गुठी संस्थानले जनकपुरधाम उपमहानगरपालिकाभित्र गुठीअन्तर्गत रहेका विभिन्न पोखरी तथा पोखरीका डिल अतिक्रमण गरी निर्माण गरिएका संरचना हटाउने तयारी गरेको छ । गुठी संस्थान जनकपुरधामले आज सार्वजनिक सूचना जारी गर्दै गुठीअन्तर्गतका पोखरी तथा पोखरीका",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/dhanusa-district-map_7v2lwAYVYN.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T12:02:35+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589883/guthi-sansthan-to-remove-encroached-structures",
-      "category": "national"
-    },
-    {
-      "title": "देवीघाटमा बेलिब्रिज जडान गर्न सेनाले थाल्यो काम",
-      "description": "काठमाडौँ। बाढी र पहिरोले सडक सञ्जाल अवरुद्ध बनेपछि धादिङको बेनीघाटमा नेपाली सेनाले बेलिब्रिज जडानको काम सुरु गरेको सडक विभागले जनाएको छ । बाढीले पुल बगाएपछि ठप्प भएको यातायात सुचारु गर्न सेनाले सक्रियता देखाएको हो । सडक",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/nuwakot_cd0lnixuvi_QB9kZtR3FT.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T12:00:46+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589882/army-begins-work-to-install-bailey-bridge-in-benighat",
-      "category": "national"
-    },
-    {
-      "title": "एनसेलका सीईओ माइकल फोलेले दिए राजीनामा",
-      "description": "काठमाडौँ । नेपालमा विदेशी लगानीका लागि सहज वातावरण नरहेको र कम्पनी सञ्चालनमा विभिन्न कानुनी तथा नियामकीय चुनौती बढ्दै गएको भन्दै एनसेलका प्रमुख कार्यकारी अधिकृत (सीईओ) माइकल फोलेले राजीनामा दिएका छन्। फोलेले नियुक्ति पाएको एक वर्ष पनि",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/fole_Lkkh7DwCce.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T11:56:14+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589881/ncell-ceo-michael-foley-resigns",
-      "category": "national"
-    },
-    {
-      "title": "लक्ष्मी सनराइज बैंकले राहत कोषमा दियो ३ करोड २४ लाख",
-      "description": "१९ भदौ, काठमाडौं । १० भदौमा आएको विनाशकारी बाढीबाट प्रभावित नागरिकलाई राहत, उद्धार तथा पुनर्स्थापनाका लागि लक्ष्मी सनराइज बैंकले ३ करोड २४ लाख रुपैयाँ सहयोग गरेको छ । बैंकका तर्फबाट उक्त रकम बराबरको चेक अर्थमन्त्री डा. स्वार्णिम वाग्लेलाई प्रदान गरिएको छ । विपद्‌बाट प्रभावित समुदायको राहत तथा पुनर्स्थापनामा योगदान पुगोस् भन्ने उद्देश्यले उक्त रकम प्रधानमन्त्",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/laxmi_sunrise.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:55:33+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010802/lakshmi-sunrise-bank-donates-rs-32-4-million-to-relief-fund",
-      "category": "business"
-    },
-    {
-      "title": "डढेलोले नै गिज्याइरहेको ‘फायर वाचिङ टावर’",
-      "description": "सुर्खेत। वीरेन्द्रनगर उपत्यकाबाट नजिकै उत्तरतर्फको डाँडामा एउटा कंक्रिट संरचना उभिएको छ। माथिबाट सरिया निस्किएका छन्, तल सिँढी बनेको छ। तर, न पर्खाल छ, न झ्यालढोका, न रेलिङ। वरिपरि झाडी बाक्लिँदै गएको छ। कागजमा भने यो संरचनाको नाम छ, ‘देउती फायर वाचिङ टावर’। पाँच तलाको लागत अनुमान गरेर २०७५ सालमा यसको जग हालिएको थियो। २०७६ सालमा […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-04T11:53:48+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/04/the-fire-watch-tower-is-being-destroyed-by-the-fire/",
-      "category": "business"
-    },
-    {
-      "title": "श्रीकृष्ण जन्माष्टमीमा राष्ट्रपतिबाट पाटनको कृष्ण मन्दिरमा पूजाअर्चना",
-      "description": "श्रीकृष्ण जन्माष्टमी पर्वका अवसरमा राष्ट्रप्रमुखद्वारा हरेक वर्ष कृष्ण मन्दिरमा दर्शन गरी पूजाआजा गर्ने परम्परा छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Rastrapati-patan.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:53:14+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010803/president-offers-prayers-at-krishna-temple-in-patan-on-sri-krishna-janmashtami",
-      "category": "politics"
-    },
-    {
-      "title": "बाढीले ५३ झोलुङ्गे पुलमा क्षति, २० वटा मर्मत थालियो",
-      "description": "काठमाडौं । सरकारले रसुवाको भोटेकोशी नदीमा आएको भीषण बाढीले क्षति पुर्‍याइएका २० वटा झोलुङ्गे पुलको मर्मतमा सुरु भएको जनाएको छ। प्रधानमन्त्री तथा मन्त्रिपरिषद् कार्यालयका अनुसार बाढीले मुग्लिङदेखि टिमुरेसम्म रहेका ६४ वटा झोलुङ्गे पुलमध्ये ५३ वटामा क्षति पुर्‍याएको थियो। “सरकारी अधिकारीहरूले प्रभावित क्षेत्रमा पुगेर मूल्याङ्कन गर्दा क्षति पुगेका ५३ मध्ये २० वट",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-04T11:52:47+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/04/floods-damage-53-suspension-bridges-repairs-begin-on-20/",
-      "category": "business"
-    },
-    {
-      "title": "त्रिशूली–स्याफ्रुबेँसी सडक खुलाउन स्थानीयको अवरोध",
-      "description": "काठमाडौँ । अविरल वर्षा र पहिरोपछि अवरुद्ध बनेको उत्तर–दक्षिण व्यापारिक मार्ग त्रिशूली–स्याफ्रुबेँसी–रसुवागढी सडक खुलाउन सडक विभागले युद्धस्तरमा काम गरिरहेको भए पनि स्थानीयको अवरोध र भौगोलिक जटिलता मुख्य चुनौती बनेका छन् । सडक विभागका प्रवक्ता शुभराज न्यौपानेका",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-sadak_qxZ10knfFa.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T11:52:23+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589880/locals-obstruct-opening-of-trishuli-syafrubesi-road",
-      "category": "national"
-    },
-    {
-      "title": "बाढी प्रभावित क्षेत्रका क्यान्सर बिरामीको निःशुल्क उपचार हुने !",
-      "description": "काठमाडौँ । बाढी प्रभावित क्षेत्रका क्यान्सर बिरामीको निःशुल्क उपचार गरिने भएको छ । भक्तपुर क्यान्सर अस्पतालले भोटेकोशीमा आएको बाढीले क्षति पुर्याएका क्षेत्रका क्यान्सर बिरामीको निःशुल्क उपचार गरिदिने भएको हो । अस्पतालका अनुसार रसुवा, धादिङ, नुवाकोट र चितवन लगायतका बाढी प्रभावित क्षेत्रका क्यान्सर बिरामीको निःशुल्क उपचार गरिनेछ । निःशुल्क उपचार अन्तर्गत अस्पत",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-04T11:51:25+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/free-treatment-for-cancer-patients-in-flood-affected-areas.html",
-      "category": "business"
-    },
-    {
-      "title": "ऊर्जा सुरक्षा र विपद् उत्थानशीलता, हिमालय क्षेत्रमा बढ्दो चुनौती र सीमापार कूटनीतिको आवश्यकता",
-      "description": "एजेन्सी । नेपालको भोटेकोशी नदीमा हिमताल फुट्दा आएको विनाशकारी आकस्मिक बाढीले ऊर्जा सुरक्षाका लागि अत्यन्तै महत्त्वपूर्ण चिन्ता पैदा गरेको छ । यस आकस्मिक बाढीले रसुवा, नुवाकोट र धादिङ जिल्लाका प्रमुख जलविद्युत् पूर्वाधारहरू ध्वस्त पारेको छ र ऊर्जा सुरक्षाका लागि अत्यावश्यक मानिने महत्त्वपूर्ण पूर्वाधारहरूलाई भग्नावशेषमा परिणत गरिदिएको छ । तल्लो तटीय क्षेत्रका",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-04T11:51:20+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/488989.html",
-      "category": "business"
-    },
-    {
-      "title": "शरद ऋतुका लागि हिमाल आरोहण अनुमति दिन सुरु",
-      "description": "पर्यटन विभागका अनुसार बिहीबारसम्म कुल ३२ समूहका ३ सय ६७ आरोहीले आगामी आरोहण सिजनलाई हिमाल चढ्ने अनुमति लिइसकेका छन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2021/06/makalu-barun-8.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:51:03+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010796/mountain-climbing-permits-begin-for-autumn",
-      "category": "business"
-    },
-    {
-      "title": "एनआईसी एशिया बैंकका समाजिक सञ्जाल पोष्टहरु किन छन् ‘ब्लाक एण्ड ह्वाइट’ ?",
-      "description": "कठमाडौं । भदौ १० गते भोटेकोशीमा आएको भीषण बाढीले रसुवा, नुवाकोट, धादिङ लगायतका जिल्लाका स्याफ्रुबेँसी, बेत्रावती, त्रिशुलीजस्ता बजारहरु एकैछिनमा बगर बनाउँदै जनधनको ठूलो क्षति पुग्यो । बाढीले ठूलो प्रभाव पारेसँगै सरकारलाई साथ दिँदै निजी क्षेत्रले पनि सहयोगका हातहरु फैलाए । एनआईसी एशिया बैंकले पनि तत्कालै भोटेकोशी बाढी प्रभावित क्षेत्रमा राहत सहयोग उपलब्ध गराउ",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-04T11:49:51+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/488986.html",
-      "category": "business"
-    },
-    {
-      "title": "विपद्‌मा बाल संरक्षणलाई प्राथमिकता दिन आग्रह",
-      "description": "काठमाडौँ। बालबालिका शान्ति क्षेत्र राष्ट्रिय अभियान (सिजप) ले रसुवाको भोटेकोशी नदीमा आएको विनाशकारी बाढीमा बेपत्ता भएकाको खोजी तथा उद्धार कार्यलाई थप प्रभावकारी बनाउन सरकार र सम्बन्धित निकायसँग आग्रह गरेको छ। अभियानका अध्यक्ष तिलोत्तम पौडेल र महासचिव",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/balbalika_RSwtj6dtGc.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T11:48:40+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589879/urged-to-prioritize-child-protection-in-disasters",
-      "category": "national"
-    },
-    {
-      "title": "५ सय बेपत्ता र सयौं घर बगेको विदुर: नयाँ बस्ती बसाउन १० ठाउँ छानियो",
-      "description": "काठमाडौं । यही भदौ १० गते रसुवा क्षेत्रबाट आएको भोटेकोशी नदीको भीषण विनाशकारी बाढीका कारण नुवाकोटको विदुर नगरपालिकामा व्यापक क्षति पुगेको छ । बाढीका कारण विदुर नगरपालिकामा मात्रै १ हजार ७ सयभन्दा बढी घरधुरी प्रभावित भएका छन् भने ५ सय जनाभन्दा स्थायी बासिन्दा हराइरहेका छन् । तर, विदुरमा अन्य स्थानबाट व्यापार व्यवसाय गर्ने, रोजगारी गर्ने […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-04T11:47:44+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/488531.html",
-      "category": "business"
-    },
-    {
-      "title": "दोस्रो विश्वयुद्धपछि लामो समय पदमा रहने इटालीको प्रधानमन्त्री बनिन् जर्जिया मेलोनी",
-      "description": "जर्जिया मेलोनी दोस्रो विश्वयुद्धपछि इटालीमा सबैभन्दा लामो समय पदमा रहने प्रधानमन्त्री बनेकी छन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Gergia-Meloni.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:46:00+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010793/georgia-meloni-becomes-longest-serving-prime-minister-since-world-war-ii",
-      "category": "politics"
-    },
-    {
-      "title": "इटालीकी प्रधानमन्त्रीको सत्तामा रेकर्ड",
-      "description": "काठमाडाैँ। इटालीकी प्रधानमन्त्री जर्जिया मेलोनीले युद्धपछिको इतिहासमा सबैभन्दा लामो समय टिक्ने सरकारको नेतृत्व गरेको रेकर्ड बनाउँदै शुक्रबार दक्षिणी सहर बारीमा राजनीतिक र्‍याली आयोजना गरिएकाे छ । सन् २०२७ को निर्वाचनलाई लक्षित गरिएको र्‍यालीमा उनले सरकारका",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/Giorgia-Meloni1_MTrJymrrID_juUXd0d3AU.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T11:45:30+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589878/italian-prime-ministers-record-in-power",
-      "category": "politics"
-    },
-    {
-      "title": "उद्धार गरिएका व्यक्तिका आफन्त भन्छन्, ‘आश मरिसकेको थियो’",
-      "description": "त्रिशूली ३ए परियोजनाको सुरुङबाट उद्धार गरिएका सञ्जय साहका एक आफन्तले बीबीसीसँग कुरा गर्दै उनको जीवितै उद्धार हुने आशा आफूले करिबकरिब त्यागिसकेको बताएका छन्।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/374d/live/1258cc30-a852-11f1-b109-879e35c24276.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-09-04T11:45:12+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/c3wjx34n3gqo?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "पृथ्वी राजमार्गको चापले कान्ति लोकपथमा बढ्यो जोखिम, पहिरोको जोखिमबीच यातायात सुचारु",
-      "description": "काठमाडौं । पृथ्वी राजमार्गमा आएको अवरोधका कारण वैकल्पिक मार्गका रूपमा प्रयोग भइरहेको कान्ति लोकपथमा सवारीको चाप ह्वात्तै बढेको छ। लगातारको वर्षासँगै विभिन्न स्थानमा पहिरो खस्न थालेपछि अत्यधिक चाप रहेको कान्ति लोकपथको नियमित आवागमन व्यवस्थापनसमेत चुनौतीपूर्ण बन्दै गएको छ। हाल कान्ति लोकपथमा दैनिक एक हजारभन्दा बढी सवारी साधन सञ्चालन भइरहेका छन्। हेटौँडाबाट काठ",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-04T11:43:19+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/488975.html",
-      "category": "business"
-    },
-    {
-      "title": "शिक्षा तथा समाजसेवी लामाको निधन, शिक्षा क्षेत्रमा अपूरणीय क्षति",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-09-04T11:43:15+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13649",
-      "category": "national"
-    },
-    {
-      "title": "होर्मुजमा सेना पठाउने निर्णय भएको छैन : दक्षिण कोरिया",
-      "description": "दक्षिण कोरियाको राष्ट्रपति कार्यालयले होर्मुज स्ट्रेटमा सैन्य बल पठाउनेबारे हालसम्म कुनै निर्णय नभएको बताएको छ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/hormuj-1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:42:24+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010790/no-decision-has-been-made-to-send-troops-to-hormuz-south-korea",
-      "category": "national"
-    },
-    {
-      "title": "सुपर कम्प्युटरदेखि ई-लाइब्रेरीसम्मका सुविधासहित यस्तो बन्दैछ त्रिवि आईओएसटीको आफ्नै भवन",
-      "description": "काठमाडौं । त्रिभुवन विश्वविद्यालय विज्ञान तथा प्रविधि अध्ययन संस्थान (आईओएसटी) ले गत पुसमा आफ्नो ५३औँ वार्षिक दिवस मनायो । तर, स्थापना भएको पाँच दशकभन्दा बढी समय बितिसक्दा पनि संस्थानको आफ्नै प्रशासनिक भवन थिएन । हाल आईओएसटीको कार्यालय त्रिभुवन विश्वविद्यालयको पुरानो भीसी कार्यालय भवनबाट चल्दै आएको छ । यो भवन ०७२ सालको भूकम्पले पुर्‍याएको क्षतिका कारण अत्यन्",
-      "imageUrl": "",
-      "sourceLogo": "https://www.techpana.com/favicon.ico",
-      "sourceName": "टेकपाना",
-      "publishedTime": "2026-09-04T11:39:05+00:00",
-      "articleUrl": "https://techpana.com/2026/158906/iost-new-administrative-building-inaugurated",
-      "category": "technology"
-    },
-    {
-      "title": "इरानको विवाह समारोहमा भएको विष्फोटबारे अमेरिकी सेनाले छानबिन गर्ने",
-      "description": "१९ भदौ, काठमाडौं । इरानमा मङ्गलबार भएको सैन्य आक्रमणका क्रममा एक विवाह समारोहमा नागरिक हताहत भएको घटनाबारे अमेरिकी सेन्ट्रल कमान्ड (सेन्टकम) ले समीक्षा सुरु गरेको छ। अमेरिकी अधिकारीहरूले एक्सियोसलाई यो जानकारी दिएका छन्। उक्त घटना अमेरिकी आक्रमणकै कारण भएको पुष्टि भइनसके पनि यो छ महिनाअघि युद्ध सुरु भएयताकै ठूलो नागरिक हताहतीको घटनामध्ये एक हो। युद्धको […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/iran.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:38:39+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010785/us-military-to-investigate-iran-wedding-blast",
-      "category": "national"
-    },
-    {
-      "title": "विराटनगर राधाकृष्ण रथयात्राः एसियाकै लोकप्रिय धार्मिक रथयात्रा",
-      "description": "यतिबेला विराटनगर महानगर श्रीकृष्ण जन्माष्टमीको उल्लासमा रङ्गिएको छ । टोल–बस्ती, चोक–चोक र घर–आँगनमा श्रीकृष्ण जन्माष्टमीको तयारी पुराभई राधाकृष्ण रथयात्रा चलिरहेको छ । भक्ति, श्रद्धा, उत्साह र सामाजिक सद्भावको अद्भुत संगमका रूपमा मनाइने विराटनगरको राधाकृष्ण रथयात्रा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/radha-krishna-rath-1724734946_DLOtrNqSvI.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T11:37:56+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589876/biratnagar-radha-krishna-rath-yatra-asias-most-popular-religious-chariot-festival",
-      "category": "national"
-    },
-    {
-      "title": "प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा राहत दाखिला गर्ने बढ्दै",
-      "description": "काठमाडौँ। प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा राहत दाखिला गर्ने दाताहरुको सङ्ख्या बढ्दै गएको छ। भोटेकोशी बाढीपीडितलाई राहत, उद्धार तथा पुनःस्थापना गर्न दाताहरुले राहत कोषमा रकम दाखिला गर्ने क्रम बढ्दै गएको हो। गुल्मी : भोटेकोशी बाढीबाट प्रभावित",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-badhi_RZyG7YxI01.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T11:37:50+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589875/donations-to-the-prime-ministers-disaster-relief-fund-are-increasing",
-      "category": "politics"
-    },
-    {
-      "title": "शिक्षक हत्यामा संलग्न आरोपी भरुवा बन्दुकसहित पक्राउ",
-      "description": "काठमाडौँ । । सङ्खुवासभाको मकालु गाउँपालिका–१ स्थित कालिका आधारभूत विद्यालयका शिक्षकको हत्यामा संलग्न आरोपमा प्रहरीले एक जनालाई पक्राउ गरेको छ । बिहीबार साँझ ३६ वर्षीय शिक्षक नरकुबिर खम्बु राईको गोली प्रहारबाट हत्या भएको थियो । हत्यामा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/pakrau-arrest_cFmetVHVbw.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T11:37:03+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589874/accused-in-teacher-murder-arrested-with-loaded-gun",
-      "category": "national"
-    },
-    {
-      "title": "आठ रात नौ दिनमा सकियो भक्तपुरको गाईजात्रा",
-      "description": "आठ रात नौ दिन चल्ने यो जात्रा कृष्ण जन्माष्टमीको दिन कृष्णलाई नगर परिक्रमा गराएर सम्पन्न भएको हो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/gaijatra.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:34:36+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010772/eight-nights-and-nine-days-bhaktapurs-gaijatra-ends",
-      "category": "national"
-    },
-    {
-      "title": "बाढीले बगाएर ल्याएका मृत पशुको व्यवस्थापन गर्दै भरतपुर",
-      "description": "बाढीले बगाएर ल्याएका मृत पशु नारायणी नदी किनारमा छरपस्ट भएपछि भरतपुर महानगरपालिकाले तिनको व्यवस्थापन थालेको हो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/badhi-4.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:33:41+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010775/bharatpur-managing-dead-animals-washed-away-by-floods",
-      "category": "national"
-    },
-    {
-      "title": "एमाले अध्यक्ष ओली बाढी प्रभावित क्षेत्रमा",
-      "description": "काठमाडौं । नेपाल कम्युनिष्ट पार्टी (एमाले) का अध्यक्ष एवं पूर्व प्रधानमन्त्री केपी शर्मा ओली नेतृत्वको टोली राहत सामग्रीसहित बाढी प्रभावित क्षेत्र नुवाकोटको विदुर पुगेको छ। अध्यक्ष ओली नेतृत्वको टोलीले बाढीबाट प्रभावित क्षेत्रको स्थलगत अवलोकन गर्नुका साथै पीडितको अवस्था, उद्धार तथा राहत वितरणका विषयमा जानकारी लिने पार्टीका सचिव एवं बागमती प्रदेशका इन्चार्ज म",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-04T11:30:36+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/04/uml-chairman-oli-in-flood-affected-areas/",
-      "category": "business"
-    },
-    {
-      "title": "अन्डाको मूल्यमा उच्च रेकर्ड",
-      "description": "यसअघि ४ भदौमा तोकिएको मूल्य अनुसार एक्सएल आकारको अन्डाको फार्म मूल्य प्रतिक्रेट ५ सय ९० रहेकोमा अब ६ सय ५ रुपैयाँ पुगेको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/02/egg.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:30:03+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010716/egg-prices-hit-record-high",
-      "category": "business"
-    },
-    {
-      "title": "२९ देशबाट आइसक्यो आपत्‌कालीन राहत र आर्थिक सहयोग",
-      "description": "युरोपेली संघ, एसियाली विकास बैंक, विश्व बैंक, संयुक्त राष्ट्रसंघलगायत अन्य मित्रराष्ट्र तथा अन्तर्राष्ट्रिय संघसंस्थाहरूले पनि सहयोग प्रदान गरेका छन् । व्यक्तिगत र सामाजिक संस्थाहरूले पनि नेपाललाई सहयोगको घोषणा गरेका छन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Austrailian-Aid.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:27:25+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010765/emergency-relief-and-financial-assistance-have-arrived-from-29-countries",
-      "category": "national"
-    },
-    {
-      "title": "रसुवा बाढीले क्षति पुर्‍याएका २० झोलुङ्गे पुलको मर्मतका लागि युद्धस्तरमा काम गर्दै सरकार",
-      "description": "काठमाडौं । रसुवा बाढीले क्षति पुर्‍याएका २० वटा झोलुङ्गे पुलको मर्मतमा सरकार युद्धस्तरमा लागेको छ । भदौ १० गते आएको बाढीले मुग्लिङदेखि टिमुरेसम्म रहेका ६४ वटा झोलुङ्गे पुलमध्ये ५३ वटामा क्षति पुर्‍याएको थियो । सरकारी अधिकारीहरूले प्रभावित क्षेत्रमा पुगेर मूल्याङ्कन गर्दा क्षति पुगेका ५३ मध्ये २० वटा झोलुङ्गे पुलको मर्मत गर्नुपर्ने निष्कर्ष निकालेका थिए । […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-04T11:26:52+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/488961.html",
-      "category": "business"
-    },
-    {
-      "title": "मोरङ कारागारमा झडप : १९ जनालाई अन्यत्रै सारिँदै",
-      "description": "विराटनगर । जिल्ला कारागार मोरङको ‘बी’ ब्लकभित्र लामो समयदेखि अराजक मच्याउँदै आएका एउटा समूहलाई अन्य कैदीबन्दीले नै विद्रोह गरी बाहिर निकालेका छन्। कारागारभित्र आतंक सिर्जना गर्ने, कैदीबन्दीलाई यातना दिने र प्रशासनलाई समेत चुनौती दिने १९ जनाको समूहलाई शुक्रबार सुरक्षाकर्मीले नियन्त्रणमा लिएर जिल्ला प्रहरी कार्यालय मोरङ पुर्‍याएको हो। शुक्रबार अपराह्न कारागारभ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-04T11:23:20+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/04/clashes-at-morang-prison-19-inmates-being-transferred-elsewhere/",
-      "category": "business"
-    },
-    {
-      "title": "बुद्ध एयरको नयाँ सिरिजको जहाज आजदेखि व्यावसायिक उडानमा",
-      "description": "शुक्रबार बिहान दर्ता नम्बर ‘९एन-एओएस’ जहाजले काठमाडौं-नेपालगञ्जका लागि पहिलो व्यावसायिक उडान गरेको हो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Buddha-Air-9N-AOS.jpeg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:19:39+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010710/buddha-airs-new-series-of-aircraft-to-begin-commercial-flights-today",
-      "category": "business"
-    },
-    {
-      "title": "फुटबलर भरत खवास मेजर पदमा बढुवा",
-      "description": "१९ भदौ, काठमाडौं । नेपाली राष्ट्रिय फुटबल टोलीका फरवार्ड भरत खवास नेपाली सेनाको मेजर पदमा बढुवा भएका छन् । त्रिभुवन आर्मी क्लबबाट घरेलु फुटबल खेल्दै आएका खवास यसअघि क्याप्टेन पदमा कार्यरत थिए । पछिल्लो समय उनी बाढीपीडितको उद्धार तथा राहत कार्यमा सक्रिय रूपमा खटिइरहेका छन् । उद्धार अभियानकै बीच नुवाकोटस्थित नेपाली सेनाको ब्यारेकमा उनलाई मेजरको […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/bharat-khawas-2.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T11:13:46+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010754/footballer-bharat-khawas-promoted-to-the-rank-of-major",
-      "category": "national"
-    },
-    {
-      "title": "बाढीमा ज्यान गुमाएका प्रहरीका परिवारले २० लाख ४० हजार पाउने, प्रहरी कल्याण कोषबाट लिएको ऋण मिनाहा हुने !",
-      "description": "काठमाडौँ । भोटेकोशीमा आएको बाढीमा परेर ज्यान गुमाएका प्रहरी कर्मचारीका परिवारले २० लाख बढी पाउने भएका छन् । नेपाल प्रहरीका अनुसार बाढीमा परेर ज्यान गुमाएका प्रहरीका परिवारले प्रतिपरिवार २० लाख ४० हजार रुपैयाँ पाउने भएका हुन् । २० लाखमध्ये कल्याण कोषबाट ३ लाख, कल्याण कोषबाटै ४० हजार (काजक्रिया खर्च), राष्ट्रिय वाणिज्य बैंकबाट बीमाबापत ५ लाख Continue reading \"",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-04T10:59:05+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/families-of-police-personnel-killed-in-floods-to-get-rs-2-million-40000-loan-from-police-welfare-fund.html",
-      "category": "business"
-    },
-    {
-      "title": "बाढीको मूल्य : नेपालले कसरी पाउनसक्छ क्षतिपूर्ति ?",
-      "description": "विपत्तिले सामाजिक सम्बन्धमा पुर्‍याउने क्षतिलाई पनि छुट्टै हेर्नुपर्छ। परिवारहरू विस्थापित हुँदा, गाउँहरू खाली हुँदा, मानिसहरू फरक ठाउँमा बसाइँ सर्दा र स्थानीय संस्थाहरू कमजोर हुँदा सामाजिक पुँजी क्षय हुन सक्छ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Ram-gurung-2.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T10:54:42+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010744/the-cost-of-floods-how-can-nepal-get-compensation",
-      "category": "national"
-    },
-    {
-      "title": "मेलोनीको सत्तामा रेकर्ड",
-      "description": "रोम । इटालीकी प्रधानमन्त्री जर्जिया मेलोनीले युद्धपछिको इतिहासमा सबैभन्दा लामो समय टिक्ने सरकारको नेतृत्व गरेको रेकर्ड बनाउँदै शुक्रबार दक्षिणी सहर बारीमा राजनीतिक र्‍याली आयोजना गरेकी छन्। सन् २०२७ को निर्वाचनलाई लक्षित गरिएको र्‍यालीमा उनले सरकारका उपलब्धि प्रस्तुत गर्दै समर्थकलाई आगामी चुनावका लागि एकजुट गर्ने अपेक्षा गरिएको छ। मेलोनीको सरकारले शुक्रबार ए",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-04T10:53:23+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/04/melonis-record-in-power/",
-      "category": "business"
-    },
-    {
-      "title": "मौसम खराबीका कारण रसुवागढी हाइड्रोपावरमा उद्धारका उपकरण पुर्‍याउनै समस्या",
-      "description": "१९ भदौ, काठमाडौं । भोटेकोशीमा आएको बाढीपछि रसुवागढी हाइड्रोपावर कम्पनी लिमिटेडका ९३ जना अझै सम्पर्कविहीन छन् । उनीहरूको खोजी तथा उद्धार प्रयास जारी रहे पनि मौसम खराबी कारण आवश्यक उपकरण आयोजनास्थलसम्म पुर्‍याउन नसक्दा उद्धार कार्य प्रभावित आयोजनाले जनाएको छ । कम्पनीका सचिव नरनाथ न्यौपानेका अनुसार सम्पर्कविहीन हुनेमा नियमित कर्मचारी ५१ जना, सञ्चालक एक जना, दैन",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T10:53:12+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010749/difficulties-in-delivering-rescue-equipment-to-rasuwagadhi-hydropower-due-to-bad-weather",
-      "category": "national"
-    },
-    {
-      "title": "रसुवा तथा आसपासका बाढी प्रभावित समुदायलाई दराज नेपालको सहयोग",
-      "description": "काठमाडौं / बाढी तथा पहिरोबाट प्रभावित रसुवा र आसपासका क्षेत्रका समुदायलाई सहयोग पुर्‍याउने उद्देश्यले दराज नेपालले राहत तथा सहयोग अभियान सञ्चालन गरेको छ। प्राकृतिक विपत्तिबाट प्रभावित स्थानीय बासिन्दाको तत्कालीन आवश्यकता सम्बोधन गर्न कम्पनीले आवश्यक राहत सामग्री तथा सहयोग उपलब्ध गराएको जनाएको छ । बाढीका कारण घरपरिवार, दैनिक जनजीवन तथा स्थानीय पूर्वाधारमा असर",
-      "imageUrl": "",
-      "sourceLogo": "https://bankingkhabar.com/favicon.ico",
-      "sourceName": "बैंकिङ खबर",
-      "publishedTime": "2026-09-04T10:46:22+00:00",
-      "articleUrl": "https://bankingkhabar.com/archives/167934",
-      "category": "business"
-    },
-    {
-      "title": "गरिमा विकास बैंकले सेयरधनीलाई २० प्रतिशत लाभांश दिने",
-      "description": "काठमाडौँ । गरिमा विकास बैंक लिमिटेडले आफ्ना सेयरधनीलाई २० प्रतिशत लाभांश दिने भएको छ । बैंकले गत आर्थिक वर्षको मुनाफाबाट आफ्ना सेयरधनीलाई १० प्रतिशत बोनस सेयर र १० प्रतिशत नगद लाभांश गरी कुल २० प्रतिशत लाभांश दिने प्रस्ताव गरेको हो । प्रस्तावित लाभांश नेपाल राष्ट्र बैंकबाट स्वीकृति प्राप्त भई विकास बैंकको आगामी वार्षिक साधारण–सभाबाट पारित Continue reading \"ग",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-04T10:43:14+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/garima-bikas-bank-to-provide-20-dividend-to-shareholders.html",
-      "category": "business"
-    },
-    {
-      "title": "एक महिनामै अस्वाभाविक महँगियो भान्सा",
-      "description": "काठमाडौं । एक महिनाको अवधिमा काठमाडौंको थोक तरकारी बजारमा केही वस्तुको मूल्य अस्वाभाविक रूपमा बढेको पाइएको छ । कालीमाटी फलफूल तथा तरकारी बजार विकास समितिको १८ साउन र १८ भदौको मूल्य तुलना गर्दा केही तरकारी तथा फलफूलको मूल्य ४० प्रतिशतदेखि २६० प्रतिशतसम्म बढेको देखिन्छ भने केहीको मूल्य दोब्बरभन्दा बढी बढेको छ । २६० प्रतिशतसम्म मूल्यबृद्धि […] The post एक महिना",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-04T10:35:06+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/147045/",
-      "category": "national"
-    },
-    {
-      "title": "त्रिशूली– ३ ‘ए’ को सुरुङमा सेनासँगै विद्युत् प्राधिकरणका कर्मचारी पनि खटिए",
-      "description": "१९ भदौ, काठमाडौं । माथिल्लो त्रिशूली– ३ ‘ए’ जलविद्युत् आयोजनाको सुरुङमा फसेका थप मानिसहरुको खोजी र उद्धारका लागि नेपाली सेनासँग नेपाल विद्युत प्राधिकरणका कर्मचारी पनि सुरुङमा प्रवेश गरेका छन् । जमिनमुनि रहेको विद्युत् गृहमा खोजी तथा उद्धारका लागि सम्भावित ठाउँहरू पत्ता लगाउन विद्युत् प्राधिकरणका प्राविधिकहरु सेनासँगै सुरुङमा प्रवेश गरेका हुन् । ९ दिनसम्मको न",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T10:31:58+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010738/electricity-authority-employees-were-also-deployed-along-with-the-army-in-the-trishuli-3-a-tunnel",
-      "category": "national"
-    },
-    {
-      "title": "एफवानसफ्ट ग्रुपद्वारा बाढीपीडितका लागि १ करोड ३५ लाख सहयोग",
-      "description": "काठमाडौं । एफवानसफ्ट ग्रुपले हालै आएको बाढीबाट प्रभावित नागरिकको राहत तथा पुनःस्थापनाका लागि १ करोड ३५ लाख रुपैयाँ सहयोग गरेको छ । एफवानसफ्ट ग्रुपअन्तर्गतका इसेवा, फोनपे, एफवानसफ्ट इन्टरनेशनल, ईसेवा मनि ट्रान्स्फर तथा ग्रुप कम्पनीका कर्मचारीहरूको संयुक्त पहलमा उक्त रकम प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा जम्मा गरिएको हो । बाढीबाट प्रभावित व्यक्ति, परिवार ",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-04T10:31:42+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/f1soft-group-donates-rs-1-35-crore-to-flood-victims.html",
-      "category": "business"
-    },
-    {
-      "title": "रसुवा बाढी : उपचाररत २ जनाको मृत्यु",
-      "description": "१९ भदौ, काठमाडौं । रसुवा बाढीमा परेर घाइते भएकामध्ये दुई जनाको मृत्यु भएको छ । नेपाल प्रहरीका अनुसार, त्रिवि शिक्षण अस्पतालमा उपचाररत एक जना र राष्ट्रिय ट्रमा सेन्टरमा उपचाररत एक जना गरी दुई जनाको मृत्यु भएको हो । मृत्यु भएकाको नाम भने प्रहरीले सार्वजनिक गरेको छैन ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T10:28:17+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010736/rasuwa-flood-2-people-undergoing-treatment-die",
-      "category": "national"
-    },
-    {
-      "title": "यी नेपाली, जसका कारण रसुवा-भोटेकोशी बाढीपीडितका लागि एनभिडियाबाट डेढ अर्ब बढीको सहयोग जुट्यो",
-      "description": "काठमाडौं । १० भदौमा रसुवाको भोटेकोशी नदीमा आएको विनाशकारी बाढीपछि उद्धार, राहत वितरण तथा पुनर्स्थापनाका लागि विश्वभरबाट सहयोग जुट्ने क्रम जारी छ । एप्पलको घोषणा लगत्तै अन्तर्राष्ट्रिय नेपाली समुदायको सक्रियतामा विश्वविख्यात अमेरिकी प्रविधि कम्पनी एनभिडिया समेत यसमा जोडिएको छ । कम्पनीले नेपाललाई एक करोड अमेरिकी डलर (करिब १ अर्ब ५३ करोड रुपैयाँभन्दा बढी) को सह",
-      "imageUrl": "",
-      "sourceLogo": "https://www.techpana.com/favicon.ico",
-      "sourceName": "टेकपाना",
-      "publishedTime": "2026-09-04T10:26:36+00:00",
-      "articleUrl": "https://techpana.com/2026/158905/nepali-behind-nvidia-1-crore-dollar-aid-for-nepal-flood-victims",
-      "category": "technology"
-    },
-    {
-      "title": "बुवा बाढीमा बगे, ११ वर्षीया छोरी किरिया गर्दैछिन्",
-      "description": "हात समातेर विद्यालय जाने, रहरहरू भन्ने र साथीभाइसँग खेल्दै रमाउने उमेरमा ११ वर्षीया खुश्वु कार्की भोटेकोशी बाढीमा बेपत्ता बुवाको किरिया गर्न विवश छिन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Rasuwa-Uttargaya-11-scaled.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T10:22:08+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010730/father-washed-away-in-flood-11-year-old-daughter-is-working-as-a-maid",
-      "category": "national"
-    },
-    {
-      "title": "बेलीब्रिज र फरेन्सिक टोलीसहित चीनको तेस्रो खेप सहयोग",
-      "description": "काठमाडौं । चीनले रसुवा भोटेकोशी बाढीपीडितको उद्धार, राहत तथा पुनस्र्थापनाका लागि पठाएको तेस्रो खेप सहयोग काठमाडौं आइपुगेको छ । चिनियाँ जनमुक्ति सेना (पीएलए)को वाई–२० ए जहाजले राहत सामग्रीहरु बिहीबार काठमाडौंमा ल्याएको हो । राहत सामग्री नेपालका लागि चीनियाँ राजदूत चाङ माओमिङले विज्ञान तथा नवप्रवर्तनमन्त्री महावीर पुनलाई विमानस्थलमै हस्तान्तरण गरे । चीनियाँ जन",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-04T10:21:38+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/147044/",
-      "category": "national"
-    },
-    {
-      "title": "बाढीपछि चीनतर्फ फसेका थप १५५ नेपाली तातोपानी नाका हुँदै स्वदेश फर्किए",
-      "description": "१९ भदौ, सिन्धुपाल्चोक । रसुवामा आएको विनाशकारी बाढीका कारण चीनतर्फ फसेका थप १५५ जना नेपाली शुक्रबार तातोपानी नाका हुँदै स्वदेश फर्किएका छन् । चिनियाँ पक्षले उनीहरूलाई सुरक्षित रूपमा तातोपानी नाकाको लिपिङ क्षेत्रमा ल्याएर नेपाली अधिकारीको जिम्मा लगाएको हो । बाढीपछि चीनतर्फ फसेका नेपालीलाई स्वदेश फर्काउने क्रममा पहिलो दिन बिहीबार ११४ जना र दोस्रो दिन शुक्रबार ",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T10:20:08+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010728/another-155-nepalis-stranded-in-china-after-floods-return-home-via-tatopani-border-crossing",
-      "category": "national"
-    },
-    {
-      "title": "छिमेक लघुवित्तद्वारा बाढीपीडितका लागि ४१ लाखभन्दा बढी सहयोग",
-      "description": "काठमाडौं । छिमेक लघुवित्त वित्तीय संस्था लिमिटेडले भोटेकोशी नदीमा आएको विनाशकारी बाढीबाट प्रभावित नागरिकको राहत तथा उद्धारका लागि ४१ लाख ३९ हजार ७५२ रुपैयाँ सहयोग गरेको छ । संस्थाले सरकारको राहत तथा उद्धार अभियानमा सहयोग पुर्‍याउने उद्देश्यले संस्थाको तर्फबाट ३० लाख रुपैयाँ र कर्मचारीहरूबाट संकलित ११ लाख ३९ हजार ७५२ रुपैयाँ गरी कुल ४१ लाख Continue reading \"छ",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-04T10:06:48+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/neighbourhood-microfinance-extends-over-rs-41-lakh-to-flood-victims.html",
-      "category": "business"
-    },
-    {
-      "title": "पहिरो खसेपछि दार्चुलाको चौलानी नदी थुनिने जोखिम, तटीय क्षेत्रका बासिन्दालाई सतर्क रहन आग्रह",
-      "description": "प्रमुख जिल्ला अधिकारी वर्तराज पौडेलका अनुसार पहिरो गएको क्षेत्रमा हालसम्म क्षतिको आधिकारिक विवरण प्राप्त भएको छैन। घटनास्थलको अवस्थाबारे बुझ्न प्रहरी टोली परिचालन गरिएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-09-04T09:59:01+00:00",
-      "articleUrl": "https://nepallive.com/story/349795",
-      "category": "national"
-    },
-    {
-      "title": "नाडाद्वारा बाढीपीडितका लागि १० लाख सहयोग",
-      "description": "काठमाडौं । नाडा अटोमोवाइल्स एशोसिएशन अफ नेपालले रसुवा लगायतका बाढी प्रभावित क्षेत्रका नागरिकको राहत तथा पुनःस्थापनाका लागि १० लाख रुपैयाँ सहयोग गरेको छ । नाडाका अध्यक्ष सुरेन्द्रकुमार उप्रेतीको नेतृत्वमा गएको प्रतिनिधिमण्डलले शुक्रबार अर्थमन्त्री डा. स्वर्णिम वाग्लेलाई भेट गरी प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा जम्मा हुने गरी १० लाख रुपैयाँको चेक हस्तान्",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-04T09:58:55+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/nada-donates-rs-10-lakh-to-flood-victims.html",
-      "category": "business"
-    },
-    {
-      "title": "नयाँ अध्ययनको खुलासा, भारतको अरुणाचल प्रदेशका दुई हिमतालहरू विस्फोटको उच्च जोखिममा",
-      "description": "एजेन्सी । एउटा नयाँ अध्ययनले अरुणाचल प्रदेशका दुईवटा उच्च हिमाली तालहरूलाई हिमनदी विस्फोटनजन्य बाढी (जीएलओएफ) निम्त्याउने उच्च जोखिममा रहेको पहिचान गरेको छ भने अन्य ३६ वटालाई मध्यम जोखिममा वर्गीकरण गरिएको छ । यसले गर्दा यस्ता विपद्प्रति राज्यको संवेदनशीलताका बारेमा चिन्ता बढाएको छ । ‘डिस्कभर हाजार्ड्स’ मा प्रकाशित उक्त अध्ययनले अरुणाचल प्रदेशभरिका १२७ वटा ता",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-04T09:57:29+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/488888.html",
-      "category": "business"
-    },
-    {
-      "title": "जोखिममा रहेका हिमतालको ‘म्यापिङ’ र अनुगमन सुरु गर्नुपर्छ : अभिनेता खड्का (अन्तर्वार्ता)",
-      "description": "काठमाडौँ । नेपाली चलचित्र क्षेत्रका स्थापित र लोकप्रिय अभिनेता प्रदीप खड्का पछिल्लो समय क्यामेरा र लाइटको घेरासँगै प्रकृतिको संरक्षणमा सशक्त आवाज उठाइरहेका छन् । कर्णाली अन्तरराष्ट्रिय चलचित्र महोत्सवका ‘जलवायु सद्भावना दूत’का रूपमा उनले राष्ट्रिय तथा अन्तरराष्ट्रिय मञ्चहरूमा नेपालका हिमाल, वातावरण र जलवायु न्यायको एजेन्डालाई गम्भीरताका साथ प्रस्तुत गर्दै आए",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-04T09:56:47+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/04/mapping-and-monitoring-of-endangered-glaciers-should-be-started-actor-khadka-interview/",
-      "category": "business"
-    },
-    {
-      "title": "पुनर्मिलनको पर्खाइमा!",
-      "description": "कुराकानीकै क्रममा एकपटक समीरले प्रभालाई भिडियो कलमा आउन आग्रह गरेँ। तर प्रभाले यो पच्चीस वर्ष लामो प्रतीक्षापछिको ऐतिहासिक भेटलाई सस्तो भिडियो कलमा सीमित गर्न चाहिनन्; बरु प्रत्यक्ष भेटेर, एकअर्कालाई अङ्गालोमा बाँधेर यो क्षणलाई सधैँका लागि यादगार बनाउने इच्छा व्यक्त गरिन्।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-04T09:56:42+00:00",
-      "articleUrl": "https://www.setopati.com/literature/397647",
-      "category": "national"
-    },
-    {
-      "title": "राष्ट्रिय पाठ्यक्रम प्रारूप परिमार्जनका लागि सातै प्रदेशमा सरोकारवालासँग छलफल",
-      "description": "काठमाडौँ, भदौ १९ गते । विद्यालय शिक्षाको राष्ट्रिय पाठ्यक्रमलाई समय सापेक्ष, व्यावहारिक, जीवनोपयोगी तथा प्रभावकारी बनाउन सातै प्रदेशमा सरोकारवालासँग प्रत्यक्ष छलफल गरी सुझाव तथा पृ...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/380463/conversions/cariculam-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-04T09:55:57+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/221322",
-      "category": "national"
-    },
-    {
-      "title": "'विज्ञहरूको रायविपरीत बोल्ड निर्णय': कृष्णभीरमा भित्तो काटेर बाटो खोलिँदै",
-      "description": "कृष्णभीरमा बाटो अवरुद्ध हुँदा काठमाण्डू र धादिङबाट चितवन, तनहुँ, कास्कीसहित पश्चिम नेपालका विभिन्न जिल्लातर्फ जाने यातायात ठप्प छ।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9a2a/live/9f3d0e90-a843-11f1-b109-879e35c24276.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-09-04T09:54:36+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/c4gj75q2g2eo?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "कोरला नाकाबाट भित्रिने मालसामान अब काठमाडौंको चोभारस्थित सुक्खा बन्दरगाहमा जाँचपास गर्न सकिने",
-      "description": "काठमाडौं । मुस्ताङको कोरला नाकाबाट भित्रिने मालसामान अब काठमाडौंको चोभारस्थित सुक्खा बन्दरगाहमा लगेर जाँचपास गर्न सकिने भएको छ । भन्सार विभागले मुस्ताङको नेचुङ भन्सार कार्यालय हुँदै पैठारी हुने वस्तुहरूलाई काठमाडौंको चोभार सुक्खा बन्दरगाह भन्सार कार्यालयमा जाँचपास गर्न चाहने पैठारीकर्ताका लागि सडक मार्ग तोक्दै आन्तरिक परिवहनको सुविधा दिने निर्णय गरेको हो । भ",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-04T09:54:03+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/488885.html",
-      "category": "business"
-    },
-    {
-      "title": "प्रधानमन्त्रीज्यू, महासभाको यात्रा उपलब्धिमूलक रहोस्!",
-      "description": "यो फलाम तातेको बेला हो। नेपालले न्यूयोर्कमा एउटा सामान्य कूटनीतिक भाषण गर्ने बेला होइन। छाती खोलेर प्रश्न सोध्नुपर्ने अवस्था आएको छ- जलवायु लगातार अरू मुलुकले बिगार्ने तर संकटको मूल्य किन नेपालले मात्र तिर्ने?",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-04T09:51:20+00:00",
-      "articleUrl": "https://www.setopati.com/opinion/397646",
-      "category": "politics"
-    },
-    {
-      "title": "राष्ट्रिय पाठ्यक्रम प्रारूप परिमार्जनमा ढिलाइ हुने",
-      "description": "काठमाडौँ। विद्यालय शिक्षाको राष्ट्रिय पाठ्यक्रम परिमार्जन हुन अझै केही समय लाग्ने भएको छ । पाठ्यक्रम परिमार्जनलाई अन्तिम रूप दिन प्रदेशस्तरमा छलफल गर्नुपर्ने भएकाले विद्यालय शिक्षाको राष्ट्रिय पाठ्यक्रम प्रारूप, २०७६ परिमार्जनसहित आउन ढिलाइ हुने भएको हो",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/dhilai_XQZ1ybjSwj.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T09:51:13+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589843/delays-in-revising-the-national-curriculum-format",
-      "category": "national"
-    },
-    {
-      "title": "गोली प्रहार गरी शिक्षकको हत्या भएको घटनामा एक जना पक्राउ",
-      "description": "प्रहरीले पक्राउ परेको व्यक्तिको पहिचान खुलाएको छैन। प्रधानाध्यापक राईमाथि बिहीबार राति गोली प्रहार भएको हो।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-04T09:48:47+00:00",
-      "articleUrl": "https://www.setopati.com/social/397645",
-      "category": "national"
-    },
-    {
-      "title": "बाढीपीडितलाई विद्यार्थीको सहयोग",
-      "description": "चित्रकुमार मिजारसिन्धुपाल्चोक, भदौ १९ गते । भदौ १० गते आएको भीषण बाढीबाट प्रभावितको खोज, उद्धार, राहत, पुनःस्थापनाका लागि सिन्धुपाल्चोकका विभिन्न विद्यालयका विद्यार्थीहरूले प्रधानम...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/380461/conversions/sahayog-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-04T09:48:17+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/221321",
-      "category": "national"
-    },
-    {
-      "title": "हिमाली क्षेत्रमा बाढीको नयाँ वास्तविकता, जलविद्युतका सुरुङहरू ‘डेथ ट्य्राप’ बन्दै",
-      "description": "एजेन्सी । मैले यो लेख्दै गर्दा नेपाल र चीनभरि १२ सयभन्दा बढी मानिसको मृत्यु भइसकेको छ र झण्डै ५५ सयभन्दा बढी अझै बेपत्ता छन् । भग्नावशेषले भरिएका जलविद्युतका सुरुङहरूभित्र करिब ९०० मानिसहरू फसेका छन् । उनीहरूलाई बाहिर निकाल्न राष्ट्रिय र अन्तर्राष्ट्रिय स्तरमा ठूला प्रयासहरू भइरहेका छन् । तर, सुरुङका प्रवेशद्वारहरू संकुचित गेग्रानको बाक्लो तहले सिल […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-04T09:46:03+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/488883.html",
-      "category": "business"
-    },
-    {
-      "title": "बुध्द एयरको नयाँ सिरिजको जहाजबाट व्यावसायिक उडान सुरु",
-      "description": "काठमाडाैँ । बुध्द एयरले आफ्नो नयाँ सिरिजको ATR-72-600 जहाजबाट व्यावसायिक उडान सुरु गरेको छ । आज बिहान 9N-AOS कलसाइन भएको उक्त जहाजले काठमाडौँबाट नेपालगञ्जका लागि पहिलो व्यावसायिक उडान भरेको हो । ६६ जना यात्रुसहित जहाज",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/buddha-air_qfMjjqU85Q.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T09:45:14+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589842/buddha-air-begins-commercial-flights-with-new-series-of-aircraft",
-      "category": "national"
-    },
-    {
-      "title": "अनोजलाई बाढीले बगायो, क्यान्सर पीडित आमा दोहोरो पीडामा",
-      "description": "विराटनगर । रसुवाको भोटेकोशीमा भदौ १० गते आएको भीषण बाढीमा मोरङका १८ जना सम्पर्कविहीन छन् । कोशी प्रदेशका १६० जना र देशभरमा झन्डै ५ हजार सम्पर्कविहीन छन् । त्यसमध्ये एक जना हुन्– मोरङ बेलबारी–९ का",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/an_hLnGj09g02.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T09:45:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589832/anoj-washed-away-by-flood-cancer-stricken-mother-in-double-pain",
-      "category": "national"
-    },
-    {
-      "title": "‘मालती मंगले’को च्यारिटी शोबाट सङ्कलित तीन लाख प्रधानमन्त्री राहत कोषलाई प्रदान",
-      "description": "काठमाडौँ । प्राकृतिक विपत्तिबाट प्रभावित नागरिकहरूको सहयोगका लागि अमेरिकामा आयोजित फिल्म ‘मालती मंगले’को च्यारिटी शोबाट सङ्कलित रकम प्रधानमन्त्री दैवी प्रकोप राहत कोषमा जम्मा गरिएको छ । शोमार्फत सङ्कलन भएको २ हजार ३१ अमेरिकी डलर (नेपाली रुपैयाँ",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/malati-mangale_9GwQCHr9a1.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T09:44:19+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589841/three-lakh-rupees-collected-from-malati-mangle-charity-show-donated-to-prime-ministers-relief-fund",
-      "category": "politics"
-    },
-    {
-      "title": "भोटेकोशीका बाढीपीडितको पुनः स्थापना यथाशीघ्र गरिने",
-      "description": "काठमाडौँ, भदौ १९ गते । भूमि व्यवस्था, सहकारी, सङ्घीय मामिला तथा सामान्य प्रशासन मन्त्रालयले रसुवा-भोटेकोशी क्षेत्रमा गएको बाढीबाट प्रभावित तथा विस्थापित परिवारको सुरक्षित पुनः स्था...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/380460/conversions/bhote-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-04T09:43:36+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/221320",
-      "category": "national"
-    },
-    {
-      "title": "पहिरोले दार्चुलाको चौलानी नदी आंशिक थुनियो",
-      "description": "दार्चुलाको अपिहिमाल गाउँपालिका–२ भट्टार क्षेत्रमा पहिरो गएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Chaulani-pahiro.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T09:43:35+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010725/landslide-partially-blocks-chaulani-river-in-darchula",
-      "category": "national"
-    },
-    {
-      "title": "चीनले नेपालसँग जलविज्ञान अनुगमनसम्बन्धी सूचना निरन्तर आदानप्रदान गर्ने",
-      "description": "काठमाडौं । चीनले नेपालसँग आपतकालीन जलविज्ञान अनुगमनसम्बन्धी सूचना निरन्तर आदानप्रदान गर्ने जनाएको छ। उद्धार तथा विपद् राहत प्रयासका लागि सो सहयोग गर्ने यहाँस्थित चिनियाँ दूतावासले जनाएको छ। त्यसमा नदीमा बनेका अवरोध तथा हिमतालबाट उत्पन्न जोखिमसम्बन्धी सूचना समेत समेटिने छन् । चीनको मौसमसम्बन्धी निकायले चीन र नेपालबीचको केरुङ–रसुवा सीमानाकामा भीषण पहिरो गएदेखि",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-04T09:42:51+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/04/china-to-continue-sharing-hydrological-monitoring-information-with-nepal/",
-      "category": "business"
-    },
-    {
-      "title": "भोटेकोशी बाढी प्रभावित क्षेत्रमा कांग्रेस नेता महर, राहत र उद्धारमा सरकार गम्भीर बन्नुपर्नेमा जोड",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-09-04T09:40:54+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/145260",
-      "category": "politics"
-    },
-    {
-      "title": "किन मुलुकहरू अमेरिकाबाट सार्दैछन् सुन?",
-      "description": "डिएनबीले कुन–कुन संकटका लागि तयारी गरिएको हो भन्ने स्पष्ट पारेको छैन। यसको कारणका रूपमा अहिले विश्वका विभिन्न क्षेत्रमा चलेको विवादलाई मानिएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-04T09:40:00+00:00",
-      "articleUrl": "https://www.setopati.com/kinmel/economy/397638",
-      "category": "national"
-    },
-    {
-      "title": "त्रिशूली–३ए मा १७० मिटर भित्र पुगे उद्धारकर्मी, अरू हाइड्रोमा के छ प्रगति ?",
-      "description": "काठमाडौँ । भोटेकोशी विपद्को १० औँ दिन सेना र सशस्त्र प्रहरीले रसुवा र नुवाकोटको हाइड्रोपावरको सुरुङहरूमा खोज अपरेसन केन्द्रित गरेका छन् । त्रिशूली–३ ए बाट उद्धारकर्मीले सञ्जय साह र कबीर महर्जनलाई जीवित उद्धार गरे ।",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rescue-3a-tunnel_W2c0VCDpXJ.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T09:39:41+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589840/rescue-workers-have-reached-within-170-meters-of-trishuli-3a-what-is-the-progress-at-other-hydropower-plants",
-      "category": "national"
-    },
-    {
-      "title": "नेपाललाई आपतकालीन जलविज्ञान र मौसम सूचना नियमित उपलब्ध गराउने चीनको प्रतिबद्धता",
-      "description": "काठमाडौं । चीनले नेपालसँग आपतकालीन जलविज्ञान र मौसमसम्बन्धी निगरानी सूचना निरन्तर आदानप्रदान गर्ने प्रतिबद्धता जनाएको छ । चिनियाँ दूतावासले शुक्रबार दिएको जानकारीअनुसार, नेपालमा हुन सक्ने प्राकृतिक विपद्को जोखिम न्यूनीकरण र उद्धार कार्यमा सहयोग पुर्‍याउन चीनले यस्तो प्रतिबद्धता जनाएको हो । यसअन्तर्गत चीनले नेपालसँग नदीमा बनेका अवरोध (ब्यारियर लेक) तथा हिमताल",
-      "imageUrl": "",
-      "sourceLogo": "https://www.techpana.com/favicon.ico",
-      "sourceName": "टेकपाना",
-      "publishedTime": "2026-09-04T09:38:47+00:00",
-      "articleUrl": "https://techpana.com/2026/158903/china-nepal-emergency-weather-data-sharing",
-      "category": "technology"
-    },
-    {
-      "title": "हर्रेमा विषादी परीक्षण सुरु, कपुरकोटमा तयारी",
-      "description": "प्रतीक इच्छुक शर्मा,सल्यान, भदौ १९ गते । कर्णाली प्रदेशमा भित्रिने कृषि उपजमा विषादी अवशेष परीक्षण गर्न सुर्खेतको हर्रेमा विषादी अवशेक्ष द्रुत विश्लेषण प्रयोगशाला सञ्चालनमा आएको छ...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/380459/conversions/66956749_917808235232814_8891270425200295936_o-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-04T09:37:46+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/221319",
-      "category": "national"
-    },
-    {
-      "title": "बाढीपीडितका लागि अनेरास्ववियु रूपन्देहीकाे १० लाखको राहत सामग्री",
-      "description": "बुटवल। भोटेकोशी बाढीबाट प्रभावित नागरिकका लागि अनेरास्ववियु रूपन्देहीले करिब १० लाख रुपैयाँ बराबरको राहत सामग्री पठाएको छ। अनेरास्ववियु रूपन्देहीका अध्यक्षको नेतृत्वमा सचिव,बुटवल बहुमुखी क्याम्पस कमिटीका अध्यक्ष शशाङ्क बस्यालसहितको टोली शुक्रबार राहत सामग्री लिएर रसुवागढीतर्फ प्रस्थान गरेको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rahat-samagri_hKNF8WtDZn.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T09:36:50+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589839/annfsu-rupandehi-provides-relief-materials-worth-rs-1-million-for-flood-victims",
-      "category": "national"
-    },
-    {
-      "title": "जय नेपाल पार्टीद्वारा केन्द्रीय विभाग र समिति विस्तार : जनसम्पर्क संयोजकमा तामाङ मनोनित",
-      "description": "काठमाडौँ । जय नेपाल पार्टीले केन्द्रीय तहमा जिम्मेवारी बाँडफाँटलाई तीव्रता दिएको छ । जय नेपाल पार्टीका सभापति डा. धवलशम्शेर राणाले सामाजिक सम्बन्ध तथा जनसम्पर्क विभागको संयोजकमा ठमान सिंह तामाङलाई शुक्रबार मनोनयन गरेका छन्। यसैबिच सुपरिवेक्षण समितिका",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/792763706_1793193955153895_5229723775872310351_n_8XFkVcpVya.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T09:34:36+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589838/jai-nepal-party-expands-central-department-and-committee-tamang-nominated-as-public-relations-coordinator",
-      "category": "politics"
-    },
-    {
-      "title": "अधुरा कथाहरू!",
-      "description": "अब नदीले छोडेको बगरमा म एक्लै उभिएको छु क्षितिजपारिको चन्द्रमा हेर्दै हृदयको शून्यतासँगै हामीबिचका स्पर्श र अँगालोका अधुरा कथाहरू बोकेर ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-04T09:33:46+00:00",
-      "articleUrl": "https://www.setopati.com/literature/397642",
-      "category": "national"
-    },
-    {
-      "title": "जलवायु न्याय : हिमाली हानि-नोक्सानी सम्बोधनको प्रश्न",
-      "description": "साना टापु राष्ट्रहरूले समुद्री सतह वृद्धिलाई विश्वव्यापी जलवायु न्यायको प्रमुख मुद्दाका रूपमा स्थापित गरे झैं हिमाली मुलुकले पनि हिमालय तथा हिममण्डलको संरक्षणलाई विश्वव्यापी जलवायु जिम्मेवारी र न्यायको विषयका रूपमा स्थापित गर्न ढिला गर्नुहुँदैन।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Dr.-Bipin-Adhikari-on-climate-Justice-1.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T09:33:38+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010476/climate-justice-the-question-of-addressing-himalayan-losses",
-      "category": "national"
-    },
-    {
-      "title": "बाढीपछि पुनर्स्थापना : राहतबाट आत्मनिर्भरतातर्फको बाटो",
-      "description": "अन्ततः, विपद्को समयमा मानवीय संवेदना सबैभन्दा ठूलो शक्ति हो । उद्धारमा राज्य, सुरक्षा निकाय र समुदायको सहकार्य आवश्यक छ । राहतमा सबैको हातेमालो आवश्यक छ । तर दीर्घकालीन पुनस्र्थापनामाका लागी सामाजिक एवं भौतिक बिकाससँगै उद्यमशीलता, स्थानीय उत्पादन, रोजगारी र आत्मनिर्भरतालाई केन्द्रमा राख्नुपर्छ ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-09-04T09:33:22+00:00",
-      "articleUrl": "https://nepallive.com/story/349794",
-      "category": "national"
-    },
-    {
-      "title": "हिमतालको अध्ययन र जोखिम मूल्याङ्कन गर्नुपर्नेमा जोड",
-      "description": "ताप्लेजुङ । चीनसँगको सीमावर्ती क्षेत्रमा रहेका हिमतालको अध्ययन तथा जोखिम मूल्याङ्कन गर्न आवश्यक रहेको औंल्याइएको छ । उत्तरी क्षेत्र मिक्वाखोला, फक्ताङ्लुङ र सिरीजङ्घा गाउँपालिकामा धेरै हिमतालहरू रहेको र उक्त तालको अध्ययन अनुसन्धान गर्न आवश्यक रहेको बैठकले निष्कर्ष निकालेको हो। जिल्ला विपद् व्यवस्थापन समिति ताप्लेजुङको बैठकले उक्त यस्तो निष्कर्ष निकाल्दै आवश्",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-04T09:33:15+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/04/emphasis-on-studying-and-assessing-risks-of-glacial-lakes/",
-      "category": "business"
-    },
-    {
-      "title": "कुन जलविद्युत् आयोजनाबाट कसरी भइरहेको उद्धार पहल ?",
-      "description": "१९ भदौ, काठमाडौं । भोटेकोशीमा आएको विनाशकारी बाढीको दशौँ दिनसम्म पनि रसुवा र नुवाकोटका जलविद्युत् आयोजनामा सम्पर्कविहीन कर्मचारी तथा श्रमिकको खोजी चुनौतीपूर्ण बनेको छ । बाढीले १२ वटा जलविद्युत् आयोजनामा क्षति पुर्‍याएपछि सयौँ कर्मचारी तथा श्रमिकको अवस्था अझै अज्ञात छ । सुरुङ, भूमिगत विद्युत्गृह, कार्यालय तथा आवास क्षेत्रमा फसेकाहरूको खोजी कार्य जारी छ । खोजी",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Trishuli-3-a-tunnel-uddhar-and-khoj-2.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-04T09:32:54+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2010722/how-are-rescue-efforts-being-carried-out-from-which-hydroelectric-project",
-      "category": "national"
-    },
-    {
-      "title": "बाढी प्रभावित क्षेत्र निरीक्षणका लागि नुवाकोटमा ओली",
-      "description": "काठमाडौं । पूर्व प्रधानमन्त्री एवं एमाले अध्यक्ष केपी शर्मा ओली नुवाकोटको बिदुर नगरपालिका–५ बाट बाढी प्रभावित क्षेत्रको निरीक्षणका लागि प्रस्थान गरेका छन । ओली स्वयंसेवक (भोलेन्टियर) टोलीसहित बिदुर नगरपालिका–५ अन्तर्गत पर्ने बटार, ढुङ्गे लगायतका बाढीबाट प्रभावित क्षेत्रको स्थलगत निरीक्षणका लागि पुगेका हुन् । भदौ १० गते बुधबार बिहान चीनतर्फबाट आएको बाढीका कार",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-04T09:32:22+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/147042/",
-      "category": "national"
-    },
-    {
-      "title": "बाढीका कारण प्रभावित १३ हजारभन्दा बढीको उद्धार",
-      "description": "काठमाडौँ । रसुवाको भोटेकोशीमा आएको बाढीका कारण प्रभावित १३ हजारभन्दा बढीको उद्धार गरिएको छ। राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणका अनुसार शुक्रबा। दिउँसोसम्म १३ हजार ९३ जनाको उद्धार गरिएको हो। प्राधिकरणका अनुसार हालसम्म एक हजार",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/uddhar_eZsLpOnVXb.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T09:31:57+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589837/more-than-13000-people-affected-by-floods-rescued",
-      "category": "national"
-    },
-    {
-      "title": "सहसचिव जोशीको नेतृत्वमा बाढी प्रभावितको पुनःस्थापना गर्न समिति गठन",
-      "description": "भूमि व्यवस्था, सहकारी, संघीय मामिला तथा सामान्य प्रशासन मन्त्रालयले रसुवा–भोटेकोशी क्षेत्रमा आएको बाढीबाट प्रभावित तथा विस्थापित परिवारको सुरक्षित पुनःस्थापना र अस्थायी बसोबासका लागि उपयुक्त जग्गा पहिचान गर्न समिति गठन गरेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-09-04T09:29:19+00:00",
-      "articleUrl": "https://nepallive.com/story/349793",
-      "category": "national"
-    },
-    {
-      "title": "त्रिशूली वारपार गर्न स्थानीयलाई फेरि तुइनकै भर, तस्बिरहरू",
-      "description": "नुवाकोट। बाढीले पक्की पुल बगाएपछि त्रिशूली नदी वारपार गर्न स्थानीयले फेरि तुइनको सहारा लिनुपरेको छ। गत भदौ १० गते आएको विनाशकारी बाढीले त्रिशूली नदीमाथिका पुलहरू बगाएपछि विदुर नगरपालिका–१ र ९ का बस्तीबिचको आवतजावत प्रभावित भएको थियो। सडक",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/tuin_KVNl7mHqF6.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-04T09:29:13+00:00",
-      "articleUrl": "https://www.ratopati.com/story/589836/locals-again-rely-on-tuin-to-cross-the-trishuli-photos",
-      "category": "national"
-    },
-    {
-      "title": "नुवाकोटको पटाबारीमा पहिरो, राहत बोकेका गाडी रोकिए",
-      "description": "नुवाकोट । काठमाडौंबाट नुवाकोटतर्फ जाने सडकखण्डअन्तर्गत लिखु नगरपालिका–३, पटाबारीमा पहिरो खसेको छ । सडक अवरुद्ध भएपछि काठमाडौं–नुवाकोटतर्फ आवतजावत गर्ने दर्जनौँ सवारीसाधन बीच बाटोमै अलपत्र परेका छन् । आवतजावत ठप्प हुँदा नुवाकोट र रसुवाका बाढीपहिरो प्रभावितका लागि राहत सामग्री बोकेका सवारीसाधनसमेत बीच बाटोमै रोकिएका छन् । स्काभेटर प्रयोग गरी पहिरो पन्छ्याउने क",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-04T09:28:37+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/147040/",
-      "category": "national"
-    },
-    {
-      "title": "त्रिशूलीको सतह नै ३ मिटर भासिँदा हाइड्रोमा नयाँ डिजाइनको खोजी, सस्तो होइन दिगो काम गरौं !",
-      "description": "काठमाडौं । रसुवा र नुवाकोट क्षेत्रमा २०८३ भदौ १० को बाढीले पुर्‍याएको ठूलो क्षतिपछि पनि भोटेकोशी तथा त्रिशूली नदी तटीय क्षेत्रमा बाढी र पहिरोको जोखिम निरन्तर कायमै छ । तिब्बतमा अवस्थित त्रिशुुली नदीको माथिल्लो तटीय क्षेत्र (ल्हेन्दे खोला र भोटेकोशीको जलाधार) मा हिमताल पग्लिने, नयाँ ताल बन्ने तथा पहिरो गई नदी थुनिने जोखिम उच्च रहेको […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-04T09:28:15+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/488872.html",
       "category": "business"
     }
   ]
