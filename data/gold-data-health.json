@@ -1,13 +1,13 @@
 {
   "schema": "gold-data-health/v1",
-  "generatedAt": "2026-09-04T06:33:43.890179+05:45",
-  "recordCount": 13,
-  "uniqueDates": 13,
+  "generatedAt": "2026-09-05T05:51:59.289441+05:45",
+  "recordCount": 14,
+  "uniqueDates": 14,
   "dateRange": {
     "start": "2026-08-21",
-    "end": "2026-09-04"
+    "end": "2026-09-05"
   },
-  "coveragePercent": 86.67,
+  "coveragePercent": 87.5,
   "missingCalendarDates": [
     "2026-08-22",
     "2026-08-23"
