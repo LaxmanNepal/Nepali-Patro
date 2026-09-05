@@ -76,10 +76,11 @@ jobs:
           if not files: raise SystemExit('No history JSON files found')
           for p in files:
               d=json.loads(p.read_text(encoding='utf-8'))
-              required=('events','births','deaths','research_leads')
-              for key in required:
+              for key in ('events','births','deaths'):
                   if not isinstance(d.get(key),list): raise SystemExit(f'{p}: {key} must be a list')
-              # Current history schema stores BS date metadata, not ad_date.
+              # research_leads is optional in the current history schema.
+              if 'research_leads' in d and not isinstance(d['research_leads'],list):
+                  raise SystemExit(f'{p}: research_leads must be a list when present')
               if not isinstance(d.get('bs_year'),int): raise SystemExit(f'{p}: missing/invalid bs_year')
               if not isinstance(d.get('bs_month'),int): raise SystemExit(f'{p}: missing/invalid bs_month')
               if not isinstance(d.get('bs_day'),int): raise SystemExit(f'{p}: missing/invalid bs_day')
