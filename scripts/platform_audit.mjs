@@ -12,7 +12,7 @@ const js=files.filter(f=>f.endsWith('.js')||f.endsWith('.mjs'));
 const json=files.filter(f=>f.endsWith('.json'));
 for(const f of json){try{JSON.parse(fs.readFileSync(f,'utf8'))}catch(e){failures.push(`Invalid JSON: ${path.relative(root,f)} (${e.message})`)}}
 for(const f of js){try{execFileSync('node',['--check',f],{stdio:'pipe'})}catch(e){failures.push(`Invalid JS: ${path.relative(root,f)}`)}}
-for(const f of html){const s=fs.readFileSync(f,'utf8');if(!/<html[\s>]/i.test(s))warnings.push(`HTML without html root: ${path.relative(root,f)}`);if(/<img\b(?![^>]*\balt=)/i.test(s))warnings.push(`Image without alt: ${path.relative(root,f)}`);if(/target=["']_blank["']/i.test(s)&&!/(rel=["'][^"']*noopener/i.test(s)))warnings.push(`_blank link without noopener: ${path.relative(root,f)}`)}
+for(const f of html){const s=fs.readFileSync(f,'utf8');if(!/<html[\s>]/i.test(s))warnings.push(`HTML without html root: ${path.relative(root,f)}`);if(/<img\b(?![^>]*\balt=)/i.test(s))warnings.push(`Image without alt: ${path.relative(root,f)}`);if(/target=["']_blank["']/i.test(s)&&!/(?:rel=["'][^"']*\bnoopener\b)/i.test(s))warnings.push(`_blank link without noopener: ${path.relative(root,f)}`)}
 const fixFiles=files.filter(f=>/(fixes|patches)\.(js|css)$/i.test(f));if(fixFiles.length)warnings.push(`Technical-debt fix files remain: ${fixFiles.map(f=>path.relative(root,f)).join(', ')}`);
 const large=files.filter(f=>fs.statSync(f).size>2_000_000);for(const f of large)warnings.push(`Large asset >2MB: ${path.relative(root,f)}`);
 console.log(`Platform audit: ${files.length} files, ${html.length} HTML, ${js.length} JS, ${json.length} JSON`);
