@@ -7,6 +7,7 @@ const api={version:5,state,ready:Promise.resolve(state),set(key,value){state[key
 window.NepaliPatroHome=api;
 if(location.pathname.replace(/\/+$/,'/')==='/Nepali-Patro/'){
  const s=document.createElement('script');s.src='js/homepage-finance.js?v=20260904-03';s.defer=true;document.head.appendChild(s);
+ const r=document.createElement('script');r.src='js/rashifal-home.js?v=20260907-01';r.defer=true;document.head.appendChild(r);
  const banner=document.createElement('div');banner.id='npDataStatus';banner.setAttribute('role','status');banner.setAttribute('aria-live','polite');banner.hidden=true;banner.style.cssText='max-width:1180px;margin:0 auto;padding:7px 14px;font:600 12px/1.4 system-ui,sans-serif;color:#6b7280;text-align:center';document.addEventListener('DOMContentLoaded',()=>{const hero=document.querySelector('main')||document.body;hero.prepend(banner);const paint=()=>{const s=api.state.sources||{};const stale=Object.values(s).some(x=>x.status==='stale');const failed=Object.values(s).some(x=>x.status==='error');const offline=!navigator.onLine;if(offline||stale||failed){banner.hidden=false;banner.textContent=offline?'अफलाइन मोड: सुरक्षित गरिएको डेटा प्रयोग भइरहेको छ।':failed?'केही डेटा अहिले उपलब्ध छैन। बाँकी सेवा चलिरहन्छ।':'केही डेटा पुरानो हुन सक्छ; नयाँ डेटा प्राप्त भएपछि स्वतः अपडेट हुनेछ।'}else{banner.hidden=true;banner.textContent=''}};api.subscribe(paint);window.addEventListener('online',paint);window.addEventListener('offline',paint);paint()},{once:true});
 }
 })();
