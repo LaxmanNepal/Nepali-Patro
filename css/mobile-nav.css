@@ -1,1 +1,26 @@
 .mobile-menu-btn{display:none;width:44px;height:44px;border:1px solid var(--border);border-radius:13px;background:var(--surface2);color:var(--text);font-size:21px;cursor:pointer;-webkit-tap-highlight-color:transparent}.mobile-menu{display:none}.mobile-menu a{display:flex;align-items:center;gap:12px;min-height:48px;padding:13px 14px;border-radius:12px;color:var(--text);text-decoration:none;font-weight:700;-webkit-tap-highlight-color:transparent}.mobile-menu a:hover,.mobile-menu a:focus-visible,.mobile-menu a.active{background:#fff1f2;color:var(--primary);outline:none}.mobile-menu-backdrop{display:none}@media(max-width:900px){.mobile-menu-btn{display:grid;place-items:center}.mobile-menu{position:fixed;display:flex;flex-direction:column;top:0;left:0;width:min(340px,88vw);height:100dvh;padding:76px 14px calc(24px + env(safe-area-inset-bottom));background:var(--surface);border:0;border-right:1px solid var(--border);border-radius:0 22px 22px 0;box-shadow:20px 0 60px rgba(0,0,0,.18);z-index:120;overflow-y:auto;overscroll-behavior:contain;opacity:0;visibility:hidden;pointer-events:none;transform:translateX(-105%);transition:transform .25s ease,opacity .2s ease,visibility .2s}.mobile-menu.open{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(0)}.mobile-menu-backdrop{display:block;position:fixed;inset:0;background:rgba(15,23,42,.48);backdrop-filter:blur(3px);z-index:110;opacity:0;visibility:hidden;pointer-events:none;transition:.2s}.mobile-menu-backdrop.open{opacity:1;visibility:visible;pointer-events:auto}.mobile-menu .menu-title{padding:8px 14px 10px;color:var(--muted);font-size:11px;font-weight:800}.mobile-menu-close{position:absolute;top:max(18px,env(safe-area-inset-top));right:16px;width:44px;height:44px;border:1px solid var(--border);border-radius:13px;background:var(--surface2);color:var(--text);font-size:24px;cursor:pointer}.mobile-nav-open{overflow:hidden!important;touch-action:none}.np-mobile{padding-bottom:env(safe-area-inset-bottom)}.np-mobile a{min-width:44px;min-height:44px;-webkit-tap-highlight-color:transparent}.np-mobile a:active{transform:scale(.96)}.np-mobile a:focus-visible{outline:2px solid var(--primary);outline-offset:2px}}@media(prefers-reduced-motion:reduce){.mobile-menu,.mobile-menu-backdrop{transition:none!important}}
+/* Mobile-first homepage touch polish */
+@media(max-width:600px){
+  .home-redesign .np-header{gap:8px}
+  .home-redesign .np-header #npTheme{flex:0 0 40px;width:40px;height:40px}
+  .home-redesign .mobile-menu-btn{flex:0 0 44px}
+  .home-redesign .np-brand{max-width:calc(100% - 92px)}
+  .home-redesign .np-brand span:last-child{min-width:0;overflow:hidden}
+  .home-redesign .np-brand strong,.home-redesign .np-brand small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .home-redesign .quick-actions{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+  .home-redesign .quick-action{min-height:52px;padding:7px 4px;border-radius:13px}
+  .home-redesign .quick-action .quick-icon{font-size:18px}
+  .home-redesign .quick-action span:last-child{font-size:8px;line-height:1.15}
+  .home-redesign a,.home-redesign button{touch-action:manipulation}
+  .home-redesign .np-heading>a{min-height:38px;padding:4px 0}
+  .home-redesign .np-home-cal-cell{min-height:56px}
+  .home-redesign .np-panel:has(#calendarPreview) #calendarPreview{overflow-x:hidden}
+}
+@media(max-width:380px){
+  .home-redesign .np-header{padding-left:9px;padding-right:9px}
+  .home-redesign .np-logo{width:34px;height:34px}
+  .home-redesign .np-brand strong{font-size:14px}
+  .home-redesign .np-brand small{font-size:8px}
+  .home-redesign .quick-action{min-height:49px}
+  .home-redesign .quick-action span:last-child{font-size:7px}
+}
