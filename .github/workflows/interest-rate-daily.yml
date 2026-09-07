@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Checkout latest main
+      - name: Checkout current ref
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -81,5 +81,4 @@ jobs:
             exit 0
           fi
           git commit -m 'chore: update Nepal bank interest rates and pages'
-          git pull --rebase origin main
-          git push origin HEAD:main
+          git push origin HEAD:${GITHUB_REF_NAME}
