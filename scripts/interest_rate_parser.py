@@ -1,18 +1,25 @@
-"""Conservative parser for Nepal bank interest-rate pages."""
+"""Robust parser for Nepal bank interest-rate pages.
+
+The parser deliberately keeps extraction source-aware while supporting the
+common table/card layouts used by official bank websites.
+"""
 from __future__ import annotations
 
 import re
 from bs4 import BeautifulSoup
 
-# Python 3.13 rejects an optional quantifier applied to the zero-width \b.
-# Keep the word boundary only for the textual "percent" alternative.
-RATE_RE = re.compile(r"(?<!\d)(\d+(?:\.\d+)?)\s*(?:%|percent)\b", re.I)
+# Python 3.13 rejects an optional quantifier applied to the zero-width \\b.
+RATE_RE = re.compile(r"(?<!\\d)(\\d+(?:\\.\\d+)?)\\s*(?:%|percent)\\b", re.I)
 RATE_CONTEXT_RE = re.compile(
-    r"\b(saving|savings|deposit|fixed|fd|recurring|call|loan|advance|base\s+rate|"
-    r"बचत|मुद्दती|सावधिक|आवधिक|कर्जा|ऋण|आधार\s*दर)\b", re.I)
+    r"\\b(saving|savings|deposit|fixed|fd|recurring|call|loan|advance|base\\s+rate|"
+    r"interest|remittance|fcy|nrn|बचत|निक्षेप|मुद्दती|सावधिक|आवधिक|कर्जा|ऋण|"
+    r"आधार\\s*दर|रेमिट्यान्स)\\b", re.I,
+)
 DEPOSIT_CONTEXT_RE = re.compile(
-    r"\b(saving|savings|deposit|fixed|fd|recurring|call|"
-    r"बचत|निक्षेप|मुद्दती|सावधिक|आवधिक|कल डिपोजिट)\b", re.I)
+    r"\\b(saving|savings|deposit|fixed|fd|recurring|call|remittance|fcy|nrn|"
+    r"बचत|निक्षेप|मुद्दती|सावधिक|आवधिक|कल डिपोजिट|रेमिट्यान्स)\\b", re.I,
+)
+HEADER_RE = re.compile(r"(rate|interest|%|प्रतिशत|ब्याज|दर)", re.I)
 
 
 def parse_rate(value: str) -> float | None:
@@ -33,30 +40,50 @@ def _record(*, label: str, raw: str, rate: float, source_kind: str,
             "columnLabel": column_label, "cells": cells or []}
 
 
+def _table_headers(rows: list) -> list[str]:
+    for row in rows[:3]:
+        cells = [c.get_text(" ", strip=True) for c in row.find_all(["th", "td"])]
+        if any(HEADER_RE.search(c) for c in cells):
+            return cells
+    return [c.get_text(" ", strip=True) for c in rows[0].find_all(["th", "td"])] if rows else []
+
+
 def parse_html_tables(html: str, *, deposit_only: bool = False) -> list[dict]:
+    """Extract percentage cells from all useful tables, not just tables whose
+    full text contains a deposit keyword. This prevents valid rows from being
+    discarded when a bank separates product names and rate columns.
+    """
     soup = BeautifulSoup(html, "html.parser")
     records: list[dict] = []
     for table_index, table in enumerate(soup.find_all("table")):
         rows = table.find_all("tr")
+        if not rows:
+            continue
         table_text = " ".join(table.stripped_strings)
         if deposit_only and not DEPOSIT_CONTEXT_RE.search(table_text):
             continue
-        headers = ([c.get_text(" ", strip=True) for c in rows[0].find_all(["th", "td"])] if rows else [])
+        headers = _table_headers(rows)
         for row_index, row in enumerate(rows):
             cells = [c.get_text(" ", strip=True) for c in row.find_all(["th", "td"])]
             if not cells:
                 continue
             raw = " | ".join(cells)
-            if not RATE_CONTEXT_RE.search(raw):
+            if not RATE_CONTEXT_RE.search(raw) and not any(parse_rate(c) is not None for c in cells):
                 continue
+            context_cells = [value for value in cells if value and not RATE_RE.search(value)]
+            label = next((value for value in context_cells if RATE_CONTEXT_RE.search(value)),
+                         context_cells[0] if context_cells else cells[0])
             for column_index, cell in enumerate(cells):
                 rate = parse_rate(cell)
                 if rate is None:
                     continue
-                label = next((value for value in cells if value != cell and RATE_CONTEXT_RE.search(value)), cells[0])
-                records.append(_record(label=label, raw=raw, rate=rate, source_kind="table",
-                    table_index=table_index, row_index=row_index, column_index=column_index,
-                    column_label=headers[column_index] if column_index < len(headers) else None, cells=cells))
+                records.append(_record(
+                    label=label, raw=raw, rate=rate, source_kind="table",
+                    table_index=table_index, row_index=row_index,
+                    column_index=column_index,
+                    column_label=headers[column_index] if column_index < len(headers) else None,
+                    cells=cells,
+                ))
     return records
 
 
@@ -68,9 +95,11 @@ def parse_html_blocks(html: str, *, deposit_only: bool = False) -> list[dict]:
     seen: set[tuple[str, float]] = set()
     for node in soup.find_all(["article", "section", "li", "div", "p", "dd", "dt"]):
         text = " ".join(node.stripped_strings)
-        if not text or len(text) > 700 or not RATE_CONTEXT_RE.search(text):
+        if not text or len(text) > 900:
             continue
         if deposit_only and not DEPOSIT_CONTEXT_RE.search(text):
+            continue
+        if not RATE_CONTEXT_RE.search(text) and not RATE_RE.search(text):
             continue
         matches = list(RATE_RE.finditer(text.replace(",", "")))
         if not matches:
@@ -101,17 +130,15 @@ def deduplicate(records: list[dict]) -> list[dict]:
     return output
 
 
-def parse_html(html: str, parser: str = "html_auto_v1") -> list[dict]:
-    """Apply an adapter strategy while retaining conservative fallbacks."""
-    strategy = (parser or "html_auto_v1").lower()
-    if strategy in {"html_table_v1", "table", "html_table_deposit_v1"}:
-        records = parse_html_tables(html, deposit_only=True)
+def parse_html(html: str, parser: str = "html_auto_v2") -> list[dict]:
+    """Apply a source strategy with broad extraction and conservative fallback."""
+    strategy = (parser or "html_auto_v2").lower()
+    if strategy in {"html_table_v1", "table", "html_table_v2"}:
+        records = parse_html_tables(html, deposit_only=False)
     elif strategy in {"html_blocks_v1", "blocks", "html_card_v1"}:
-        records = parse_html_blocks(html, deposit_only=True)
+        records = parse_html_blocks(html, deposit_only=False)
     else:
-        records = parse_html_tables(html, deposit_only=True) + parse_html_blocks(html, deposit_only=True)
-    if not records:
-        records = parse_html_tables(html) + parse_html_blocks(html)
+        records = parse_html_tables(html, deposit_only=False) + parse_html_blocks(html, deposit_only=False)
     return deduplicate(records)
 
 
