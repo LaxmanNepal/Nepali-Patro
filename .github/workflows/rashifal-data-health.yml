@@ -1,0 +1,80 @@
+name: Rashifal Data Health
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 0 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate Rashifal snapshots
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import date
+
+          signs = ['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces']
+          root = Path('data/rashifal')
+          weekly = Path('data/rashifal-weekly')
+
+          if not root.exists():
+              raise SystemExit('Missing data/rashifal directory')
+
+          files = sorted(root.glob('*.json'))
+          if not files:
+              raise SystemExit('No daily Rashifal snapshots found')
+
+          errors = []
+          for path in files:
+              try:
+                  payload = json.loads(path.read_text(encoding='utf-8'))
+              except Exception as exc:
+                  errors.append(f'{path}: invalid JSON ({exc})')
+                  continue
+
+              if payload.get('date') != path.stem:
+                  errors.append(f'{path}: date does not match filename')
+              if len(payload.get('signs', [])) != 12:
+                  errors.append(f'{path}: expected exactly 12 signs')
+                  continue
+
+              ids = [item.get('id') for item in payload['signs']]
+              if ids != signs:
+                  errors.append(f'{path}: sign order/IDs are invalid')
+              for item in payload['signs']:
+                  prediction = str(item.get('prediction', '')).strip()
+                  if len(prediction) < 40:
+                      errors.append(f"{path}: {item.get('id', '?')} prediction is too short")
+
+              try:
+                  date.fromisoformat(payload['date'])
+              except ValueError:
+                  errors.append(f'{path}: invalid ISO date')
+
+          if weekly.exists():
+              for path in weekly.glob('*.json'):
+                  try:
+                      payload = json.loads(path.read_text(encoding='utf-8'))
+                  except Exception as exc:
+                      errors.append(f'{path}: invalid JSON ({exc})')
+                      continue
+                  if len(payload.get('signs', [])) != 12:
+                      errors.append(f'{path}: expected exactly 12 signs')
+
+          if errors:
+              print('\n'.join(errors))
+              raise SystemExit(f'Rashifal health check failed: {len(errors)} error(s)')
+
+          print(f'Rashifal health check passed: {len(files)} daily snapshots validated')
+          PY
