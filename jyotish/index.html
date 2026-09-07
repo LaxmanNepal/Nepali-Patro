@@ -4,8 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#7c2d12">
-<meta name="description" content="नेपाली ज्योतिष — शुद्ध जन्मकुण्डली, ग्रह, भाव, नक्षत्र, नवांश, दशा, उपग्रह, होरा, षड्बल, अष्टकवर्ग, योग, दोष र गोचर।">
-<title>ज्योतिष — नेपाली पात्रो</title>
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://apps.laxmannepal.com.np/Nepali-Patro/jyotish/">
+<meta name="description" content="नेपाली ज्योतिष तथा जन्मकुण्डली उपकरण। ग्रह, भाव, नक्षत्र, नवांश, दशा, उपग्रह, होरा, षड्बल, अष्टकवर्ग, योग, दोष र गोचरको गणना हेर्नुहोस्।">
+<title>जन्मकुण्डली — नेपाली ज्योतिष तथा कुण्डली | नेपाली पात्रो</title>
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ne_NP">
+<meta property="og:title" content="जन्मकुण्डली — नेपाली ज्योतिष तथा कुण्डली">
+<meta property="og:description" content="जन्म विवरणका आधारमा ग्रह, भाव, नक्षत्र, दशा, नवांश, योग, दोष र गोचरसम्बन्धी ज्योतिषीय गणना हेर्नुहोस्।">
+<meta property="og:url" content="https://apps.laxmannepal.com.np/Nepali-Patro/jyotish/">
+<meta property="og:image" content="https://apps.laxmannepal.com.np/Nepali-Patro/assets/logo.svg">
+<meta property="og:image:alt" content="नेपाली पात्रो लोगो">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="जन्मकुण्डली — नेपाली ज्योतिष तथा कुण्डली">
+<meta name="twitter:description" content="नेपाली ज्योतिष र जन्मकुण्डली गणना उपकरण।">
+<meta name="twitter:image" content="https://apps.laxmannepal.com.np/Nepali-Patro/assets/logo.svg">
+<meta name="twitter:image:alt" content="नेपाली पात्रो लोगो">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"जन्मकुण्डली — नेपाली ज्योतिष तथा कुण्डली","url":"https://apps.laxmannepal.com.np/Nepali-Patro/jyotish/","description":"नेपाली ज्योतिष तथा जन्मकुण्डली गणना उपकरण।","inLanguage":"ne","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","browserRequirements":"Requires JavaScript","image":"https://apps.laxmannepal.com.np/Nepali-Patro/assets/logo.svg","isAccessibleForFree":true}</script>
 <link rel="stylesheet" href="./jyotish.css">
 </head>
 <body>
@@ -28,7 +43,6 @@
 <div class="settings"><label>अयनांश<select id="ayan"><option value="lahiri">Lahiri / Chitrapaksha</option><option value="raman">Raman</option><option value="krishnamurti">Krishnamurti</option></select></label><label>भाव प्रणाली<select id="houses"><option value="whole">Whole Sign</option><option value="equal">Equal</option><option value="sripati">Sripati</option></select></label><label>नोड<select id="nodes"><option value="mean">Mean Node</option><option value="true">True Node</option></select></label></div>
 <button id="generate" class="primary">कुण्डली गणना गर्नुहोस् <span>→</span></button><p class="privacy">जन्म विवरण तपाईंको ब्राउजरमै प्रशोधन गर्ने लक्ष्य राखिएको छ। बाह्य geocoding प्रयोग गर्दा मात्र स्थान खोजी अनुरोध बाहिर जान सक्छ।</p>
 </section>
-
 <section id="results" class="results hidden">
 <div class="result-head"><div><p class="eyebrow">जन्म कुण्डली</p><h2 id="personTitle">—</h2><p id="birthSummary">—</p></div><div class="actions"><button id="print">प्रिन्ट / PDF</button><button id="save">सेभ</button></div></div>
 <div class="method"><span>Sidereal</span><span id="methodAyan">Lahiri</span><span id="methodHouse">Whole Sign</span><span id="ephemeris">Ephemeris: —</span><span id="jd">JD: —</span></div>
@@ -36,7 +50,6 @@
 <div class="tabs" id="tabs"><button class="tab active" data-tab="graha">ग्रह</button><button class="tab" data-tab="bhava">भाव</button><button class="tab" data-tab="nakshatra">नक्षत्र</button><button class="tab" data-tab="varga">वर्ग / D1–D60</button><button class="tab" data-tab="dasha">दशा</button><button class="tab" data-tab="upagraha">उपग्रह</button><button class="tab" data-tab="lagna">विशेष लग्न</button><button class="tab" data-tab="strength">षड्बल</button><button class="tab" data-tab="ashtaka">अष्टकवर्ग</button><button class="tab" data-tab="yoga">योग / दोष</button><button class="tab" data-tab="hora">होरा</button><button class="tab" data-tab="transit">गोचर</button><button class="tab" data-tab="panchanga">जन्म पञ्चाङ्ग</button></div>
 <div id="tabContent" class="tab-content"></div>
 </section>
-
 <section class="blueprint card"><div class="section-head"><div><span>∞</span><h2>ज्योतिषमा के-के समावेश हुनेछ?</h2></div></div><div class="blueprint-grid">
 <article><b>ग्रह & भाव</b><p>सूर्य, चन्द्र, मंगल, बुध, गुरु, शुक्र, शनि, राहु, केतु; लग्न, १२ भाव, भावेश, दृष्टि, अस्त, वक्री, उच्च/नीच, मूलत्रिकोण।</p></article>
 <article><b>नक्षत्र</b><p>२७ नक्षत्र, ४ पाद, नक्षत्र स्वामी, देवता, गण, योनि, नाडी, तारा बल र जन्म नक्षत्र।</p></article>
