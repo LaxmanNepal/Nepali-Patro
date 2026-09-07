@@ -33,8 +33,10 @@ jobs:
         run: npm ci --no-audit --no-fund
       - name: Platform audit
         run: node scripts/platform_audit.mjs
-      - name: Existing validation
+      - name: Full data and contract validation
         run: npm run validate:all
+      - name: SEO audit
+        run: npm run audit:seo
       - name: Python syntax audit
         shell: bash
         run: |
