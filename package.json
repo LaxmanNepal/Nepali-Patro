@@ -10,7 +10,9 @@
     "validate": "node scripts/validate_site.mjs",
     "validate:data": "node scripts/validate_data.mjs",
     "validate:contracts": "node scripts/validate_contracts.mjs",
-    "validate:all": "npm run validate && npm run validate:data && npm run validate:contracts"
+    "audit:seo": "node scripts/validate_seo.mjs",
+    "validate:all": "npm run validate && npm run validate:data && npm run validate:contracts",
+    "audit": "npm run validate:all && npm run audit:seo"
   },
   "dependencies": {
     "nepali-calendar-panchang": "1.0.2"
