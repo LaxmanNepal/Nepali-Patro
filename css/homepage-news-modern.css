@@ -1,0 +1,42 @@
+.home-redesign .np-section:has(#newsPreview) .np-panel{padding:12px;background:transparent;border:0;box-shadow:none;overflow:visible}
+.home-redesign #newsPreview{min-width:0}
+.home-redesign #newsPreview .latest-news-card{padding:0;border:0;background:transparent;box-shadow:none;border-radius:0;overflow:visible}
+.home-redesign #newsPreview .latest-news-heading{display:none}
+.home-redesign #newsPreview .latest-news-featured{margin:0}
+.home-redesign #newsPreview .latest-news-featured .news-card{border:1px solid #f1d5d5;background:linear-gradient(145deg,#fff7f7 0%,#fff 72%);border-radius:20px;box-shadow:0 10px 28px rgba(15,23,42,.055);overflow:hidden;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.home-redesign #newsPreview .latest-news-featured .news-card:hover{transform:translateY(-2px);border-color:#e9aaaa;box-shadow:0 15px 34px rgba(15,23,42,.09)}
+.home-redesign #newsPreview .latest-news-featured .news-card-image{height:230px;object-fit:cover}
+.home-redesign #newsPreview .latest-news-featured .news-card-body{padding:15px 17px 14px}
+.home-redesign #newsPreview .latest-news-featured h3{font-size:19px;line-height:1.5;margin-bottom:6px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.home-redesign #newsPreview .latest-news-featured p{font-size:11px;line-height:1.65;-webkit-line-clamp:2;margin-bottom:10px}
+.home-redesign #newsPreview .latest-news-list{margin-top:9px;display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.home-redesign #newsPreview .latest-news-list .news-card{border:1px solid var(--np-line);border-radius:15px;background:var(--np-card);overflow:hidden;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.home-redesign #newsPreview .latest-news-list .news-card:hover{transform:translateY(-2px);border-color:#efb0b0;box-shadow:0 8px 22px rgba(15,23,42,.07)}
+.home-redesign #newsPreview .latest-news-list .news-card-link{grid-template-columns:86px 1fr;gap:10px}
+.home-redesign #newsPreview .latest-news-list .news-card-image{width:86px;height:82px}
+.home-redesign #newsPreview .latest-news-list .news-card-body{padding:9px 8px 8px 0}
+.home-redesign #newsPreview .latest-news-list h3{font-size:12px;line-height:1.5;-webkit-line-clamp:2;margin-bottom:5px}
+.home-redesign #newsPreview .latest-news-list .news-meta{font-size:9px}
+.home-redesign #newsPreview .latest-news-list .news-source b{font-size:9px}
+.home-redesign #newsPreview .latest-news-more{margin:12px auto 0;padding:9px 15px;font-size:11px;background:var(--np-card)}
+@media(min-width:900px){
+ .home-redesign #newsPreview .latest-news-card{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(320px,1fr);gap:10px;align-items:start}
+ .home-redesign #newsPreview .latest-news-featured{grid-row:1 / span 2}
+ .home-redesign #newsPreview .latest-news-featured .news-card-image{height:290px}
+ .home-redesign #newsPreview .latest-news-list{margin-top:0;grid-template-columns:1fr;gap:8px}
+ .home-redesign #newsPreview .latest-news-more{grid-column:2;align-self:start;margin-top:0}
+}
+@media(max-width:760px){.home-redesign #newsPreview .latest-news-list{grid-template-columns:1fr}}
+@media(max-width:560px){
+ .home-redesign .np-section:has(#newsPreview) .np-panel{padding:8px}
+ .home-redesign #newsPreview .latest-news-featured .news-card{border-radius:17px}
+ .home-redesign #newsPreview .latest-news-featured .news-card-image{height:185px}
+ .home-redesign #newsPreview .latest-news-featured .news-card-body{padding:13px}
+ .home-redesign #newsPreview .latest-news-featured h3{font-size:17px}
+ .home-redesign #newsPreview .latest-news-list .news-card-link{grid-template-columns:82px 1fr;gap:9px}
+ .home-redesign #newsPreview .latest-news-list .news-card-image{width:82px;height:76px}
+ .home-redesign #newsPreview .latest-news-list h3{font-size:12px}
+}
+body.dark.home-redesign #newsPreview .latest-news-featured .news-card{background:linear-gradient(145deg,#25191b,var(--np-card));border-color:#493032}
+body.dark.home-redesign #newsPreview .latest-news-list .news-card{background:var(--np-card)}
+body.dark.home-redesign #newsPreview .latest-news-more{background:var(--np-card);border-color:var(--np-line)}
