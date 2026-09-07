@@ -24,3 +24,14 @@
   .home-redesign .quick-action{min-height:49px}
   .home-redesign .quick-action span:last-child{font-size:7px}
 }
+/* Accessibility + interaction QA */
+.home-redesign :focus-visible{outline:2px solid var(--np-red);outline-offset:3px;border-radius:6px}
+.home-redesign .np-header a:focus-visible,.home-redesign .np-header button:focus-visible{outline-offset:2px}
+.home-redesign .mobile-menu a:focus-visible,.home-redesign .np-mobile a:focus-visible{outline-offset:-2px}
+.home-redesign button{font:inherit}
+@media(prefers-reduced-motion:reduce){
+  .home-redesign *,.home-redesign *::before,.home-redesign *::after{scroll-behavior:auto!important;animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+}
+@media(max-width:600px){
+  .home-redesign .np-primary,.home-redesign .np-secondary,.home-redesign .full-calendar-btn,.home-redesign .quick-action{min-height:44px}
+}
