@@ -26,4 +26,27 @@ function audit(result){
   for(const k of Object.keys(p)){if(p[k].longitude<0||p[k].longitude>=360)r.push(`${k}: longitude outside 0–360°`);if(p[k].sign!==Math.floor(p[k].longitude/30))r.push(`${k}: sign mismatch`) }
   return {ok:r.length===0,errors:r,engine:'Swiss Ephemeris',checkedAt:new Date().toISOString()}
 }
-window.KundaliAccuracy={resolveHistoricalTimezone,validate,audit,historicalOffset};
+function showTimezoneAudit(message,ok=true){
+  let el=$('tzAudit');
+  if(!el){el=document.createElement('div');el.id='tzAudit';el.className='notice';const anchor=$('locationStatus')?.parentElement||$('birthForm')||document.body;anchor.appendChild(el)}
+  el.hidden=false;el.textContent=(ok?'✓ ':'⚠ ')+message;
+}
+async function auditBirthTimezone(){
+  const y=Number($('year')?.value),m=Number($('month')?.value),d=Number($('day')?.value),[hh,mm]=($('time')?.value||'12:00').split(':').map(Number),lat=Number($('lat')?.value),lon=Number($('lon')?.value),selected=Number($('tz')?.value);
+  if(!Number.isFinite(lat)||!Number.isFinite(lon)||!Number.isFinite(selected)||!y||!m||!d)return;
+  const local=new Date(Date.UTC(y,m-1,d,hh||0,mm||0,0));
+  const resolved=await resolveHistoricalTimezone(lat,lon,local);
+  if(!resolved)return;
+  const offset=typeof resolved==='number'?resolved:resolved.offset;
+  if(Number.isFinite(offset)&&Math.abs(offset-selected)>0.01){showTimezoneAudit(`जन्म मितिको historical timezone ${offset>=0?'+':''}${offset} घण्टा हुन सक्छ; हाल चयन गरिएको UTC${selected>=0?'+':''}${selected} हो।`,false)}
+  else showTimezoneAudit(`Historical timezone जाँच भयो · ${resolved.zone||'timezone'} · UTC${offset>=0?'+':''}${offset}`,true);
+}
+function installTimezoneAudit(){
+  const place=$('place');
+  if(!place)return;
+  place.addEventListener('change',auditBirthTimezone);
+  document.addEventListener('click',e=>{if(e.target.closest('.location-option'))setTimeout(auditBirthTimezone,350)});
+  setTimeout(auditBirthTimezone,500);
+}
+window.KundaliAccuracy={resolveHistoricalTimezone,validate,audit,historicalOffset,auditBirthTimezone};
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',installTimezoneAudit);else installTimezoneAudit();
