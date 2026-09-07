@@ -1,5 +1,10 @@
-"""Official interest-rate source adapters."""
+"""Official interest-rate source adapters.
+
+The registry mirrors the canonical bank source URLs in banks.json. Parser IDs
+are explicit so source-specific extraction can be introduced safely later.
+"""
 from dataclasses import dataclass
+
 
 @dataclass(frozen=True)
 class SourceAdapter:
@@ -9,20 +14,22 @@ class SourceAdapter:
     source_type: str = "official"
     enabled: bool = True
 
+
 ADAPTERS = {
-    "nabil-bank": SourceAdapter("nabil-bank", "https://www.nabilbank.com/interest-rate", "nabil_html_table_v1"),
-    "nic-asia-bank": SourceAdapter("nic-asia-bank", "https://www.nicasiabank.com/interest-rates/", "nic_asia_html_table_v1"),
-    "global-ime-bank": SourceAdapter("global-ime-bank", "https://www.globalimebank.com/interest-rates/", "global_ime_html_table_v1"),
-    "nepal-bank": SourceAdapter("nepal-bank", "https://www.nepalbank.com.np/digital/interest-rate", "nepal_bank_html_table_v1"),
-    "nmb-bank": SourceAdapter("nmb-bank", "https://nmb.com.np/interest-rate", "nmb_html_table_v1"),
-    "rastriya-banijya-bank": SourceAdapter("rastriya-banijya-bank", "https://www.rbb.com.np/content/base-rate-and-spread-rate", "rbb_html_table_v1"),
-    "sanima-bank": SourceAdapter("sanima-bank", "https://www.sanimabank.com/interest-rates", "sanima_html_table_v1"),
-    "kumari-bank": SourceAdapter("kumari-bank", "https://www.kumaribank.com/interest-rate", "kumari_html_table_v1"),
-    "prabhu-bank": SourceAdapter("prabhu-bank", "https://www.prabhubank.com/interest-rate", "prabhu_html_table_v1"),
-    "siddhartha-bank": SourceAdapter("siddhartha-bank", "https://www.siddharthabank.com/interest-rate", "siddhartha_html_table_v1"),
-    "everest-bank": SourceAdapter("everest-bank", "https://everestbankltd.com/interest-rate", "everest_html_table_v1"),
-    "standard-chartered-bank-nepal": SourceAdapter("standard-chartered-bank-nepal", "https://www.sc.com/np/rates-and-charges/", "standard_chartered_html_table_v1"),
+    "nabil-bank": SourceAdapter("nabil-bank", "https://www.nabilbank.com/interest-rate", "html_table_v1"),
+    "nic-asia-bank": SourceAdapter("nic-asia-bank", "https://www.nicasiabank.com/interest-rates/", "html_blocks_v1"),
+    "global-ime-bank": SourceAdapter("global-ime-bank", "https://www.globalimebank.com/interest-rates/", "html_table_v1"),
+    "nepal-bank": SourceAdapter("nepal-bank", "https://www.nepalbank.com.np/digital/interest-rate", "html_table_v1"),
+    "nmb-bank": SourceAdapter("nmb-bank", "https://nmb.com.np/interest-rate", "html_table_v1"),
+    "rastriya-banijya-bank": SourceAdapter("rastriya-banijya-bank", "https://www.rbb.com.np/content/base-rate-and-spread-rate", "html_table_v1"),
+    "sanima-bank": SourceAdapter("sanima-bank", "https://www.sanimabank.com/interest-rates", "html_blocks_v1"),
+    "kumari-bank": SourceAdapter("kumari-bank", "https://www.kumaribank.com/interest-rate", "html_table_v1"),
+    "prabhu-bank": SourceAdapter("prabhu-bank", "https://www.prabhubank.com/interest-rate", "html_blocks_v1"),
+    "siddhartha-bank": SourceAdapter("siddhartha-bank", "https://www.siddharthabank.com/interest-rate", "html_blocks_v1"),
+    "everest-bank": SourceAdapter("everest-bank", "https://everestbankltd.com/interest-rate", "html_table_v1"),
+    "standard-chartered-bank-nepal": SourceAdapter("standard-chartered-bank-nepal", "https://www.sc.com/np/rates-and-charges/", "html_blocks_v1"),
 }
+
 
 def get_adapter(bank_id: str) -> SourceAdapter | None:
     return ADAPTERS.get(bank_id)
