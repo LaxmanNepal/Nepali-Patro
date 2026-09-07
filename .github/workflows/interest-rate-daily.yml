@@ -1,4 +1,4 @@
-name: Daily Nepal Bank Interest Rates
+name: Update Nepal Bank Interest Rates
 
 on:
   workflow_dispatch:
@@ -10,24 +10,16 @@ on:
     - cron: '15 3 * * *'
     - cron: '15 9 * * *'
 
-permissions:
-  contents: write
-
-concurrency:
-  group: interest-rate-daily
-  cancel-in-progress: false
-
 jobs:
   update-interest-rates:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    permissions:
+      contents: write
     steps:
-      - name: Checkout current ref
+      - name: Checkout
         uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.13'
@@ -36,44 +28,51 @@ jobs:
         run: python -m pip install --disable-pip-version-check beautifulsoup4
 
       - name: Fetch and normalize live rates
-        run: python scripts/interest_rate_fetcher.py
-
-      - name: Run data quality gate
-        run: python scripts/test_interest_rate_pipeline.py
-
-      - name: Generate public interest-rate pages
-        run: python scripts/generate_interest_rate_pages.py
-
-      - name: Validate public assets
         run: |
-          set -euo pipefail
-          test -f interest-rate/index.html
-          test -f feeds/interest_rates/current.json
+          cd scripts
+          python interest_rate_fetcher.py
+          python interest_rate_normalizer.py --validate-only
+
+      - name: Quality gate
+        run: |
+          python scripts/test_interest_rate_pipeline.py
           python - <<'PY'
           import json
           from pathlib import Path
-          data = json.loads(Path('feeds/interest_rates/current.json').read_text())
-          assert data.get('updatedAt')
-          assert isinstance(data.get('banks'), list) and data['banks']
+          p = Path('feeds/interest_rates/current.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
           health = data.get('health', {})
-          verified = sum(1 for bank in data['banks'] if bank.get('status') == 'verified' and bank.get('rates'))
-          if health:
-              assert health.get('verifiedBanks') == verified
-          print('Dataset:', len(data['banks']), 'banks')
-          print('Verified with usable rates:', verified)
-          if verified == 0:
-              print('WARNING: No live verified rates were extracted.')
+          print('health=', json.dumps(health, ensure_ascii=False))
+          if health.get('totalBanks', 0) < 1:
+              raise SystemExit('No bank records generated')
+          if health.get('verifiedBanks', 0) == 0:
+              print('::warning::No live verified rates were extracted; registry/previous verified data will be preserved.')
           PY
 
-      - name: Commit changed data and pages
+      - name: Generate bank SEO pages and sitemap
+        run: python scripts/generate_interest_rate_pages.py
+
+      - name: Validate generated assets
         run: |
-          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('feeds/interest_rates/current.json').read_text(encoding='utf-8'))
+          banks = data.get('banks', [])
+          assert banks, 'No banks in current feed'
+          assert data.get('health', {}).get('totalBanks') == len(banks), 'Health count mismatch'
+          for bank in banks:
+              assert bank.get('bankId'), 'Missing bankId'
+              assert bank.get('source', {}).get('url'), 'Missing source URL'
+          assert Path('interest-rate/index.html').exists(), 'Custom interest-rate index missing'
+          assert Path('interest-rate/sitemap-interest-rates.xml').exists(), 'Interest-rate sitemap missing'
+          print(f"Validated {len(banks)} bank records")
+          PY
+
+      - name: Commit generated data
+        run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add feeds/interest_rates/ interest-rate/bank/ interest-rate/sitemap-interest-rates.xml
-          if git diff --cached --quiet; then
-            echo 'No changes.'
-            exit 0
-          fi
-          git commit -m 'chore: update Nepal bank interest rates and pages'
+          git diff --cached --quiet || git commit -m 'chore: update Nepal bank interest rates'
           git push origin HEAD:${GITHUB_REF_NAME}
