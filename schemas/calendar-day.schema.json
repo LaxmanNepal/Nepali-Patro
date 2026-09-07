@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://apps.laxmannepal.com.np/Nepali-Patro/schemas/calendar-day.schema.json",
+  "title": "Nepali Patro Calendar Day",
+  "type": "object",
+  "required": ["bs", "ad", "weekday", "tithi", "nakshatra", "yoga", "karana", "sun", "moon", "rahuKaal", "events"],
+  "properties": {
+    "bs": {"type":"object","required":["year","month","day","monthNepali","monthRoman"],"properties":{"year":{"type":"integer"},"month":{"type":"integer","minimum":1,"maximum":12},"day":{"type":"integer","minimum":1,"maximum":32},"monthNepali":{"type":"string"},"monthRoman":{"type":"string"}}},
+    "ad": {"type":"object","required":["date","year","month","day"],"properties":{"date":{"type":"string","pattern":"^\\d{4}-\\d{2}-\\d{2}$"},"year":{"type":"integer"},"month":{"type":"integer","minimum":1,"maximum":12},"day":{"type":"integer","minimum":1,"maximum":31}}},
+    "weekday": {"type":"object","required":["index","nepali"],"properties":{"index":{"type":"integer","minimum":0,"maximum":6},"nepali":{"type":"string"}}},
+    "tithi": {"type":"object","required":["name","paksha"],"properties":{"name":{"type":"string"},"paksha":{"type":"string"},"end":{"type":["string","null"]},"after":{"type":["string","null"]}}},
+    "nakshatra": {"type":"object","required":["name"],"properties":{"name":{"type":"string"},"pada":{"type":["integer","string","null"]},"end":{"type":["string","null"]},"after":{"type":["string","null"]}}},
+    "yoga": {"type":"object","required":["name"],"properties":{"name":{"type":"string"},"end":{"type":["string","null"]},"after":{"type":["string","null"]}}},
+    "karana": {"type":"object","required":["name"],"properties":{"name":{"type":"string"},"end":{"type":["string","null"]},"after":{"type":["string","null"]}}},
+    "sun": {"type":"object","required":["sunrise","sunset"],"properties":{"sunrise":{"type":["string","null"]},"sunset":{"type":["string","null"]}}},
+    "moon": {"type":"object","properties":{"rise":{"type":["string","null"]},"set":{"type":["string","null"]},"phase":{"type":"string"}}},
+    "rahuKaal": {},
+    "rashi": {"type":"string"},
+    "festival": {"type":"string"},
+    "events": {"type":"array","items":{"type":"string"}},
+    "holiday": {"type":"boolean"},
+    "source": {"type":"object"}
+  }
+}
