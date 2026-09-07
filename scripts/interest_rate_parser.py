@@ -4,7 +4,9 @@ from __future__ import annotations
 import re
 from bs4 import BeautifulSoup
 
-RATE_RE = re.compile(r"(?<!\d)(\d+(?:\.\d+)?)\s*(?:%|percent)\b?", re.I)
+# Python 3.13 rejects an optional quantifier applied to the zero-width \b.
+# Keep the word boundary only for the textual "percent" alternative.
+RATE_RE = re.compile(r"(?<!\d)(\d+(?:\.\d+)?)\s*(?:%|percent)\b", re.I)
 RATE_CONTEXT_RE = re.compile(
     r"\b(saving|savings|deposit|fixed|fd|recurring|call|loan|advance|base\s+rate|"
     r"बचत|मुद्दती|सावधिक|आवधिक|कर्जा|ऋण|आधार\s*दर)\b", re.I)
