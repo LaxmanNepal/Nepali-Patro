@@ -1,0 +1,12 @@
+/* Homepage QA hardening: overflow, focus, media and dynamic-content safety. */
+.home-redesign main,.home-redesign .np-section,.home-redesign .np-panel,.home-redesign #calendarPreview,.home-redesign #newsPreview,.home-redesign #historyPreview,.home-redesign #financePreview{min-width:0}
+.home-redesign img,.home-redesign svg,.home-redesign video{max-width:100%;height:auto}
+.home-redesign a,.home-redesign button{touch-action:manipulation}
+.home-redesign a:focus-visible,.home-redesign button:focus-visible,.home-redesign select:focus-visible{outline:2px solid var(--np-red);outline-offset:3px}
+.home-redesign .np-heading>a,.home-redesign .np-primary,.home-redesign .np-secondary,.home-redesign .full-calendar-btn{overflow-wrap:anywhere}
+.home-redesign .np-panel p,.home-redesign .np-event b,.home-redesign .np-news-item b,.home-redesign .hp-history-title,.home-redesign .hp-history-summary{overflow-wrap:anywhere}
+.home-redesign #calendarPreview{overflow-x:auto;overflow-y:hidden;scrollbar-width:thin}
+.home-redesign .np-zodiac,.home-redesign .np-cards,.home-redesign .np-news,.home-redesign #historyPreview,.home-redesign #financePreview{min-width:0}
+.home-redesign [aria-busy="true"]{cursor:progress}
+@media(max-width:600px){.home-redesign .np-header{gap:8px}.home-redesign #npTheme{flex:0 0 36px}.home-redesign .np-brand strong{font-size:14px}.home-redesign .np-brand small{font-size:8px}.home-redesign .np-heading{min-width:0}.home-redesign .np-heading>div{min-width:0}.home-redesign .np-heading h2{overflow-wrap:anywhere}.home-redesign .np-heading>a{flex:0 0 auto}.home-redesign .np-panel{overflow:clip}.home-redesign #calendarPreview{overflow-x:auto;overflow-y:hidden}}
+@media(prefers-reduced-motion:reduce){.home-redesign *,.home-redesign *::before,.home-redesign *::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
