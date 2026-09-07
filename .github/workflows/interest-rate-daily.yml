@@ -17,6 +17,7 @@ jobs:
   update-interest-rates:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
@@ -48,11 +49,25 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          data=json.loads(Path('feeds/interest_rates/current.json').read_text())
+
+          data = json.loads(Path('feeds/interest_rates/current.json').read_text())
           assert data.get('updatedAt')
           assert isinstance(data.get('banks'), list) and data['banks']
+
+          health = data.get('health', {})
+          verified = sum(
+              1 for bank in data['banks']
+              if bank.get('status') == 'verified' and bank.get('rates')
+          )
+
+          if health:
+              assert health.get('verifiedBanks') == verified
+
           print('Dataset:', len(data['banks']), 'banks')
-          print('Verified:', sum(x.get('status') == 'verified' for x in data['banks']))
+          print('Verified with usable rates:', verified)
+
+          if verified == 0:
+              print('WARNING: No live verified rates. Existing pages remain in safe no-rate mode.')
           PY
 
       - name: Commit changed data and pages
@@ -60,7 +75,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feeds/interest_rates/ interest-rate/
+          git add feeds/interest_rates/ interest-rate/bank/ interest-rate/sitemap-interest-rates.xml
           if git diff --cached --quiet; then
             echo 'No changes.'
             exit 0
