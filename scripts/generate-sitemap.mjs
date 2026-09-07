@@ -11,17 +11,29 @@ const skip=new Set([
   'backend','cloudflare','docs','schemas','tests','vendor','whatsapp-bot'
 ]);
 const aliases=new Set(['panchang','festivals','saait']);
+const ignoredFiles=new Set(['404.html']);
+
+function addPage(full){
+  const rel=path.relative(root,full).replaceAll(path.sep,'/');
+  const dir=path.dirname(rel);
+  const file=path.basename(rel);
+  if(ignoredFiles.has(file))return;
+  if(file==='index.html'){
+    const route=dir==='.'?'/':`/${dir}/`;
+    if(!aliases.has(dir))urls.add(route);
+    return;
+  }
+  if(file.endsWith('.html')){
+    urls.add(`/${rel}`);
+  }
+}
 
 function walk(dir){
   for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
     if(skip.has(entry.name))continue;
     const full=path.join(dir,entry.name);
     if(entry.isDirectory())walk(full);
-    else if(entry.name==='index.html'){
-      const rel=path.relative(root,path.dirname(full)).replaceAll(path.sep,'/');
-      const route=rel?`/${rel}/`:'/';
-      if(!aliases.has(rel))urls.add(route);
-    }
+    else if(entry.isFile() && entry.name.endsWith('.html'))addPage(full);
   }
 }
 walk(root);
