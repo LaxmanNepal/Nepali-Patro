@@ -37,6 +37,8 @@ jobs:
         run: npm run generate
       - name: Generate all clean feature routes
         run: npm run generate:routes
+      - name: Generate public SEO sitemap
+        run: npm run generate:sitemap
       - name: Syntax-check JavaScript
         shell: bash
         run: |
@@ -78,7 +80,6 @@ jobs:
               d=json.loads(p.read_text(encoding='utf-8'))
               for key in ('events','births','deaths'):
                   if not isinstance(d.get(key),list): raise SystemExit(f'{p}: {key} must be a list')
-              # research_leads is optional in the current history schema.
               if 'research_leads' in d and not isinstance(d['research_leads'],list):
                   raise SystemExit(f'{p}: research_leads must be a list when present')
               if not isinstance(d.get('bs_year'),int): raise SystemExit(f'{p}: missing/invalid bs_year')
@@ -112,6 +113,7 @@ jobs:
           rsync -a --delete --exclude '.git/' --exclude '.github/' --exclude 'node_modules/' --exclude 'scripts/' --exclude 'package.json' --exclude 'package-lock.json' --exclude 'README.md' ./ _site/
           node scripts/apply_shared_shell.mjs _site
           test -f _site/index.html
+          test -f _site/sitemap.xml
           for r in calendar panchanga parba saith rashifal news converter forex gold-price itihas-aaja interest-rate; do test -f "_site/$r/index.html"; done
           test -f _site/interest-rate/llms.txt
           test -f _site/feeds/interest_rates/current.json
