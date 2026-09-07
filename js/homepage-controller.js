@@ -1,20 +1,17 @@
 (()=>{'use strict';
 const existing=window.NepaliPatroHome;
-if(existing?.version>=9)return;
+if(existing?.version>=10)return;
 const listeners=new Set();
 const state={status:'idle',todayAd:'',todayBs:null,calendar:null,clock:'',festivals:null,news:null,finance:null,history:null,error:null,sources:{calendar:{status:'idle',updatedAt:null,error:null},news:{status:'idle',updatedAt:null,error:null},finance:{status:'idle',updatedAt:null,error:null},history:{status:'idle',updatedAt:null,error:null}}};
-const api={version:9,state,ready:Promise.resolve(state),set(key,value){state[key]=value;listeners.forEach(fn=>{try{fn(state,key,value)}catch(e){console.error('[Nepali Patro homepage controller]',e)}});return value},merge(values){Object.keys(values||{}).forEach(k=>api.set(k,values[k]));return state},source(name,values){if(!state.sources[name])state.sources[name]={status:'idle',updatedAt:null,error:null};state.sources={...state.sources,[name]:{...state.sources[name],...(values||{})}};listeners.forEach(fn=>{try{fn(state,'sources:'+name,state.sources[name])}catch(e){console.error('[Nepali Patro homepage controller]',e)}});return state.sources[name]},get(key){return key?state[key]:state},subscribe(fn){if(typeof fn!=='function')return()=>{};listeners.add(fn);return()=>listeners.delete(fn)},setReady(promise){api.ready=Promise.resolve(promise).then(()=>{state.status='ready';return state}).catch(e=>{state.status='error';state.error=e;throw e})}};
+const api={version:10,state,ready:Promise.resolve(state),set(key,value){state[key]=value;listeners.forEach(fn=>{try{fn(state,key,value)}catch(e){console.error('[Nepali Patro homepage controller]',e)}});return value},merge(values){Object.keys(values||{}).forEach(k=>api.set(k,values[k]));return state},source(name,values){if(!state.sources[name])state.sources[name]={status:'idle',updatedAt:null,error:null};state.sources={...state.sources,[name]:{...state.sources[name],...(values||{})}};listeners.forEach(fn=>{try{fn(state,'sources:'+name,state.sources[name])}catch(e){console.error('[Nepali Patro homepage controller]',e)}});return state.sources[name]},get(key){return key?state[key]:state},subscribe(fn){if(typeof fn!=='function')return()=>{};listeners.add(fn);return()=>listeners.delete(fn)},setReady(promise){api.ready=Promise.resolve(promise).then(()=>{state.status='ready';return state}).catch(e=>{state.status='error';state.error=e;throw e})}};
 window.NepaliPatroHome=api;
 if(location.pathname.replace(/\/+$/,'/')==='/Nepali-Patro/'){
- const hierarchy=document.createElement('link');hierarchy.rel='stylesheet';hierarchy.href='css/homepage-hierarchy.css?v=20260907-01';document.head.appendChild(hierarchy);
- const flow=document.createElement('link');flow.rel='stylesheet';flow.href='css/homepage-content-flow.css?v=20260907-01';document.head.appendChild(flow);
- const calendar=document.createElement('link');calendar.rel='stylesheet';calendar.href='css/homepage-calendar-modern.css?v=20260907-01';document.head.appendChild(calendar);
- const polish=document.createElement('link');polish.rel='stylesheet';polish.href='css/homepage-polish.css?v=20260907-01';document.head.appendChild(polish);
- const css=document.createElement('link');css.rel='stylesheet';css.href='css/homepage-converter.css?v=20260907-01';document.head.appendChild(css);
- const s=document.createElement('script');s.src='js/homepage-finance.js?v=20260904-03';s.defer=true;document.head.appendChild(s);
- const r=document.createElement('script');r.src='js/rashifal-home.js?v=20260907-01';r.defer=true;document.head.appendChild(r);
- const h=document.createElement('script');h.src='js/homepage-history.js?v=20260907-01';h.defer=true;document.head.appendChild(h);
- const c=document.createElement('script');c.src='js/homepage-converter.js?v=20260907-01';c.defer=true;document.head.appendChild(c);
+ const links=[
+  ['homepage-hierarchy.css','20260907-01'],['homepage-content-flow.css','20260907-01'],['homepage-calendar-modern.css','20260907-01'],['homepage-feature-pair.css','20260907-01'],['homepage-polish.css','20260907-01'],['homepage-converter.css','20260907-01']
+ ];
+ links.forEach(([file,v])=>{const l=document.createElement('link');l.rel='stylesheet';l.href=`css/${file}?v=${v}`;document.head.appendChild(l)});
+ const scripts=[['homepage-finance.js','20260904-03'],['rashifal-home.js','20260907-01'],['homepage-history.js','20260907-01'],['homepage-converter.js','20260907-01']];
+ scripts.forEach(([file,v])=>{const s=document.createElement('script');s.src=`js/${file}?v=${v}`;s.defer=true;document.head.appendChild(s)});
  const banner=document.createElement('div');banner.id='npDataStatus';banner.setAttribute('role','status');banner.setAttribute('aria-live','polite');banner.hidden=true;banner.style.cssText='max-width:1180px;margin:0 auto;padding:7px 14px;font:600 12px/1.4 system-ui,sans-serif;color:#6b7280;text-align:center';document.addEventListener('DOMContentLoaded',()=>{const hero=document.querySelector('main')||document.body;hero.prepend(banner);const paint=()=>{const s=api.state.sources||{};const stale=Object.values(s).some(x=>x.status==='stale');const failed=Object.values(s).some(x=>x.status==='error');const offline=!navigator.onLine;if(offline||stale||failed){banner.hidden=false;banner.textContent=offline?'अफलाइन मोड: सुरक्षित गरिएको डेटा प्रयोग भइरहेको छ।':failed?'केही डेटा अहिले उपलब्ध छैन। बाँकी सेवा चलिरहन्छ।':'केही डेटा पुरानो हुन सक्छ; नयाँ डेटा प्राप्त भएपछि स्वतः अपडेट हुनेछ।'}else{banner.hidden=true;banner.textContent=''}};api.subscribe(paint);window.addEventListener('online',paint);window.addEventListener('offline',paint);paint()},{once:true});
 }
 })();
