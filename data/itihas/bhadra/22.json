@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "bs_year": 2083,
   "bs_month": 5,
   "bs_month_ne": "भदौ",
@@ -8,8 +8,9 @@
     {
       "year": 2026,
       "title": "राष्ट्रिय शोक दिवस — भोटेकोशी बाढी पीडितको स्मरण",
-      "summary": "नेपाल सरकारले भोटेकोशी बाढीमा ज्यान गुमाएकाहरूको सम्मानमा ७ सेप्टेम्बर २०२६ लाई राष्ट्रिय शोक दिवसका रूपमा मनाएको छ। सरकारी कार्यालय तथा विदेशस्थित नेपाली नियोगमा राष्ट्रिय झण्डा आधा झुकाइएको छ।",
+      "summary": "नेपाल सरकारले भोटेकोशी बाढीमा ज्यान गुमाएकाहरूको सम्मानमा ७ सेप्टेम्बर २०२६ लाई राष्ट्रिय शोक दिवसका रूपमा मनाएको छ।",
       "type": "event",
+      "domain": "nepal",
       "source": "Radio Nepal",
       "url": "https://radionepalonline.com/en/2026/09/07/435552.html",
       "source_tier": "primary",
@@ -23,6 +24,7 @@
       "title": "नेपालमा पहिलो निजामती सेवा कानून",
       "summary": "नेपालमा पहिलो निजामती सेवा कानून लागू भएको २२ भदौ २०१२ को स्मरणमा निजामती सेवा दिवस मनाइन्छ।",
       "type": "event",
+      "domain": "nepal",
       "source": "Republica",
       "url": "https://myrepublica.nagariknetwork.com/news/22nd-civil-service-day-being-observed-today-41-30.html",
       "source_tier": "news",
@@ -34,8 +36,9 @@
     {
       "year": 1940,
       "title": "दोस्रो विश्वयुद्ध — लन्डनमाथि ब्लिट्ज बमबारी",
-      "summary": "दोस्रो विश्वयुद्धका क्रममा ७ सेप्टेम्बर १९४० मा जर्मन लुफ्टवाफेले लन्डन र बेलायतका अन्य शहरमाथि ब्लिट्ज बमबारी अभियान सुरु गर्‍यो।",
+      "summary": "७ सेप्टेम्बर १९४० मा जर्मन लुफ्टवाफेले लन्डन र बेलायतका अन्य शहरमाथि ब्लिट्ज बमबारी अभियान सुरु गर्‍यो।",
       "type": "event",
+      "domain": "world",
       "source": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/September_7",
       "source_tier": "reference",
@@ -49,6 +52,7 @@
       "title": "पहिलो पूर्ण इलेक्ट्रोनिक टेलिभिजन प्रणाली",
       "summary": "फिलो फार्न्सवर्थले पहिलो पूर्ण इलेक्ट्रोनिक टेलिभिजन प्रणाली सफलतापूर्वक प्रदर्शन गरे।",
       "type": "event",
+      "domain": "world",
       "source": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/September_7",
       "source_tier": "reference",
@@ -58,8 +62,75 @@
       "sources": [{"name":"Wikipedia — September 7","url":"https://en.wikipedia.org/wiki/September_7","tier":"reference"}]
     }
   ],
-  "births": [],
-  "deaths": [],
+  "births": [
+    {
+      "year": 1930,
+      "title": "युआन लङपिङको जन्म",
+      "summary": "हाइब्रिड धान अनुसन्धानका अग्रणी चिनियाँ कृषि वैज्ञानिक युआन लङपिङको जन्म ७ सेप्टेम्बर १९३० मा भएको थियो।",
+      "type": "birth",
+      "domain": "world",
+      "category": "विज्ञान तथा कृषि",
+      "importance": 4,
+      "confidence": "high",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yuan_Longping",
+      "sources": [{"name":"Wikipedia — Yuan Longping","url":"https://en.wikipedia.org/wiki/Yuan_Longping","tier":"reference"}]
+    },
+    {
+      "year": 1959,
+      "title": "ड्रु वाइस्म्यानको जन्म",
+      "summary": "mRNA खोप प्रविधिमा योगदानका लागि नोबेल पुरस्कार पाएका अमेरिकी जैवरसायनशास्त्री ड्रु वाइस्म्यानको जन्म ७ सेप्टेम्बर १९५९ मा भएको थियो।",
+      "type": "birth",
+      "domain": "world",
+      "category": "विज्ञान तथा चिकित्सा",
+      "importance": 4,
+      "confidence": "high",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Drew_Weissman",
+      "sources": [{"name":"Wikipedia — Drew Weissman","url":"https://en.wikipedia.org/wiki/Drew_Weissman","tier":"reference"}]
+    },
+    {
+      "year": 1964,
+      "title": "ईजी–ईको जन्म",
+      "summary": "अमेरिकी र्‍यापर तथा N.W.A का संस्थापक सदस्यमध्येका एक ईजी–ईको जन्म ७ सेप्टेम्बर १९६४ मा भएको थियो।",
+      "type": "birth",
+      "domain": "world",
+      "category": "संगीत तथा संस्कृति",
+      "importance": 3,
+      "confidence": "high",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eazy-E",
+      "sources": [{"name":"Wikipedia — Eazy-E","url":"https://en.wikipedia.org/wiki/Eazy-E","tier":"reference"}]
+    }
+  ],
+  "deaths": [
+    {
+      "year": 1936,
+      "title": "थाइलासिनको अन्तिम ज्ञात जीवको मृत्यु",
+      "summary": "तस्मानियन टाइगर भनेर चिनिने अन्तिम ज्ञात थाइलासिनको होबार्ट चिडियाखानामा मृत्यु भयो।",
+      "type": "death",
+      "domain": "world",
+      "category": "प्रकृति तथा जीवविज्ञान",
+      "importance": 4,
+      "confidence": "high",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thylacine",
+      "sources": [{"name":"Wikipedia — Thylacine","url":"https://en.wikipedia.org/wiki/Thylacine","tier":"reference"}]
+    },
+    {
+      "year": 1993,
+      "title": "किङ बाउद्विन प्रथमको निधन",
+      "summary": "बेल्जियमका राजा बाउद्विन प्रथमको १९९३ मा निधन भयो।",
+      "type": "death",
+      "domain": "world",
+      "category": "राजनीति तथा राजसंस्था",
+      "importance": 3,
+      "confidence": "high",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Baudouin_of_Belgium",
+      "sources": [{"name":"Wikipedia — Baudouin of Belgium","url":"https://en.wikipedia.org/wiki/Baudouin_of_Belgium","tier":"reference"}]
+    }
+  ],
   "research_leads": [
     "नेपालका २२ भदौसँग सम्बन्धित थप ऐतिहासिक घटना र व्यक्तित्वहरू अभिलेखसँग मिलान गर्ने",
     "नेपालका प्राथमिक/सरकारी स्रोतबाट पुराना २२ भदौ घटनाहरू थप प्रमाणित गर्ने"
