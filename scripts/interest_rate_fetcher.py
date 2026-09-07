@@ -9,7 +9,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from interest_rate_sources import ADAPTERS
-from interest_rate_parser import parse_html_tables, validate_rates
+from interest_rate_parser import parse_html, validate_rates
 from interest_rate_normalizer import normalize
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,12 +39,7 @@ def extract_effective_text(html: str) -> str | None:
     return match.group(0)[:300] if match else None
 
 
-def keep_previous_verified(
-    prior: dict | None,
-    failed_item: dict,
-    now: datetime,
-) -> dict:
-    """Never replace a known-good bank dataset with an empty scrape."""
+def keep_previous_verified(prior: dict | None, failed_item: dict, now: datetime) -> dict:
     if prior and prior.get("status") == "verified" and prior.get("rates"):
         return {
             **prior,
@@ -69,36 +64,28 @@ def main() -> int:
             "bankId": bank_id,
             "status": "error",
             "fetchedAt": now.isoformat(),
-            "source": {"url": adapter.url, "type": adapter.source_type},
+            "source": {"url": adapter.url, "type": adapter.source_type, "parser": adapter.parser},
             "rates": [],
         }
 
         try:
             html = fetch(adapter.url)
-            raw = validate_rates(parse_html_tables(html))
+            raw = validate_rates(parse_html(html))
             rates = normalize(raw)
             item["rates"] = rates
             item["effectiveText"] = extract_effective_text(html)
 
             categories = {r.get("category") for r in rates}
-            deposit_categories = {
-                "savings",
-                "fixed_deposit",
-                "recurring_deposit",
-                "call_deposit",
-            }
+            deposit_categories = {"savings", "fixed_deposit", "recurring_deposit", "call_deposit"}
 
             if rates and categories.intersection(deposit_categories):
                 item["status"] = "verified"
             elif rates:
                 item["status"] = "review"
-                item["note"] = (
-                    "Rates extracted but no recognized deposit category was found."
-                )
+                item["note"] = "Rates extracted but no recognized deposit category was found."
             else:
                 item["status"] = "review"
                 item["error"] = "No validated interest-rate records extracted."
-
         except Exception as exc:
             item["status"] = "error"
             item["fetchStatus"] = "fetch_error"
@@ -109,59 +96,31 @@ def main() -> int:
         else:
             item["lastCheckedAt"] = now.isoformat()
             item["stale"] = False
-
         results.append(item)
 
-    verified = sum(
-        1
-        for bank in results
-        if bank.get("status") == "verified" and bank.get("rates")
-    )
-
+    verified = sum(1 for bank in results if bank.get("status") == "verified" and bank.get("rates"))
     payload = {
-        "schemaVersion": "1.3",
+        "schemaVersion": "1.4",
         "country": "Nepal",
         "currency": "NPR",
         "updatedAt": now.isoformat(),
         "timezone": "Asia/Kathmandu",
         "generatedBy": "Nepali Patro daily interest-rate pipeline",
-        "publicationRule": (
-            "Only explicitly sourced and semantically recognized records "
-            "are eligible for comparison."
-        ),
-        "health": {
-            "totalBanks": len(results),
-            "verifiedBanks": verified,
-            "hasUsableRates": verified > 0,
-        },
+        "publicationRule": "Only explicitly sourced and semantically recognized records are eligible for comparison.",
+        "health": {"totalBanks": len(results), "verifiedBanks": verified, "hasUsableRates": verified > 0},
         "banks": results,
     }
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-
-    previous_history = (
-        json.loads(HISTORY.read_text(encoding="utf-8"))
-        if HISTORY.exists()
-        else {"snapshots": []}
-    )
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    previous_history = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else {"snapshots": []}
     previous_history.setdefault("snapshots", []).append(payload)
     previous_history["snapshots"] = previous_history["snapshots"][-365:]
-    HISTORY.write_text(
-        json.dumps(previous_history, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    HISTORY.write_text(json.dumps(previous_history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    print(
-        f"Fetched {len(results)} banks; verified={verified}; "
-        f"review/error={len(results) - verified}"
-    )
+    print(f"Fetched {len(results)} banks; verified={verified}; review/error={len(results)-verified}")
     if verified == 0:
         print("WARNING: No verified live rates were extracted.")
-
     return 0
 
 
