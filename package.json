@@ -9,7 +9,8 @@
     "generate:sitemap": "node scripts/generate-sitemap.mjs",
     "validate": "node scripts/validate_site.mjs",
     "validate:data": "node scripts/validate_data.mjs",
-    "validate:all": "npm run validate && npm run validate:data"
+    "validate:contracts": "node scripts/validate_contracts.mjs",
+    "validate:all": "npm run validate && npm run validate:data && npm run validate:contracts"
   },
   "dependencies": {
     "nepali-calendar-panchang": "1.0.2"
