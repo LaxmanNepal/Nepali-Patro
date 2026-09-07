@@ -1,6 +1,6 @@
 """Robust parser for Nepal bank interest-rate pages.
 
-The parser deliberately keeps extraction source-aware while supporting the
+The parser deliberately keeps source-aware extraction while supporting the
 common table/card layouts used by official bank websites.
 """
 from __future__ import annotations
@@ -8,16 +8,15 @@ from __future__ import annotations
 import re
 from bs4 import BeautifulSoup
 
-# Python 3.13 rejects an optional quantifier applied to the zero-width \\b.
-RATE_RE = re.compile(r"(?<!\\d)(\\d+(?:\\.\\d+)?)\\s*(?:%|percent)\\b", re.I)
+RATE_RE = re.compile(r"(?<!\d)(\d+(?:\.\d+)?)\s*(?:%|percent)\b", re.I)
 RATE_CONTEXT_RE = re.compile(
-    r"\\b(saving|savings|deposit|fixed|fd|recurring|call|loan|advance|base\\s+rate|"
+    r"\b(saving|savings|deposit|fixed|fd|recurring|call|loan|advance|base\s+rate|"
     r"interest|remittance|fcy|nrn|बचत|निक्षेप|मुद्दती|सावधिक|आवधिक|कर्जा|ऋण|"
-    r"आधार\\s*दर|रेमिट्यान्स)\\b", re.I,
+    r"आधार\s*दर|रेमिट्यान्स)\b", re.I,
 )
 DEPOSIT_CONTEXT_RE = re.compile(
-    r"\\b(saving|savings|deposit|fixed|fd|recurring|call|remittance|fcy|nrn|"
-    r"बचत|निक्षेप|मुद्दती|सावधिक|आवधिक|कल डिपोजिट|रेमिट्यान्स)\\b", re.I,
+    r"\b(saving|savings|deposit|fixed|fd|recurring|call|remittance|fcy|nrn|"
+    r"बचत|निक्षेप|मुद्दती|सावधिक|आवधिक|कल डिपोजिट|रेमिट्यान्स)\b", re.I,
 )
 HEADER_RE = re.compile(r"(rate|interest|%|प्रतिशत|ब्याज|दर)", re.I)
 
@@ -49,10 +48,6 @@ def _table_headers(rows: list) -> list[str]:
 
 
 def parse_html_tables(html: str, *, deposit_only: bool = False) -> list[dict]:
-    """Extract percentage cells from all useful tables, not just tables whose
-    full text contains a deposit keyword. This prevents valid rows from being
-    discarded when a bank separates product names and rate columns.
-    """
     soup = BeautifulSoup(html, "html.parser")
     records: list[dict] = []
     for table_index, table in enumerate(soup.find_all("table")):
@@ -63,20 +58,24 @@ def parse_html_tables(html: str, *, deposit_only: bool = False) -> list[dict]:
         if deposit_only and not DEPOSIT_CONTEXT_RE.search(table_text):
             continue
         headers = _table_headers(rows)
+        table_has_rate_header = any(HEADER_RE.search(h) for h in headers)
+        table_has_context = bool(RATE_CONTEXT_RE.search(table_text))
         for row_index, row in enumerate(rows):
             cells = [c.get_text(" ", strip=True) for c in row.find_all(["th", "td"])]
             if not cells:
                 continue
             raw = " | ".join(cells)
-            if not RATE_CONTEXT_RE.search(raw) and not any(parse_rate(c) is not None for c in cells):
+            rate_cells = [(i, parse_rate(c)) for i, c in enumerate(cells)]
+            rate_cells = [(i, rate) for i, rate in rate_cells if rate is not None]
+            if not rate_cells:
+                continue
+            row_has_context = bool(RATE_CONTEXT_RE.search(raw))
+            if not (row_has_context or table_has_context or table_has_rate_header):
                 continue
             context_cells = [value for value in cells if value and not RATE_RE.search(value)]
             label = next((value for value in context_cells if RATE_CONTEXT_RE.search(value)),
                          context_cells[0] if context_cells else cells[0])
-            for column_index, cell in enumerate(cells):
-                rate = parse_rate(cell)
-                if rate is None:
-                    continue
+            for column_index, rate in rate_cells:
                 records.append(_record(
                     label=label, raw=raw, rate=rate, source_kind="table",
                     table_index=table_index, row_index=row_index,
@@ -131,7 +130,6 @@ def deduplicate(records: list[dict]) -> list[dict]:
 
 
 def parse_html(html: str, parser: str = "html_auto_v2") -> list[dict]:
-    """Apply a source strategy with broad extraction and conservative fallback."""
     strategy = (parser or "html_auto_v2").lower()
     if strategy in {"html_table_v1", "table", "html_table_v2"}:
         records = parse_html_tables(html, deposit_only=False)
@@ -143,5 +141,9 @@ def parse_html(html: str, parser: str = "html_auto_v2") -> list[dict]:
 
 
 def validate_rates(records: list[dict]) -> list[dict]:
-    return [r for r in records if isinstance(r.get("rate"), (int, float))
-            and 0 <= float(r["rate"]) <= 100 and str(r.get("raw", "")).strip()]
+    return [
+        r for r in records
+        if isinstance(r.get("rate"), (int, float))
+        and 0 <= float(r["rate"]) <= 100
+        and str(r.get("raw", "")).strip()
+    ]
