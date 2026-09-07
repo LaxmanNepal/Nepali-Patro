@@ -1,13 +1,73 @@
 {
   "version": 3,
-  "bs_year": 2081,
+  "bs_year": 2083,
   "bs_month": 5,
   "bs_month_ne": "भदौ",
   "bs_day": 22,
-  "events": [],
+  "events": [
+    {
+      "year": 2026,
+      "title": "राष्ट्रिय शोक दिवस — भोटेकोशी बाढी पीडितको स्मरण",
+      "summary": "नेपाल सरकारले भोटेकोशी बाढीमा ज्यान गुमाएकाहरूको सम्मानमा ७ सेप्टेम्बर २०२६ लाई राष्ट्रिय शोक दिवसका रूपमा मनाएको छ। सरकारी कार्यालय तथा विदेशस्थित नेपाली नियोगमा राष्ट्रिय झण्डा आधा झुकाइएको छ।",
+      "type": "event",
+      "source": "Radio Nepal",
+      "url": "https://radionepalonline.com/en/2026/09/07/435552.html",
+      "source_tier": "primary",
+      "category": "नेपाल इतिहास",
+      "importance": 5,
+      "confidence": "high",
+      "sources": [{"name":"Radio Nepal","url":"https://radionepalonline.com/en/2026/09/07/435552.html","tier":"primary"}]
+    },
+    {
+      "year": 1955,
+      "title": "नेपालमा पहिलो निजामती सेवा कानून",
+      "summary": "नेपालमा पहिलो निजामती सेवा कानून लागू भएको २२ भदौ २०१२ को स्मरणमा निजामती सेवा दिवस मनाइन्छ।",
+      "type": "event",
+      "source": "Republica",
+      "url": "https://myrepublica.nagariknetwork.com/news/22nd-civil-service-day-being-observed-today-41-30.html",
+      "source_tier": "news",
+      "category": "नेपाल इतिहास",
+      "importance": 4,
+      "confidence": "high",
+      "sources": [{"name":"Republica","url":"https://myrepublica.nagariknetwork.com/news/22nd-civil-service-day-being-observed-today-41-30.html","tier":"news"}]
+    },
+    {
+      "year": 1940,
+      "title": "दोस्रो विश्वयुद्ध — लन्डनमाथि ब्लिट्ज बमबारी",
+      "summary": "दोस्रो विश्वयुद्धका क्रममा ७ सेप्टेम्बर १९४० मा जर्मन लुफ्टवाफेले लन्डन र बेलायतका अन्य शहरमाथि ब्लिट्ज बमबारी अभियान सुरु गर्‍यो।",
+      "type": "event",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/September_7",
+      "source_tier": "reference",
+      "category": "युद्ध तथा सैन्य इतिहास",
+      "importance": 5,
+      "confidence": "high",
+      "sources": [{"name":"Wikipedia — September 7","url":"https://en.wikipedia.org/wiki/September_7","tier":"reference"}]
+    },
+    {
+      "year": 1927,
+      "title": "पहिलो पूर्ण इलेक्ट्रोनिक टेलिभिजन प्रणाली",
+      "summary": "फिलो फार्न्सवर्थले पहिलो पूर्ण इलेक्ट्रोनिक टेलिभिजन प्रणाली सफलतापूर्वक प्रदर्शन गरे।",
+      "type": "event",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/September_7",
+      "source_tier": "reference",
+      "category": "विज्ञान तथा प्रविधि",
+      "importance": 4,
+      "confidence": "high",
+      "sources": [{"name":"Wikipedia — September 7","url":"https://en.wikipedia.org/wiki/September_7","tier":"reference"}]
+    }
+  ],
   "births": [],
   "deaths": [],
-  "research_leads": [],
-  "sources": [],
-  "last_researched": null
+  "research_leads": [
+    "नेपालका २२ भदौसँग सम्बन्धित थप ऐतिहासिक घटना र व्यक्तित्वहरू अभिलेखसँग मिलान गर्ने",
+    "नेपालका प्राथमिक/सरकारी स्रोतबाट पुराना २२ भदौ घटनाहरू थप प्रमाणित गर्ने"
+  ],
+  "sources": [
+    {"name":"Radio Nepal","url":"https://radionepalonline.com/en/2026/09/07/435552.html","tier":"primary"},
+    {"name":"Republica","url":"https://myrepublica.nagariknetwork.com/news/22nd-civil-service-day-being-observed-today-41-30.html","tier":"news"},
+    {"name":"Wikipedia — September 7","url":"https://en.wikipedia.org/wiki/September_7","tier":"reference"}
+  ],
+  "last_researched": "2026-09-07T00:00:00+05:45"
 }
