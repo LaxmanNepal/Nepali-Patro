@@ -1,9 +1,4 @@
-"""Conservative parser for Nepal bank interest-rate pages.
-
-Supports normal HTML tables plus rate-bearing cards, lists and simple text
-blocks. It requires a nearby deposit/loan context so unrelated percentages
-are not published as interest rates.
-"""
+"""Conservative parser for Nepal bank interest-rate pages."""
 from __future__ import annotations
 
 import re
@@ -11,10 +6,11 @@ from bs4 import BeautifulSoup
 
 RATE_RE = re.compile(r"(?<!\d)(\d+(?:\.\d+)?)\s*(?:%|percent)\b?", re.I)
 RATE_CONTEXT_RE = re.compile(
-    r"\b(saving|savings|deposit|fixed|fd|recurring|call|loan|advance|base\s+rate"
-    r"|बचत|मुद्दती|सावधिक|आवधिक|कर्जा|ऋण|आधार\s*दर)\b",
-    re.I,
-)
+    r"\b(saving|savings|deposit|fixed|fd|recurring|call|loan|advance|base\s+rate|"
+    r"बचत|मुद्दती|सावधिक|आवधिक|कर्जा|ऋण|आधार\s*दर)\b", re.I)
+DEPOSIT_CONTEXT_RE = re.compile(
+    r"\b(saving|savings|deposit|fixed|fd|recurring|call|"
+    r"बचत|निक्षेप|मुद्दती|सावधिक|आवधिक|कल डिपोजिट)\b", re.I)
 
 
 def parse_rate(value: str) -> float | None:
@@ -29,27 +25,21 @@ def _record(*, label: str, raw: str, rate: float, source_kind: str,
             table_index: int | None = None, row_index: int | None = None,
             column_index: int | None = None, column_label: str | None = None,
             cells: list[str] | None = None) -> dict:
-    return {
-        "label": label.strip(),
-        "raw": raw.strip(),
-        "rate": rate,
-        "sourceKind": source_kind,
-        "tableIndex": table_index,
-        "rowIndex": row_index,
-        "columnIndex": column_index,
-        "columnLabel": column_label,
-        "cells": cells or [],
-    }
+    return {"label": label.strip(), "raw": raw.strip(), "rate": rate,
+            "sourceKind": source_kind, "tableIndex": table_index,
+            "rowIndex": row_index, "columnIndex": column_index,
+            "columnLabel": column_label, "cells": cells or []}
 
 
-def parse_html_tables(html: str) -> list[dict]:
+def parse_html_tables(html: str, *, deposit_only: bool = False) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     records: list[dict] = []
-
     for table_index, table in enumerate(soup.find_all("table")):
         rows = table.find_all("tr")
-        headers = ([c.get_text(" ", strip=True) for c in rows[0].find_all(["th", "td"])]
-                   if rows else [])
+        table_text = " ".join(table.stripped_strings)
+        if deposit_only and not DEPOSIT_CONTEXT_RE.search(table_text):
+            continue
+        headers = ([c.get_text(" ", strip=True) for c in rows[0].find_all(["th", "td"])] if rows else [])
         for row_index, row in enumerate(rows):
             cells = [c.get_text(" ", strip=True) for c in row.find_all(["th", "td"])]
             if not cells:
@@ -62,28 +52,23 @@ def parse_html_tables(html: str) -> list[dict]:
                 if rate is None:
                     continue
                 label = next((value for value in cells if value != cell and RATE_CONTEXT_RE.search(value)), cells[0])
-                records.append(_record(
-                    label=label, raw=raw, rate=rate, source_kind="table",
-                    table_index=table_index, row_index=row_index,
-                    column_index=column_index,
-                    column_label=headers[column_index] if column_index < len(headers) else None,
-                    cells=cells,
-                ))
+                records.append(_record(label=label, raw=raw, rate=rate, source_kind="table",
+                    table_index=table_index, row_index=row_index, column_index=column_index,
+                    column_label=headers[column_index] if column_index < len(headers) else None, cells=cells))
     return records
 
 
-def parse_html_blocks(html: str) -> list[dict]:
+def parse_html_blocks(html: str, *, deposit_only: bool = False) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     for unwanted in soup(["script", "style", "noscript", "svg", "template"]):
         unwanted.decompose()
-
     records: list[dict] = []
     seen: set[tuple[str, float]] = set()
-    candidates = soup.find_all(["article", "section", "li", "div", "p", "dd", "dt"])
-
-    for node in candidates:
+    for node in soup.find_all(["article", "section", "li", "div", "p", "dd", "dt"]):
         text = " ".join(node.stripped_strings)
         if not text or len(text) > 700 or not RATE_CONTEXT_RE.search(text):
+            continue
+        if deposit_only and not DEPOSIT_CONTEXT_RE.search(text):
             continue
         matches = list(RATE_RE.finditer(text.replace(",", "")))
         if not matches:
@@ -106,17 +91,26 @@ def deduplicate(records: list[dict]) -> list[dict]:
     output: list[dict] = []
     seen: set[tuple[str, float, str]] = set()
     for record in records:
-        key = (str(record.get("label", "")).strip().lower(),
-               float(record["rate"]), str(record.get("raw", "")).strip().lower())
-        if key in seen:
-            continue
-        seen.add(key)
-        output.append(record)
+        key = (str(record.get("label", "")).strip().lower(), float(record["rate"]),
+               str(record.get("raw", "")).strip().lower())
+        if key not in seen:
+            seen.add(key)
+            output.append(record)
     return output
 
 
-def parse_html(html: str) -> list[dict]:
-    return deduplicate(parse_html_tables(html) + parse_html_blocks(html))
+def parse_html(html: str, parser: str = "html_auto_v1") -> list[dict]:
+    """Apply an adapter strategy while retaining conservative fallbacks."""
+    strategy = (parser or "html_auto_v1").lower()
+    if strategy in {"html_table_v1", "table", "html_table_deposit_v1"}:
+        records = parse_html_tables(html, deposit_only=True)
+    elif strategy in {"html_blocks_v1", "blocks", "html_card_v1"}:
+        records = parse_html_blocks(html, deposit_only=True)
+    else:
+        records = parse_html_tables(html, deposit_only=True) + parse_html_blocks(html, deposit_only=True)
+    if not records:
+        records = parse_html_tables(html) + parse_html_blocks(html)
+    return deduplicate(records)
 
 
 def validate_rates(records: list[dict]) -> list[dict]:
