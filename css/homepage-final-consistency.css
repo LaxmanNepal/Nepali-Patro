@@ -1,0 +1,20 @@
+.home-redesign{--home-max:1180px;--home-radius:20px;--home-gap:clamp(20px,3vw,34px)}
+.home-redesign main{max-width:var(--home-max);margin-inline:auto;padding-inline:16px;box-sizing:border-box}
+.home-redesign main>.np-section{width:100%;box-sizing:border-box}
+.home-redesign .np-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:10px;padding-inline:2px}
+.home-redesign .np-heading h2{margin:0;font-size:clamp(1.05rem,1.8vw,1.3rem);line-height:1.25;letter-spacing:-.02em}
+.home-redesign .np-heading small{display:block;margin:0;color:var(--np-muted);font-size:10px;line-height:1.5}
+.home-redesign .np-heading>a{font-size:11px;font-weight:800;color:var(--np-red);text-decoration:none;white-space:nowrap}
+.home-redesign .np-panel{border-radius:var(--home-radius);border:1px solid var(--np-line);background:var(--np-card);box-shadow:0 8px 28px rgba(15,23,42,.045);overflow:hidden}
+.home-redesign .np-panel,.home-redesign .today-main-card,.home-redesign .quick-action{backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.home-redesign .np-section:nth-of-type(n+5) .np-panel{box-shadow:0 7px 24px rgba(15,23,42,.035)}
+.home-redesign .np-section+ .np-section{margin-top:var(--home-gap)}
+.home-redesign a:focus-visible,.home-redesign button:focus-visible,.home-redesign select:focus-visible{outline:3px solid rgba(185,28,28,.22);outline-offset:2px}
+.home-redesign .quick-actions{margin-top:10px}
+.home-redesign .quick-action{border-radius:16px}
+.home-redesign .np-cards,.home-redesign .np-zodiac{gap:10px}
+.home-redesign .day-detail,.home-redesign .panchang-grid,.home-redesign .saait-grid{gap:10px}
+body.dark.home-redesign .np-panel{background:var(--np-card);box-shadow:0 10px 30px rgba(0,0,0,.16)}
+@media(max-width:900px){.home-redesign main{padding-inline:12px}.home-redesign .np-heading{margin-bottom:9px}.home-redesign .np-section+ .np-section{margin-top:24px}}
+@media(max-width:600px){.home-redesign main{padding-inline:10px}.home-redesign .np-heading{align-items:center;margin-bottom:8px}.home-redesign .np-heading h2{font-size:1.05rem}.home-redesign .np-heading small{font-size:9px}.home-redesign .np-heading>a{font-size:10px}.home-redesign .np-panel{border-radius:18px}.home-redesign .np-section+ .np-section{margin-top:20px}.home-redesign .quick-actions{gap:6px}}
+@media(prefers-reduced-motion:reduce){.home-redesign *,.home-redesign *::before,.home-redesign *::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
