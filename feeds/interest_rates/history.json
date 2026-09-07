@@ -4,5 +4,207 @@
   "currency": "NPR",
   "timezone": "Asia/Kathmandu",
   "retention": "365 snapshots",
-  "snapshots": []
+  "snapshots": [
+    {
+      "schemaVersion": "1.5",
+      "country": "Nepal",
+      "currency": "NPR",
+      "updatedAt": "2026-09-07T14:04:49.817514+05:45",
+      "timezone": "Asia/Kathmandu",
+      "generatedBy": "Nepali Patro daily interest-rate pipeline",
+      "publicationRule": "Only explicitly sourced and semantically recognized records are eligible for comparison.",
+      "health": {
+        "totalBanks": 12,
+        "verifiedBanks": 1,
+        "hasUsableRates": true
+      },
+      "banks": [
+        {
+          "bankId": "nabil-bank",
+          "status": "review",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://www.nabilbank.com/interest-rate",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [],
+          "effectiveText": "Effective From : 1st Bhadra 2083 A. SAVINGS DEPOSITS - NPR % PER ANNUM Nabil General Savings Account 2.75 Nabil Premium Nari Bachat Khata 2.75 Nabil Corporate Staff Savings A",
+          "error": "No validated interest-rate records extracted.",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45"
+        },
+        {
+          "bankId": "nic-asia-bank",
+          "status": "review",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://www.nicasiabank.com/savings/",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [],
+          "effectiveText": "effective salary management.\\u003c/span\\u003e\\u003c/p\\u003e\",\"descriptionNp\":\"\\u003cp\\u003e\\u003cstrong\\u003eसर्वश्रेष्ठ पेरोल बचत खाता जेनेरल\\u0026nbsp;\\u003c/strong\\u0",
+          "error": "No validated interest-rate records extracted.",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45"
+        },
+        {
+          "bankId": "global-ime-bank",
+          "status": "review",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://www.globalimebank.com/pages/interest-rates/",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [],
+          "effectiveText": "effective from Customer Support Centre We&#x27;re here to help. For any questions or support, please contact our customer care center — Global Connect. You can reach us throu",
+          "error": "No validated interest-rate records extracted.",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45"
+        },
+        {
+          "bankId": "nepal-bank",
+          "status": "error",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://www.nepalbank.com.np/digital/interest-rate/interest-rates-on-deposits",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [],
+          "fetchStatus": "fetch_error",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45"
+        },
+        {
+          "bankId": "nmb-bank",
+          "status": "review",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://nmb.com.np/interest-rate",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [],
+          "effectiveText": "Effective Date : Bhadra 1, 2083 (August 17, 2026)\\\\\\\",\\\\\\\"description\\\\\\\":\\\\\\\"Latest Interest Rates for NMB Bank. Effective from Aug 17, 2026. View rates for Savings, Fi",
+          "error": "No validated interest-rate records extracted.",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45"
+        },
+        {
+          "bankId": "rastriya-banijya-bank",
+          "status": "review",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://www.rbb.com.np/content/rate-of-interest",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [],
+          "effectiveText": null,
+          "error": "No validated interest-rate records extracted.",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45"
+        },
+        {
+          "bankId": "sanima-bank",
+          "status": "review",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://www.sanimabank.com/s/interest-rate",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [],
+          "effectiveText": null,
+          "error": "No validated interest-rate records extracted.",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45"
+        },
+        {
+          "bankId": "kumari-bank",
+          "status": "review",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://www.kumaribank.com/interest-rate-deposits",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [],
+          "effectiveText": "Effective From: 01 Bhadra, 2083 (August 17, 2026) SAVINGS DEPOSIT (% Per annum) &nbsp; &nbsp; Minimum Balance (NPR) % Per Annum &nbsp; Shareholders Saving Account 1,000.00 2.",
+          "error": "No validated interest-rate records extracted.",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45"
+        },
+        {
+          "bankId": "prabhu-bank",
+          "status": "review",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://www.prabhubank.com/interest-rates",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [],
+          "effectiveText": "effective applicable loan interest rate shall be automatically revised with effect from the first day of every month based on the change in the immediate last three mont",
+          "error": "No validated interest-rate records extracted.",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45"
+        },
+        {
+          "bankId": "siddhartha-bank",
+          "status": "verified",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://www.siddharthabank.com/interest-rates",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [
+            {
+              "label": "FCY Deposit for NRN & Remittance Customers +1 percent additional. Other terms & conditions of the deposit products remain unchanged. Minimum tenor for FCY Individual Fixed Deposit is 3 months and Institutional Fixed Deposit is 6 months.",
+              "raw": "FCY Deposit for NRN & Remittance Customers +1 percent additional. Other terms & conditions of the deposit products remain unchanged. Minimum tenor for FCY Individual Fixed Deposit is 3 months and Institutional Fixed Deposit is 6 months.",
+              "rate": 1.0,
+              "sourceKind": "table",
+              "tableIndex": 6,
+              "rowIndex": 10,
+              "columnIndex": 0,
+              "columnLabel": "SN",
+              "cells": [
+                "FCY Deposit for NRN & Remittance Customers +1 percent additional. Other terms & conditions of the deposit products remain unchanged. Minimum tenor for FCY Individual Fixed Deposit is 3 months and Institutional Fixed Deposit is 6 months."
+              ],
+              "category": "fixed_deposit",
+              "tenure": "3-6_months",
+              "rateType": "percentage_per_annum"
+            }
+          ],
+          "effectiveText": "Effective from August 17, 2026 S.N. Saving Deposit Interest Rate (% p.a.) 1 Siddhartha Sajilo Bachat Khata 2.75 2 Siddhartha Peacekeeping Savings 2.75 3 Siddhartha Life Secur",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45",
+          "stale": false
+        },
+        {
+          "bankId": "everest-bank",
+          "status": "review",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://everestbankltd.com/supports/interest-and-rates/interest-rates-deposit/",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [],
+          "effectiveText": "Effective From 1st Bhadra 2083 (17th August 2026) Saving Deposit (NPR) ACCOUNT TYPES INTEREST RATE (P.A.) Remittance Plus 3.75% Saving Gorkha Regiment 3.75% Pension Savings 2",
+          "error": "No validated interest-rate records extracted.",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45"
+        },
+        {
+          "bankId": "standard-chartered-bank-nepal",
+          "status": "review",
+          "fetchedAt": "2026-09-07T14:04:49.817514+05:45",
+          "source": {
+            "url": "https://www.sc.com/np/deposits/three-year-interest-rate/",
+            "type": "official",
+            "parser": "html_table_v1"
+          },
+          "rates": [],
+          "effectiveText": "effective 17th July 2026 icon link Interest rates effective 15th June 2026 icon link Interest rates effective 15th May 2026 icon link Interest rates effective 14th April",
+          "error": "No validated interest-rate records extracted.",
+          "lastCheckedAt": "2026-09-07T14:04:49.817514+05:45"
+        }
+      ]
+    }
+  ]
 }
