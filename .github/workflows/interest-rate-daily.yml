@@ -2,6 +2,10 @@ name: Daily Nepal Bank Interest Rates
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/interest_rate_*.py'
+      - '.github/workflows/interest-rate-daily.yml'
   schedule:
     - cron: '15 3 * * *'
     - cron: '15 9 * * *'
@@ -18,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Checkout latest main
+      - name: Checkout current ref
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -48,11 +52,17 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          data=json.loads(Path('feeds/interest_rates/current.json').read_text())
+          data = json.loads(Path('feeds/interest_rates/current.json').read_text())
           assert data.get('updatedAt')
           assert isinstance(data.get('banks'), list) and data['banks']
+          health = data.get('health', {})
+          verified = sum(1 for bank in data['banks'] if bank.get('status') == 'verified' and bank.get('rates'))
+          if health:
+              assert health.get('verifiedBanks') == verified
           print('Dataset:', len(data['banks']), 'banks')
-          print('Verified:', sum(x.get('status') == 'verified' for x in data['banks']))
+          print('Verified with usable rates:', verified)
+          if verified == 0:
+              print('WARNING: No live verified rates were extracted.')
           PY
 
       - name: Commit changed data and pages
@@ -60,11 +70,10 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feeds/interest_rates/ interest-rate/
+          git add feeds/interest_rates/ interest-rate/bank/ interest-rate/sitemap-interest-rates.xml
           if git diff --cached --quiet; then
             echo 'No changes.'
             exit 0
           fi
           git commit -m 'chore: update Nepal bank interest rates and pages'
-          git pull --rebase origin main
-          git push origin HEAD:main
+          git push origin HEAD:${GITHUB_REF_NAME}
