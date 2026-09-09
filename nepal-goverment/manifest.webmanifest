@@ -1,0 +1,12 @@
+{
+  "name": "नेपाल सरकार वेबसाइट निर्देशिका",
+  "short_name": "सरकारी वेबसाइट",
+  "description": "नेपालका सरकारी वेबसाइट र नागरिक सेवाहरूको खोजीयोग्य निर्देशिका।",
+  "start_url": "/Nepali-Patro/nepal-goverment/",
+  "scope": "/Nepali-Patro/nepal-goverment/",
+  "display": "standalone",
+  "background_color": "#f6f7fb",
+  "theme_color": "#b91c1c",
+  "lang": "ne",
+  "icons": [{"src":"../assets/logo.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
