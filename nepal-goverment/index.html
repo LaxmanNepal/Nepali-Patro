@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ne">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#b91c1c">
+<meta name="description" content="नेपाल सरकारका .gov.np वेबसाइट, सरकारी सेवा, मन्त्रालय, विभाग, आयोग र उपयोगी सरकारी पोर्टलहरूको खोजीयोग्य निर्देशिका।">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://apps.laxmannepal.com.np/Nepali-Patro/nepal-goverment/">
+<link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="./style.css">
+<title>नेपाल सरकारका वेबसाइट — Nepali Patro</title>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="../"><span class="brand-mark">प</span><span>नेपाली पात्रो<small>Nepali Patro</small></span></a>
+    <nav class="main-nav" aria-label="मुख्य मेनु">
+      <a href="../">गृहपृष्ठ</a><a href="../patro/">पात्रो</a><a href="../panchanga/">पञ्चाङ्ग</a><a href="../news/">समाचार</a><a class="active" href="./">सरकारी वेबसाइट</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="मेनु">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobileNav"><div class="mobile-nav-inner"><a href="../">गृहपृष्ठ</a><a href="../patro/">पात्रो</a><a href="../panchanga/">पञ्चाङ्ग</a><a href="../news/">समाचार</a><a class="active" href="./">सरकारी वेबसाइट</a></div></nav>
+<main class="gov-page">
+  <section class="gov-hero">
+    <div class="hero-kicker">🇳🇵 NEPAL GOVERNMENT DIRECTORY</div>
+    <h1>नेपाल सरकारका वेबसाइट</h1>
+    <p>मन्त्रालय, विभाग, आयोग, सुरक्षा निकाय र नागरिकका लागि उपयोगी सरकारी सेवाहरू एउटै ठाउँमा खोज्नुहोस्।</p>
+    <div class="gov-search-wrap"><span>⌕</span><input id="search" type="search" autocomplete="off" placeholder="जस्तै: पासपोर्ट, कर, नागरिकता, लोक सेवा, स्वास्थ्य…" aria-label="सरकारी वेबसाइट खोज्नुहोस्"><button id="clearSearch" type="button">×</button></div>
+    <div class="quick-tags" id="quickTags"></div>
+  </section>
+  <section class="directory-tools">
+    <div class="stats" id="stats"></div>
+    <div class="filters"><select id="categoryFilter" aria-label="श्रेणी छान्नुहोस्"><option value="all">सबै श्रेणी</option></select><select id="levelFilter" aria-label="तह छान्नुहोस्"><option value="all">सबै तह</option><option value="federal">संघीय</option><option value="constitutional">संवैधानिक</option><option value="security">सुरक्षा</option><option value="provincial">प्रदेश</option><option value="local">स्थानीय</option><option value="service">सरकारी सेवा</option></select><button id="favoritesOnly" class="filter-btn" type="button">☆ मनपर्ने मात्र</button></div>
+  </section>
+  <section class="category-strip" id="categoryStrip"></section>
+  <section class="gov-grid" id="govGrid" aria-live="polite"></section>
+  <div class="empty" id="empty" hidden><div>🔎</div><h2>कुनै वेबसाइट भेटिएन</h2><p>खोज शब्द वा फिल्टर परिवर्तन गरेर फेरि प्रयास गर्नुहोस्।</p></div>
+  <section class="official-note"><strong>⚠️ महत्वपूर्ण</strong><p>यो निर्देशिका नेपाली पात्रोले प्रयोगकर्ता सुविधा लागि तयार गरेको हो। सेवा प्रयोग गर्दा कार्डमा दिइएको <b>आधिकारिक वेबसाइट</b> नै खोल्नुहोस्। सरकारी वेबसाइटको URL वा सेवा परिवर्तन हुन सक्छ। संघीय सरकारी संरचनाको आधारका लागि नेपाल सरकारको आधिकारिक पोर्टल <a href="https://www.nepal.gov.np/" target="_blank" rel="noopener">nepal.gov.np</a> हेर्नुहोस्।</p></section>
+</main>
+<footer class="site-footer"><div class="footer-inner"><div><strong>नेपाली पात्रो</strong><p class="disclaimer">नेपाल सरकारका उपयोगी वेबसाइटहरू सजिलै भेटाउन बनाइएको नागरिक निर्देशिका।</p></div><div><strong>द्रुत लिंक</strong><p><a href="../">गृहपृष्ठ</a><br><a href="../converter/">मिति रूपान्तरण</a><br><a href="../news/">समाचार</a></p></div><div><strong>आधिकारिक स्रोत</strong><p><a href="https://www.nepal.gov.np/" target="_blank" rel="noopener">नेपाल सरकार पोर्टल</a></p></div></div></footer>
+<script src="./data.js"></script><script src="./app.js"></script>
+</body></html>
