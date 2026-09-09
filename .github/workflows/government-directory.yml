@@ -15,12 +15,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Sync 753 local governments from MoFAGA
+        run: node scripts/sync-local-governments.mjs
       - name: Check government websites
         run: node scripts/check-government-sites.mjs
-      - name: Commit status report
+      - name: Commit directory and status
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add nepal-goverment/data/site-status.json
-          git diff --cached --quiet || git commit -m 'chore: update government site status'
+          git add nepal-goverment/data/local-governments.js nepal-goverment/data/site-status.json
+          git diff --cached --quiet || git commit -m 'chore: sync government directory and site status'
           git push
