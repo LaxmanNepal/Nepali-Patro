@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-07T04:40:18.435Z",
-  "count": 35,
+  "generatedAt": "2026-09-09T21:31:43.512Z",
+  "count": 36,
   "tools": [
     {
       "id": "itihas-aaja",
@@ -194,6 +194,14 @@
       "name": "Namakaran",
       "title": "नामकरण सुझाव — नेपाली पात्रो",
       "url": "namakaran/"
+    },
+    {
+      "id": "nepal-goverment",
+      "path": "nepal-goverment/",
+      "icon": "🧰",
+      "name": "Nepal Goverment",
+      "title": "नेपाल सरकारका वेबसाइट — Nepali Patro",
+      "url": "nepal-goverment/"
     },
     {
       "id": "nepse",
