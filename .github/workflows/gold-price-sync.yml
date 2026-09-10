@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: gold-price-sync
+  group: nepali-patro-main-writer
   cancel-in-progress: false
 
 jobs:
@@ -21,24 +21,18 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.13'
-
       - name: Fetch and validate official NEGOSIDA rates
         run: python scripts/update_gold_rates.py
-
       - name: Build normalized daily history database
         run: python scripts/normalize_gold_history.py
-
       - name: Generate rolling history statistics
         run: python scripts/gold_history_stats.py
-
       - name: Strict feed health validation
         run: python scripts/validate_gold_feed.py
-
       - name: Validate normalized history database
         run: |
           python - <<'PY'
@@ -62,7 +56,6 @@ jobs:
               if window not in sd.get('windows',{}): raise SystemExit(f'Missing stats window {window}')
           print(f'Normalized history OK: {len(records)} daily records')
           PY
-
       - name: Detect stale source publication
         run: |
           python - <<'PY'
@@ -73,20 +66,15 @@ jobs:
           source=date.fromisoformat(d['date_ad'])
           age=(date.today()-source).days
           print(f'Source publication age: {age} day(s)')
-          if age > 7:
-              raise SystemExit('Official source data is older than 7 days; refusing deployment')
+          if age > 7: raise SystemExit('Official source data is older than 7 days; refusing deployment')
           PY
-
       - name: Commit changed price data
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add feeds/gold_silver.json data/gold-price.json data/gold-price-history.json data/gold-price-stats.json
-          if git diff --cached --quiet; then
-            echo 'No gold/silver data change.'
-            exit 0
-          fi
+          if git diff --cached --quiet; then echo 'No gold/silver data change.'; exit 0; fi
           git commit -m 'chore: update gold price database'
           git pull --rebase origin main
           git push origin HEAD:main
