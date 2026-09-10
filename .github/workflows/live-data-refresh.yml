@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: nepali-patro-live-data-refresh
+  group: nepali-patro-main-writer
   cancel-in-progress: false
 jobs:
   refresh:
@@ -23,31 +23,59 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4
 
-      # Dataset refreshes are intentionally isolated. A single upstream scraper
-      # must not prevent unrelated datasets from refreshing.
-      - name: Refresh daily Rashifal
+      # Dataset refreshes are isolated so one upstream outage does not stop
+      # unrelated feeds. The status report below makes failures visible.
+      - id: daily_rashifal
+        name: Refresh daily Rashifal
         continue-on-error: true
         run: python scripts/fetch_rashifal.py
-      - name: Refresh weekly Rashifal
+      - id: weekly_rashifal
+        name: Refresh weekly Rashifal
         continue-on-error: true
         run: python scripts/fetch_weekly_rashifal.py
-      - name: Refresh bank rates
+      - id: bank_rates
+        name: Refresh bank rates
         continue-on-error: true
         run: |
           python scripts/interest_rate_fetcher.py
           python scripts/test_interest_rate_pipeline.py
           python scripts/generate_interest_rate_pages.py
-      - name: Refresh NRB forex
+      - id: forex
+        name: Refresh NRB forex
         continue-on-error: true
         run: python scripts/update_forex.py
-      - name: Refresh gold and silver
+      - id: gold_silver
+        name: Refresh gold and silver
         continue-on-error: true
         run: |
           python scripts/update_gold_rates.py
           python scripts/snapshot_gold_daily.py
-      - name: Refresh Itihas
+      - id: itihas
+        name: Refresh Itihas
         continue-on-error: true
         run: python scripts/update_history.py
+
+      - name: Report refresh status
+        if: always()
+        env:
+          DAILY: ${{ steps.daily_rashifal.outcome }}
+          WEEKLY: ${{ steps.weekly_rashifal.outcome }}
+          BANK: ${{ steps.bank_rates.outcome }}
+          FOREX: ${{ steps.forex.outcome }}
+          GOLD: ${{ steps.gold_silver.outcome }}
+          ITIHAS: ${{ steps.itihas.outcome }}
+        run: |
+          {
+            echo '## Live dataset refresh status'
+            echo '| Dataset | Result |'
+            echo '|---|---|'
+            echo "| Daily Rashifal | ${DAILY} |"
+            echo "| Weekly Rashifal | ${WEEKLY} |"
+            echo "| Bank rates | ${BANK} |"
+            echo "| NRB forex | ${FOREX} |"
+            echo "| Gold/silver | ${GOLD} |"
+            echo "| Itihas | ${ITIHAS} |"
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Validate every dataset
         run: python scripts/validate_all_datasets.py
