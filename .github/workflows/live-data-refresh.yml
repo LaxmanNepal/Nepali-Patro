@@ -22,29 +22,40 @@ jobs:
           python-version: '3.13'
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      # Dataset refreshes are intentionally isolated. A single upstream scraper
+      # must not prevent unrelated datasets from refreshing.
       - name: Refresh daily Rashifal
+        continue-on-error: true
         run: python scripts/fetch_rashifal.py
       - name: Refresh weekly Rashifal
+        continue-on-error: true
         run: python scripts/fetch_weekly_rashifal.py
       - name: Refresh bank rates
+        continue-on-error: true
         run: |
           python scripts/interest_rate_fetcher.py
           python scripts/test_interest_rate_pipeline.py
           python scripts/generate_interest_rate_pages.py
       - name: Refresh NRB forex
+        continue-on-error: true
         run: python scripts/update_forex.py
       - name: Refresh gold and silver
+        continue-on-error: true
         run: |
           python scripts/update_gold_rates.py
           python scripts/snapshot_gold_daily.py
       - name: Refresh Itihas
+        continue-on-error: true
         run: python scripts/update_history.py
+
       - name: Validate every dataset
         run: python scripts/validate_all_datasets.py
       - name: Generate health report
         run: python scripts/data-health-report.py
       - name: Run core contract tests
         run: node tests/data-contracts.mjs
+
       - name: Commit refreshed data
         run: |
           set -euo pipefail
