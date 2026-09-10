@@ -2,12 +2,13 @@
 """Validate every publishable Nepali Patro dataset before deployment."""
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
-TODAY = datetime.now(ZoneInfo("Asia/Kathmandu")).date().isoformat()
+NOW = datetime.now(ZoneInfo("Asia/Kathmandu"))
+TODAY = NOW.date().isoformat()
 ERRORS = []
 WARNINGS = []
 
@@ -30,7 +31,25 @@ def positive(v):
     except Exception:
         return False
 
-# Rashifal
+
+def check_freshness(label, value, max_age):
+    if not value:
+        WARNINGS.append(f"{label} fetchedAt is missing")
+        return
+    try:
+        stamp = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        if stamp.tzinfo is None:
+            stamp = stamp.replace(tzinfo=ZoneInfo("Asia/Kathmandu"))
+        age = NOW.astimezone(stamp.tzinfo) - stamp
+        if age < timedelta(0):
+            WARNINGS.append(f"{label} fetchedAt is in the future")
+        elif age > max_age:
+            ERRORS.append(f"{label} is stale ({age.total_seconds() / 3600:.1f}h old)")
+    except Exception as e:
+        ERRORS.append(f"invalid {label} fetchedAt: {e}")
+
+
+# Daily Rashifal
 r = load(f"data/rashifal/{TODAY}.json")
 if r:
     if r.get("source") != "Nepali Patro": ERRORS.append("today's Rashifal source is not Nepali Patro")
@@ -38,6 +57,27 @@ if r:
     if len(signs) != 12: ERRORS.append("today's Rashifal does not contain 12 signs")
     if len({x.get("id") for x in signs}) != len(signs): ERRORS.append("duplicate Rashifal sign")
     if any(len(str(x.get("prediction", "")).strip()) < 40 for x in signs): ERRORS.append("short Rashifal prediction")
+    check_freshness("daily Rashifal", r.get("fetchedAt"), timedelta(hours=36))
+
+# Weekly Rashifal: validate when the weekly dataset exists, but don't turn
+# the first deployment after a missing upstream response into a hard failure.
+weekly_dir = ROOT / "data" / "rashifal-weekly"
+if weekly_dir.exists():
+    weekly_files = sorted(weekly_dir.glob("*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+    if weekly_files:
+        w = load(str(weekly_files[0].relative_to(ROOT)))
+        if w:
+            signs = w.get("signs") or []
+            if w.get("source") != "Nepali Patro": ERRORS.append("weekly Rashifal source is not Nepali Patro")
+            if len(signs) != 12: ERRORS.append("weekly Rashifal does not contain 12 signs")
+            if len({x.get("id") for x in signs}) != len(signs): ERRORS.append("duplicate weekly Rashifal sign")
+            if any(len(str(x.get("prediction", "")).strip()) < 60 for x in signs): ERRORS.append("short weekly Rashifal prediction")
+            if not w.get("weekStart") or not w.get("weekEnd"): ERRORS.append("weekly Rashifal week bounds missing")
+            check_freshness("weekly Rashifal", w.get("fetchedAt"), timedelta(days=10))
+    else:
+        WARNINGS.append("weekly Rashifal directory exists but contains no JSON")
+else:
+    WARNINGS.append("weekly Rashifal dataset is not currently present")
 
 # Forex
 f = load("feeds/forex.json")
@@ -47,6 +87,7 @@ if f:
     if len(f.get("rates") or []) < 5: ERRORS.append("Forex has fewer than 5 rates")
     for x in f.get("rates") or []:
         if not positive(x.get("buy")) or not positive(x.get("sell")): ERRORS.append(f"invalid Forex rate: {x.get('currency')}")
+    check_freshness("Forex", f.get("fetchedAt"), timedelta(days=4))
 
 # Gold/silver
 g = load("feeds/gold_silver.json")
@@ -54,6 +95,7 @@ if g:
     if not g.get("source"): ERRORS.append("Gold source missing")
     for key in ("fine_gold_tola", "gold_22k_tola", "silver_tola", "fine_gold_10g", "gold_22k_10g", "silver_10g"):
         if not positive((g.get("details") or {}).get(key)): ERRORS.append(f"invalid gold field: {key}")
+    check_freshness("Gold/silver", g.get("fetchedAt"), timedelta(days=4))
 
 # Interest rates
 i = load("feeds/interest_rates/current.json")
