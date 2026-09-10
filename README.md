@@ -14,20 +14,25 @@ A standalone static Nepali Bikram Sambat calendar application by Laxman Nepal.
 - `/saith/` — Saait / Shubh Din information
 - `/rashifal/` — dedicated 12-sign daily and weekly Rashifal
 - `/news/` — dedicated Nepali News Center with search/filter/sort
-- `/converter/` — BS ↔ AD converter, using the package-supported 1970–2100 range
+- `/converter/` — BS ↔ AD converter
 - `/itihas-aaja/` — today's history, culture and heritage
 - `/gold-price/` — Nepal gold/silver rates and charts
+- `/forex/` — Nepal Rastra Bank foreign-exchange rates
+- `/nepal-government/` — Nepal government website directory
 
-The homepage `/` is the only all-in-one dashboard. Feature pages do not reuse the homepage renderer.
+The homepage `/` is the all-in-one dashboard. Feature pages use isolated renderers and shared shell components rather than the homepage renderer.
 
-## Compatibility aliases
+## Data reliability
 
-Legacy routes redirect to their canonical pages:
+Live and generated datasets are treated as untrusted external input until validated.
 
-- `/patro/` → `/calendar/`
-- `/panchang/` → `/panchanga/`
-- `/festivals/` → `/parba/`
-- `/saait/` → `/saith/`
+- Daily and weekly Rashifal are schema-checked and freshness-checked.
+- Forex and gold/silver feeds have freshness limits.
+- Itihas requires exactly one record for the current AD date.
+- Calendar data is validated for duplicate dates, required Panchanga fields and BS ↔ AD round trips.
+- JavaScript syntax, JSON, HTML accessibility sanity and CSS structural integrity are checked in CI.
+- Live refresh jobs isolate independent upstream failures and publish a GitHub Actions status summary.
+- Automated repository writers use a shared concurrency queue to reduce `main` branch races.
 
 ## Calendar and Panchanga data
 
@@ -37,23 +42,25 @@ Each generated day includes BS/AD dates, weekday, Nepal Sambat, tithi, paksha, n
 
 ## Converter
 
-A separate compact conversion index is generated for the full supported range of the underlying package (**BS 1970–2100**). The converter falls back to the detailed 2040–2100 index until the broader generated index is available.
+The converter supports the range provided by the underlying calendar package and uses generated indexes for fast lookup where available.
 
 ## Principles
 
 - No runtime calendar API dependency
-- GitHub Actions generates static data
+- GitHub Actions generates and validates static data
 - Feature pages are isolated from the homepage
 - Absolute CSS/JavaScript/data URLs on standalone pages
 - Mobile-first responsive UI
 - GitHub-hosted static news data; browsers do not fetch RSS feeds directly
-- Gold data collected by GitHub Actions from the configured Nepal source
-- Automated validation checks data integrity, route isolation, converter round trips, aliases and JavaScript syntax
+- External data is validated before publication
+- Health metadata never suppresses the underlying catalog
+- Generated files should be deterministic and disposable
 
 ## Deployment
 
-GitHub Actions generates and validates the data, then deploys the static site to GitHub Pages. All repository-writing workflows share a concurrency group so generated-data, news and gold-price commits do not race each other.
+GitHub Actions generates, validates and commits data, then GitHub Pages deploys the published static site. Data-writing workflows use a shared writer concurrency strategy to minimize concurrent `main` updates.
 
+For the complete system/data-flow rules, see `docs/ARCHITECTURE.md`.
 
 ## Additional feature pages
 
@@ -69,5 +76,7 @@ GitHub Actions generates and validates the data, then deploys the static site to
 - `/personal-rashifal/` — personalised horoscope guidance
 - `/dharma/` — religion and culture hub
 - `/events/` — personal events organiser
+- `/radio/` — radio/live audio section
+- `/jyotish/` — Jyotish tools
 
-The existing `/radio/`, `/jyotish/`, `/saith/` and calendar/converter features remain separate and were not duplicated. Unit Converter was intentionally excluded.
+Unit Converter was intentionally excluded.
