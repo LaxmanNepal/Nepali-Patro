@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: nepali-patro-data-sync
+  group: nepali-patro-main-writer
   cancel-in-progress: false
 jobs:
   sync:
