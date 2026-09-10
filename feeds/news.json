@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-10T20:54:50.450845+00:00",
-  "lastSuccessfulUpdate": "2026-09-10T20:54:50.450845+00:00",
-  "newestPublishedTime": "2026-09-10T20:32:04+00:00",
+  "updatedAt": "2026-09-10T22:49:04.185046+00:00",
+  "lastSuccessfulUpdate": "2026-09-10T22:49:04.185046+00:00",
+  "newestPublishedTime": "2026-09-10T22:42:39+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -18,6 +18,46 @@
     }
   ],
   "items": [
+    {
+      "title": "च्याम्पियन्स लिगमा - बायर्नको जितमा ओलिसेको २ गोल",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-09-10T22:42:39+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/174814",
+      "category": "sports"
+    },
+    {
+      "title": "च्याम्पियन्स लिगमा म्यानचेस्टर युनाइटेडको विजयी सुरुवात",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-09-10T22:17:42+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/174813",
+      "category": "sports"
+    },
+    {
+      "title": "बोडो–ग्लिम्टमाथि बायर्नको ५–० गोलको फराकिलो जित",
+      "description": "काठमाडौं । युईएफए च्याम्पियन्स लिग फुटबल अन्तर्गत भएको खेलमा बायर्न म्युनिखले बोडोरग्लिम्टमाथि ५–० गोल अन्तरको फराकिलो जित दर्ता गरेको छ । खेलका पाँच वटै गोल दोस्रो हाफमा सम्भव भएका थिए । बायर्नका लागि माइकल ओलिसेले दुई",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bayern_xfhBNwfTC4.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-10T21:25:34+00:00",
+      "articleUrl": "https://www.ratopati.com/story/591362/bayerns-5-0-win-over-bodo-glimt",
+      "category": "national"
+    },
+    {
+      "title": "म्यानचेस्टर युनाइटेडको ४–० गोलको सहज जित",
+      "description": "काठमाडौँ । युईएफए च्याम्पियन्स लिग फुटबल अन्तर्गत भएको खेलमा म्यानचेस्टर युनाइटेडले सबाहमाथि ४–० गोल अन्तरको शानदार जित निकालेको छ । म्यानचेस्टर युनाइटेडलाई जित दिलाउन खेलको २७ औँ मिनेटमा माथेउस कुन्हाले गोल गर्दै टोलीलाई सुरुवाती अग्रता दिलाएका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/new-project_YWuoV5F6v1.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-10T21:20:42+00:00",
+      "articleUrl": "https://www.ratopati.com/story/591361/manchester-uniteds-comfortable-4-0-win",
+      "category": "national"
+    },
     {
       "title": "पाठ्यक्रम परिमार्जन: पाठ्यभार घटाउनदेखि एआई समेट्नेसम्मका सुझाव",
       "description": "भक्तपुर । ‘राष्ट्रिय पाठ्यक्रम प्रारूप, २०७६’ परिमार्जनका लागि सातै प्रदेशमा आयोजित कार्यशालाबाट पाठ्यभार घटाउनुपर्ने, शिक्षालाई रोजगार तथा उद्यमशीलतामुखी बनाउनुपर्ने र नयाँ प्रविधिसहित कृत्रिम बौद्धिकता (एआई)लाई पाठ्यक्रममा समेट्नुपर्ने सुझाव प्राप्त भएका छन् । पाठ्यक्रम विकास केन्द्रले राष्ट्रिय",
@@ -4977,46 +5017,6 @@
       "publishedTime": "2026-09-10T03:06:15+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2014115/no-water-in-the-yard-200-families-rely-on-a-single-submersible-pump",
       "category": "national"
-    },
-    {
-      "title": "यशोदा फुड्स र श्रीराम टोबाकोद्वारा बाढीपीडितलाई ३ करोड ५१ लाख सहयोग",
-      "description": "काठमाडौँ । यशोदा फुड्स प्रालि र श्रीराम टोबाकोले बाढी प्रभावितका लागि साढे ३ करोड बढी सहयोग गरेका छन् । भदौ १० गते रसुवाको भोटेकोशीमा आएको बाढीका कारण प्रभावित नागरिकहरुको उद्धार, राहत र पुनर्स्थापनाका लागि दुई कम्पनीले सो सहयोग गरेका हुन् । सहयोगबापत यशोदा फुड्स प्रालि र श्रीराम टोबाकोले ३ करोड ५१ लाख ५१ हजार रुपैयाँ Continue reading \"यशोदा फुड्स र श्रीराम ",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-10T02:57:33+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/yashoda-foods-shree-ram-tobacco-donate-rs-3-51-crore-to-flood-victims.html",
-      "category": "business"
-    },
-    {
-      "title": "फिलिपिन्समा पानीजहाजमा आगलागी भएपछि ८० भन्दा बढी मानिस बेपत्ता",
-      "description": "फिलिपिन्सको एउटा लोकप्रिय पर्यटकीय क्षेत्रमा यात्रुवाहक पानीजहाजमा आगलागी भएपछि ८० जनाभन्दा बढी मानिस बेपत्ता भएका छन्।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3778/live/002bd350-acbb-11f1-b1d1-571ed4d7ff2c.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-09-10T02:56:39+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/c74ed27x224o?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "६ दशक लामो सपना २ घण्टामै खरानी भयो",
-      "description": "एक वर्ष बितिसक्दा पनि हाम्रो संघर्ष समाप्त भएको छैन । हामीले अझैसम्म बीमा दाबीको रकम प्राप्त गरेका छैनौँ र सरकारबाट पनि कुनै सहयोग पाएका छैनौँ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/prateek-prahari.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-10T02:48:26+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2014096/a-6-decade-long-dream-turned-to-ashes-in-2-hours",
-      "category": "national"
-    },
-    {
-      "title": "एक्लिएका अभिभावकमाथि नाटकमा लौरो",
-      "description": "युवाहरू रोजगारी र अवसरको खोजीमा विदेशिने क्रम बढेसगै गाउमा बुढ्यौली पुस्ता एक्लिदै गएको सामाजिक यथार्थलाई विद्यार्थीले रंगमञ्चमा उतारेका छन्। ललितपुर–१५, सातदोबाटोस्थित ब्राइट प्mयुचर माध्यमिक विद्यालयका विद्यार्थी अभिनित नाटक लौरोको यही विषयमा बुधवारदेखि कुञ्ज थियटरमा मञ्चन सुरु भएको हो। नाटकमा संरक्षण मिश्र, रिमुन दाहाल, सुशना सञ्जेल, अग्रता अधिकारी, आरोग्",
-      "imageUrl": "",
-      "sourceLogo": "https://newsofnepal.com/favicon.ico",
-      "sourceName": "न्युज अफ नेपाल",
-      "publishedTime": "2026-09-10T02:47:32+00:00",
-      "articleUrl": "https://newsofnepal.com/2026/09/10/786539/",
-      "category": "entertainment"
     }
   ]
 }
