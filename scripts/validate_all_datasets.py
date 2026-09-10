@@ -59,25 +59,34 @@ if r:
     if any(len(str(x.get("prediction", "")).strip()) < 40 for x in signs): ERRORS.append("short Rashifal prediction")
     check_freshness("daily Rashifal", r.get("fetchedAt"), timedelta(hours=36))
 
-# Weekly Rashifal: validate when the weekly dataset exists, but don't turn
-# the first deployment after a missing upstream response into a hard failure.
+# Weekly Rashifal
 weekly_dir = ROOT / "data" / "rashifal-weekly"
-if weekly_dir.exists():
+if not weekly_dir.exists():
+    ERRORS.append("weekly Rashifal dataset directory is missing")
+else:
     weekly_files = sorted(weekly_dir.glob("*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
-    if weekly_files:
-        w = load(str(weekly_files[0].relative_to(ROOT)))
+    if not weekly_files:
+        ERRORS.append("weekly Rashifal dataset contains no JSON")
+    else:
+        weekly_path = weekly_files[0]
+        w = load(str(weekly_path.relative_to(ROOT)))
         if w:
             signs = w.get("signs") or []
+            if w.get("schemaVersion") != 2: ERRORS.append("weekly Rashifal schemaVersion must be 2")
             if w.get("source") != "Nepali Patro": ERRORS.append("weekly Rashifal source is not Nepali Patro")
             if len(signs) != 12: ERRORS.append("weekly Rashifal does not contain 12 signs")
-            if len({x.get("id") for x in signs}) != len(signs): ERRORS.append("duplicate weekly Rashifal sign")
+            if len({x.get("id") for x in signs}) != 12: ERRORS.append("weekly Rashifal sign IDs are not unique")
             if any(len(str(x.get("prediction", "")).strip()) < 60 for x in signs): ERRORS.append("short weekly Rashifal prediction")
             if not w.get("weekStart") or not w.get("weekEnd"): ERRORS.append("weekly Rashifal week bounds missing")
+            try:
+                week_start = datetime.fromisoformat(str(w.get("weekStart"))).date()
+                week_end = datetime.fromisoformat(str(w.get("weekEnd"))).date()
+                if week_end - week_start != timedelta(days=6): ERRORS.append("weekly Rashifal week bounds must span 7 days")
+                if NOW.date() < week_start or NOW.date() > week_end + timedelta(days=1):
+                    WARNINGS.append(f"weekly Rashifal file is outside the active week: {week_start}..{week_end}")
+            except Exception as e:
+                ERRORS.append(f"invalid weekly Rashifal week bounds: {e}")
             check_freshness("weekly Rashifal", w.get("fetchedAt"), timedelta(days=10))
-    else:
-        WARNINGS.append("weekly Rashifal directory exists but contains no JSON")
-else:
-    WARNINGS.append("weekly Rashifal dataset is not currently present")
 
 # Forex
 f = load("feeds/forex.json")
