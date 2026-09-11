@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-11T19:44:17.617592+00:00",
-  "lastSuccessfulUpdate": "2026-09-11T19:44:17.617592+00:00",
-  "newestPublishedTime": "2026-09-11T19:03:08+00:00",
+  "updatedAt": "2026-09-11T21:56:20.117080+00:00",
+  "lastSuccessfulUpdate": "2026-09-11T21:56:20.117080+00:00",
+  "newestPublishedTime": "2026-09-11T20:45:00+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -18,6 +18,16 @@
     }
   ],
   "items": [
+    {
+      "title": "आँधीखोलामाथि झोलुङ्गे पुल निर्माण",
+      "description": "स्याङ्जा । स्याङ्जाको गल्याङ नगरपालिका–७ र ११ लाई जोड्ने गरी आँधीखोलामाथि झोलुङ्गे पुल निर्माण गरिएको छ । गल्याङ–११ को बुढाथोकी डाँडा र वडा नं ७ को सेनापुकलाई जोड्ने गरी ४४४ मिटर लम्बाइको पुल निर्माण गरिएको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/syanja_PqgxCfhb7Z.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-11T20:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/591596/construction-of-a-suspension-bridge-over-the-andhikhola",
+      "category": "national"
+    },
     {
       "title": "‘अशक्तको घरमा प्रजिअ’ कार्यक्रम : बहत्तर वर्षीया विकलाई नागरिकता",
       "description": "बैतडी । बैतडीको दशरथचन्द नगरपालिका–१ पितलथलाकी भुन्टी विकले ७२ वर्षका उमेरमा नागरिकताको प्रमाणपत्र प्राप्त गरेकी छिन् । प्रमुख जिल्ला अधिकारी मीना अर्यालले सात दशक बढी उमेर बितिसक्दा नागरिकता विहीन सुस्त मनस्थितीकी विकलाई नागरिकताको प्रमाणपत्र प्रदान गरेका",
@@ -5006,16 +5016,6 @@
       "sourceName": "feeds.bbci.co.uk",
       "publishedTime": "2026-09-11T02:57:08+00:00",
       "articleUrl": "https://www.bbc.com/nepali/articles/cgqd4z8ggp9o?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "‘जिन्दगीमा जे छ त्यसमै खुसी हुन सिकेकी छु’",
-      "description": "काठमाडौँ । आँचल शर्माले नेपाली रजतपटमा पाइला टेकेको ११ वर्ष बितिसकेको छ । ‘नाइँ नभन्नु ल-४’ बाट डेब्यु गरेकी आँचलले यो अवधिमा ११ वटा फिल्ममा अभिनय गरिसकिन् । ‘झिँगेदाउ-२’ उनी अभिनित पछिल्लो फिल्म हो ।",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/aanchal-sharma-banner_5SQgac1Xzv.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-11T02:47:32+00:00",
-      "articleUrl": "https://www.ratopati.com/story/591382/i-have-learned-to-be-happy-with-what-i-have-in-life",
       "category": "national"
     }
   ]
