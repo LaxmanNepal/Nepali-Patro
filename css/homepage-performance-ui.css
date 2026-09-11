@@ -1,0 +1,23 @@
+/* Homepage UI V1 — fast, smooth, accessible, low-overhead */
+:root{--np-radius:18px;--np-gap:14px;--np-shadow:0 10px 30px rgba(15,23,42,.06)}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body.home-redesign{overflow-x:hidden;text-rendering:optimizeLegibility}
+.home-redesign .np-section{content-visibility:auto;contain-intrinsic-size:1px 520px}
+.home-redesign .np-hero{contain:layout paint}
+.home-redesign .np-panel,.home-redesign .daily-hub-card,.home-redesign .secondary-main-news,.home-redesign .utility-card,.home-redesign .featured-service{border-radius:var(--np-radius);overflow:hidden}
+.home-redesign a,.home-redesign button,.home-redesign select{touch-action:manipulation}
+.home-redesign a:focus-visible,.home-redesign button:focus-visible,.home-redesign select:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.home-redesign .quick-action,.home-redesign .featured-service,.home-redesign .utility-card,.home-redesign .np-news a{transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease,background-color .16s ease}
+@media(hover:hover){.home-redesign .quick-action:hover,.home-redesign .featured-service:hover,.home-redesign .utility-card:hover{transform:translateY(-2px);box-shadow:var(--np-shadow)}}
+.home-redesign img{content-visibility:auto}
+.home-redesign .np-header{position:sticky;top:0;z-index:100;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.home-redesign .np-header{padding-top:max(8px,env(safe-area-inset-top));}
+.home-redesign .np-header nav{scrollbar-width:none}.home-redesign .np-header nav::-webkit-scrollbar{display:none}
+.home-redesign .np-header nav a{white-space:nowrap}
+.home-redesign .live-time{font-variant-numeric:tabular-nums}
+.home-redesign .today-main-card,.home-redesign .np-panel{box-shadow:var(--np-shadow)}
+.home-redesign .calendar-toolbar select{min-width:110px}
+@media(max-width:700px){.home-redesign{--np-gap:10px}.home-redesign main{width:100%;}.home-redesign .np-section{padding-left:10px;padding-right:10px}.home-redesign .quick-actions{gap:7px}.home-redesign .quick-action{min-height:52px}.home-redesign .today-main-card{border-radius:18px}.home-redesign .np-heading{gap:8px}}
+@media(max-width:480px){.home-redesign .np-heading h2{font-size:18px}.home-redesign .np-heading a{font-size:11px}.home-redesign .section-eyebrow{font-size:10px}.home-redesign .today-main-card{padding:14px}.home-redesign .quick-action{padding:8px 5px}.home-redesign .quick-icon{font-size:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.home-redesign *,.home-redesign *::before,.home-redesign *::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+@media(prefers-color-scheme:dark){body.home-redesign.auto-dark .np-panel,body.home-redesign.auto-dark .utility-card{box-shadow:none}}
