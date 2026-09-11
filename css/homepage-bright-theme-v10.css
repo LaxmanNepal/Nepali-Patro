@@ -1,0 +1,19 @@
+/* Homepage V10 — bright-first widget surface. Dark mode is opt-in via explicit .dark-theme/.theme-dark only. */
+:root{color-scheme:light;--np-widget-bg:#fff;--np-widget-surface:#fff;--np-widget-text:#111827;--np-widget-muted:#6b7280;--np-widget-line:#e5e7eb;--np-widget-shadow:0 10px 30px rgba(15,23,42,.07)}
+html,body{background:#f8fafc;color:#111827}
+.np-intel-card,.np-tool-link,.np-home-tool,.np-price,.np-person,.np-market-breadth span,.np-sector-row,.np-intel-empty{background:#fff!important;color:#111827;border-color:#e5e7eb}
+.np-intel-card{box-shadow:var(--np-widget-shadow)}
+.np-intel-card h3,.np-intel-card strong,.np-intel-card b,.np-tool-link,.np-home-tool{color:#111827}
+.np-intel-card small,.np-intel-note,.np-person small,.np-table th,.np-market-stats span,.np-market-breadth span,.np-sector-row small,.np-news-story small{color:#6b7280}
+.np-table td,.np-news-story{color:#111827;border-color:#e5e7eb}
+.np-news-story img{background:#f1f5f9}
+.np-nepse-number.flat,.np-market-stats b,.np-market-breadth b{color:#111827}
+.np-price{background:linear-gradient(145deg,#fff5f5,#fff)!important}
+.np-trend-pill{background:#fff5f5;border-color:#fee2e2;color:#991b1b}
+.np-person{background:#f8fafc!important}
+.np-person-avatar{background:#fef2f2}
+.np-tool-link:hover,.np-home-tool:hover{background:#fff!important;box-shadow:0 8px 22px rgba(15,23,42,.09)}
+/* Force bright widgets unless the site's own explicit theme class is selected. */
+html:not(.dark-theme):not(.theme-dark) .np-intel-card,html:not(.dark-theme):not(.theme-dark) .np-tool-link,html:not(.dark-theme):not(.theme-dark) .np-home-tool{background:#fff!important;color:#111827!important}
+html:not(.dark-theme):not(.theme-dark) .np-intel-card h1,html:not(.dark-theme):not(.theme-dark) .np-intel-card h2,html:not(.dark-theme):not(.theme-dark) .np-intel-card h3,html:not(.dark-theme):not(.theme-dark) .np-intel-card h4,html:not(.dark-theme):not(.theme-dark) .np-intel-card strong,html:not(.dark-theme):not(.theme-dark) .np-intel-card b{color:#111827!important}
+html:not(.dark-theme):not(.theme-dark) .np-intel-card small,html:not(.dark-theme):not(.theme-dark) .np-intel-note{color:#6b7280!important}
