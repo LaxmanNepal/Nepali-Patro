@@ -1,0 +1,17 @@
+/* Nepali Patro Homepage V2 — single visual system */
+:root{--home-max:1180px;--home-gap:22px;--home-radius:20px;--home-border:#e5e7eb;--home-bg:#f7f8fb;--home-card:#fff;--home-text:#171717;--home-muted:#667085;--home-shadow:0 10px 30px rgba(16,24,40,.06);--home-red:#d71920}
+.home-redesign main{background:var(--home-bg);color:var(--home-text)}
+.home-redesign main>.np-section,.home-redesign main>.today-patro-section,.home-redesign main>#homepage-glance-v12,.home-redesign main>#homepage-panchanga-v13,.home-redesign main>#news-intelligence-v9,.home-redesign main>.np-finance-v10{width:min(calc(100% - 32px),var(--home-max));margin-left:auto;margin-right:auto}
+.home-redesign .np-section{margin-top:0;margin-bottom:var(--home-gap);padding:0}
+.home-redesign .np-section>h2,.home-redesign .np-section .section-title{margin:0 0 12px;font-size:clamp(20px,2vw,27px);line-height:1.25;letter-spacing:-.02em}
+.home-redesign .np-panel,.home-redesign .np-intel-card,.home-redesign .np-tool-link,.home-redesign .np-home-tool,.home-redesign .np-price,.home-redesign .np-person,.home-redesign .np-finance-v10{border:1px solid var(--home-border);border-radius:var(--home-radius);box-shadow:var(--home-shadow);background:var(--home-card)}
+.home-redesign .np-cards,.home-redesign .np-grid,.home-redesign .np-intel-grid,.home-redesign .np-market-grid,.home-redesign .np-tools-grid{gap:var(--home-gap)}
+.home-redesign .today-patro-section{margin-top:0;margin-bottom:var(--home-gap);border-radius:28px;overflow:hidden}
+.home-redesign #homepage-glance-v12,.home-redesign #homepage-panchanga-v13{display:none!important}
+.home-redesign .homepage-v2-zone{width:min(calc(100% - 32px),var(--home-max));margin:0 auto;display:block}
+.home-redesign .homepage-v2-zone>.np-section,.home-redesign .homepage-v2-zone>.np-finance-v10,.home-redesign .homepage-v2-zone>section{width:100%;margin-left:0;margin-right:0}
+.home-redesign .homepage-v2-news{margin-top:var(--home-gap)}
+.home-redesign #news-intelligence-v9{margin-top:0!important}
+.home-redesign .homepage-v2-divider{height:1px;background:var(--home-border);margin:4px 0 var(--home-gap)}
+@media(max-width:700px){:root{--home-gap:14px;--home-radius:16px}.home-redesign main>.np-section,.home-redesign main>.today-patro-section,.home-redesign main>#homepage-glance-v12,.home-redesign main>#homepage-panchanga-v13,.home-redesign main>#news-intelligence-v9,.home-redesign main>.np-finance-v10,.home-redesign .homepage-v2-zone{width:calc(100% - 20px)}.home-redesign .today-patro-section{border-radius:20px}.home-redesign .np-section>h2,.home-redesign .np-section .section-title{font-size:20px}}
+body.dark-theme .home-redesign main,body.theme-dark .home-redesign main{--home-bg:#0b0f14;--home-card:#111821;--home-text:#f3f4f6;--home-muted:#98a2b3;--home-border:#26303d;--home-shadow:0 12px 34px rgba(0,0,0,.24)}
