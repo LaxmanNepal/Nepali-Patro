@@ -1,0 +1,38 @@
+name: Apply Global Tools Navigation
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/tools-global.css'
+      - 'assets/tools-global.js'
+      - 'scripts/inject-global-tools.mjs'
+      - '.github/workflows/global-tools.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: global-tools-main
+  cancel-in-progress: true
+jobs:
+  inject:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Inject global tools into all HTML pages
+        run: node scripts/inject-global-tools.mjs
+      - name: Commit HTML updates if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add '**/*.html' '*.html'
+          if git diff --cached --quiet; then
+            echo 'No HTML changes.'
+          else
+            git commit -m 'chore: add global tools navigation to all pages'
+            git push
+          fi
