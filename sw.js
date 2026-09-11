@@ -1,6 +1,6 @@
-const CACHE_NAME='nepali-patro-v2026-09-05-01';
+const CACHE_NAME='nepali-patro-v2026-09-11-05';
 const OFFLINE_URL='./offline.html';
-const APP_SHELL=['./','./index.html','./manifest.json','./assets/logo.svg','./offline.html','./css/main.css','./css/homepage-redesign.css','./css/mobile-nav.css','./js/mobile-nav.js','./js/mobile-accessibility.js','./js/homepage-controller.js','./js/homepage-runtime.js','./js/homepage-finance.js','./js/nepal-clock.js','./js/news.js'];
+const APP_SHELL=['./','./index.html','./manifest.json','./assets/logo.svg','./offline.html','./css/main.css','./css/homepage-redesign.css','./css/mobile-nav.css','./css/extra-tools.css','./css/homepage-performance-ui.css','./css/homepage-ui-v2.css','./css/homepage-dashboard-v3.css','./css/homepage-ui-v4.css','./css/homepage-pwa-v5.css','./js/homepage-controller.js','./js/homepage-runtime.js','./js/homepage-calendar-preview.js','./js/homepage-calendar-v7.js','./js/homepage-calendar-v8.js','./js/homepage-finance.js','./js/rashifal-home.js','./js/homepage-history.js','./js/homepage-converter.js','./js/homepage-ui-v2.js','./js/homepage-dashboard-v3.js','./js/homepage-ui-v4.js','./js/homepage-pwa-v5.js'];
 const sameOrigin=u=>u.origin===self.location.origin;
 const isCacheable=res=>res&&res.ok&&(res.type==='basic'||res.type==='default');
 const cacheRequest=req=>{const u=new URL(req.url);u.searchParams.delete('v');u.searchParams.delete('parba');return new Request(u.toString(),{method:'GET',headers:req.headers,mode:'same-origin',credentials:req.credentials,redirect:'follow'});};
