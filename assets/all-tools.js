@@ -1,27 +1,47 @@
-/* Nepali Patro — All Tools V2 */
+/* Nepali Patro — All Tools V3 — app library */
 (function(){'use strict';if(window.__NP_ALL_TOOLS__)return;window.__NP_ALL_TOOLS__=true;
-const BASE=new URL('../',location.href);const MANIFEST=new URL('../data/tool-manifest.json',location.href);
+const BASE=new URL('../',location.href),MANIFEST=new URL('../data/tool-manifest.json',location.href),FAV_KEY='np_all_tools_favorites_v1',RECENT_KEY='np_all_tools_recent_v1';
 const $=s=>document.querySelector(s);
-function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function hrefOf(url){if(!url)return '#';if(/^https?:\/\//i.test(url))return url;if(url.startsWith('/'))return url;return new URL(url.replace(/^\.\//,''),BASE).href;}
-function boot(){
- const grid=$('#allToolsContent'),search=$('#allToolsSearch'),cats=$('#allToolsCategories'),result=$('#allToolsResults'),toolCount=$('#allToolCount'),catCount=$('#allCategoryCount');
- if(!grid)return;
- fetch(MANIFEST,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('manifest');return r.json()}).then(data=>{
-  const raw=Array.isArray(data.tools)?data.tools:[];const seen=new Set();const tools=raw.filter(t=>{const key=String(t.url||t.path||t.id||'').toLowerCase();if(!key||seen.has(key))return false;seen.add(key);return true}).map(t=>({...t,category:t.category||guessCategory(t)}));
-  const categories=['सबै',...Array.from(new Set(tools.map(t=>t.category))).sort((a,b)=>a.localeCompare(b,'ne'))];let active='सबै';
-  toolCount.textContent=tools.length;catCount.textContent=categories.length-1;
-  cats.innerHTML=categories.map((c,i)=>`<button class="all-cat${i===0?' active':''}" type="button" data-cat="${esc(c)}">${esc(c)}</button>`).join('');
-  cats.querySelectorAll('.all-cat').forEach(b=>b.addEventListener('click',()=>{active=b.dataset.cat;cats.querySelectorAll('.all-cat').forEach(x=>x.classList.toggle('active',x===b));render();}));
-  function render(){const q=(search.value||'').trim().toLocaleLowerCase('ne');const list=tools.filter(t=>{const text=[t.name,t.title,t.description,t.id,t.category].join(' ').toLocaleLowerCase('ne');return (active==='सबै'||t.category===active)&&(!q||text.includes(q));});result.textContent=`${list.length} वटा उपकरण तथा सेवा देखाइँदैछ`;
-   if(!list.length){grid.innerHTML='<div class="all-empty">🔎 खोजीसँग मिल्ने उपकरण भेटिएन। अर्को शब्द प्रयोग गर्नुहोस्।</div>';return;}
-   const groups=active==='सबै'?groupBy(list):new Map([[active,list]]);let n=0;grid.innerHTML=Array.from(groups.entries()).map(([cat,items])=>`<section class="all-category"><div class="all-category-head"><h2 class="all-category-title">${esc(cat)}</h2><span class="all-category-count">${items.length} उपकरण</span></div><div class="all-tools-grid">${items.map(t=>{const i=n++;const external=/^https?:\/\//i.test(String(t.url||''));return `<a class="all-tool-card" style="--i:${i}" href="${esc(hrefOf(t.url||t.path))}"${external?' target="_blank" rel="noopener"':''}><span class="all-tool-icon">${esc(t.icon||'🧰')}</span><span class="all-tool-name">${esc(t.name||t.title||t.id)}</span><span class="all-tool-desc">${esc(clean(t.description||t.title||''))}</span><span class="all-tool-arrow">खोल्नुहोस् →</span></a>`}).join('')}</div></section>`).join('');
-  }}
-  function groupBy(list){const m=new Map();list.forEach(t=>{if(!m.has(t.category))m.set(t.category,[]);m.get(t.category).push(t)});return m}
-  search.addEventListener('input',render);render();
- }).catch(()=>{grid.innerHTML='<div class="all-empty">⚠️ उपकरण सूची लोड हुन सकेन। कृपया केही बेरपछि पुनः प्रयास गर्नुहोस्।</div>';});
-}
+function esc(s){return String(s??'').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));}
+function hrefOf(url){if(!url)return'#';if(/^https?:\/\//i.test(url))return url;if(url.startsWith('/'))return url;return new URL(url.replace(/^\.\//,''),BASE).href;}
+function keyOf(t){return String(t.url||t.path||t.id||t.name||t.title||'').trim().toLowerCase();}
+function read(key){try{const v=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(v)?v:[]}catch(_){return[]}}
+function write(key,v){try{localStorage.setItem(key,JSON.stringify(v));}catch(_){} }
 function clean(s){return String(s).replace(/\s+/g,' ').replace(/\|.*$/,'').trim();}
 function guessCategory(t){const id=String(t.id||'').toLowerCase();if(/calendar|patro|tithi|panchang|panchanga|saait|saith|vedic/.test(id))return'पात्रो तथा ज्योतिष';if(/gold|forex|interest|nepse|petroleum/.test(id))return'दर तथा बजार';if(/news|radio|live-tv/.test(id))return'समाचार तथा मनोरञ्जन';if(/game|meme/.test(id))return'मनोरञ्जन';if(/government|goverment|dharma|festival|parba/.test(id))return'नेपाल तथा संस्कृति';if(/converter|preeti/.test(id))return'रूपान्तरण';return'अन्य उपकरण';}
+function boot(){
+ const grid=$('#allToolsContent'),search=$('#allToolsSearch'),cats=$('#allToolsCategories'),result=$('#allToolsResults'),toolCount=$('#allToolCount'),catCount=$('#allCategoryCount');if(!grid)return;
+ const featured=$('#allFeatured'),recent=$('#allRecent'),favorites=$('#allFavorites');let tools=[],active='सबै',favKeys=read(FAV_KEY),recentKeys=read(RECENT_KEY);
+ fetch(MANIFEST,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('manifest');return r.json()}).then(data=>{
+  const raw=Array.isArray(data.tools)?data.tools:[],seen=new Set();tools=raw.filter(t=>{const k=keyOf(t);if(!k||seen.has(k))return false;seen.add(k);return true}).map(t=>({...t,category:t.category||guessCategory(t)}));
+  const categories=['सबै',...Array.from(new Set(tools.map(t=>t.category))).sort((a,b)=>a.localeCompare(b,'ne'))];toolCount.textContent=tools.length;catCount.textContent=categories.length-1;
+  cats.innerHTML=categories.map((c,i)=>`<button class="all-cat${i===0?' active':''}" type="button" data-cat="${esc(c)}">${esc(c)}</button>`).join('');cats.querySelectorAll('.all-cat').forEach(b=>b.addEventListener('click',()=>{active=b.dataset.cat;cats.querySelectorAll('.all-cat').forEach(x=>x.classList.toggle('active',x===b));render();renderSmart();}));
+  function matches(t,q){return [t.name,t.title,t.description,t.id,t.category].join(' ').toLocaleLowerCase('ne').includes(q)}
+  function score(t,i){let n=0;if(t.featured===true)n+=100;if(t.recommended===true)n+=70;if(t.popular===true)n+=60;if(Number.isFinite(Number(t.priority)))n+=Number(t.priority);return n-i*.001}
+  function isFav(t){return favKeys.includes(keyOf(t));}
+  function card(t,i,compact){const k=keyOf(t),external=/^https?:\/\//i.test(String(t.url||''));return `<article class="all-tool-card${compact?' all-smart-card':''}" style="--i:${i}"><a class="all-tool-open" href="${esc(hrefOf(t.url||t.path))}"${external?' target="_blank" rel="noopener"':''} data-tool-key="${esc(k)}"><span class="all-tool-icon">${esc(t.icon||'🧰')}</span><span class="all-tool-name">${esc(t.name||t.title||t.id)}</span><span class="all-tool-desc">${esc(clean(t.description||t.title||''))}</span><span class="all-tool-arrow">खोल्नुहोस् →</span></a><button class="all-fav-btn${isFav(t)?' active':''}" type="button" data-fav="${esc(k)}" aria-label="${isFav(t)?'मनपर्नेबाट हटाउनुहोस्':'मनपर्नेमा राख्नुहोस्'}">${isFav(t)?'★':'☆'}</button></article>`}
+  function render(){const q=(search.value||'').trim().toLocaleLowerCase('ne'),list=tools.filter(t=>(active==='सबै'||t.category===active)&&(!q||matches(t,q)));result.textContent=`${list.length} वटा उपकरण तथा सेवा देखाइँदैछ`;renderSmart();if(!list.length){grid.innerHTML='<div class="all-empty">🔎 खोजीसँग मिल्ने उपकरण भेटिएन। अर्को शब्द प्रयोग गर्नुहोस्।</div>';return}const groups=active==='सबै'?groupBy(list):new Map([[active,list]]);let n=0;grid.innerHTML=Array.from(groups.entries()).map(([cat,items])=>`<section class="all-category"><div class="all-category-head"><h2 class="all-category-title">${esc(cat)}</h2><span class="all-category-count">${items.length} उपकरण</span></div><div class="all-tools-grid">${items.map(t=>card(t,n++,false)).join('')}</div></section>`).join('');}
+  function renderSmart(){const show=!search.value.trim()&&active==='सबै';[featured,recent,favorites].forEach(x=>{if(x)x.hidden=!show});if(!show)return;
+   if(featured){const list=tools.slice().sort((a,b)=>score(b,tools.indexOf(b))-score(a,tools.indexOf(a))).slice(0,6);featured.innerHTML=smartSection('⭐','विशेष उपकरणहरू','छिटो पहुँचका लागि छनोट गरिएका सेवाहरू',list,'featured');}
+   if(recent){const map=new Map(tools.map(t=>[keyOf(t),t]));const list=recentKeys.map(k=>map.get(k)).filter(Boolean).slice(0,6);recent.innerHTML=list.length?smartSection('↩','हालै प्रयोग गरिएका','तपाईंले पछिल्लो पटक खोलेका सेवाहरू',list,'recent'):'';}
+   if(favorites){const map=new Map(tools.map(t=>[keyOf(t),t]));const list=favKeys.map(k=>map.get(k)).filter(Boolean).slice(0,6);favorites.innerHTML=smartSection('★','मनपर्ने उपकरणहरू','आफ्ना रोजाइहरू यहाँ सुरक्षित राख्नुहोस्',list,'favorites');}
+  }
+  function smartSection(icon,title,sub,list,mode){if(!list.length)return `<div class="all-smart-section-inner"><div class="all-smart-head"><div><h2>${icon} ${title}</h2><p>${sub}</p></div></div><div class="all-smart-empty">☆ कुनै मनपर्ने उपकरण छैन। कार्डको स्टार थिचेर यहाँ थप्नुहोस्।</div></div>`;return `<div class="all-smart-section-inner"><div class="all-smart-head"><div><h2>${icon} ${title}</h2><p>${sub}</p></div><span>${list.length} वटा</span></div><div class="all-smart-grid">${list.map((t,i)=>card(t,i,true)).join('')}</div></div>`}
+  function groupBy(list){const m=new Map();list.forEach(t=>{if(!m.has(t.category))m.set(t.category,[]);m.get(t.category).push(t)});return m}
+  function pushRecent(k){recentKeys=[k,...recentKeys.filter(x=>x!==k)].slice(0,12);write(RECENT_KEY,recentKeys)}
+  function toggleFav(k){favKeys=favKeys.includes(k)?favKeys.filter(x=>x!==k):[k,...favKeys].slice(0,30);write(FAV_KEY,favKeys);render();}
+  document.addEventListener('click',e=>{const fav=e.target.closest('.all-fav-btn');if(fav){e.preventDefault();e.stopPropagation();toggleFav(fav.dataset.fav);return}const a=e.target.closest('[data-tool-key]');if(a){pushRecent(a.dataset.toolKey);renderSmart();}});
+  search.addEventListener('input',render);render();
+  setupSpotlight(tools,pushRecent);
+ }).catch(()=>{grid.innerHTML='<div class="all-empty">⚠️ उपकरण सूची लोड हुन सकेन। कृपया केही बेरपछि पुनः प्रयास गर्नुहोस्।</div>';});
+}
+function setupSpotlight(tools,pushRecent){let overlay=$('#allToolsSpotlight');if(!overlay){overlay=document.createElement('div');overlay.id='allToolsSpotlight';overlay.className='all-spotlight';overlay.hidden=true;overlay.innerHTML='<div class="all-spotlight-backdrop" data-spot-close></div><div class="all-spotlight-dialog" role="dialog" aria-modal="true" aria-label="उपकरण Spotlight"><div class="all-spotlight-top"><span>⌘K</span><input id="allSpotlightSearch" type="search" placeholder="उपकरण वा सेवा खोज्नुहोस्…" autocomplete="off"><button type="button" data-spot-close>Esc</button></div><div id="allSpotlightResults" class="all-spotlight-results"></div><div class="all-spotlight-help">↑ ↓ चयन · Enter खोल्नुहोस् · Esc बन्द गर्नुहोस्</div></div>';document.body.appendChild(overlay)}
+ const input=$('#allSpotlightSearch'),out=$('#allSpotlightResults');let selected=0;
+ function render(){const q=input.value.trim().toLocaleLowerCase('ne');const list=tools.filter(t=>!q||[t.name,t.title,t.description,t.id,t.category].join(' ').toLocaleLowerCase('ne').includes(q)).slice(0,8);selected=Math.min(selected,Math.max(0,list.length-1));out.innerHTML=list.map((t,i)=>`<a class="all-spotlight-item${i===selected?' active':''}" href="${esc(hrefOf(t.url||t.path))}" data-spot-key="${esc(keyOf(t))}"${/^https?:\/\//i.test(String(t.url||''))?' target="_blank" rel="noopener"':''}><span>${esc(t.icon||'🧰')}</span><b>${esc(t.name||t.title||t.id)}</b><small>${esc(t.category||'')}</small></a>`).join('')||'<div class="all-smart-empty">🔎 कुनै उपकरण भेटिएन।</div>'}
+ function open(){overlay.hidden=false;requestAnimationFrame(()=>overlay.classList.add('open'));input.value='';selected=0;render();input.focus()}
+ function close(){overlay.classList.remove('open');setTimeout(()=>{overlay.hidden=true},160)}
+ overlay.addEventListener('click',e=>{if(e.target.closest('[data-spot-close]'))close();const a=e.target.closest('[data-spot-key]');if(a){pushRecent(a.dataset.spotKey);close()}});input.addEventListener('input',()=>{selected=0;render()});input.addEventListener('keydown',e=>{const items=[...out.querySelectorAll('[data-spot-key]')];if(e.key==='ArrowDown'){e.preventDefault();selected=Math.min(selected+1,items.length-1);render()}else if(e.key==='ArrowUp'){e.preventDefault();selected=Math.max(selected-1,0);render()}else if(e.key==='Enter'&&items[selected]){e.preventDefault();items[selected].click()}else if(e.key==='Escape')close()});
+ document.addEventListener('keydown',e=>{const tag=(document.activeElement?.tagName||'').toLowerCase();if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();open()}else if(e.key==='/'&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!['input','textarea','select'].includes(tag)){e.preventDefault();open()}else if(e.key==='Escape'&&!overlay.hidden)close()});
+}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot();
 })();
