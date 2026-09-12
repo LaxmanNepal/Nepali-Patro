@@ -1,9 +1,9 @@
 {
-  "date_bs": "भदौ २६, २०८३",
-  "date_ad": "2026-09-11",
+  "date_bs": "भदौ २७, २०८३",
+  "date_ad": "2026-09-12",
   "source": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
   "sourceUrl": "https://negosida.org/",
-  "updatedAt": "2026-09-11T17:26:38.708167+05:45",
+  "updatedAt": "2026-09-12T07:12:30.527622+05:45",
   "gold": {
     "type": "छापावाल",
     "unit": "प्रति तोला",
@@ -206,6 +206,16 @@
     {
       "date_ad": "2026-09-11",
       "date_bs": "भदौ २६, २०८३",
+      "fine_gold_tola": 301000.0,
+      "gold_22k_tola": 275715.0,
+      "silver_tola": 4600.0,
+      "fine_gold_10g": 258060.0,
+      "gold_22k_10g": 236385.0,
+      "silver_10g": 3944.0
+    },
+    {
+      "date_ad": "2026-09-12",
+      "date_bs": "भदौ २७, २०८३",
       "fine_gold_tola": 301000.0,
       "gold_22k_tola": 275715.0,
       "silver_tola": 4600.0,
