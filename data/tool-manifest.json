@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T23:43:10.193Z",
-  "count": 36,
+  "generatedAt": "2026-09-12T08:52:34.869Z",
+  "count": 37,
   "tools": [
     {
       "id": "itihas-aaja",
@@ -122,6 +122,14 @@
       "name": "सुनको मूल्य",
       "title": "नेपालमा आजको सुनको मूल्य — Gold Price Nepal | नेपाली पात्रो",
       "url": "gold-price/"
+    },
+    {
+      "id": "all",
+      "path": "all/",
+      "icon": "🧰",
+      "name": "All",
+      "title": "सबै उपकरण तथा सेवाहरू | नेपाली पात्रो",
+      "url": "all/"
     },
     {
       "id": "data-health",
