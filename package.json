@@ -12,8 +12,9 @@
     "validate:contracts": "node scripts/validate_contracts.mjs",
     "audit:seo": "node scripts/validate_seo.mjs",
     "audit:quality": "node scripts/quality_audit.mjs",
+    "audit:architecture": "node scripts/audit_architecture.mjs",
     "validate:all": "npm run validate && npm run validate:data && npm run validate:contracts && npm run audit:quality",
-    "audit": "npm run validate:all && npm run audit:seo"
+    "audit": "npm run validate:all && npm run audit:seo && npm run audit:architecture"
   },
   "dependencies": {
     "nepali-calendar-panchang": "1.0.2"
