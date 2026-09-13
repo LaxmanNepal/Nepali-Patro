@@ -47,6 +47,9 @@ jobs:
       - name: Deep data and local feed validation
         run: npm run validate:data
 
+      - name: Architecture dependency audit
+        run: npm run audit:architecture
+
       - name: Check feed producer syntax
         run: python -m py_compile scripts/update_news.py scripts/update_forex.py scripts/update_gold_rates.py scripts/fetch_rashifal.py
 
