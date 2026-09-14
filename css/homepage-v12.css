@@ -1,0 +1,17 @@
+/* Nepali Patro Homepage V12 — smart command rail + premium scan-first UX */
+.home-redesign{--v12-red:#b91c1c;--v12-red2:#dc2626;--v12-ink:#18181b;--v12-muted:#71717a;--v12-line:rgba(24,24,27,.09)}
+.home-redesign .np-home-command{position:sticky;top:8px;z-index:45;display:flex;align-items:center;gap:6px;width:min(1240px,calc(100% - 28px));margin:8px auto 0;padding:6px;border:1px solid var(--v12-line);border-radius:17px;background:rgba(255,255,255,.92);box-shadow:0 10px 32px rgba(24,24,27,.08);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+.home-redesign .np-home-command-label{padding:0 8px;font-size:.7rem;font-weight:900;color:var(--v12-muted);white-space:nowrap}
+.home-redesign .np-home-command a{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:0 12px;border-radius:11px;color:var(--v12-ink);font-size:.8rem;font-weight:800;text-decoration:none;white-space:nowrap;transition:.18s ease}
+.home-redesign .np-home-command a:hover{background:#fff1f1;color:var(--v12-red);transform:translateY(-1px)}
+.home-redesign .np-home-command a.active{background:var(--v12-red);color:#fff;box-shadow:0 6px 16px rgba(185,28,28,.2)}
+.home-redesign .np-home-command .np-command-spacer{flex:1}
+.home-redesign .np-home-command .np-command-more{border:1px solid var(--v12-line);background:#fff}
+.home-redesign .np-home-command a:focus-visible{outline:3px solid rgba(185,28,28,.2);outline-offset:2px}
+.home-redesign .np-home-command + main{padding-top:2px}
+.home-redesign .today-main-card.dashboard-primary{position:relative;overflow:hidden}
+.home-redesign .today-main-card.dashboard-primary:after{content:'आज';position:absolute;right:22px;top:18px;padding:5px 9px;border-radius:999px;background:rgba(255,255,255,.78);border:1px solid rgba(185,28,28,.12);font-size:.62rem;font-weight:900;letter-spacing:.08em;color:var(--v12-red);pointer-events:none}
+@media(max-width:760px){.home-redesign .np-home-command{top:4px;width:calc(100% - 20px);margin-top:6px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}.home-redesign .np-home-command::-webkit-scrollbar{display:none}.home-redesign .np-home-command-label,.home-redesign .np-command-spacer{display:none}.home-redesign .np-home-command a{min-height:40px;padding:0 13px}.home-redesign .np-home-command a.active{position:sticky;left:0}.home-redesign .today-main-card.dashboard-primary:after{right:14px;top:12px}}
+@media(max-width:520px){.home-redesign .np-home-command{width:calc(100% - 14px);padding:5px;gap:4px;border-radius:14px}.home-redesign .np-home-command a{min-height:38px;padding:0 11px;border-radius:10px;font-size:.76rem}.home-redesign .today-main-card.dashboard-primary:after{font-size:.56rem}}
+@media(prefers-color-scheme:dark){.home-redesign .np-home-command{background:rgba(255,255,255,.96)!important;color:var(--v12-ink)!important}.home-redesign .np-home-command a{color:var(--v12-ink)!important}.home-redesign .np-home-command a.active{background:var(--v12-red)!important;color:#fff!important}.home-redesign .np-command-more{background:#fff!important}}
+@media(prefers-reduced-motion:reduce){.home-redesign .np-home-command a{transition:none!important}}
