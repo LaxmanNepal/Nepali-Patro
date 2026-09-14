@@ -6,6 +6,7 @@
   const key=(url,name='default')=>`${name}:${url}`;
   const iso=ms=>ms?new Date(ms).toISOString():null;
   const result=(value,source,at,error=null)=>({data:value,value,source,updatedAt:iso(at),at,status:error?'stale':'ok',stale:source==='stale-memory',error:error||null});
+  const root='/Nepali-Patro/';
 
   async function fetchJSON(url,name='default',options={}){
     const ttl=Number(options.ttl||300000);
@@ -13,7 +14,7 @@
     const cached=memory.get(cacheKey);
     if(cached&&now()-cached.at<ttl)return result(cached.value,'memory',cached.at);
     try{
-      const u=new URL(url,location.href);
+      const u=new URL(url,location.origin+root);
       if(options.bust!==false)u.searchParams.set('_',String(now()));
       const r=await fetch(u.href,{cache:'no-store',headers:{Accept:'application/json'}});
       if(!r.ok)throw new Error(`HTTP ${r.status}`);
