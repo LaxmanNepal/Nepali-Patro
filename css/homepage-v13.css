@@ -1,0 +1,19 @@
+/* Nepali Patro Homepage V13 — mobile command dock + safe-area UX, bright-first */
+.home-redesign{--v13-red:#b91c1c;--v13-ink:#18181b;--v13-muted:#71717a;--v13-line:rgba(24,24,27,.09)}
+.home-redesign .np-mobile-dock{display:none}
+.home-redesign .np-back-top{position:fixed;right:20px;bottom:22px;z-index:70;width:44px;height:44px;border:1px solid var(--v13-line);border-radius:50%;background:rgba(255,255,255,.94);color:var(--v13-red);box-shadow:0 12px 30px rgba(24,24,27,.12);font-size:18px;font-weight:900;cursor:pointer;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .2s ease,transform .2s ease,box-shadow .2s ease;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.home-redesign .np-back-top.is-visible{opacity:1;transform:none;pointer-events:auto}
+.home-redesign .np-back-top:hover{box-shadow:0 16px 36px rgba(24,24,27,.16);transform:translateY(-2px)}
+.home-redesign .np-mobile-dock a:focus-visible,.home-redesign .np-back-top:focus-visible{outline:3px solid rgba(185,28,28,.2);outline-offset:2px}
+@media(max-width:760px){
+ .home-redesign{padding-bottom:78px}
+ .home-redesign .np-mobile-dock{position:fixed;left:10px;right:10px;bottom:max(9px,env(safe-area-inset-bottom));z-index:65;display:grid;grid-template-columns:repeat(5,1fr);gap:3px;padding:5px;border:1px solid var(--v13-line);border-radius:20px;background:rgba(255,255,255,.94);box-shadow:0 14px 42px rgba(24,24,27,.15);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)}
+ .home-redesign .np-mobile-dock a{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:56px;padding:4px 2px;border-radius:15px;color:var(--v13-muted);text-decoration:none;font-size:.64rem;font-weight:800;line-height:1.1;gap:3px;transition:background .18s ease,color .18s ease,transform .18s ease}
+ .home-redesign .np-mobile-dock a span:first-child{font-size:18px;line-height:1}
+ .home-redesign .np-mobile-dock a.active{background:#fff1f1;color:var(--v13-red)}
+ .home-redesign .np-mobile-dock a:active{transform:scale(.96)}
+ .home-redesign .np-back-top{right:16px;bottom:92px;width:40px;height:40px}
+}
+@media(max-width:380px){.home-redesign .np-mobile-dock{left:6px;right:6px;border-radius:17px}.home-redesign .np-mobile-dock a{min-height:53px;font-size:.6rem}.home-redesign .np-mobile-dock a span:first-child{font-size:17px}}
+@media(prefers-color-scheme:dark){.home-redesign .np-mobile-dock,.home-redesign .np-back-top{background:rgba(255,255,255,.96)!important;color:var(--v13-ink)!important}.home-redesign .np-mobile-dock a{color:var(--v13-muted)!important}.home-redesign .np-mobile-dock a.active{background:#fff1f1!important;color:var(--v13-red)!important}.home-redesign .np-back-top{color:var(--v13-red)!important}}
+@media(prefers-reduced-motion:reduce){.home-redesign .np-mobile-dock a,.home-redesign .np-back-top{transition:none!important}.home-redesign .np-back-top:hover{transform:none}}
