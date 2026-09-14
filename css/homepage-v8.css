@@ -1,0 +1,91 @@
+/* Nepali Patro Homepage V8 — focused dashboard, mobile-first polish */
+.home-redesign{
+  --v8-red:#b91c1c;
+  --v8-red-soft:#fff1f2;
+  --v8-ink:#171717;
+  --v8-muted:#6b7280;
+  --v8-line:rgba(15,23,42,.08);
+  --v8-card:#fff;
+}
+
+/* Keep the dashboard visually anchored while scrolling. */
+.home-redesign .np-header{
+  position:sticky!important;
+  top:0;
+  z-index:1000;
+  backdrop-filter:saturate(180%) blur(18px);
+  -webkit-backdrop-filter:saturate(180%) blur(18px);
+}
+
+.home-redesign main{padding-bottom:56px}
+.home-redesign .today-patro-section{margin-top:0}
+
+/* Stronger above-the-fold rhythm. */
+.home-redesign .today-section-header{margin-bottom:14px}
+.home-redesign .today-section-header h2{letter-spacing:-.045em}
+.home-redesign .today-section-header p{margin-top:3px}
+.home-redesign .live-time{white-space:nowrap}
+
+/* Make the primary date feel like the product's focal point. */
+.home-redesign .today-main-card{position:relative}
+.home-redesign .main-date-content h1{font-variant-numeric:tabular-nums}
+.home-redesign .weekday{font-weight:750}
+.home-redesign .english-date{font-weight:700}
+.home-redesign .full-calendar-btn{min-height:50px}
+
+/* Quick actions become a compact command bar rather than four generic cards. */
+.home-redesign .quick-action{position:relative;overflow:hidden;isolation:isolate}
+.home-redesign .quick-action:after{content:"→";position:absolute;right:13px;top:50%;transform:translateY(-50%);font-weight:900;color:rgba(185,28,28,.55);opacity:0;transition:opacity .18s ease,transform .18s ease}
+.home-redesign .quick-action:hover:after{opacity:1;transform:translate(2px,-50%)}
+.home-redesign .quick-icon{font-size:1.35rem}
+
+/* Consistent section cards and readable focus states. */
+.home-redesign a:focus-visible,
+.home-redesign button:focus-visible{
+  outline:3px solid rgba(185,28,28,.28)!important;
+  outline-offset:3px!important;
+}
+.home-redesign .np-panel,
+.home-redesign .daily-hub-card,
+.home-redesign .featured-service,
+.home-redesign .utility-card{
+  overflow:hidden;
+}
+
+/* Below-fold sections can stay light on mobile while preserving JS content. */
+@media(min-width:801px){
+  .home-redesign .np-section:not(.today-patro-section){content-visibility:auto;contain-intrinsic-size:520px}
+}
+
+/* Small screens: reduce chrome and make the primary task immediately visible. */
+@media(max-width:700px){
+  .home-redesign .np-header{padding-top:max(0px,env(safe-area-inset-top))}
+  .home-redesign .today-section-header{gap:8px}
+  .home-redesign .live-time{font-size:.78rem}
+  .home-redesign .today-main-card{box-shadow:0 18px 45px rgba(127,29,29,.08)!important}
+  .home-redesign .quick-actions{gap:9px}
+  .home-redesign .quick-action{min-height:64px}
+  .home-redesign .quick-action:after{display:none}
+  .home-redesign .np-section{scroll-margin-top:74px}
+}
+
+@media(max-width:520px){
+  .home-redesign main{padding-left:12px;padding-right:12px}
+  .home-redesign .today-section-header{display:block}
+  .home-redesign .live-time{margin-top:8px;display:inline-flex}
+  .home-redesign .today-main-card{border-radius:22px!important}
+  .home-redesign .panchang-grid{gap:8px}
+  .home-redesign .panchang-grid>*{min-height:66px;border-radius:14px!important}
+  .home-redesign .quick-action{font-size:.92rem}
+  .home-redesign .np-section{margin-top:26px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .home-redesign .quick-action:after{transition:none}
+}
+
+/* V8 remains bright even when the OS/browser is dark. */
+@media(prefers-color-scheme:dark){
+  .home-redesign .np-header{background:rgba(255,255,255,.96)!important;color:var(--v8-ink)!important}
+  .home-redesign .np-header a,.home-redesign .np-header button{color:var(--v8-ink)!important}
+}
