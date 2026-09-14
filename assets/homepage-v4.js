@@ -1,4 +1,4 @@
-/* Nepali Patro Homepage V4/V6 — premium daily dashboard UX */
+/* Nepali Patro Homepage V7 — dashboard UX + bright-first theme */
 (function(){'use strict';
 function addPhase2Style(){
  if(document.getElementById('np-v4-phase2-style'))return;
@@ -8,9 +8,22 @@ function loadV6(){
  if(document.getElementById('np-homepage-v6'))return;
  const link=document.createElement('link');link.id='np-homepage-v6';link.rel='stylesheet';link.href='css/homepage-v6.css?v=20260914-01';document.head.appendChild(link);
 }
+function loadV7(){
+ if(document.getElementById('np-homepage-v7'))return;
+ const link=document.createElement('link');link.id='np-homepage-v7';link.rel='stylesheet';link.href='css/homepage-v7.css?v=20260914-01';link.onload=()=>document.body.classList.add('np-v7-bright');document.head.appendChild(link);
+}
+function forceBrightDefault(){
+ try{
+  const keys=['theme','np-theme','nepali-patro-theme','color-theme'];
+  keys.forEach(k=>{if(localStorage.getItem(k)==='dark'&&!localStorage.getItem('np-user-theme'))localStorage.setItem(k,'light')});
+ }catch(e){}
+ document.documentElement.dataset.homeTheme='light';
+ document.body.classList.remove('dark','dark-mode');
+ document.body.classList.add('bright-theme');
+}
 function ready(){
  const body=document.body;if(!body||!body.classList.contains('home-redesign'))return;
- body.classList.add('np-v4-ready','np-v4-dashboard');addPhase2Style();loadV6();
+ body.classList.add('np-v4-ready','np-v4-dashboard');addPhase2Style();loadV6();loadV7();forceBrightDefault();
  document.querySelectorAll('.np-section').forEach((section,i)=>section.style.setProperty('--np-v4-delay',Math.min(i*35,280)+'ms'));
  document.querySelectorAll('.np-heading a,.full-calendar-btn,.quick-action,.featured-service,.utility-card').forEach(a=>{a.addEventListener('pointerdown',()=>a.classList.add('np-v4-pressed'),{passive:true});a.addEventListener('pointerup',()=>a.classList.remove('np-v4-pressed'),{passive:true});a.addEventListener('pointercancel',()=>a.classList.remove('np-v4-pressed'),{passive:true})});
  const today=document.querySelector('.today-main-card');if(today){today.setAttribute('aria-label','आजको नेपाली पात्रो र पञ्चाङ्ग');today.classList.add('dashboard-primary')}
