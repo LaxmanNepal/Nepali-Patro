@@ -1,20 +1,17 @@
-/* Nepali Patro core data client: one cache/error contract for static apps. */
+/* Nepali Patro core data client: canonical JSON transport + freshness contract. */
 (()=>{
+  'use strict';
   const memory=new Map();
   const now=()=>Date.now();
   const key=(url,name='default')=>`${name}:${url}`;
-  const result=(data,source,at,error=null)=>({data,source,updatedAt:at||null,status:error?'stale':'ok',stale:source==='stale-memory',error:error||null});
+  const iso=ms=>ms?new Date(ms).toISOString():null;
+  const result=(value,source,at,error=null)=>({data:value,value,source,updatedAt:iso(at),at,status:error?'stale':'ok',stale:source==='stale-memory',error:error||null});
 
   async function fetchJSON(url,name='default',options={}){
     const ttl=Number(options.ttl||300000);
     const cacheKey=key(url,name);
     const cached=memory.get(cacheKey);
-    if(cached&&now()-cached.at<ttl){
-      const response=result(cached.value,'memory',cached.at);
-      response.value=cached.value;
-      response.at=cached.at;
-      return response;
-    }
+    if(cached&&now()-cached.at<ttl)return result(cached.value,'memory',cached.at);
     try{
       const u=new URL(url,location.href);
       if(options.bust!==false)u.searchParams.set('_',String(now()));
@@ -23,23 +20,30 @@
       const value=await r.json();
       const at=now();
       memory.set(cacheKey,{value,at});
-      const response=result(value,'network',at);
-      response.value=value;
-      response.at=at;
-      return response;
+      return result(value,'network',at);
     }catch(error){
-      if(cached){
-        const response=result(cached.value,'stale-memory',cached.at,error);
-        response.value=cached.value;
-        response.at=cached.at;
-        return response;
-      }
+      if(cached)return result(cached.value,'stale-memory',cached.at,error);
       throw error;
     }
   }
 
-  async function get(url,name='default',options={}){
-    return fetchJSON(url,name,options);
+  async function get(nameOrUrl,options={}){
+    const datasets={
+      calendar:year=>`data/calendar/${year}.json`,
+      years:'data/years.json',
+      conversion:'data/conversion-index.json',
+      gold:'feeds/gold_silver.json',
+      forex:'feeds/forex.json',
+      news:'feeds/news.json',
+      history:'data/itihas/history.json'
+    };
+    if(Object.prototype.hasOwnProperty.call(datasets,nameOrUrl)){
+      const target=datasets[nameOrUrl];
+      const url=typeof target==='function'?target(options.year):target;
+      if(!url||url.includes('undefined'))throw new Error(`Missing dataset parameter: ${nameOrUrl}`);
+      return fetchJSON(url,nameOrUrl,options);
+    }
+    return fetchJSON(nameOrUrl,options.name||'default',options);
   }
 
   function clear(name){for(const k of memory.keys())if(!name||k.startsWith(`${name}:`))memory.delete(k)}
