@@ -1,3 +1,4 @@
+@import url('./homepage-v5.css');
 /* Nepali Patro Homepage V4 — premium daily dashboard */
 :root{--v4-red:#b91c1c;--v4-red2:#dc2626;--v4-ink:#171717;--v4-muted:#737373;--v4-line:#ececec;--v4-surface:#fff;--v4-soft:#fff7f7}
 .home-redesign main{padding-bottom:48px}.home-redesign .np-hero{position:relative;overflow:hidden}.home-redesign .today-patro-section{padding-top:clamp(18px,3vw,32px)}
