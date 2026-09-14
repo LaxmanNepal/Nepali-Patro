@@ -1,0 +1,23 @@
+/* Nepali Patro V16 — FORCE WHITE / BRIGHT MODE */
+:root{color-scheme:light!important;--np-white:#fff;--np-white-soft:#f8fafc;--np-black:#111827;--np-muted:#64748b;--np-line:#e5e7eb}
+html,html.bright-theme,html[class*="dark"],body,body.bright-theme,body[class*="dark"]{background:#fff!important;color:var(--np-black)!important;color-scheme:light!important}
+html::selection,body::selection{background:rgba(185,28,28,.14);color:#111827}
+body.home-redesign,
+body.home-redesign.bright-theme,
+body.home-redesign[class*="dark"]{
+ --bg:#fff!important;--surface:#fff!important;--surface2:#f8fafc!important;--text:#111827!important;--muted:#64748b!important;--border:#e5e7eb!important;
+ --primary:#b91c1c!important;--primary2:#dc2626!important;
+ background:#fff!important;color:#111827!important;color-scheme:light!important;
+}
+.home-redesign *{color-scheme:light!important}
+.home-redesign .np-header,.home-redesign .np-home-command,.home-redesign .np-mobile-dock,.home-redesign .np-panel,.home-redesign .today-main-card,.home-redesign .quick-action,.home-redesign .featured-service,.home-redesign .daily-hub-card,.home-redesign .utility-card,.home-redesign .secondary-panel{
+ background:rgba(255,255,255,.94)!important;color:#111827!important;border-color:rgba(15,23,42,.09)!important;
+}
+.home-redesign .np-header,.home-redesign .np-home-command{backdrop-filter:blur(24px) saturate(150%);-webkit-backdrop-filter:blur(24px) saturate(150%)}
+.home-redesign .np-theme-picker{background:#fff!important;color:#111827!important;border-color:#e5e7eb!important}
+.home-redesign .np-theme-option{background:#fff!important;color:#111827!important;border-color:#e5e7eb!important}
+.home-redesign .np-theme-option:hover{background:#f8fafc!important}
+.home-redesign .np-theme-picker-title,.home-redesign .np-theme-picker-note{color:#111827!important}
+.home-redesign .np-theme-picker-note{color:#64748b!important}
+@media(prefers-color-scheme:dark){html,body,.home-redesign{background:#fff!important;color:#111827!important;color-scheme:light!important}.home-redesign *{color-scheme:light!important}}
+@media(max-width:760px){.home-redesign .np-mobile-dock{background:rgba(255,255,255,.97)!important}}
