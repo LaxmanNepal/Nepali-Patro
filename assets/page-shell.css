@@ -1,0 +1,2 @@
+/* Universal shell fallback for pages that opt into data-np-shell */
+[data-np-shell] #npShellHeader{display:contents}[data-np-shell] #npShellFooter{display:contents}[data-np-shell] #npShellMenu{display:contents}[data-np-shell] #npShellBackdrop{display:contents}
