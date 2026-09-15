@@ -39,6 +39,10 @@ jobs:
         run: npm run generate:routes
       - name: Generate public SEO sitemap
         run: npm run generate:sitemap
+      - name: Generate offline route manifest
+        env:
+          PAGES_VERSION: ${{ github.sha }}
+        run: node scripts/generate-offline-manifest.mjs .
       - name: Syntax-check JavaScript
         shell: bash
         run: |
@@ -114,6 +118,8 @@ jobs:
           node scripts/apply_shared_shell.mjs _site
           test -f _site/index.html
           test -f _site/sitemap.xml
+          test -f _site/offline-manifest.json
+          test -f _site/sw.js
           for r in calendar panchanga parba saith rashifal news converter forex gold-price itihas-aaja interest-rate; do test -f "_site/$r/index.html"; done
           test -f _site/interest-rate/llms.txt
           test -f _site/feeds/interest_rates/current.json
