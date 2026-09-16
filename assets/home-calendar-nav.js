@@ -32,7 +32,12 @@
       if(next)next.onclick=function(){render(state.month===12?state.year+1:state.year,state.month===12?1:state.month+1);};
       if(today)today.onclick=function(){if(state.todayYear!=null)render(state.todayYear,state.todayMonth);};
     }
-    ensureData().then(function(){var now=new Date(),gy=now.getUTCFullYear(),gm=now.getUTCMonth()+1;return getYear(gy+57).then(function(data){var d=(data.days||[]).find(function(x){return x.ad&&x.ad.date&&x.ad.date.slice(0,7)===gy+'-'+String(gm).padStart(2,'0');});state.todayYear=d?d.bs.year:gy+57;state.todayMonth=d?d.bs.month:1;return render(state.todayYear,state.todayMonth);});}).catch(function(){/* Existing global renderer owns the fallback. */});
+    ensureData().then(function(){
+      var parts=new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Kathmandu',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+      var getPart=function(type){return Number(parts.find(function(p){return p.type===type}).value);};
+      var gy=getPart('year'),gm=getPart('month');
+      return getYear(gy+57).then(function(data){var d=(data.days||[]).find(function(x){return x.ad&&x.ad.date&&x.ad.date===todayAD;});state.todayYear=d?d.bs.year:gy+57;state.todayMonth=d?d.bs.month:1;return render(state.todayYear,state.todayMonth);});
+    }).catch(function(){/* Existing global renderer owns the fallback. */});
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot();
 })();
