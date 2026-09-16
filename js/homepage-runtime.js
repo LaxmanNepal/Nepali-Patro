@@ -4,7 +4,7 @@ const npParts=()=>new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Kathmandu',yea
 const todayAD=()=>{const p=npParts();return p.year+'-'+p.month+'-'+p.day};
 const set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};
 const cacheKey=path=>'np-home:'+path;
-function readCache(path){try{const raw=localStorage.getItem(cacheKey(path));if(!raw)return null;const x=JSON.parse(raw);return x&&x.data?x:null}catch(_){return null}}
+function readCache(path){try{const raw=localStorage.getItem(cacheKey(path));if(!raw)return null;const x=JSON.parse(raw);return x&&x.data?x:null}catch(_) {return null}}
 function writeCache(path,data){try{localStorage.setItem(cacheKey(path),JSON.stringify({savedAt:new Date().toISOString(),data}))}catch(_){}
 }
 function performancePolish(){
@@ -29,6 +29,7 @@ async function ensureMonthCalendar(){
   await loadScript('js/core/data-client.js?v=20260914-01');
   await loadScript('js/core/calendar-data.js?v=20260914-01');
   await loadScript('js/homepage-calendar-preview.js?v=20260914-01');
+  await loadScript('js/homepage-upcoming-festivals.js?v=20260917-01');
  }catch(e){console.error('[Nepali Patro month calendar]',e)}
 }
 let runId=0;
