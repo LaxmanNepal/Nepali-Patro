@@ -28,25 +28,12 @@ async function ensureMonthCalendar(){
  try{
   await loadScript('js/core/data-client.js?v=20260914-01');
   await loadScript('js/core/calendar-data.js?v=20260914-01');
-  await loadScript('js/homepage-calendar-preview.js?v=20260917-02');
-  await loadScript('js/homepage-upcoming-festivals.js?v=20260917-01');
+  await loadScript('assets/home-calendar-nav.js?v=20260917-04');
+  await loadScript('js/homepage-upcoming-festivals.js?v=20260917-02');
  }catch(e){console.error('[Nepali Patro month calendar]',e)}
 }
-function forceTodayMonthPreview(x){
- const apply=()=>{
-  const month=document.getElementById('npHomeMonth');
-  const year=document.getElementById('npHomeYear');
-  const m=Number(x?.bs?.month),y=Number(x?.bs?.year);
-  if(!month||!year||!m||!y)return false;
-  if(Number(year.value)!==y){year.value=String(y);year.dispatchEvent(new Event('change',{bubbles:true}));return true}
-  if(Number(month.value)!==m){month.value=String(m);month.dispatchEvent(new Event('change',{bubbles:true}));return true}
-  return true;
- };
- if(apply())return;
- requestAnimationFrame(()=>{if(!apply())setTimeout(apply,150)});
-}
 let runId=0;
-async function boot(){const id=++runId;try{performancePolish();publish({status:'loading',error:null});source('loading');const yearsResult=await json('data/years.json');if(id!==runId)return;const years=yearsResult.data?.years||[];publish({years:{data:yearsResult.data,stale:yearsResult.stale}});const ad=todayAD();const meta=years.find(y=>ad>=y.start&&ad<=y.end);if(!meta)throw Error('आजको BS वर्ष उपलब्ध छैन');const dataResult=await json('data/calendar/'+meta.year+'.json');if(id!==runId)return;const data=dataResult.data;const x=(data.days||[]).find(d=>d?.ad?.date===ad);if(!x)throw Error('आजको मिति dataset मा भेटिएन: '+ad);publish({todayAd:ad,todayBs:x.bs,calendar:{year:meta.year,data,x}});render(x);const stale=yearsResult.stale||dataResult.stale;source(stale?'stale':'ready',null,null);publish({status:'ready'});await ensureMonthCalendar();forceTodayMonthPreview(x);return window.NepaliPatroHome?.state}catch(e){if(id!==runId)return;fail(e);throw e}}
+async function boot(){const id=++runId;try{performancePolish();publish({status:'loading',error:null});source('loading');const yearsResult=await json('data/years.json');if(id!==runId)return;const years=yearsResult.data?.years||[];publish({years:{data:yearsResult.data,stale:yearsResult.stale}});const ad=todayAD();const meta=years.find(y=>ad>=y.start&&ad<=y.end);if(!meta)throw Error('आजको BS वर्ष उपलब्ध छैन');const dataResult=await json('data/calendar/'+meta.year+'.json');if(id!==runId)return;const data=dataResult.data;const x=(data.days||[]).find(d=>d?.ad?.date===ad);if(!x)throw Error('आजको मिति dataset मा भेटिएन: '+ad);publish({todayAd:ad,todayBs:x.bs,calendar:{year:meta.year,data,x}});render(x);const stale=yearsResult.stale||dataResult.stale;source(stale?'stale':'ready',null,null);publish({status:'ready'});await ensureMonthCalendar();return window.NepaliPatroHome?.state}catch(e){if(id!==runId)return;fail(e);throw e}}
 const start=()=>{const p=boot();window.NepaliPatroHome?.setReady(p)};
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 })();
