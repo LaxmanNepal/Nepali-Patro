@@ -28,7 +28,7 @@ async function ensureMonthCalendar(){
  try{
   await loadScript('js/core/data-client.js?v=20260914-01');
   await loadScript('js/core/calendar-data.js?v=20260914-01');
-  await loadScript('assets/home-calendar-nav.js?v=20260917-04');
+  await loadScript('assets/home-calendar-nav.js?v=20260917-05');
   await loadScript('js/homepage-upcoming-festivals.js?v=20260917-02');
  }catch(e){console.error('[Nepali Patro month calendar]',e)}
 }
