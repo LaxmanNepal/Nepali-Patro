@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-17T21:36:34.543926+00:00",
-  "lastSuccessfulUpdate": "2026-09-17T21:36:34.543926+00:00",
-  "newestPublishedTime": "2026-09-17T20:33:09+00:00",
+  "updatedAt": "2026-09-17T23:38:42.846568+00:00",
+  "lastSuccessfulUpdate": "2026-09-17T23:38:42.846568+00:00",
+  "newestPublishedTime": "2026-09-17T23:36:49+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -18,6 +18,106 @@
     }
   ],
   "items": [
+    {
+      "title": "राष्ट्रियसभाको बैठक आज बस्दै",
+      "description": "काठमाडौँ । सङ्घीय संसद्, राष्ट्रियसभाको बैठक आज अपराह्न १ः१५ बजे सिंहदरबारमा बस्दै छ । आजको बैठकमा राष्ट्रपति कार्यालयबाट प्राप्त पत्रको ब्यहोरा जानकारी गराउने कार्यसूची रहेको छ । त्यसैगरी, कानुन, न्याय तथा संसदीय मामिला मन्त्रालय, शिक्षा तथा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rastriya-sabha_1g9BMFUGUM.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-17T23:36:49+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592913/national-assembly-meeting-to-be-held-today",
+      "category": "national"
+    },
+    {
+      "title": "विदेशको मोह त्यागेर कृषिमा रमाएको चन्द्रवंशी परिवार",
+      "description": "सुनसरी । बराहक्षेत्र नगरपालिका–९ श्रीलङ्का टप्पुका अर्जुन चन्द्रवंशीले आफ्ना चार छोरालाई कृषि पेसा आबद्ध गराएका छन् । करिब दुई दशकदेखि गोलभेँडालगायत तरकारी खेती गर्दै आएका उनले कृषि पेसालाई नै परिवारको मुख्य आम्दानीको स्रोत बनाएका छन्",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ds2Cix9zPP.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-17T23:32:52+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592912/chandravanshi-family-abandons-foreign-fascination-and-enjoys-agriculture",
+      "category": "national"
+    },
+    {
+      "title": "कालीगण्डीको कटानबाट जोगाउन घरापमा कम्पोजिट पर्खाल",
+      "description": "म्याग्दी । कालीगण्डकीको कटानबाट जोगाउनका लागि म्याग्दीको अन्नपूर्ण गाउँपालिका–४ घरापमा बस्ती संरक्षण योजना अगाडि बढेपछि स्थानीयले राहत महसुस गरेका छन् । घरापका बासिन्दा सुदीपकुमार विकले नदीकिनारमा कम्पोजिट पर्खाल र र्यापिङ भएपछि यसपालि कटान रोकिएको बताए",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/VMaYnmH2EM.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-17T23:26:58+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592911/composite-wall-in-gharap-to-protect-from-erosion-of-kaligandi",
+      "category": "national"
+    },
+    {
+      "title": "काभ्रेमा बाबुको काजकिरिया गर्दै छोरी",
+      "description": "काभ्रेपलान्चोक । काभ्रेपलाञ्चोकको पनौती नगरपालिका–५ धनेश्वरस्थित एक छोरी बाबुको काजकिरियामा बसेकी छिन् । उनका पिता सुन्दर थापाको निधनपछि एकमात्र छोरी समीक्षाले बुबाको काजकिरिया गरिरहेकी हुन् । छोरा र छोरी समान हुन् भन्ने सन्देश दिन आफ्नो कर्तव्य",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kavrepalanchok_wpemnfgzgo_sznxzhia8z_G9XRzkVeqL.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-17T23:24:43+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592910/daughter-doing-fathers-chores-in-kavre",
+      "category": "national"
+    },
+    {
+      "title": "तनहुँका तीन ठुला सडक अलपत्र",
+      "description": "तनहुँ । निर्माण सुरु भएको लामो समय भए पनि यहाँका तीन सडक आयोजना रुग्ण बनेका छन् । आयोजना अलपत्र भएपछि सर्वसाधारणले सास्ती खेप्दै आएका छन् । गण्डकी प्रदेश सरकारको लगानीमा निर्माण सुरु गरिएका ती सडकलाई समस्याग्रस्त",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bethari-sadak_Kw3OB96Y5l.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-17T23:21:48+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592909/three-major-roads-in-tanahun-remain-blocked",
+      "category": "national"
+    },
+    {
+      "title": "कस्तो रहला तपाईँको दिन ? हेर्नुहोस् आजकाे राशिफल",
+      "description": "आजको पञ्चाङ्ग वि.सं.२०८३ साल असोज २ गते । शुक्रबार । इस्वी सन् २०२६ सेप्टेम्बर १८ तारिख । नेपाल संवत् ११४६ । रौद्र संवत्सर । दक्षिणायन । शरद ऋतु । श्रीशाके १९४८ । भाद्र शुक्लपक्ष । तिथि–सप्तमी,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_68mF8G6CaS.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-17T23:17:11+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592908/how-was-your-day-check-out-todays-horoscope",
+      "category": "national"
+    },
+    {
+      "title": "यस्तो छ आजको विदेशी मुद्राको विनिमयदर",
+      "description": "२ असोज, काठमाडौं । नेपाल राष्ट्र बैङ्कले आजका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैङ्कका अनुसार अमेरिकी डलर एकको खरिददर १५३ रुपैयाँ २० पैसा र बिक्रीदर १५३ रुपैयाँ ८० पैसा निर्धारण गरिएको छ । युरोपियन युरो एकको खरिददर १७५ रुपैयाँ ७९ पैसा र बिक्रीदर १७६ रुपैयाँ ४८ पैसा, युके पाउन्ड स्ट्रलिङ एकको […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2019/04/dollar.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-17T23:15:04+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2019459/this-is-todays-foreign-exchange-rate-33",
+      "category": "national"
+    },
+    {
+      "title": "संविधान प्राप्तिको ११ वर्ष: सीमान्तकृत समुदायको पहुँच बढ्यो",
+      "description": "झापा । झापाको भद्रपुर नगरपालिका–७ का ७३ वर्षीय राजवंशी समुदायका अगुवा फूलसिंह राजवंशीलाई संविधान जारी भएपछि आफ्नो समुदायमा केही सकारात्मक परिवर्तन भएको महसुस हुन्छ । राज्यका विभिन्न तहमा आफ्नै समुदायका मानिस जनप्रतिनिधिका रूपमा पुग्नु र",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/constitution-of-nepal_w8lQiavL9A.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-17T23:08:06+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592907/11-years-since-the-constitution-was-adopted-access-to-marginalized-communities-increased",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढीः बेपत्ता आफन्त फर्किने आस मरेपछि परिवारले गरे अन्त्येष्टि",
+      "description": "कास्की । भोटेकोशी बाढीमा बेपत्ता भएको तीन साता बितिसक्दा पनि कुनै खबर नआएपछि पोखरा महानगरपालिका–५ प्रस्र्याङकी २२ वर्षीया सृष्टि बास्तोलाको बिहीबार अन्तिम संस्कार गरिएको छ । काठमाडौँ विश्वविद्यालयमा सिभिल इन्जिनियरिङ अध्ययनरत सृष्टि भदौ ९ गते अन्य",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kush-sab_VNv92Egf7S.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-17T23:01:32+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592906/bhotekoshi-flood-family-holds-funeral-after-hope-of-missing-relatives-return-dies",
+      "category": "national"
+    },
+    {
+      "title": "भिल्लारेलद्वारा मलागा पराजित",
+      "description": "काठमाडौँ । स्पेनिस ला लिगा अन्तर्गत शुक्रबार बिहान भएको खेलमा भिल्लारेलले मलागामाथि ३–१ गोल अन्तरको सानदार जित निकालेको छ । खेलको सुरुवाति अग्रता भने घरेलु टोली मलागाले लिएको थियो । खेलको १२औँ मिनेटमा कार्लोस डोटरले गोल",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/villareal_sX0pKEK1bE.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-17T22:56:08+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592905/villarreal-defeats-malaga",
+      "category": "national"
+    },
     {
       "title": "भोटेकोशी बाढीपछि क्रमशः लयमा फर्कँदै पर्यटन",
       "description": "काठमाडौँ । भोटेकोशी बाढीपछि सुस्ताएको नेपालको पर्यटन क्षेत्र क्रमशः लयमा फर्कदै गएको छ । संस्कृति, पर्यटन तथा नागरिक उड्डयन मन्त्रालयले सञ्चालन गरेको ‘नेपाल कलिङ’ अभियानले सकारात्मक सन्देश प्रवाह गरेको हो । नेपाल पर्यटन बोर्डका निमित्तनिर्देशक सुनिल",
@@ -4917,106 +5017,6 @@
       "publishedTime": "2026-09-17T02:24:24+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2018745/finance-minister-wagle-departs-for-india",
       "category": "politics"
-    },
-    {
-      "title": "धनगढी उपमहानगरले १२ वटा वडाका किसानलाई गहुँको उन्नत बीउमा ५० प्रतिशत अनुदान दिने",
-      "description": "धनगढी । कैलालीको धनगढी उपमहानगरपालिकाले १२ वटा वडाका किसानलाई गहुँको उन्नत बीउमा ५० प्रतिशत अनुदान दिने भएको छ । उपमहानगरपालिकाले चालु आर्थिक वर्ष २०८३/०८४ को स्वीकृत कार्यक्रमअन्तर्गत खाद्यान्न बालीको उन्नत बीउ उपयोगमा अनुदान कार्यक्रममार्फत गहुँको बीउमा अनुदान दिन लागेको हो । उपमहानगरपालिकाको कृषि विकास शाखाले बुधबार सूचना जारी गर्दै वडा नं. ६, ७, ८, ९, […",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-17T02:21:11+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/148336/",
-      "category": "national"
-    },
-    {
-      "title": "म्यानचेस्टर युनाइटेड ब्राइटनसँग स्तब्ध, काराबाओ कपबाट बाहिरियो",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-09-17T02:16:00+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/145887",
-      "category": "national"
-    },
-    {
-      "title": "नारायणी लिफ्ट–खगेरी सिँचाइ आयोजना : विद्युत् खर्च रु ४२ लाखसम्म",
-      "description": "चितवन । चितवनको नारायणी लिफ्ट–खगेरी सिँचाइ आयोजनाले बर्खायाममा पश्चिम चितवनका किसानलाई २४सै घण्टा नारायणी नदीबाट पानी तानेर सिँचाइ सुविधा उपलब्ध गराउँदै आएको छ । आयोजनाका पम्प २४सै घण्टा सञ्चालन गर्दा मासिक रु ४२ लाखसम्म विद्युत् खर्च",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/naryani-lift_CyFu8ci6MX.png",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-17T02:13:07+00:00",
-      "articleUrl": "https://www.ratopati.com/story/592691/narayani-lift-khageri-irrigation-project-electricity-cost-up-to-rs-42-million",
-      "category": "national"
-    },
-    {
-      "title": "कांग्रेस सभापति गगनकुमार थापालाई दोस्रो पत्र",
-      "description": "सभापतिज्यू, नेपाली कांग्रेसको १५औँ महाधिवेशन काठमाडौँको खुलामञ्चमा आयोजना हुने निर्णयले प्रजातन्त्रमा विश्वास गर्ने सबै नेपालीहरु हर्षित छन् । महाधिवेशन प्रतिनिधि छनोटको पूर्वसन्ध्यामा तपाईँलाई यो दोस्रो पत्र लेख्दैछु। यसपटक हुन लागेको महाधिवेशन र त्यसले नेपाली कांग्रेस",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/gagan-rishikesh_ns0RKeoQ0K.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-17T02:06:45+00:00",
-      "articleUrl": "https://www.ratopati.com/story/592690/second-letter-to-nepali-congress-president-gagan-kumar-thapa",
-      "category": "politics"
-    },
-    {
-      "title": "ट्याङ्करबाट डिजेल चोर्नेलाई कारवाही, स्टोर्सलाई १ लाख जरिवाना, चालकलाई आजीवन डिपो प्रवेशमा रोक !",
-      "description": "काठमाडौँ । नेपाल आयल निगम लिमिटेड लुम्बिनी प्रादेशिक कार्यालय रूपन्देहीले पेट्रोलियम पदार्थ ढुवानी गर्ने तीन ट्याङ्करबाट अनधिकृत रूपमा डिजेल झिकेको घटनामा कारबाही गरेको छ । निगमका अनुसार अमलेखगञ्जस्थित मधेस प्रादेशिक कार्यालयबाट भलवारी डिपोका लागि २० हजार लिटरका दरले डिजेल ढुवानी गरी आएका तीन ट्याङ्करबाट डिजेल झिकिएको थियो । निगमका अनुसार, लु१ख ६५०४, लु२ख १५",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-17T02:06:09+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/action-taken-against-those-stealing-diesel-from-tankers-rs-1-lakh-fine-on-stores-driver-barred-from-entering-depot-for-life.html",
-      "category": "business"
-    },
-    {
-      "title": "म्यानचेस्टर युनाइटेड लिग कपबाट बाहिरियो",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-09-17T01:50:57+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/174875",
-      "category": "sports"
-    },
-    {
-      "title": "सुदूरपश्चिममा ३० बहुवर्षीय ठेक्का अलपत्र, कारबाहीको तयारीमा प्रदेश सरकार",
-      "description": "धनगढी । सुदूरपश्चिम प्रदेशमा वर्षौंअघि ठेक्का लागेका ३० वटा सडक तथा पुल निर्माण अझै अघि बढ्न सकेका छैनन् । पटक–पटक म्याद थपिए पनि निर्माण व्यवसायीले कामलाई गति नदिँदा ती आयोजना ‘रुग्ण ठेक्का’का रूपमा पहिचान भएका",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/sudurpakshim-sarkar1_Y4AA3uE3f3.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-17T01:48:32+00:00",
-      "articleUrl": "https://www.ratopati.com/story/592689/30-multi-year-contracts-in-the-far-west-are-pending-provincial-government-is-preparing-for-action",
-      "category": "politics"
-    },
-    {
-      "title": "'आजीवन पछुतो': साउदी अरबमा मृत्युदण्डपछि अन्तिम संस्कार गर्न शव नपाउने परिवारहरूको पीडा",
-      "description": "विश्वमा सबैभन्दा धेरै मृत्युदण्ड दिने तीन देशमध्ये साउदी अरब एक हो। मृत्युदण्ड दिइएकामध्ये ४० प्रतिशतभन्दा बढी विदेशी नागरिक भए पनि शवहरू सामान्यतया तिनका परिवारलाई हस्तान्तरण नगर्ने गरिएको तथ्याङ्कले देखाउँछ।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/fd3c/live/419ec560-a200-11f1-a97e-999c5aae08bf.png",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-09-17T01:47:35+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/crz9zvqyyweko?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "राफिन्हाको ह्याट्रिकमा बार्सिलोनाको गोलवर्षा",
-      "description": "१ असोज, काठमाडौं । राफिन्हाको ह्याट्रिक प्रेरित बार्सिलोनाले ला लिगामा रेसिङ डे सान्टान्डरलाई ७–२ ले पराजित गर्दै लगातार छैटौं जित दर्ता गरेको छ । घरेलु मैदानमा भएको खेलमा बार्सिलोनाले सुरुदेखि नै आक्रामक प्रदर्शन गर्‍यो । जोआओ कान्सेलोले आठौं मिनेटमा गोल गर्दै खाता खोलेपछि राफिन्हाले २५औं मिनेटमा पेनाल्टीमार्फत दोस्रो गोल थपे । रेसिङका मागुएट गुएयेले एक […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/raphinha-bara.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-17T01:38:21+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2018744/rafinhas-hat-trick-sends-barcelona-into-a-flurry-of-goals",
-      "category": "national"
-    },
-    {
-      "title": "दुई गोलको अग्रता जोगाउन नसक्दा युनाइटेड ईएफएल कपबाट बाहिरियो",
-      "description": "१ असोज, काठमाडौं । दुई गोलको अग्रता जोगाउन नसक्दा म्यान्चेस्टर युनाइटेड इंग्लिस फुटबल लिग (ईएफएल) कपको तेस्रो चरणबाटै बाहिरिएको छ । घरेलु मैदान ओल्ड ट्राफोर्डमा दुई गोलले अघि रहेको युनाइटेड ब्राइटनसँग ३–२ ले पराजित हुँदै प्रतियोगिताबाट बाहिरिएको हो । खेलको आठौं मिनेटमा युवा खेलाडी शिया लेसीले सिनियर टोलीबाट पहिलो सुरुवाती खेलमै गोल गर्दै युनाइटेडलाई अग्रता [",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/manchester-united-efl.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-17T01:27:37+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2018737/united-crashed-out-of-the-efl-cup-after-failing-to-defend-a-two-goal-lead",
-      "category": "national"
     }
   ]
 }
