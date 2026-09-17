@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-16T22:16:15.944545+00:00",
-  "lastSuccessfulUpdate": "2026-09-16T22:16:15.944545+00:00",
-  "newestPublishedTime": "2026-09-16T21:15:00+00:00",
+  "updatedAt": "2026-09-17T00:33:24.003992+00:00",
+  "lastSuccessfulUpdate": "2026-09-17T00:33:24.003992+00:00",
+  "newestPublishedTime": "2026-09-17T00:31:00+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -18,6 +18,256 @@
     }
   ],
   "items": [
+    {
+      "title": "प्रतिनिधिसभाको बैठक बस्दै",
+      "description": "प्रतिनिधिसभाको बैठक आज बस्दैछ। अपराह्न १:०० बजे सिंहदरबारमा बस्ने बैठकमा सामुद्रिक जैविक विविधताको संरक्षण र दिगोपनसम्बन्धी सम्झौतामाथि छलफल गर्ने सम्भावित कार्यसूची छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-17T00:31:00+00:00",
+      "articleUrl": "https://nepallive.com/story/350509",
+      "category": "politics"
+    },
+    {
+      "title": "आज विश्वकर्मा पूजा, वास्तु दिवस मनाइँदै",
+      "description": "कालिगढले आज विश्वकर्माको पूजाआराधना गरी वास्तु दिवस एवम् विश्वकर्मा पर्व मनाउँदैछन्।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-17T00:30:19+00:00",
+      "articleUrl": "https://www.setopati.com/social/398516",
+      "category": "national"
+    },
+    {
+      "title": "आजका लागि तोकियो विदेशी मुद्राको विनिमयदर",
+      "description": "काठमाडौँ । नेपाल राष्ट्र बैङ्कले बिहीबारका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैङ्कका अनुसार अमेरिकी डलर एकको खरिददर १५३ रुपैयाँ २४ पैसा र बिक्रीदर १५३ रुपैयाँ ८४ पैसा निर्धारण गरिएको छ । युरो एकको खरिददर १७६ रुपैयाँ ८२ पैसा र बिक्रीदर १७७ रुपैयाँ ५२ पैसा, युके पाउन्ड स्ट्रलिङ एकको खरिददर २०६ रुपैयाँ […]",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-17T00:29:40+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/17/foreign-currency-exchange-rates-set-for-today/",
+      "category": "business"
+    },
+    {
+      "title": "प्रतिनिधि सभाको बैठक बस्दै, यस्तो छ कार्यसूची",
+      "description": "काठमाडौं । संघीय संसद्अन्तर्गत प्रतिनिधि सभाको बैठक आज बस्दैछ । दिउँसो १ बजे सिंहदरबारमा बस्ने बैठकमा सामुद्रिक जैविक विविधताको संरक्षण र दिगोपनसम्बन्धी सम्झौतामाथि छलफल गर्ने सम्भावित कार्यसूची छ । बैठकमा कानुन, न्याय तथा संसदीय मामिलामन्त्री सोविता गौतमले ‘संयुक्त राष्ट्र संघीय सामुद्रिक कानुनसम्बन्धी महासन्धिअन्तर्गतको राष्ट्रिय क्षेत्राधिकारभन्दा बाहिरका",
+      "imageUrl": "",
+      "sourceLogo": "https://dainiknepal.com/favicon.ico",
+      "sourceName": "दैनिक नेपाल",
+      "publishedTime": "2026-09-17T00:29:28+00:00",
+      "articleUrl": "https://www.dainiknepal.com/2026/09/839430.html",
+      "category": "national"
+    },
+    {
+      "title": "देशभर मनसुनी वायुको प्रभाव कायमै, आज यी ३ प्रदेशमा भारी वर्षाको सम्भावना",
+      "description": "काठमाडौँ । हाल देशभर मनसुनी वायुको प्रभाव रहेको मौसम पूर्वानुमान महाशाखाले जनाएको छ। हाल मनसुनको न्यून चापीय रेखा सरदर स्थानको दक्षिणतर्फ रहेको छ। जसको प्रभावले मधेस प्रदेश लगायत कोशी, बागमती, गण्डकी प्रदेशमा साधरणतया बादल लागेको छ।",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rain_3gUVbWNqzv.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-17T00:26:14+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592679/the-influence-of-monsoon-winds-continues-across-the-country-heavy-rains-are-likely-in-these-3-provinces-today",
+      "category": "national"
+    },
+    {
+      "title": "यस्तो छ आज विदेशी मुद्राको विनिमयदर",
+      "description": "राष्ट्र बैङ्कका अनुसार अमेरिकी डलर एकको खरिददर १५३ रुपैयाँ २४ पैसा र बिक्रीदर १५३ रुपैयाँ ८४ पैसा निर्धारण गरिएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2016/06/dollar-and-euro.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-17T00:25:48+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2018712/this-is-the-foreign-exchange-rate-today-91",
+      "category": "national"
+    },
+    {
+      "title": "आजको विदेशी मुद्राको विनिमयदर : चिनियाँ युआन मजबुत, जापानी येन कमजोर",
+      "description": "काठमाडौं । आज बिहीबार चिनियाँ युआन मजबुत बनेको छ । नेपाल राष्ट्र बैंकका अनुसार आजका लागि चिनियाँ युआन एकको खरिददर २२ रुपैयाँ ८५ पैसा र बिक्रीदर २२ रुपैयाँ ९४ पैसा निर्धारण गरिएको छ । चिनियाँ युआन हिजो बुधबार एकको खरिददर २२ रुपैयाँ ८३ पैसा र बिक्रीदर २२ रुपैयाँ ९२ पैसा निर्धारण गरिएको थियो । चिनियाँ […] The post आजको विदेशी मुद्राको विनिमयदर : चिनियाँ युआन मज",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-09-17T00:23:47+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/148327/",
+      "category": "national"
+    },
+    {
+      "title": "विपदबारे प्रधानमन्त्रीले नै सर्वदलीय बैठक बोलाउनुपर्छ : माधव नेपाल [भिडियो]",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-17T00:23:00+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/145877",
+      "category": "politics"
+    },
+    {
+      "title": "सरकार युद्धस्तरमा काम गरिरहेको छ, आलोचना गर्नु लोकतान्त्रिक अभ्यास हो : रवि लामिछाने [भिडियो]",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-17T00:21:08+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/145876",
+      "category": "politics"
+    },
+    {
+      "title": "विपद् व्यवस्थापनका लागि नेपालमै ड्रोन उत्पादन गर्ने तयारी : मन्त्री पुन [भिडियो]",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-17T00:19:39+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/145875",
+      "category": "politics"
+    },
+    {
+      "title": "बेल्जियममा बिताए २६ वर्ष, अब नेपालमा कारखाना खोल्दै",
+      "description": "उनलाई भर्खरै बेलायतको पार्लियामेन्टले सम्मान गरेको छ। उनले तीन वटा विधामा विश्व कीर्तिमान राखेका छन्।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-17T00:19:09+00:00",
+      "articleUrl": "https://www.setopati.com/global/southasia/398483",
+      "category": "national"
+    },
+    {
+      "title": "शंकरलाल अग्रवाल १० लाख धरौटीमा रिहा",
+      "description": "काठमाडौं। सर्वोच्च अदालतले उद्योगी शंकरलाल अग्रवाललाई १० लाख रुपैयाँ धरौटीमा रिहा गर्न आदेश दिएको छ। न्यायाधीशहरू बालकृष्ण ढकाल र नृपध्वज निरौलाको संयुक्त इजलासले उच्च अदालत पाटनको अग्रवाललाई थुनामा राखेर मुद्दा पुर्पक्ष गर्ने आदेश बदर गर्दै धरौटीमा रिहा गर्न आदेश दिएको हो। बैंकिङ कसुर मुद्दामा पक्राउ परेका अग्रवाललाई यसअघि उच्च अदालत पाटनले पुर्पक्षका लागि ",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-17T00:18:23+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/17/shankarlal-agarwal-released-on-bail-of-rs-1-million/",
+      "category": "business"
+    },
+    {
+      "title": "जब ब्यानबहादुरको उद्धार भयो ...",
+      "description": "खोटाङ । दिक्तेल रुपाकोट मझुवागढी नगरपालिका–२ सोल्मा खोटाङबाट बेवारिसे अवस्थाका एक सडक मानवको उद्धार गरिएको छ । मानसिक सन्तुलन गुमाएर लामो समयदेखि खुला सडकमा जीवन बिताउँदै आएका सोल्मास्थित रबुटोलका ५१ वर्षीय ब्यानबहादुर श्रेष्ठको बुधबार उद्धार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/k995Blu1Wy.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-16T23:57:04+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592678/when-byan-bahadur-was-rescued",
+      "category": "national"
+    },
+    {
+      "title": "पृथ्वी राजमार्ग सञ्चालनमा",
+      "description": "काठमाडौँ, असोज १ गते । कृष्णभिरमा ट्र्याक खोल्ने काम घोषित समयभित्रै सम्पन्न हुनु नेपाली विकासनिर्माणका क्षेत्रमा एउटा असाधारण र ठुलो सफलता हो । कृष्णभिरको यो सफलता केवल एउटा सडकखण...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/383012/conversions/4322-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-16T23:53:01+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/223054",
+      "category": "national"
+    },
+    {
+      "title": "बिहीबार यस्तो छ विदेशी मुद्राको विनिमय दर",
+      "description": "काठमाडौँ । नेपाल राष्ट्र बैङ्कले आजका लागि विदेशी मुद्राको विनिमय दर निर्धारण गरेको छ । राष्ट्र बैङ्कका अनुसार अमेरिकी डलर एकको खरिददर १५३ रुपैयाँ २४ पैसा र बिक्रीदर १५३ रुपैयाँ ८४ पैसा निर्धारण गरिएको छ",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/forex_3HNlavACP4.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-16T23:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592677/this-is-the-foreign-exchange-rate-on-thursday",
+      "category": "national"
+    },
+    {
+      "title": "“अब राहत होइन, स्थायी आवास र रोजगारीको व्यवस्था गरियोस् ”",
+      "description": "विदुर (नुवाकोट), असोज १ गते । भोटेकोशीमा आएको विनाशकारी हिमबाढीले घर, पसल र बर्साैंको मेहनत एकैछिनमा बगाउँदा घरबारविहीन भएका नुवाकोट–९ का अधिकांश पीडितको माग छ, “अब राहत होइन, स्था...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/383011/conversions/bidur-9-ko-holding-center-ma-raheka-piditharu-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-16T23:40:53+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/223053",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढीले खोसेको खुसी: सम्पर्कविहीन परिवारमा आएनन् चाडपर्व",
+      "description": "महोत्तरी । भोटेकोशी बाढीयता सांस्कृतिक उत्सव र पारम्परिक पर्व आए गए । महोत्तरीका सम्पर्कविहीन परिवारमा भने चाडबाड आएनन् । सधैँ बाबुको मुख हेर्ने दिन फोन गर्ने खोजी गर्ने र अनुकूल समय मिलाएर कुनै वर्ष छोराले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-badhi_27y4wVkjOC.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-16T23:33:45+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592676/bhotekoshi-flood-robs-happiness-festivals-not-coming-to-families-without-contact",
+      "category": "national"
+    },
+    {
+      "title": "प्रतिनिधिसभाको बैठक आज बस्दै, यस्ता छन् सम्भावित कार्यसूची",
+      "description": "काठमाडौँ । सङ्घीय संसद्, प्रतिनिधिसभाको बैठक आज बस्दै छ । दिउँसो १ः०० बजे सिंहदरबारमा बस्ने बैठकमा सामुद्रिक जैविक विविधताको संरक्षण र दिगोपनसम्बन्धी सम्झौतामाथि छलफल गर्ने सम्भावित कार्यसूची तय गरिएको छ । बैठकमा कानुन, न्याय तथा संसदीय",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/samsad_Q6ZYLobkfB.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-16T23:27:35+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592675/house-of-representatives-meeting-to-be-held-today-here-are-the-possible-agendas",
+      "category": "politics"
+    },
+    {
+      "title": "आज विश्वकर्मा पूजा, यस्तो छ धार्मिक तथा आध्यात्मिक महत्त्व",
+      "description": "काठमाडौँ । आज असोज १ गते, देशभर विभिन्न यन्त्र, औजार, प्रविधि तथा सवारीसाधनको पूजाआजा गरी भगवान् विश्वकर्माको आराधनासहित ‘विश्वकर्मा पूजा’ मनाइँदै छ । समुद्र मन्थनबाट उत्पत्ति भएको मानिने भगवान् विश्वकर्माको जन्म आजकै दिन भएको जनविश्वास",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/biswokarma-(1)_ZX1HLW75q8.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-16T23:22:14+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592674/today-is-vishwakarma-puja-this-is-its-religious-and-spiritual-significance",
+      "category": "national"
+    },
+    {
+      "title": "महिनाको पहिलो दिन कुन राशिलाई शुभ, कुनलाई मध्यम ? हेर्नुहोस् राशिफल",
+      "description": "आजको पञ्चाङ्ग वि.सं.२०८३ साल असोज १ गते । बिहीबार । इस्वी सन् २०२६ सेप्टेम्बर १७ तारिख । नेपाल संवत् ११४६ । रौद्र संवत्सर । दक्षिणायन । शरद ऋतु । श्रीशाके १९४८ । भाद्र शुक्लपक्ष । तिथि–षष्ठी,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_XkWmpVM1yU.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-16T23:15:04+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592673/which-zodiac-sign-is-auspicious-on-the-first-day-of-the-month-and-which-is-average-see-horoscope",
+      "category": "national"
+    },
+    {
+      "title": "व्यावसायिक तरकारी खेतीले चन्द्रवंशीलाई दिलाएको सफलता",
+      "description": "सुनसरी । सशस्त्र प्रहरीको जागिर र वैदेशिक रोजगारीबाट सोचे जति आम्दानी नभएपछि के गर्ने होला भन्ने चिन्तामा थिए–बालक चन्द्रवंशी । कृषिभन्दा अरू उत्तम विकल्प नदेखेपछि उनले यसलाई अङ्गाले । द्विविधामा सुरु गरेको व्यवसायले सफलता दिएपछि",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dO0Dmso1Wf.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-16T23:08:30+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592672/commercial-vegetable-farming-has-brought-success-to-chandrabanshi",
+      "category": "national"
+    },
+    {
+      "title": "वर्षौँपछि जग्गाधनी प्रमाणपुर्जा पाउँदाको खुसी",
+      "description": "तनहुँ । वर्षौँदेखि आफूले उपभोग गर्दै आएको जमिनको लालपुर्जा कहिले पाइएला भन्ने प्रतीक्षामा रहेका देवघाट गाउँपालिका–१ का भूमिहीन दलित तथा भूमिहीन सुकुम्वासीका लागि बुधबारको दिन विशेष रह्यो । लामो समयदेखिको प्रतीक्षा टुङ्गिएर हातमा जग्गाधनी प्रमाणपुर्जा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/2KqTLWgNz5.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-16T23:02:36+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592671/the-joy-of-receiving-a-land-ownership-certificate-after-years",
+      "category": "national"
+    },
+    {
+      "title": "नेपाल र बंगलादेशबीच टि ट्वान्टी सिरिज हुने",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-09-16T23:01:00+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/174873",
+      "category": "sports"
+    },
+    {
+      "title": "भोटेकोशी बाढी: जुम्लाका ६३ जना अझै सम्पर्कविहीन",
+      "description": "जुम्ला । भोटेकोशीमा बाढीमा परेर यहाँका ६३ जना अझै सम्पर्कविहीन रहेका छन् । प्रमुख जिल्ला अधिकारी तेजप्रकाश प्रसाईँका अनुसार ९३ जना सम्पर्कविहीन भएकामा हालसम्म ३० जना सम्पर्कमा आएका छन् । बाँकी ६३ जना अझै सम्पर्कविहीन रहेको",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/jumla_n4ZVlJGGu3.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-16T22:57:44+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592670/bhotekoshi-flood-63-people-from-jumla-still-missing",
+      "category": "national"
+    },
+    {
+      "title": "राफिन्हाको ह्याट्रिकमा बार्सिलोनाको फराकिलो जित, रेसिङ सान्तान्डर ७–२ ले पराजित",
+      "description": "काठमाडौँ । स्पेनिस ला लिगाअन्तर्गत बिहीबार भएको खेलमा शीर्ष स्थानमा रहेको एफसी बार्सिलोनाले रेसिङ सान्तान्डरमाथि ७–२ गोलको फराकिलो जित निकालेको छ । बार्सिलोनाको यो एकपक्षीय जितमा ब्राजिलियन विङ्गर राफिन्हाले ह्याट्रिक गरे । घरेलु मैदानमा बार्सिलोनाले खेलको आठौँ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/barca_M0emxMXC1H.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-16T22:55:26+00:00",
+      "articleUrl": "https://www.ratopati.com/story/592669/rafinhas-hat-trick-leads-barcelona-to-a-comprehensive-victory-defeating-racing-santander-7-2",
+      "category": "national"
+    },
     {
       "title": "असोजमा यी राशिहरू हुनेछन् मालामाल, हेर्नुहोस् मासिक राशिफल",
       "description": "२०८३ असोज महिनाको राशिफल । मेष (चू,चे,चो,ला,लि,लू,ले,लो,अ) मेष राशि हुनेहरूका लागी सूर्य प्रतिस्पर्धा भावमा । बुध ८ गतेसम्म प्रतिस्पर्धा भावमा र ९ गतेबाट व्यापार भावमा । शुक्र व्यापार भावमा । बृहस्पति सुख भावमा । शनि खर्च",
@@ -4767,256 +5017,6 @@
       "publishedTime": "2026-09-16T02:20:23+00:00",
       "articleUrl": "https://arthasarokar.com/2026/09/survey-surveyor-arrested-with-rs-1-lakh-bribe.html",
       "category": "business"
-    },
-    {
-      "title": "रियल म्याड्रिडको रोमाञ्चक जित",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-09-16T02:16:24+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/174864",
-      "category": "sports"
-    },
-    {
-      "title": "रुसले सोभियतकालीन दमन बिर्सन खोजे पनि एउटा तालमा यसरी निस्किरहन्छन् प्रमाणहरू",
-      "description": "सोभियत कैदीहरूले बनाएको एउटा दुर्गम रुसी सहरमा गुलाग पीडितहरूका हड्डीहरू कृत्रिम तटमा बगिरहन्छन्। बेवास्ता गरिएका अवशेषहरूले ऐतिहासिक विस्मृतिलाई औँल्याउँछन्।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/d11c/live/8915b9c0-a55d-11f1-aed2-8d6da8d75094.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-09-16T02:12:21+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/cq39mp9gry32o?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "घरेलु मैदानमा बिदाइ खेल खेल्न मेसीलाई आग्रह सहितको निम्तो",
-      "description": "३१ भदौ, काठमाडौं । अन्तर्राष्ट्रिय फुटबलबाट सन्यास घोषणा गरेका लियोनेल मेसीलाई अर्जेन्टिनाले आगामी अक्टोबरमा हुने घरेलु मैत्रीपूर्ण खेलमा विशेष उपस्थिति जनाउन निम्तो दिएको छ । अर्जेन्टिना फुटबल संघ (एएफए) का अध्यक्ष क्लाउडियो तापियाले सामाजिक सञ्जालमार्फत विश्व फुटबलका उत्कृष्ट खेलाडी तथा राष्ट्रिय टोलीका कप्तान मेसीलाई अर्जेन्टिनामै योग्य बिदाइ दिन चाहेको ब",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-16-at-03.33.41.jpeg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-16T02:08:45+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2018022/messi-invited-to-play-farewell-match-at-home",
-      "category": "national"
-    },
-    {
-      "title": "अर्थ मन्त्रालय हदै लचिलो भएपछि ‘बालेन बुल’को संकेत, नेप्सेमा हरियाली ! (भिडियो ब्रिफिङ)",
-      "description": "काठमाडौँ । आम सेयर लगानीकर्ताको आशा थियो- ‘बालेन सरकार आएपछि बजार ‘बुम’ हुन्छ, बालेन बुल आउँछ ।’ राजनीतिक स्थिरता भएपछि बजार नबढी सुखै छैन भन्ने बुझेका सेयर लगानीकर्ताले यही कारण पनि चुपचाप घन्टीमा छाप हानेका थिए । तर, सोचेझैँ सरकारले नीति ल्याएन, अभिभावकत्व देखाएन भन्नेहरु बढेका थिए । तर अर्को सत्य के पनि थियो भने Continue reading \"अर्थ मन्त्रालय हदै लचिलो ",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-16T02:03:56+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/balen-bull-signs-after-the-finance-ministry-becomes-more-flexible-nepse-greens-video-briefing.html",
-      "category": "business"
-    },
-    {
-      "title": "संखुवासभामा २८० मिलिमिटर वर्षा, तनहुँ र स्याङजामा धेरै भारी वर्षा",
-      "description": "३१ भदौ, काठमाडौं । पछिल्लो २४ घण्टामा संखुवासभा, तनहुँ, स्याङ्जालगायतका ठाउँमा ठूलो वर्षा भएको छ । मौसम पूर्वानुमान महाशाखाका अनससार यी क्षेत्रमा अति भारी वर्षासम्म भएको छ । मौसमविद् डेभिड ढकालका अनुसार सबैभन्दा धेरै वर्षा संखुवासभामा मापन भएको छ । ‘टाँसी गाउँ स्नो’ केन्द्रमा मंगलबार राति ८ बजेदेखि बुधबार बिहान साढे ७ बजेसम्मको अवधिमा २८० […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2021/04/Raining-in-kathmandu-9.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-16T01:51:48+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2017992/280-mm-of-rain-in-sankhuwasabha-very-heavy-rain-in-tanahun-and-syangja",
-      "category": "national"
-    },
-    {
-      "title": "प्रहरीको ब्यारिकेट तोडेर भागेको एम्बुलेन्सबाट १०५ किलो गाँजा बरामद",
-      "description": "३१ भदौ, सिरहा । सिरहामा एम्बुलेन्सबाट प्रहरीले १०५ किलो गाँजा बरामद गरेको छ। मंगलबार राति करिब ८ बजे चोहर्वाबाट जयनगरतर्फ जाँदै गरेको ज १ च १२१३ नम्बरको एम्बुलेन्सबाट उक्त परिमाणको गाँजा बरामद भएको प्रहरीले जनाएको छ । एम्बुलेन्समा गाँजा लोड गरी सिरहातर्फ ल्याउँदै गरेको सूचना पाएपछि प्रहरी निरीक्षक सुनिल चौरसियाको कमान्डमा प्रहरी टोली परिचालन भएको […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/jaga.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-16T01:50:48+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2018011/105-kg-of-marijuana-recovered-from-ambulance-that-escaped-after-breaking-through-police-barricade",
-      "category": "national"
-    },
-    {
-      "title": "ग्यास बोकेको ट्रकले मोटरसाइकललाई ठक्कर दिँदा दुई जनाको मृत्यु",
-      "description": "ना ३ ख ५६१० नम्बरको ट्रकले ना४३ प ५१२२ नम्बरको मोटरसाइकललाई मंगलबार राति साढे ८ बजेको समयमा ठक्कर दिँदा मोटरसाइकलमा सवार उनीहरू गम्भीर घाइते भएका थिए ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2016/05/motorcycle-accident-clipart.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-16T01:33:02+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2018009/two-killed-as-gas-truck-hits-motorcycle",
-      "category": "national"
-    },
-    {
-      "title": "क्यासिनो नवीकरणको अवधि बढाउन सुझाव",
-      "description": "गोरखापत्र समाचारदाताकाठमाडौँ, भदौ ३१ गते । हरेक वर्ष हुँदै आएको क्यासिनो नवीकरण अवधि बढाएर पाँचमा वर्ष बनाउन क्यासिनो व्यवसायीले सरकारलाई सुझाव दिएका छन् । प्रतिनिधि सभाको अन्तर्रा...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/382822/conversions/casino-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-16T01:32:13+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/222919",
-      "category": "national"
-    },
-    {
-      "title": "आज तीन वटा संसदीय समितिको बैठक बस्दै",
-      "description": "काठमाडौं।आज विभिन्न तीन वटा संसदीय समितिको बैठक बस्दैछ। संसद् सचिवालयका अनुसार बुधबार अर्थ समिति, शिक्षा, स्वास्थ्य तथा सूचना प्रविधि समिति र राज्यका निर्देशक सिद्धान्त, नीति र दायित्वको कार्यान्वयन अनुमगन तथा मूल्यांकन समितिको बैठक बस्ने कार्यतालिका छ। आज बिहान १० बजे बस्ने अर्थ समितिको बैठकमा नेपाल राष्ट्र बैंक ऐन, २०५८ लाई संशोधन गर्न बनेको विधेयकका सम्बन",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-16T01:31:36+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/16/three-parliamentary-committees-are-meeting-today/",
-      "category": "business"
-    },
-    {
-      "title": "१४ वर्षमै आमा, २० प्रतिशत सुत्केरी २० वर्षमुनिका",
-      "description": "म्याग्दी । बालविवाहका कारण शारीरिक तथा मानसिक रूपमा परिपक्व नहुँदै गर्भवती हुने र आमा बन्ने अवस्था म्याग्दीमा कायमै रहेको छ। जिल्लामा गत आर्थिक वर्षमा सुत्केरी भएकामध्ये झन्डै पाँच जनामा एक जना २० वर्षमुनिका छन् भने",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/teen-preg_VhjYA3Quem.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-16T01:31:24+00:00",
-      "articleUrl": "https://www.ratopati.com/story/592425/mother-at-14-20-percent-of-births-are-under-20-years-old",
-      "category": "national"
-    },
-    {
-      "title": "एल्चेविरुद्ध रियल मड्रिडको रोमाञ्चक जित",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-09-16T01:31:00+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/145825",
-      "category": "national"
-    },
-    {
-      "title": "मुगु केन्द्रबिन्दु भएर लगातार दुईपटक भूकम्प",
-      "description": "काठमाडौं । मुगु केन्द्रबिन्दु भएर आज बिहान दुईपटक भूकम्प गएको छ । राष्ट्रिय भूकम्प मापन तथा अनुसन्धान केन्द्रका अनुसार मुगुको कलाई केन्द्रबिन्दु भएर बुधबार बिहान १ः५१ बजे ४.५ म्याग्निच्युडको भूकम्प गएको हो । त्यसपछि बिहान ४ः२८ बजे सोही क्षेत्र आसपास केन्द्रबिन्दु भएर ४.२ म्याग्निच्युडको दोस्रो भूकम्प गएको केन्द्रले जनाएको छ ।",
-      "imageUrl": "",
-      "sourceLogo": "https://dainiknepal.com/favicon.ico",
-      "sourceName": "दैनिक नेपाल",
-      "publishedTime": "2026-09-16T01:30:41+00:00",
-      "articleUrl": "https://www.dainiknepal.com/2026/09/839286.html",
-      "category": "national"
-    },
-    {
-      "title": "आज पनि देशभर बदली, केही स्थानमा भारी वर्षाको सम्भावना",
-      "description": "३१ भदौ, काठमाडौं । बुधबार देशभर मौसम साधारणतया बदली रहने पूर्वानुमान छ । जल तथा मौसम विज्ञान विभागको मौसम पूर्वानुमान महाशाखाका अनुसार दिउँसो कोशी प्रदेशका हिमाली, पहाडी तथा तराईका साथै बागमती र गण्डकी प्रदेशका पहाडी तथा तराई भू–भागका एक–दुई स्थानमा भारी वर्षा हुने सम्भावना छ। यस्तै, कोशी र बागमती प्रदेशका हिमाली भू-भागका केही स्थान तथा […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2019/03/Weather-Mansoon.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-16T01:29:19+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2018007/cloudy-across-the-country-today-heavy-rain-likely-in-some-places-2",
-      "category": "politics"
-    },
-    {
-      "title": "रवि लामिछानेको आह्वानमा सर्वदलीय बैठक",
-      "description": "काठमाडौं। राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) सभापति रवि लामिछानेले आज सर्वदलीय बैठक आह्वान गरेका छन् । रास्वपा प्रवक्ता जगदीश खरेलका अनुसार बैठक बुधबार बिहान ११ बजे रास्वपा संसदीय दलको कार्यालय, सिंहदरबारमा बस्नेछ। बैठकमा उच्चस्तरीय राजनीतिक संयन्त्र गठनको विषयमा छलफल हुने बताइएको छ। विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन लगायतका विषयमा सर्वदलीय बैठकमा छलफल ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-16T01:28:56+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/16/all-party-meeting-called-by-rabi-lamichhane/",
-      "category": "business"
-    },
-    {
-      "title": "घिउको माग उच्च, आपूर्ति कम",
-      "description": "शशिधर पराजुलीविराटनगर, भदौ ३१ गते । चाडबाडको मौसम सुरु भएसँगै बजारमा घिउ तथा नौनी (बटर) को चरम अभाव देखिएको छ । दसैँतिहारलगायतका चाड नजिकिँदै गर्दा घिउको माग ह्वात्तै बढेको छ । बजा...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/382821/conversions/ghiu-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-16T01:28:13+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/222918",
-      "category": "national"
-    },
-    {
-      "title": "अस्ट्रेलिया पठाउन लागिएको १००० बढी प्याकेट चुरोट बरामद",
-      "description": "नयाँ बजारस्थित स्काई किङ लजिस्टिक प्रालिका सञ्चालक सुवास कुँवरमार्फत ती चुरोट अस्ट्रेलिया पठाउन लागिएको खुलेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-16T01:27:12+00:00",
-      "articleUrl": "https://www.setopati.com/social/398421",
-      "category": "national"
-    },
-    {
-      "title": "मोटरसाइकल एकआपसमा ठोक्किँदा दुई जनाको मृत्यु, दुई गम्भीर",
-      "description": "सर्लाही। सर्लाहीको सिर्सियामा दुई मोटरसाइकल आपसमा ठोक्किँदा दुई जनाको मृत्यु भएको छ भने अन्य दुई जना गम्भीर घाइते भएका छन् । कबिलासी नगरपालिका–७ सिर्सियास्थित मलंगवा–नवलपुर सडकखण्डमा मधेश प्रदेश ०३–०३३ प ७८२४ नम्बरको मोटरसाइकलसँग विपरीत दिशाबाट आउँदै गरेको बिआर३०एपी १२२४ नम्बरको भारतीय मोटरसाइकल मंगलबार साँझ ठोक्किएको थियो । दुर्घटनामा ७८२४ नम्बरको मोटरसाइकल",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-16T01:27:03+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/16/two-dead-two-seriously-injured-in-motorcycle-collision/",
-      "category": "business"
-    },
-    {
-      "title": "भोटेकोशी बाढी : हालसम्म १४ सय ३ जनाको शव भेटियो, ४ हजारभन्दा बढी अझै बेपत्ता",
-      "description": "रसुवाको भोटेकोशीमा आएको विनाशकारी बाढीका कारण बुधबार बिहान ०५:०० बजे सम्म १ हजार ४०३ जनाको शव फेला परेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-09-16T01:26:15+00:00",
-      "articleUrl": "https://nepallive.com/story/350448",
-      "category": "national"
-    },
-    {
-      "title": "जलविद्युत् आयोजनामा हराइरहेका कर्मचारी र कामदारको खोजी तीव्र",
-      "description": "त्रिशूली । भोटेकोशी हुँदै त्रिशूली नदीमा गएको बाढीपछि नुवाकोटका दुई जलविद्युत् आयोजनामा हराइरहेका कर्मचारी तथा कामदारको खोज तथा उद्धार कार्यलाई तीव्र बनाइएको छ । माथिल्लो त्रिशूली थ्री ‘ए’ विद्युत् केन्द्र र माथिल्लो त्रिशूली थ्री ‘बी’ जलविद्युत् आयोजनामा बाढीपछि सम्पर्कविहीन भएका कर्मचारी तथा कामदारको खोजी नेपाली सेनाको नेतृत्वमा रहेको संयुक्त सुरक्षा फौजले",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-16T01:25:31+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/491708.html",
-      "category": "business"
-    },
-    {
-      "title": "मुगुमा चार घण्टाभित्र दुईपटक भूकम्प",
-      "description": "काठमाडौँ, भदौ ३१ गते । मुगुको कालै आसपास केन्द्रबिन्दु भएर बुधबार बिहान दुईपटक भूकम्प गएको छ। राष्ट्रिय भूकम्प मापन तथा अनुसन्धान केन्द्रका अनुसार बिहान १ बजेर ५१ मिनेटमा स्थानीय म...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/382820/conversions/bhukampa-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-16T01:25:29+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/222917",
-      "category": "national"
-    },
-    {
-      "title": "सुरुङको खोजी सकिएपछि बाढीमा सम्पर्कविहीनलाई 'मृतक घोषणा गर्ने गृहकार्य'",
-      "description": "भोटेकोशी-त्रिशूली बाढीको २१औँ दिनसम्म पनि उद्धारकर्मीहरू विभिन्न जलविद्युत् आयोजनाका सुरुङ संरचना तथा भूमिगत विद्युत्‌गृहमा फसिरहेको ठानिएका मानिसहरूको खोजी गरिरहेका छन्।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3ed7/live/bbf0bfb0-b116-11f1-a540-61c3f7fc4e6c.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-09-16T01:25:03+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/ck24jgnm8674o?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "विश्व इतिहासमा सुरुङभित्र फसेका मानिसलाई कति दिनसम्ममा जीवित उद्धार गरिएका छन् ?",
-      "description": "काठमाडौँ । भोटेकोशीमा आएको विनाशकारी बाढीको १७ दिन बितिसक्दा पनि रसुवा, नुवाकोटका जलविद्युत् आयोजनामा सम्पर्कविहीन भएका सयौँ मानिसको अवस्था अझै अज्ञात छ । तीमध्ये केही सुरुङ तथा भूमिगत विद्युत् गृहमा फसेको आशङ्का छ । नेपाली सेना,",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/tunnel-rescue_jgNQsDJr0c.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-16T01:23:56+00:00",
-      "articleUrl": "https://www.ratopati.com/story/592424/how-many-days-have-people-been-rescued-alive-after-being-trapped-in-a-tunnel-in-world-history",
-      "category": "national"
-    },
-    {
-      "title": "चिनीको अस्वाभाविक मूल्यबारे निगरानी",
-      "description": "गोरखापत्र समाचारदाता काठमाडौँ, भदौ ३१ गते । उपत्यकाको बजारमा खाना पकाउने एलपी ग्याससँगै चिनीमा कालोबजारी हुन थालेको गुनासो आएपछि वाणिज्य, आपूर्ति तथा उपभोक्ता संरक्षण विभागले निगरा...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/382819/conversions/sugar-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-16T01:23:45+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/222916",
-      "category": "national"
-    },
-    {
-      "title": "सिद्धबाबामा कारमाथि ढुङ्गा खस्दा तीन घाइते",
-      "description": "रेखीराम रानातानसेन, भदौ ३१ गते । पाल्पाको तिनाउ गाउँपालिका–३ स्थित सिद्धबाबा नजिकै गुडिरहेको कारमाथि ढुङ्गा खस्दा तीन जना घाइते भएका छन्।मङ्गलबार बेलुकी करिब ६ः३० बजेतिर सिद्धार्थ...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/382818/conversions/accident-car-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-16T01:21:31+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/222915",
-      "category": "national"
-    },
-    {
-      "title": "संसद्का दुवै सदनको बैठक आज बस्दै, यस्तो छ सम्भावित कार्यसूची",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-09-16T01:21:00+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/145823",
-      "category": "politics"
     }
   ]
 }
