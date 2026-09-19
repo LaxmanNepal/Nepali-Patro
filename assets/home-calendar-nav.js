@@ -14,7 +14,8 @@
       var get=function(type){var p=parts.find(function(x){return x.type===type});return p?Number(p.value):0;};
       return {year:get('year'),month:get('month'),day:get('day')};
     }
-    var todayAD=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kathmandu'}).format(new Date());
+    function todayKathmandu(){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kathmandu'}).format(new Date());}
+    var todayAD=todayKathmandu();
     var state={year:null,month:null,todayYear:null,todayMonth:null,busy:false,observer:null,currentData:null};
     function load(src){return new Promise(function(resolve,reject){var old=document.querySelector('script[src="'+src+'"]');if(old){if(window.NPCalendarData)resolve();else{old.addEventListener('load',resolve,{once:true});old.addEventListener('error',reject,{once:true});}return;}var s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=reject;document.head.appendChild(s);});}
     function ensureData(){if(window.NPCalendarData)return Promise.resolve();return load('/Nepali-Patro/js/core/data-client.js').then(function(){return load('/Nepali-Patro/js/core/calendar-data.js');});}
@@ -63,7 +64,19 @@
       state.observer=new MutationObserver(function(){if(state.busy)return;var canonical=el.querySelector('[data-canonical-home-calendar="1"]');if(canonical)return;if(state.todayYear!=null&&state.todayMonth!=null)render(state.todayYear,state.todayMonth).catch(function(){});});
       state.observer.observe(el,{childList:true,subtree:false});
     }
-    ensureData().then(function(){var now=kathmanduParts(),yearGuess=now.year+57;return getYear(yearGuess).then(function(data){var d=(data.days||[]).find(function(x){return x.ad&&x.ad.date===todayAD;});if(!d)throw Error('today');state.todayYear=d.bs.year;state.todayMonth=d.bs.month;protectCanonicalRenderer();return render(state.todayYear,state.todayMonth);});}).catch(function(){showError();});
+    ensureData().then(async function(){
+      todayAD=todayKathmandu();
+      var now=kathmanduParts();
+      var candidates=[now.year+56,now.year+57,now.year+58];
+      for(var i=0;i<candidates.length;i++){
+        var data=await getYear(candidates[i]).catch(function(){return null;});
+        var d=data&&(data.days||[]).find(function(x){return x.ad&&x.ad.date===todayAD;});
+        if(d){state.todayYear=d.bs.year;state.todayMonth=d.bs.month;break;}
+      }
+      if(state.todayYear==null)throw Error('today');
+      protectCanonicalRenderer();
+      return render(state.todayYear,state.todayMonth);
+    }).catch(function(){showError();});
     window.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetails();});
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot();
