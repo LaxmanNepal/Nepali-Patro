@@ -4,7 +4,7 @@ A standalone static Nepali Bikram Sambat calendar application by Laxman Nepal.
 
 ## Product URL
 
-`https://apps.laxmannepal.com.np/Nepali-Patro/`
+`https://laxmannepal.com.np/Nepali-Patro/`
 
 ## Canonical feature routes
 
