@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const root=process.argv[2]||'.';
-const base='https://apps.laxmannepal.com.np/Nepali-Patro';
+const base='https://laxmannepal.com.np/Nepali-Patro';
 const urls=new Set(['/']);
 // Only crawl deployable public pages. Data, build artifacts, demos and internal
 // tooling must never become sitemap URLs.
