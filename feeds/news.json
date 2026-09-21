@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-21T18:25:36.057503+00:00",
-  "lastSuccessfulUpdate": "2026-09-21T18:25:36.057503+00:00",
-  "newestPublishedTime": "2026-09-21T17:47:54+00:00",
+  "updatedAt": "2026-09-21T22:04:34.134686+00:00",
+  "lastSuccessfulUpdate": "2026-09-21T22:04:34.134686+00:00",
+  "newestPublishedTime": "2026-09-21T21:24:48+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -22,6 +22,86 @@
     }
   ],
   "items": [
+    {
+      "title": "खोरतविरुद्ध खोप लगाइँदै",
+      "description": "भोजपुर । भोजपुरमा गाईभैँसीमा देखिने खोरेत रोग उन्मूलनका लागि ‘खोप अभियान’ सञ्चालन हुने भएको छ । खोरेत रोग नियन्त्रण र उन्मूलन गर्ने उद्देश्यका साथ खोप अभियान गर्न लागिएको भेटेरिनरी अस्पताल तथा सेवा विज्ञ केन्द्र भोजपुरले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kJFD2vxCut.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-21T21:24:48+00:00",
+      "articleUrl": "https://www.ratopati.com/story/593811/vaccination-against-smallpox-is-being-carried-out",
+      "category": "national"
+    },
+    {
+      "title": "शीत भण्डार आयोजना अलपत्र,किसानको जग्गा सात वर्षदेखि उपयोगविहीन",
+      "description": "सिराहा । लहान नगरपालिका–११ पडरियाका आठ जना किसानले शीत भण्डार निर्माणका लागि आफ्नो एक बिघा दुई कट्ठा कृषियोग्य जग्गा ३० वर्षका लागि भाडामा दिए । जग्गा भाडामा दिएको अहिले सात वर्ष बितिसक्यो । न त",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dVzE5mmlUa.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-21T20:29:18+00:00",
+      "articleUrl": "https://www.ratopati.com/story/593810/cold-storage-project-stalled-farmers-land-unused-for-seven-years",
+      "category": "national"
+    },
+    {
+      "title": "पोखरामा भुटानको राष्ट्रिय क्रिकेट टोलीको चार वटा अभ्यास खेल",
+      "description": "कास्की । विश्व पर्यटन दिवसका अवसर पारेर भुटानको राष्ट्रिय क्रिकेट टोलीले पोखरा रङ्गशालास्थित क्रिकेट मैदानमा चार वटा मैत्रीपूर्ण अभ्यास खेल खेल्ने भएको छ । आगामी आइसिसी मेन्स टी–२० विश्वकप एसिया सब–रिजनल क्वालिफायर ‘ए’ को तयारीका लागि",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/36O948nr95.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-21T20:06:49+00:00",
+      "articleUrl": "https://www.ratopati.com/story/593809/bhutans-national-cricket-team-plays-four-practice-matches-in-pokhara",
+      "category": "national"
+    },
+    {
+      "title": "सेखुवाका नागरिकलाई गाउँमै स्वास्थ्य सेवा",
+      "description": "खोटाङ । भौगोलिक विकटताका कारण लामो समयदेखि सहज स्वास्थ्य सेवाको पहुँचबाट वञ्चित साकेला गाउँपालिका–१ सेखुवाका नागरिकलाई लक्षित गर्दै सामुदायिक स्वास्थ्य सेवा इकाई केन्द्र स्थापना गरिएको छ । गाउँपालिकाले सञ्चालनमा ल्याएको यो स्वास्थ्य इकाई साकेला गाउँपालिकाको आठौँ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/H36L3d3Xiu.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-21T20:03:43+00:00",
+      "articleUrl": "https://www.ratopati.com/story/593808/health-services-in-the-village-for-the-citizens-of-sekhuwa",
+      "category": "national"
+    },
+    {
+      "title": "जापानिज इन्सेफलाइटिसविरुद्धको खोप अभियान: झापामा २१ हजार बढीलाई खोप",
+      "description": "झापा । जापानिज इन्सेफलाइटिस (जेई) अर्थात् मस्तिष्क ज्वरोविरुद्धको खोप अभियानको पहिलो दिन झापामा २१ हजार ७४६ जनाले खोप लगाएका छन् । स्वास्थ्य कार्यालय झापाका प्रमुख वृजकुमार दासका अनुसार जिल्लाका नौ स्थानीय तहमा आजदेखि अभियान सुरु भएको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/jhapa__dhzolqasr2_QnjZRO8TPN.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-21T19:15:32+00:00",
+      "articleUrl": "https://www.ratopati.com/story/593807/vaccination-campaign-against-japanese-encephalitis-over-21000-vaccinated-in-jhapa",
+      "category": "national"
+    },
+    {
+      "title": "पर्सामा १५४ अपराधका मुद्दा दर्ता",
+      "description": "पर्सा । पछिल्लो एक महिनामा जिल्लामा विभिन्न प्रकृतिका १५४ मुद्दा दर्ता भएको छ । जिल्ला प्रहरी कार्यालय पर्साका अनुसार सो अवधिमा १३८ जनालाई पक्राउ गरिएको छ । जिल्ला प्रहरी कार्यालय पर्साका प्रहरी नायब उपरीक्षक तथा सूचना",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/parsa_2glcmyd7j0_2aMfxmuNuL.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-21T19:00:06+00:00",
+      "articleUrl": "https://www.ratopati.com/story/593806/154-criminal-cases-registered-in-parsa",
+      "category": "national"
+    },
+    {
+      "title": "स्याउ बोकेको ट्रक दुर्घटना",
+      "description": "जुम्ला । जुम्लाबाट स्याउ बोकेर सुर्खेततर्फ जाँदै गरेको मालवाहक ट्रक दुर्घटनामा परेको छ । कर्णाली राजमार्गअन्तर्गत कालीकोटको तिलागुफा नगरपालिका– १ स्थित भिग्ममा ट्रक दुर्घटनामा परेको हो । उक्त ट्रकमा ४५० कार्टुन स्याउ रहेको जिल्ला प्रहरी कार्यालय",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/kalikot_hxg1ddkRP2.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-21T18:57:26+00:00",
+      "articleUrl": "https://www.ratopati.com/story/593805/apple-truck-accident",
+      "category": "national"
+    },
+    {
+      "title": "१२ बजे १२ समाचार : यस्ता छन् आजका प्रमुख समाचार",
+      "description": "काठमाडाैँ । आज दिनभरका मुख्य १२ घटनाक्रम रातोपाटी डटकमको नियमित प्रस्तुति ‘१२ बजे १२समाचार’मा प्रस्तुत गरेका छौँ– आजका मुख्य समाचारमा केन्द्रीय कमिटी बैठकमा गर्जिए ओली, कांग्रेसमा देउवा समूहले बढायो समानान्तर गतिविधि, आफू सवार रहेकै अवस्थामा चालकले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/12-am-final_viqawbfig2-(1)_fam6WtIhIE.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-21T18:41:15+00:00",
+      "articleUrl": "https://www.ratopati.com/story/593804/12-news-at-12-these-are-todays-top-news-stories",
+      "category": "national"
+    },
     {
       "title": "महाकाली यातायातको अध्यक्षमा भट्ट निर्वाचित",
       "description": "महेन्द्रनगर । महाकाली यातायात बहुउद्देश्यीय कम्पनी प्रालिको अध्यक्षमा नवीन भट्ट निर्वाचित हुनुभएको छ । कम्पनीको अध्यक्ष र सञ्चालक सदस्यका लागि सोमबार भएको निर्वाचनमा प्रत्याशी विष्णु कँडेललाई पाँच मतले पराजित गर्दै भट्ट अध्यक्षमा निर्वाचित भएका हुन् । भट्टले",
@@ -4940,86 +5020,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-09-20T16:12:44+00:00",
       "articleUrl": "https://www.ratopati.com/story/593514/26-people-arrested-from-various-places-with-drugs",
-      "category": "national"
-    },
-    {
-      "title": "भाका अनौठो, शब्द रोचक : यसरी भाइरल भयो ‘भकारीका धान’",
-      "description": "यो गीत गाउन गला माझिरहनुपर्दैन । स्वरयन्त्रलाई आरोह–अवरोहमा पुर्‍याउनु पर्दैन । स्वर सुरिलो र भाका मधुर हुनु पनि जरुरी छैन ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/image-25.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-20T16:12:15+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2021639/how-did-bhakarika-dhan-mera-badure-go-viral",
-      "category": "entertainment"
-    },
-    {
-      "title": "भोटेकोशीको बाढी घट्यो, बालबालिकाको मनमा डर घटेन",
-      "description": "रसुवा, नुवाकोट र धादिङका बाढी प्रभावित क्षेत्रमा पुगेका मनोसामाजिक परामर्शदाताहरूले यस्ता धेरै बालबालिका भेटेका छन् जो बाहिरबाट हेर्दा कोही सामान्य देखिन्छन् । तर भित्रभित्र आहत छन्, त्रसित छन् ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-20T16:11:57+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2019967/the-flood-in-bhotekoshi-has-subsided-but-the-fear-in-the-minds-of-children-has-not-diminished",
-      "category": "national"
-    },
-    {
-      "title": "बाढीबाट क्षतिग्रस्त जलविद्युत् आयोजनाको भविष्य के हुन्छ ?",
-      "description": "नेपाल विद्युत् प्राधिकरण तथा त्यसका सहायक कम्पनीका ७ र निजी क्षेत्रका ७ आयोजना प्रभावित छन् । यी आयोजनामा मात्रै ७८३.३९ मेगावाट विद्युत् प्रभावित भएको छ । क्षतिको प्रारम्भिक अनुमान १ खर्ब ३४ अर्ब ६९ करोड ७६ लाख रुपैयाँ बराबर छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Trishuli-3-a-tunnel-uddhar-and-khoj-8.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-20T16:11:29+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2021642/what-is-the-future-of-hydroelectric-projects-damaged-by-floods",
-      "category": "business"
-    },
-    {
-      "title": "नेपाली कांग्रेसको वडा अधिवेशन ७३ जिल्लामा सम्पन्न, बाँकी भाेली हुने",
-      "description": "काठमाडौं । नेपाली कांग्रेसको १५ औँ केन्द्रीय महाधिवेशनअन्तर्गत दोस्रो दिन आज (असोज ४ गते) पनि देशका विभिन्न स्थानमा वडा अधिवेशन सम्पन्न भएको छ। कांग्रेस केन्द्रीय कार्यसमितिको निर्णयानुसार आगामी २०८३ असोज १६ देखि १९ गतेसम्म हुने १५ औँ केन्द्रीय महाधिवेशनका लागि असोज ३ गतेदेखि वडा अधिवेशन प्रक्रिया सुरु भएको हो। केन्द्रीय निर्वाचन समितिका अनुसार दोस्रो दिनसम्",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-20T16:10:36+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/148642/",
-      "category": "politics"
-    },
-    {
-      "title": "२२ महिनापछि मुख्य अभियुक्त समातिँदा जाग्यो न्यायको आशा",
-      "description": "‘टुटिसकेको आशा फेरि जागेको छ । मुख्य अभियुक्त पक्राउ परेको खबरले हामीलाई ठूलो राहत मिलेको छ । ढिलै भएपनि अब त न्याय पाइन्छ कि !’",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Laxman-prasad-yadav.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-20T16:10:18+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2021387/trafficker-murder-case-hope-for-justice-revived-after-main-accused-is-arrested-after-22-months",
-      "category": "national"
-    },
-    {
-      "title": "कान्समा आठ मिनेट स्ट्यान्डिङ ओभेसन पाएको सिनेमाको अस्कर यात्रा",
-      "description": "अस्करका लागि नेपालबाट पठाइएको सिनेमा 'तिनीहरु' यति बेला सिनेमा हलमा छ । प्रकृतिमात्रै होइन, मान्छेको स्वभावसमेतलाई कथित् सामाजिक सोचले कसरी अतिक्रमण गरेको छ, जो जंगली हात्तीभन्दा पनि बढी खतरनाक छ भनी प्रश्न उठाएको छ सिनेमाले ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/espresso.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-20T16:09:49+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2021400/the-oscar-journey-of-the-film-that-received-an-eight-minute-standing-ovation-at-cannes",
-      "category": "national"
-    },
-    {
-      "title": "साउदी अरबमाथि आक्रमण गरिरहेका हुथी विद्रोही को हुन् ?",
-      "description": "हुथीहरू यमनको पश्चिमी तट हुँदै बाब अल-मन्देबतर्फ अघि बढेका छन् र केही दक्षिणी लाल सागरका टापुहरू नियन्त्रणमा लिएका छन्। संयुक्त राष्ट्रसंघले पनि यमनको पश्चिमी तट र बाब अल-मन्देब वरिपरिको अवस्था तीव्र रूपमा अस्थिर बनेको जनाएको छ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/huthi-1.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-20T16:08:55+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2021537/who-are-the-houthi-rebels-attacking-saudi-arabia",
-      "category": "national"
-    },
-    {
-      "title": "खैरो हेराइनसहित बाँकेबाट दम्पती पक्राउ",
-      "description": "बाँके । प्रहरीले खैरो हेरोइनसहित बाँकेको नेपालगञ्जबाट दुई जनालाई पक्राउ गरेको छ । पक्राउ पर्नेमा नेपालगञ्ज उपमहानगरपालिका–१३ घर भएका देशराज चौहान लोनिया र सोही ठाउँ घर भएकी २५ वर्षीया पुजा लोनिया छन् । उनीहरू दम्पती हुन्",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/dampati-arrest_a3z90FHReF.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-20T16:08:05+00:00",
-      "articleUrl": "https://www.ratopati.com/story/593513/couple-arrested-from-banke-with-brown-heroin",
       "category": "national"
     }
   ]
