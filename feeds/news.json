@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-25T21:52:37.308676+00:00",
-  "lastSuccessfulUpdate": "2026-09-25T21:52:37.308676+00:00",
-  "newestPublishedTime": "2026-09-25T21:49:39+00:00",
+  "updatedAt": "2026-09-26T00:11:30.452372+00:00",
+  "lastSuccessfulUpdate": "2026-09-26T00:11:30.452372+00:00",
+  "newestPublishedTime": "2026-09-26T00:05:39+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -22,6 +22,196 @@
     }
   ],
   "items": [
+    {
+      "title": "आजको राशिफल",
+      "description": "मेष राशि (चु, चे, चो, ला, लि, लु, ले, लो, अ) आज नयाँ कामको सुरुवात गर्ने उत्साह बढ्नुका साथै कार्यक्षेत्रमा सकारात्मक परिणाम प्राप्त हुनेछ। व्यवसायमा नयाँ सम्पर्कबाट लाभ लिन सकिनेछ । आर्थिक पक्षमा सुधार आउनेछ; तर अनावश्यक खर्चबाट बच्नु बुद्धिमानी हुनेछ । परिवारमा सुखद वातावरण बन्नेछ र प्रियजनबाट सहयोग प्राप्त हुनेछ । धार्मिक तथा सामाजिक […]",
+      "imageUrl": "",
+      "sourceLogo": "https://dainiknepal.com/favicon.ico",
+      "sourceName": "दैनिक नेपाल",
+      "publishedTime": "2026-09-26T00:05:39+00:00",
+      "articleUrl": "https://www.dainiknepal.com/2026/09/841230.html",
+      "category": "national"
+    },
+    {
+      "title": "एसियाड क्रिकेटमा नेपालले जापानसँग खेल्दै, वर्षाका कारण टस हुन सकेन",
+      "description": "काठमाडौँ । जापानमा जारी २०औँ एसियाली खेलकुदको पुरुष क्रिकेटतर्फ आफ्नो दोस्रो खेलमा नेपालले शनिबार जापानसँग खेल्दै छ । जापानको आइची, निशिनस्थित कोरोगी स्पोर्ट्स पार्कमाहुने खेल वर्षाका कारण टस हुन सकेको छैन । नेपालले आफ्नो पहिलो खेलमा शुक्रबार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nepali-cricket-team_SYXcQNbC4f.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T00:02:26+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594976/nepal-playing-japan-in-asian-games-cricket-toss-not-possible-due-to-rain",
+      "category": "national"
+    },
+    {
+      "title": "यस्तो छ आजका लागि विदेशी मुद्राको विनिमय दर",
+      "description": "काठमाडौँ । नेपाल राष्ट्र बैंकले शनिबारका लागि विदेशी मुद्राको विनिमय दर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५३ रुपैयाँ ०१ पैसा र बिक्रीदर १५३ रुपैयाँ ८१ पैसा निर्धारण गरिएको छ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/forex_g5zWyL63Qc.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T23:59:05+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594973/this-is-the-foreign-currency-exchange-rate-for-today",
+      "category": "national"
+    },
+    {
+      "title": "पाखोलाई भकिम्लीका रुचाल दम्पतीले हराभरा बनाए",
+      "description": "म्याग्दी । कुनै समय कोदो र मकै फल्ने यहाँको बेनी नगरपालिका–३ भकिम्लीको गुफास्थित पाखोबारी तीन वर्षअघिसम्म बाँझिएर झाडीले ढाकिएको थियो । घरदेखि टाढा, मजदुरको अभाव र खेती गर्न बढ्दै गएको कठिनाइका कारण खेतबारीमा अन्न लगाउन",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/myagdi_Yxx1IewRfU.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T23:57:35+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594975/a-loving-couple-from-bhakimli-has-made-pakho-greener",
+      "category": "national"
+    },
+    {
+      "title": "पच्चिस जिल्लामा यातायात सञ्चालन रोक",
+      "description": "काठमाडौँ, असोज १० गते । लगातारको वर्षासँगै देशका विभिन्न स्थानमा बाढीपहिरो र डुबानको जोखिम बढेपछि सडकदेखि बस्तीसम्म जनजीवन प्रभावित बनेको छ । नदी तथा खोलामा पानीको बहाब बढ्दा तटीय...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/384831/conversions/2-bagmati-thapathali-badhi--keshab-raj-khanal-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-25T23:57:11+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224267",
+      "category": "national"
+    },
+    {
+      "title": "विश्वभर गुन्जियो नेपालको आवाज",
+      "description": "काठमाडौँ, असोज १० गते । प्रधानमन्त्री वालेन्द्र शाहले संयुक्त राष्ट्रसङ्घको ८१ औँ महासभाको साधारण बहस अन्तर्गत उच्चस्तरीय सत्रमा शुक्रबार गर्नुभएको सम्बोधन विश्वभर सुनिएको छ । विश्...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/384829/conversions/433-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-25T23:50:52+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224266",
+      "category": "national"
+    },
+    {
+      "title": "लगातारको वर्षाले धानबालीमा समस्या आउने जोखिम : प्राविधिक",
+      "description": "चितवन । लगातारको वर्षाका कारण पसाउने तथा परागसेचन हुने समयमा रहेको धानबालीमा थप समस्या आउने जोखिम देखिएको कृषि प्राविधिकले बताएका छन् । कृषि विकास कार्यालय चितवनका प्रमुख झलकनाथ कँडेलका अनुसार लगातारको वर्षाले अहिले दाना लाग्ने अवस्थामा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dhan-bali-ktm-(15)_AONdkRT2Z6.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T23:49:08+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594974/continuous-rains-pose-risk-of-problems-in-rice-crop-technician",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढीको महाविपद एक महिना : खोज, उद्धार तथा राहत वितरण जारी, पुनर्निर्माणमा चुनौती",
+      "description": "काठमाडौँ । रसुवाको भोटेकोशी नदीमा अकस्मात् बाढी गएको एक महिना भएको छ । गत भदौ १० गते बिहान गएको सो अकल्पनीय बाढीको महाविपदबाट रसुवा, नुवाकोट, धादिङ सहितको जिल्लाका विभिन्न स्थानहरूमा अकल्पनीय मानवीय र भौतिक संरचनामा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-bhotekoshi-badhi_xJnNFwOg50.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T23:39:45+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594972/one-month-after-the-bhotekoshi-flood-disaster-search-rescue-and-relief-distribution-continue-challenges-in-reconstruction",
+      "category": "national"
+    },
+    {
+      "title": "साल्ट ट्रेडिङ कर्पोरेशनको सुपथ मूल्य पसल: उपभोक्ताको आकर्षण",
+      "description": "बागलुङ । साल्ट ट्रेडिङ कर्पोरेशन लिमिटेडद्वारा दसैँ , तिहार तथा छठ पर्वलाई लक्षित गरी सञ्चालन गरिएको सुपथ मूल्य पसलले उपभोक्तालाई राहत मिलेको छ । कर्पोरेसनले जिल्लामा यही असोज ५ गते सोमबारदेखि चाडपर्व लक्षित सुपथ मूल्य पसल",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/17-baglung-supath-mulya-pasal_npl_dammarbudhamagar-(16)_XEDmarPJCC.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T23:22:44+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594971/salt-trading-corporations-fair-price-shop-consumer-attraction",
+      "category": "national"
+    },
+    {
+      "title": "कस्तो रहला तपाईँको दिन ? हेर्नुहोस् आजकाे राशिफल",
+      "description": "आजको पञ्चाङ्ग वि.सं.२०८३ साल असोज १० गते । शनिबार । इस्वी सन् २०२६ सेप्टेम्बर २६ तारिख । नेपाल संवत् ११४६ । रौद्र संवत्सर । दक्षिणायन । शरद ऋतु । श्रीशाके १९४८ । भाद्र शुक्लपक्ष । तिथि–पूर्णिमा,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_68mF8G6CaS.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T23:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594969/how-was-your-day-check-out-todays-horoscope",
+      "category": "national"
+    },
+    {
+      "title": "खुम्बु क्षेत्रमा हिमपात,सात विदेशी पर्यटकको उद्धार",
+      "description": "सोलुखुम्बु । सोलुखुम्बुको खुम्बु क्षेत्रमा भारी हिमपात भएपछि उच्च हिमाली क्षेत्रमा पुगेका पर्यटकको आवागमन प्रभावित भएको छ । निरन्तरको वर्षापछि खुम्बुको माथिल्लो भेगमा हिमपात सुरु भएको हो । प्रमुख जिल्ला अधिकारी कमानसिंह थापा मगरका अनुसार खुम्बुको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/khumbu-glacier_Vk0gfJZOhk.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T23:03:35+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594970/seven-foreign-tourists-rescued-after-snowfall-in-khumbu-region",
+      "category": "national"
+    },
+    {
+      "title": "एमबाप्पेको गोलमा जिदानको विजयी सुरुवात",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-09-25T22:49:00+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/174974",
+      "category": "sports"
+    },
+    {
+      "title": "बाढी पसेपछि सुस्तावासी समस्यामा",
+      "description": "नवलपरासी (बर्दघाट सुस्ता पश्चिम) । निरन्तरको वर्षाले पश्चिम नवलपरासीको सुस्तामा नारायणी नदीको क्बाढीबस्तीमा पस्न थालेपछि स्थानीयवासी समस्या परेका छन् । जिल्लाको सुस्ता गाउँपालिका–५ सुस्तास्थित थारु टोलका घरपरिवार बाढी पसेपछि सुस्तामै रहेको सामुदायिक भवन तथा आफन्तकहाँ आश्रय",
+      "imageUrl": "https://rpcdn.ratopati.com/archived-media/narayani-nadi.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T22:42:07+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594968/susta-residents-in-trouble-after-floods",
+      "category": "national"
+    },
+    {
+      "title": "झापामा ‘ड्रोन’ बाट बाढीको जोखिम निगरानी",
+      "description": "झापा । बङ्गालको खाडीबाट अगाडि बढिरहेको वर्षा प्रणालीका कारण बाढी तथा डुबानको जोखिम बढेपछि झापामा जोखिम क्षेत्रको निगरानीका लागि पहिलोपटक ड्रोन प्रयोगमा ल्याइएको छ । जिल्ला विपद् व्यवस्थापन समितिले बाढी तथा डुबानको जोखिम निगरानी र",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/jhapa__dhzolqasr2_QnjZRO8TPN.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T22:37:59+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594967/flood-risk-monitoring-using-drones-in-jhapa",
+      "category": "national"
+    },
+    {
+      "title": "‘विपद् आउनुअघि नै जलवायु वित्त उपलब्ध हुनुपर्छ’ सांसद विदुषी राना",
+      "description": "काठमाडौँ । राष्ट्रिय स्वतन्त्र पार्टीकी सांसद विदुषी रानाले जलवायु परिवर्तनका कारण नेपालले भोगिरहेको विपद्‌ न्यूनीकरणका लागि विपद् आउनुअघि नै जलवायु वित्त उपलब्ध हुनुपर्नेमा जोड दिएकी छन् । बेलायत–नेपाल प्राज्ञिक परिषद् र लन्डनस्थित नेपाली दूतावासद्वारा आयोजित कार्यक्रमलाई सम्बोधन",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bidusi-rana_648oCJzZwb.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T22:35:40+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594966/climate-finance-should-be-available-before-disasters-strike-mp-vidushi-rana",
+      "category": "politics"
+    },
+    {
+      "title": "बाढीको जोखिममा राप्ती तटीय क्षेत्रका बासिन्दा",
+      "description": "बाँके । बाँकेमा दुई दिनदेखि जारी अविरल वर्षाको कारण राप्ती नदी तटीय क्षेत्रका बासिन्दा बाढीको जोखिममा परेका छन् । राप्ती नदीले राप्ती सोनारीको २ नं वडादेखि नरैनापुरसम्मकै तल्लोतटीय क्षेत्रका बासिन्दालाई वर्षेनी जोखिम राख्दै आएको छ ।",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/rapti-river_MNNUTspPKh.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T22:31:23+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594965/residents-of-rapti-coastal-areas-at-risk-of-flooding",
+      "category": "national"
+    },
+    {
+      "title": "एमबाप्पेको निर्णायक गोलमा फ्रान्स विजयी",
+      "description": "काठमाडौँ । नेसन्स लिग अन्तर्गत समूह ‘ए’ को पहिलो खेलमा फ्रान्सले टर्किएलाई १–० गोलअन्तरले पराजित गरेको छ । खेलको ५४औँ मिनेटमा किलियन एमबाप्पेले गरेको गोल नै फ्रान्सको जितका लागि निर्णायक बन्यो । यता खेलको ८७औँ मिनेटमा उगुरकान",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/france_m0iiqHZ6EJ.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T22:28:14+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594964/france-wins-with-mbappes-decisive-goal",
+      "category": "national"
+    },
+    {
+      "title": "नेसन्स लिगमा इटालीमाथि बेल्जियमको सहज जित",
+      "description": "काठमाडौँ । नेसन्स लिग अन्तर्गत समूह ‘ए’ को पहिलो खेलमा बेल्जियमले इटालीलाई २–० गोलअन्तरले पराजित गरेको छ । खेलको २०औँ मिनेटमा मिका गोट्सले गोल गर्दै बेल्जियमलाई सुरुवाती अग्रता दिलाएका थिए । त्यसपछि खेलको ६९औँ मिनेटमा डोडी",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/belguim-vs-italy_o8V66rNA7D.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-25T22:24:20+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594963/belgium-comfortably-beat-italy-in-nations-league",
+      "category": "national"
+    },
+    {
+      "title": "बेल्जियमसँग इटालीको हार",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-09-25T22:10:00+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/174973",
+      "category": "sports"
+    },
     {
       "title": "जनकपुर बोल्ट्सको मास्कट ‘बौआ’",
       "description": "",
@@ -4703,16 +4893,6 @@
       "category": "sports"
     },
     {
-      "title": "यस्तो छ आजका लागि विदेशी मुद्राको विनिमयदर",
-      "description": "काठमाडौं । नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५३ रुपैयाँ २४ पैसा र बिक्रीदर १५३ रुपैयाँ ८४ पैसा निर्धारण गरिएको छ । युरोपियन युरो एकको खरिददर १७४ रुपैयाँ २९ पैसा र बिक्रीदर १७४ रुपैयाँ ९७ पैसा, युके पाउन्ड स्ट्रलिङ एकको खरिददर २०२ […] The post यस्तो छ आजका लागि विदेशी मुद्",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-25T01:11:23+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/148920/",
-      "category": "national"
-    },
-    {
       "title": "बाढी, जलवायु न्याय र विश्वव्यवस्था सम्बन्धमा प्रधानमन्त्री बालेन्द्र शाहको सम्बोधन : ‘हिमालयको चेतावनी सुन्न र त्यसअनुसार काम गर्न तयार रहौँ’",
       "description": "न्युयोर्क । प्रधानमन्त्री बालेन्द्र शाहले नेपालको बाढी, जलवायु परिवर्तन र त्यसबाट उत्पन्न मानवीय तथा विकास संकटलाई संयुक्त राष्ट्रसंघको महासभामार्फत विश्व समुदायसामु प्रस्तुत गरेका छन् । संयुक्त राष्ट्रसंघको ८१औँ महासभालाई सम्बोधन गर्दै प्रधानमन्त्री शाहले हिमालयबाट आएको जलवायु संकटको चेतावनीलाई विश्वले अब सुन्ने मात्र नभई त्यसअनुसार तत्काल काम गर्नुपर्नेमा ",
       "imageUrl": "",
@@ -4840,186 +5020,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-09-24T23:54:40+00:00",
       "articleUrl": "https://www.ratopati.com/story/594707/bandana-wins-silver-at-world-hapkido-championships",
-      "category": "national"
-    },
-    {
-      "title": "संयुक्त राष्ट्रसंघको महासभामा प्रधानमन्त्री बालेनकाे सम्बोधन (लाइभ)",
-      "description": "८ असोज, काठमाडौं । संयुक्त राष्ट्रसंघको महासभामा प्रधानमन्त्री वालेन्द्र शाहले केहीबेरमा सम्बोधन गर्दैछन् । संयुक्त राष्ट्रसंघको ८१औँ महासभाको उच्चस्तरीय सप्ताहमा सहभागी हुन न्यूयोर्क पुगेका प्रधानमन्त्री शाहले केहीबेरअघि महासचिव एन्टोनियो गुटेरेससँग भेट गरेका थिए । महासचिव गुटेरेसले भोटेकोशी विपद्मा भएको जनधनको क्षतिप्रति गहिरो समवेदना व्यक्त गर्दै जलवायु म",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/balen-shah-2.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-24T23:54:32+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025278/prime-minister-balen-will-address-the-united-nations-general-assembly-shortly-live",
-      "category": "politics"
-    },
-    {
-      "title": "वर्षासँगै जनजीवन प्रभावित",
-      "description": "काठमाडौँ, असोज ९ गते । लगातार वर्षाका कारण देशभरको जनजीवन प्रभावित बनेको छ । मौसम पूर्वानुमान महाशाखाले बिहीबारदेखि चार दिनसम्म देशका अधिकांश स्थानमा ठुलोदेखि धेरै ठुलो वर्षाको सम्...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/384625/conversions/IMG-20260924-WA0120-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-24T23:53:51+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/224124",
-      "category": "national"
-    },
-    {
-      "title": "राष्ट्रसंघ मुख्यालयमा प्रधानमन्त्री बालेन शाह र महासचिव गुटेरेसबिच भेटवार्ता",
-      "description": "काठमाडौँ । संयुक्त राष्ट्रसंघको ८१औँ महासभाको उच्चस्तरीय सप्ताहमा सहभागी हुन न्यूयोर्क पुगेका प्रधानमन्त्री बालेन्द्र (बालेन) शाह र राष्ट्रसंघका महासचिव एन्टोनियो गुटेरेसबिच भेटवार्ता भएको छ । राष्ट्रसंघ मुख्यालयमा नेपाली समय समयअनुसार शुक्रबार बिहान सम्पन्न उक्त भेटवार्तापछि प्रधानमन्त्री",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/balen-un_sAzcOPhYay.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T23:49:33+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594706/prime-minister-balen-shah-meets-with-secretary-general-guterres-at-un-headquarters",
-      "category": "politics"
-    },
-    {
-      "title": "न्युयोर्कमा प्रधानमन्त्री शाह र महासचिव गुटेरेसबिच भेटवार्ता",
-      "description": "न्यूयोर्क । प्रधानमन्त्री वालेन्द्र शाह र संयुक्त राष्ट्रसंघका महासचिव एन्टोनियो गुटेरेसबीच भेटवार्ता भएको छ। संयुक्त राष्ट्रसंघको ८१औँ महासभाको उच्चस्तरीय सप्ताहमा सहभागी हुन न्यूयोर्क पुगेका प्रधानमन्त्री शाहले महासभालाई सम्बोधन गर्नुअघि राष्ट्रसंघको मुख्यालयमा स्थानीय समयअनुसार साँझ ६ः३० बजे (नेपाली समयअनुसार शुक्रबार बिहान ४:१५ बजे) गुटेरेससँग भेटवार्ता ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-24T23:48:20+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/25/prime-minister-shah-meets-with-secretary-general-guterres-in-new-york/",
-      "category": "business"
-    },
-    {
-      "title": "राष्ट्रसंघमा नेतान्याहुले सम्बोधन गर्दा प्रतिनिधिहरूले हल छाडे",
-      "description": "९ असोज, काठमाडौं । इजरायली प्रधानमन्त्री बेन्जामिन नेतान्याहुले संयुक्त राष्ट्रसंघको महासभामा इरान, गाजा र मध्यपूर्वका अन्य क्षेत्रमा इजरायलले गरिरहेको सैन्य कारबाहीको कडा बचाउ गरेका छन्। उनी मञ्चमा उक्लनेबित्तिकै दर्जनौँ देशका प्रतिनिधिहरूले विरोधस्वरूप हल छाडेर बाहिरिएका थिए। प्रतिनिधिहरू बाहिरिएपछि नेतान्याहुले भने, ‘हामीले जित्नेछौँ। हामीसँग अर्को कुनै व",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/netanyahu-e1790293304616.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-24T23:42:31+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025275/delegates-walk-out-of-the-hall-as-netanyahu-addresses-the-un",
-      "category": "national"
-    },
-    {
-      "title": "प्रधानमन्त्रीसँग राष्ट्रसंघका महासचिवले भने– पदबाट निवृत्त भएपछि पनि नेपालको सहयोगमै हुन्छु",
-      "description": "आफू सन् १९७८ मा पर्यटकका रूपमा नेपाल आएको स्मरण गर्दै महासचिव गुटेरेसले पदबाट निवृत्त भएपछि पनि नेपाललाई सहयोग गरिरहने प्रतिबद्धता व्यक्त पनि गरे ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Balen-5.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-24T23:37:38+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025272/un-secretary-general-tells-prime-minister-even-after-retiring-he-will-continue-to-support-nepal",
-      "category": "politics"
-    },
-    {
-      "title": "सर्पदंशका बिरामीलाई ‘सञ्जीवनी’ बन्दै भेरी अस्पताल",
-      "description": "बाँके । कैलालीको लम्कीचुहा नगरपालिका–१ गुरुवागाउँ निवासी ७२ वर्षीय जयबहादुर थापालाई गत भदौ २४ गते राति बिस्तारामा सुतिरहेकै बेला सर्पले डस्यो । थापालाई सर्पले डसेको थाहा पाउने बित्तिकै रातारात नेपालगन्जस्थित भेरी अस्पतालमा भर्ना गरियो । झुल",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/xrRbxO0Bq3.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T23:30:04+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594704/bheri-hospital-becomes-sanjeevani-for-snakebite-patients",
-      "category": "national"
-    },
-    {
-      "title": "बजार खोज्दै धनगढी आइपुग्यो बाजुराको स्याउ",
-      "description": "धनगढी । हिमाली जिल्ला बाजुराको स्वामीकार्तिक खापर गाउँपालिकाका किसानले उत्पादन गरेको विषादीरहित अर्ग्यानिक स्याउ बिक्रीका लागि बिहीबार कैलालीको धनगढी आइपुगेको छ । गाउँका किसानले उत्पादन गरेको स्याउ स्थानीय बजारमा खपत नभएपछि बजारीकरणका लागि धनगढी ल्याइएको स्वामीकार्तिक",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/apple_MJPyEhSKr2.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T23:26:36+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594703/bajura-apples-arrive-in-dhangadhi-in-search-of-a-market",
-      "category": "national"
-    },
-    {
-      "title": "काठमाडौँ उपत्यकामा आज परम्परागत इन्द्रजात्रा पर्व मनाइँदै",
-      "description": "काठमाडौँ । काठमाडौँ उपत्यकाको मौलिक, धार्मिक तथा सांस्कृतिक पर्वका रूपमा परिचित कुमारी इन्द्रजात्रा आज परम्परागत विधिअनुसार विविध अनुष्ठानसहित मनाइँदै छ । हिन्दु तथा बौद्ध परम्परा, जीवित देवी कुमारीको आराधना, इन्द्रध्वज स्थापना, रथयात्रा, विभिन्न देवीदेवताका परम्परागत",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/indrajatra-(4)_va4y4FErqc.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T23:21:04+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594702/traditional-indra-jatra-festival-being-celebrated-in-kathmandu-valley-today",
-      "category": "national"
-    },
-    {
-      "title": "कुन राशिलाई शुभ, कुनलाई मध्यम ? हेर्नुहोस् आजको राशिफल",
-      "description": "आजको पञ्चाङ्ग वि.सं.२०८३ साल असोज ९ गते । शुक्रबार । इस्वी सन् २०२६ सेप्टेम्बर २५ तारिख । नेपाल संवत् ११४६ । रौद्र संवत्सर । दक्षिणायन । शरद ऋतु । श्रीशाके १९४८ । भाद्र शुक्लपक्ष । तिथि–चतुर्दशी,",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_XkWmpVM1yU.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T23:15:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594701/todays-horoscope",
-      "category": "national"
-    },
-    {
-      "title": "प्रधानमन्त्री शाह र महासचिव गुटेरेसबीच राष्ट्रसंघ मुख्यालयमा भेटवार्ता",
-      "description": "संयुक्त राष्ट्रसंघको ८१औँ महासभामा सहभागी हुन अमेरिका पुगेका प्रधानमन्त्री बालेन्द्र शाह र राष्ट्रसंघका महासचिव एन्टोनियो गुटेरेसबीच न्युयोर्कस्थित मुख्यालयमा द्विपक्षीय भेटवार्ता भएको छ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Balen-Guterus-e1790291437186.webp",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-24T23:11:42+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025266/prime-minister-shah-meets-with-secretary-general-guterres-in-new-york",
-      "category": "politics"
-    },
-    {
-      "title": "नेतन्याहुको भाषण सुरु भए लगत्तै दर्जनौँ प्रतिनिधि युएन महासभा हलबाट बाहिरिए",
-      "description": "न्युयोर्क । इजरायलका प्रधानमन्त्री बेन्जामिन नेतन्याहुले संयुक्त राष्ट्रसंघको ८१औँ महासभामा सम्बोधन सुरु गरे लगत्तै दर्जनौँ देशका प्रतिनिधि महासभा हलबाट बाहिरिएका छन् । बिहीबार न्युयोर्कस्थित युएन मुख्यालयमा नेतन्याहु सम्बोधनका लागि मञ्चमा पुगेपछि प्रतिनिधिहरू एकपछि अर्को गर्दै हलबाट",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/un-walkout_3gOrb7b1ZG.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T23:04:44+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594700/dozens-of-delegates-left-the-un-general-assembly-hall-as-soon-as-netanyahus-speech-began",
-      "category": "national"
-    },
-    {
-      "title": "दुई महिनामा चितवनमा ४३ सवारी दुर्घटना, १५ जनाको मृत्यु",
-      "description": "चितवन । चितवनमा चालु आर्थिक वर्षको पहिलो दुई महिनामा ४३ वटा सवारी दुर्घटना हुँदा १५ जनाको मृत्यु भएको छ । जिल्ला ट्राफिक प्रहरी कार्यालयको तथ्याङ्कअनुसार गत साउन र भदौमा भएका ती दुर्घटनामा ८७ जना घाइते भएका",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/chitwan_map_hQtNsfDIYC.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T22:47:01+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594699/43-vehicle-accidents-in-chitwan-in-two-months-15-people-killed",
-      "category": "national"
-    },
-    {
-      "title": "‘सतर्क रहौँ, सुरक्षित रहौँ’, मधेस सरकारको आग्रह",
-      "description": "धनुषा । भारी वर्षासँगै बाढी, पहिरो, डुबान तथा अन्य सम्भावित विपद्को जोखिम बढेपछि मधेस प्रदेश सरकारले उच्च सतर्कता अपनाउन आग्रह गरेको छ । गृह, सञ्चार तथा कानुन मन्त्रालयले प्रदेश विपद् व्यवस्थापन कार्यकारी समितिको बिहीबार बसेको बैठकको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/grih-sanchar-mantralay_vm0mciZLbp.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T22:08:03+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594698/be-vigilant-be-safe-urges-madhesh-government",
-      "category": "politics"
-    },
-    {
-      "title": "मौसमी जोखिमबाट सतर्क रहन कर्णाली सरकारको अनुरोध",
-      "description": "कर्णाली । कर्णाली प्रदेश सरकारले भारी वर्षाको सम्भावित मौसमी जोखिम र क्षतिबाट सतर्क रहन सर्वसाधारणलाई अनुरोध गरेको छ । कर्णाली प्रदेश विपद् व्यवस्थापन कार्यकारी समितिको बिहीबारको बैठकले बाढी, पहिरो, डुबान तथा सडक दुर्घटनाको जोखिमबाट सर्वसाधारणलाई बचाउन",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/karnali-mukhyamantri-karyalaya_kXgdamlLyG.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T21:43:44+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594697/karnali-government-requests-to-be-vigilant-against-seasonal-risks",
-      "category": "politics"
-    },
-    {
-      "title": "हालान्डको दुई गोलमा डेनमार्कविरुद्ध नर्वे विजयी",
-      "description": "काठमाडौँ । नेसन्स लिग फुटबल प्रतियोगिताअन्तर्गत शुक्रबार भएको समूह चरणको पहिलो खेलमा नर्वेले डेनमार्कमाथि ३–२ गोलको रोमाञ्चक जित दर्ता गरेको छ । समूह ‘डी’ अन्तर्गत भएको प्रतिस्पर्धात्मक खेलमा नर्वेलाई जिताउन स्टार स्ट्राइकर अर्लिङ हालान्डले दुई गोल गरे",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/norway-vs-denmark_w797nxeYiO.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T21:40:54+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594696/haaland-scores-twice-as-norway-beats-denmark",
-      "category": "national"
-    },
-    {
-      "title": "गाक्पोले इन्जुरी समयमा गोल गरेपछि नेदरल्यान्ड्स र जर्मनी १–१ को बराबरीमा",
-      "description": "काठमाडौँ । नेसन्स लिग फुटबल प्रतियोगिताअन्तर्गत समूह चरणको पहिलो खेलमा नेदरल्यान्ड्स र जर्मनीले १–१ गोलको बराबरी खेल्दै अङ्क बाँडेका छन् । समूह ‘बी’ अन्तर्गत शुक्रबार सम्पन्न खेलमा सुरुवाती अग्रता जर्मनीले लिएको थियो । उसका लागि खेलको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/germany_voX5S0Hcp8.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T21:34:02+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594695/netherlands-and-germany-draw-1-1-after-gakpo-scores-in-injury-time",
-      "category": "national"
-    },
-    {
-      "title": "फेलिक्सको निर्णायक गोलमा पोर्चुगल विजयी",
-      "description": "काठमाडौँ । नेसन्स लिग फुटबल प्रतियोगिताअन्तर्गत समूह चरणको पहिलो खेलमा पोर्चुगलले वेल्समाथि १–० गोलको कठिन जित निकालेको छ । समूह ‘डी’ अन्तर्गत सम्पन्न खेलमा पोर्चुगलको जितमा जोआओ फेलिक्सले गरेको एक मात्र गोल नै निर्णायक बन्यो ।",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/portugal_22OG59e7l9.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T21:11:19+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594694/felix-scores-decisive-goal-to-give-portugal-victory",
       "category": "national"
     }
   ]
