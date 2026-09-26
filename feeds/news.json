@@ -1,13 +1,17 @@
 {
-  "updatedAt": "2026-09-26T00:11:30.452372+00:00",
-  "lastSuccessfulUpdate": "2026-09-26T00:11:30.452372+00:00",
-  "newestPublishedTime": "2026-09-26T00:05:39+00:00",
+  "updatedAt": "2026-09-26T04:52:18.718164+00:00",
+  "lastSuccessfulUpdate": "2026-09-26T04:52:18.718164+00:00",
+  "newestPublishedTime": "2026-09-26T04:50:24+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 31,
-  "failedFeeds": 3,
+  "successfulFeeds": 30,
+  "failedFeeds": 4,
   "failedFeedDetails": [
+    {
+      "url": "https://rajdhanidaily.com/feed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
     {
       "url": "https://pahilopost.com/feed",
       "error": "HTTPError: HTTP Error 503: Service Unavailable"
@@ -22,6 +26,1026 @@
     }
   ],
   "items": [
+    {
+      "title": "स्वर्ग जाने हौ भने...",
+      "description": "मगर भाषाको तान्सिङ (उत्तरको बस्ती) शब्दबाट ‘तानसेन’ भनिएको होस् वा सेनवंशी राजाका कारण, जुनसुकै अर्थमा अतिमोहक रहेछ, तानसेन । कैयन् अज्ञात पाटा अन्तर्गर्भमा लुकाएर राखेको ‘श्रीनगर’...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/384894/conversions/564-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T04:50:24+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224320",
+      "category": "national"
+    },
+    {
+      "title": "गलेश्वरमा तीन घरमा क्षति, २१ घरधुरी पहिरोको जोखिममा",
+      "description": "बेनी समाचारदाताबेनी (म्याग्दी), असोज १० गते । तीन दिनदेखि परेको निरन्तर वर्षाका कारण आएको बाढी र पहिरोले म्याग्दीको रघुगङ्गा गाउँपालिका–३ गलेश्वरमा तीन घरमा क्षति पुर्‍याएको छ । यह...",
+      "imageUrl": "",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T04:50:08+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224319",
+      "category": "national"
+    },
+    {
+      "title": "परराष्ट्रमन्त्री खनाल र रोमानियाकी परराष्ट्रमन्त्री तोइउबीच भेटवार्ता",
+      "description": "काठमाडौं । परराष्ट्रमन्त्री शिशिर खनाल र रोमानियाकी परराष्ट्रमन्त्री ओआना–सिल्भिया तोइउबीच न्यूयोर्कमा द्विपक्षीय भेटवार्ता भएको छ । संयुक्त राष्ट्रसंघको ८१ औं महासभाका अवसरमा संयुक्त राष्ट्रसंघको मुख्यालयमा भएको साइडलाइन भेटवार्तामा नेपाल–रोमानिया सम्बन्ध तथा पारस्परिक हितका विभिन्न विषयमा छलफल भएको हो । भेटवार्तामा दुवै परराष्ट्रमन्त्रीहरूले नेपाल र रोमानि",
+      "imageUrl": "",
+      "sourceLogo": "https://dainiknepal.com/favicon.ico",
+      "sourceName": "दैनिक नेपाल",
+      "publishedTime": "2026-09-26T04:48:53+00:00",
+      "articleUrl": "https://www.dainiknepal.com/2026/09/841274.html",
+      "category": "politics"
+    },
+    {
+      "title": "न्यूयोर्कमा नेपाली डायस्पोरासँग परराष्ट्रमन्त्री खनालको अन्तरक्रिया",
+      "description": "काठमाडौँ, असोज १० गते । परराष्ट्रमन्त्री शिशिर खनालले न्यूयोर्कमा नेपाली डायस्पोराका सदस्यहरूसँग अन्तरक्रिया गर्नुभएको छ। संयुक्त राष्ट्रसंघको ८१औँ महासभामा सहभागी हुने क्रममा आयोज...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/384891/conversions/936cffb5-9a48-4af3-872d-346a0cca7a5d-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T04:46:54+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224318",
+      "category": "politics"
+    },
+    {
+      "title": "वर्षाले तटीय क्षेत्रमा त्रास",
+      "description": "सिन्धुपाल्चोक समाचारदातासिन्धुपाल्चोक, असोज १० गते । निरन्तरको वर्षाका कारण भोटेकोशी, सुनकोशी, ब्रह्मायणी, इन्द्रावती, ठाडोखोलालगायत नदी, खोला तथा खोल्सामा बाढीको बहाब बढ्न थालेपछि...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/384890/conversions/Untitled-1-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T04:46:21+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224317",
+      "category": "national"
+    },
+    {
+      "title": "द्वन्द्व अन्त्य नै विस्थापन समाधानको मुख्य उपाय : संयुक्त राष्ट्रसंघ",
+      "description": "न्युयाेर्क । संयुक्त राष्ट्रसंघका शरणार्थीसम्बन्धी उच्चायुक्त बारहम सालिहले द्वन्द्व, हिंसा तथा उत्पीडनका कारण हुने बलपूर्वक विस्थापनको सबैभन्दा दिगो समाधान शान्ति नै भएको बताएका छन् । शुक्रबार संयुक्त राष्ट्रसंघ सुरक्षा परिषद्को बैठकलाई पहिलोपटक सम्बोधन गर्दै उच्चायुक्त सालिहले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/barham-salih_4TzRYdn6Y4.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T04:46:16+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595010/ending-conflict-is-the-key-to-resolving-displacement-un",
+      "category": "national"
+    },
+    {
+      "title": "ईसेवाको सिइओमा डायनामिक युथ निरज शर्मा नियुक्त",
+      "description": "बैंकिङ खबर / डिजिटल भुक्तानी सेवा प्रदायक ईसेवाको प्रमुख कार्यकारी अधिकृत (सीईओ) मा निरज शर्मा नियुक्त भएका छन् । ईसेवा सञ्चालक समितिको बैठकले शर्मालाई कम्पनीको नयाँ सीईओ नियुक्त गर्ने निर्णय गरेको हो । उनले आगामी असोज १२ गतेदेखि ईसेवाको नेतृत्व सम्हाल्नेछन् । बैंकिङ क्षेत्रमा रहँदा शर्माले डिजिटल प्रविधिको विस्तार तथा नवप्रवर्तनसँग सम्बन्धित विभिन्न पहलमा क",
+      "imageUrl": "",
+      "sourceLogo": "https://bankingkhabar.com/favicon.ico",
+      "sourceName": "बैंकिङ खबर",
+      "publishedTime": "2026-09-26T04:45:00+00:00",
+      "articleUrl": "https://bankingkhabar.com/archives/168756",
+      "category": "business"
+    },
+    {
+      "title": "प्रधानमन्त्री बालेन्द्र शाह आज स्वदेश फर्किंदै, विमानस्थलमा प्रेस ब्रिफिङ हुने",
+      "description": "परराष्ट्र मन्त्रालयका अनुसार प्रधानमन्त्री शाह महासभालाई सम्बोधन सकेर शनिबार, असोज १० गते स्वदेश फर्किने कार्यक्रम तय भएको हो ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-26T04:44:55+00:00",
+      "articleUrl": "https://nepallive.com/story/351076",
+      "category": "politics"
+    },
+    {
+      "title": "गण्डक ब्यारेजमा २ लाख ७३ हजार क्युसेक पानीको प्रवाह, खतरा सूचकनजिक",
+      "description": "गण्डक ब्यारेजको संरचना पुरानो भएकाले ३ लाख क्युसेक पानीको प्रवाहलाई खतराको सूचक मानिँदै आएको छ। हाल ब्यारेजमा प्रवाह भइरहेको पानीको मात्रा उक्त सीमाभन्दा करिब २६ हजार ४ सय क्युसेक कम छ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2022/08/Gandak-bandh_India_Cover.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T04:43:46+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026127/273000-cusecs-of-water-flow-in-gandak-barrage-near-danger-level",
+      "category": "national"
+    },
+    {
+      "title": "नेपाल र सेनेगलबीच कूटनीतिक सम्बन्ध स्थापना",
+      "description": "काठमाडौँ। नेपाल र सेनेगलबीच कूटनीतिक सम्बन्ध स्थापना भएको छ। संयुक्त राष्ट्रसंघको ८१औँ महासभाका अवसरमा न्यूयोर्कस्थित संयुक्त राष्ट्रसंघको मुख्यालयमा आयोजित कार्यक्रममा परराष्ट्रमन्त्री शिशिर खनाल र सेनेगलका अफ्रिकी एकीकरण, परराष्ट्र मामिला तथा विदेशमा रहेका सेनेगली नागरिकसम्बन्धी मन्त्री शेख नियाङले कूटनीतिक सम्बन्ध स्थापना गर्ने संयुक्त विज्ञप्तिमा हस्ताक्",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T04:43:12+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/nepal-and-senegal-establish-diplomatic-relations/",
+      "category": "business"
+    },
+    {
+      "title": "एस. एस. फाउन्डेसनद्वारा प्रहरीलाई उद्धार सामग्री प्रदान",
+      "description": "काठमाडौँ । सामाजिक सेवामा क्रियाशील एस.एस. फाउन्डेसनले तीनकुने प्रहरीलाई उद्धार सामग्री सहयोग गरेको छ। फाउन्डेसनका संरक्षक शोभित उप्रेती र अध्यक्ष मदनदास श्रेष्ठले काठमाडौँ तीनकुने प्रहरीलाई उद्धार सामग्री हस्तान्तरण गरेका हुन। लाइफ ज्याकेट, डोरी, बुट, रेस्कयू बोट, रेस्क्यू",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/help_x9BauPup4P.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T04:41:33+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595009/s-s-foundation-provides-rescue-supplies-to-police",
+      "category": "national"
+    },
+    {
+      "title": "धातु मूर्तिकलाका शिखर पुरुष",
+      "description": "इतिहासका विभिन्न कालखण्डमा केही यस्ता स्रष्टा जन्मिन्छन्, जसको जीवन युगकै जीवन्त दस्ताबेज बन्न पुग्छ । त्यस्ता अमर साधकमध्ये अग्रपङ्क्तिमा आउने नाम हो– कालु कुमाले । धातुको साह्रो...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/384889/conversions/533-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T04:40:04+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224316",
+      "category": "national"
+    },
+    {
+      "title": "मधेशमा उच्च सतर्कता",
+      "description": "मधेश प्रदेश ब्यूरोजनकपुरधाम, असोज १० गते । बङ्गालको खाडीमा विकसित न्यूनचापीय प्रणालीका कारण नेपालमा भारी वर्षा हुने पूर्वानुमानपछि मधेश प्रदेशमा उच्च सतर्कता अपनाइएको छ । मधेश प्रद...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/384886/conversions/Untitled-1-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T04:39:22+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224315",
+      "category": "national"
+    },
+    {
+      "title": "गोरखाको नामारुङ खोलामा बाढी, पुल बगायो",
+      "description": "सुलीकोट (गोरखा), असोज १० गते । उत्तरी गोरखाको चुमनुब्री गाउँपालिका–४ नामारुङस्थित थेराङ खोलामा आएको बाढी र पहिरोले पुल बगाएको छ । शनिबार बिहान करिब ८ बजेको समयमा अचानक खोलामा बाढी...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/384885/conversions/namraung-photho1-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T04:38:54+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224314",
+      "category": "national"
+    },
+    {
+      "title": "समस्याग्रस्त घोषणा भएका वित्तीय संस्थाबाट निक्षेप फिर्ताको तयारी !",
+      "description": "बैंकिङ खबर / समस्याग्रस्त सहकारी तथा बैंक तथा वित्तीय संस्थाका निक्षेपकर्ताले लामो समयसम्म आफ्नो रकम कुर्नुपर्ने अवस्था अन्त्य गर्न सरकारले कानुनी व्यवस्था संशोधन गर्ने तयारी गरेको छ । संस्था समस्याग्रस्त घोषणा भएसँगै निक्षेपकर्तालाई सुरक्षित निक्षेपको रकम अग्रिम रूपमा उपलब्ध गराउन सकिने व्यवस्था सरकारले प्रस्ताव गरेको हो । निक्षेपकर्ताको बचत सुरक्षालाई थप प",
+      "imageUrl": "",
+      "sourceLogo": "https://bankingkhabar.com/favicon.ico",
+      "sourceName": "बैंकिङ खबर",
+      "publishedTime": "2026-09-26T04:38:02+00:00",
+      "articleUrl": "https://bankingkhabar.com/archives/168754",
+      "category": "business"
+    },
+    {
+      "title": "तस्बिरमा हेर्नुहोस् पृथ्वी राजमार्गमा भासिएको सडक र पहिरो",
+      "description": "चितवन । लगातारको वर्षाका कारण पृथ्वी राजमार्गअन्तर्गत चितवनको इच्छाकामना गाउँपालिकाका विभिन्न स्थानमा सडक भासिनुका साथै पहिरो खसेपछि यातायात आवागमन प्रभावित भएको छ। चितवनतर्फ मुग्लिन–मौवाखोला क्षेत्रमा सडक एकतर्फी सञ्चालनमा आएको छ। धादिङ खण्ड भने अझै पूर्ण रूपमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/08-prithibi-highway-chitwan-ichhakaman_4_jIyV4cN5Wh.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T04:37:09+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595008/see-the-photos-of-the-collapsed-road-and-landslide-on-the-prithvi-highway",
+      "category": "national"
+    },
+    {
+      "title": "खाल्डोमा जमेको पानीमा डुबेर बालकको मृत्यु",
+      "description": "राजविराज, असोज १० गते । सप्तकोशी नदीको बिच भागमा अवस्थित सप्तरीको हनुमाननगर कङ्कालिनी नगरपालिका–१३ गोबरगढामा खाल्डोमा जमेको पानीमा डुबेर पाँच वर्षीय बालकको मृत्यु भएको छ ।मृत्यु हु...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/384884/conversions/images-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T04:35:20+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224313",
+      "category": "national"
+    },
+    {
+      "title": "पक्राउ परेदेखि नै निःशुल्क कानुनी सुविधा",
+      "description": "काठमाडौँ, असोज १० गते । फौजदारी मुद्दामा पक्राउ परी आफैँ कानुन व्यवसायी राख्न नसक्ने व्यक्तिलाई पक्राउ परेकै क्षणदेखि निःशुल्क कानुनी सहायता उपलब्ध गराउने उद्देश्यसहित सरकारले नयाँ...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/384883/conversions/112-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T04:35:12+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224312",
+      "category": "national"
+    },
+    {
+      "title": "निरन्तर वर्षापछि डडेल्धुरामा २४ घण्टा सवारी सञ्चालनमा रोक",
+      "description": "अमरगढी समाचारदाताडडेल्धुरा, असोज १० गते । निरन्तर भइरहेको वर्षाका कारण सम्भावित विपद्को जोखिम बढेपछि जिल्ला प्रशासन कार्यालय डडेल्धुराले जिल्लाभर लामो तथा छोटो दूरीका सवारीसाधन सञ्...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/384882/conversions/dadeldhula-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T04:31:06+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224311",
+      "category": "national"
+    },
+    {
+      "title": "घट्न थाल्यो तिनाउ नदीको बहाव, खतरा तहभन्दा तलै",
+      "description": "१० असोज, बुटवल । बुटवलमा तिनाउ नदीको जल सतह घटेको छ। बाढी पूर्वानुमान महाशाखाले आज बिहान पौने ९ बजे गरेको मापन अनुसार तिनाउ नदीको बहाव खतराको तहभन्दा तलै रहेको देखाएको छ । बाढी पूर्वानुमान महाशाखाका अनुसार तिनाउको जल सतह ४.८६७ मिटर रहेको छ । पानीको वहाव र जल सतह घट्दो क्रममा रहेको महाशाखाले जनाएको छ […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/tinau-nadi-3.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T04:30:38+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026123/the-flow-of-the-tinau-river-has-started-to-decrease-below-the-danger-level",
+      "category": "national"
+    },
+    {
+      "title": "‘जलाकी’को दोस्रो गीत ‘जाले रुमाल मायालाई’ सार्वजनिक",
+      "description": "‘खुस्मा’ फेम्ड निर्देशक अशोक थापा मगर निर्देशित सिनेमा ‘जलाकी’ को दोस्रो गीत ‘जाले रुमाल मायालाई’ सार्वजनिक भएको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-26T04:30:38+00:00",
+      "articleUrl": "https://nepallive.com/story/351069",
+      "category": "national"
+    },
+    {
+      "title": "बाढी पहिरोका कारण पृथ्वी र बीपीसहित देशभरका मुख्य राजमार्ग अवरुद्ध",
+      "description": "काठमाडौँ । निरन्तरको वर्षा, पहिरो र खोलामा बढेको पानीको बहावका कारण देशभरका मुख्य राजमार्ग तथा सडक खण्डहरूमा यातायात पूर्ण रूपमा प्रभावित भएको छ। सडक विभागले शनिबार बिहान ९:३० बजे जारी गरेको पछिल्लो अद्यावधिक विवरणअनुसार देशका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/krishna-veer_oAfH2ewQhk.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T04:27:23+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595007/major-highways-across-the-country-including-prithvi-and-bp-are-blocked-due-to-floods-and-landslides",
+      "category": "national"
+    },
+    {
+      "title": "बाढीले पुल बगाउँदा रसुवा, नुवाकोट र धादिङको जनजीवन कष्टकर",
+      "description": "काठमाडौं। भदौ १० गते रसुवाको भोटेकोशीमा आएको भीषण बाढीले रसुवा, नुवाकोट र धादिङ जिल्लाको यातायात र जनजीवन प्रभावित बनाएको छ। बाढीका कारण सडक र पुलमा पुगेको क्षतिले गर्दा स्थानीय बासिन्दाहरू घण्टौँ पालो पर्खिएर तुइनको भरमा नदी तर्न बाध्य छन्। बाढी आएको एक महिना बितिसक्दा पनि सडक सम्पर्क अझै सहज हुन सकेको छैन। सरकारी विवरण अनुसार […]",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T04:25:41+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/life-in-rasuwa-nuwakot-and-dhading-is-difficult-as-bridges-are-washed-away-by-floods/",
+      "category": "business"
+    },
+    {
+      "title": "नेपाली क्रिकेट टोली समूह विजेता बन्दै एशिअन गेम्सको क्वार्टरफाइनलमा",
+      "description": "आइची नागोयामा शनिवार बिहान भएको नेपाल र जापानबीचको खेल वर्षाका कारण रद्द भई १/१ अङ्क बाँडिएपछि नेपाल समूह विजेता पनि बनेको छ।",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/a61a/live/ffce86c0-b960-11f1-b1d1-571ed4d7ff2c.jpg",
+      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
+      "sourceName": "feeds.bbci.co.uk",
+      "publishedTime": "2026-09-26T04:23:12+00:00",
+      "articleUrl": "https://www.bbc.com/nepali/articles/cmx2zzq149xxo?at_medium=RSS&at_campaign=rss",
+      "category": "national"
+    },
+    {
+      "title": "पहिरोले कर्णालीका ६ जिल्लामा मुख्य राजमार्ग अवरुद्ध",
+      "description": "सुर्खेत। पहिरोले कर्णालीका ६ जिल्लाका सडक अवरुद्ध भएका छन् । कर्णाली प्रदेश प्रहरी कार्यालय सुर्खेतका अनुसार शनिबारदेखि परेको अविरल वर्षाका कारण कालीकोटको शुभकालिका–१ गगने खोलामा आएको पहिरोले कर्णाली राजमार्ग पूर्णरुपमा अवरुद्ध बनेको छ । सुर्खेतको बराहताल गाउँपालिका–७ अम्रिसेमा पनि पहिरोका कारण कर्णाली राजमार्ग अवरुद्ध छ । यस्तै, कर्णाली राजमार्गअन्तर्गत जुम",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T04:19:30+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/landslides-block-main-highways-in-6-districts-of-karnali/",
+      "category": "business"
+    },
+    {
+      "title": "मौसम प्रतिकूलताका कारण कांग्रेसको क्षेत्रीय अधिवेशनको कार्यतालिका संशोधन",
+      "description": "काठमाडौं। प्रतिकूल मौसमका कारण नेपाली कांग्रेसले आफ्नो क्षेत्रीय अधिवेशनको कार्यतालिका संशोधन गरेको छ। केन्द्रीय निर्वाचन समितिका सदस्य सचिव राजु कटुवालका अनुसार शनिबारबाट सुरु हुने भनिएको अधिवेशन अब असोज १३ गतेसम्म सञ्चालन हुनेछ। कटुवालले मौसमका कारण निर्धारित समयमा तीन दिन थप गरिएको जानकारी दिए। मधेश प्रदेशलगायतका केही जिल्लामा वडा अधिवेशन सम्पन्न हुन ढिला",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T04:15:57+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/schedule-of-regional-convention-of-congress-revised-due-to-adverse-weather-conditions/",
+      "category": "business"
+    },
+    {
+      "title": "मातृभक्षणवाद र प्रतिक्रान्तिकारीहरूका नयाँ आयाम",
+      "description": "अन्तर्राष्ट्रिय कम्युनिस्ट आन्दोलनमा विभिन्न प्रकारका समस्याहरू देखिँदै आएका थिए । त्यसमा मुख्यतः मार्क्सको समयमा संशोधनवाद, लेनिनको समयमा अर्थवाद, ट्रेडयुनियनवाद, सुधारवाद, विसर्जनवाद, माओको समयमा ‘चार पुरानावाद’ र पछिल्लो समयमा नेपालमा मातृभक्षणवाद देखा परेको छ, त्यो विल्कुल",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/comunist-flage_hsuvkxrsxQ.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T04:15:53+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595006/matricide-and-the-new-dimensions-of-counter-revolutionaries",
+      "category": "national"
+    },
+    {
+      "title": "‘स्त्री शरीरबारे सोच्ने तरिका बदलिनुपर्छ’",
+      "description": "सात सवाल ‘स्त्री शरीरबारे सोच्ने तरिका बदलिनुपर्छ’ लामो अन्तरालपछि निबन्ध कृति ‘भग : एक मौन ब्रह्माण्ड’ लिएर आएकी साहित्यकार अनुपम रोशी स्त्री शरीर र यौनिकताबारे समाजले बनाएका धारणा र व्याख्यालाई प्रश्न गर्छिन्। टुमराज कोइराला मूलतः आख्यानमा कलम चलाउँदै आएकी अनुपम रोशीका कुमारी आमा, नाङ्गो मान्छे र कालो छायाँ उपन्यास तथा मध्यान्तर कथासङ्ग्रह प्रकाशित छन्। कथ",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T04:15:06+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/the-way-we-think-about-the-female-body-must-change/",
+      "category": "business"
+    },
+    {
+      "title": "देशभर अधिकांश निर्वाचन क्षेत्रमा आज कांग्रेसका क्षेत्रीय अधिवेशन हुँदै",
+      "description": "१० असोज, काठमाडौं । नेपाली कांग्रेसको १५ औं महाधिवेशनअन्तर्गत अधिकांश जिल्लाका संघीय निर्वाचन क्षेत्र र प्रदेश निर्वाचन क्षेत्रहरूमा क्षेत्रीयस्तरका अधिवेशनहरू हुन लागेका छन् । अत्यधिक वर्षाका कारण केही निर्वाचन क्षेत्रमा अधिवेशन पछाडि धकेलिए पनि अधिकांश संघीय निर्वाचन क्षेत्र र प्रदेश निर्वाचन क्षेत्रहरूमा पूर्वनिर्धारित तालिकाअनुसार क्षेत्रीय अधिवेशनहरू भइ",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T04:10:18+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026119/regional-conventions-of-congress-are-being-held-today-in-most-constituencies-across-the-country",
+      "category": "politics"
+    },
+    {
+      "title": "काठमाडौं र पूर्वी भूभागमा भारी वर्षा नहुने, पश्चिमी क्षेत्रमा भोलिदेखि मौसम सुधार हुने",
+      "description": "काठमाडौं उपत्यकाका विभिन्न स्थानमा शनिबार बिहान घाम देखिएको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-26T04:04:00+00:00",
+      "articleUrl": "https://www.setopati.com/social/399277",
+      "category": "national"
+    },
+    {
+      "title": "आइतबारसम्म वर्षा, सोमबारदेखि मौसममा सुधार आउने",
+      "description": "काठमाडौं। मौसम पूर्वानुमान महाशाखाले देशका विभिन्न भागमा आइतबारसम्म वर्षा जारी रहने र सोमबारदेखि मौसममा क्रमिक सुधार आउने जनाएको छ। महाशाखाका अनुसार शनिबार देशभर अधिकांश बदली रहनेछ। गण्डकी, लुम्बिनी, कर्णाली र सुदूरपश्चिम प्रदेशका हिमाली तथा पहाडी भू-भागका अधिकांश स्थानमा मेघगर्जन र चट्याङसहित मध्यम वर्षाको सम्भावना छ। कोशी र बागमती प्रदेशका हिमाली तथा पहाडी",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T04:03:25+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/rain-until-sunday-weather-to-improve-from-monday/",
+      "category": "business"
+    },
+    {
+      "title": "‘हाम्रो बाबा–आमा कहिले आउनुहुन्छ’ भनेर बाढी प्रभावित क्षेत्रका बच्चाहरू सोधिरहेका छन्’",
+      "description": "काठमाडौँ । भदौ १० गते रसुवाको भोटेकोशीमा आएको महाविपत्तिले निम्त्याएको सबैभन्दा ठुलो पीडा भोगिरहेका छन् बालबालिका । अभिभावकविहीन भएका र आफन्त गुमाउनेहरुको संख्या ठुलो छ । प्रभावित क्षेत्रमा पुगेर विभिन्न बाल अधिकार तथा मानव अधिकारकर्मीहरू पुगिरहेका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ttt_rYWA7Czssu.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T04:01:42+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595005/children-in-flood-affected-areas-are-asking-when-will-our-parents-come",
+      "category": "national"
+    },
+    {
+      "title": "द्वन्द्वकालका यौनहिंसा पीडित, जसका लागि आएन शान्ति",
+      "description": "खारा भिडन्त जति चर्चित छ उति नै गुमनाम छ, युद्धमा खाराका सर्वधारणमाथि भएको ज्यादती । त्यो भन्दा बढी महिलामाथि भएका हिंसाका शृंखला अनगिन्ती छन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/dwandakal-mahila.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T04:00:31+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025752/victims-of-conflict-era-sexual-violence-for-whom-peace-never-came",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढीको एक महिना : १ हजार ४५३ जनाको मृत्यु, ५ हजार ५५० बेपत्ता",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-26T03:59:00+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/146291",
+      "category": "national"
+    },
+    {
+      "title": "जलवायु न्यायका लागि हिमाली र टापु राष्ट्रबीच सहकार्य आवश्यक : परराष्ट्रमन्त्री खनाल",
+      "description": "काठमाडौँ। परराष्ट्रमन्त्री शिशिर खनालले जलवायु परिवर्तनका कारण जोखिममा रहेका मुलुकहरूको साझा आवाजलाई सशक्त बनाउन हिमाली राष्ट्र र साना टापु विकासशील राष्ट्रबीच थप सुदृढ सहकार्य आवश्यक रहेको बताएका छन्। संयुक्त राष्ट्रसंघको ८१औँ महासभाका अवसरमा जलवायु जोखिममा रहेका राष्ट्रहरूको मञ्च (सीभीएफ)को नेताहरूको बैठकलाई सम्बोधन गर्दै उनले जलवायु न्याय सुनिश्चित गर्न स",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T03:56:22+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/cooperation-between-himalayan-and-island-nations-necessary-for-climate-justice-foreign-minister-khanal/",
+      "category": "business"
+    },
+    {
+      "title": "सिन्धुको पानी रोक्ने प्रयास ‘युद्धको कदम’ : पाकिस्तानी प्रधानमन्त्री शरीफ",
+      "description": "१० असोज, काठमाडौं । पाकिस्तानका प्रधानमन्त्री शहबाज शरीफले सिन्धु नदीको पानी रोक्ने भारतको कुनै पनि प्रयासलाई पाकिस्तानले ‘युद्धको कदम’ मान्ने बताएका छन्। न्युयोर्कमा चलिरहेको संयुक्त राष्ट्रसङ्घ महासभाको ८१ औँ अधिवेशनलाई सम्बोधन गर्दै शहबाज शरीफले शुक्रबार यो कुरा बताएका हुन्। उनले भने, ‘सिन्धु नदीको पानी पाकिस्तान मात्र होइन, पूरै क्षेत्रको लागि लाइफ लाइन ",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/02/sahabaj-sarif.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T03:54:35+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026115/attempt-to-stop-indus-water-is-act-of-war-pakistani-pm-sharif",
+      "category": "politics"
+    },
+    {
+      "title": "पुरुष म्याराथनमा नेपालका खड्का अन्तिम स्थानमा",
+      "description": "१० असोज, काठमाडौं । २०औं एसियन गेम्सअन्तर्गत पुरुष म्याराथनमा नेपालका बहादुर खड्का अन्तिम स्थानमा रहेर दौड पूरा गरेका छन् । खड्काले निर्धारित दूरी २ घण्टा २३ मिनेट ४२ सेकेन्डमा पूरा गरे । उनी विजेता जापानका इचिताका यामाशिताभन्दा १२ मिनेट ५३ सेकेन्ड पछि रहे । जापानका यामाशिताले २ घण्टा १० मिनेट ४९ सेकेन्डमा दौड पूरा गर्दै […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/khadka-bahadur-khadka.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T03:53:03+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026113/nepals-khadka-finishes-last-in-mens-marathon",
+      "category": "national"
+    },
+    {
+      "title": "म्याग्दीका सबै स्थानीय तहमा कांग्रेसको नयाँ नेतृत्व चयन",
+      "description": "म्याग्दी । नेपाली कांग्रेसको १५ औँ महाधिवेशनअन्तर्गत म्याग्दीका सबै स्थानीय तहमा नेतृत्व चयन भएको छ । धौलागिरि, मालिका, रघुगङ्गा, अन्नपूर्ण गाउँपालिका, बेनी नगरपालिकामा सर्वसम्मत नेतृत्व चयन भएको हो । मङ्गला गाउँपालिकामा भने मतदान प्रक्रियाबाट गोपाल भट्टचन",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/congress-flage_yfpsinwjgs_WJOoG2Mssn.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T03:50:44+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595004/new-congress-leadership-elected-at-all-local-levels-in-myagdi",
+      "category": "politics"
+    },
+    {
+      "title": "सुस्ताका १६५ घरमा बाढी पस्यो, जोखिममा बस्ती",
+      "description": "पश्चिम नवलपरासीको सुस्ता गाउँपालिका–५ मा नारायणी नदीको बाढी पसेपछि १६५ घरपरिवार उच्च जोखिममा परेका छन्। शुक्रबारदेखि थारु टोलबाट बस्तीमा पस्न थालेको बाढी शनिबारसम्म सैनिक टोल र बड्का टोलसम्म पुगेको हो।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-26T03:50:04+00:00",
+      "articleUrl": "https://nepallive.com/story/351074",
+      "category": "national"
+    },
+    {
+      "title": "प्रधानमन्त्री शाहको राष्ट्रसंघीय सम्बोधनलाई अन्तर्राष्ट्रिय मिडियाले कसरी हेरे ?",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-26T03:48:00+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/146286",
+      "category": "politics"
+    },
+    {
+      "title": "लगातारको वर्षाले गुल्मीको जनजीवन प्रभावित, सडक अवरुद्ध, विद्यालय बन्द",
+      "description": "गुल्मी । लगातारको वर्षाका कारण गुल्मीको जनजीवन प्रभावित भएको छ । कालिगण्डकी करिडोर अन्तर्गतको गुल्मी खण्ड र बुटवल हुँदै बुर्तिबाङ जाने सडकको गुल्मीखण्ड अवरुद्ध छ । कालिगण्डकी गाउँपालिका वडा नं. २ राक्से र वडा नं. ४",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/pahiro_DlTNPbiB6E.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T03:47:14+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595003/continuous-rains-affect-normal-life-in-gulmi-roads-blocked-schools-closed",
+      "category": "national"
+    },
+    {
+      "title": "सुस्ताको बस्तीमा पस्यो नारायणीको बाढी, १५० बढी घरपरिवार उच्च जोखिममा",
+      "description": "प्रमुख जिल्ला अधिकारी दीपकराज नेपालले जोखममा परेका परिवारलाई उद्धार गर्न सुरक्षाकर्मीको टोली तयारी अवस्थामा राखिएको बताए ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/susta-badhi-2.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T03:39:37+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026108/narayani-flood-enters-susta-settlement-more-than-150-households-at-high-risk",
+      "category": "national"
+    },
+    {
+      "title": "बाढीले पुल बगाएपछि अस्तव्यस्त छ रसुवा, नुवाकोट र धादिङको आवतजावत (तस्बिरहरू)",
+      "description": "काठमाडौँ । भदौ १० गते रसुवाको भोटेकोशीमा आएको भीषण बाढीले रसुवा, नुवाकोट र धादिङसहितका जिल्लामा सडक तथा पुलमा भएको क्षतिले आवतजावत प्रभावित छ । त्रिशूली वारपार गर्न वैकल्पिक सडक प्रयोग गर्नुपर्ने, घण्टौँ पालो पर्खिएर तुइनको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/19-bridge--49_4OV0qJti88.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T03:39:21+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595002/traffic-in-rasuwa-nuwakot-and-dhading-disrupted-after-flood-washes-away-bridge-photos",
+      "category": "national"
+    },
+    {
+      "title": "नेपाल समूह विजेता बन्दै क्वार्टरफाइनलमा, श्रीलंकासँग प्रतिस्पर्धा गर्ने",
+      "description": "काठमाडौं। जापानको आइची-नागोयामा जारी २०औँ एसियाली खेलकुदअन्तर्गत पुरुष क्रिकेटमा नेपाल समूह विजेताका रूपमा क्वार्टरफाइनलमा प्रवेश गरेको छ। शनिबार जापानविरुद्धको खेल वर्षाका कारण अनिर्णित रूपमा सकिएपछि नेपालले समूह ‘ए’को शीर्ष स्थान सुरक्षित गरेको हो। लगातारको वर्षाका कारण खेल १५-१५ ओभरमा झारिएको थियो। टस हारेर पहिले ब्याटिङ गरेको नेपालले निर्धारित १५ ओभरमा ४",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T03:36:15+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/nepal-advances-to-quarterfinals-as-group-winner-to-face-sri-lanka/",
+      "category": "business"
+    },
+    {
+      "title": "पहिरोले कर्णालीका विभिन्न सडक अवरुद्ध",
+      "description": "लगातारको वर्षासँगै पहिरो खस्दा कर्णाली प्रदेशका विभिन्न जिल्लाका सडक अवरुद्ध भएका छन्। मध्यपहाडी राजमार्ग, कर्णाली राजमार्ग, कर्णाली करिडोर, राप्ती राजमार्गसहित विभिन्न सडकखण्डमा पहिरो खसेपछि यातायात सेवा प्रभावित भएको हो।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-09-26T03:36:00+00:00",
+      "articleUrl": "https://nepallive.com/story/351068",
+      "category": "national"
+    },
+    {
+      "title": "एसियन गेम्स ब्याडमिन्टन : रशिला, रिहाना र क्षितिज बाहिरिए",
+      "description": "१० असोज, काठमाडौं । २०औं एसियन गेम्सअन्तर्गत ब्याडमिन्टनको सिंगल्समा नेपालका रशिला महर्जन, रिहाना शेरचन र क्षितिज खनाल दोस्रो चरणबाट बाहिरिएका छन् । महिला सिंगल्समा रशिला चीनकी वाङ झी यीसँग २–० को सोझो सेटमा पराजित भइन् । विश्वस्तरकी बलियो प्रतिद्वन्द्वीविरुद्ध रशिलाले प्रतिस्पर्धा गरे पनि २१-४ र २१-२ ले पराजित हुँदै अर्को चरणमा पुग्न सकिनन् । यस्तै, […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2022/04/Rashila-Maharjan.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T03:33:31+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026106/asian-games-badminton-rashila-and-kshitij-out",
+      "category": "national"
+    },
+    {
+      "title": "होर्मुज जलमार्ग एक साताभित्रै खोल्ने गरी अमेरिकालाई इरानको सम्झौता प्रस्ताव",
+      "description": "इरानको प्रस्तावबारे जिज्ञासा राख्दा एक अमेरिकी अधिकारीले मध्यस्थकर्ताहरूमार्फत्‌ सकारात्मक वार्ता भइरहेको र परमाणु मुद्दाहरूमाथि छलफल पनि त्यसमा समावेश रहेको बीबीसीलाई बताएका छन्।",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/dc36/live/9aab6df0-b959-11f1-a430-4d16ee157c41.jpg",
+      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
+      "sourceName": "feeds.bbci.co.uk",
+      "publishedTime": "2026-09-26T03:30:57+00:00",
+      "articleUrl": "https://www.bbc.com/nepali/articles/cmzxzz1qdkp0o?at_medium=RSS&at_campaign=rss",
+      "category": "national"
+    },
+    {
+      "title": "महामारी रोकथाम तथा तयारीका लागि विश्वव्यापी सहयोग घट्नु चिन्ताजनक- परराष्ट्रमन्त्री खनाल",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-26T03:30:00+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/146289",
+      "category": "politics"
+    },
+    {
+      "title": "आहा ! क्या रमणीय इन्द्रसरोवर (तस्वीरहरू)",
+      "description": "डाँडाका हरियाली चौरहरूमा चरिरहेका भेडा तथा बाख्राका बथानहरू, तिनीहरूलाई पछ्याउँदै हिँड्ने गोठालाहरूको साइनो र आत्मीय जीवनशैलीले यो क्षेत्रको मौलिकतालाई अझ प्रगाढ बनाएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Kulekhani-Dam-Photo-Kamal-Prasain-3.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T03:28:08+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026077/oh-what-a-beautiful-indrasarovar-pictures",
+      "category": "national"
+    },
+    {
+      "title": "के राति भात वा रोटी खाँदा साँच्चै तौल बढ्छ?",
+      "description": "काठमाडौँ । तपाईंले अक्सर आफ्नो घर वा वरपरका मानिसहरूले ‘राति भात खाँदा तौल बढ्छ, रोटी खाँदा पनि मोटोपन बढ्न सक्छ, त्यसैले रातिको खानामा कार्बोहाइड्रेट खानु हुँदैन’ भनेको सुन्नुभएको होला। तर के साँच्चै यस्तै हो त? के",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rice_8iVBPkE2gy.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T03:25:49+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595001/does-eating-rice-or-roti-at-night-really-cause-weight-gain",
+      "category": "national"
+    },
+    {
+      "title": "विपद् आउनुअघि नै चितवन प्रहरीको सक्रियता, नागरिक सुरक्षामा विशेष तयारी",
+      "description": "चितवन । विपद् आउनुअघि नै सम्भावित जोखिमको पहिचान गर्दै चितवन प्रहरीले नागरिकको सुरक्षाका लागि सक्रियता बढाएको छ। बाढी, पहिरोलगायतका विपद्को सम्भावनालाई मध्यनजर गर्दै नेपाल प्रहरी, ट्राफिक प्रहरी र सशस्त्र प्रहरी परिचालन गरी सुरक्षा व्यवस्थालाई थप",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/825260918_1573987294474823_4721916328588788419_n_1troWxF3Ua.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T03:22:07+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595000/chitwan-police-proactively-prepares-for-civil-security-even-before-disaster-strikes",
+      "category": "national"
+    },
+    {
+      "title": "बारामा ट्रकको ठक्करबाट स्कुटर चालकको मृत्यु",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-26T03:21:00+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/146287",
+      "category": "national"
+    },
+    {
+      "title": "म्यानचेस्टर सिटी दोषी ठहर, अब के हुन्छ क्लबको उपाधि र भविष्य?",
+      "description": "इंग्लिस क्लब म्यानचेस्टर सिटीमाथि लागेको ११५ वटा वित्तीय नियम उल्लंघनसम्बन्धी आरोपमा फैसला भएको खबरले विश्व फुटबल तरंगित बनेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-26T03:19:00+00:00",
+      "articleUrl": "https://www.setopati.com/sports/football/399275",
+      "category": "national"
+    },
+    {
+      "title": "एसियाड क्रिकेट - नेपाल क्वाटरफाइनलमा, अब श्रीलंकासँग खेल्ने",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-09-26T03:15:00+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/174977",
+      "category": "sports"
+    },
+    {
+      "title": "जापानविरुद्धको खेल रद्द भए पनि समूह विजेता बन्दै नेपाल अघिल्लो चरणमा",
+      "description": "टोकियो । एसियाली खेलकुद अन्तर्गत पुरुष क्रिकेटको समूह ‘ए’ मा रहेको नेपाल समूह विजेता बन्दै अघिल्लो चरणमा प्रवेश गरेको छ। जापानविरुद्धको पछिल्लो खेल वर्षाका कारण नतिजाविहीन बनेपछि १ अंक जोड्दै नेपाल ३ अंकसहित तालिकाको शीर्ष",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/lokesh_HkrLrlIpL0.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T03:14:48+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594999/nepal-advances-to-the-next-round-as-group-winner-despite-cancellation-of-match-against-japan",
+      "category": "national"
+    },
+    {
+      "title": "ट्रम्पले अस्वीकार गरे हर्मुज खोल्ने इरानको नयाँ प्रस्ताव",
+      "description": "अमेरिकाले हर्मुज जलमार्ग सात दिनभित्र पुनः खोल्ने इरानको नयाँ प्रस्ताव अस्वीकार गरेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-26T03:14:09+00:00",
+      "articleUrl": "https://www.setopati.com/social/399273",
+      "category": "national"
+    },
+    {
+      "title": "बालेनले पाए अन्तराष्ट्रिय कभरेज, प्रतिपक्षी दलहरुको पनि तारिफ !",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
+      "sourceName": "न्यूज २४ नेपाल",
+      "publishedTime": "2026-09-26T03:11:37+00:00",
+      "articleUrl": "https://www.news24nepal.com/detail/13812",
+      "category": "politics"
+    },
+    {
+      "title": "जापानसँगको खेल वर्षाले प्रभावित हुँदा नेपाल समूह ‘ए’को विजेता, अन्तिम आठमा श्रीलंकासँग भिड्ने",
+      "description": "जापानको इची–नागोयामा जारी २०औँ एसियाली खेलकुदअन्तर्गत पुरुष क्रिकेटमा नेपाल समूह ‘ए’को विजेता बनेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-09-26T03:11:00+00:00",
+      "articleUrl": "https://www.setopati.com/sports/cricket/399274",
+      "category": "national"
+    },
+    {
+      "title": "नेपाल र सर्बियाबीच द्विपक्षीय परामर्श संयन्त्र स्थापना गर्ने सहमति",
+      "description": "काठमाडौँ। नेपाल र सर्बियाबीच द्विपक्षीय परामर्श संयन्त्र (बीसीएम) स्थापना गर्ने सम्बन्धी समझदारीपत्रमा हस्ताक्षर भएको छ। संयुक्त राष्ट्रसंघको ८१औं महासभामा सहभागी हुने क्रममा न्युयोर्कमा आयोजित साइडलाइन कार्यक्रममा परराष्ट्रमन्त्री शिशिर खनाल र सर्बियाका परराष्ट्रमन्त्री मार्को डुरिचले द्विपक्षीय परामर्श संयन्त्रसम्बन्धी समझदारीपत्रमा हस्ताक्षर गरेका हुन्। द",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T03:08:35+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/nepal-and-serbia-agree-to-establish-bilateral-consultation-mechanism/",
+      "category": "business"
+    },
+    {
+      "title": "अफगानिस्तानमाथि नेपालको सहज जित, सन्दीप र रोहित जितको सुत्राधार",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
+      "sourceName": "न्यूज २४ नेपाल",
+      "publishedTime": "2026-09-26T03:08:03+00:00",
+      "articleUrl": "https://www.news24nepal.com/detail/13811",
+      "category": "national"
+    },
+    {
+      "title": "इरानले अमेरिकालाई गर्‍यो ७ दिनभित्र स्ट्रेट अफ होर्मुज खोल्ने प्रस्ताव",
+      "description": "१० असोज, काठमाडौं । इरानले अमेरिकासामु केही सर्त पूरा भए एक साताभित्र स्ट्रेट अफ होर्मुज पुनः खोल्ने प्रस्ताव गरेको छ । इरानका विदेशमन्त्री अब्बास अराग्चीले शुक्रबार संयुक्त राष्ट्रसंघको मुख्यालयमा पत्रकारहरूसँग कुराकानी गर्दै यस्तो जानकारी दिएका हुन् । उनका अनुसार अमेरिकाले सम्झौतामा उल्लेख गरिएका आवश्यक सर्त पूरा गरेपछि होर्मुज जलडमरू खोल्ने प्रक्रिया सुरु",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/03/abbas-araghchi-900px.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T03:07:11+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026071/iran-offers-us-to-open-strait-of-hormuz-within-7-days",
+      "category": "national"
+    },
+    {
+      "title": "संयुक्त राष्ट्रसंघमा प्रधानमन्त्री बालेन्द्र शाहको सम्बोधन: कूटनीतिक दृष्टिकोण र दीर्घकालीन प्रभाव",
+      "description": "हालै प्रधानमन्त्री बालेन्द्र (बालेन) शाहले संयुक्त राष्ट्रसंघको ८१औँ महासभामा नेपालको तर्फबाट गरेको सम्बोधनको विषयवस्तुले आममानिस र कूटनीतिक वृत्तको ध्यान आकर्षित गरेको छ। नेपालजस्ता जलवायु-संवेदनशील र अल्पविकसित देशहरूले अन्तर्राष्ट्रिय मञ्चमा उठाउनुपर्ने 'एजेन्डा'हरूको यो एउटा स्वाभाविक दस्ताबेज",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/janak_7gUo3GkfvC.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T03:02:12+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594998/prime-minister-balendra-shahs-address-to-the-united-nations-diplomatic-approach-and-long-term-impact",
+      "category": "politics"
+    },
+    {
+      "title": "इन्द्रजात्राको रौनाक",
+      "description": "काठमाडौं उपत्यकाको काठमाडौँ शहर यतिबेला देवदेवी, रथ, लाखे र पुलुकिसीको रंगमा रंगिएको छ । अर्थात काठमाडौको सबैभन्दा उल्लासमय पर्व इन्द्रजात्रा शुरु भएको छ । वर्षा र सहकालका देवता देवराज इन्द्रको पूजा–आराधनासँग जोडिएको इन्द्रजात्राको मुख्य आकर्षण कुमारी, गणेश र भैरवको रथयात्रा शुक्रबारबाट सुरु भएको छ ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
+      "sourceName": "न्यूज २४ नेपाल",
+      "publishedTime": "2026-09-26T03:02:00+00:00",
+      "articleUrl": "https://www.news24nepal.com/detail/13810",
+      "category": "national"
+    },
+    {
+      "title": "कोही फोटो–भिडियो खिच्दै त कोही टीकटक बनाउँदै, सर्वसाधारण किन अटेरी ?",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
+      "sourceName": "न्यूज २४ नेपाल",
+      "publishedTime": "2026-09-26T02:58:25+00:00",
+      "articleUrl": "https://www.news24nepal.com/detail/13809",
+      "category": "national"
+    },
+    {
+      "title": "एसियन गेम्स क्रिकेटको क्वाटरफाइनलमा नेपालले श्रीलंकासँग खेल्ने",
+      "description": "१० असोज, काठमाडौं । २०औं एसियन गेम्सअन्तर्गत पुरुष क्रिकेटको क्वाटरफाइनलमा नेपालले श्रीलंकासँग खेल्ने भएको छ । समूह ‘ए’ को विजेता बन्दै क्वाटरफाइनलमा प्रवेश गरेको नेपालले श्रीलंकासँग खेल्ने भएको हो । शुक्रबार जापानसँगको समूह चरणको अन्तिम खेल वर्षाका कारण नतिजाविहीन भएपछि दुवै टोलीले १–१ अंक बाँडे । त्यससँगै नेपालले दुई खेलबाट ३ अंक जोड्दै समूह विजेताको […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/nepali-cricket-team-asian-games-2026-033.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T02:55:59+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026072/nepal-to-play-sri-lanka-in-asian-games-cricket-quarterfinals",
+      "category": "national"
+    },
+    {
+      "title": "अविरल वर्षाले देशभरका राजमार्ग प्रभावित, दर्जनौँ सडकखण्ड अवरुद्ध",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-09-26T02:55:28+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/146292",
+      "category": "national"
+    },
+    {
+      "title": "कांग्रेसको दोस्रो पुस्ता नेतृत्वको प्रतिस्पर्धाबाट रिङआउट",
+      "description": "लामो राजनीतिक अनुभव, पार्टीमा विगतमा पदीय भूमिका, मूल नेतृत्वका लागि गरिएको प्रतिस्पर्धा, विरासत लगायतका कारणले कांग्रेसका दोस्रो उमेर समूहका नेताहरुले सभापति पदको प्रतिस्पर्धी हुन खोज्नु स्वभाविक हो । तर, १५ औं महाधिवेशनमा तेस्रो उमेर समूहबीच प्रतिस्पर्धा हुने छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Congress-Leaders.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T02:54:44+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025833/the-second-generation-of-congress-is-out-of-the-leadership-race",
+      "category": "politics"
+    },
+    {
+      "title": "पहिरोले कर्णालीका प्रमुख सडकहरू अवरुद्ध",
+      "description": "मध्यपहाडी राजमार्ग, कर्णाली राजमार्ग, राप्ती राजमार्ग तथा जाजरकोटको छेडाथलह सडक पहिरोका कारण अवरुद्ध भएका हुन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/karnali-sadak.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T02:48:34+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026056/landslides-block-major-roads-in-karnali",
+      "category": "national"
+    },
+    {
+      "title": "डडेलधुरामा २४ घण्टा सवारीसाधन सञ्चालनमा पूर्ण रोक",
+      "description": "धनगढी । जिल्ला प्रशासन कार्यालय डडेलधुराले जिल्लाभर लामो तथा छोटो दूरीका सार्वजनिक तथा निजी सवारीसाधन सञ्चालनमा पूर्ण रोक लगाएको छ। प्रमुख जिल्ला अधिकारी वेदराज फूयलले शनिबार बिहान सूचना जारी गर्दै असोज १० गते बिहान ७ बजेदेखि",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dadeldhura_u6OzpfrHZt.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T02:46:57+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594997/complete-ban-on-vehicle-operations-in-dadeldhura-for-24-hours",
+      "category": "national"
+    },
+    {
+      "title": "अविरल वर्षाले संखुवासभाको जनजीवन प्रभावित",
+      "description": "संखुवासभा। अविरल वर्षाले सङ्खुवासभाको जनजीवन प्रभावित भएको छ भने बाढी पहिरोको जोखिम पनि बढेको छ। मादी नगरपालिका–४ ओखरबोटेका विनोद निरौलाको घर र एउटा विद्यालय भवन पनि पहिरोको जोखिममा छ। जिल्ला प्रहरी कार्यालयका सूचना अधिकारी धनबहादुर राजवंशीका अनुसार घरमाथिबाट पहिरो खसेपछि निरौलाको पाँच जनाको परिवार विस्थापित भएको छ। लगातारको वर्षासँगै चैनपुर–६ भञ्ज्याङखर्कमा",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T02:46:41+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/incessant-rains-affect-normal-life-in-sankhuwasabha/",
+      "category": "business"
+    },
+    {
+      "title": "जापान र नेपालबीचको खेल नतिजाविहीन, नेपाल समूहविजेता बन्दै क्वाटरफाइनलमा",
+      "description": "१० असोज, काठमाडौं । २०औं एसियन गेम्सअन्तर्गत पुरुष क्रिकेटमा जापान र नेपालबीचको खेल वर्षाका कारण नतिजाविहीन भएको छ । वर्षाका कारण खेल सुरु हुनै ढिला भएको थियो । करिब एक घण्टा ढिला सुरु भएको खेल १५ ओभरमा झारिएको थियो । टस हारेर पहिले ब्याटिङको निम्तो पाएको नेपालले ४ विकेट गुमाएर १४९ रन बनाएको थियो । […]",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T02:46:39+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026066/the-match-between-japan-and-nepal-ended-in-a-draw-nepal-emerged-as-group-winners-and-advanced-to-the-quarterfinals",
+      "category": "national"
+    },
+    {
+      "title": "एकै महिना ६३ अर्ब ऋण प्रवाह, तरलता सुधारको संकेत देखिएको हो?",
+      "description": "काठमाडौँ । बैंकहरुको कर्जा प्रवाहमा उत्साहजनक सुधार देखिन थालेको छ । नेपाल राष्ट्र बैंकको तथ्यांक अनुसार चालु आर्थिक वर्ष २०८३/८४ को भदौ महिनामा झण्डै ६३ अर्ब रुपैयाँ थप कर्जा प्रवाह भएसँगै यस्तो संकेत देखिएको हो",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nepal-rastra-bank-cover_Ab0OhM1Keg.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T02:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594985/63-billion-in-credit-flow-in-a-single-month-are-there-any-signs-of-liquidity-improvement",
+      "category": "national"
+    },
+    {
+      "title": "कोशी ब्यारेजमा पानीको बहाव ३ लाख १६ हजार क्यूसेक नाघ्यो: ४३ ढोका खोलिए",
+      "description": "विराटनगर । सप्तकोशी नदीमा पानीको बहाव लगातार बढेपछि कोशी ब्यारेजमा स्थिति खतराको तहभन्दा माथि पुगेको छ। प्राप्त पछिल्लो विवरणअनुसार कोशी ब्यारेजमा पानीको बहाव ३,१६,७९५ (तीन लाख १६ हजार सात सय ९५) क्यूसेक पुगेको छ। अविरल वर्षाका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/koshi-barrage_qq0fxrw11j_jZ7jmm1avY.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T02:44:20+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594996/water-flow-at-koshi-barrage-exceeds-316000-cusecs-43-gates-opened",
+      "category": "national"
+    },
+    {
+      "title": "जल सतह बढेपछि कोशी ब्यारेजका ४३ वटा ढोका खोलियो",
+      "description": "काठमाडौं । केही दिनदेखिको अविरल वर्षाका कारण सप्तकोशी नदीमा पानीको सतह बढेपछि कोशी ब्यारेजका ४३ वटा ढोका खोलिएका छन् । शनिबार बिहान ६ बजेपछिको जलसतह मापन अनुसार कोशी ब्यारेजमा प्रतिसेकेन्ड ३ लाख १६ हजार ७ सय ९५ क्युसेक पानी रहेको छ। जलसतह निकै माथि पुगेपछि ४३ वटा ढोका खोलिएको हो । शुक्रबार बिहान १० बजे […]",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-09-26T02:31:03+00:00",
+      "articleUrl": "https://clickmandu.com/2026/09/494702.html",
+      "category": "business"
+    },
+    {
+      "title": "भारी वर्षाको पूर्वानुमानपछि सुदूरपश्चिमका दुई जिल्लामा यातायात सेवा बन्द",
+      "description": "बैतडी । लगातारको वर्षाका कारण बाढीपहिरोको जोखिम बढेपछि जिल्ला प्रशासन कार्यालयले आज बिहान ६ः०० बजेदेखि भोलि बिहान ६ः०० बजेसम्म जिल्लाभर सार्वजनिक सवारीसाधन सञ्चालनमा रोक लगाएको छ । मौसम पूर्वानुमान महाशाखा र राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rain_3YmWkHkE61.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T02:27:22+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594993/transport-services-suspended-in-two-districts-of-the-far-west-after-heavy-rains-forecast",
+      "category": "national"
+    },
+    {
+      "title": "एसियाड क्रिकेट - जापानविरुद्ध सन्दीप र लोकेशको अर्धशतक",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-09-26T02:26:00+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/174976",
+      "category": "sports"
+    },
+    {
+      "title": "जोरा र लोकेशको अर्धशतकमा नेपालको बलियो योगफल",
+      "description": "जोरा ३२ बलमा ५७ तथा लोकेश २२ बलमा ५२ रनमा अविजित रहे । आसिफ शेखले २१ रन बनाए ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/jora-nepal.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T02:21:49+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026040/nepals-strong-total-with-jora-and-lokeshs-half-centuries",
+      "category": "national"
+    },
+    {
+      "title": "सन्दीप जोरा र लोकेश बमको उत्कृष्ट अर्धशतक, जापानलाई १५० रनको लक्ष्य",
+      "description": "टोकियो । एसियाली खेलकुद अन्तर्गत पुरुष क्रिकेट प्रतियोगिताको समूह ‘ए’ को खेलमा नेपालले जापानसामु जितका लागि १५० रनको लक्ष्य प्रस्तुत गरेको छ। टस हारेर पहिले ब्याटिङको निम्तो पाएको नेपालले निर्धारित १५ ओभरमा ४ विकेट गुमाउँदै १४९",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rohit_yJkZHToJJG.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T02:20:24+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594992/asian-games-sandeep-jora-and-lokesh-bam-score-brilliant-half-centuries-set-japan-a-target-of-150-runs",
+      "category": "national"
+    },
+    {
+      "title": "विपद्सम्बन्धी विशेष व्यवस्था प्रस्ताव- बेपत्ता भएर शव नभेटिए मृत्यु दर्ता हुने",
+      "description": "विपद् संकट ग्रस्तक्षेत्र घोषणा गरी वा नगरी खोज तथा उद्धार गर्नुपर्ने अवस्थामा त्यस्तो विपद्मा परी बेपत्ता भएका व्यक्ति फेला नपरेमा प्रचलित कानुन बमोजिम नेपाल सरकारले निर्णय गरेको अवस्थामा मृत्युको न्यायिक घोषणा गरिरहनु पर्ने छैन ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Bipad-mritu-darta.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T02:15:24+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025896/special-disaster-related-provisions-proposed-death-will-be-registered-if-the-body-is-missing-and-not-found",
+      "category": "national"
+    },
+    {
+      "title": "श्रीलंकाले सन् २०२६ मा सार्वजनिक सेवामा सवा लाख व्यक्तिलाई सार्वजनिक क्षेत्रमा रोजगारी दिने",
+      "description": "काठमाडौँ। श्रीलंकाले सन् २०२६ मा सार्वजनिक सेवामा एक लाख २० हजारभन्दा बढी व्यक्ति भर्ना गर्ने कार्यक्रम सुरु गरेको सार्वजनिक प्रशासन मन्त्री चन्दना अबेयरत्नेले शुक्रबार बताएका छन्। “यस भर्नाले शिक्षा, स्वास्थ्य र कृषिलगायत सार्वजनिक क्षेत्रका विभिन्न क्षेत्रमा रहेका खाली पदहरू पूर्ति गर्नेछ,” अबेयरत्नेले पत्रकारहरूसँग भने। कार्यक्रमअन्तर्गत करिब ३० हजार शिक्",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T02:13:25+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/sri-lanka-to-employ-1-25-million-people-in-public-service-by-2026/",
+      "category": "business"
+    },
+    {
+      "title": "गर्भावस्थामा महिलाको स्मरणशक्ति किन कमजोर हुन्छ ?",
+      "description": "काठमाडौँ। के तपाईं भान्सामा गएर आफू त्यहाँ के लिन आएको हो भन्ने सोच्दै अक्सर उभिइरहनुहुन्छ ? वा साँचो राखेको ठाउँ बिर्सनु तपाईंको लागि सामान्य कुरा भएको छ ? यदि तपाईं गर्भवती हुनुहुन्छ भने, विश्वास गर्नुहोस् यसमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/pp_KbEe9NPPYF.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T02:12:56+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594991/why-does-a-womans-memory-deteriorate-during-pregnancy",
+      "category": "national"
+    },
+    {
+      "title": "नेपालले न्युयोर्कमा आयोजना गर्यो ‘सगरमाथादेखि समुद्रसम्म’ नामक विशेष कार्यक्रम",
+      "description": "न्युयोर्क । जलवायु परिवर्तन विषयलाई विश्वसामु बलियो रूपमा उठाउन नेपालले अमेरिकाको न्युयोर्कमा ‘सगरमाथादेखि समुद्रसम्म’ नामक विशेष कार्यक्रम आयोजना गरेको छ। परराष्ट्रमन्त्री शिशिर खनालको नेतृत्वमा संयुक्त राष्ट्रसंघको मुख्यालयमा नेपालद्वारा आयोजित ‘सगरमाथा टु द सी: अ कल",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/sishir_xMqBqsJjtm.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T02:08:45+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594990/nepal-organized-a-special-program-titled-from-everest-to-the-sea-in-new-york",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी-त्रिशूली बाढीको एक महिनासम्म राहत तथा पुनर्स्थापनाका लागि के भयो, गर्न बाँकी केके रह्यो?",
+      "description": "भोटेकोशी-त्रिशूली बाढीपछि अबको चुनौती बाढीका कारण क्षति पुगेका ७,५०० भन्दा बढी घरमा बस्ने मानिसहरूको स्थानान्तरण र प्रभावित करिब ३३,००० मानिसहरूको पुनर्स्थापना रहेको राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणले जनाएको छ।",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/db59/live/5cc8ea60-b8f7-11f1-b57c-437a6c3aeb18.jpg",
+      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
+      "sourceName": "feeds.bbci.co.uk",
+      "publishedTime": "2026-09-26T02:08:45+00:00",
+      "articleUrl": "https://www.bbc.com/nepali/articles/cr86xxle6q83o?at_medium=RSS&at_campaign=rss",
+      "category": "national"
+    },
+    {
+      "title": "द मिनिएचरिस्ट अफ जुनागढ : ‘मजबुरी’, ‘जुनुन’ र ‘दर्द’ को पेरुङ्गो",
+      "description": "हुसेन : पूरै चिया एकैपटक नसक्नु । कपमा एक घुट्को अवश्य छाडिदिनु । नूर : किन ? हुसेन : जसले चियाको अन्तिम घुट्को छाड्छ, ऊ त्यसकै तृष्णालाई पछ्याएर जुनागढ पक्कै फर्कन्छ । …………. घरसँगको वियोगको क्षण—जसको आहतलाई संसारका कुनै माध्यममा व्यक्त गर्न गाह्रो छ। जीवन सङ्घारमा उभिएको छ, बाहिर एउटा अपरिचित यात्राले पर्खिरहेको छ, भित्र […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/image-62.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T02:02:58+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026043/the-miniaturists-of-junagadh-compulsion-passion-and-pain",
+      "category": "national"
+    },
+    {
+      "title": "नेपाल र काजकिस्तानबिच कूटनीतिक तथा सरकारी राहदानीवाहकलाई भिसा छुट दिने सम्झौता",
+      "description": "न्युयोर्क । नेपाल र काजकिस्तानबिच कूटनीतिक तथा सरकारी सेवा राहदानीवाहकलाई भिसा छुट दिने सम्बन्धी सम्झौतामा हस्ताक्षर भएको छ। संयुक्त राष्ट्रसंघको ८१औँ महासभाका अवसरमा न्युयोर्कमा आयोजित साइडलाइन कार्यक्रममा नेपालका परराष्ट्रमन्त्री शिशिर खनाल र काजकिस्तानका परराष्ट्रमन्त्री मुख्तार त्लिउबर्दीले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kajkistan_jKLD29brZs.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T02:02:24+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594989/agreement-between-nepal-and-kazakhstan-granting-visa-exemption-to-diplomatic-and-official-passport-holders",
+      "category": "politics"
+    },
+    {
+      "title": "संयुक्त राष्ट्रसंघको महासभामा सहभागी भएर प्रधानमन्त्री बालेन आज स्वदेश फर्किंदै",
+      "description": "१० असोज, काठमाडौं । प्रधानमन्त्री वालेन्द्र शाह (बालेन) संयुक्त राष्ट्रसंघको ८१औँ महासभामा सहभागी भएर आज स्वदेश फर्किँदै छन्। महासभामा सहभागी हुन प्रधानमन्त्री शाह मंगलबार साँझ अमेरिका प्रस्थान गरेका थिए। उनले ८ गते महासभालाई सम्बोधन गरेका थिए। महासभामा सहभागी हुने क्रममा प्रधानमन्त्री शाहले विभिन्न देशका प्रतिनिधि तथा अन्तर्राष्ट्रिय समुदायका प्रतिनिधिसँग भ",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/balen-shaha_UN.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T02:00:50+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026042/prime-minister-balen-is-returning-home-today-after-attending-the-united-nations-general-assembly",
+      "category": "politics"
+    },
+    {
+      "title": "बाढीपहिरोले देशभरका मुख्य राजमार्ग अवरुद्ध, दर्जनौँ सडकमा रात्रिकालीन यात्रामा रोक",
+      "description": "काठमाडौँ । नेपाल प्रहरीले जारी गरेको शनिबार बिहान ७ बजेसम्मको तथ्यांकअनुसार अविरल वर्षाका कारण आएको बाढी र पहिरोले देशभरका मुख्य राजमार्गहरू अवरुद्ध भएका छन्। बागमती र कोशी प्रदेशका विभिन्न जिल्लामा सडक सञ्जाल पूर्ण रूपमा टुटेको छ।",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-pahiro-photos-(2)_CC6tz1um6E.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T01:57:55+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594988/floods-and-landslides-block-major-highways-across-the-country-banning-night-travel-on-dozens-of-roads",
+      "category": "national"
+    },
+    {
+      "title": "चोरीको सुन किन्ने दुई सुनचाँदी व्यवसायी पक्राउ",
+      "description": "रामेछाप । चोरी सम्बन्धी मुद्दाको अनुसन्धानका क्रममा चोरीको सुन खरिद गर्ने थप दुई जना सुनचाँदी पसलका सञ्चालक पक्राउ परेका छन्। प्रतिवादी मैया कार्कीले बयानका क्रममा आफूले चोरी गरेको सुनका गहना उनीहरूले सञ्चालन गरेको पसलमा बिक्री गरेको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/825311057_2714909182259917_42869664087884464_n_qNJPnnpInR.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T01:55:11+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594987/two-gold-and-silver-merchants-arrested-for-buying-stolen-gold",
+      "category": "national"
+    },
+    {
+      "title": "‘इन द रेल्म अफ द लास्ट म्यान’ समीक्षा : उदारवादका समस्याहरूको शल्यक्रिया",
+      "description": "सन् १९८९ मा बर्लिनको पर्खाल ढल्नुअघि प्रकाशित फ्रान्सिस फुकुयामाको चर्चित शोधनिबन्ध ‘द इन्ड अफ हिस्ट्री ?’ ले फुकुयामालाई पश्चिमको विजयोन्मादको पर्यायका रूपमा स्थापित गरिदिएको थियो । त्यही निबन्धको विस्तारित रूपमा उनले सन् १९९२ मा ‘द इन्ड अफ हिस्ट्री एन्ड द लास्ट म्यान’ प्रकाशित गरी सोभियत संघको पतनसँगै पश्चिमा उदारवादी प्रणाली हावी भएको र अब कुनै […]",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-09-26T01:54:25+00:00",
+      "articleUrl": "https://clickmandu.com/2026/09/494520.html",
+      "category": "business"
+    },
+    {
+      "title": "एक साताभित्रै स्ट्रेट अफ होर्मुज खोल्न इरानद्वारा अमेरिकालाई नयाँ प्रस्ताव",
+      "description": "न्युयोर्क । इरानी विदेशमन्त्री अब्बास अराघचीका अनुसार इरानले अमेरिकालाई एक साताभित्र स्ट्रेट अफ होर्मुज खोल्ने प्रस्ताव गरेको छ। न्युयोर्कस्थित राष्ट्रसंघमा पत्रकारहरूसँग कुरा गर्दै अराघचीले ‘आवश्यक सर्तहरू पूरा भएमा’ यसो गर्न सकिने बताएका हुन्। उनका अनुसार ती सर्तहरू",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/hormuz_0ZNUR7U588.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T01:45:15+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594986/iran-makes-new-offer-to-us-to-open-strait-of-hormuz-within-a-week",
+      "category": "national"
+    },
+    {
+      "title": "बाराको तीननम्बर पुल नजिक ट्रकको ठक्कबाट स्कुटर चालकको मृत्यु",
+      "description": "१० असोज, काठमाडौं । बाराको जितपुर सिमरा उपमहानगरपालिका वडा नम्बर २२ तीननम्बर पुल नजिक ट्रकको ठक्करबाट स्कुटर चालकको मृत्यु भएको छ । हेटौंडाबाट पथलैयातर्फ जाँदै गरेको ना ६ ख ३६४४ नम्बरको ट्रकले बागमती प्रदेश ०२–०६५ प ७५७५ नम्बरको स्कुटरलाई गएराति ११ बजे पछाडिबाट ठक्कर दिएको थियो । ट्रकको ठक्करबाट गम्भीर घाइते भएका स्कुटर चालक मोरङका […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2017/11/Accident.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T01:41:15+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026037/scooter-driver-dies-after-being-hit-by-truck-near-bridge-no-3-in-bara",
+      "category": "national"
+    },
+    {
+      "title": "काठमाडौँ उपत्यकाबाट १४ थान हाते ट्याक्टर चोरीमा संलग्न पाँच जना पक्राउ",
+      "description": "काठमाडौँ । काठमाडौँ उपत्यकाका विभिन्न स्थानबाट हाते ट्याक्टर (पावर टिलर) चोरी तथा खरिद-बिक्रीमा संलग्न रहेको अभियोगमा प्रहरीले पाँच जनालाई नियन्त्रणमा लिएको छ। काठमाडौँ, ललितपुर र भक्तपुरबाट चोरी भएका १४ थान हाते ट्याक्टर र बा ३१ प",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/825311097_1729475121443102_9101014500545341552_n_yeOvAaRjTs.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T01:33:19+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594984/five-arrested-in-connection-with-theft-of-14-hand-tractors-from-kathmandu-valley",
+      "category": "national"
+    },
+    {
+      "title": "नारायणी र दरमखोलामा जलसतह सतर्कता तह पार, तटीय क्षेत्रका बासिन्दालाई उच्च सतर्क रहन आग्रह",
+      "description": "काठमाडौँ । बाढी पूर्वानुमान महाशाखाले शनिबार बिहान ६:५० बजे सूचना जारी गर्दै नारायणी र दरमखोलामा जलसतहले सतर्कता तह पार गरेको जनाएको छ। चितवनको देवघाटस्थित नारायणी नदी र बागलुङको वामीटक्सारस्थित दरमखोला जलमापन केन्द्रमा नदीको सतह लगातार बढ्दो",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/narayani-river-chitwan-photos_npl_nisha-shrestha-(14)_dHL0AAiQyj.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T01:29:08+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594983/water-levels-in-narayani-and-daramkhola-exceed-alert-level-coastal-residents-urged-to-remain-on-high-alert",
+      "category": "national"
+    },
+    {
+      "title": "काठमाडौं उपत्यकासहित पूर्वी भागमा ठूलो पानी नपर्ने, पश्चिमतिर भोलिसम्म जोखिम",
+      "description": "‘काठमाडौं उपत्यकाको हकमा केहीबेर आकाश खुल्ने र बादल लाग्ने हुन्छ तर अघिल्ला दिनहरु जस्तो लगातार वर्षाको सम्भावना छैन,’ मौसमविद रोजन लामिछानेले भने ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Rainfall-2.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T01:26:02+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026024/no-heavy-rain-in-eastern-parts-including-kathmandu-valley-risk-in-western-parts-till-tomorrow",
+      "category": "national"
+    },
+    {
+      "title": "भत्किँदै जाजरकोट दरबार, संरक्षणमा बेवास्ता",
+      "description": "१० असोज, सुर्खेत । जाजरकोट सदरमुकाम खलंगामा रहेको ऐतिहासिक जाजरकोट दरबारको एक भाग भत्किएको छ। लामो समयदेखि जीर्ण अवस्थामा रहेको दरबार २०७२ सालको भूकम्प र त्यसपछि २०८० कात्तिक १७ गतेको भूकम्पबाट थप क्षतिग्रस्तबनेको थियो। ऐतिहासिक अभिलेखअनुसार जाजरकोट दरबार वि.सं. १८५२ मा तत्कालीन जाजरकोटी राजा इन्द्रनारायण शाहको पालामा निर्माण भएको हो। वि.सं. १९९० को भूकम्पबा",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/jajarkot-darbar-2.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T01:25:37+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026022/jajarkot-palace-is-collapsing-conservation-is-neglected",
+      "category": "national"
+    },
+    {
+      "title": "जापानका लागि राजदूतमा सिफारिस भएका थापा जापानकै स्थायी बसोबासी",
+      "description": "काठमाडौँ । जापानका लागि प्रस्तावित राजदूत जिग्यान कुमार थापा जापानकै स्थानी बसोबासी रहेका छन् । उनले जापानको एउटा अनलाइनलाई दिएको अन्तर्वार्तामा आफू जापानको स्थानी बसोबासी रहेको र त्यहाँ आफ्नै घर रहेको स्वीकार गरेका छन् ।",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/jigyan-kumar-thapa_xUbJMxw5po.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T01:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594980/thapa-who-was-recommended-as-ambassador-to-japan-is-a-permanent-resident-of-japan",
+      "category": "politics"
+    },
+    {
+      "title": "घरबासले फेरिँदै दगामको पर्यटन पहिचान",
+      "description": "तनहुँ । शुक्लागण्डकी–२ स्थित दगाम गाउँ मगर समुदायको मौलिक संस्कृति, परम्परागत जीवनशैली, स्थानीय परिकार र आत्मीय आतिथ्यका कारण ग्रामीण पर्यटनको आकर्षक गन्तव्यका रूपमा विकसित भएको छ । गाउँ पर्यटन प्रवर्द्धन मञ्च नेपाल (भिटोफ) गण्डकी प्रदेशले दगामलाई",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/1-home-stay-(6)_XMWxUklnsu.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T01:11:49+00:00",
+      "articleUrl": "https://www.ratopati.com/story/594982/dagams-tourism-identity-is-changing-due-to-housing",
+      "category": "national"
+    },
+    {
+      "title": "रुपन्देहीमा ६ लाख बढीको भन्सार छलीका सामान बरामद",
+      "description": "१० असोज, रुपन्देही । रुपन्देहीमा प्रहरीले भन्सार छली गरेर ल्याइएका ६ लाख बढी मूल्यका सामान बरामद गरेको छ । जिल्लाको सिद्धार्थनगर नगरपालिका–१ स्थित कोटिहमाई मन्दिर नजिकबाट प्रहरीले १२ बोरा चियापत्ती र ६६ पिस लेडिज सुट बरामद गरेको हो । इलाका प्रहरी कार्यालय बेलहियाबाट खटिएको प्रहरी ती सामान बरामद गरेको प्रहरीले जनाएको छ । बरामद सामानको […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/saman.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T01:02:35+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026019/customs-fraud-worth-over-rs-6-lakh-seized-in-rupandehi",
+      "category": "national"
+    },
+    {
+      "title": "रिडी–तम्घास सडक पहिरोले अवरुद्ध",
+      "description": "१० असोज, गुल्मी । गुल्मीको रुरुक्षेत्र गाउँपालिका–१ स्यालबिसौनामा पहिरो खसेपछि रिडी–तम्घास सडकखण्ड पूर्णरूपमा अवरुद्ध भएको छ। शुक्रबार राति करिब ९:४५ बजे लेदोसहितको पहिरो खसेर मदन भण्डारी राजमार्गको सडकखण्ड अवरुद्ध भएको जिल्ला प्रहरी कार्यालय गुल्मीका प्रहरी उपरीक्षक (एसपी) भीमकिरण बोगटीले बताए । पहिरोका कारण उक्त सडकखण्डमा सवारी आवागमन पूर्णरूपमा रोकिएको छ ",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2016/07/landslide.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T00:45:19+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026017/ridi-tamghas-road-blocked-by-landslide",
+      "category": "national"
+    },
+    {
+      "title": "कालीगण्डकी र रिडीमा बाढी, जोखिममा परेका बस्ती खाली गराइयो",
+      "description": "१० असोज, गुल्मी । गुल्मीको रुरु क्षेत्र गाउँपालिका–१ अन्तर्गत लामोचौपारी आसपासका बस्तीमा कालीगण्डकी र रिडी खोलाको प्रभाव बढेपछि स्थानीयलाई सजग गराउँदै बस्ती खाली गराउन थालिएको छ । खोलाको बहाव र जोखिम बढेपछि स्थानीयले घरमा रहेका सामानहरू सुरक्षित स्थानमा स्थानान्तरण गरेका छन् । गएराति रुरुक्षेत्र गाउँपालिका वडा नम्बर १ का वडाध्यक्ष नवराज विकसहित, स्थानीय युवा",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Gulmi-1.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T00:41:03+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026014/floods-in-kaligandaki-and-ridi-vulnerable-settlements-evacuated",
+      "category": "national"
+    },
+    {
+      "title": "नेसन्स लिगमा युक्रेन र स्विडेनको जित",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-09-26T00:39:59+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/174975",
+      "category": "sports"
+    },
+    {
+      "title": "यस्तो छ आज विदेशी मुद्राको विनिमयदर",
+      "description": "१० असोज, काठमाडौँ । नेपाल राष्ट्र बैंकले शनिबारका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५३ रुपैयाँ ०१ पैसा र बिक्रीदर १५३ रुपैयाँ ८१ पैसा निर्धारण गरिएको छ । युरोपियन युरो एकको खरिददर १७४ रुपैयाँ ३२ पैसा र बिक्रीदर १७५ रुपैयाँ ०० पैसा, युके पाउन्ड स्ट्रलिङ एकको […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2023/05/RMB-and-Dollar.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-09-26T00:20:46+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026012/this-is-the-foreign-exchange-rate-today-93",
+      "category": "national"
+    },
     {
       "title": "आजको राशिफल",
       "description": "मेष राशि (चु, चे, चो, ला, लि, लु, ले, लो, अ) आज नयाँ कामको सुरुवात गर्ने उत्साह बढ्नुका साथै कार्यक्षेत्रमा सकारात्मक परिणाम प्राप्त हुनेछ। व्यवसायमा नयाँ सम्पर्कबाट लाभ लिन सकिनेछ । आर्थिक पक्षमा सुधार आउनेछ; तर अनावश्यक खर्चबाट बच्नु बुद्धिमानी हुनेछ । परिवारमा सुखद वातावरण बन्नेछ र प्रियजनबाट सहयोग प्राप्त हुनेछ । धार्मिक तथा सामाजिक […]",
@@ -40,16 +1064,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-09-26T00:02:26+00:00",
       "articleUrl": "https://www.ratopati.com/story/594976/nepal-playing-japan-in-asian-games-cricket-toss-not-possible-due-to-rain",
-      "category": "national"
-    },
-    {
-      "title": "यस्तो छ आजका लागि विदेशी मुद्राको विनिमय दर",
-      "description": "काठमाडौँ । नेपाल राष्ट्र बैंकले शनिबारका लागि विदेशी मुद्राको विनिमय दर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५३ रुपैयाँ ०१ पैसा र बिक्रीदर १५३ रुपैयाँ ८१ पैसा निर्धारण गरिएको छ",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/forex_g5zWyL63Qc.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T23:59:05+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594973/this-is-the-foreign-currency-exchange-rate-for-today",
       "category": "national"
     },
     {
@@ -323,16 +1337,6 @@
       "category": "national"
     },
     {
-      "title": "श्रीलङ्काले सन् २०२६ मा सार्वजनिक सेवामा सवा लाख व्यक्तिलाई सार्वजनिक क्षेत्रमा रोजगारी दिने",
-      "description": "काठमाडौँ । श्रीलङ्काले सन् २०२६ मा सार्वजनिक सेवामा एक लाख २० हजारभन्दा बढी व्यक्ति भर्ना गर्ने कार्यक्रम सुरु गरेको सार्वजनिक प्रशासन मन्त्री चन्दना अबेयरत्नेले शुक्रबार बताएका छन् । “यस भर्नाले शिक्षा, स्वास्थ्य र कृषिलगायत सार्वजनिक क्षेत्रका विभिन्न",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/srilanka-falg_G0joNuC6Lx.png",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T17:06:14+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594958/sri-lanka-to-employ-125-million-people-in-public-service-by-2026",
-      "category": "national"
-    },
-    {
       "title": "पर्वतारोहण सङ्घका ५ महिला सहित २८ प्रशिक्षार्थी र ५ प्रशिक्षकले गरे दङगा पिकको सफल आरोहण",
       "description": "काठमाडौँ । नेपाल पर्वतारोहण संघ (एनएमए) को नियमित तालीम कार्यक्रम पेसागत पर्वतीय पथ प्रदर्शकको गृष्मकालीन शीपका ५ महिला सहित २८ जना प्रशिक्षार्थी र ५ जना प्रशिक्षकहरूले कञ्चनजङ्गा क्षेत्रमा रहेको ६२२० मिटर अग्लो दङ्गा पिकको सफल",
       "imageUrl": "https://npcdn.ratopati.com/media/news/ed9725dd-5f5d-489a-b448-f09a0ca4ffca_DpH8rRFc5z.webp",
@@ -495,7 +1499,7 @@
     {
       "title": "कान्छा प्रधानमन्त्रीमार्फत नेपालले राख्यो गम्भीर सरोकार",
       "description": "हामीले हिजो लेखेका थियौं– प्रधानमन्त्री बालेनले राष्ट्रसंघ महासभामा जलवायु विपद र शक्तिराष्ट्रले थोपरेको युद्दका कारण साना राष्ट्रका जनताले खपेको अत्याचारबारे मुद्दा उठाउने छन् । अन्तत: भयो पनि त्यस्तै । न्युयोर्कबाट अनलाइनखबरको विस्तृत रिपोर्ट–",
-      "imageUrl": "",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Balen-shaha-cover-2.jpg",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-25T16:15:24+00:00",
@@ -1640,7 +2644,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-25T12:40:30+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2025887/ai-training-for-80000-employees-in-singapore",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "विराटनगर कांग्रेस वडा अधिवेशनमा दुई पक्षबीच कुटाकुट",
@@ -1790,7 +2794,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-25T12:20:23+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2025869/infrastructure-minister-and-chinese-ambassador-discuss-re-opening-of-rasuwagadhi-border-crossing",
-      "category": "politics"
+      "category": "business"
     },
     {
       "title": "पृथ्वी राजमार्गको बाङ्गेमा खस्यो पहिरो, यातायात सेवा पूर्ण रूपमा अवरुद्ध",
@@ -1880,7 +2884,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-25T12:12:32+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2025861/passports-will-be-delivered-by-post-to-nepalis-who-cannot-go-to-dubai-to-collect-them",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "दुई युवा मृत्यु प्रकरणका मुख्य अभियुक्त ‘बारुद सिंह’",
@@ -2000,7 +3004,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-25T11:57:27+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2025821/more-than-150-engineers-mobilized-to-study-flood-damaged-structures",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "फिफप्रोको पहलमा खेलाडी संघको फिफा र एएफसी प्रतिनिधिसँग छलफल",
@@ -2050,7 +3054,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-09-25T11:42:29+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2025813/congress-to-take-action-against-leaders-activists-who-obstruct-energy-projects",
-      "category": "politics"
+      "category": "business"
     },
     {
       "title": "दशौं राष्ट्रिय खेलकुद र पर्यटनका विषयमा मुख्यमन्त्री र निजी क्षेत्रफलबीच छलफल",
@@ -4020,1006 +5024,6 @@
       "sourceName": "गोरखापत्र",
       "publishedTime": "2026-09-25T04:28:51+00:00",
       "articleUrl": "https://gorkhapatraonline.com/news/224169",
-      "category": "national"
-    },
-    {
-      "title": "राष्ट्रसंघमा नेतन्याहूको विरोध, धेरै देशका प्रतिनिधिको बहिष्कार",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-09-25T04:27:00+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/146249",
-      "category": "national"
-    },
-    {
-      "title": "नेपाली फुटबल : मैदानभन्दा बाहिरको लडाइँले खेल र खेलाडीको भविष्य अन्धकार",
-      "description": "काठमाडौँ । नेपाली फुटबल अहिले मैदानमा भन्दा मैदानबाहिरको विवादमा बढी अल्झिएको छ । राष्ट्रिय टोलीका खेलाडी अभ्यास र अन्तर्राष्ट्रिय प्रतिस्पर्धाको प्रतीक्षामा छन् । युवा खेलाडीको तयारी प्रभावित छ । एन्फा एकेडेमीका बालबालिकाको दैनिक व्यवस्थापनमा समस्या",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/anfa-dispute_IpFWdFZ0MG.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T04:26:03+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594752/nepali-football-off-field-fighting-casts-shadow-over-future-of-game-and-players",
-      "category": "national"
-    },
-    {
-      "title": "वर्षाको जोखिमलाई मध्यनजर गर्दै उच्च सतर्कतासहित तयारी अवस्थामा छौँः मन्त्री मेहता",
-      "description": "काठमाडौँ । स्वास्थ्य तथा खाद्य स्वच्छतामन्त्री निशा मेहताले वर्षाको जोखिमलाई मध्यनजर गर्दै मन्त्रालय उच्च सतर्कतासहित तयारी अवस्थामा रहेको बताएकी छिन् । आज एक श्रव्यदृश्य सन्देश जारी गर्दै मन्त्री मेहताले हाल देशका विभिन्न स्थानमा भारीदेखि अति भारी",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/nisha-mehta_ZAG3RBgRRe.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T04:24:26+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594751/we-are-on-high-alert-and-preparedness-considering-the-risk-of-rain-minister-mehta",
-      "category": "politics"
-    },
-    {
-      "title": "रास्वपा नेता कार्की र बेलायती कन्जरभेटिभ पार्टीका निर्देशकबिच भेटवार्ता",
-      "description": "लण्डन । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का अन्तर्राष्ट्रिय सम्बन्ध तथा कूटनीति विभागका सदस्य हिक्मतजंग कार्की र बेलायती कन्जरभेटिभ पार्टीका अन्तर्राष्ट्रिय सम्बन्ध निर्देशक अमित जोगियाबिच लण्डनमा भेटवार्ता भएको छ। शुक्रबार भएको भेटमा नेपाल–बेलायतबिचको ऐतिहासिक तथा मैत्रीपूर्ण सम्बन्धलाई",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/hikmat_BbITgMAW27.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T04:22:51+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594750/meeting-between-rsvp-leader-karki-and-british-conservative-party-director",
-      "category": "politics"
-    },
-    {
-      "title": "पृथ्वी राजमार्गका सात स्थानमा पहिरो, दुई ठाउँमा सडक पूर्ण अवरुद्ध",
-      "description": "धादिङ । अविरल वर्षाका कारण पृथ्वी राजमार्गअन्तर्गत धादिङका विभिन्न सात स्थानमा पहिरो खस्दा यातायात प्रभावित भएको छ। पहिरोका कारण दुई स्थानमा राजमार्ग पूर्ण रूपमा अवरुद्ध भएको छ भने अन्य स्थानमा एकतर्फी यातायात सञ्चालन भइरहेको छ। जिल्ला प्रहरी कार्यालय धादिङका सूचना अधिकारी एवं डीएसपी प्रकाश दाहालका अनुसार कृष्णभिर, परेवाभिर, ज्यामिरेघाट, जहरे, जवाङखोला, तिगर",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-25T04:21:49+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/25/landslides-at-seven-places-on-prithvi-highway-road-completely-blocked-at-two-places/",
-      "category": "business"
-    },
-    {
-      "title": "हर्मुज खोल्न इरानको सातदिने प्रस्ताव",
-      "description": "इरानले पश्चिम एसियामा जारी द्वन्द्व अन्त्य गरी हर्मुज खुला गर्न र आफ्नो आणविक कार्यक्रमबारे वार्ता पुनः सुरु गर्न अमेरिकासमक्ष सातदिने योजना प्रस्ताव गरेको छ । इरानी विदेशमन्त्री सैयद अब्बास अराघचीले संयुक्त राष्ट्रसङ्घको महासभाका क्रममा मध्यस्थकर्तामार्फत",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/hormus_24yzMhoKHd.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T04:21:47+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594749/irans-seven-day-offer-to-open-the-strait-of-hormuz",
-      "category": "national"
-    },
-    {
-      "title": "वर्षासँगै भत्किँदै भूकम्पले चर्किएका घर",
-      "description": "बाजुरा, असोज ९ गते । बाजुरामा भूकम्पले चर्किएका घर धमाधम भत्किन थालेपछि स्थानीयवासी त्रसित बनेका छन्। आर्थिक वर्ष २०७९/८० मा गएको भूकम्पबाट चर्किएका घर वर्षायाममा थोरै पानी पर्दासम...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/384680/conversions/h-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-25T04:20:58+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/224168",
-      "category": "national"
-    },
-    {
-      "title": "कोशी ब्यारेजमा पानीको बहाव एक लाख ९० हजार, २४ ढोका खुला, सतर्कता अपनाउन आग्रह",
-      "description": "पूर्वी पहाडी तथा तराईका जिल्लामा भएको लगातार वर्षाका कारणले कोशी नदीमा कोसी ब्यारेज भएर बग्ने पानीको बहावमा वृद्धि भएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-09-25T04:19:01+00:00",
-      "articleUrl": "https://nepallive.com/story/351011",
-      "category": "national"
-    },
-    {
-      "title": "नक्कली SMS र फिसिङ लिंकको जोखिम, डिजिटल कारोबार गर्दा कसरी जोगिने ?",
-      "description": "बैंकिङ खबर / बैंक तथा डिजिटल भुक्तानी सेवाको नाम प्रयोग गरी अपरिचित नम्बरबाट फिसिङ लिंकसहितका SMS पठाउने घटना देखिन थालेपछि डिजिटल कारोबार गर्ने ग्राहकलाई थप सतर्क रहनुपर्ने भएको छ । फिसिङ सन्देशमा बैंकिङ तथा डिजिटल सेवासँग सम्बन्धित देखिने भाषा प्रयोग गरेर ग्राहकलाई लिंक खोल्न प्रेरित गर्न सकिन्छ । लिंक वास्तविकजस्तै देखिन सक्ने भएकाले ग्राहक झुक्किने […] T",
-      "imageUrl": "",
-      "sourceLogo": "https://bankingkhabar.com/favicon.ico",
-      "sourceName": "बैंकिङ खबर",
-      "publishedTime": "2026-09-25T04:17:29+00:00",
-      "articleUrl": "https://bankingkhabar.com/archives/168709",
-      "category": "business"
-    },
-    {
-      "title": "महाधिवेशनबारे झलनाथ खनालको २२ बुँदे फरक प्रस्ताव",
-      "description": "काठमाडौँ । पूर्वप्रधानमन्त्री तथा नेपाली कम्युनिस्ट पार्टी(नेकपा)का वरिष्ठ नेता झलनाथ खनालले एकता महाधिवेशन सम्बन्धमा २२ बुँदे प्रस्ताव गरेका छन् । असोज ६ गते केन्द्रीय कार्यालय पेरिसडाँडामा बसेको केन्द्रीय संयोजन समिति बैठकमा खनालले फरक मत प्रस्ताव",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/jhalanath_a1CRbzkpUd.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T04:16:56+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594748/jhalanath-khanals-22-point-proposal-regarding-the-general-convention",
-      "category": "national"
-    },
-    {
-      "title": "नदीकिनारमा बेचैन बासिन्दा",
-      "description": "पोखरा। दुई किलोमिटर तल मर्स्याङ्दी नदी सुसाइरहेको आवाज। मर्स्याङ्दीकै लयमा मनाङको चामेमाथिबाट झरिरहेको अर्को खोला। त्यही ठाडो खोलाछेउको केही माथि छ सिर्जना विकको घर। साँझ पुग्दा उनको भान्छाकोठाबाट धुवाँ निस्किरहेको थियो। टिलिक्क टल्किएका भाँडा लहरै सजिएको भान्सामा उनी खाना बनाउँदै थिइन्। त्यो भान्छाकोठा पाँच वर्षअघि उनको सुत्ने कोठा थियो। तर १ असार २०७८ मा ठ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-25T04:15:55+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/25/restless-residents-on-the-riverbank/",
-      "category": "business"
-    },
-    {
-      "title": "दोभान-सिद्धबाबा सडकखण्ड राति बन्द",
-      "description": "९ असोज, पाल्पा । निरन्तरको वर्षाका कारण हुन सक्ने जोखिमलाई मध्यनजर राखेर सिद्धार्थ राजमार्ग अन्तर्गत दोभान-सिद्धबाबा सडकखण्ड राति सवारी सञ्चालनमा रोक लगाइएको छ । जिल्ला प्रशासन कार्यालय पाल्पाले सूचना जारी गर्दै बिहीबारदेखि १२ असोजसम्म दोभान-सिद्धबाबा क्षेत्रमा बेलुका ७ बजेदेखि बिहान ५ बजेसम्म सवारी सञ्चालनमा पूर्णतया रोक लगाएको जनाएको छ । लगातार भइरहेको वर्",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2017/07/siddhababa-pahiro.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T04:15:29+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025392/dobhan-siddhababa-road-section-closed-at-night",
-      "category": "national"
-    },
-    {
-      "title": "‘अलिकति धैर्य गरेको भए मैले यहीँ नाम र दाम दुवै कमाउन सक्थेँ होला’",
-      "description": "काठमाडौँ । जेनजी पुस्ताले उति ख्याल नगरेपनि मिलेनियल पुस्तामाझ लोकप्रिय हास्य कलाकार हुन् नारायण त्रिपाठी । उनलाई ‘प्रेम चरो’ उपनामले चिन्ने पनि धेरै छन् । हास्य टेलिशृंखला ‘ट्वाक्क टुक्क’मा उनले निर्वाह गरेको ‘प्रेम चरो’ पात्रमार्फत",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/narayan-tripathi-banner_PNXyZrawiC.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T04:15:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594737/if-i-had-been-a-little-more-patient-i-could-have-earned-both-fame-and-fortune-here",
-      "category": "national"
-    },
-    {
-      "title": "स्मार्ट डिजिटल बोर्डको प्रयोगले शिक्षण–सिकाइ प्रभावकारी बन्दै",
-      "description": "लहान समाचारदातालहान, असोज ९ गते । सिरहा जिल्लाका १७ वटै पालिकाका सामुदायिक विद्यालयमा क्रमशः डिजिटल स्मार्ट बोर्डको प्रयोग बढाउन थालिएको छ। यसबाट शिक्षण–सिकाइ प्रभावकारी हुने अपेक्...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/384678/conversions/samudayik-schoolma-digital-smart-board-newsphotocapsion-jibachh-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-25T04:15:00+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/224167",
-      "category": "national"
-    },
-    {
-      "title": "ट्रम्पले सी जिनफिङलाई किन दिए चीलको मूर्ति ?",
-      "description": "९ असोज, काठमाडौं । अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पले चिनियाँ राष्ट्रपति सी जिनफिङलाई अमेरिकी राष्ट्रिय प्रतीक सेतो टाउको भएको चीलको मूर्ति उपहार दिएका छन् । राजकीय रात्रिभोजका क्रममा ट्रम्पले उक्त चीलको मूर्ति सीलाई हस्तान्तरण गरेका हुन् । उनले चीललाई ‘अमेरिकाको स्वतन्त्र र उन्मुक्त भावनाको प्रतीक’का रूपमा व्याख्या गरे । अन्तर्राष्ट्रिय कूटनीतिमा उपहार आदा",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Trump-presented-Xi-a-bald-eagle.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T04:14:40+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025382/why-did-trump-give-xi-jinping-an-eagle-statue",
-      "category": "national"
-    },
-    {
-      "title": "वीरेन्द्रनगर नगरपालिका-३ का वडाध्यक्षले छाडे एमाले",
-      "description": "सुर्खेत । नेकपा एमालेबाट निर्वाचित वीरेन्द्रनगर नगरपालिका—३, का वडाध्यक्ष विनोदसिंह विष्टले पार्टी छाडेको घोषणा गरेका छन् । उनले आफ्नो सामाजिक सञ्जालमा एक पोस्ट शेयर गर्दै आजको मितिदेखि एमालेको साधारण सदस्य समेत नरहने गरी पार्टीबाट राजीनामा दिएको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bista_XXmeNDAfKO.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T04:12:34+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594747/ward-chair-of-birendranagar-municipality-3-leaves-uml",
-      "category": "politics"
-    },
-    {
-      "title": "भिसा दुरुपयोग गरि जापान पठाउने नाममा लाखौं असुली, यामानोमाथि विभागले अनुसन्धान गर्ने",
-      "description": "जापानी नागरिक यामानो शिनिचिरोले नेपालमा आफ्नो भिसाको दुरुपयोग गर्दै म्यानपावर कम्पनी र जापान जाने कामदारलाई पैसा उठाएको विषयमा बैदेशिक रोजगार विभागले अनुसन्धान गर्ने भएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-09-25T04:12:00+00:00",
-      "articleUrl": "https://nepallive.com/story/351010",
-      "category": "national"
-    },
-    {
-      "title": "पानीको सतह बढ्यो कि चिन्ता सुरु",
-      "description": "विकास अधिकारीपश्चिम नवलपरासी, असोज ९ गते । नारायणी नदीमा पानीको सहत बढ्दै जाँदा सुस्ता उच्च जोखिममा परेको छ । यस वर्खाको वर्षायाममा नारायणीको भेलले धार परिवर्तन गर्दा सुस्ता गाउँपा...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/384677/conversions/456-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-25T04:10:58+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/224166",
-      "category": "national"
-    },
-    {
-      "title": "अविरल वर्षाका कारण काभ्रेमा कांग्रेसको क्षेत्रीय अधिवेशन स्थगित",
-      "description": "९ असोज, काभ्रेपलाञ्चोक । अविरल वर्षाका कारण काभ्रेपलाञ्चोकमा कांग्रेसको क्षेत्रीय अधिवेशन स्थगित भएको छ । नेपाली कांग्रेसको १५ औं महाधिवेशन अन्तरगत प्रतिनिधिसभा क्षेत्र २ काभ्रेपलाञ्चोकले असोज ९ गतेका लागि तोकिएको मनोनयन र असोज १० का लागि तोकिएको प्रदेश सभा एवं प्रतिनिधिसभा क्षेत्रीय अधिवेशन स्थगित भएको हो । क्षेत्रीय सभापति महेश खरेलका अनुसार थप केही दिन […",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/12/nepali-congress-flag.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T04:10:33+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025386/congress-regional-convention-in-kavre-postponed-due-to-incessant-rains",
-      "category": "politics"
-    },
-    {
-      "title": "हिमालमा हिउँ हुरीसँगै भारी हिमपात",
-      "description": "काठमाडौँ, असोज ९ गते । अन्डमान सागरमा उत्पत्ति भई बङ्गालको खाडीमा विकसित भएको शक्तिशाली न्यूनचापीय क्षेत्र भारतको ओडिशा तटीय क्षेत्र पार गरेपछि त्यसको प्रभाव नेपालमा बढेको छ। आज र...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/384676/conversions/2-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-25T04:07:45+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/224165",
-      "category": "national"
-    },
-    {
-      "title": "ओलीको विरासत र एमालेभित्र सुस्ताएको विद्रोह",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-09-25T04:07:20+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/146247",
-      "category": "politics"
-    },
-    {
-      "title": "भारी वर्षाको पूर्वानुमान, उच्च सतर्क रहन आग्रह",
-      "description": "बेलौरी समाचारदाताबेलौरी (कञ्चनपुर), असोज ९ गते । आकस्मिक बाढीको जोखिमबाट जोगिन कञ्चनपुरमा उच्च सतर्कता अपनाइएको छ । जिल्ला विपत् जोखिम न्यूनीकरण तथा व्यवस्थापन समितिले बाढी प्रभावि...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/384675/conversions/rain2024-10-02-03-12-23-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-25T04:06:47+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/224164",
-      "category": "national"
-    },
-    {
-      "title": "प्रतिकूल मौसमका कारण उडान प्रभावित, त्रिभुवन विमानस्थलमा यात्रुको भीड (तस्बिरहरू)",
-      "description": "काठमाडौँ । प्रतिकूल मौसमका कारण हवाई उडान प्रभावित भएको छ । निरन्तरको वर्षा र धुम्म भएको वातावरणको कारण भिजिबिलिटी कम हुँदा उडान प्रभावित भएको हो । उडान अवरुद्ध हुँदा त्रिभुवन विमानस्थलमा यात्रु थुप्रिएका छन्। पोखरा,भरतपुर र",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/5-airport-ma-yatru-alapatra_npl-(1)_rDFknUMYXS.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T04:05:27+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594746/flights-affected-due-to-adverse-weather-crowds-of-passengers-at-tribhuvan-airport-photos",
-      "category": "national"
-    },
-    {
-      "title": "एसियाडको ब्याडमिन्टनमा क्षितिजको विजयी सुरुवात",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-09-25T03:59:41+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/174965",
-      "category": "sports"
-    },
-    {
-      "title": "बीपी राजमार्ग अवरुद्ध भएपछि सवारीसाधन धुलिखेलमा ‘होल्ड’",
-      "description": "बीपी राजमार्ग अवरुद्ध भएपछि काठमाडौंबाट धुलिखेल हुँदै पूर्वतर्फ जाने सवारीसाधनलाई धुलिखेलमा होल्ड गरिएको जिल्ला प्रहरी प्रमुख एसपी रविन कार्कीले जानकारी दिए ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/vehicals-hold-in-dhulikhel-1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T03:58:29+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025376/vehicles-held-in-dhulikhel-after-bp-highway-blocked",
-      "category": "national"
-    },
-    {
-      "title": "अविरल वर्षाले हेटौँडा–काठमाडौँ सडकखण्डमा सवारी आवागमन प्रभावित, कुन सडकको अवस्था के छ ?",
-      "description": "मकवानपुर । गत असोज ८ गतेदेखि लगातार भइरहेको अविरल वर्षाका कारण हेटौँडा–काठमाडौँ जोड्ने प्रमुख सडक खण्डहरूमा प्रभावित भएका छन् । हेटौँडा काठमाडौँ जोड्ने अधिकांश सडकहरूमा पहिरोको जोखिमका कारण सवारी आवागमन प्रभावित भएको हो । जिल्ला प्रहरी",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/kanthi-lokpath_XtSnIThxe2.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:58:07+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594745/incessant-rains-have-affected-traffic-on-the-hetauda-kathmandu-road-section-what-is-the-condition-of-which-roads",
-      "category": "national"
-    },
-    {
-      "title": "सिद्धबाबा सुरूङमा सवारी साधन गुडाउन किन भयो ढिलाइ?",
-      "description": "दसैंअघि नै यो सुरूङबाट सवारी साधन गुडाउने तयारी थियो। चीनबाट आउँदै गरेका विद्युतीय उपकरण बाढीका कारण रोकिएपछि योजना पछाडि सर्‍यो। अब कहिलेदेखि गुड्लान् सवारी साधन?",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-25T03:57:45+00:00",
-      "articleUrl": "https://www.setopati.com/kinmel/medical/399190",
-      "category": "national"
-    },
-    {
-      "title": "अहिलेसम्म कहाँ कति भयो वर्षा? आज कुन-कुन भूभागमा पर्छ ठूलो पानी?",
-      "description": "दिउँसो कोशी, बागमती, गण्डकी, लुम्बिनी र कर्णाली प्रदेशको थोरै स्थानमा भारी देखि धेरै भारी वर्षाको सम्भावना रहेको महाशाखाले जनाएको छ|",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-25T03:57:00+00:00",
-      "articleUrl": "https://www.setopati.com/social/399201",
-      "category": "national"
-    },
-    {
-      "title": "एसियन गेम्समा नेपालले आज अफगानिस्तानसँग खेल्दै",
-      "description": "काठमाडौं । जापानमा जारी २०औँ एसियाली खेलकुदअन्तर्गत पुरुष क्रिकेटमा नेपालले आज आफ्नो पहिलो खेल खेल्दैछ। नेपालले समूह चरणको पहिलो खेलमा अफगानिस्तानसँग प्रतिस्पर्धा गर्न लागेको हो। जापानको आइचीस्थित कोरोगी स्पोर्ट्स पार्कमा हुने खेल नेपाली समयअनुसार बिहान पौने ११ बजे सुरु हुनेछ। यसअघि सोही समूहका ओमान र हङकङबीचको खेल जारी छ। नेपाल समूह ‘ए’ मा अफगानिस्तान र […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-25T03:55:04+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/25/nepal-is-playing-afghanistan-today-in-the-asian-games/",
-      "category": "business"
-    },
-    {
-      "title": "झरीको असरः अवस्था हेरेर तीन दिन ‘जोखिम विदा’",
-      "description": "काठमाडौं । इन्द्रजात्राको अवसरमा शुक्रबार काठमाडौं उपत्यकामा नियमित सार्वजनिक विदा भए पनि सरकारले देशैभर स्थानीय तहसँग समन्वय गरेर शैक्षिक संस्था तथा सार्वजनिक निकाय सञ्चालनका लागि सूचना जारी गरेको छ । शनिबार र आइतबार सार्वजनिक विदा नै भएकाले शुक्रबारदेखि आइतबारसम्मको अवधिलाई ‘जोखिमको विदा’का रूपमा लिएर घरमै वा सुरक्षित स्थानमा रहन सरकारले सूचना जारी गरेको ह",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-25T03:53:13+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/148932/",
-      "category": "national"
-    },
-    {
-      "title": "आफैँले बनाएको मापदण्ड विपरित राजदूत सिफारिस",
-      "description": "काठमाडौं । सरकारले १३ देशका लागि राजदूत सिफारिस गरेर संसदीय सुनुवाइ प्रक्रिया अघि बढाए पनि प्रस्तावितमध्ये केही व्यक्तिको संस्थागत आबद्धता सरकारकै राजदूत नियुक्तिसम्बन्धी निर्देशिका, २०७५ विपरित देखिएको छ । के गर्ला संसदीय समितिले ? संसदीय सुनुवाइ समितिले बिहीबार १३ प्रस्तावित राजदूतको सुनुवाइ प्रक्रिया अघि बढाउँदै उनीहरूविरुद्ध सूचना तथा उजुरी दिन १० दिनको ",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-25T03:50:39+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/148930/",
-      "category": "politics"
-    },
-    {
-      "title": "काठमाडौँबाट बाहिरिने सवारी फाखेलबाट मात्रै जान पाउने, त्रिभुवन राजपथ एकतर्फी गरियो",
-      "description": "काठमाडौँ । अविरल वर्षाका कारण सड्क अवरुद्ध भएपछि काठमाडौँबाट बाहिरिने सवारी साधनलाई दक्षिणकाली–फाखेल सड्क खण्डबाट मात्रै पठाइएको छ । बीपी राजमार्ग र कान्ती लोकपथ पूर्ण रूपमा अवरुद्ध भएपछि उपत्यका ट्राफिक प्रहरी कार्यालयले त्यसतर्फ सवारी साधनलाई जान",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/tribhuwan-rajpath_7hqehm5sDM.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:49:13+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594743/vehicles-leaving-kathmandu-will-be-allowed-to-pass-only-through-fakhel-tribhuvan-highway-made-one-way",
-      "category": "national"
-    },
-    {
-      "title": "नारायणगढ–मुग्लिन सडक अर्को सूचना नभएसम्म बन्द",
-      "description": "शालिग्राम नेपालचितवन, असोज ९ गते । बिहीबार साँझदेखि बन्द रहेको नारायणगढ–मुग्लिन सडकखण्ड शुक्रबार पनि दिनभर बन्द गरिएको छ। सहायक प्रमुख जिल्ला अधिकारी ईश्वरीप्रसाद शर्माले वर्षा भइर...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/384673/conversions/muglin_nkPPYoeQot-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-25T03:49:01+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/224162",
-      "category": "national"
-    },
-    {
-      "title": "प्रतिकूल मौसमका कारण धवलागिरि आरोहण टोली फर्कियो",
-      "description": "म्याग्दी। संसारको सातौँ अग्लो (८,१६७ मिटर) धवलागिरि हिमाल आरोहणका लागि आएको टोली प्रतिकूल मौसमका कारण आधार शिविरबाट फर्किएको छ । म्याग्दीको धवलागिरि गाउँपालिका–४ मा पर्ने धवलागिरि हिमाल आरोहणका लागि आधार शिविर पुगेको ३० जनाको पर्वतारोही टोली बिहीबार तल्लो क्षेत्रमा रहेको इटली आधार शिविरतर्फ फर्किएको हो । आरोहण टोलीको समन्वय गरिरहेका म्याग्दीका पर्यटनकर्मी इन",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-25T03:48:56+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/25/dhaulagiri-climbing-team-returns-due-to-adverse-weather/",
-      "category": "business"
-    },
-    {
-      "title": "ओली ‘प्रोजेक्सन’मै एमालेमा भण्डारीको ‘कमब्याक’",
-      "description": "काठमाडौं । नेकपा एमालेमा पूर्वराष्ट्रपति विद्यादेवी भण्डारीको औपचारिक राजनीतिक पुनरागमन भएको छ । अध्यक्ष केपी शर्मा ओलीकै प्रस्तावमा भण्डारीलाई पार्टी नेतृत्वको दोस्रो वरीयतामा रहने गरी वरिष्ठ नेताको जिम्मेवारी दिइएको छ । बिहीबार सम्पन्न एमाले केन्द्रीय कमिटी बैठकले भण्डारीलाई वरिष्ठ नेतामा मनोनीत गर्ने निर्णय गरेको हो । चार दिनसम्म ललितपुरमा चलेको केन्द्रीय",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-25T03:45:41+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/148929/",
-      "category": "politics"
-    },
-    {
-      "title": "कृष्णभीरमा पहिरो: ट्र्याक सुरक्षित, जोखिम कायमै",
-      "description": "काठमाडौँ । नागढुंगा–मुग्लिन सडक योजना (पश्चिम खण्ड) अन्तर्गत कृष्णभीरमा सडकको ट्र्याक सुरक्षित रहे पनि अन्य विभिन्न ठाउँमा पहिरो खस्दा यातायात सेवा अवरुद्ध भएको छ । नागढुंगा–मुग्लिन सडक योजना पश्चिम खण्डका सूचना अधिकारी सचेन्द्र मिश्रका अनुसार कृष्णभीर",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/krishna-veer_oAfH2ewQhk.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:45:05+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594742/landslide-in-krishnabhir-triac-safe-risk-remains",
-      "category": "national"
-    },
-    {
-      "title": "असोज ७ सम्म सरकारको राजस्व २ खर्ब नाघ्यो, गत वर्षभन्दा १५.४% बढी",
-      "description": "बैंकिङ खबर / चालु आर्थिक वर्ष २०८३/८४ को असोज ७ गतेसम्म सरकारले २ खर्ब २ अर्ब ७२ करोड रुपैयाँ राजस्व संकलन गरेको छ । राजस्व व्यवस्थापन सूचना प्रणाली (RMIS) को विवरणअनुसार यो रकम गत आर्थिक वर्षको सोही अवधिको तुलनामा १५.४ प्रतिशत बढी हो । गत आर्थिक वर्ष २०८२/८३ को असोज ७ गतेसम्म सरकारले १ खर्ब […] The post असोज ७ सम्म सरकारको राजस्व २ खर्ब नाघ्यो, गत वर्षभन्दा",
-      "imageUrl": "",
-      "sourceLogo": "https://bankingkhabar.com/favicon.ico",
-      "sourceName": "बैंकिङ खबर",
-      "publishedTime": "2026-09-25T03:42:12+00:00",
-      "articleUrl": "https://bankingkhabar.com/archives/168705",
-      "category": "business"
-    },
-    {
-      "title": "पहिरोको जोखिममा काभ्रेको सल्ले प्रहरी चौकी",
-      "description": "पहिरो खसेपछि प्रहरी चौकी भवनलाई तत्काल त्रिपालले छोपेर राखिएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/salle-police-chuki.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T03:42:12+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025367/kavres-salle-police-post-at-risk-of-landslide",
-      "category": "national"
-    },
-    {
-      "title": "ज्वरो आउँदैमा बेवास्ता नगरौँ, हुन सक्छ स्क्रब टाइफसको सङ्क्रमण",
-      "description": "काठमाडौँ । घाँस, झाडी वा खेतबारीमा काम गर्दा ससाना किर्ना जस्तो देखिने सङ्क्रमित किरा (माइट) को टोकाइबाट मानिसमा सर्ने सङ्क्रामक रोग स्क्रब टाइफसको जोखिमप्रति सजग रहन स्वास्थ्य तथा खाद्य स्वच्छता मन्त्रालयले आग्रह गरेको छ। मन्त्रालयका अनुसार",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/Scrub-Typhus_8q5wI1qA6k.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:41:08+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594741/dont-ignore-a-fever-it-could-be-a-scrub-typhus-infection",
-      "category": "national"
-    },
-    {
-      "title": "प्रधानमन्त्री शाहद्वारा नेपाल–भारत–चीनबीच ‘हिमालयन क्लाइमेट रेजिलियन्स मेकानिजम’ प्रस्ताव",
-      "description": "काठमाडौँ । प्रधानमन्त्री वालेन्द्र शाहले नेपाल, भारत र चीनको नेतृत्वमा ‘हिमालयन क्लाइमेट रेजिलियन्स मेकानिजम’ स्थापनाको प्रस्ताव गरेका छन् । संयुक्त राष्ट्रसङ्घको ८१औँ महासभालाई आज सम्बोधन गर्दै उनले हिन्दुकुश हिमालय क्षेत्र करिब दुई अर्ब मानिसको पानी, पारिस्थितिक",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/y6twFb7xXZ.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:40:31+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594740/pm-shah-proposes-himalayan-climate-resilience-mechanism-between-nepal-india-china",
-      "category": "politics"
-    },
-    {
-      "title": "फुटबल बचाउन सरकार, एन्फा र राखेप मिल्नुपर्छ",
-      "description": "नेपाली फुटबलमा उत्पन्न अहिलेको अवस्थाले नेपाली फुटबलप्रेमीलाई चिन्तित बनाएको छ । सरकार, अखिल नेपाल फुटबल संघ (एन्फा) वा अरू सम्बन्धित निकाय सबैले अब एउटै कुरा सोच्नुपर्छ– फुटबल कसरी बचाउने ? अहिले कसको गल्ती हो, को",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rajukaji-sakhya_ffmGo8AqgF.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:38:12+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594738/government-anfa-and-nsc-must-come-together-to-save-football",
-      "category": "politics"
-    },
-    {
-      "title": "न्युयोर्कमा प्रधानमन्त्री बालेन र अस्ट्रेलियाली समकक्षीबीच भेट, बाढीपछिको पुनर्निर्माणमा सघाउने प्रतिबद्धता",
-      "description": "९ असोज, काठमाडौं । अस्ट्रेलियाका प्रधानमन्त्री एन्थोनी अल्बानिजले नेपालमा हालै गएको विनाशकारी बाढीबाट भएको क्षतिप्रति गहिरो दुःख व्यक्त गर्दै उद्धार तथा पुनर्निर्माणमा नेपालको साथमा रहेको बताएका छन्। संयुक्त राष्ट्रसंघको ८१औँ महासभाका सिलसिलामा न्युयोर्कमा प्रधानमन्त्री बालेन्द्र शाह (बालेन) सँगको भेटवार्तामा उनले यस्तो प्रतिबद्धता जनाएका हुन्। भेटबारे सामाज",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Anthony-Albanese-and-Balen.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T03:38:01+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025360/prime-minister-balen-meets-with-australian-counterpart-in-new-york-pledges-to-assist-in-post-flood-reconstruction",
-      "category": "politics"
-    },
-    {
-      "title": "भारी वर्षाको जोखिमपछि स्याङ्जाका चार पालिकामा विद्यालय बन्द",
-      "description": "९ असोज, स्याङ्जा । भारी वर्षा, बाढी तथा पहिरोको जोखिमलाई मध्यनजर गर्दै स्याङ्जाका चार स्थानीय तहले आज आफ्नो क्षेत्रका सबै विद्यालय बन्द गर्ने निर्णय गरेका छन् । यहाँका चापाकोट नगरपालिका, बिरुवा गाउँपालिका, अर्जुनचौपारी गाउँपालिका र गल्याङ नगरपालिकाले स्थानीय बिदा घोषणा गर्दै शैक्षिक संस्था बन्द गर्ने सूचना जारी गरेका हुन् । सम्बन्धित स्थानीय तहले सार्वजनिक ग",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/04/School-Building-Sketch.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T03:37:52+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025363/schools-closed-in-four-municipalities-of-syangja-due-to-risk-of-heavy-rain",
-      "category": "national"
-    },
-    {
-      "title": "नौ वर्षमा आधा मात्रै बनेको द्रुतमार्गको म्याद ३ वर्षका लागि फेरि थपेपछि उठेका प्रश्न",
-      "description": "दुई दशक अघि नै ट्र्याक खोलिएको काठमाण्डू-तराई/मधेश द्रुतमार्ग आयोजनाको म्याद हालै सरकारले थप तीन वर्ष थप गरेर २०८६ चैतसम्म पुर्‍याएको छ। यो समय पर्‍याप्त छ?",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/7f01/live/bee75d80-b834-11f1-b1d1-571ed4d7ff2c.png",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-09-25T03:37:38+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/cjx2zk0w7zwlo?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "पहिरोले बिपी राजमार्ग अवरूद्ध",
-      "description": "अविरल वर्षाका कारण पहिरो जाँदा बिपी राजमार्ग अवरुद्ध भएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-25T03:37:33+00:00",
-      "articleUrl": "https://www.setopati.com/social/399200",
-      "category": "national"
-    },
-    {
-      "title": "संवैधानिक निकायमा दोहोरो सुविधा र कार्यालयमै भत्ता खाने धन्दा अब समाप्त",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-09-25T03:37:02+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13805",
-      "category": "national"
-    },
-    {
-      "title": "बागमती किनारमा माइकिङ सुरु, सेनाको गस्ती",
-      "description": "काठमाडौँ । लगातार वर्षासँगै काठमाडौँ उपत्यकाका नदी सतह बढ्न थालेको छ । बागमती, विष्णुमती, मनोहरा, गोदावरी लगायतको नदिको जलसतह बढेको हो । जलसतह बढेसँगै बागमती नदी किनारमा नेपाली सेना, नेपाल प्रहरी तैनाथ हुन थालेका छन् ।",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bagmati-badi_8nKF1B3xAt.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:36:36+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594736/micing-begins-on-the-banks-of-the-bagmati-river-army-patrols",
-      "category": "national"
-    },
-    {
-      "title": "पहिरो र बाढीका कारण कालीगण्डकी करिडोर अवरुद्ध",
-      "description": "९ असोज, गुल्मी । गुल्मीको कालिगण्डकी गाउँपालिकाका दुई स्थानमा पहिरो र खोलाको बहाव बढेपछि कालीगण्डकी करिडोर सडक अवरुद्ध भएको छ। शुक्रबार बिहान करिब ७ः४० बजे कालिगण्डकी गाउँपालिका–२ राक्सेमा सडक माथिबाट लेदोसहितको पहिरो खसेपछि सडक अवरुद्ध भएको हो । यस्तै, गाउँपालिका–४ स्थित पातीखोलाको बहाव बढ्दा सडकमा पानी आएर आवतजावत प्रभावित भएको प्रहरीले जनाएको छ । बाटो […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/06/Kaligandaki-corodor-900px.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T03:36:22+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025358/kaligandaki-corridor-blocked-due-to-landslides-and-floods",
-      "category": "national"
-    },
-    {
-      "title": "वायुसेवा निगममा अर्को अनियमितताः बिना प्रतिस्पर्धा मलेसियामा क्रु ट्रान्सपोर्ट छनोट",
-      "description": "काठमाडौं । नेपाल वायुसेवा निगमले मलेसियाको क्वालालम्पुरमा बिना प्रतिस्पर्धा क्रु ट्रान्सपोर्टेसन सेवा प्रदायक छनोट गरेको तथ्य फेला परेको छ । प्रतिस्पर्धा बिनै सेवा प्रदायक छानेको निगमले सम्झौताको म्याद सकिएपछि पनि पुरानै कम्पनीबाट विना सम्झौता सेवा लिइरहेको पाइएको हो । नेपाल वायुसेवा निगमले मलेसियाको क्वालालम्पुरमा चालक दलका सदस्य (क्रु मेम्बर) राख्ने होटेल ",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-25T03:34:02+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/148927/",
-      "category": "national"
-    },
-    {
-      "title": "लगातार वर्षापछि नागढुंगामा सवारीसाधन होल्ड (तस्बिरहरू)",
-      "description": "काठमाडौँ । लगातार भइरहेको वर्षासँगै सम्भावित जोखिमलाई ध्यान दिँदै काठमाडौँ उपत्यकाबाट बाहिरिने सवारीसाधन नागढुंगामा होल्ड गरिएको छ। बिहीबार साँझ ८ बजेदेखि यात्रुवाहक तथा मालवाहक सवारीसाधन, मोटरसाइकललगायत सम्पूर्ण सवारीसाधन नागढुंगा क्षेत्रमा रोकिएको हो। वर्षाका कारण सडकमा हुनसक्ने",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/06-naagdhunga_-851_FzB1DAd2h9.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:33:19+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594735/vehicles-stranded-in-nagdhunga-after-continuous-rain-photos",
-      "category": "national"
-    },
-    {
-      "title": "‘एन्फाको निलम्बन फुकुवाका लागि फिफासँग निरन्तर समन्वयमा छौँ’",
-      "description": "काठमाडौँ । अखिल नेपाल फुटबल संघ (एन्फा)का तत्कालीन पदाधिकारीको कार्यकाल, निर्वाचन प्रक्रिया, राष्ट्रिय खेलकुद परिषद् (राखेप) र एन्फाबिचको सम्बन्ध तथा फिफाले उठाएको ‘तेस्रो पक्षको हस्तक्षेप’को विषयमा नेपाली फुटबल क्षेत्रमा बहस चलिरहेको छ । यही विवादका कारण",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/ramcharitra-meheta_8NOKSVnGxZ.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:33:14+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594734/we-are-in-continuous-coordination-with-fifa-to-lift-anfas-suspension",
-      "category": "national"
-    },
-    {
-      "title": "सीलाई ट्रम्पको महाभोज, को को निम्त्याइए ?",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-09-25T03:33:03+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13804",
-      "category": "national"
-    },
-    {
-      "title": "एमालेमा नेतृत्व पुनर्गठन मुद्दा तुहियो, नेताहरुलाई नयाँ जिम्मेवारी",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-09-25T03:30:49+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13803",
-      "category": "politics"
-    },
-    {
-      "title": "सगरमाथाबाट तीन वर्षअघि गुटेरेसले दिएको चेतावनी, विश्वमञ्चमा पुनः प्रतिध्वनित",
-      "description": "सोलुखुम्बु।संयुक्त राष्ट्रसङ्घका महासचिव एन्टोनियो गुटेरेसले तीन वर्षअघि सोलुखुम्बुको सगरमाथा क्षेत्रमा पुगेर विश्वलाई सुनाएको जलवायु सङ्कटको चेतावनी अहिले नेपालमा देखिएको विपद्का घटनाबीच पुनः विश्वमञ्चमा प्रतिध्वनित भएको छ । सन् २०२३ अक्टोबर ३० मा सोलुखुम्बुको खुम्बु क्षेत्रमा पुग्नुभएका महासचिव गुटेरेसले तीव्रगतिमा पग्लिरहेका हिमनदी र बढ्दो जलवायु सङ्कटप्र",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-25T03:30:37+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/25/guterres-warning-from-mount-everest-three-years-ago-echoes-again-on-the-world-stage/",
-      "category": "business"
-    },
-    {
-      "title": "एसियाको उदाउँदो शताब्दीमा नेपाललाई आर्थिक, डिजिटल र रणनीतिक ब्रिज बनाउने लक्ष्य छ : परराष्ट्रमन्त्री",
-      "description": "परराष्ट्रमन्त्री शिशिर खनालले एसियाको बढ्दो आर्थिक तथा रणनीतिक प्रभावका बीच नेपालको भौगोलिक अवस्थालाई अवसरमा रूपान्तरण गर्दै नेपाललाई एसियाको आर्थिक, डिजिटल र रणनीतिक ‘ब्रिज’ का रूपमा अघि बढाउनुपर्ने बताएका छन्।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Shishir-Khanal_UN.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T03:29:35+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025351/the-goal-is-to-make-nepal-an-economic-digital-and-strategic-bridge-in-asias-emerging-century-foreign-minister",
-      "category": "politics"
-    },
-    {
-      "title": "एमाले दैलेखका एक दर्जन नेता-कार्यकर्ता रास्वपा प्रवेश",
-      "description": "सुर्खेत । नेकपा एमाले दैलेखका एक दर्जन नेता तथा कार्यकर्ता राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) प्रवेश गरेका छन् । बिहीबार एक कार्यक्रमकाबिच जिल्ला कमिटीका सदस्यदेखि यसअघि एमालेबाट निर्वाचित वडाध्यक्ष भइसकेका युवा नेता रास्वपामा गएका हुन् । जसमा जिल्ला",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rsp-prabesh_b0meTJQDq8.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:27:54+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594733/a-dozen-leaders-and-activists-from-uml-dailekh-join-rashtriya-swayamsevak-sangh-rss",
-      "category": "politics"
-    },
-    {
-      "title": "मंसिरमा बालेनको भारत भ्रमण पक्का, परराष्ट्रले थाल्यो तयारी !",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-09-25T03:26:58+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13802",
-      "category": "national"
-    },
-    {
-      "title": "पूर्णबहादुरको गृह क्षेत्रमा विशेषतर्फ खुलेका नेता नै पालिका कमिटीमा निर्वाचित",
-      "description": "सुर्खेत । नेपाली कांग्रेसका निवर्तमान कार्यवाहक सभापति पूर्णबहादुर खड्काको गृह क्षेत्र सुर्खेत—१ का स्थानीय तहमा विशेष महाधिवेशनमा खुलेका उम्मेदवारहरू निर्वाचित भएका छन् । खड्का अहिले पनि कतै नखुल्ने बताइरहेका छन् । तर उनको क्षेत्रमा विशेषतर्फ खुलेका",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/pp_hUMGlrDz0S.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:23:58+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594732/leaders-who-have-opened-up-to-special-interests-in-purna-bahadurs-home-area-have-been-elected-to-the-municipal-committee",
-      "category": "national"
-    },
-    {
-      "title": "कान्तिलोकपथको तीन स्थानमा पहिरो, सडक पूर्णरूपमा अवरुद्ध",
-      "description": "प्रहरीका अनुसार कान्तिलोकपथ सडकखण्ड अन्तर्गत ललितपुरको बागमती गाउँपालिका–३ पाँचधुरे, पयाङधुर र टिकाभैरवमा पहिरो खस्दा सडक पूर्णरूपमा अवरुद्ध भएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T03:20:43+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025348/landslides-at-three-places-on-kantilokpath-road-completely-blocked",
-      "category": "national"
-    },
-    {
-      "title": "नारायणगढ–मुग्लिन सडक अनिश्चितकालका लागि बन्द",
-      "description": "चितवन । निरन्तरको वर्षासँगै पहिरो खस्ने क्रम नरोकिएपछि नारायणगढ–मुग्लिन सडक खण्ड अनिश्चितकालका लागि बन्द गरिएको छ। जिल्ला प्रशासन कार्यालय चितवनले शुक्रबार बिहान ७:१५ बजे एक सूचना जारी गर्दै अर्को व्यवस्था नभएसम्मका लागि उक्त सडक खण्डमा सवारी आवागमन पूर्ण रूपमा रोक लगाइएको जनाएको हो। बिहीबारदेखि चितवन र आसपासका क्षेत्रमा जारी अविरल वर्षाका कारण सडकका विभिन्न",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-25T03:16:00+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/148925/",
-      "category": "national"
-    },
-    {
-      "title": "चमेरोको विकासक्रमबारे दशकौँदेखिको रहस्य सुल्झियो",
-      "description": "काठमाडौँ । युनिभर्सिटी अफ सेन्ट एन्ड्रुजको नयाँ अनुसन्धानले चमेरोको जिनोम र जीवाश्म (फोसिल्स) को हालसम्मकै सबैभन्दा ठूलो संयुक्त अध्ययन गरेको छ। यस अध्ययनले चमेरोको उत्पत्ति करिब ६ करोड ५० लाख वर्षअघि युरोपमा भएको र त्यसपछि मात्र",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/new-study-reveals-bats_7xPu16LLsJ.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:15:54+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594731/decades-old-mystery-about-bat-evolution-solved",
-      "category": "national"
-    },
-    {
-      "title": "प्रधानमन्त्री शाहसँग भेटपछि अस्ट्रेलियाका प्रधानमन्त्री अल्बानीजले भने– ‘नेपालसँग आवश्यक सहयोगका लागि काम गरिरहन्छौँ’",
-      "description": "न्युयोर्क । अस्ट्रेलियाका प्रधानमन्त्री एन्थोनी अल्बानीजले विनाशकारी बाढीबाट प्रभावित नेपाललाई पुनःस्थापना र पुनर्निर्माणका क्रममा अस्ट्रेलियाले निरन्तर सहयोग गर्ने बताएका छन्। संयुक्त राष्ट्रसंघको महासभाका क्रममा बिहीबार नेपाली प्रधानमन्त्री बालेन्द्र शाहसँग भेटवार्ता गर्दै अल्बानीजले बाढी तथा विपत्तिबाट प्रभावित",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/balen_PLVdgAeIPm.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T03:11:49+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594730/after-meeting-with-prime-minister-shah-australian-prime-minister-albanese-said-we-continue-to-work-with-nepal-to-provide-necessary-assistance",
-      "category": "politics"
-    },
-    {
-      "title": "पहिरोले कान्ति लोकपथ अवरुद्ध",
-      "description": "बागमती । लगातारको वर्षासँगै कान्ति लोकपथका विभिन्न स्थानमा पहिरो खस्दा हेटौँडाबाट उक्त मार्गमा सञ्चालन हुने यातायात सेवा प्रभावित भएको छ । कान्ति लोकपथअन्तर्गत ललितपुरतर्फ विभिन्न तीन स्थानमा पहिरो खसेकाले उक्त सडक अवरुद्ध भएको मकवानपुरका प्रहरी प्रमुख श्यामबहादुर खत्रीले जानकारी दिए । यसैबीच, कुलेखानी जलविद्युत् आयोजनाको जलाशयमा पानीको सतह सामान्य रहेको जान",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-25T03:09:26+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/494382.html",
-      "category": "business"
-    },
-    {
-      "title": "पृथ्वी राजमार्ग र नारायणगढ–मुग्लिन सडक बन्द",
-      "description": "पृथ्वी राजमार्ग र नारायणगढ–मुग्लिन सडकखण्ड अर्को सूचना जारी नभएसम्मका लागि बन्द गरिएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-25T03:08:00+00:00",
-      "articleUrl": "https://www.setopati.com/social/399199",
-      "category": "national"
-    },
-    {
-      "title": "जलवायु परिवर्तनले सीमा चिन्दैन, हिमनदी र बाढी पासपोर्टमा भिसा लगाएर यात्रा गर्दैनन् : प्रधानमन्त्री शाह (सम्बोधनको पूर्णपाठ)",
-      "description": "हिमनदी र बाढी पासपोर्टमा भिसा लगाएर यात्रा गर्दैनन् । म आज यहाँ सुदूर हिमाली देश नेपालबाट मानवजातिका लागि आउँदै गरेको चेतावनीसहित उपस्थित छु । आज यहाँ उभिएर विकास, लोकतन्त्र, शान्ति र एउटा राष्ट्रको आशा’bout मात्रै बोल्न पाएको भए म खुसी हुने थिएँ । तर आज मैले महाविनाश र अभूतपूर्व मानवीय क्षति’bout बोल्नुपर्ने भएको छ । […] The post जलवायु परिवर्तनले सीमा चिन्",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-25T03:02:37+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/148924/",
-      "category": "politics"
-    },
-    {
-      "title": "'हामीले तताउँदै नतताएको जलवायु र सुरू नै नगरेको युद्धको मारमा पर्‍यौं’ (सम्बोधनको पूर्णपाठ)",
-      "description": "'यस मञ्चबाट जे सुकै भनिए पनि, एउटा कुरा स्पष्ट रूपमा भनियोस्—तिर्न इच्छुक देशले किन्न पाउनुपर्छ र जसले ७२ घण्टाभित्र जहाँ पनि हतियार पुर्याउन सक्छ, उसले किसानलाई मर्यादित जीविकोपार्जनका साधनविहीन छोड्नुको कुनै बहाना हुन सक्दैन।'",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-25T03:00:37+00:00",
-      "articleUrl": "https://www.setopati.com/politics/399198",
-      "category": "national"
-    },
-    {
-      "title": "पृथ्वी राजमार्गको धादिङ खण्डमा सात ठाउँमा पहिरो",
-      "description": "डीएसपी दाहालका अनुसार पृथ्वी राजमार्गको कृष्णभिर, परेवाभिर, ज्यामिरेघाट, जहरे, जवाङखोला, तिगराङ खोला र कमेरेभिरमा पहिरो खसेको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Krishnabhir-pahiro.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T02:54:59+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025333/landslides-at-seven-places-on-dhading-section-of-prithvi-highway",
-      "category": "national"
-    },
-    {
-      "title": "मध्यपश्चिम विश्वविद्यालयद्वारा प्रधानमन्त्री दैवी प्रकोप कोषमा ५४ लाख बढी सहयोग",
-      "description": "सुर्खेत।मध्यपश्चिम विश्वविद्यालयले भोटेकोशी बाढीबाट प्रभावितका लागि राहत सहयोग गरेको छ। बिहिबार विश्वविद्यालयले ५४ लाख ४८ हजार २८९ रुपैयाँ प्रधानमन्त्री दैवी प्रको उद्दार कोषमा जम्मा गरेको हो। विश्वविद्यालयमा कार्यरत सम्पूर्ण पदाधिकारी, प्राध्यापक तथा कर्मचारीबाट एकमुष्ट संकलन गरिएको सहयोग रकम प्रधानमन्त्री दैवी प्रकोप उद्धार कोषको नेपाल बैंकमा रहेको खातामा ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-25T02:37:27+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/25/midwestern-university-donates-over-rs-5-4-million-to-prime-ministers-disaster-relief-fund/",
-      "category": "business"
-    },
-    {
-      "title": "विभिन्न स्थानमा पहिरो गएपछि मुग्लिन-नारायणगढ सडक अवरुद्ध",
-      "description": "काठमाडौं । लगातारको वर्षाका कारण मुग्लिन-नारायणगढ सडकखण्डका विभिन्न स्थानमा पहिरो गएपछि सवारी आवागमन बन्द गरिएको छ। जिल्ला प्रशासन कार्यालय चितवनका अनुसार वर्षाका कारण सडकखण्डका विभिन्न स्थानमा निरन्तर पहिरो गइरहेको र पहिरो हटाउने काम जारी रहेकाले अर्को सूचना प्रकाशित नभएसम्मका लागि सवारी आवागमन बन्द गरिएको हो । सवारी आवागमन बन्द रहने भएकाले सोहीअनुसार यात्र",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-25T02:36:13+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/494379.html",
-      "category": "business"
-    },
-    {
-      "title": "ब्याडमिन्टन मिक्स डबल्समा प्रफुल–रशिला तथा क्षितिज–रिहाना पहिलो चरणबाटै बाहिरिए",
-      "description": "९ असोज, काठमाडौं । जापानमा जारी २०औं एसियाली खेलकुदअन्तर्गत ब्याडमिन्टनको मिक्तस डबल्समा नेपालका दुवै जोडी पहिलो चरणबाटै बाहिरिएका छन् । इचिनोमिया सिटी म्युनिसिपल जिम्नेसियममा शुक्रबार भएको खेलमा प्रफुल महर्जन र रशिला महर्जनको जोडी चाइनिज ताइपेइका ये होङ–वेई र चान निकोल गोन्जालेससँग २–० को सोझो सेटमा पराजित भयो । नेपाली जोडीले पहिलो सेट १४–२१ र दोस्रो […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/12/asian-games1.jpeg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T02:31:51+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025331/praful-rashila-and-kshitij-rihana-exit-in-the-first-round-of-badminton-mixed-doubles",
-      "category": "national"
-    },
-    {
-      "title": "बाढी प्रभावित क्षेत्रका व्यक्ति र सम्पत्तिको विवरण संकलन गर्दै योजना आयोग",
-      "description": "काठमाडौं । राष्ट्रिय योजना आयोगले बाढी प्रभावित क्षेत्रमा घाइते, बेपत्ता तथा मृत्यु भएका व्यक्ति एवं प्रभावित सम्पत्ति तथा व्यवसायसम्बन्धी विवरण उपलब्ध गराउन आग्रह गरेको छ । आयोगले सूचना जारी गर्दै गत भदौ १० गते नेपाल–चीन सीमा क्षेत्र हुँदै भोटेकोशी नदीमा आएको विनाशकारी बाढीबाट प्रभावित मानवीय, आर्थिक, सामाजिक तथा भौतिक सम्पत्तिको क्षतिको विवरण संकलन गरी विप",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-25T02:31:26+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/494377.html",
-      "category": "business"
-    },
-    {
-      "title": "चितवनमा दुई महिनामा ४३ सवारी दुर्घटना, १५ जनाको मृत्यु",
-      "description": "चितवन। चितवनमा चालु आर्थिक वर्षको पहिलो दुई महिनामा ४३ वटा सवारी दुर्घटना हुँदा १५ जनाको मृत्यु भएको छ। जिल्ला ट्राफिक प्रहरी कार्यालयको तथ्यांकअनुसार, गत साउन र भदौमा भएका ती दुर्घटनामा ८७ जना घाइते भएका छन्। साउनमा २३ वटा सवारी दुर्घटना हुँदा पाँचजनाको मृत्यु भएको थियो भने ६० घाइते भएका थिए। भदौमा २० वटा दुर्घटना हुँदा […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-25T02:28:45+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/25/43-vehicle-accidents-in-chitwan-in-two-months-15-people-killed/",
-      "category": "business"
-    },
-    {
-      "title": "नेपाल र नामिबियाबीच कूटनीतिक सम्बन्ध स्थापना",
-      "description": "काठमाडौं । नेपाल र नामिबियाबीच कूटनीतिक सम्बन्ध स्थापना भएको छ । यससँगै नेपालको कूटनीतिक सम्बन्ध १८७ मुलुकमा विस्तार भएको छ । संयुक्त राष्ट्रसंघको ८१औँ महासभामा सहभागी हुने सिलसिलामा न्युयोर्कमा रहेका परराष्ट्रमन्त्री शिशिर खनाल र नामिबियाका अन्तर्राष्ट्रिय सम्बन्ध तथा व्यापारमन्त्री सेल्मा असिपाला मुसाभीले कूटनीतिक सम्बन्ध स्थापना गर्नेसम्बन्धी संयुक्त विज्",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-25T02:28:43+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/148922/",
-      "category": "politics"
-    },
-    {
-      "title": "बीपी राजमार्ग पूर्णरुपमा अवरुद्ध",
-      "description": "बीपी राजमार्गको नमोबुद्ध–६ को चौकीडाँडा, रोशी–७ को चारसयवेशी, रोशी–८ को गिम्दीवेशी र रोशी ११ माम्तीमा पहिरो खसेकाले बीपी राजमार्ग पूर्णरुपमा अवरुद्ध भएको हो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Landslide-BP-Rajmarg.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T02:23:10+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025327/bp-highway-completely-blocked-2",
-      "category": "national"
-    },
-    {
-      "title": "ठाउँठाउँमा पहिरो खसेपछि मुग्लिन-नारायणगढ सडक खण्ड अनिश्चितकालका लागि बन्द",
-      "description": "९ असोज, काठमाडौं । लगातारको वर्षाका कारण मुग्लिन-नारायणगढ सडकखण्डका विभिन्न स्थानमा पहिरो गएपछि सवारी आवागमन बन्द गरिएको छ। जिल्ला प्रशासन कार्यालय चितवनका अनुसार वर्षाका कारण सडकखण्डका विभिन्न स्थानमा निरन्तर पहिरो गइरहेको र पहिरो हटाउने काम जारी रहेकाले अर्को सूचना प्रकाशित नभएसम्मका लागि सवारी आवागमन बन्द गरिएको हो। सवारी आवागमन बन्द रहने भएकाले सोहीअनुसा",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/07/muglin-narayangadh.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T02:16:30+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025325/muglin-narayangadh-road-section-closed-indefinitely-after-landslides-in-places",
-      "category": "national"
-    },
-    {
-      "title": "हनुमन्ते खोलामा जलसतहले सतर्कता तह पार गर्‍यो, उच्च सतर्कता अपनाउन आग्रह",
-      "description": "काठमाडौं । भक्तपुरस्थित हनुमन्ते खोलाको जगाती जलमापन केन्द्रमा जलसतहले सतर्कता तह पार गरेको छ। जल तथा मौसम विज्ञान विभागका अनुसार असोज ९ गते बिहान ७:४० बजे उक्त केन्द्रमा जलसतह सतर्कता तहभन्दा माथि पुगेको हो। जलसतह अझै बढ्न सक्ने सम्भावना रहेको विभागले जनाएको छ। विभागले हनुमन्ते खोलाको नदी तटीय क्षेत्रमा बसोबास गर्ने तथा नदी किनारको सडकबाट […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-25T02:10:42+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/494375.html",
-      "category": "business"
-    },
-    {
-      "title": "बैंक तथा वित्तीय संस्थाले सेयर र डिबेञ्चरमा गरेको लगानी ४५ दिन होल्ड गरे पुग्ने !",
-      "description": "काठमाडौँ । बैंक तथा वित्तीय संस्थाहरुले सेयर तथा डिबेञ्चरमा गरेको लगानी न्यूनतम ४५ दिन मात्र होल्ड गरे हुने भएको छ । ‘क’, ‘ख’ र ‘ग’ वर्गका बैंक तथा वित्तीय संस्थाका लागि जारी गरिएको एकीकृत निर्देशन, २०८२ मा परिमार्जन गर्दै राष्ट्र बैंकले यस्तो व्यवस्था गरेको हो । नयाँ व्यवस्था अनुसार सर्वसाधारणमा सेयर बिक्री गरी धितोपत्र विनिमय Continue reading \"बैंक तथा वित",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-09-25T02:05:29+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/09/banks-and-financial-institutions-should-hold-their-investments-in-shares-and-debentures-for-45-days.html",
-      "category": "business"
-    },
-    {
-      "title": "कति छ आज डलर सहितका विदेशी मुद्राको विनिमय दर ?",
-      "description": "काठमाडौं । नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५३ रुपैयाँ २४ पैसा र बिक्रीदर १५३ रुपैयाँ ८४ पैसा निर्धारण गरिएको छ । युरोपियन युरो एकको खरिददर १७४ रुपैयाँ २९ पैसा र बिक्रीदर १७४ रुपैयाँ ९७ पैसा, युके पाउन्ड स्ट्रलिङ एकको खरिददर २०२ […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-25T02:04:15+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/494366.html",
-      "category": "business"
-    },
-    {
-      "title": "अस्ट्रियाको जित, नेदरल्यान्ड्स र जर्मनीको बराबरी",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-09-25T01:56:00+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/174964",
-      "category": "sports"
-    },
-    {
-      "title": "फ्लाइ दुबईको पोखरा–दुबई उडान दोस्रो दिन पनि उत्साहजनक",
-      "description": "कास्की । दुबई–पोखरा–दुबई सिधा उडान सुरु भएको दोस्रो दिन यात्रुको सङ्ख्या उत्साहजनक देखिएको छ । फ्लाइ दुबईले बुधबारदेखि पोखरा अन्तरराष्ट्रिय विमानस्थलमा १६५ यात्रु क्षमताको जहाजबाट नियमित उडान सुरु गरेको थियो । दोस्रो दिन पनि दुबई–पोखरा उडानमार्फत १२२ यात्रु पोखरा अतवरण गरेका थिए । पोखराबाट दुबईका लागि १४३ जनाले यात्रा गरेको पोखरा अन्तरराष्ट्रिय विमानस्थल नाग",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-25T01:55:06+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/494364.html",
-      "category": "business"
-    },
-    {
-      "title": "पोर्चुगलसँग पराजित भए पनि वेल्सको प्रदर्शनमा बेलामी गर्वित",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-09-25T01:38:21+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/174963",
-      "category": "sports"
-    },
-    {
-      "title": "फागुन २१ को निर्वाचन नेपालको इतिहासकै शान्तिपूर्ण र निष्पक्ष: प्रधानमन्त्री बालेन",
-      "description": "काठमाडौं । प्रधानमन्‍त्री वालेन्द्र शाह (बालेन) ले गत फागुन २१ को निर्वाचन नेपालको इतिहासकै शान्तिपूर्ण र निष्पक्ष भएको दाबी गरेका छन् । संयुक्त राष्ट्रसंघको महासभामा सम्बोधनका क्रममा उनले यस्तो बताएका हुन् ।",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-25T01:37:18+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/494354.html",
-      "category": "business"
-    },
-    {
-      "title": "जलवायु न्याय केवल पैसाको विषय मात्र होइन, वितरणात्मक न्यायको हो: प्रधानमन्त्री बालेन",
-      "description": "काठमाडौ । प्रधानमन्त्री वालेन्द्र शाह (बालेन) ले जलवायु न्याय केवल पैसाको विषय मात्र नभएर वितरणात्मक न्यायको विषय भएको बताएका छन् । शुक्रबार बिहान महासभाको सम्बोधनका क्रममा उनले भनेका छन्, ‘जलवायु न्याय केवल पैसाको विषय होइन। यो वितरणात्मक न्यायको विषय हो, अर्थात् यसको लागत कसले बेहोर्छ भन्ने प्रश्न हो।’ उनले अगाडि थपे, ‘यो प्रक्रियागत न्यायको विषय […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-09-25T01:34:41+00:00",
-      "articleUrl": "https://clickmandu.com/2026/09/494352.html",
-      "category": "business"
-    },
-    {
-      "title": "बाढीपछिको पुनर्निर्माणमा जीडीपीको १० प्रतिशत रकम चाहिन्छ, सहयोग चाहन्छौं : प्रधानमन्त्री",
-      "description": "९ असोज, काठमाडौं । प्रधानमन्त्री बालेन शाहले भोटेकोशी-त्रिशूली क्षेत्रमा आएको विनाशकारी बाढीलाई ‘माउन्टेन सुनामी’ को सङ्ज्ञा दिँदै यसपछिको पुनर्निर्माणका लागि नेपालको कुल गार्हस्थ्य उत्पादनको करिब १० प्रतिशत रकम आवश्यक पर्ने बताएका छन्। राष्ट्रसंघको महासभामा शुक्रबार बिहान बोल्दै उनले विपद्‍मा कम्तीमा १ हजार ४०० जनाको मृत्यु भएको र ६ हजारभन्दा बढी मानिस अझै ",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/balen-2-1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T01:20:10+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025315/10-percent-of-gdp-needed-for-post-flood-reconstruction-we-want-support-prime-minister",
-      "category": "politics"
-    },
-    {
-      "title": "के एआईले साँच्चै मानवजातिलाई समाप्त पार्न सक्छ? यस्ता छन् शोधकर्ताले कल्पना गरेका चार परिस्थिति",
-      "description": "शोधकर्ताहरूले एआई नियन्त्रणबाहिर गएमा निम्तिन सक्ने सम्भावित जोखिमबारे गम्भीर चेतावनी दिएका छन्। यस सामग्रीमा बीबीसीका साइबर संवाददाता जो टाइडीले शोधकर्ताहरूले परिकल्पना गरेका त्यस्ता सम्भावित अवस्थाहरू र तिनका जोखिमबारे चर्चा गरेका छन्।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/2b29/live/aaf14390-b2bc-11f1-bc1f-3f186ca4140c.png",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-09-25T01:16:39+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/cqm2m5y3vl71o?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "राष्ट्रसंघमा बालेनको प्रस्ताव : नेपाल, भारत र चीन मिलेर हिमालय जलवायु उत्थानशीलता संयन्त्र बनाऔँ",
-      "description": "९ असोज, काठमाडौं । प्रधानमन्त्री बालेन शाहले जलवायु विपद्को सामना गर्न नेपाल, भारत र चीनको नेतृत्वमा हिमालय जलवायु उत्थानशीलता संयन्त्र स्थापना गर्न प्रस्ताव गरेका छन्। संयुक्त राष्ट्रसंघको महासभालाई शुक्रबार बिहान सम्बोधन गर्दै उनले यस्तो प्रस्ताव राखेका हुन् । हिमालय क्षेत्र करिब २ अर्ब मानिसको आश्रयस्थल र पृथ्वीको जीवन रक्षक प्रणालीको हिस्सा भएको उल्लेख ग",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T01:15:42+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025312/balens-proposal-to-the-un-lets-create-a-himalayan-climate-resilience-mechanism-together-with-nepal-india-and-china",
-      "category": "national"
-    },
-    {
-      "title": "हालान्डको २ गोलमा नर्वेको विजयी सुरुवात",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-09-25T01:11:37+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/174962",
-      "category": "sports"
-    },
-    {
-      "title": "बाढी, जलवायु न्याय र विश्वव्यवस्था सम्बन्धमा प्रधानमन्त्री बालेन्द्र शाहको सम्बोधन : ‘हिमालयको चेतावनी सुन्न र त्यसअनुसार काम गर्न तयार रहौँ’",
-      "description": "न्युयोर्क । प्रधानमन्त्री बालेन्द्र शाहले नेपालको बाढी, जलवायु परिवर्तन र त्यसबाट उत्पन्न मानवीय तथा विकास संकटलाई संयुक्त राष्ट्रसंघको महासभामार्फत विश्व समुदायसामु प्रस्तुत गरेका छन् । संयुक्त राष्ट्रसंघको ८१औँ महासभालाई सम्बोधन गर्दै प्रधानमन्त्री शाहले हिमालयबाट आएको जलवायु संकटको चेतावनीलाई विश्वले अब सुन्ने मात्र नभई त्यसअनुसार तत्काल काम गर्नुपर्नेमा ",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-09-25T01:01:04+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/148918/",
-      "category": "politics"
-    },
-    {
-      "title": "महासभामा सम्बोधनको अन्त्यमा प्रधानमन्त्री बालेनले भने- पशुपतिनाथले विश्वको कल्याण गरून्, विश्व बुद्धको बाटोमा हिँडोस्",
-      "description": "९ असोज, काठमाडौं । प्रधानमन्त्री बालेन शाहले संयुक्त राष्ट्रसंघको महासभालाई सम्बोधन गर्दै विश्व शान्ति र कल्याणको कामना गरेका छन्। सम्बोधनको अन्त्यमा प्रधानमन्त्री शाहले भने, ‘भगवान् पशुपतिनाथले विश्वको कल्याण गरुन् । यो विश्व बुद्धले देखाएको बाटोमा हिँड्न सकोस् । धन्यवाद, नमस्ते।’ नेपालको आध्यात्मिक तथा सांस्कृतिक पहिचानसँग जोडिएका पशुपतिनाथ र गौतम बुद्धको ",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T00:56:24+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025309/at-the-end-of-his-address-to-the-general-assembly-prime-minister-balen-said-may-pashupatinath-bring-prosperity-to-the-world-may-the-world-walk-on-the-path-of-buddha",
-      "category": "politics"
-    },
-    {
-      "title": "राष्ट्रसंघ महासभामा प्रधानमन्त्री बालेनको प्रश्न- हतियार पुग्ने विश्वमा किसानले मल र इन्धन किन पाउँदैनन् ?",
-      "description": "प्रधानमन्त्री शाहले विश्वव्यापी आपूर्ति प्रणालीमा रहेको असमानतामाथि प्रश्न उठाउँदै हतियार आपूर्तिका लागि विश्वसँग रहेको तीव्र र प्रभावकारी संयन्त्र किसानका लागि मल तथा इन्धन आपूर्तिमा भने कमजोर रहेको बताएका छन्।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T00:50:11+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025304/prime-minister-balens-question-at-the-united-nations-general-assembly-why-dont-farmers-get-fertilizer-and-fuel-in-a-world-where-weapons-are-plentiful",
-      "category": "politics"
-    },
-    {
-      "title": "देशका धेरै ठाउँमा झरी, आइतबारदेखि क्रमिक सुधार हुने सम्भावना",
-      "description": "मौसमविदहरुका अनुसार आज र भोलि पनि झरी पर्ने पूर्वानुमान छ । आइतबारदेखि भने मौसम क्रमिक रुपमा सुधार हुने सम्भावना छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Rainfall-1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T00:48:05+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025296/continuous-rain-in-many-parts-of-the-country-gradual-improvement-likely-from-sunday",
-      "category": "national"
-    },
-    {
-      "title": "अल्पविकसित देश भएर पनि नेपालको वातावरणीय योगदान विश्वमै उल्लेखनीय : प्रधानमन्त्री",
-      "description": "९ असोज, काठमाडौं । प्रधानमन्त्री बालेन शाहले विश्वमञ्चमा नेपालको वातावरणीय प्रयासको चर्चा गर्दै अति कम विकसित देश (एलडीसी) भएर पनि नेपालले आफ्नो दायित्वभन्दा बढी योगदान गरिरहेको दाबी गरेका छन्। शुक्रबार बिहान महासभाको सम्बोधनका क्रममा उनले नेपालले आफ्नो आधाजसो भूभाग वनजङ्गलले ढाकेको, विदेशका प्रदूषणकारी ऊर्जालाई विस्थापित गर्न तीव्र गतिमा जलविद्युत् उत्पादन ",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T00:38:05+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025300/despite-being-an-underdeveloped-country-nepals-environmental-contribution-is-remarkable-in-the-world-prime-minister",
-      "category": "politics"
-    },
-    {
-      "title": "जलवायु न्याय राष्ट्रसंघको दस्तावेजमा मात्र सीमित सुन्दर वाक्य बन्नुहुँदैन : प्रधानमन्त्री बालेन",
-      "description": "उनले भने, 'जलवायु न्याय संयुक्त राष्ट्रसङ्घको दस्तावेजमा मात्र सीमित एउटा सुन्दर वाक्यांश बन्नुहुँदैन। हाम्रा नागरिकले निरन्तर आफ्नो विगतको पुनर्निर्माण गरिरहनुको सट्टा अब आफ्नो भविष्य निर्माण गर्न पाउनुपर्छ।'",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/balen-shaha_UN.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T00:35:25+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025297/climate-justice-should-not-be-a-beautiful-phrase-limited-to-un-documents-prime-minister-balen",
-      "category": "politics"
-    },
-    {
-      "title": "एसियन गेम्स पुरुष क्रिकेटमा नेपालले अफगानिस्तानसँग खेल्दै",
-      "description": "९ असोज, काठमाडौं । जापानमा जारी २०औं एसियाली खेलकुद अन्तर्गत पुरुष क्रिकेटको आफ्नो पहिलो खेलमा नेपालले आज अफगानिस्तानसँग खेल्दै छ । जापानको आइचीस्थित निशिनमा रहेको कोरोगी स्पोर्ट्स पार्कमा हुने खेल बिहान पौने ११ बजेदेखि सुरु हुनेछ । त्यसअघि ओमान र हङकङबीचको खेल अहिले भइरहेको छ । नेपाल समूह ‘ए’ मा अफगानिस्तान र जापानसँग रहेको छ […]",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T00:30:14+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2024977/nepal-to-play-afghanistan-in-asian-games-mens-cricket",
-      "category": "national"
-    },
-    {
-      "title": "धादिङको कृष्णभिरमा पहिरो, पृथ्वी राजमार्ग अवरुद्ध",
-      "description": "९ असोज, काठमाडौं । धादिङको कृष्णभिरमा पहिरो खसेपछि पृथ्वी राजमार्ग अवरुद्ध भएको छ । गएराति ढुंगासहितको पहिरो खसेकाले राजमार्ग अवरुद्ध भएको हो । वर्षासँगैको बाढीपहिरोको जोखिमका कारण रातभर पृथ्वीराजमार्ग बन्द गरिएको थियो । आज बिहान पाँच बजेदेखि राजमार्गमा गाडी सन्चालन गर्ने भनिए पनि पहिरो खसेपछि गाडी चलेका छैनन् । पहिरो पन्छाउने काम भैरहेको तर निरन्तर […]",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T00:29:25+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025294/landslide-in-krishna-bhir-dhading-blocks-prithvi-highway",
-      "category": "national"
-    },
-    {
-      "title": "फ्युजन फाइटमा सुष्मा र रजिनाको भिडन्त हुने",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-09-25T00:26:33+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/174961",
-      "category": "sports"
-    },
-    {
-      "title": "आजका लागि तोकियो विदेशी मुद्राको विनिमयदर",
-      "description": "९ असोज, काठमाडौं । नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५३ रुपैयाँ २४ पैसा र बिक्रीदर १५३ रुपैयाँ ८४ पैसा निर्धारण गरिएको छ । युरोपियन युरो एकको खरिददर १७४ रुपैयाँ २९ पैसा र बिक्रीदर १७४ रुपैयाँ ९७ पैसा, युके पाउन्ड स्ट्रलिङ एकको […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2016/06/dollar-and-euro.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T00:20:34+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025292/foreign-currency-exchange-rates-set-for-today-5",
-      "category": "national"
-    },
-    {
-      "title": "संयुक्त राष्ट्रसंघको महासभामा प्रधानमन्त्री शाहले थाले सम्बोधन",
-      "description": "न्यूयोर्कमा जारी संयुक्त राष्ट्रसंघको ८१औँ महासभाको उच्चस्तरीय सप्ताह अन्तर्गत आजको दिवासत्रमा उनले सम्बोधन गरेका हुन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/balen-2-1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T00:18:52+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025286/prime-minister-shah-begins-his-address-at-the-united-nations-general-assembly",
-      "category": "politics"
-    },
-    {
-      "title": "पहिरो खसेपछि कृष्णभीर सडक पूर्ण रूपमा अवरुद्ध",
-      "description": "काठमाडौँ । बिहीबारदेखि परेको अविरल वर्षाका कारण कृष्णभीरमा फेरि पहिरो खस्दा सडक पूर्ण रूपमा अवरुद्ध भएको छ । इलाका प्रहरी कार्यालय गजुरीका अनुसार बिहीबार राति सडकमाथिबाट ठुला ढुङ्गा र चट्टानसहितको पहिरो खसेपछि आवागमन पूर्ण रूपमा ठप्प",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/krishnaveer-kulman_ChUpudIbQt.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T00:04:38+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594708/krishnabhir-road-completely-blocked-after-landslide",
-      "category": "national"
-    },
-    {
-      "title": "विश्व हाप्किडो च्याम्पियनसिपमा बन्दनाले जितिन् रजत",
-      "description": "काठमाडौँ । नेपाली हाप्किडो खेलाडी बन्दना बस्नेतले किर्गिस्तानमा सम्पन्न ब्रिक्स गेम्स, ओपन विश्व हाप्किडो च्याम्पियनसिप–२०२६ मा रजत पदक जितेकी छन् । किर्गिस्तानको इस्सिक–कुल क्षेत्रमा सेप्टेम्बर २२ देखि २४ सम्म भएको प्रतियोगितामा बन्दनाले महिलातर्फ ४९ देखि ५३",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bandana-thapa_qjWN3WGsFk.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-24T23:54:40+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594707/bandana-wins-silver-at-world-hapkido-championships",
       "category": "national"
     }
   ]
