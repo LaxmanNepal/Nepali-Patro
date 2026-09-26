@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-26T17:24:47.374702+00:00",
-  "lastSuccessfulUpdate": "2026-09-26T17:24:47.374702+00:00",
-  "newestPublishedTime": "2026-09-26T17:19:19+00:00",
+  "updatedAt": "2026-09-26T19:58:36.724561+00:00",
+  "lastSuccessfulUpdate": "2026-09-26T19:58:36.724561+00:00",
+  "newestPublishedTime": "2026-09-26T18:30:00+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -23,14 +23,94 @@
   ],
   "items": [
     {
-      "title": "कालीगण्डकीको बाढीले पुलको पहुँच मार्ग बगायो",
-      "description": "नवलपरासी । नवलपरासी (बर्दघाट–सुस्तापूर्व) र तनहुँ जोड्ने कालीगण्डकी नदीमा बनेको मोटरेबल पुलको नवलपुरतर्फको पहुँच मार्ग (एप्रोच रोड) बाढीले बगाउँदा सडक पूर्ण रूपमा अवरुद्ध भएको छ । जिल्ला प्रहरी कार्यालय नवलपरासी (बर्दघाट–सुस्तापूर्व) का सूचना अधिकारी एवं प्रहरी",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rca8mVPlFM.jpg",
+      "title": "पर्यटक सुरक्षाका लागि एक्यापद्वारा पर्यटक परमिट बन्द",
+      "description": "मुस्ताङ । राष्ट्रिय प्रकृति संरक्षण कोष, अन्नपूर्ण संरक्षण क्षेत्र आयोजनाले सम्भावित विपद् जोखिमको प्रक्षेपण तथा त्यसबाट हुनसक्ने सम्भावित क्षति न्यूनीकरणका लागि भन्दै सो क्षेत्रमा भ्रमण गर्न जाने पर्यटकका लागि प्रवेशाज्ञा (परमिट) दिन बन्द गरेको छ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/mustang_map_LeezRi6vcZ.jpg",
       "sourceLogo": "https://ratopati.com/favicon.ico",
       "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-26T17:19:19+00:00",
-      "articleUrl": "https://www.ratopati.com/story/595145/kaligandaki-floods-wash-away-bridge-access-road",
+      "publishedTime": "2026-09-26T18:30:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595148/acap-suspends-tourist-permits-for-tourist-safety",
       "category": "national"
+    },
+    {
+      "title": "नेपाल र बेलारुसबीच कूटनीतिक, सरकारी तथा सेवा राहदानीवाहकलाई भिसा छुट दिने सम्झौता",
+      "description": "काठमाडौँ, असोज १० गते । नेपाल र बेलारुसबीच कूटनीतिक, सरकारी तथा सेवा राहदानीवाहकलाई भिसा छुट दिनेसम्बन्धी सम्झौतामा हस्ताक्षर भएको छ ।संयुक्त राष्ट्रसङ्घको ८१औँ महासभाका अवसरमा न्य...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/385052/conversions/1000186347-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T18:19:28+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224420",
+      "category": "politics"
+    },
+    {
+      "title": "१२ बजे १२ समाचार : यस्ता छन् आजका प्रमुख समाचार",
+      "description": "काठमाडाैँ र आज दिनभरका मुख्यमुख्य घटनाक्रमसहित रातोपाटीको रात्रिकालीन प्रस्तुति रातोपाटी ब्रिफिङमा ‘१२ बजे १२ समाचार’ लिएर हाजिर भएका छौँ– १. महासभामा सहभागी भएर स्वदेश फर्किए प्रधानमन्त्री संयुक्त राष्ट्रसङ्घको ८१औँ महासभामा सहभागी भएर प्रधानमन्त्री वालेन्द्र शाह शनिबार स्वदेश",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/12-am-final_viqawbfig2-(1)_fam6WtIhIE.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T18:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595146/12-news-at-12-these-are-todays-top-news-stories",
+      "category": "national"
+    },
+    {
+      "title": "उत्तर–पश्चिमी पाकिस्तानमा प्रहरी जाँच चौकीमा आत्मघाती विस्फोट, कम्तीमा ११ जनाको मृत्यु",
+      "description": "डेरा इस्माइल खान (पाकिस्तान), असोज १० गते । उत्तर–पश्चिमी पाकिस्तानमा शनिबार सडकछेउको प्रहरी जाँच चौकीमा आत्मघाती आक्रमणकारीले विस्फोटक पदार्थले भरिएको सवारीसाधन विस्फोट गराउँदा कम...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/385051/conversions/pakistan-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T18:09:18+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224419",
+      "category": "national"
+    },
+    {
+      "title": "परराष्ट्रमन्त्री खनाल र संयुक्त राष्ट्रसङ्घका मानवअधिकार उच्चायुक्त तुर्कबिच भेटवार्ता",
+      "description": "काठमाडौँ, असोज १० गते । परराष्ट्रमन्त्री शिशिर खनाल र संयुक्त राष्ट्रसङ्घका मानवअधिकार उच्चायुक्त भोल्कर तुर्कबिच भेटवार्ता भएको छ ।संयुक्त राष्ट्रसङ्घको ८१औँ महासभाका अवसरमा न्यु...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/385050/conversions/1000186348-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T18:02:49+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224418",
+      "category": "politics"
+    },
+    {
+      "title": "तालतलैया गोल्डकपको उपाधि शतिसालेलाई",
+      "description": "सुनसरी । इटहरीमा सम्पन्न प्रथम तालतलैया गोल्डकप फुटबल प्रतियोगिताको उपाधि मोरङको शतिसाले फुटबल क्लबले जितेको छ । इटहरी–२ स्थित बुढासुब्बा खेलमैदानमा आज सम्पन्न फाइनल खेलमा शतिसालेले उदयपुरको फ्युजन फुटबल क्लबलाई ३–० गोलअन्तरले पराजित गर्दै उपाधि जितेको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/D1nR2zE3MR.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-26T17:47:25+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595147/shatisala-wins-talatalaiya-gold-cup-title",
+      "category": "national"
+    },
+    {
+      "title": "कालीगण्डकी नदीमा सतर्कता तह पार, सतर्कता अपनाउन आग्रह",
+      "description": "गोरखापत्र अनलाइन काठमाडौँ, असोज १० गते । जल विज्ञान तथा ऊर्जा जलस्रोत अनुसन्धान केन्द्र अन्तर्गतको बाढी पूर्वानुमान महाशाखाका अनुसार अहिले कालीगण्डकी नदीमा सतर्कता तह पार गरेको छ ।...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/385049/conversions/SG_MyagdiMyagdirakaligandakikobadi(2)-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T17:46:04+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224417",
+      "category": "national"
+    },
+    {
+      "title": "सडक सञ्जाल अवरुद्ध हुँदा रसुवामा खाद्यान्न अभाव, बिरामी मारमा",
+      "description": "रसुवा, असोज १० गते । भोटेकोशी बाढीका कारण चीनसँगको सीमावर्ती जिल्ला रसुवाको सडक सञ्जाल पूर्णरूपमा टुटेपछि स्थानीय जनजीवन कष्टकर बनेको छ । सडक यातायात ठप्प हुँदा जिल्लामा खाद्यान्न...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/385047/conversions/votekoshi-flood-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-09-26T17:26:50+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/224416",
+      "category": "national"
+    },
+    {
+      "title": "कालीगण्डकीको बाढीले पुलको पहुँचमार्ग बगायो",
+      "description": "नवलपुर (नवलपरासी) । नवलपरासी (बर्दघाट–सुस्तापूर्व) र तनहुँ जोड्ने कालीगण्डकी नदीमा बनेको मोटरेबल पुलको नवलपुरतर्फको पहुँचमार्ग (एप्रोच रोड) बाढीले बगाउँदा सडक पूर्ण रूपमा अवरुद्ध भएको छ । जिल्ला प्रहरी कार्यालय नवलपरासी (बर्दघाट–सुस्तापूर्व) का सूचना अधिकारी एवं प्रहरी नायब उपरीक्षक अनिल पण्डितका अनुसार पुलको पहुँचमार्ग बगाएपछि बौदीकाली गाउँपालिका–२ डेढगाउँ ",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-09-26T17:25:34+00:00",
+      "articleUrl": "https://nepalnews.com/2026/09/26/kaligandaki-floods-wash-away-bridge-access-road/",
+      "category": "business"
     },
     {
       "title": "लुम्बिनी र सुदूरपश्चिममा हावाहुरी, भारी वर्षाको जोखिम",
@@ -61,16 +141,6 @@
       "publishedTime": "2026-09-26T16:48:39+00:00",
       "articleUrl": "https://gorkhapatraonline.com/news/224413",
       "category": "politics"
-    },
-    {
-      "title": "पर्यटक सुरक्षाका लागि एक्यापद्वारा पर्यटक परमिट बन्द",
-      "description": "मुस्ताङ, असोज १० गते । राष्ट्रिय प्रकृति संरक्षण कोष, अन्नपूर्ण संरक्षण क्षेत्र आयोजनाले सम्भावित विपद् जोखिमको प्रक्षेपण तथा त्यसबाट हुनसक्ने सम्भवित क्षति न्यूनीकरणका लागि भन्दै...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/385041/conversions/annapurna-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-26T16:47:32+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/224412",
-      "category": "national"
     },
     {
       "title": "हुम्लामा भारी वर्षा",
@@ -721,16 +791,6 @@
       "publishedTime": "2026-09-26T13:41:08+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/09/2026423/canada-team-announced-for-league-2-cricket-under-the-captaincy-of-hamza-tariq",
       "category": "national"
-    },
-    {
-      "title": "सडक सञ्जाल अवरुद्ध हुँदा रसुवामा खाद्यान्न अभाव, बिरामी मारमा",
-      "description": "रसुवा। भोटेकोशी बाढीका कारण चीनसँगको सीमावर्ती जिल्ला रसुवाको सडक सञ्जाल अवरुद्ध भएपछि स्थानीय जनजीवन कष्टकर बनेको छ । सडक यातायात ठप्प हुँदा जिल्लामा खाद्यान्न तथा दैनिक उपभोग्य वस्तुको अभाव बढ्दै गएको छ भने कृषक, व्यवसायी र बिरामीसमेत प्रत्यक्ष मारमा परेका छन्। बाढी गएको एक महिना बितिसक्दा पनि सडक सञ्चालनमा आउन नसकेपछि रसुवागढी तथा आसपासका क्षेत्रमा […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-26T13:41:08+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/26/food-shortage-illness-grip-rasuwa-as-road-network-disrupted/",
-      "category": "business"
     },
     {
       "title": "बाँकेको दुर्गम नरैनापुरबाटै राजस्व सेवा",
@@ -4960,66 +5020,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-09-25T14:06:24+00:00",
       "articleUrl": "https://www.ratopati.com/story/594928/construction-of-arun-iii-dam-halted-after-water-flow-in-arun-river-increases",
-      "category": "national"
-    },
-    {
-      "title": "शिक्षक व्यवस्थापनको माग गर्दै आन्दोलनरत विद्यार्थी नेता शंकरले नगरप्रखुमको कार्यकक्षमै फिनेल सेवन गरे",
-      "description": "नगर प्रमुखको कार्यकक्षमै फिनेल सेवन गरेका शंकरलाई तत्काल उपचारका लागि बीपी कोइराला स्वास्थ्य विज्ञान प्रतिष्ठान लगिएको छ। उनको स्वास्थ्य अवस्थाबारे थप विवरण आउन बाँकी छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-09-25T14:03:46+00:00",
-      "articleUrl": "https://nepallive.com/story/351046",
-      "category": "national"
-    },
-    {
-      "title": "प्रज्ञा प्रतिष्ठानको बृहत् पुस्तक प्रदर्शनी सुरु",
-      "description": "काठमाडौँ । नेपाल प्रज्ञा प्रतिष्ठानले शुक्रबारदेखि आयोजना गरेको बृहत् पुस्तक प्रदर्शनीमा करिब दुई दर्जन प्रकाशन गृहका पुस्तक प्रदर्शनीमा राखिएको छ। प्रदर्शनीको शुभारम्भ गर्दै प्रतिष्ठानका उपकुलपति अविनाश श्रेष्ठले मानव चेतनाको विकासका लागि प्रदर्शनीले सहयोग गर्ने विश्वास व्यक्त",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/nepal-pragya-pratisthan_qACOtjlCsf.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T14:03:18+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594927/pragya-pratishthans-large-scale-book-exhibition-begins",
-      "category": "national"
-    },
-    {
-      "title": "एसियन गेम्स पुरुष क्रिकेटको दोस्रो खेलमा नेपालले जापानसँग खेल्दै",
-      "description": "९ असोज, काठमाडौं । जापानमा जारी २०औं एसियन गेम्स अन्तर्गत पुरुष क्रिकेटको आफ्नो दोस्रो खेलमा नेपालले शनिबार जापानसँग खेल्दै छ । जापानको आइची, निशिनस्थित कोरोगी स्पोर्ट्स पार्कमा हुने खेल नेपाली समयअनुसार बिहान पौने ६ बजेदेखि सुरु हुनेछ । यद्यपी उक्त खेलका लागि मौसमले साथ नदिने सम्भावना पनि छ । जापानमा शनिबार बिहानदेखि दिनभरजसो वर्षाको सम्भावना […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/nepal-asian-games.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T14:01:38+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025944/nepal-to-play-japan-in-second-match-of-asian-games-mens-cricket",
-      "category": "national"
-    },
-    {
-      "title": "‘जलाकी’को गीत ‘जाले रुमाल मायालाई’मा उपासना र सोनमको रोमान्स",
-      "description": "काठमाडौँ। अशोक थापा मगर निर्देशित फिल्म ‘जलाकी’को नयाँ गीत ‘जाले रुमाल मायालाई’ शुक्रबार सार्वजनिक गरिएको छ। गण्डकी क्षेत्रमा प्रचलित कौडाको शैलीको गीतमा एसडी योगी र रेश्मा पुनको स्वर तथा सुरेन्द्र रानाको शब्द छ। गायक एसडी",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/jalaki_RUCqoiJm0M.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T13:56:42+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594926/upasana-and-sonams-romance-in-the-song-jale-rumal-mayalai-from-jalaki",
-      "category": "national"
-    },
-    {
-      "title": "पछिल्लो १२ घण्टामा १.२ मिटरले बढ्यो कुलेखानीमा पानी",
-      "description": "हेटाैँडा । मुलुकको एकमात्र ‘ब्याकअप’ ऊर्जा स्रोतको रूपमा रहेको कुलेखानी जलविद्युत् आयोजनाको जलाशयमा पानीको सतह बढ्दो क्रममा रहेको छ । पछिल्लो १२ घण्टाको अवधिमा मात्रै कुलेखानी जलाशयमा जल सतह १.२ मिटरले भरिएको आयोजनाले जनाएको छ",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/kunelkani1_F9dM0Ahtvt.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-25T13:53:40+00:00",
-      "articleUrl": "https://www.ratopati.com/story/594925/water-level-in-kulekhani-has-risen-by-12-meters-in-the-last-12-hours",
-      "category": "national"
-    },
-    {
-      "title": "पानीको बहाव बढेपछि अरुण तेस्रो जलविद्युत्‌काे ड्याम निर्माण रोकियो",
-      "description": "९ असोज, सङ्खुुवासभा । स‍ंखुवासभाको मकालु गाउँपालिका–५ फ्याक्सिन्दा दोभानमा निर्माणाधीन अरुण तेस्रो जलविद्युत् आयोजनाको ड्यामको काम रोकिएको छ । अरुण नदीमा जलसतह बढेपछि निर्माणाधीन ९०० मेगावाटको अरुण तेस्रो जलविद्युत् आयोजनाको काम पूर्ण रूपमा अवरुद्ध भएको जिल्ला प्रहरी कार्यालयका सूचना अधिकारी एवं प्रहरी निरीक्षक धनबहादुर राजवंशीले बताए । आयोजनाको निर्माणाधीन ",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/01/Arun-tesro-ayojana.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-25T13:52:01+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2025946/construction-of-arun-iii-hydropower-dam-halted-after-water-flow-increases",
       "category": "national"
     }
   ]
