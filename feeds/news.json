@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-27T19:01:02.219402+00:00",
-  "lastSuccessfulUpdate": "2026-09-27T19:01:02.219402+00:00",
-  "newestPublishedTime": "2026-09-27T18:52:28+00:00",
+  "updatedAt": "2026-09-27T21:53:18.438235+00:00",
+  "lastSuccessfulUpdate": "2026-09-27T21:53:18.438235+00:00",
+  "newestPublishedTime": "2026-09-27T21:51:57+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -22,6 +22,46 @@
     }
   ],
   "items": [
+    {
+      "title": "नर्वेलाई हराउँदै पोर्चुगल समूह ‘डी’ को शीर्ष स्थानमा",
+      "description": "काठमाडौँ । युइएफए नेसन्स लिग अन्तर्गत समूह ‘डी’ को दोस्रो खेलमा सोमाबर बिहान पोर्चुगलले नर्वेमाथि २–१ गोलको प्रतिस्पर्धात्मक जित निकालेको छ । यो जितसँगै पोर्चुगल समूहको शीर्ष स्थानमा उक्लिएको छ भने नर्वे दोस्रो स्थानमा झरेको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/portugal_D7G26775fm.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-27T21:51:57+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595390/portugal-top-group-d-after-beating-norway",
+      "category": "national"
+    },
+    {
+      "title": "जमुनाहनाकाबाट भारतीय पर्यटकलाई भित्र्याउन आग्रह",
+      "description": "बाँके । पर्यटन प्रवर्द्धनका लागि बाँकेको जमुनाहनाकाबाट भारतीय पर्यटकलाई निर्बाध भित्र्याउन पर्यटन व्यवसायीले आग्रह गरेका छन् । नेपालगन्ज पर्यटन परिषद्को आइतबार यहाँ आयोजित प्रथम अधिवेशन तथा साधरणसभामा सरोकार भएका व्यक्ति तथा सङ्घसंस्थाले जिल्लामा रहेका पर्यटकीय क्षेत्रको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/banke-district-map_buY1dHpxrb.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-27T20:00:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595389/request-to-bring-indian-tourists-from-jamunahanaka",
+      "category": "national"
+    },
+    {
+      "title": "सडक अवरुद्ध भएपछि भैरहवामा दर्जनौँ बस रोकिए",
+      "description": "रूपन्देही । लगातारको वर्षासँगै विभिन्न राजमार्ग तथा सडकखण्डमा पहिरो खसेर सडक अवरुद्ध भएपछि भैरहवाबाट सञ्चालन हुने लामो दूरीका यातायात सेवा प्रभावित भएका छन् । काठमाडौँ, पोखरा, बागलुङ, बेनी, जनकपुरलगायतका गन्तव्यमा जाने दर्जनौँ बस सञ्चालन हुन नसकेपछि",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/buspark-nirbachan-farkifi-(11)_QXSQWZK8h8.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-27T19:30:03+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595388/dozens-of-buses-stopped-in-bhairahawa-after-road-blockage",
+      "category": "national"
+    },
+    {
+      "title": "फाइबर चुँडिएपछि तीन जिल्लामा सञ्चार सम्पर्क विच्छेद",
+      "description": "म्याग्दी । फाइबर चुँडिएपछि धवलागिरिका तीन जिल्लामा आइतबार बिहानदेखि सञ्चार सम्पर्क विच्छेद भएको छ । पर्वतको कुश्मा नगरपालिका–१ सहश्रधारामा कालीगण्डकीले कटान गरेर विद्युत्, नेपाल टेलिकम र निजी क्षेत्रका इन्टरनेट सेवा प्रदायक कम्पनीको फाइबर जडित पोल बगाएपछि",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/myagdi_Yxx1IewRfU.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-27T19:02:24+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595387/communication-outage-in-three-districts-after-fiber-ruptures",
+      "category": "national"
+    },
     {
       "title": "बागलुङमा पहिरोमा १० जनाको मृत्यु, एक बेपत्ता",
       "description": "बागलुङ । बागलुङमा अविरल वर्षापछि आएको पहिरोमा परी १० जनाको मृत्यु भएको छ भने एक जना बेपत्ता भएका छन् । वर्षाका कारण पछिल्लो दुई दिनमा जिल्लामा ठुलो मानवीय क्षति भएको हो । आइतबार मात्रै नौ जनाको",
@@ -4980,46 +5020,6 @@
       "sourceName": "राजधानी",
       "publishedTime": "2026-09-27T00:27:16+00:00",
       "articleUrl": "https://rajdhanidaily.com/id/149035/",
-      "category": "national"
-    },
-    {
-      "title": "आज विश्व पर्यटन दिवस",
-      "description": "काठमाडौँ, असोज ११ गते । चवालिसौँ विश्व पर्यटन दिवस आज (आइतबार) नेपालमा विविध कार्यक्रम आयोजना गरी मनाइँदै छ । ‘पर्यटनलाई पुनर्संरचना गर्न डिजिटल एजेन्डा र कृत्रिम बौद्धिकता’ भन्ने...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/385056/conversions/tourist-a-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-27T00:24:56+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/224424",
-      "category": "national"
-    },
-    {
-      "title": "कस्तो रहला तपाईँको आजको दिन ? हेर्नुहोस् राशिफल",
-      "description": "वि.सं.२०८३ साल असोज ११ गते । आइतबार । ईश्वी सन् २०२६ सेप्टेम्बर २७ तारिख । नेपाल संवत् ११४६ । रौद्र संवत्सर । दक्षिणायन । शरद ऋतु । श्रीशाके १९४८ । आश्विन कृष्णपक्ष । तिथि–प्रतिपदा, बेलुकी",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_vLkWHGsooW.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-27T00:22:34+00:00",
-      "articleUrl": "https://www.ratopati.com/story/595157/how-was-your-day-today-check-your-horoscope",
-      "category": "national"
-    },
-    {
-      "title": "दलित समुदायका थर सूचीकरण",
-      "description": "काठमाडौँ, असोज ११ गते । सरकारले पहिलो पटक दलित समुदायको परिभाषासहित उनीहरूको थरलाई विस्तृत सूचीकरण गरेको छ । राष्ट्रिय दलित आयोगको सिफारिसमा मन्त्रीपरिषद्ले स्वीकृत गरेको दलित समुद...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/385055/conversions/4333-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-09-27T00:13:18+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/224423",
-      "category": "politics"
-    },
-    {
-      "title": "सुरु भयो सोह्रश्राद्ध, यस्तो छ शास्त्रीय विधान",
-      "description": "११ असोज, काठमाडौं । हिन्दू परम्पराअनुसार आजदेखि पितृपक्ष अर्थात् सोह्रश्राद्ध सुरु भएको छ । आश्विन कृष्ण प्रतिपदादेखि आश्विन शुक्ल प्रतिपदासम्म कायम रहने पितृपक्षमा आफ्ना दिवङ्गत पितृको तिथिमा तर्पण, सिदादान तथा पिण्डदान गर्ने परम्परा छ । सोह्र वटा तिथिमा पितृप्रति श्रद्धासाथ पितृकार्य गरिने हुनाले नेपाली समाजमा सोह्रश्राद्धको नामले परिचित छ । चाड पर्व, यज्ञ",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/09/Sohra-saraddha-pashupati-4.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-26T23:55:20+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026498/sixteen-rituals-begin-ancestral-worship-at-pashupati-photos-2",
       "category": "national"
     }
   ]
