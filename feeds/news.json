@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-28T18:34:56.251993+00:00",
-  "lastSuccessfulUpdate": "2026-09-28T18:34:56.251993+00:00",
-  "newestPublishedTime": "2026-09-28T18:28:49+00:00",
+  "updatedAt": "2026-09-28T23:28:02.143633+00:00",
+  "lastSuccessfulUpdate": "2026-09-28T23:28:02.143633+00:00",
+  "newestPublishedTime": "2026-09-28T23:24:48+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -23,6 +23,136 @@
   ],
   "items": [
     {
+      "title": "बाढीले पाइपलाइन बगाउँदा बागलुङ बजारमा खानेपानी समस्या",
+      "description": "बागलुङ । अविरल वर्षापछि आएको बाढीले खानेपानीको मुख्य पाइपलाइनमा क्षति पुर्‍याएपछि बागलुङ बजारमा खानेपानीको समस्या भएको छ । बजारका करिब चार हजार ५०० उपभोक्ताले आइतबारदेखि समस्या व्यहोर्नु परेको छ । बाढीले बागलुङ नगरपालिका–३ हनुमानमौवा नजिकै मुख्य",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/baglung-map_saube82urq.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T23:24:48+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595669/water-supply-problem-in-baglung-bazaar-as-flood-washes-away-pipeline",
+      "category": "national"
+    },
+    {
+      "title": "सञ्चालनको पर्खाइमा नेपालगन्ज सिटी हल",
+      "description": "बाँके । नेपालगन्जमा ठुलो रकम खर्च गरेर निर्माण गरिएको नगर सभा हल ९सिटी हल० सञ्चालनको पर्खाइमा रहेको छ । नेपालगन्ज उपमहानगरपालिका–१४ भवानीयापुरमा सङ्घीय सरकारले निर्माण गरेको सुविधा सम्पन्न सिटी हलको २०८१ फागुन १३ गत उद्घाटन भए",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/TymImfzLXa.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T23:18:23+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595667/nepalgunj-city-hall-awaits-operation",
+      "category": "national"
+    },
+    {
+      "title": "कस्तो रहला तपाईँको दिन ? हेर्नुहोस् आजकाे राशिफल",
+      "description": "आजको पञ्चाङ्ग वि.सं.२०८३ साल असोज १३ गते । मंगलबार । इस्वी सन् २०२६ सेप्टेम्बर २९ तारिख । नेपाल संवत् ११४६ । रौद्र संवत्सर । दक्षिणायन । शरद ऋतु । श्रीशाके १९४८ । आश्विन कृष्णपक्ष । तिथि–तृतीया,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_XkWmpVM1yU.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T23:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595662/how-was-your-day-check-out-todays-horoscope",
+      "category": "national"
+    },
+    {
+      "title": "विद्युत् महसुल तिर्न काउन्टर धाउनुपर्ने बाध्यता हट्दै",
+      "description": "दाङ । नेपाल विद्युत् प्राधिकरणको तुलसीपुर वितरण केन्द्रले महसुल काउन्टर पूर्ण रूपमा बन्द गर्ने भएको छ । आगामी मङ्सिर १ गतेदेखि भौतिक काउन्टर बन्दगरी अनलाइनमार्फत विद्युत् महसुल भुक्तानी गर्ने गरी आवश्यक व्यवस्था मिलाइने केन्द्र प्रमुख सुरेशकुमार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dang-map_yCoTeipd67.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T23:05:30+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595663/the-obligation-to-visit-the-counter-to-pay-electricity-bills-is-being-eliminated",
+      "category": "national"
+    },
+    {
+      "title": "मनाङ पुगेका पर्यटक फर्किन थाले",
+      "description": "लमजुङ । अन्नपूर्ण चक्रीय पदमार्ग हुँदै मनाङ पुगेका विदेशी पर्यटक निरन्तरको वर्षासँगै मौसम प्रतिकूल बनेपछि बिच बाटोबाटै यात्रा छोट्याएर लमजुङतर्फ फर्किन थालेका छन् । थोराङ्ला भन्ज्याङ पार गर्दै मुस्ताङ, पोखरालगायत गन्तव्यमा पुग्ने योजनामा आएका पर्यटक मौसममा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/tourist_kNJdvqb5Mg.png",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T22:57:46+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595664/tourists-who-reached-manang-started-returning",
+      "category": "national"
+    },
+    {
+      "title": "मानव वन्यजन्तु द्वन्द्व व्यवस्थापनका लागि पोखरी",
+      "description": "तनहुँ । मानव वन्यजन्तु द्वन्द्व व्यवस्थापनका लागि तनहुँका विभिन्न सामुदायिक वनमा पोखरी निर्माण गरिएको छ । वन्यजन्तुलाई पानी पिउन सहयोग होस् भन्ने उद्देश्यसहित डिभिजन वन कार्यालयले आर्थिक वर्ष २०८२र८३ मा जिल्लाका आठ सामुदायिक वनमा पोखरी",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dVLPKvdX1q.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T22:52:21+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595661/pond-for-human-wildlife-conflict-management",
+      "category": "national"
+    },
+    {
+      "title": "अब अपाङ्गता सेवा र तथ्याङ्क एउटै डिजिटल प्रणालीबाट",
+      "description": "काठमाडौँ । अपाङ्गता भएका व्यक्तिको पहिचान, तथ्याङ्क व्यवस्थापन, परिचयपत्र जारी र सामाजिक सुरक्षाको पहुँच अब एउटै डिजिटल प्रणालीमार्फत हुने भएको छ । अपाङ्गता व्यवस्थापन सूचना प्रणाली (डिएमआइएस)लाई सामाजिक सूचना व्यवस्थापन प्रणाली (सिम्स)मा समायोजन गरी सरकारलाई",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/woman-and-children-ministrey(3)-mahila-balbalika-samajik-alpasankhak_hQVU7B24Xa.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T22:43:25+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595660/now-disability-services-and-statistics-are-available-through-a-single-digital-system",
+      "category": "national"
+    },
+    {
+      "title": "पर्साका विद्यालयलाई सहयोग",
+      "description": "पर्सा । ‘उपकार सेवा नेपाल’ले पर्साका दुई विद्यालयलाई पङ्खा सहयोग गरेको छ । विद्यार्थीलाई सहज र अनुकूल वातावरणमा अध्ययन तथा पठनपाठन गर्न सहयोग पुगोस् भन्ने उद्देश्यले संस्थाले पर्साको पोखरिया नगरपालिका–६ र ८ मा रहेका दुई",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/parsa-district-map_0ZIfD6x5iq.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T22:40:16+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595659/support-to-schools-in-parsa",
+      "category": "national"
+    },
+    {
+      "title": "बेल्जियमलाई हराउँदै फ्रान्स समूहको शीर्ष स्थानमा",
+      "description": "काठमाडौँ । युइएफए नेसन्स लिगअन्तर्गत समूह चरणको खेलमा फ्रान्सले बेल्जियमविरुद्ध १–० गोलको कठिन जित दर्ता गरेको छ । समूह ‘ए’ अन्तर्गत म‌ंगलबार भएको दोस्रो खेलमा फ्रान्सलाई जित दिलाउन माइकल ओलिसेले निर्णायक गोल गरे । निकै प्रतिस्पर्धात्मक",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/france_VDvNDXXkAm.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T22:37:56+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595658/france-top-group-after-beating-belgium",
+      "category": "national"
+    },
+    {
+      "title": "एसियाड क्रिकेटको क्वार्टरफाइनलमा नेपालले आज श्रीलङ्कासँग खेल्दै",
+      "description": "काठमाडौँ । जापानमा जारी २०औँ एसियाली खेलकुदअन्तर्गत पुरुष क्रिकेटको क्वार्टरफाइनलमा नेपालले आज श्रीलङ्कासँग खेल्दै छ । खेल निसिनस्थित कोरोगी स्पोर्ट्स पार्कमा नेपाली समयअनुसार बिहान पौने ६ बजे सुरु हुनेछ । समूह ‘ए’को विजेता बनेर नेपाल",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nepali-cricket-team-warmup_QrRmfemZu1.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T22:27:28+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595657/nepal-to-play-sri-lanka-in-asiad-cricket-quarterfinals-today",
+      "category": "national"
+    },
+    {
+      "title": "कालीगण्डकी बाढीले उजाडियो तिल्केनी",
+      "description": "म्याग्दी । म्याग्दीको रघुगङ्गा गाउँपालिका–३ तिल्केनीचौरका गमबहादुर सेञ्चुरीको घर नजिकै दुई दिनयता कालीगण्डकी बग्न थालेको छ । आइतबार बिहानदेखि नदीले कटान गर्न थालेपछि उनले सामान निकालेर घर अगाडिको सडकमा थुपार्नुभयो । ती सामान लगेर कहाँ बस्ने",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/L80C71ZwtT.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T20:03:53+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595656/tilkeni-devastated-by-kaligandaki-floods",
+      "category": "national"
+    },
+    {
+      "title": "प्रतिबन्धले इरानी उड्डयन क्षेत्र प्रभावित भएको अमेरिकी दाबी",
+      "description": "काठमाडौँ । संयुक्त राज्य अमेरिकाले इरानको उड्डयन क्षेत्रमाथि लगाएको प्रतिबन्ध सफल भएको बताएको छ । अमेरिकाले सेप्टेम्बरको सुरुमा इरानको सम्पूर्ण उड्डयन क्षेत्रमाथि प्रतिबन्ध लगाएको थियो । यो दबाबपूर्ण अभियान अन्तर्गत इरानले ‘आर्थिक श्वासरोध’ हुने दाबी अमेरिकी अर्थमन्त्री",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/iran-usa-war_FYZ9KV6X8v.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T18:51:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595655/us-claims-sanctions-have-affected-iranian-aviation-sector",
+      "category": "national"
+    },
+    {
+      "title": "मृतकका परिवारलाई रु एक लाख राहत",
+      "description": "गण्डकी । गण्डकी प्रदेश सरकारले बागलुङ, म्याग्दीलगायत जिल्लामा बाढी पहिरोमा परी मृत्यु भएका व्यक्तिका परिवारलाई रु एक लाखका दरले राहत दिने निर्णय गरेको छ । साथै, किरिया खर्चबापत रु २५ हजार दिने भएको छ । सोमबार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/gandaki-pardesh-sarkar-mukha-mantralaya_GLFHzAtFRh_VWgd28F4AD.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-09-28T18:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/595654/rs-1-lakh-relief-to-the-family-of-the-deceased",
+      "category": "national"
+    },
+    {
       "title": "देशभर २७२ विपद्का घटना",
       "description": "काठमाडौँ । पछिल्लो २४ घण्टामा देशभर २७२ विपद्का घटना भएका छन् । विपद्मा परेका एक हजार १८१ जनाको उद्धार गरिएको छ । राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणका प्रवक्ता शान्ति महतका अनुसार उद्धार तथा व्यवस्थापनका",
       "imageUrl": "https://npcdn.ratopati.com/media/news/bipad_K1MTVLWec3.webp",
@@ -33,7 +163,7 @@
       "category": "national"
     },
     {
-      "title": "१२ बजे १२ समाचार : रेबिजविरद्ध खोपको अभाव, राप्रपा अध्यक्ष लिङ्देनविरुद्ध मुद्दा दायर",
+      "title": "१२ बजे १२ समाचार : रेबिज खोप अभाव, राप्रपा अध्यक्ष लिङ्देनविरुद्ध मुद्दा दायर",
       "description": "काठमाडौँ । आज दिनभरका मुख्य १२ घटनाक्रम रातोपाटी डटकमको नियमित प्रस्तुति ‘१२ बजे १२ समाचार’मा प्रस्तुत गरेका छौँ– १. रेबिजविरद्ध खोपको अभाव रेबिजविरुद्ध खोपको अभाव कायमै छ । खोप खरिदका लागि पर्याप्त बजेट विनियोजन नहुँदा समस्या भएको",
       "imageUrl": "https://npcdn.ratopati.com/media/news/12_S7DKAvmQlm.webp",
       "sourceLogo": "https://ratopati.com/favicon.ico",
@@ -4891,136 +5021,6 @@
       "publishedTime": "2026-09-27T15:47:43+00:00",
       "articleUrl": "https://nepalnews.com/2026/09/27/residents-near-marsyangdi-river-urged-to-move-to-safer-places/",
       "category": "business"
-    },
-    {
-      "title": "'चामेका बासिन्दा कोही घरमा छैनन्, सरकारले वास्तै गरेको छैन'",
-      "description": "रातभर जंगलमा पानीमा भिजेर बसेका चामेवासी बिहान घर त फर्किए, तर घरमा बस्न सकेनन्। माथिबाट पहिरो झरिरहेको छ, मर्स्याङ्दी थुनिएको छ र ताल फुटे ठूलो बाढी आउन सक्ने त्रास छ। यस्तो जोखिमबीच उद्धारको पर्खाइमा छ चामे।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-09-27T15:45:00+00:00",
-      "articleUrl": "https://www.setopati.com/social/399397",
-      "category": "politics"
-    },
-    {
-      "title": "सोमबारदेखि वीरगञ्जमा वडा कार्यालयबाट मालपोत कर तिर्ने व्यवस्था",
-      "description": "वीरगञ्ज । अब वीरगञ्जवासीले वडा कार्यालयबाटै मालपोत कर सङ्लन गर्न सक्ने भएका छन् । वीरगञ्ज महानगरपालिकाले नगरवासीलाई मालपोत कर तिर्न सहज हुने गरी अब सम्बन्धित वडा कार्यालयबाटै मालपोत कर सङ्लन गर्ने व्यवस्था लागू गरेको छ",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/birganj-mahangar_JUnHRqE9rG.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-27T15:44:12+00:00",
-      "articleUrl": "https://www.ratopati.com/story/595366/arrangement-to-pay-land-revenue-tax-from-ward-office-in-birgunj-from-monday",
-      "category": "national"
-    },
-    {
-      "title": "कालीगण्डकी करिडोरको ४६ स्थानमा पहिरो, यातायात सेवा प्रभावित",
-      "description": "काठमाडौं।अविरल वर्षाका कारण कालीगण्डकी करिडोरअन्तर्गतको मालढुंगा-बेनी-जोमसोम-कोरला सडक खण्डको ४६ स्थानमा पहिरो गएको छ। असोज ८ गतेदेखिको निरन्तर वर्षाले सडकका विभिन्न खण्डमा पहिरो खस्ने, ढुङ्गा खस्ने, नदी तथा खोलामा बाढी आउने र सडक कटान हुँदा यातायात सेवा नराम्ररी प्रभावित बनेको छ। करिडोर आयोजनाका अनुसार माथिल्लो भेगदेखि तल्लो भेगसम्मका दर्जनौं स्थानमा सडक अव",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-27T15:42:11+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/27/landslides-at-46-places-along-kaligandaki-corridor-transport-services-affected/",
-      "category": "business"
-    },
-    {
-      "title": "बाढीपहिरोले क्षतिग्रस्त डुम्रे–बेँसीसहर–चामे सडकमा मर्मत तीव्र",
-      "description": "काठमाडाैँ। लगातारको वर्षाका कारण डुम्रे–बेँसीसहर–चामे सडकका विभिन्न स्थानमा बाढी, पहिरो र नदी कटानबाट भएको क्षति मर्मत तथा सडक सञ्चालनमा ल्याउने काम तीव्र पारिएको छ। डुम्रे–बेँसीसहर–चामे सडक आयोजनाले सार्वजनिक गरेको पछिल्लो विवरणअनुसार डुम्रे–रामबजार, रामबजार–स्याङ्गे, नासो गाउँपालिकाका खोत्रो",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/chame-sadak_JUhDzZ8p72.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-27T15:40:53+00:00",
-      "articleUrl": "https://www.ratopati.com/story/595364/repairs-are-underway-on-the-flood-damaged-dumre-besisahar-chame-road-efforts-are-underway-to-open-the-road-in-risky-areas",
-      "category": "national"
-    },
-    {
-      "title": "मर्स्याङ्दी आसपासका बस्ती खाली गर्न आग्रह",
-      "description": "लमजुङ । मनाङको चामे गाउँपालिका–४ स्थित घट्टेखोलामा पहिरो झरिरहेको र त्यसका कारण मर्स्याङ्दी नदीमा जुनसुकै बेला ठूलो बाढी आउनसक्ने जोखिम भएपछि लमजुङतर्फ नदी आसपासका बस्तीका स्थानीयवासीलाई सुरक्षित स्थानमा सर्न आग्रह गर्दै आज साँझदेखि प्रहरीले माइकिङ",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/MARSANGDI_7rVYdrIqeT.JPG",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-27T15:40:13+00:00",
-      "articleUrl": "https://www.ratopati.com/story/595363/request-to-evacuate-settlements-around-marsyangdi",
-      "category": "national"
-    },
-    {
-      "title": "'मिस युनिभर्स नेपाल २०२६'काे उपाधि प्रयाशनालाई",
-      "description": "काठमाडौँ ।'मिस युनिभर्स नेपाल २०२६'काे उपाधि प्रयाशना गुरुङले जितेकी छन्। आइतबार साँझ आयोजित प्रतियोगितामा अन्य प्रतियोगीलाई पछि पार्दै उनले उपाधि चुमेकी हुन् । गुरुङले अब `मिस युनिभर्स २०२६´ नेपालको प्रतिनिधित्व गर्नेछिन् । प्रतियोगिताको मुख्य निर्णायकमा बलिउड",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/prayashana_juHQUPvmOo.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-27T15:32:27+00:00",
-      "articleUrl": "https://www.ratopati.com/story/595361/prayashna-wins-the-title-of-miss-universe-nepal-2026",
-      "category": "national"
-    },
-    {
-      "title": "दिल्लीमा मन्त्रीले युवकलाई थप्पड हानेको भिडियो सार्वजनिक",
-      "description": "नयाँ दिल्ली । भारतको दिल्ली सरकारका मन्त्री प्रवेश वर्माले एक युवकलाई थप्पड हानेको भिडियो सार्वजनिक भएको छ । आम आदमी पार्टीले आइतबार सामाजिक सञ्जाल एक्समार्फत उक्त भिडियो सार्वजनिक गर्दै तिलक नगरमा सडक निर्माणमा भएको भनिएको भ्रष्टाचारबारे",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/prabesh-verma_z1Mt16KV6D.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-27T15:31:34+00:00",
-      "articleUrl": "https://www.ratopati.com/story/595360/video-of-minister-slapping-young-man-goes-viral-in-delhi",
-      "category": "politics"
-    },
-    {
-      "title": "नारायणीमा बाढीले बगाएको क्रुज पुलमा अड्किँदा पुल नै जोखिममा, निकाल्नै सकस",
-      "description": "चितवन । नारायणी नदीमा आएको बाढीले बगाएको विशाल ‘राइनोज क्रुजसिप’ चितवन र नवलपरासी जोड्ने नारायणी पुलमा अड्किएपछि पुलमा सवारी तथा पैदल आवागमन पूर्ण रूपमा बन्द गरिएको छ। आइतबार साँझ गैँडाकोट नगरपालिका–२ स्थित होटल रिभर क्राउनबाट बाढीले बगाएको क्रुज पुलको संरचनामा आएर अड्किएको हो। क्रुज पुलको पिलरमा ठोक्किएर अड्किएपछि पुलमा क्षति पुग्न सक्ने जोखिमलाई ध्यानमा रा",
-      "imageUrl": "",
-      "sourceLogo": "https://dainiknepal.com/favicon.ico",
-      "sourceName": "दैनिक नेपाल",
-      "publishedTime": "2026-09-27T15:31:03+00:00",
-      "articleUrl": "https://www.dainiknepal.com/2026/09/841550.html",
-      "category": "national"
-    },
-    {
-      "title": "कालीगण्डकी करिडोरको ४६ ठाउँमा पहिरो (सूचीसहित)",
-      "description": "काठमाडाैँ । स्ताङ हुँदै चीनको कोरला नाका जोड्ने कालीगण्डकी करिडोर सडकका ४६ ठाउँमा पहिरो खसेपछि यातायात प्रभावित भएको छ। लगातारको वर्षासँगै विभिन्न स्थानमा पहिरो, ढुंगा खस्ने र सडक अवरुद्ध हुने समस्या देखिएको हो। पहिरोका कारण नेपाल–चीन",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/majhi-basti-kaligandaki_npl-10_o3g0ssWChE.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-27T15:23:14+00:00",
-      "articleUrl": "https://www.ratopati.com/story/595359/landslides-in-46-places-along-the-kaligandaki-corridor-with-list",
-      "category": "national"
-    },
-    {
-      "title": "काठमाडौँ हिँडेका सवारीसाधन कुरिनटारमा रोकिए, तस्बिरहरू",
-      "description": "काठमाडाैँ। पृथ्वी राजमार्ग अन्तर्गत चितवनको इच्छाकामना गाउँपालिका–४ कुरिनटारमा मालवाहक सवारीसाधन रोकिएका छन्। इलाका प्रहरी कार्यालय मुग्लिनका अनुसार आइतबार काठमाडौँतर्फ हिँडेका सवारीसाधनलाई मुग्लिन, लेवाटार, कुरिनटार र चुम्लिङटारलगायत सुरक्षित स्थानमा रोकेर राखिएको हो।",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/5-kurintarma-rokiye-gadi_npl-4_fYWpxiFIxF.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-09-27T15:17:54+00:00",
-      "articleUrl": "https://www.ratopati.com/story/595358/vehicles-heading-to-kathmandu-stopped-at-kurintar-photos",
-      "category": "national"
-    },
-    {
-      "title": "डेढ घण्टाको परामर्शपछि चोलेन्द्रलाई राति २ बजे पुर्‍याइयो प्रहरी कार्यालय",
-      "description": "मध्यराति साढे १२ बजेतिर पूर्वन्यायाधीश चोलेन्द्र शमशेर जबराको घरमा पुगेको डीएसपी कमाण्डको टोलीले जबरालाई करिब २ बजे प्रहरी कार्यालय ल्याइपुर्यायो । अनि एसएसपी सन्तोष खड्काको कार्यकक्षमा राखेर सोधपुछ गरियो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Cholendra-Shamsher-JBR.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-27T15:17:44+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2026681/after-an-hour-and-a-half-of-consultation-cholendra-was-taken-to-the-police-office-at-2-am",
-      "category": "national"
-    },
-    {
-      "title": "बाढी-पहिरोको जोखिम कायमै, सतर्क रहन प्रधानमन्त्रीको आग्रह",
-      "description": "काठमाडौं। प्रधानमन्त्री बालेन्द्र शाहले बाढी, पहिरो र चट्याङलगायतका मनसुनजन्य विपद्को जोखिम अझै कायमै रहेकाले उच्च सतर्कता अपनाउन नागरिकलाई आग्रह गरेका छन्। असोज ९ गतेयता देशका विभिन्न स्थानमा आएको अविरल वर्षा, बाढी र पहिरोका कारण म्याग्दी, डोल्पा, धनुषा, पाल्पा, बागलुङ, लमजुङ, रुकुम पश्चिम, काभ्रे, धादिङ, मकवानपुर र सुर्खेतलगायतका जिल्लामा २१ जनाको मृत्यु भ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-09-27T15:14:04+00:00",
-      "articleUrl": "https://nepalnews.com/2026/09/27/prime-minister-urges-people-to-remain-vigilant-as-flood-and-landslide-risks-persist/",
-      "category": "business"
-    },
-    {
-      "title": "ओडीआईमा विराट कोहलीको कीर्तिमानी १५ हजार रन पूरा",
-      "description": "११ असोज, काठमाडौं । भारतका स्टार ब्याटर विराट कोहलीले एकदिवसीय अन्तर्राष्ट्रिय (ओडीआई) क्रिकेटमा १५ हजार रन पूरा गर्दै नयाँ कीर्तिमान बनाएका छन् । वेस्ट इन्डिजविरुद्ध पहिलो ओडीआईका क्रममा कोहलीले यो उपलब्धि हासिल गरेका हुन् । उनले चौका प्रहार गर्दै १५ हजार रनको कोशेढुङ्गा पार गरेका थिए । कोहली ओडीआईमा १५ हजार रन बनाउने दोस्रो खेलाडी […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/01/virat-k.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-09-27T15:13:33+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/09/2027250/virat-kohlis-record-of-15000-runs-in-odis-has-been-achieved",
-      "category": "national"
     }
   ]
 }
