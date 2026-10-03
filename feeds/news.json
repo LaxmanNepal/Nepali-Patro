@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-03T18:19:41.991600+00:00",
-  "lastSuccessfulUpdate": "2026-10-03T18:19:41.991600+00:00",
-  "newestPublishedTime": "2026-10-03T18:17:20+00:00",
+  "updatedAt": "2026-10-03T21:24:38.312780+00:00",
+  "lastSuccessfulUpdate": "2026-10-03T21:24:38.312780+00:00",
+  "newestPublishedTime": "2026-10-03T20:11:38+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -23,14 +23,74 @@
   ],
   "items": [
     {
-      "title": "परराष्ट्रमन्त्री खनाल फिजी प्रस्थान",
-      "description": "काठमाडौँ, असोज १७ गते । परराष्ट्रमन्त्री शिशिर खनाल जलवायु परिवर्तनसम्बन्धी ‘प्रि–कोप लिडर्स इभेन्ट’मा सहभागी हुन आज फिजी प्रस्थान गर्नुभएको छ ।फिजी र टुभालुमा यही अक्टोबर ५ र ६ ता...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/386317/conversions/-063792-(1)_sucwzeh-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-03T18:17:20+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/225316",
+      "title": "राहत कोषमा फिदिम नगरपालिकाद्वारा ४७ लाख जम्मा",
+      "description": "पाँचथर । पाँचथरको फिदिम नगरपालिकाले भोटेकोशी बाढी प्रभावितको सहयोगार्थ रु ४७ लाख ४९ हजार रकम सहयोग गरेको छ । फिदिम नगरपालिकाका जनप्रतिनिधि, शिक्षक तथा कर्मचारीबाट सङ्कलित उक्त रकम प्रधानमन्त्री राहत कोषमा जम्मा गरिएको फिदिम नगरपालिकाका प्रमुख",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/pachtaar-_9tzrt0gkje_qgva0pbajj_XJ2GAoeG33.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-03T20:11:38+00:00",
+      "articleUrl": "https://www.ratopati.com/story/596959/phidim-municipality-contributes-rs-47-million-to-relief-fund",
+      "category": "national"
+    },
+    {
+      "title": "पोखराको पर्यटकीय गन्तव्य पुम्दीभुम्दीको प्रवर्द्धनका लागि पर्वतीय दौड",
+      "description": "कास्की । पोखराको फेवातालपारी अवस्थित पोखरा–२२ पुम्दीभुम्दीको प्रवर्द्धन गर्ने उद्देश्यले यही असोज २४ गते पर्वतीय दौड हुने भएको छ । पुम्दी–भुम्दी क्षेत्रको प्राकृतिक, सांस्कृतिक तथा पर्यटकीय सम्भावनालाई राष्ट्रिय तथा अन्तर्राष्ट्रियस्तरमा चिनाउने लक्ष्य राखिएको छ । फेवातालसँग",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/kaski_zVE0A1gexY.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-03T19:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/596957/mountain-race-to-promote-pokharas-tourist-destination-pumdibhumdi",
+      "category": "national"
+    },
+    {
+      "title": "सिँचाइ विभागले ल्यायो वैदेशिक रोजगारीबाट फर्केका युवा लक्षित कार्यक्रम",
+      "description": "काठमाडौँ । ऊर्जा, जलस्रोत तथा सिँचाइ मन्त्रालयअन्तर्गतको जलस्रोत तथा सिँचाइ विभागले वैदेशिक रोजगारीबाट फर्केका युवालाई लक्षित गर्दै कृषि उद्यमशीलताका लागि विशेष भूमिगत जल सिँचाइ कार्यक्रम ल्याएको छ । कृषि उद्यमीका लागि ल्याइएको उक्त कार्यक्रम सञ्चालन गर्न",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/sichai_MnxNcds1pD.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-03T19:00:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/596956/department-of-irrigation-launches-program-targeting-youth-returning-from-foreign-employment",
+      "category": "national"
+    },
+    {
+      "title": "फर्सेका बाढी प्रभावितलाई पाँच लाख सहयोग",
+      "description": "म्याग्दी । म्याग्दीको सदरमुकाम बेनी बजारसँगै रहेको पर्वतको जलजला गाउँपालिका–८ फर्सेका बाढी प्रभावितका लागि पोखरा महानगरपालिका–१९ लामाचौरमा रहेको अनुग्रह सत्सङ्ग नेपालले रु पाँच लाखभन्दा बढी नगद सहयोग गरेको छ । जलजला गाउँपालिका–७ खनियाघाटकी गौमती थापाको पहलमा",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/myagdi_Yxx1IewRfU.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-03T18:53:13+00:00",
+      "articleUrl": "https://www.ratopati.com/story/596958/five-lakh-rupees-assistance-to-flood-victims-in-farse",
+      "category": "national"
+    },
+    {
+      "title": "मन्त्री पोखरेलद्वारा देउखुरी क्रिकेट रङ्गशालाको निरीक्षण",
+      "description": "दाङ । शिक्षा तथा खेलकुदमन्त्री सस्मित पोखरेलले दाङको देउखुरीस्थित देउखुरी अन्तर्राष्ट्रिय क्रिकेट रङ्गशालाको निरीक्षण गरेका छन् । दसौँ राष्ट्रिय खेलकुद प्रतियोगितालाई लक्षित कार्यक्रमका लागि सुर्खेत जाने क्रममा मन्त्री पोखरेलले शनिबार रङ्गशालाको अवलोकन तथा निरीक्षण गरेका हुन्",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/blkp62zXfZ.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-03T18:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/596955/minister-pokharel-inspects-deukhuri-cricket-stadium",
       "category": "politics"
+    },
+    {
+      "title": "परराष्ट्रमन्त्री खनाल फिजी प्रस्थान",
+      "description": "काठमाडौँ । परराष्ट्रमन्त्री शिशिर खनाल जलवायु परिवर्तनसम्बन्धी ‘प्रि–कोप लिडर्स इभेन्ट’मा सहभागी हुन शनिबार फिजी प्रस्थान गरेका छन् । फिजी र टुभालुमा यही अक्टोबर ५ र ६ तारिखमा आयोजना हुने उक्त कार्यक्रममा सहभागी हुन मन्त्री खनालको नेतृत्वमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/shishir-khanal-2_9oWwqJgM83.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-03T18:25:14+00:00",
+      "articleUrl": "https://www.ratopati.com/story/596954/foreign-minister-khanal-departs-for-fiji",
+      "category": "politics"
+    },
+    {
+      "title": "बढ़नी के बाढ़ प्रभावित क्षेत्रों में एसएसबी ने लगाया चिकित्सा शिविर, ग्रामीणों को बांटी आवश्यक दवाएं",
+      "description": "‘हाड़ा’ विकास सिंह सिद्धार्थनगर : बाढ़ प्रभावित ग्रामीण क्षेत्रों में लोगों को स्वास्थ्य सुविधाएं उपलब्ध कराने के उद्देश्य से सशस्त्र सीमा बल (एसएसबी) 50वीं वाहिनी बलरामपुर अंतर्गत के बीओपी महादेव बुजुर्ग के कार्यक्षेत्र में दो स्थानों पर मानव चिकित्सा शिविर का आयोजन किया गया। शिविर के माध्यम से ग्रामीणों के स्वास्थ्य की जांच कर उन्हें ... Read more The post",
+      "imageUrl": "",
+      "sourceLogo": "https://www.vikasnews.com/favicon.ico",
+      "sourceName": "विकास न्यूज",
+      "publishedTime": "2026-10-03T18:19:54+00:00",
+      "articleUrl": "https://vikasnews.com/18406/",
+      "category": "business"
     },
     {
       "title": "१२ बजे १२ समाचार : चाडबाडको मुखमा अचाक्ली मूल्यवृद्धिदेखि समाजवादी जागरण अभियानको ‘गोप्य’ भेलासम्म",
@@ -51,16 +111,6 @@
       "publishedTime": "2026-10-03T18:14:10+00:00",
       "articleUrl": "https://gorkhapatraonline.com/news/225315",
       "category": "national"
-    },
-    {
-      "title": "मन्त्री पोखरेलद्वारा देउखुरी क्रिकेट रङ्गशालाको निरीक्षण",
-      "description": "दाङ, असोज १७ गते । शिक्षा तथा खेलकुदमन्त्री सस्मित पोखरेलले दाङको देउखुरीस्थित देउखुरी अन्तर्राष्ट्रिय क्रिकेट रङ्गशालाको निरीक्षण गर्नुभएको छ ।दसौँ राष्ट्रिय खेलकुद प्रतियोगितालाई...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/386315/conversions/484b1207-7791-4b34-a76a-6f593a333bf6-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-03T18:09:12+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/225314",
-      "category": "politics"
     },
     {
       "title": "रविले भने– बालेनसँग मेरो फाटो छैन, औंठाछाप लगाउनुपरे पनि तयार छु",
@@ -3343,16 +3393,6 @@
       "category": "national"
     },
     {
-      "title": "सिँचाइ विभागले ल्यायो वैदेशिक रोजगारीबाट फर्केका युवा लक्ष्यित कार्यक्रम",
-      "description": "काठमाडौं । ऊर्जा, जलस्रोत तथा सिँचाइ मन्त्रालयअन्तर्गतको जलस्रोत तथा सिँचाइ विभागले वैदेशिक रोजगारीबाट फर्केका युवालाई लक्षित गर्दै कृषि उद्यमशीलताका लागि विशेष भूमिगत जल सिँचाइ कार्यक्रम ल्याएको छ । कृषि उद्यमीका लागि ल्याइएको सो कार्यक्रम सञ्चालन गर्न विभागले ‘कृषि उद्यमीका लागि विशेष भूमिगत जल सिँचाइ कार्यक्रम योजना छनोट दिग्दर्शन, २०८३’ तयार गरेको छ । वि",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-03T04:06:36+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/149425/",
-      "category": "national"
-    },
-    {
       "title": "गान्धीवाद र नेपाल : तुलसीमेहरको सामाजिक सुधारदेखि जलवायु सङ्कटसम्म",
       "description": "२०८२ भदौ २३–२४ को घटनाले अहिंसाको प्रश्नलाई नयाँ तीव्रताका साथ उठाएको छ। यो प्रसङ्गमा गान्धीको सबैभन्दा प्रासङ्गिक दृष्टान्त १९२२ को चौरीचौरा हो। त्यहाँ भिडले प्रहरी चौकी जलाएपछि गान्धीले असहयोग आन्दोलन नै स्थगित गरे।",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/pawan-2.png",
@@ -4981,46 +5021,6 @@
       "publishedTime": "2026-10-02T14:22:22+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2031063/magar-association-of-america-provides-rs-3-million-to-rasuwa-flood-victims",
       "category": "national"
-    },
-    {
-      "title": "सिद्धार्थ बैंक र दराजको सहकार्यमा ‘१०.१० दशैं धमाका’ अफर सार्वजनिक",
-      "description": "यस अफर अन्तर्गत बैंकका डेबिट तथा क्रेडिट कार्ड प्रयोग गरी दराजको एपमार्फत सामान खरिद गर्दा ग्राहकले १५ प्रतिशतसम्म छुट प्राप्त गर्न सक्नेछन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/07/siddhartha_bank4.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-02T14:14:18+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2031054/siddhartha-bank-and-daraz-launch-10-10-dashain-dhamaka-offer",
-      "category": "business"
-    },
-    {
-      "title": "पहिलो दिनमै ५० करोड नाघ्यो 'दृश्यम ३'को कमाइ",
-      "description": "'दृश्यमः द कन्क्लुजन' शुक्रबारदेखि नेपालका सिनेमा हलमा समेत प्रदर्शनमा छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-02T14:10:00+00:00",
-      "articleUrl": "https://www.setopati.com/art/bollywood/399827",
-      "category": "national"
-    },
-    {
-      "title": "लोकतान्त्रिक थलोको गरिमा कायम राख्न सबैको भूमिका महत्वपूर्ण–सभामुख",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-02T14:07:28+00:00",
-      "articleUrl": "https://www.setopati.com/politics/399826",
-      "category": "national"
-    },
-    {
-      "title": "आर्थिक कूटनीतिलाई राष्ट्रिय समृद्धिसँग जोड्नुपर्छः परराष्ट्रमन्त्री खनाल",
-      "description": "काठमाडौँ। परराष्ट्रमन्त्री शिशिर खनालले नेपालको कूटनीतिलाई राष्ट्रिय आर्थिक हित र समृद्धिको लक्ष्यसँग जोड्नुपर्ने बताएका छन् । विदेश नीतिलाई राजनीतिक तथा कूटनीतिक सम्बन्ध विस्तारमा मात्र सीमित नराखी व्यापार, लगानी, पर्यटन, प्रविधि हस्तान्तरण र रोजगारी सिर्जनाजस्ता आर्थिक प्राथमिकता हासिल गर्ने माध्यमका रूपमा विकास गर्नुपर्ने उनले बताए । एसियन इन्स्टिच्युट अफ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-02T14:04:28+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/02/economic-diplomacy-should-be-linked-to-national-prosperity-foreign-minister-khanal/",
-      "category": "business"
     }
   ]
 }
