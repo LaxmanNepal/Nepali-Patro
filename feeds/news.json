@@ -1,17 +1,13 @@
 {
-  "updatedAt": "2026-10-09T17:04:22.970098+00:00",
-  "lastSuccessfulUpdate": "2026-10-09T17:04:22.970098+00:00",
-  "newestPublishedTime": "2026-10-09T16:52:04+00:00",
+  "updatedAt": "2026-10-09T21:34:31.916926+00:00",
+  "lastSuccessfulUpdate": "2026-10-09T21:34:31.916926+00:00",
+  "newestPublishedTime": "2026-10-09T21:18:27+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 30,
-  "failedFeeds": 4,
+  "successfulFeeds": 31,
+  "failedFeeds": 3,
   "failedFeedDetails": [
-    {
-      "url": "https://www.lokaantar.com/feed",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
-    },
     {
       "url": "https://pahilopost.com/feed",
       "error": "HTTPError: HTTP Error 503: Service Unavailable"
@@ -27,6 +23,186 @@
   ],
   "items": [
     {
+      "title": "कांग्रेस महाधिवेशन अपडेट : सभापतिमा कूल ४३ मत बदर, गणना जारी",
+      "description": "सभापति पदमा कूल ४३ मत बदर भएको छ । अहिले जम्मा मत गणना भइरहेको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Gagan-shyam.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-09T21:18:27+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036186/congress-general-convention-update-a-total-of-39-votes-for-the-presidency-were-invalidated-counting-continues",
+      "category": "politics"
+    },
+    {
+      "title": "कांग्रेस सभापति पदको गणना थालियो, बागमती र सुदूरपश्चिमबाट सुरु",
+      "description": "कांग्रेस सभापति पदका उम्मेदवारहरूको मतगणना राष्ट्रिय सभागृहमा सुरु भएको हो । सभापतिमा गगन थापा र श्यामकृष्ण खड्गी उम्मेदवार छन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Gagan-shyam.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-09T19:59:31+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036179/counting-for-the-post-of-congress-president-begins-starting-from-bagmati-and-sudurpaschim",
+      "category": "politics"
+    },
+    {
+      "title": "कांग्रेस महाधिवेशन : सभापतिबाहेक पदका मतपेटिका सानेपा लगिंदै",
+      "description": "२३ असोज, काठमाडौं । नेपाली कांग्रेसको १५ औं महाधिवेशन अन्तर्गत भएको मतदान सम्पन्न भएसँगै मतगणनाको काम पनि अघि बढाइएको छ । अहिले सभापति पदका उम्मेदवारहरूको मतगणना राष्ट्रिय सभागृहमा सुरु गर्नेगरी मतपत्र गणना भइरहेको छ । सभापति बाहेकका मतपेटिका भने पार्टी कार्यालय सानेपा लगिन लागेको महाधिवेशनका लागि बनेको मिडिया सेन्टरबाट जानकारी गराइएको छ । केहीबेर अघि […]",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-09T19:48:05+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036183/congress-general-convention-ballot-boxes-for-positions-other-than-the-president-are-being-taken-to-sanepa",
+      "category": "politics"
+    },
+    {
+      "title": "वर्षाका कारण रोकिएको कांग्रेस सभापतिको मतगणना सुरु, खुला मञ्चबाट ल्याइयो मतपेटिका",
+      "description": "काठमाडौँ । वर्षाका कारण केही समय प्रभावित बनेको नेपाली कांग्रेसको सभापति पदको मतगणना अन्ततः सुरु भएको छ । मौसममा सुधार आएपछि खुला मञ्चमा रहेका सम्पूर्ण मतपेटिका सुरक्षित रूपमा राष्ट्रिय सभा गृहमा ल्याइपुर्‍याइएको छ । वर्षाले गर्दा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/congress-mat_fjl7bdtTM3.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-09T19:46:57+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598530/counting-of-votes-for-the-congress-president-which-was-halted-due-to-rain-begins-ballot-boxes-brought-from-the-open-platform",
+      "category": "politics"
+    },
+    {
+      "title": "कांग्रेस महाधिवेशन : सभापतिको मतगणना सुरू",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-09T19:22:09+00:00",
+      "articleUrl": "https://www.setopati.com/politics/400493",
+      "category": "politics"
+    },
+    {
+      "title": "कांग्रेस महाधिवेशन : सभापति पदको गणना थाल्ने तयारी, मटपेटिका सभागृह पुर्‍याइयो",
+      "description": "२३ असोज, काठमाडौं नेपाली कांग्रेसको १५ औं महाधिवेशन अन्तर्गत सभापति पदका लागि भएको मतदानको गणना सुरु गर्ने तयारी गरिएको छ । सभापति पदका उम्मेदवारहरूको मतगणना राष्ट्रिय सभागृहमा हुन लागेको हो । अहिले खुलामञ्चबाट सभापति पदको मतपेटिकाहरू सभागृहमा ल्याइएको छ । राति १० बजे नै मतदान सकिए पनि अविरल परेको वर्षाको कारण मतपेटिका संकलनमा ढिलाइ भएको […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/congress-sabha.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-09T19:11:10+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036175/congress-general-convention-preparations-to-begin-counting-for-the-post-of-president-clay-pots-brought-to-the-assembly-hall",
+      "category": "politics"
+    },
+    {
+      "title": "त्रिभुवन राजपथमा सवारी आवागमनको नयाँ समय तालिका लागू",
+      "description": "हेटौँडा । काठमाडौँ सडकखण्ड पहिरोका कारण पूर्ण रूपमा अवरुद्ध भएपछि जिल्ला प्रशासन कार्यालय मकवानपुरले त्रिभुवन राजपथमा सवारी आवागमन व्यवस्थित गर्न नयाँ समय तालिका निर्धारण गरेको छ । प्रशासकीय अधिकृत सन्तोष सुवेदीले मुग्लिङ–काठमाडौँ सडक अवरुद्ध भएपछि",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/tribhuwan-rajpath_7hqehm5sDM.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-09T18:28:37+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598529/new-traffic-schedule-implemented-on-tribhuvan-highway",
+      "category": "national"
+    },
+    {
+      "title": "वर्षाका कारण नेपाली कांग्रेसको सभापति पदको मतगणना प्रभावित",
+      "description": "काठमाडौँ । काठमाडौँमा अचानक पानी परेपछि नेपाली कांग्रेसको सभापति पदको मतगणना प्रभावित भएको छ । खुला मञ्चमा मतदान सम्पन्न गरी सिल गरिएका मतपेटिका वर्षाका कारण मतगणना स्थल राष्ट्रिय सभा गृहमा ल्याउन नसकिएको हो । निर्वाचन समितिका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/cover-congress_FnCJASHVfX.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-09T18:21:36+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598528/rain-affects-nepali-congress-presidential-election-counting-in-kathmandu",
+      "category": "politics"
+    },
+    {
+      "title": "कांग्रेसको १५औँ महाधिवेशन : राष्ट्रिय सभागृहमा मतगणना हुने, सीसी क्यामेराबाट निगरानी गरिने",
+      "description": "काठमाडौं। नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत सभापति पदका उम्मेदवारहरूको मतगणना राष्ट्रिय सभागृहमा हुने भएको छ। मतदान सम्पन्न भएसँगै मतगणनाका लागि तयारी अघि बढाइएको छ। सभापति पदका लागि गगनकुमार थापा र श्यामकृष्ण खड्कीबीच प्रतिस्पर्धा रहेको छ। दुवै उम्मेदवारले प्राप्त गरेको मत गणना गर्न राष्ट्रिय सभागृहमा आवश्यक व्यवस्थापनको काम भइरहेको छ। मतगणनाका लागि ",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-09T18:17:29+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/10/nepali-congress-15th-general-convention-vote-counting-to-take-place-at-the-national-assembly-monitored-by-cctv-cameras/",
+      "category": "business"
+    },
+    {
+      "title": "१२ बजे १२ समाचार : यस्ता छन् आजका प्रमुख समाचार",
+      "description": "काठमाडौँ । आज दिनभरका मुख्यमुख्य घटनाक्रमसहित रातोपाटीको रात्रिकालीन प्रस्तुति रातोपाटी ब्रिफिङमा १२ बजे १२ समाचार लिएर उपस्थित भएका छौँ– १. सुन बरामद प्रकरण प्रहरीले बूढानीलकण्ठ नगरपालिका–२ स्थित माथिल्लो भंगालबाट बरामद गरेको २१ केजी ७५० ग्राम सुन हवाईमार्ग",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/12-am-final_viqawbfig2-(1)_fam6WtIhIE.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-09T18:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598527/12-news-at-12-these-are-todays-top-news-stories",
+      "category": "national"
+    },
+    {
+      "title": "नेपाली कांग्रेसको १५औँ महाधिवेशनमा ७ हजार ३९ प्रतिनिधिद्वारा मतदान",
+      "description": "काठमाडौं । नेपाली कांग्रेसको १५औँ महाधिवेशनमा कुल ७ हजार ३१७ मतदातामध्ये ७ हजार ३९ जना महाधिवेशन प्रतिनिधिले मतदान गरेका छन्। उपलब्ध तथ्यांकअनुसार कुल मतदातामध्ये करिब ९६.२० प्रतिशत प्रतिनिधिले मतदान गरेका छन्। कुल मतदातामध्ये २७८ जनाले मतदान नगरेको देखिन्छ। महाधिवेशनमा प्रतिनिधिहरूको उल्लेख्य सहभागिताले पार्टीको आन्तरिक लोकतान्त्रिक अभ्यासमा प्रतिनिधिहरूको ",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-09T18:13:58+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/09/7039-delegates-vote-in-nepali-congress-15th-general-convention/",
+      "category": "business"
+    },
+    {
+      "title": "कांग्रेस महाधिवेशन : ७०३९ मत खस्यो, सभापतिको मतगणना आजै",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-09T17:45:00+00:00",
+      "articleUrl": "https://www.setopati.com/politics/400492",
+      "category": "politics"
+    },
+    {
+      "title": "सडक सुरक्षामा विशेष ध्यान दिन प्रहरीको आग्रह",
+      "description": "काठमाडौँ । नेपाल प्रहरीले सडक सुरक्षामा विशेष ध्यान दिन सबैलाई आग्रह गरेको छ । केन्द्रीय प्रहरी प्रवक्ता, प्रहरी नायव महानिरीक्षक अवनिनारायण काफ्लेले शुक्रबार एक विज्ञप्ति जारी गरी पोखरामा स्कुल बस दुर्घटनाबाट चार विद्यार्थीको मृत्यु र",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nepal-police-naxal-naksal_jif3bwdhhn_nlPVfNqdej.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-09T17:36:25+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598525/police-urge-special-attention-to-road-safety",
+      "category": "national"
+    },
+    {
+      "title": "कांग्रेस महाधिवेशन : मतगणनाको निगरानी सीसी क्यामेराबाट गरिने",
+      "description": "२३ असोज, काठमाडौं । नेपाली कांग्रेसको १५ औँ महाधिवेशनअन्तर्गत सभापति पदका उम्मेदवारहरूको मतगणना राष्ट्रिय सभागृहमा हुने भएको छ । मतदान सम्पन्न भएसँगै मतगणनाका लागि तयारी अघि बढाइएको छ । मतगणनाका लागि तीन स्थानमा व्यवस्था मिलाइएको छ । मतगणना स्थलमा सीसी क्यामेरा जडान गर्ने काम भइरहेको छ । मतगणना प्रक्रियालाई व्यवस्थित र पारदर्शी बनाउन सीसी क्यामेराको […]",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-09T17:31:03+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036163/congress-general-convention-vote-counting-to-be-monitored-through-cctv-cameras",
+      "category": "politics"
+    },
+    {
+      "title": "कांग्रेस महाधिवेशन : ७ हजार ३९ जनाले गरे मतदान",
+      "description": "२३ असोज, काठमाडौं नेपाली कांग्रेसको १५ औं महाधिवेशन अन्तर्गत नयाँ कार्यसमिति चयनका लागि भएको मतदान शुक्रबार राति १० बजे सकिएको छ । ७ हजार ३ सय १७ जना महाधिवेशन प्रतिनिधि रहेकोमा ७ हजार ३९ जनाले मतदान गरेको निर्वाचन समितिले जनाएको छ । दोस्रो पटक थप भएको समयभन्दा तीन घण्टा ढिलो मात्रै मतदान सकिएको थियो । […]",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-09T17:28:19+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036161/congress-general-convention-7039-people-voted",
+      "category": "politics"
+    },
+    {
+      "title": "बहुमतका बलमामात्र पार्टी चलाउने प्रयास नगर्न ओलीलाई दबाब",
+      "description": "काठमाडौँ । नेकपा एमाले स्थायी कमिटीका अधिकांश सदस्यहरूले अध्यक्ष केपी शर्मा ओलीलाई बहुमतको भरमा मात्रै पार्टी चलाउने प्रयास गरे चुनौतीहरूको सामना गर्न कठिन हुने भन्दै सबै पक्षलाई समेट्न र आन्तरिक एकता कायम गर्न सुझाव दिएका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/uml-cover_asqlnUxjdT.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-09T17:13:27+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598524/pressure-on-oli-not-to-try-to-run-the-party-solely-on-the-strength-of-a-majority",
+      "category": "politics"
+    },
+    {
+      "title": "कर्णाली प्रदेश योजना आयोगको उपाध्यक्षमा खत्री नियुक्त",
+      "description": "सुर्खेत । कर्णाली प्रदेश योजना आयोगको उपाध्यक्ष पदमा जुम्लाका डा.भीमबहादुर खत्री नियुक्त भएका छन् । कर्णाली प्रदेश सरकारका मुख्यमन्त्री मंगलबहादुर शाहीको अध्यक्षतामा आज मुख्यमन्त्री तथा मन्त्रिपरिषद् कार्यालय वीरेन्द्रनगमा बसेको मन्त्रिपरिषद् बैठकले डा.खत्रीलाई आयोगको उपाध्यक्षमा नियुक्त",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/oV6gBfkWMk.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-09T17:10:01+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598523/dr-khatri-appointed-as-vice-chairman-of-karnali-province-planning-commission",
+      "category": "national"
+    },
+    {
+      "title": "कोशी प्रदेशमा ८ हजारभन्दा बढी प्रहरी परिचालन, ड्रोन र कुकुरबाट निगरानी",
+      "description": "विराटनगर । आसन्न दसैँ, तिहार तथा छठ पर्वलाई लक्षित गर्दै कोशी प्रदेश प्रहरीले प्रदेशभर ८ हजार १३३ सुरक्षाकर्मी परिचालन गरी विशेष सुरक्षा कार्ययोजना कार्यान्वयनमा ल्याएको छ । चाडपर्वका बेला हुन सक्ने चोरी, लुटपाट, ठगी र",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/koshi-dig_1lVF8cWEh8.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-09T17:07:54+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598522/more-than-8000-police-deployed-in-koshi-province-surveillance-using-drones-and-dogs",
+      "category": "national"
+    },
+    {
       "title": "एक्सट्रिम प्रिजेन्ट फुडपार्क भेट्रान्स कप २०२६: चार टोली सेमिफाइनलमा प्रवेश",
       "description": "काठमाडौं । एक्सट्रिम प्रिजेन्ट फुडपार्क भेट्रान्स कप २०२६ रोमाञ्चक बन्दै गएको छ । कुल १३ टोलीको सहभागिता रहेको यस प्रतियोगितामा उपाधि विजेताले नगद रु. १० लाख प्राप्त गर्नेछन् । नेपाली भेट्रान्स फुटबललाई नयाँ उचाइमा पुर्‍याउने लक्ष्यसहित आयोजना गरिएको यस प्रतियोगिताले अनुभवी फुटबल खेलाडी, प्रतिस्पर्धात्मक टोली र उत्साही समर्थकलाई एकै ठाउँमा ल्याएको छ । दुई दि",
       "imageUrl": "",
@@ -37,7 +213,7 @@
       "category": "business"
     },
     {
-      "title": "कांग्रेसको नयाँ कार्यसमिति चुन्नका लागि भएको मतदान सम्पन्न, ७०४९ मत खस्यो",
+      "title": "कांग्रेसको नयाँ कार्यसमिति चुन्नका लागि भएको मतदान सम्पन्न, ७०३९ मत खस्यो",
       "description": "काठमाडौँ । नेपाली कांग्रेसको नयाँ कार्यसमिति चयनका लागि भएको मतदान सम्पन्न भएको छ। निर्वाचन समितिका सदस्य सचिव अधिवक्ता राजु कटवालका अनुसार मतदान भर्खर सम्पन्न भएको हो। कटवालले मतपत्र राखिएका बाकस सिलबन्दी गर्ने काम भइरहेको जानकारी दिए",
       "imageUrl": "https://npcdn.ratopati.com/media/news/congress-matdan-5_ppeHLQz0sE.webp",
       "sourceLogo": "https://ratopati.com/favicon.ico",
@@ -1334,7 +1510,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-09T12:57:32+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2035989/what-is-special-about-ba-a-warrior",
-      "category": "national"
+      "category": "entertainment"
     },
     {
       "title": "लोकतान्त्रिक गणतन्त्रको रक्षार्थ आफू पुन: राजनीतिमा आएँ : विद्या भण्डारी",
@@ -4844,186 +5020,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-10-08T15:49:46+00:00",
       "articleUrl": "https://www.ratopati.com/story/598282/update-four-people-including-three-chinese-arrested-in-gold-case",
-      "category": "national"
-    },
-    {
-      "title": "एन्फामा विश्वकपको टिकट कालोबजारी : केन्द्रीय सदस्य सरिला श्रेष्ठको बयानदेखि फेसबुक बिक्रीसम्म यस्तो छ अनुसन्धानको निष्कर्ष",
-      "description": "अखिल नेपाल फुटबल संघ (एन्फा) मा फिफा विश्वकप २०२६ का लागि प्राप्त अनलाइन टिकटहरूको बिक्री तथा वितरणमा गम्भीर अनियमितता र अपचलन भएको भन्दै जिल्ला अदालत ललितपुरमा दायर अभियोगपत्रले नयाँ तथ्यहरू उजागर गरेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-08T15:47:00+00:00",
-      "articleUrl": "https://www.setopati.com/sports/football/400389",
-      "category": "national"
-    },
-    {
-      "title": "जेलबाटै भाइ परिचालन गरेर बलात्कारपीडितलाई ब्ल्याकमेल : अश्लील फोटो सार्वजनिक गरिदिने धम्की",
-      "description": "काठमाडौँ। कारागारभित्रै बसेर एक कैदीले आफ्नै मुद्दाकी पीडितलाई ब्ल्याकमेल गरी मोटो रकम असुल गरेको घटना बाहिर आएको छ । जबरजस्ती करणी मुद्दामा दोषी ठहर भई जगन्नाथदेवल कारागारमा कैद भुक्तान गरिरहेका नुमेश वाइवाले जेलबाटै भाइ परिचालन गरी",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/naresh_9d4DeOsSu4.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-08T15:43:21+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598281/rape-victim-blackmailed-by-mobilizing-brother-from-prison-threatened-to-release-obscene-photos",
-      "category": "national"
-    },
-    {
-      "title": "विश्व दृष्टि दिवसका अवसरमा दुई हजार ८२३ जनाको विश्व दृष्टि दिवस",
-      "description": "अस्पतालले ललितपुरस्थित नख्खु कारागार, सुकेधारास्थित एजिङ केयर सेन्टर र गोकणेश्वरस्थित चामुण्डा माध्यमिक विद्यालयका विद्यार्थी गरी कूल दुई हजार ८२३ जनाको आँखा परीक्षण गरेको हो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Eye-test.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-08T15:43:04+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035376/2823-people-celebrate-world-sight-day",
-      "category": "national"
-    },
-    {
-      "title": "गागन खोलामा अवैध उत्खनन्‌मा संलग्न ६ टिपर र १ डोजर नियन्त्रणमा",
-      "description": "सिरहाको गोलबजारस्थित बल्डाराबाट अवैध रूपमा नदीजन्य पदार्थ उत्खनन् गरिरहेको अवस्थामा सशस्त्र प्रहरीले ६ थान टिपर र एक थान जेसिबी नियन्त्रणमा लिएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/tiper.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-08T15:38:15+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035373/6-tippers-and-1-dozer-involved-in-illegal-excavation-in-gagan-river-taken-into-custody",
-      "category": "national"
-    },
-    {
-      "title": "ममता काफ्ले बेपत्ता प्रकरण : श्रीमती हत्याको आरोप लागेका नरेश भट्टको मुद्दामा सुनुवाइ सुरु",
-      "description": "काठमाडौँ। भर्जिनियाको मनासस पार्कमा आफ्नी श्रीमतीको हत्या गरेको आरोप लागेका नरेश भट्टको मुद्दामा सुनुवाइ सुरु भएको छ। बुधबार १७ सदस्यीय इजलास गठन भएसँगै वादी र प्रतिवादी पक्षले आफ्ना प्रारम्भिक भनाइ राखेका छन्। इजलासमा ५ वैकल्पिक सदस्यसहित",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/mamata-kafle_AP1zZDzWd8.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-08T15:35:28+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598280/mamta-kafle-disappearance-case-hearing-begins-in-naresh-bhatts-case-accused-of-murdering-his-wife",
-      "category": "national"
-    },
-    {
-      "title": "बेलायतमा गस्ती अभ्यासमा नेपाली सेनाले लगातार तेस्रो वर्ष स्वर्ण पदक जित्यो",
-      "description": "३५ राष्ट्रका १३० वटा अन्तर्राष्ट्रिय टोली सहभागी उक्त अभ्यासमा नेपाली सेनाले स्वर्ण पदक प्राप्त गरेको हो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Army-On-UK.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-08T15:32:22+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035370/nepali-army-wins-gold-medal-for-third-consecutive-year-in-patrol-exercise-in-uk",
-      "category": "national"
-    },
-    {
-      "title": "बुढानीलकण्ठबाट बरामद सुनको बजार मूल्य ५५ करोडभन्दा बढी",
-      "description": "काठमाडौँ। काठमाडौँको बुढानीलकण्ठबाट प्रहरीले करिब २२ किलो सुन बरामद गरेको छ। बिहीबार बुढानीलकण्ठस्थित चपलीबाट उपत्यका अपराध अनुसन्धान कार्यालयको टोलीले ठुलो परिमाणमा सुन बरामद गरेको हो। प्रहरी उच्च स्रोतका अनुसार सुन बरामदका लागि उपत्यका अपराध अनुसन्धान कार्यालयको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/gold_94oZ5rxjJ6.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-08T15:28:13+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598279/the-market-value-of-the-gold-recovered-from-budhanilkantha-is-around-rs-550-million",
-      "category": "national"
-    },
-    {
-      "title": "जनकपुरमा दुई युवकमाथि धारिलो हतियार प्रहार : एकको मृत्यु अर्का गम्भीर",
-      "description": "सोही ठाउँका करिब २२ वर्षीय मोहम्मद इर्साद खानले छुरा प्रहार गरेको प्रहरीले जनाएको छ । इर्सादलाई प्रहरीले नियन्त्रणमा लिएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/janakpur.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-08T15:27:39+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035367/two-youths-attacked-with-sharp-weapons-in-janakpur-one-dies-another-seriously-injured",
-      "category": "national"
-    },
-    {
-      "title": "कस्तो रहला एमालेमा अब शक्ति समीकरण, भावी नेतृत्व र विद्याको छलाङ ?",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-10-08T15:24:55+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13899",
-      "category": "politics"
-    },
-    {
-      "title": "एनी कार्सनलाई साहित्यतर्फको नोबेल पुरस्कार प्रदान",
-      "description": "काठमाडाैँ । क्यानडाकी कवि, निबन्धकार तथा अनुवादक एनी कार्सनले सन् २०२६ को साहित्यतर्फको नोबेल पुरस्कार जितेकी छन्। कविता, आख्यान,शैक्षिक लेखन लगायतका सीमालाई तोड्दै साहित्यमा नयाँ शैली र प्रयोग भित्र्याएकी ७६ वर्षीया कार्सनलाई स्विडिस एकेडेमीले यस वर्षको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/ani-karsan_sdPR1SS6u7.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-08T15:24:02+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598278/nobel-prize-in-literature-awarded-to-anne-carson",
-      "category": "national"
-    },
-    {
-      "title": "२१ किलो सुन चिनियाँ नागरिकको समूहले ल्याएको प्रारम्भिक निष्कर्ष",
-      "description": "अनुसन्धानमा संलग्न एक अधिकृतका अनुसार एक जना नेपाली नागरिकसँग मिलेर उनीहरुले बूढानीलकण्ठमा तस्करीको सुन भण्डारण गरेर राखेका पाइएको छ ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-08T15:22:48+00:00",
-      "articleUrl": "https://nepallive.com/story/351749",
-      "category": "national"
-    },
-    {
-      "title": "कामना सेवाले ६० जनाभन्दा बढी महिला चिकित्सकलाई दियो वित्तीय साक्षरता",
-      "description": "काठमाडौं । कामना सेवा विकास बैंकले नेपाल चिकित्सक संघका करिब ६० जना भन्दा बढी महिला चिकित्सकहरूलाई वित्तीय साक्षरता दिएको छ । संघसँगको सहकार्यमा महिला चिकित्सकहरूलाई वित्तीय व्यवस्थापन, बजेट निर्माण, बचत, लगानी तथा कर व्यवस्थापन सम्बन्धी ज्ञान र सीप अभिवृद्धि गर्ने उद्देश्यले वित्तीय साक्षरता कार्यक्रम सञ्चालन गरिएको हो । नेपाल चिकित्सक संघका अध्यक्ष डा. बद्",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-08T15:22:33+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498486.html",
-      "category": "business"
-    },
-    {
-      "title": "बूढानीलकण्ठबाट २१ किलो बराबर सुन बरामद",
-      "description": "अपराध अनुसन्धान कार्यालय टेकुको टोलीले साँझ बूढानीलकण्ठबाट सुन बरामद गरेको हो।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-08T15:15:00+00:00",
-      "articleUrl": "https://nepallive.com/story/351748",
-      "category": "national"
-    },
-    {
-      "title": "बाढी प्रभावित क्षेत्रमा सात पुल निर्माण गर्ने बागमती सरकारको निर्णय",
-      "description": "२२ असोज, हेटौंडा । बागमती प्रदेश सरकारले बाढीबाट प्रभावित रसुवा र नुवाकोटका विभिन्न स्थानमा सातवटा पुल निर्माण गर्ने निर्णय गरेको छ । मुख्यमन्त्री तथा मन्त्रिपरिषद्को कार्यालय हेटौँडामा आज बसेको मन्त्रिपरिषद् बैठकले बाढीबाट प्रभावित क्षेत्रको यातायात सम्पर्क पुन:स्थापनाका लागि पाँचवटा झोलुङ्गे पुल र दुईवटा बेलिब्रिज निर्माण गर्ने निर्णय गरेको हो । प्रदेश सरक",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Bagamati-sarkar.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-08T15:13:33+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035365/bagmati-government-decides-to-build-seven-bridges-in-flood-affected-areas",
-      "category": "politics"
-    },
-    {
-      "title": "नेपाली सेनालाई बेलायतमा भएको ‘क्यामब्रेन पट्रोल २०२६’ मा स्वर्ण पदक",
-      "description": "काठमाडौं। नेपाली सेनाले बेलायतमा सम्पन्न अन्तर्राष्ट्रिय सैनिक अभ्यास ‘एक्सरसाइज क्यामब्रियान पट्रोल २०२६’ मा स्वर्ण पदक प्राप्त गरेको छ। बेलायतको वेल्सस्थित ब्रेकनमा यही असोज २१ देखि २२ सम्म सञ्चालन भएको सो प्रतियोगितामा नेपाली सेनाको टोलीले स्वर्ण पदक हासिल गरेको छ। संयुक्त अधिराज्य बेलायतको औपचारिक भ्रमणमा रहनुभएका प्रधान सेनापति अशोकराज सिग्देलको उपस्थित",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-08T15:12:22+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/08/nepali-army-wins-gold-medal-at-cambridge-patrol-2026-in-uk/",
-      "category": "business"
-    },
-    {
-      "title": "एन्फा भ्रष्टाचार प्रकरण : अध्यक्ष नेम्वाङसहित ४ जनाविरूद्ध १० वर्षसम्म कैद र ९३ लाख बिगो मागदाबी",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-08T15:09:00+00:00",
-      "articleUrl": "https://www.setopati.com/sports/football/400386",
-      "category": "national"
-    },
-    {
-      "title": "सरकारी सूचना पत्याउँदा पश्चिम नेपालका किसानको धान खेतमै सत्यानास",
-      "description": "काठमाडौँ । जल तथा मौसम विज्ञान विभागअन्तर्गतको मौसम पूर्वानुमान महाशाखाले स्पष्ट सूचना नदिँदा पश्चिम नेपालमा किसानले काटेर सुकाएको धान भिजेको छ । मौसमविज्ञहरूले वर्षाको सम्भावना औँल्याइरहँदा महाशाखाले त्यसलाई ‘भ्रामक हल्ला’ भन्दै खण्डन गरेको थियो । विभागको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/dhan-bhijeko_7DAUmTbyXz.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-08T15:07:57+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598277/farmers-in-western-nepal-face-destruction-in-their-paddy-fields-after-believing-government-information",
-      "category": "politics"
-    },
-    {
-      "title": "सुन बरामद प्रकरण : केही व्यक्ति पक्राउ, पत्रकार सम्मेलन गरेर जानकारी दिइने",
-      "description": "काठमाडौँ। काठमाडाैँकाे बुढानीलकण्ठबाट सुन बरामद भएको प्रकरणमा प्रहरीले केही व्यक्तिलाई पक्राउ गरेको छ। घटनाबारे विस्तृत जानकारी दिन प्रहरीले शुक्रबार दिउँसो १ बजे पत्रकार सम्मेलन गर्ने भएको छ। प्रहरी उच्च स्रोतका अनुसार बिहीबार बुढानीलकण्ठस्थित चपलीबाट उपत्यका अपराध",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/apradh-mahasaka_s9XNDhBCo3.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-08T15:07:09+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598276/gold-seizure-case-some-people-arrested-press-conference-to-be-held-to-provide-information",
       "category": "national"
     }
   ]
