@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-10T13:19:53.113613+00:00",
-  "lastSuccessfulUpdate": "2026-10-10T13:19:53.113613+00:00",
-  "newestPublishedTime": "2026-10-10T13:18:44+00:00",
+  "updatedAt": "2026-10-10T17:53:53.656399+00:00",
+  "lastSuccessfulUpdate": "2026-10-10T17:53:53.656399+00:00",
+  "newestPublishedTime": "2026-10-10T17:41:03+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -23,9 +23,859 @@
   ],
   "items": [
     {
+      "title": "धिमेबाजा प्रतियोगिताको सिरुटारका दुई खल बने विजेता र उपविजेता",
+      "description": "भक्तपुर, असोज २४ गते । नगद रु ७५ हजार पुरस्कारसहित सूर्यविनायक नगरपालिका–१ सिरुटारको नासः धिमे खलःले सूर्यविनायक नगरस्तरीय धिमेबाजा प्रतियोगिता–२०८३ को विजेता बन्न सफल भएको छ । आज...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387513/conversions/IMG_2471-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-10T17:41:03+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226221",
+      "category": "national"
+    },
+    {
+      "title": "कांग्रेस महाधिवेशन : महामन्त्रीमा पौडेलको अग्रता, उपसभापतिमा भण्डारी अगाडि",
+      "description": "काठमाडौँ । नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत पदाधिकारीको मतगणनाको प्रारम्भिक नतिजामा महामन्त्री पदमा प्रदीप पौडेल र उपसभापति पदमा डा. चन्द्रकान्त भण्डारीले अग्रता लिएका छन् । सुरुका ५० मत गणना गर्दा खुला महामन्त्रीतर्फ प्रदीप पौडेलले ३३ मत प्राप्त",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/pradip-paudel_IKkRlNi1t2.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T17:18:23+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598721/nepali-congress-general-convention-poudel-leads-in-the-general-secretary-position-bhandari-ahead-in-the-vice-president-position",
+      "category": "politics"
+    },
+    {
+      "title": "चाडपर्व लक्षित विशेष सुरक्षा योजना लागू गर्न निर्देशन",
+      "description": "काठमाडौँ, असोज २४ गते । नेपाल प्रहरीका प्रहरी महानिरीक्षक दानबहादुर कार्कीले चाडपर्व लक्षित विशेष सुरक्षा योजना लागू गर्न प्रहरी कर्मचारीलाई निर्देशन दिनुभएको छ ।महानिरीक्षक कार्की...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387512/conversions/dan-bdr-karki-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-10T17:13:06+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226220",
+      "category": "national"
+    },
+    {
+      "title": "चेल्सीको फराकिलो जित",
+      "description": "",
+      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/IMG_3193-1791652223.jpeg",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-10-10T17:11:53+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/175066",
+      "category": "sports"
+    },
+    {
+      "title": "जबरजस्ती करणी मुद्दामा १८ वर्ष कैद सजाय तोकिएका फरार प्रतिवादी पक्राउ",
+      "description": "काठमाडौँ । जबरजस्ती करणी मुद्दामा १८ वर्ष कैद सजाय तोकिएका फरार प्रतिवादीलाई प्रहरीले पक्राउ गरेको छ । पक्राउ पर्नेमा कपिलवस्तुको वाणगंगा नगरपालिका १० भावपुर बस्ने २४ वर्षीय विष्णु चौधरी रहेका छन् । उनलाई रुपन्देहीको मायादेवी गाउँपालिका–८",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/capture77_LL6cFx6g73.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T16:59:48+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598720/absconding-defendant-sentenced-to-18-years-in-prison-in-rape-case-arrested",
+      "category": "national"
+    },
+    {
+      "title": "कर्णाली याक्समा बंगलादेशका अरिफुल इस्लाम अनुबन्धित",
+      "description": "काठमाडौँ । नेपाल प्रिमियर लिग (एनपीएल) को तेस्रो संस्करणका लागि कर्णाली याक्सले बंगलादेशका युवा ब्याटर अरिफुल इस्लामलाई अनुबन्ध गरेको छ । आक्रामक ब्याटिङका लागि परिचित अरिफुलको आगमनले टोलीको ब्याटिङ पक्ष थप बलियो हुने कर्णालीको अपेक्षा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ariful_MdsenFB4YP.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T16:53:11+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598719/bangladeshs-ariful-islam-signed-by-karnali-yaks",
+      "category": "national"
+    },
+    {
+      "title": "‘साहित्य सन्ध्या–गोविन्द भट्ट स्मृति पुरस्कार तथा सम्मान’ प्राडा पोखरेललाई प्रदान",
+      "description": "गोरखापत्र समाचारदाताकाठमाडौँ, असोज २४ गते । भाषावैज्ञानिक, समालोचक एवम् निबन्धकार प्रा.डा.माधवप्रसाद पोखरेललाई २०८२ सालको ‘साहित्य सन्ध्या–गोविन्द भट्ट स्मृति पुरस्कार तथा सम्मान’...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387511/conversions/Puraskar-Arpan-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-10T16:48:56+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226217",
+      "category": "national"
+    },
+    {
+      "title": "बाँकेको डुडुवाबाट ३२ किलो गाँजासहित एक जना पक्राउ",
+      "description": "सिराज खान नेपालगन्ज, असोज २४ गते । बाँकेको डुडुवा गाउँपालिका–१ पिप्रहवाबाट प्रहरीले ३२ किलो गाँजासहित एक जनालाई पक्राउ गरेको छ ।जिल्ला प्रहरी कार्यालय बाँकेका अनुसार प्रहरी चौकी खड...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387510/conversions/District-police-office-banke-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-10T16:44:56+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226219",
+      "category": "national"
+    },
+    {
+      "title": "रियाद विमानस्थलमा हुथी आक्रमण, केही व्यक्ति घाइते",
+      "description": "रियाद । यमनका हुथीहरूले शनिबार रियादको अन्तर्राष्ट्रिय विमानस्थलमा क्षेप्यास्त्र प्रहार गरेको एक कूटनीतिक स्रोतले एएफपीलाई बताएको छ । दर्जनौं घाइते भएको जनाइएको छ भने एक प्रत्यक्षदर्शीले टर्मिनलमा आतङ्कको वर्णन गरेका स्थानीय सञ्चारमाध्यमले जनाएका छन् । साउदी",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/capture1_OqC5RpdIwq.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T16:43:36+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598718/houthi-attack-on-riyadh-airport-several-people-injured",
+      "category": "national"
+    },
+    {
+      "title": "दाङका १६१ खाद्य व्यवसायमा अनुगमन",
+      "description": "तुलसीपुर । खाद्य प्रविधि तथा गुण नियन्त्रण डिभिजन कार्यालय, तुलसीपुर दाङले एक वर्षमा १६१ पटक विभिन्न खाद्य व्यवसायको निरीक्षण तथा अनुगमन गरेको छ । आर्थिक वर्ष २०८२/८३ मा सोही बराबरका व्यवसायको अनुगमन गरिएको हो । जसमध्ये",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dang-map_yCoTeipd67.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T16:36:34+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598717/monitoring-of-161-food-businesses-in-dang",
+      "category": "national"
+    },
+    {
+      "title": "बेगनासको माछा र मौलिक संस्कृति प्रवर्द्धन गर्न ‘फिस फेस्टिभल’",
+      "description": "कास्की। पोखरा उपत्यकाको दोस्रो ठूलो बेगनास तालको पहिचानलाई स्थानीय माछा, रैथाने खानपान र मौलिक संस्कृतिसँग जोड्दै पर्यटन प्रवर्द्धन गर्ने उद्देश्यले ‘बेगनास फिस फेस्टिभल’ तथा देउसीभैलो प्रतियोगिता आयोजना हुने भएको छ। ‘माछाको स्वाद, संस्कृतिको पहिचान, हाम्रो मौलिकताको सम्मान’ भन्ने नारासहित आगामी कात्तिक १३ देखि २३ गतेसम्म पोखरा महानगरपालिका–३१ मा सञ्चालन हुन",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-10T16:34:18+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/10/fish-festival-to-promote-begnas-fish-and-indigenous-culture/",
+      "category": "business"
+    },
+    {
+      "title": "दाङका १६१ खाद्य व्यवसायमा अनुगमन, १३ मुद्दा दायर",
+      "description": "तुलसीपुर (दाङ), असोज २४ गते । खाद्य प्रविधि तथा गुण नियन्त्रण डिभिजन कार्यालय, तुलसीपुर दाङले एक वर्षमा १६१ पटक विभिन्न खाद्य व्यवसायको निरीक्षण तथा अनुगमन गरेको छ । आर्थिक वर्ष २०...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387509/conversions/khadya2022-04-20-08-05-11-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-10T16:33:37+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226218",
+      "category": "national"
+    },
+    {
+      "title": "रोनाल्डोलाई पोर्चुगल फुटबल महासंघको कारबाही, ६ महिनासम्म प्रतिबन्ध लाग्न सक्ने!",
+      "description": "पोर्चुगल फुटबल महासंघले राष्ट्रिय टोलीको क्याम्प छाडेको घटनामा क्रिस्टियानो रोनाल्डोमाथि अनुशासनात्मक कारबाही प्रक्रिया अघि बढाएको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-10T16:33:00+00:00",
+      "articleUrl": "https://www.setopati.com/sports/football/400541",
+      "category": "national"
+    },
+    {
+      "title": "नोबेल शान्ति पुरस्कार नपाएपछि ट्रम्पले भने– नर्वेमा नमेटिने दाग लाग्यो",
+      "description": "काठमाडौं । अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पले सन् २०२६ को नोबेल शान्ति पुरस्कार नपाएपछि नर्वेको आलोचना गरेका छन् । उनले पुरस्कार दिने निर्णयलाई लज्जास्पद भन्दै यसले नर्वेको छविमा नमेटिने दाग लगाएको टिप्पणी गरेका छन् । शुक्रबार अमेरिकाको न्युयोर्कस्थित सिराक्युजमा आयोजित चुनावी सभालाई सम्बोधन गर्दै ट्रम्पले आफूले विभिन्न अन्तर्राष्ट्रिय द्वन्द्व समाधान गर्न ",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-10T16:32:38+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/10/after-receiving-the-nobel-peace-prize-trump-said-norway-has-an-indelible-stain/",
+      "category": "business"
+    },
+    {
+      "title": "गलौंतीमा भित्तातर्फ काटेर पृथ्वी राजमार्ग सञ्चालनमा ल्याइयो",
+      "description": "भासिएको क्षेत्रमा १६० मिटर सडकको भित्तातिर कटिङ गरी यातायात सञ्चालनमा ल्याइएको पूर्वाधार विकास मन्त्री सुनील लम्सालले जानकारी दिएका छन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Galauti.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:23:10+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036550/prithvi-highway-opened-for-operation-after-cutting-through-the-wall-in-galanti",
+      "category": "national"
+    },
+    {
+      "title": "भेडाच्याङ्ग्रा बेच्न ३५ दिनको यात्रा, छैन बजारको टुङ्गो",
+      "description": "लामो पैदल यात्रा, हिमपात, बाढीपहिरो र सडक अवरोधले किसानको योजना प्रभावित भएको छ । बजारमा समयमै पुग्न नसक्दा बिक्रीको अवसर गुम्ने जोखिम बढेको छ भने ढुवानी तथा बाटोमा हुने खर्चले आम्दानी घटाउने चिन्ता पनि थपिएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/veda-chyangra-1230.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:16:48+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036205/35-day-journey-to-sell-sheep-no-market-decided",
+      "category": "national"
+    },
+    {
+      "title": "गगनको विद्रोह, विश्वको विश्वास",
+      "description": "गगन-विश्वले कांग्रेसको गौरवपूर्ण र बदनामी दुवै इतिहास पढेका छन् । अब उनीहरूकै काँधमा अर्को इतिहास बनाउने समय आएको छ । कस्तो इतिहास बनाउँलान् ? बीपी, गणेशमान, कृष्णप्रसाद कि गिरिजा, सुशील वा शेरबहादुरको ?",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Gagan_thapa_Bishwoprakash-sharma-2.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:15:06+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036104/gagans-rebellion-the-worlds-faith",
+      "category": "national"
+    },
+    {
+      "title": "१० बजे १० समाचार : कांग्रेस निर्वाचनको मतगणनादेखि डिजिटल असुरक्षामा नेपालसम्म",
+      "description": "काठमाडौँ। आज मिति २०८३ साल असोज महिनाको २४ गते शनिबार। आज दिनभरका मुख्यमुख्य घटनाक्रमसहित रातोपाटीको रात्रिकालीन प्रस्तुति रातोपाटी ब्रिफिङमा १० बजे १० समाचार लिएर उपस्थित भएका छौँ– १.कांग्रेस १५औँ महाधिवेशन : मतगणना हुँदै मतपेटिककाबारे विवाद सिर्जना भएसँगै",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/cover-recovered-recovered-recovered-recovered-recovered-recovered-recovered-recovered-recovered_B7tIpr0lRJ.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T16:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598715/10-news-at-10",
+      "category": "politics"
+    },
+    {
+      "title": "अलास्कातिर चरा खोज्दै बरालिंदा",
+      "description": "अँ! अझै हेर्दै जाऊ, कस्ता–कस्ता हिमाल आउँछन्। नेपालीलाई हत्तपत्त जस्तो पाए त्यस्तै हिमालले इम्प्रेस गर्न सक्दैन। झन् अमेरिकामा त स-साना डाँडाहरूलाई पनि \"माउन्टेन\" भन्ने गरिन्छ। र एकैस्वरमा हाम्रो नेपाली मनले भन्छ- डाँडा हो यो त! केका माउन्टेन।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Bird.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:14:06+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036420/wandering-in-search-of-birds-towards-alaska",
+      "category": "national"
+    },
+    {
+      "title": "चेल्सीमा गोलको वर्षा, आर्सनलको सनसनीपूर्ण पुनरागमन",
+      "description": "चेल्सीले बोर्नमाउथलाई फराकिलो अन्तरले हराउँदै इंग्लिस प्रिमियर लिगमा शानदार जित निकालेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-10T16:14:00+00:00",
+      "articleUrl": "https://www.setopati.com/sports/football/400538",
+      "category": "national"
+    },
+    {
+      "title": "के हो सीमित व्यवसायीले मात्रै श्रमिक मलेसिया पठाउन पाउने नियम ?",
+      "description": "यो व्यावसायिक लडाइँका कारण नेपालबाट मलेसिया रोजगारीका लागि जाने श्रमिक चाहिँ पिसिने जोखिम बढेको छ । यसका कारण मलेसियाको रोजगारी नै प्रभावित पो हुने हो कि भन्ने समेत देखिएको छ ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:13:53+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036389/what-is-the-rule-that-only-limited-businesses-can-send-workers-to-malaysia",
+      "category": "national"
+    },
+    {
+      "title": "रिहाइपछि ममता बनर्जीले भनिन् : इन्डिया गठबन्धनको आन्दोलनपछि मात्र बोल्छु",
+      "description": "नयाँ दिल्ली । दिल्ली प्रहरीले पश्चिम बंगालकी मुख्यमन्त्री ममता बनर्जीलाई रिहा गरेको छ । हिरासतबाट मुक्त भएपछि पत्रकारहरूसँग कुरा गर्दै बनर्जीले भनिन्, 'अहिले हामी केही बोल्दैनौँ, किनकि भोलि इन्डिया गठबन्धनले एकजुट भएर विरोध प्रदर्शन गर्ने आह्वान गरेको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/mamata-benergy1_Quo5zHaJxR.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T16:12:49+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598716/after-release-mamata-banerjee-said-i-will-speak-only-after-the-india-alliance-movement",
+      "category": "national"
+    },
+    {
+      "title": "सरकारले किन ल्यायो विपद्सम्बन्धी अध्यादेश ? के छ नयाँ व्यवस्था ?",
+      "description": "२४ असोज, काठमाडौं । राष्ट्रपति रामचन्द्र पौडेलले शुक्रबार विपद्सम्बन्धी केही नेपाल ऐनलाई संशोधन गर्ने अध्यादेश, २०८३ जारी गरे । सरकारले सिफारिसमा राष्ट्रपति पौडेलले उक्त अध्यादेश जारी गरेका हुन् । भोटेकोशी बाढीपछिको अवस्थालाई मध्यनजर गर्दै विपद्सम्बन्धी केही नेपाल ऐनलाई संशोधन गर्नेगरी अध्यादेश ल्याइएको सरकारले बताएको छ । कानुन, न्याय तथा संसदीय मामिलामन्त्र",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/ramchandra-sobita.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:12:27+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036480/why-did-the-government-bring-the-disaster-ordinance-what-is-the-new-provision",
+      "category": "politics"
+    },
+    {
+      "title": "ककरोच प्रदर्शनप्रति मोदी सरकार कठोर, बल प्रयोगले सम्हालिएला स्थिति ?",
+      "description": "प्रश्न उठ्छ– पाँच महिनाअघि मात्रै स्थापना भएको युवाहरूको एउटा संगठनले त्यस्तो के गर्‍यो, जसका कारण विशेष सघन पुनरावलोकन (एसआईआर) विरुद्धको प्रदर्शन हुनुअघि नै सरकारले दिल्लीमा यति ठूलो सुरक्षा व्यवस्था गर्नुपर्‍यो ?",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Modi-satta.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:11:45+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036539/modi-government-strict-on-cockroach-protests-will-the-situation-be-handled-by-force",
+      "category": "politics"
+    },
+    {
+      "title": "चालकसँग सवारी दुर्घटना नगराउने प्रतिबद्धता लिँदै प्रहरी",
+      "description": "यसवर्ष चाँडपर्व नजिकिँदै गर्दा त्यस्ता सवारी दुर्घटना न्यूनीकरण गर्न जिल्ला प्रहरी कार्यालय जाजरकोटले भने फरक अभियान थालेको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Road-Safty-class.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:10:17+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036454/police-taking-commitment-from-drivers-to-avoid-traffic-accidents",
+      "category": "national"
+    },
+    {
+      "title": "कृषिमा बर्सेनि प्राकृतिक विपत्तिको धक्का",
+      "description": "हरेक वर्षजसो यस्तो विपत्ति दोहोरिँदा पनि सरकारले पूर्वतयारी, कृषि बीमाको प्रभावकारी कार्यान्वयन र समयमै राहत वितरणमा चासो नदिएको भन्दै किसानले आक्रोश पोख्दै आएका छन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/image-21-2.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:09:04+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036170/agriculture-is-constantly-hit-by-natural-disasters",
+      "category": "national"
+    },
+    {
+      "title": "आन्दोलनपछि हुँदा बैठक रोकेर सहमति, सांसदलाई पढ्न नदिइ पारित",
+      "description": "अब प्रदेशको राजपत्रमा प्रकाशित भएपछि कोशी प्रदेशभित्र लिम्बू र मैथिलीसँगै अन्य ११ वटा मातृभाषाले सरकारी कामकाजको भाषाका रूपमा कानुनी मान्यता पाउनेछन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Koshi-bhasa.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:07:08+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036501/after-the-protest-the-meeting-was-stopped-and-the-agreement-was-passed-without-allowing-the-mps-to-read-it",
+      "category": "politics"
+    },
+    {
+      "title": "कागजका जहाज र रबरका बल मैदानमा फ्याँकेपछि ला लिगाको खेल रद्द!",
+      "description": "स्पेनिस ला लिगा क्लब रायो भालेकानोका समर्थकले क्लबका मालिकविरुद्ध अनौठो शैलीमा विरोध प्रदर्शन गरेपछि एथलेटिक क्लबविरुद्धको खेल नै रद्द भएको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-10T16:07:05+00:00",
+      "articleUrl": "https://www.setopati.com/sports/football/400536",
+      "category": "national"
+    },
+    {
+      "title": "कर्णालीमा पुराना खानेपानी आयोजना पूरा गर्न ११ करोड ८० लाख बजेट",
+      "description": "२३ असोज, सुर्खेत । संघीय सरकारबाट कर्णाली प्रदेश सरकारलाई हस्तान्तरण भएका अधुरा तथा अलपत्र खानेपानी आयोजना सम्पन्न गर्न प्रदेश सरकारले चालु आर्थिक वर्षमा ११ करोड ८० लाख रुपैयाँ विनियोजन गरेको छ । वर्षौंदेखि अधुरा रहेका आयोजना पूरा गर्ने, बाढीपहिरोबाट क्षति पुगेका संरचना पुनर्निर्माण गर्ने र सञ्चालनमा समस्या भएका आयोजनालाई व्यवस्थित गर्ने प्रदेश सरकारको योजना",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/river-side-karnali.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:06:56+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036233/budget-of-rs-118-million-to-complete-old-drinking-water-projects-in-karnali",
+      "category": "national"
+    },
+    {
+      "title": "मिचाहा झार बन्यो रोजगारीको आधार",
+      "description": "मिचाहा झार नियन्त्रण गर्ने नाममा वर्षौदेखि खर्च हुँदै आएको रकम अहिले स्थानीय महिलाको हातमा पुगेको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Michaha-jhar.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:05:41+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036505/weeds-have-become-the-basis-of-employment",
+      "category": "national"
+    },
+    {
+      "title": "अरिफुल इस्लामले कर्णाली याक्सबाट एनपीएल खेल्ने",
+      "description": "२४ असोज, काठमाडौं । बङ्गलादेशका युवा ब्याटर अरिफुल इस्लाम नेपाल प्रिमियर लिग (एनपीएल) को तेस्रो संस्करणका लागि कर्णाली याक्समा अनुबन्धित भएका छन् । बङ्गलादेशको उमेर समूहको क्रिकेटबाट पहिचान बनाएका अरिफुलले बङ्गलादेशको १९ वर्षमुनिको राष्ट्रिय टोलीबाट विश्वकप खेलिसकेका छन् । उनले बङ्गलादेशको हाइ पर्फमेन्स टोली र ‘ए’ टोलीबाट पनि खेलिसकेका छन् । अरिफुलले अस्ट्रे",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/ariful-islam.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:03:15+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036537/ariful-islam-to-play-npl-for-karnali-yaks",
+      "category": "national"
+    },
+    {
+      "title": "पहिलो अन्तर्राष्ट्रिय भलिबल खेलेको नेपाली टिमका खेलाडी सम्मानित",
+      "description": "२४ असोज, काठमाडौं । नेपालको पहिलो अन्तर्राष्ट्रिय भलिबल प्रतियोगिता खेलेको राष्ट्रिय टिमका खेलाडी सम्मानित भएका छन् । नेपालले पहिलो अन्तर्राष्ट्रिय भलिबल प्रतियोगिता खेलेको ५० वर्ष पुगेको अवसरमा नेपाल भलिबल संघ (एनभीए) ले शनिबार गोल्डेन जुबली कार्यक्रम आयोजना गरी खेलाडीलाई सम्मान गरेको हो । संघले पहिलो अन्तर्राष्ट्रिय प्रतियोगिता खेलेका खेलाडीलाई सम्मानपत्र ",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/volleyball-samman.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:03:03+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036525/nepali-team-players-honored-for-playing-first-international-volleyball-match",
+      "category": "national"
+    },
+    {
+      "title": "पहिलो दसैं टेबलटेनिस प्रतियोगिता सम्पन्न",
+      "description": "२४ असोज, काठमाडौं । यल स्पोर्ट्स एकेडेमीको आयोजनामा पहिलो संस्करणको दसैं टेबलटेनिस प्रतियोगिता शनिबार सम्पन्न भएको छ । ललितपुरको ग्वार्कोस्थित एकेडेमीको नवनिर्मित प्रशिक्षण हलमा भएको प्रतियोगितामा पुरुषतर्फ ३० वर्षमाथि, ४० वर्षमाथि, ५० वर्षमाथि र ६० वर्षमाथिका चार विधामा प्रतिस्पर्धा भएको थियो । ३० वर्षमाथिको विधामा एपीएफका बिलाश श्रेष्ठले स्वर्ण पदक जिते। उ",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/tabletennis.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:02:53+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036526/first-dashain-table-tennis-competition-concluded",
+      "category": "national"
+    },
+    {
+      "title": "पेपे पिज्जाले जित्यो पहिलो फुडपार्क भेट्रान्स कपको उपाधि",
+      "description": "२४ असोज, काठमाडौं । पेपे पिज्जाले एक्स्ट्रिम प्रेजेन्ट्स फुडपार्क भेट्रान्स कप २०२६ को उपाधि जितेको छ । शनिबार हब स्पोर्ट्स सेन्टरमा भएको फाइनलमा एन पेनाङ भेट्रान्सलाई पेनाल्टी सुटआउटमा पराजित गर्दै पेपे पिज्जा पहिलो संस्करणको च्याम्पियन बनेको हो। उपाधिसँगै उसले १० लाख रुपैयाँ पुरस्कार प्राप्त गरेको छ । निर्धारित समयमा दुवै टोलीले २–२ गोल गरेपछि खेलको […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/pepe-pizza.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T16:02:34+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036528/pepe-pizza-wins-first-foodpark-veterans-cup-title",
+      "category": "national"
+    },
+    {
+      "title": "बेनी–जोमसोम सडकमा जोखिम, यात्रा चुनौतीपूर्ण",
+      "description": "ठाकुरप्रसाद आचार्यम्याग्दी (बेनी), असोज २४ गते । बाढीपहिरो र कालीगण्डकी नदीको कटानले क्षतविक्षत बनेको कालीगण्डकी करिडोर अन्तर्गतको बेनी–जोमसोम–कोरला सडक मर्मत सम्भारपछि एकतर्फी रुप...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387507/conversions/beni-jomsom-sadak--(3)-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-10T15:56:22+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226216",
+      "category": "national"
+    },
+    {
+      "title": "आश्विन कृष्ण औँसी : पितृ पक्ष समापन, गोकर्णेश्वरमा श्राद्ध गर्नेको घुइँचो",
+      "description": "काठमाडौं। प्रत्येक वर्ष आश्विन कृष्ण प्रतिपदादेखि सुरु भएको पितृपक्ष आज औँसी तिथि श्राद्ध गरेसँगै समाप्त भएको छ । सोह्र श्राद्ध भने आश्विन शुक्ल प्रतिपदा अर्थात् आइतबार मातामह (आमाको बा) को श्राद्ध गरेसँगै समाप्त हुन्छ। हाल नेपाली समुदायमा नगन्य रूपमा मातामहको श्राद्ध हुने गरेको छ । आश्विन कृष्ण प्रतिपदादेखि आश्विन शुक्ल प्रतिपदासम्मका सोह्र वटा तिथिमा दिवंग",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-10T15:55:35+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/10/ashwin-krishna-aunsi-pitru-paksha-concludes-crowds-gather-at-gokarneshwor-to-perform-shraddha/",
+      "category": "business"
+    },
+    {
+      "title": "भारतमा गिरफ्तार प्रदर्शनकारी रिहा गर्न यूएनएचसीआरको आग्रह",
+      "description": "संयुक्त राष्ट्रसङ्घको मानव अधिकार उच्चायुक्तको कार्यालय (यूएनएचसीआर) ले भारतमा गिरफ्तार गरिएका प्रदर्शनकारीलाई रिहा गर्न आग्रह गरेको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/07/cjp-protest1.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T15:53:54+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036527/unhcr-urges-release-of-protesters-arrested-in-india",
+      "category": "national"
+    },
+    {
+      "title": "भारतमा विरोध प्रदर्शनमा थुनिएका व्यक्तिहरूलाई रिहा गर्न ‘यूएनएचसीआर’ को आग्रह",
+      "description": "संयुक्त राष्ट्रसङ्घको मानव अधिकार उच्चायुक्तको कार्यालय (यूएनएचसीआर) ले शनिबार भारतलाई निर्वाचन अधिकारीहरूको दुराचारविरुद्ध विरोध प्रदर्शनका क्रममा पक्राउ गरिएका निर्दोष व्यक्तिहरूलाई तत्काल रिहा गर्न आग्रह गरेको छ । 'हामी दिल्लीमा आजका ठूला प्रदर्शनहरूभन्दा अघि र प्रदर्शनका क्रममा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dhruba_Lagm8TrcYv.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T15:50:51+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598714/unhcr-urges-release-of-people-detained-in-india-protests",
+      "category": "national"
+    },
+    {
+      "title": "दसैँ बिदामा अस्थायी इजलासबाट सेवा प्रवाह हुने",
+      "description": "पर्सा।नेपालीको महान पर्व वडा दसैँको सार्वजनिक बिदामा उच्च अदालत जनकपुरको अस्थायी इजलास वीरगञ्ज खुला रहने भएको छ। इजलासका अनुसार बिदाका कारण सेवाग्राही अत्यावश्यक न्यायिक सेवाबाट वञ्चित हुन नपरोस् भन्ने उद्देश्यले अदालतले दसैँ बिदाको अवधिमा बन्दीप्रत्यक्षीकरण, वाणिज्यसम्बन्धी पक्राउ पुर्जीको अनुमतिलगायत अत्यावश्यक प्रकृतिका निवेदनमाथि सुनुवाइ हुनेछ । घटस्थापन",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-10T15:49:43+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/10/services-will-be-provided-from-temporary-benches-during-dashain-vacation/",
+      "category": "business"
+    },
+    {
+      "title": "वीरगञ्जमा मिनी ट्रकको ठक्करबाट साइकलयात्रीको मृत्यु",
+      "description": "वीरगञ्जमा मिनी ट्रकको ठक्करबाट एक जना साइकलयात्रीको मृत्यु भएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2023/11/Accident-Sketch.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T15:47:25+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036523/cyclist-dies-after-being-hit-by-mini-truck-in-birgunj",
+      "category": "national"
+    },
+    {
+      "title": "वरिष्ठ मूर्तिकार कुमालेलाई मरणोपरान्त ‘ग्लोबल अवार्ड’ प्रदान गरिने",
+      "description": "ललितपुर, असोज २४ गते । नेपाली परम्परागत मूर्तिकलाका वरिष्ठ कलाकार, नेपालका प्रथम ललितकला उपाधिप्राप्त कलाकार तथा ‘क्रोधकला शिरोमणि’ स्वर्गिय कालु कुमालेलाई मरणोपरान्त ‘ग्लोबल अवार्...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387506/conversions/76-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-10T15:43:49+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226215",
+      "category": "national"
+    },
+    {
+      "title": "नेतान्याहु सत्ता जोगाउन अमेरिकीको ज्यान र पैसा दाउमा लगाउँदै छन् : इरानी विदेशमन्त्री",
+      "description": "'आफ्नो विवेक गुमाएको जुवाडेजस्तै उनी थप अमेरिकी रगत र सम्पत्ति खर्च गरेर आफूलाई जोगाउन हताश प्रयास गरिरहेका छन्,' अराघचीले लेखेका छन्।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Araghachi-netanyahu.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T15:43:24+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036520/netanyahu-is-risking-american-lives-and-money-to-preserve-power-iranian-foreign-minister",
+      "category": "politics"
+    },
+    {
+      "title": "दिल्लीमा ७ हजार बढी पक्राउ, सीजेपीले भन्यो– हामी सरकारबाट तर्सिने छैनौँ, आन्दोलन जारी रहनेछ",
+      "description": "काठमाडौं । कक्रोच जनता पार्टी (सीजेपी)ले भारतको मुख्य निर्वाचन आयुक्त ज्ञानेश कुमारको राजीनामा माग गर्दै आज दिनभर राजधानी नयाँ दिल्लीको विभिन्न स्थानमा विरोध प्रदर्शन गर्‍यो । प्रदर्शनलाई रोक्न दिल्ली प्रहरीले गएरातिदेखि सीजेपीका प्रमुख नेतादेखि समर्थकहरुलाई समेत नियन्त्रणमा लिएको थियो । यसक्रममा प्रहरीले ७ हजारभन्दा बढी प्रदर्शनकारीलाई नियन्त्रणमा लिइसकेको ",
+      "imageUrl": "",
+      "sourceLogo": "https://dainiknepal.com/favicon.ico",
+      "sourceName": "दैनिक नेपाल",
+      "publishedTime": "2026-10-10T15:34:23+00:00",
+      "articleUrl": "https://www.dainiknepal.com/2026/10/844474.html",
+      "category": "politics"
+    },
+    {
+      "title": "भकुण्डेवेशी घटना : व्यक्तिगत गोपनियतासम्बन्धी कसुरमा ३ जना पक्राउ",
+      "description": "काठमाडौँ । काभ्रेको भकुण्डेवेशीस्थित होटलबाट सई गणेश प्रसाद श्रेष्ठ महिलासहित होटलमा भेटिएको घटनामा प्रहरीले व्यक्तिगत गोपनियतासम्बन्धी कसुरमा अनुसन्धान थालेको छ । भदौ १ मा सई श्रेष्ठ र उनीसँगै भेटिएकी महिलालाई केही स्थानीयले भिडियो बनाएर हुमर्त लिँदै",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kavrepalanchok_wpemnfgzgo_sznxzhia8z_G9XRzkVeqL.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T15:32:06+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598713/bhakundebeshi-incident-3-arrested-for-personal-privacy-offenses",
+      "category": "national"
+    },
+    {
+      "title": "इतिहासको ब्याज खाएर बस्दैनौँ, आजैबाट कांग्रेस बदल्छौँ : गगन थापा",
+      "description": "पार्टीको १५ औँ महाधिवेशनबाट सभापति पदमा निर्वाचित भएपछि शनिबार सानेपास्थित केन्द्रिय कार्यालयमा आयोजित कार्यक्रमलाई सम्बोधन गर्दै शनिवार उनले परम्परागत कार्यशैली बदलेर आजैदेखि काँग्रेसको रूपान्तरण शुरु हुने बताएका हुन् ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-10-10T15:31:13+00:00",
+      "articleUrl": "https://nepallive.com/story/351833",
+      "category": "politics"
+    },
+    {
+      "title": "सरकारी सफ्टवेयर र हार्डवेयर खरिदसम्बन्धी अध्ययन गर्न समिति गठन",
+      "description": "समितिलाई हार्डवेयर तथा सफ्टवेयर खरिदसम्बन्धी सम्पूर्ण विवरण र कागजात अध्ययन गर्ने जिम्मेवारी दिइएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/08/sanghiya-mamila-samanya-prashasan.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T15:29:52+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036517/committee-formed-to-study-government-software-and-hardware-procurement",
+      "category": "politics"
+    },
+    {
+      "title": "केपीएल : देविदत्त बटालियन र नेपाल पुलिस क्लब फाइनलमा",
+      "description": "पहिलो सेमिफाइनलमा देविदत्त बटालियनले भिक्ट्री किङ्सलाई फराकिलो अन्तरले पराजित गर्दै फाइनलमा स्थान बनाएको हो।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-10-10T15:23:44+00:00",
+      "articleUrl": "https://nepallive.com/story/351832",
+      "category": "national"
+    },
+    {
+      "title": "प्रशान्त किशोरको आरोप- बिहारमा सरकारी पैसाले डेढ करोड मत किनियो",
+      "description": "उनले निर्वाचन आयोगमाथि निशाना साध्दै बिहारमा सरकारी पैसाको दुरुपयोग गरेर मत किनिएको र त्यसमा निर्वाचन आयोगले सहयोग गरेको आरोप लगाएका छन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Prashant-kishor.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T15:23:02+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036514/prashant-kishors-allegation-1-5-crore-votes-were-bought-with-government-money-in-bihar",
+      "category": "politics"
+    },
+    {
+      "title": "एक शताब्दीदेखि रोकिएको सार्वजनिक मृत्युदण्ड फेरि किन सुरु हुँदैछ अमेरिका ?",
+      "description": "सन् १९३६ मा केन्टकीमा रैनी बेथियालाई सार्वजनिक रूपमा झुन्ड्याएर मृत्युदण्ड दिँदा अनुमानित २० हजार मानिस जम्मा भएका थिए । उनीहरू टाढा–टाढाबाट हजारौँको सङ्ख्यामा आएका थिए । पुरुष, महिला र बालबालिका अमेरिकाको केन्टकी राज्यमा नदी किनारमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/death-hanging_Rg2a5LXTIm.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T15:19:22+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598712/why-is-public-executions-being-resumed-in-america-after-a-century-of-suspension",
+      "category": "national"
+    },
+    {
+      "title": "जनकपुरमा भन्सार छलीको ८ लाख ८५ हजारको सामान बरामद",
+      "description": "जनकपुरधाम । धनुषाको जनकपुरधाममा ई–रिक्साको सिटमुनि लुकाएर ल्याइँदै गरेका भन्सार छलीका इलेक्ट्रोनिक्स सामान प्रहरीले बरामद गरेको छ । जिल्ला प्रहरी कार्यालय धनुषाका अनुसार करिब ८ लाख ८५ हजार रुपैयाँ मूल्यका सामानसहित ई–रिक्सा र त्यसका चालकलाई नियन्त्रणमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/saman-baradam_PoRAV8CUDm.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T15:11:30+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598711/customs-evasion-worth-rs-885000-seized-in-janakpur",
+      "category": "national"
+    },
+    {
+      "title": "स्कुटीलाई ठक्कर दिँदा एक जनाको मृत्यु",
+      "description": "लीलाराज खड्का बिर्तामोड, असोज २४ गते । पूर्वपश्चिम महेन्द्र्र राजमार्गको झापाको कनकाई नगरपालिका —१ दुर्गापुरमा शनिवार साँझ ट्रकले स्कुटीलाई ठक्कर दिँदा एकजना महिलाको मृत्यु भएको छ...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387505/conversions/Bike-accident-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-10T15:09:10+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226214",
+      "category": "national"
+    },
+    {
+      "title": "रातोपाटीकर्मी पौडेललाई कमल बहादुर विष्ट स्मृति पुरस्कार प्रदान",
+      "description": "काठमाडौँ । रातोपाटीकर्मी निराजन पौडेल कमल बहादुर विष्ट स्मृति पुरस्कार प्रदान गरिएको छ । संवैधानिक निकाय र कानुनी विषयको रिपोर्टिङमा सक्रिय पौडेल न्याय प्रणाली र संवैधानिक शासनका विषयमा तथ्यपरक सूचना प्रवाह तथा कानुनी पारदर्शिताका लागि योगदान",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nirajan_2Qi04FLvW0.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T15:00:50+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598710/ratopati-activist-poudel-awarded-kamal-bahadur-bista-memorial-award",
+      "category": "national"
+    },
+    {
+      "title": "कांग्रेस महाधिवेशनः उपसभापति र महामन्त्रीको मतगणना शुरू",
+      "description": "काठमाडौं । नेपाली कांग्रेसको १५ औँ महाधिवेशन अन्तर्गत आजदेखि उपसभापति र महामन्त्रीको मतगणना शुरू भएको छ । निर्वाचन समिति संयोजक वरिष्ठ अधिवक्ता प्रेमबहादुर खड्काका अनुसार खुला उपभापति र महामन्त्रीका उम्मेदवारको मतगणना शनिबार बेलुकी साढे ७ बजेदेखि शुरू भएको हो । यसअघि निर्वाचन समितिले उपसभापति र महामन्त्रीका उम्मेदवारहरूसँग छलफल गरेको थियो । त्यसलगत्तै मतगणना",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-10-10T14:55:44+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/149907/",
+      "category": "politics"
+    },
+    {
+      "title": "प्रियंका गान्धीको आरोप- भारतमा मोदी र शाहको तानाशाही चलिरहेको छ",
+      "description": "प्रियंकाले भारतमा अहिले लोकतन्त्र नरहेको आरोप लगाउँदै लेखेकी छन्, ‘यो नरेन्द्र मोदी र अमित शाहले चलाएको तानाशाही हो ।’",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/04/Priyanka-Gandhi.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T14:46:08+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036512/priyanka-gandhis-allegation-modi-and-shahs-dictatorship-is-going-on-in-india",
+      "category": "national"
+    },
+    {
+      "title": "‘हामी सबैलाई गिरफ्तार गर, विपक्षी पछि हट्दैन : राहुल गान्धी",
+      "description": "मुख्य निर्वाचन आयुक्त ज्ञानेश कुमारविरुद्धको विरोध प्रदर्शनबिच विपक्षी पछि नहट्ने कुरामा जोड दिँदै लोकसभाका विपक्षी नेता राहुल गान्धीले शनिबार प्रधानमन्त्री नरेन्द्र मोदीलाई सबै प्रदर्शनकारीहरूलाई गिरफ्तार गर्न चुनौती दिएका छन् । उनीहरूले संविधानको रक्षा तथा भारतीय जनताको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rahul-gandhi_3iSr13f0xL.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T14:42:40+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598709/arrest-us-all-opposition-wont-back-down-rahul-gandhi",
+      "category": "national"
+    },
+    {
+      "title": "अमेरिका–रुस डिजेल सम्झौताको घोषणा लगत्तै युक्रेनमा रुसी आक्रमण, १५ जनाको मृत्यु",
+      "description": "किभ । अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पले रुसी राष्ट्रपति भ्लादिमिर पुटिनसँग डिजेल आपूर्तिसम्बन्धी सम्झौता भएको घोषणा गरेको भोलिपल्टै शनिबार युक्रेनको जापोरिजिया क्षेत्रमा रुसी आक्रमणमा परी कम्तीमा १५ जनाको मृत्यु भएको छ। मृतकमध्ये तीन बालबालिका रहेका छन्। युक्रेनले यस्तो",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/c2cb87d0-c4b1-11f1-bc2e-018d645d8d21jpg_oI4NZflQAE.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T14:39:39+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598708/russian-attack-on-ukraine-after-us-russia-diesel-deal-announced-15-dead",
+      "category": "national"
+    },
+    {
+      "title": "प्यालेस्टिनी राष्ट्रपति अब्बासद्वारा राष्ट्रपति र संसदीय निर्वाचन करिब एक वर्षका लागि स्थगित",
+      "description": "गाजा । प्यालेस्टिनी राष्ट्रपति महमूद अब्बासले राष्ट्रपति र संसदीय निर्वाचन दुवै सँगै गर्ने गरी करिब एक वर्षका लागि स्थगित गरेको जानकारी उनको कार्यालयले दिएको छ। अन्तर्राष्ट्रिय समुदायले बलियो रूपमा वकालत गरेको संसदीय निर्वाचन यस वर्षको नोभेम्बर",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/abbas_lmUqYGQ0ic.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T14:35:06+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598707/palestinian-president-abbas-postpones-presidential-and-parliamentary-elections-for-about-a-year",
+      "category": "politics"
+    },
+    {
+      "title": "कोशी प्रदेशसभाको चालु अधिवेशन अन्त्य",
+      "description": "विराटनगर।कोशी प्रदेशसभाको चालु नवौँ अधिवेशन आज राति १२ बजेदेखि अन्त्य भएको कोशी प्रदेश प्रमुखको कार्यालयले जनाएको छ। नेपालको संविधानको धारा १८३ को उपधारा (२) बमोजिम प्रदेश प्रमुख परशुराम खापुङले प्रदेश सरकारको सिफारिसका आधारमा अधिवेशन अन्त्य गरेको प्रदेश प्रमुख कार्यालयका सूचना अधिकारी सम्पूर्ण थापाद्वारा आज जारी विज्ञप्तिमा उल्लेख छ ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-10T14:34:23+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/10/the-current-session-of-the-koshi-provincial-assembly-ends/",
+      "category": "business"
+    },
+    {
+      "title": "रेन्शको शानदार शतक, डर्बन टेस्टमा अस्ट्रेलिया बलियो स्थितिमा",
+      "description": "डर्बन । दक्षिण अफ्रिकाको डर्बनस्थित किंग्समिड मैदानमा चलिरहेको पहिलो टेस्ट खेलको दोस्रो दिन अस्ट्रेलिया आफ्नो पहिलो इनिङ्समा ३९० रन बनाएर अलआउट भएको छ। टस जितेर पहिले ब्याटिङ गर्ने निर्णय लिएको अस्ट्रेलियाका लागि म्याट रेन्शले सर्वाधिक १९०",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/matt-renshaw_LwF6L0VOgo.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T14:31:46+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598705/renschs-brilliant-century-puts-australia-in-a-strong-position-in-the-durban-test",
+      "category": "national"
+    },
+    {
+      "title": "सानेपामा उपसभापति र महामन्त्रीको मतगणना",
+      "description": "नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत नयाँ कार्यसमिति चयनका लागि सम्पन्न मतदानको मतगणना जारी छ । शुक्रबारको मतदानपश्चात् शनिबार बिहानैदेखि मतपेटिका सुरक्षित रूपमा राष्ट्रिय सभा गृहमा ल्याइपुर्‍याइएको छ । वर्षा रोकिएसँगै निर्वाचन समितिले मतपेटिका संकलन गरेर शनिबार बिहान",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/congress-vote-count_9k4E1JjDy3.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T14:30:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598532/counting-of-votes-for-the-post-of-congress-president-continues",
+      "category": "politics"
+    },
+    {
+      "title": "निसीखोलामा बाढीपहिरोबाट १० करोडको क्षति",
+      "description": "बागलुङ। बाढीपहिरोबाट जिल्लाको निसीखोला गाउँपालिकामा झण्डै १० करोडको क्षति पुगेको छ । असोज ९ देखि ११ गतेसम्म परेको अविरल वर्षाले गाउँपालिकाले ठूलो धनजनको क्षति ब्यहोर्नु परेको हो। अविरल वर्षासँगै आएको बाढीपहिरोले बागलुङको निसीखोला गाउँपालिकामा पाँच जनाको मृत्यु भएको छ भने करिब रु १० करोड बराबरको भौतिक क्षति पुर्‍याएको निसीखोला गाउँपालिकाका प्रमुख प्रशासकीय अध",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-10T14:28:57+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/10/100-million-rupees-damage-due-to-floods-and-landslides-in-nisikhola/",
+      "category": "business"
+    },
+    {
+      "title": "चुरे संरक्षणको विषय सरकार र दलहरूले गम्भीर लिएनन् : पूर्वराष्ट्रपति यादव",
+      "description": "२४ असोज, काठमाडौं । पूर्वराष्ट्रपति डा. रामवरण यादवले विश्वव्यापी जलवायु परिवर्तन र वातावरणीय संकटप्रति विश्वका शक्ति राष्ट्रदेखि नेपालका राजनीतिक नेतृत्व गम्भीर नभएको गुनासो गरेका छन् । शनिबार काठमाडौंमा नेपाल मधुमेही समाजको ३६ औं वार्षिक साधारण सभालाई सम्बोधन गर्दै उनले यस्तो बताएका हुन् । वैज्ञानिक प्रमाणहरूले बारम्बार चेतावनी दिँदा पनि नीति निर्माण तहमा ",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Rambaran-yadav.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T14:26:48+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036504/government-and-political-parties-did-not-take-the-issue-of-chure-conservation-seriously-former-president-yadav",
+      "category": "politics"
+    },
+    {
+      "title": "खानामा किरा परेको उजुरीपछि ‘मन्त्र थकाली’ मा छापा, साढे २ लाख जरिवाना",
+      "description": "काठमाडौँ । काठमाडौँको महाराजगञ्जस्थित ‘मन्त्र थकाली’ (ग्रीन तारा हस्पिटालिटी प्रा.लि.) लाई सरकारले दुई लाख ५० हजार रुपैयाँ जरिवाना तिराएको छ । खानामा किरा परेको भन्दै उपभोक्ताबाट टेलिफोनमार्फत उजुरी आएपछि खाद्य प्रविधि तथा गुण नियन्त्रण विभागको ‘र्‍यापिड रेस्पोन्स",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/whatsapp-image-2026-10-10-at-60649-pm_yYeaVIMtp6.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T14:23:41+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598703/raid-on-mantra-thakali-after-complaint-of-worms-in-food-fined-rs-25-lakh",
+      "category": "national"
+    },
+    {
+      "title": "बैंकिङ सेवामा राष्ट्रिय परिचयपत्रको अनिवार्यता हट्यो, सर्वोच्चको आदेश",
+      "description": "बैंकिङ खबर / सर्वोच्च अदालतले बैंकिङ सेवा प्रवाहका लागि राष्ट्रिय परिचयपत्रलाई नागरिक पहिचानको एकमात्र आधार नबनाउन नेपाल राष्ट्र बैंकका नाममा आदेश जारी गरेको छ। अदालतको आदेशअनुसार राष्ट्रिय परिचयपत्र प्राप्त नभएका नागरिकलाई नागरिकताको प्रमाणपत्रलगायत अन्य वैध परिचय खुल्ने कागजातका आधारमा समेत बैंकिङ सेवा उपलब्ध गराउनुपर्ने भएको छ । राष्ट्रिय परिचयपत्र प्राप्",
+      "imageUrl": "",
+      "sourceLogo": "https://bankingkhabar.com/favicon.ico",
+      "sourceName": "बैंकिङ खबर",
+      "publishedTime": "2026-10-10T14:22:07+00:00",
+      "articleUrl": "https://bankingkhabar.com/archives/169234",
+      "category": "business"
+    },
+    {
+      "title": "आइतबार मौसम मुख्यतया सफा रहने, केही स्थानमा वर्षाको सम्भावना",
+      "description": "काठमाडौँ, असोज २४ गते । नेपाल मौसम विज्ञान विभागले आइतबार मौसम मुख्यतया सफा रहने तथा थोरै स्थानमा वर्षा हुने पूर्वानुमान गरेको छ । विभागका अनुसार हाल देशमा पश्चिमी न्यून चापीय प्रण...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387504/conversions/mmm-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-10T14:17:34+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226213",
+      "category": "national"
+    },
+    {
+      "title": "रसुवा–भोटेकोशी बाढी पुनरुत्थानका लागि बागमती सरकारले ल्यायो ३० दिने कार्ययोजना",
+      "description": "मकवानपुर । बागमती प्रदेश सरकारले रसुवा–भोटेकोशी नदी प्रणालीमा आएको बाढीको क्षति पुनरुत्थानका लागि ३० दिने कार्ययोजना तयार गरेको छ । गत भदौमा आएको बाढीबाट भएको क्षतिको पुनरुत्थान र पुनर्निर्माणका लागि प्रदेशको आन्तरिक मामिला, कानुन तथा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/betrawati-flood_fR6L51bewB.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T14:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598624/bagmati-government-brings-30-day-action-plan-for-rasuwa-bhotekoshi-flood-recovery",
+      "category": "politics"
+    },
+    {
+      "title": "सरकारी सफ्टवेयर र हार्डवेयर खरिदसम्बन्धी अध्ययन गर्न मन्त्रालयद्वारा समिति गठन",
+      "description": "काठमाडौं। भूमि व्यवस्था, सहकारी, संघीय मामिला तथा सामान्य प्रशासन मन्त्रालयले मातहतका निकायमा प्रयोग भइरहेका सफ्टवेयर तथा हार्डवेयर खरिद र प्रयोगको अवस्था अध्ययन गर्न समिति गठन गरेको छ। मन्त्रालयले नापी विभाग र भूमि व्यवस्थापन तथा अभिलेख विभागमा प्रयोग भइरहेका नेलिस, एलआरएमआईएस तथा मेरो कित्ता व्यवस्थापनका लागि खरिद गरिएका हार्डवेयर र सफ्टवेयरको वास्तविक अवस",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-10T14:13:20+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/10/ministry-forms-committee-to-study-government-software-and-hardware-procurement/",
+      "category": "business"
+    },
+    {
+      "title": "शाखा समायोजनमा राष्ट्र बैंकको कडाइ, ग्राहकको हितमा नयाँ व्यवस्था",
+      "description": "बैंकिङ खबर / नेपाल राष्ट्र बैंकले बैंक तथा वित्तीय संस्थाका शाखा समायोजनसम्बन्धी व्यवस्थामा संशोधन गर्दै ग्राहकको हित र ग्रामीण क्षेत्रको वित्तीय पहुँचलाई प्राथमिकता दिएको छ। केन्द्रीय बैंकले ‘क’, ‘ख’ र ‘ग’ वर्गका बैंक तथा वित्तीय संस्थाका लागि जारी एकीकृत निर्देशन, २०८२ मा परिमार्जन गर्दै शाखा समायोजनका लागि विभिन्न सर्त निर्धारण गरेको हो । राष्ट्र बैंकले [",
+      "imageUrl": "",
+      "sourceLogo": "https://bankingkhabar.com/favicon.ico",
+      "sourceName": "बैंकिङ खबर",
+      "publishedTime": "2026-10-10T14:06:26+00:00",
+      "articleUrl": "https://bankingkhabar.com/archives/169232",
+      "category": "business"
+    },
+    {
+      "title": "उपसभापति र महामन्त्रीको मतगणना हुँदै, तीन ठाउँमा गणना",
+      "description": "काठमाडौँ । नेपाली कांग्रेसको १५ औँ महाधिवेशन अन्तर्गत आजदेखि उपसभापति र महामन्त्रीको मतगणना सुरू भएको छ । निर्वाचन समिति संयोजक वरिष्ठ अधिवक्ता प्रेमबहादुर खड्काका अनुसार खुला उपभापति र महामन्त्रीका उम्मेदवारको मतगणना शनिबार बेलुकी साढे ७ बजेदेखि",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/congress-mat-gadana_wwsL0wmA9E.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T14:04:31+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598702/counting-of-votes-for-the-vice-president-and-general-secretary-is-underway-counting-is-being-done-in-three-places",
+      "category": "politics"
+    },
+    {
+      "title": "विवाद साम्य भएपछि कांग्रेस उपसभापति र महामन्त्रीको मतगणना सुरु",
+      "description": "यसअघि उम्मेदवार र प्रतिनिधिले एक मतपेटिका कम भेटिएको र दुई मतपेटिकाको सिलबन्दी खोलिएको अवस्थामा भेटिएको भन्दै मतगणना अघि बढ्न सकेको थिएन ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/mat-garana.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T14:04:30+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036496/counting-of-votes-for-congress-vice-president-and-general-secretary-begins-after-dispute-is-resolved",
+      "category": "politics"
+    },
+    {
+      "title": "विश्व मानसिक स्वास्थ्य दिवस : स्वस्थ खानेकुरा पनि उत्तिकै",
+      "description": "नायिका रेखा थापाले हालै नयाँ बानेश्वरमा बीआर क्याफेको नयाँ आउटलेट खोलेकी छिन् । आज शनिबार क्याफेमा रेगुलर दृश्य थिएन । मध्याह्नपछि क्याफे आफ्नो रेगुलर अपडेट भन्दा फरक थियो । हेर्दाहेर्दै त्यहाँ ‘मानसिक स्वास्थ्य मेला’ लेखिएका ब्यानर टाँसिए । क्याफेका कुर्सीहरूको अरेन्जमेन्ट फेरियो । ग्राहकभन्दा पनि त्यहाँ कुरा सुन्न र सुनाउन मान्छेहरू आउन थाले । यी […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/mental-health.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T14:01:41+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036491/world-mental-health-day-healthy-food-is-also-important",
+      "category": "national"
+    },
+    {
+      "title": "आर्सनलको पुनरागमन जित",
+      "description": "",
+      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/IMG_3183-1791640842.jpeg",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-10-10T14:00:53+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/175065",
+      "category": "sports"
+    },
+    {
+      "title": "बंगलादेशका अरिफुल इस्लाम कर्णाली याक्ससँग अनुबन्धित",
+      "description": "सिद्धार्थ बैंक नेपाल प्रिमियर लिग एनपिएल-३ का लागि कर्णाली याक्सले बङ्गलादेशका युवा खेलाडी अरिफुल इस्लामलाई अनुबन्धित गरेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-10T13:59:00+00:00",
+      "articleUrl": "https://www.setopati.com/sports/cricket/400535",
+      "category": "national"
+    },
+    {
+      "title": "मतपेटिकाको विवाद मिलेसँगै मतगणना सुरु",
+      "description": "काठमाडौँ । मतपेटिककाबारे विवाद सिर्जना भएसँगै प्रभावित भएको कांग्रेस १५ औँ महाधिवेशन अन्तर्गत पदाधिकारीहरुको मतगणना सुरु भएको छ । शनिबार ढिला गरी केन्द्रीय कार्यालय सानेपामा सुरु भएको मतगणना मतपेटिकाको विवादसँगै केही समय प्रभावित भएको थियो । मतगणना",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/congress-vote-count_9k4E1JjDy3.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T13:58:38+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598701/vote-counting-begins-after-ballot-box-dispute-resolved",
+      "category": "national"
+    },
+    {
+      "title": "ट्रम्प–पुटिन डिजेल सम्झौताको भोलिपल्टै युक्रेनमा रुसी आक्रमण, आठ जनाको मृत्यु",
+      "description": "मृतकमध्ये तीन बालबालिका छन्। युक्रेनले यस्तो सम्झौताले मस्कोलाई युद्धका लागि आर्थिक स्रोत जुटाउन सहयोग पुग्ने चेतावनी दिएको थियो।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-10-10T13:50:15+00:00",
+      "articleUrl": "https://nepallive.com/story/351831",
+      "category": "national"
+    },
+    {
+      "title": "यायोख्खाको दबाबपछि बाटैमा सच्चियो भाषा विधेयक",
+      "description": "विराटनगर । कोशी प्रदेशसभाले भाषिक अधिकार, पहिचान र समावेशी शासन व्यवस्थाको क्षेत्रमा ऐतिहासिक फड्को मार्दै ‘कोशी प्रदेशमा सरकारी कामकाजको भाषा सम्बन्धमा व्यवस्था गर्न बनेको विधेयक, २०८३’ सर्वसम्मतिले पारित गरेको छ । नेपालको संविधानको धारा ७ को",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/koshi-bhasa_P0jmqA1k7p.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T13:47:53+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598700/language-bill-amended-on-the-way-after-pressure-from-yayokha",
+      "category": "national"
+    },
+    {
+      "title": "भारतमा कक्रोच विद्रोह कसरी फैलिरहेको छ? (भिडियोसहित)",
+      "description": "काठमाडौँ । अक्टोबर १०, २०२६ (शनिबार बिहान) प्रसिद्ध युट्युबर ध्रुव राठीलाई दिल्ली प्रहरीले पक्राउ गर्‍यो । त्यसपछि ‘कक्रोच जनता पार्टी’ का संस्थापक अभिजित दिप्के लगायत एक दर्जन नेताहरूलाई प्रहरीले समात्यो । अभिजित बम्बईबाट दिल्ली आउँदै थिए",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/843314936_1885522512824843_7145698022188264711_n_9in3wNV8Cu.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T13:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598694/how-is-the-cockroach-rebellion-spreading-in-india-with-video",
+      "category": "national"
+    },
+    {
+      "title": "बागलुङको निसीखोलामा बाढीपहिरोले पाँच जनाको मृत्यु, करिब १० करोडको क्षति",
+      "description": "बागलुङ । बाढीपहिरोबाट बागलुङको निसीखोला गाउँपालिकामा झण्डै १० करोड रुपैयाँको क्षति पुगेको छ। असोज ९ देखि ११ गतेसम्म परेको अविरल वर्षाले गाउँपालिकामा ठूलो धनजनको क्षति भएको हो। अविरल वर्षासँगै आएको बाढीपहिरोले निसीखोलामा पाँच जनाको ज्यान गएको र",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nishikhola_IT1Hi2qygB.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T13:39:25+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598699/five-killed-in-landslide-in-baglungs-nisikhola-damage-estimated-at-rs-100-million",
+      "category": "national"
+    },
+    {
+      "title": "सर्लाहीमा भ्यानको ठक्करबाट मोटरसाइकल चालकको मृत्यु",
+      "description": "दुर्घटनापछि सम्पर्कविहीन भएका भ्यान चालक ३३ वर्षीय नजामुदिन बैठा प्रहरीको सम्पर्कमा आएको प्रहरीले जनाएको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2023/01/Accident-durghatana.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T13:37:24+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036489/motorcyclist-dies-after-being-hit-by-van-in-sarlahi",
+      "category": "national"
+    },
+    {
+      "title": "जुवातास खेलिरहेको अवस्थामा १२ जना पक्राउ",
+      "description": "काठमाडौँ । कैलाली र झापाका विभिन्न स्थानबाट जुवातास खेलिरहेको अवस्थामा १२ जनालाई प्रहरीले पक्राउ गरेको छ। कैलालीको धनगढी उपमहानगरपालिका-४ शिव पुरीधाम बस्ने ५२ वर्षीय गणेश खड्काको घरमा जुवातास खेलिरहेको अवस्थामा गणेशसहित सात जनालाई शुक्रबार साँझ प्रहरीले पक्राउ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/large-group-arrest-jail_rtGCODXQ5L.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T13:36:27+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598698/12-people-arrested-while-gambling",
+      "category": "national"
+    },
+    {
+      "title": "चार वर्षपछि बल्ल बन्यो कोशी प्रदेश सभा सञ्चालन नियमावली",
+      "description": "प्रदेश सभाको दोस्रो कार्यकाल सुरु भएको चार वर्षपछि शनिबारको बैठकले प्रदेशसभा सञ्चालन गर्ने ‘प्रदेशसभा सञ्चालन नियमावली’ पारित गरेको हो ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Koshi-pradesh-Sabha.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T13:35:08+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036471/after-four-years-the-koshi-provincial-assemblys-operating-regulations-have-finally-been-finalized",
+      "category": "national"
+    },
+    {
+      "title": "वैदेशिक रोजगारीमा विभिन्न देश पठाइदिन्छु भन्दै ठगी गर्ने दुई जना पक्राउ",
+      "description": "काठमाडौँ । वैदेशिक रोजगारीमा आकर्षक तलबको प्रलोभनमा पारी विभिन्न देशहरू पठाइदिन्छु भन्दै रकम ठगी गरेको अभियोगमा दुई जनालाई प्रहरीले पक्राउ गरेको छ। पक्राउ पर्नेहरूमा काठमाडौँ महानगरपालिका-२६ बस्ने २८ वर्षीय रोजन डंगोल र तारकेश्वर नगरपालिका-६ बस्ने काठमाडौँ महानगरपालिका-१६",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/thagi_Qh7LcAisuB.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T13:34:06+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598697/two-people-arrested-for-cheating-by-promising-to-send-them-to-various-countries-for-foreign-employment",
+      "category": "national"
+    },
+    {
+      "title": "जलवायु परिवर्तन र वातावरणीय संकटप्रति राजनीतिक नेतृत्व गम्भीर नभएको पूर्वराष्ट्रपति यादवको गुनासो",
+      "description": "काठमाडौँ । पूर्वराष्ट्रपति डा. रामवरण यादवले विश्वव्यापी जलवायु परिवर्तन र वातावरणीय संकटप्रति विश्वका शक्ति राष्ट्रदेखि नेपालका राजनीतिक नेतृत्व गम्भीर नभएको गुनासो गरेका छन्। शनिबार काठमाडौँमा नेपाल मधुमेही समाजको ३६ औँ वार्षिक साधारण सभालाई सम्बोधन गर्दै उनले यस्तो",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ram-baran-yadav_hwGhOLP5zE.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T13:31:05+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598696/former-president-yadav-complains-that-political-leadership-is-not-serious-about-climate-change-and-environmental-crisis",
+      "category": "politics"
+    },
+    {
+      "title": "कांग्रेस आन्तरिक विवाद र गुटबन्दीमुक्त भएर अघि बढ्ने भुसालको दाबी",
+      "description": "काठमाडौँ । नेपाली कांग्रेसकी उपसभापति पुष्पा भुसालले पार्टीको १५ औँ महाधिवेशनले संगठनलाई नयाँ ऊर्जा प्रदान गरेको बताउँदै अबका दिनमा कांग्रेस आन्तरिक विवाद र गुटबन्दीबाट मुक्त भएर जनसरोकारका विषयमा केन्द्रित हुने प्रतिबद्धता व्यक्त गरेकी छन्। सानेपास्थित पार्टी केन्द्रीय",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/pushpa-bhusal_lwQIndG8vZ.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-10T13:27:43+00:00",
+      "articleUrl": "https://www.ratopati.com/story/598695/bhusal-claims-that-congress-will-move-forward-free-from-internal-disputes-and-factionalism",
+      "category": "politics"
+    },
+    {
+      "title": "एक मतपेटिका कम रहेको र दुईमा सिलबन्दी तोडिएको भन्दै कांग्रेस मतगणनामा विवाद",
+      "description": "प्रश्न उठेपछि मतगणना रोकिएको छ । अहिले विवाद मिलाउने कोसिस भइरहेको सानेपा स्रोतले बतायो ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Congress-matgarana.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T13:25:58+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036486/controversy-over-congress-vote-counting-alleging-one-ballot-box-was-missing-and-two-were-sealed",
+      "category": "politics"
+    },
+    {
       "title": "अरिफुल इस्लाम कर्णाली याक्ससँग अनुबन्धित",
       "description": "",
-      "imageUrl": "",
+      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/att.kK15RN9Bgcu2oK8ym2BMcAhi9s2020V6s6o2QO1NIJM-1791638269.jpeg",
       "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
       "sourceName": "हाम्रो खेलकुद",
       "publishedTime": "2026-10-10T13:18:44+00:00",
@@ -61,16 +911,6 @@
       "publishedTime": "2026-10-10T13:15:00+00:00",
       "articleUrl": "https://www.ratopati.com/story/598628/from-apartheid-to-the-international-court-of-justice-navi-pillays-legal-struggle",
       "category": "national"
-    },
-    {
-      "title": "सरकारले किन ल्यायो विपद्सम्बन्धी अध्यादेश ? के छ नयाँ व्यवस्था ?",
-      "description": "२४ असोज, काठमाडौं । राष्ट्रपति रामचन्द्र पौडेलले शुक्रबार विपद्सम्बन्धी केही नेपाल ऐनलाई संशोधन गर्ने अध्यादेश, २०८३ जारी गरे । सरकारले सिफारिसमा राष्ट्रपति पौडेलले उक्त अध्यादेश जारी गरेका हुन् । भोटेकोशी बाढीपछिको अवस्थालाई मध्यनजर गर्दै विपद्सम्बन्धी केही नेपाल ऐनलाई संशोधन गर्नेगरी अध्यादेश ल्याइएको सरकारले बताएको छ । कानुन, न्याय तथा संसदीय मामिलामन्त्र",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/ramchandra-sobita.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-10T13:11:27+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036480/why-did-the-government-bring-the-disaster-ordinance-what-is-the-new-provision",
-      "category": "politics"
     },
     {
       "title": "कोशी प्रदेशमा कामकाजको भाषासम्बन्धी विधेयक पारित: मैथिली र लिम्बुसहित १३ भाषालाई मान्यता",
@@ -133,16 +973,6 @@
       "category": "national"
     },
     {
-      "title": "काेशी प्रदेश सभाकाे चालु अधिवेशन अन्त्य",
-      "description": "प्रदेश प्रमुख परशुराम खापुङले नेपालको संविधानको धारा १८३ को उपधारा (२) बमोजिम प्रदेश मन्त्रिपरिषद्को सिफारिसमा नवौँ अधिवेशन अन्त्य गरेका हुन् ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-10T13:02:44+00:00",
-      "articleUrl": "https://nepallive.com/story/351829",
-      "category": "national"
-    },
-    {
       "title": "सरकारले ई–बिडिङ खारेज गरेर आफू निकट ठेकेदारलाई ठेक्का दिन खोज्यो : महेश बस्नेत",
       "description": "काठमाडौं । नेकपा (एमाले)का सचिव महेश बस्नेतले वर्तमान सरकारले सार्वजनिक खरिद प्रक्रियामा रहेको ई–बिडिङ प्रणाली हटाएर आफू निकट निर्माण व्यवसायीलाई छनोट गरी ठेक्का दिने प्रयास गरिरहेको बताएका छन् । एमाले बागमती प्रदेश कमिटीले आयोजना गरेको कार्यक्रममा बोल्दै बस्नेतले आफू निर्माण व्यवसायी क्षेत्रमा रहेको अनियमितता रोक्न ई–बिडिङ प्रणाली ल्याउने पक्षमा रहेको बताए ",
       "imageUrl": "",
@@ -175,7 +1005,7 @@
     {
       "title": "चेल्सीसँग पाल्मरको सम्झौता लम्बियो",
       "description": "",
-      "imageUrl": "",
+      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/IMG_3175-1791636886.jpeg",
       "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
       "sourceName": "हाम्रो खेलकुद",
       "publishedTime": "2026-10-10T12:55:16+00:00",
@@ -190,16 +1020,6 @@
       "sourceName": "सेतोपाटी",
       "publishedTime": "2026-10-10T12:54:00+00:00",
       "articleUrl": "https://www.setopati.com/politics/400531",
-      "category": "politics"
-    },
-    {
-      "title": "सरकारी सफ्टवेयर र हार्डवेयर खरिद सम्बन्धी अध्ययन गर्न समिति गठन",
-      "description": "काठमाडौँ । भूमि व्यवस्था, सहकारी, संघीय मामिला तथा सामान्य प्रशासन मन्त्रालयले मातहतका निकायमा प्रयोग भइरहेका सफ्टवेयर तथा हार्डवेयर खरिद र प्रयोगको अवस्था अध्ययन गर्न समिति गठन गरेको छ। मन्त्रालयले नापी विभाग र भूमि व्यवस्थापन तथा अभिलेख",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bhumi-byabasta_oh5vvehzvp_7j2Ok8yUt4.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-10T12:52:51+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598687/committee-formed-to-study-government-software-and-hardware-procurement",
       "category": "politics"
     },
     {
@@ -223,16 +1043,6 @@
       "category": "business"
     },
     {
-      "title": "ट्रम्प-पुटिन डिजेल सम्झौताको भोलिपल्टै युक्रेनमा रुसी आक्रमण, आठ जनाको मृत्यु",
-      "description": "किएभ, असोज २४ गते । अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पले रुसी राष्ट्रपति भ्लादिमिर पुटिनसँग डिजेल आपूर्तिसम्बन्धी सम्झौता भएको घोषणा गरेको भोलिपल्टै शनिबार युक्रेनको जापोरिजिया क्षे...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/387494/conversions/Trumpppp-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-10T12:49:45+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226203",
-      "category": "national"
-    },
-    {
       "title": "बागमती सफाइ महाअभियान ७०० औँ हप्तामा",
       "description": "काठमाडौँ । चौध वर्षअघिदेखि सुरु भएको बागमती सफाइ महाअभियान ७००औँ हप्तामा प्रवेश गरेको छ । गुह्येश्वरीस्थित अधिकार सम्पन्न बागमती सभ्यता एकीकृत विकास समितिको कार्यालयमा आज आयोजित अन्तरक्रिया कार्यक्रमका सहभागीले पशुपति क्षेत्रसम्मको बागमतीलाई स्नानयोग्य बनाउने गरी",
       "imageUrl": "https://npcdn.ratopati.com/media/news/bagmati-khola_6XLttJdgEV.jpg",
@@ -240,16 +1050,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-10-10T12:49:37+00:00",
       "articleUrl": "https://www.ratopati.com/story/598686/bagmati-river-cleanup-campaign-in-its-700th-week",
-      "category": "national"
-    },
-    {
-      "title": "चार वर्षपछि बल्ल बन्यो कोशी प्रदेश सभा सञ्चालन नियमावली",
-      "description": "प्रदेश सभाको दोस्रो कार्यकाल सुरु भएको चार वर्षपछि शनिबारको बैठकले प्रदेशसभा सञ्चालन गर्ने ‘प्रदेशसभा सञ्चालन नियमावली’ पारित गरेको हो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Koshi-pradesh-Sabha.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-10T12:47:08+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036471/after-four-years-the-koshi-provincial-assemblys-operating-regulations-have-finally-been-finalized",
       "category": "national"
     },
     {
@@ -325,7 +1125,7 @@
     {
       "title": "नेपाली टोली विश्व गोजुरियो करातेमा चौथो",
       "description": "",
-      "imageUrl": "",
+      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/IMG_3173-1791635717.jpeg",
       "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
       "sourceName": "हाम्रो खेलकुद",
       "publishedTime": "2026-10-10T12:35:46+00:00",
@@ -350,16 +1150,6 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-10T12:33:37+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2036461/sonam-wangchuk-gives-24-hour-ultimatum-to-indian-government",
-      "category": "politics"
-    },
-    {
-      "title": "कांग्रेस १५औँ महाधिवेशन : बाँकी पदाधिकारीको मतगणनामा विवाद",
-      "description": "नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत नयाँ कार्यसमिति चयनका लागि सम्पन्न मतदानको मतगणना जारी छ । शुक्रबारको मतदानपश्चात् शनिबार बिहानैदेखि मतपेटिका सुरक्षित रूपमा राष्ट्रिय सभा गृहमा ल्याइपुर्‍याइएको छ । वर्षा रोकिएसँगै निर्वाचन समितिले मतपेटिका संकलन गरेर शनिबार बिहान",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/congress-mat-gadana_Enbqx86kGP.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-10T12:30:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598532/counting-of-votes-for-the-post-of-congress-president-continues",
       "category": "politics"
     },
     {
@@ -451,16 +1241,6 @@
       "publishedTime": "2026-10-10T12:20:58+00:00",
       "articleUrl": "https://www.hamrokhelkud.com/detail/175061",
       "category": "sports"
-    },
-    {
-      "title": "चालकसँग सवारी दुर्घटना नगराउने प्रतिबद्धता लिँदै प्रहरी",
-      "description": "यसवर्ष चाँडपर्व नजिकिँदै गर्दा त्यस्ता सवारी दुर्घटना न्यूनीकरण गर्न जिल्ला प्रहरी कार्यालय जाजरकोटले भने फरक अभियान थालेको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Road-Safty-class.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-10T12:19:17+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036454/police-taking-commitment-from-drivers-to-avoid-traffic-accidents",
-      "category": "national"
     },
     {
       "title": "विद्यार्थीले बनाए एआई रोबोटिक्स उपकरण",
@@ -593,6 +1373,16 @@
       "category": "national"
     },
     {
+      "title": "ऊर्जा बचत गर्ने उद्योगलाई ‘बचतको प्रमाणपत्र’ बेच्ने सुविधा",
+      "description": "२४ असोज, काठमाडौं । सरकारले ऊर्जा बचत गर्ने उद्योगलाई ‘बचतको प्रमाणपत्र’ बेच्ने सुविधा दिने गरी विधेयक ल्याएको छ । ऊर्जा, जलस्रोत तथा सिँचाइमन्त्री मन्त्री विराजभक्त श्रेष्‍ठले नवीकरणीय ऊर्जा तथा ऊर्जा दक्षता सम्बन्धी विधेयक २०८३ प्रतिनिधिसभामा दर्ता गरेका छन् । जसमा लक्ष्यभन्दा बढी ऊर्जा बचत गरेर प्रमाणपत्र प्राप्त गर्ने व्यावसायिक प्रतिष्ठान वा क्षेत्रले अ",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-10T11:53:55+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036318/facility-to-sell-savings-certificates-to-energy-saving-industries",
+      "category": "national"
+    },
+    {
       "title": "काउन्सिलले सञ्चारमाध्यमलाई होच्याउने र मनोबल गिराउने काम गर्‍यो : महासंघ",
       "description": "काठमाडौँ । नेपाल पत्रकार महासंघ केन्द्रीय समितिको जनकपुरधाममा सम्पन्न पाँचौँ पूर्ण बैठकले प्रेस काउन्सिल नेपालले सामाजिक सञ्जालमार्फत सार्वजनिक गर्दै आइरहेका कारबाहीसम्बन्धी विषयप्रति गम्भीर असहमति व्यक्त गरेको छ। नेपाली मिडियामा आफ्ना कमजोरी सच्याउने तत्परता रहेको र सोहीअनुसार",
       "imageUrl": "https://npcdn.ratopati.com/media/news/patrakar-mahasang_IxI78kM5qM.jpg",
@@ -710,16 +1500,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-10-10T11:30:25+00:00",
       "articleUrl": "https://www.ratopati.com/story/598669/attempts-were-made-to-turn-the-civil-service-into-a-puppet-shankar-pokharel",
-      "category": "national"
-    },
-    {
-      "title": "के हो सीमित व्यवसायीले मात्रै श्रमिक मलेसिया पठाउन पाउने नियम ?",
-      "description": "यो व्यावसायिक लडाइँका कारण नेपालबाट मलेसिया रोजगारीका लागि जाने श्रमिक चाहिँ पिसिने जोखिम बढेको छ । यसका कारण मलेसियाको रोजगारी नै प्रभावित पो हुने हो कि भन्ने समेत देखिएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/malyasia-2.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-10T11:28:53+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036389/what-is-the-rule-that-only-limited-businesses-can-send-workers-to-malaysia",
       "category": "national"
     },
     {
@@ -871,16 +1651,6 @@
       "publishedTime": "2026-10-10T10:52:31+00:00",
       "articleUrl": "https://clickmandu.com/2026/10/498849.html",
       "category": "business"
-    },
-    {
-      "title": "अलास्कातिर चरा खोज्दै बरालिंदा",
-      "description": "अँ! अझै हेर्दै जाऊ, कस्ता–कस्ता हिमाल आउँछन्। नेपालीलाई हत्तपत्त जस्तो पाए त्यस्तै हिमालले इम्प्रेस गर्न सक्दैन। झन् अमेरिकामा त स-साना डाँडाहरूलाई पनि \"माउन्टेन\" भन्ने गरिन्छ। र एकैस्वरमा हाम्रो नेपाली मनले भन्छ- डाँडा हो यो त! केका माउन्टेन।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Bird.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-10T10:46:06+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036420/wandering-in-search-of-birds-towards-alaska",
-      "category": "national"
     },
     {
       "title": "पृथ्वी राजमार्गमा रोकिएका सवारी वैकल्पिक मार्गबाट पास गराइदै",
@@ -1380,16 +2150,6 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-10T07:39:24+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2036322/cleanliness-campaign-in-maulapur-on-the-occasion-of-durga-puja",
-      "category": "national"
-    },
-    {
-      "title": "ऊर्जा बचत गर्ने उद्योगलाई ‘बचतको प्रमाणपत्र’ बेच्ने सुविधा",
-      "description": "२४ असोज, काठमाडौं । सरकारले ऊर्जा बचत गर्ने उद्योगलाई ‘बचतको प्रमाणपत्र’ बेच्ने सुविधा दिने गरी विधेयक ल्याएको छ । ऊर्जा, जलस्रोत तथा सिँचाइमन्त्री मन्त्री विराजभक्त श्रेष्‍ठले नवीकरणीय ऊर्जा तथा ऊर्जा दक्षता सम्बन्धी विधेयक २०८३ प्रतिनिधिसभामा दर्ता गरेका छन् । जसमा लक्ष्यभन्दा बढी ऊर्जा बचत गरेर प्रमाणपत्र प्राप्त गर्ने व्यावसायिक प्रतिष्ठान वा क्षेत्रले अ",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/urjaj.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-10T07:33:55+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036318/facility-to-sell-savings-certificates-to-energy-saving-industries",
       "category": "national"
     },
     {
@@ -2103,16 +2863,6 @@
       "category": "national"
     },
     {
-      "title": "कृषिमा बर्सेनि प्राकृतिक विपत्तिको धक्का",
-      "description": "हरेक वर्षजसो यस्तो विपत्ति दोहोरिँदा पनि सरकारले पूर्वतयारी, कृषि बीमाको प्रभावकारी कार्यान्वयन र समयमै राहत वितरणमा चासो नदिएको भन्दै किसानले आक्रोश पोख्दै आएका छन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/image-21-2.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-10T04:45:04+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036170/agriculture-is-constantly-hit-by-natural-disasters",
-      "category": "business"
-    },
-    {
       "title": "पृथ्वी राजमार्गको गलौदीमा सडक भासिँदा पृथ्वी राजमार्ग अवरुद्ध, खुल्न आठ घण्टा लाग्ने",
       "description": "काठमाडौं । धादिङको गलौदीमा सडक भासिएपछि पृथ्वी राजमार्ग अवरुद्ध भएको छ। गजुरी नजिक काठमाडौँतर्फ जाने सडकखण्डमा त्रिशूली नदीले कटान गरेपछि सडक भासिएको हो। नदीले सडकको बाहिरी भाग कटान गरेपछि यातायात सञ्चालन पूर्ण रूपमा अवरुद्ध भएको छ। सडकको भित्री भागमा स्थानीय सडक रहेकाले त्यसलाई काटेर अस्थायी वैकल्पिक मार्ग निर्माण गरी यातायात सञ्चालन गर्ने तयारी गरिएको छ। [",
       "imageUrl": "",
@@ -2403,16 +3153,6 @@
       "category": "national"
     },
     {
-      "title": "गगनको विद्रोह, विश्वको विश्वास",
-      "description": "गगन-विश्वले कांग्रेसको गौरवपूर्ण र बदनामी दुवै इतिहास पढेका छन् । अब उनीहरूकै काँधमा अर्को इतिहास बनाउने समय आएको छ । कस्तो इतिहास बनाउँलान् ? बीपी, गणेशमान, कृष्णप्रसाद कि गिरिजा, सुशील वा शेरबहादुरको ?",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Gagan_thapa_Bishwoprakash-sharma-2.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-10T02:34:06+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036104/gagans-rebellion-the-worlds-faith",
-      "category": "national"
-    },
-    {
       "title": "रुपन्देहीमा चाडपर्व लक्षित विशेष सुरक्षा योजना लागू, २४ सै घण्टा प्रहरी गस्ती",
       "description": "",
       "imageUrl": "",
@@ -2480,16 +3220,6 @@
       "sourceName": "न्यूज २४ नेपाल",
       "publishedTime": "2026-10-10T02:17:00+00:00",
       "articleUrl": "https://www.news24nepal.com/detail/13909",
-      "category": "national"
-    },
-    {
-      "title": "कर्णालीमा पुराना खानेपानी आयोजना पूरा गर्न ११ करोड ८० लाख बजेट",
-      "description": "२३ असोज, सुर्खेत । संघीय सरकारबाट कर्णाली प्रदेश सरकारलाई हस्तान्तरण भएका अधुरा तथा अलपत्र खानेपानी आयोजना सम्पन्न गर्न प्रदेश सरकारले चालु आर्थिक वर्षमा ११ करोड ८० लाख रुपैयाँ विनियोजन गरेको छ । वर्षौंदेखि अधुरा रहेका आयोजना पूरा गर्ने, बाढीपहिरोबाट क्षति पुगेका संरचना पुनर्निर्माण गर्ने र सञ्चालनमा समस्या भएका आयोजनालाई व्यवस्थित गर्ने प्रदेश सरकारको योजना",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/river-side-karnali.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-10T02:03:56+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036233/budget-of-rs-118-million-to-complete-old-drinking-water-projects-in-karnali",
       "category": "national"
     },
     {
@@ -2750,16 +3480,6 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-10T00:06:34+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2036209/emphasis-on-increasing-egg-production-and-consumption",
-      "category": "national"
-    },
-    {
-      "title": "भेडाच्याङ्ग्रा बेच्न ३५ दिनको यात्रा, छैन बजारको टुङ्गो",
-      "description": "लामो पैदल यात्रा, हिमपात, बाढीपहिरो र सडक अवरोधले किसानको योजना प्रभावित भएको छ । बजारमा समयमै पुग्न नसक्दा बिक्रीको अवसर गुम्ने जोखिम बढेको छ भने ढुवानी तथा बाटोमा हुने खर्चले आम्दानी घटाउने चिन्ता पनि थपिएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/veda-chyangra-1230.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-10T00:00:48+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036205/35-day-journey-to-sell-sheep-no-market-decided",
       "category": "national"
     },
     {
@@ -4301,726 +5021,6 @@
       "publishedTime": "2026-10-09T12:57:47+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2035996/medical-council-investigating-283-files-of-foreign-doctors",
       "category": "national"
-    },
-    {
-      "title": "‘बा: एक योद्धा’मा खास के छ ?",
-      "description": "जीवनको गोधूलि साँझमा उभिएका एक बाको मुटुभित्र कतिवटा अशान्त आँधीबेहरी चल्छन् ? अनुहारमा मुस्कानको मुखौटा सजाएर छातीभित्र विवशताको पहाड थिच्दै सन्तानको उज्ज्वल भविष्यका लागि आफ्नो सम्पूर्ण अस्तित्व होम्ने त्यस्तै बाको कथा हो- बा: एक योद्धा । निर्देशक तथा लेखक हरि लम्सालले हरेक नेपाली घरको चुलोचौकोमा गुञ्जिरहेको उही परिचित सुस्केरा, मौन रोदन र पुस्तान्तरणको का",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/ba-ek-yoddha-ko-design.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T12:57:32+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035989/what-is-special-about-ba-a-warrior",
-      "category": "entertainment"
-    },
-    {
-      "title": "लोकतान्त्रिक गणतन्त्रको रक्षार्थ आफू पुन: राजनीतिमा आएँ : विद्या भण्डारी",
-      "description": "२३ असोज, काठमाडौं । नेकपा एमाले वरिष्ठ नेता एवं पूर्वराष्ट्रपति विद्यादेवी भण्डारीले लोकतान्त्रिक गणतन्त्रको रक्षार्थ आफू पुन: राजनीतिमा आएको बताएकी छिन् । शुक्रबार पार्टी केन्द्रीय कार्यालय च्यासलमा बसेको स्थायी कमिटी बैठकमा भण्डारीले यस्तो बताएका हुन् । भण्डारीको भनाइ उद्धृत गर्दै पार्टीकी सचिव पद्या अर्यालले भण्डारीले मुलुकमा लोकतन्त्र र संविधानप्रति खतरा",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Bidhya-Bhandari-6.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T12:56:16+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035992/i-returned-to-politics-to-defend-the-democratic-republic-vidya-bhandari",
-      "category": "politics"
-    },
-    {
-      "title": "इरानका राष्ट्रपति भन्छन्– धम्की होइन, साझा हितमा आधारित शान्ति चाहन्छौं",
-      "description": "इरानका राष्ट्रपति मसुद पेजेस्कियानले अमेरिकासँग हुने वार्ता दबाब र धम्कीबिना अघि बढे मात्रै सफल हुने बताएका छन् । तुर्कमेनिस्तानमा आयोजित स्वतन्त्र राष्ट्रहरूको राष्ट्रमण्डल (सीआईएस) को शिखर सम्मेलनलाई सम्बोधन गर्दै पेजेस्कियानले यस्तो बताएका हुन् । इरानले थकाइलाग्दो प्रतिस्पर्धाको सट्टा सहकार्य, एकपक्षीय निर्भरताको सट्टा पारस्परिक अन्तरनिर्भरता तथा धम्कीको ",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/04/Masood-Pejiskiyan.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T12:55:10+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035990/irans-president-says-we-want-peace-based-on-common-interests-not-threats",
-      "category": "politics"
-    },
-    {
-      "title": "कांग्रेस अधिवेशन : सभापतिको मतगणना आजै गरिने",
-      "description": "कांग्रेसको निर्वाचन समितिका सदस्य सचिव राजु कटुवालका अनुसार सभापति पदको मात्रै मतगणना आजै गर्ने तयारी छ ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T12:51:19+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035984/congress-convention-counting-of-votes-for-the-president-will-be-held-today",
-      "category": "politics"
-    },
-    {
-      "title": "आम मुस्मिल मोर्चाको काठमाडौं उपत्यका विशेष कमिटीको अध्यक्षमा मोहम्द आरिफ शाह",
-      "description": "काठमाडौं । आम मुस्मिल मोर्चाको काठमाडौं उपत्यका विशेष कमिटी गठन भएको छ । मोहम्द आरिफ शाहको अध्यक्षतामा २५ सदस्यीय कमिटी गठन भएको हो । काठमाडौंको अनामनगरमा आज बसेको उपत्यका विशेष कमिटीको बैठकले फुल मोहम्द मन्सुर इन्चार्च र मोहम्मद आरिफ शाह अध्यक्ष रहने गरी कमिटी गठन भएको मोर्चाका केन्द्रीय अध्यक्ष लालबाबु मन्सुरीले जनाएका छन् । कमिटीको […] The post आम मुस्मिल",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-09T12:45:37+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/149845/",
-      "category": "national"
-    },
-    {
-      "title": "नेकपाले कात्तिक ७ देखि मंसिर २५ सम्म राष्ट्रिय जागरण अभियान चलाउने",
-      "description": "काठमाडौं । नेपाली कम्युनिस्ट पार्टी (नेकपा)ले आगामी कात्तिक ७ गतेदेखि मंसिर २५ गतेसम्म ‘राष्ट्रिय जागरण अभियान’ सञ्चालन गर्ने भएको छ । शुक्रबार पार्टी केन्द्रीय कार्यालय पेरिसडाँडामा बसेको केन्द्रीय संयोजन समितिको बैठकले अभियान सञ्चालन गर्ने निर्णय गरेको प्रवक्ता प्रकाश ज्वालाले जानकारी दिएका हुन् । उनका अनुसार कात्तिक ७ गते बृहत् पत्रकार सम्मेलन आयोजना गरेर",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-09T12:41:21+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/149844/",
-      "category": "national"
-    },
-    {
-      "title": "बेत्रावतीमा बेलिब्रिज जडानको काम धमाधम",
-      "description": "२३ असोज, काठमाडौं । भोटेकोशी बाढीले बगाएको रसुवा र नुवाकोटको सीमास्थित बेत्रावतीमा बेलिब्रिज जडान कार्य अन्तिम चरणमा पुगेको छ । शुक्रबार बेलिब्रिज वारपार टेकाइएको छ । शनिबार बेलिब्रिज जडानको बाँकी काम सम्पन्न गर्ने लक्ष्य राखिएको पूर्वाधार विकास मन्त्रालयले जनाएको छ । आइतबारदेखि बेलिब्रिजमार्फत सवारीसाधन सञ्चालनमा ल्याउने तयारी छ । बेलिब्रिज जडान सम्पन्न भएस",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Betrawati.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T12:31:40+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035965/work-on-installing-a-bailey-bridge-in-betravati-is-in-full-swing",
-      "category": "business"
-    },
-    {
-      "title": "भारतमा दुइटा टाउका भएको दुर्लभ 'वुल्फ स्नेक' भेटियो",
-      "description": "भारतको गुजरात राज्यस्थित एउटा गाउँमा दुर्लभ मानिने दुईटाउके 'वुल्फ स्नेक' प्रजातिको सर्प फेला परेको छ। यसका चारओटा आँखा छन्।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/d2c5/live/94efa1f0-c3dc-11f1-a64c-550be9e3c66b.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-10-09T12:30:01+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/watch/cmz65pj46z4lo?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "गृह मन्त्रालयद्वारा एक सहसचिवसहित ३२ कर्मचारीको सरुवा तथा पदस्थापन: को-कहाँ ? (सूचीसहित)",
-      "description": "काठमाडौं । गृह मन्त्रालयले एक जना सहसचिव र ३१ जना उपसचिव गरी ३२ जना कर्मचारीहरूको सरुवा तथा पदस्थापन गरेको छ । मन्त्रालयको २०८३ असोज १५ र २३ गतेको निर्णयानुसार राजपत्राङ्कित प्रथम र द्वितीय श्रेणीका कर्मचारीहरूको जिम्मेवारी हेरफेर गरिएको हो । निर्णयअनुसार जिल्ला प्रशासन कार्यालय अर्घाखाँचीका प्रमुख जिल्ला अधिकारी (सहसचिव) तोय नारायण सुवेदीलाई जिल्ला प्रशासन ",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-09T12:28:42+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498755.html",
-      "category": "business"
-    },
-    {
-      "title": "राष्ट्रपतिले जारी गरे अध्यादेश",
-      "description": "काठमाडौं । राष्ट्रपति रामचन्द्र पौडेलले अध्यादेश जारी गरेका छन्। राष्ट्रपति पौडेलले शुक्रबार विपद्सम्बन्धी केही नेपाल ऐनलाई संशोधन गर्ने अध्यादेश, २०८३ जारी गरेका हुन् । मन्त्रिपरिषद् बैठकले अध्यादेश जारी गर्न भन्दै राष्ट्रपतिसमक्ष सिफारिस गरेको थियो । हाल १२ वर्ष बेपत्ता भएका व्यक्तिलाई मृतक घोषणा गर्न सकिने व्यवस्था छ । यसलाई छोट्याएर विपद्को सन्दर्भमा ४५ ",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-09T12:09:44+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498750.html",
-      "category": "business"
-    },
-    {
-      "title": "बूढानीलकण्ठबाट बरामद सुनको तौल २१ किलो, मूल्य ५४ करोड !",
-      "description": "काठमाडौँ । काठमाडौँको बूढानीलकण्ठ नगरपालिका-२, माथिल्लो भङ्गालबाट बिहीबार प्रहरीले बरामद गरेको सुनको तौल २१ किलो ७५०.६८ ग्राम रहेको छ । काठमाडौँ उपत्यका अपराध अनुसन्धान कार्यालयद्वारा आज आयोजित पत्रकार सम्मेलनमा उक्त सुन हालको बजार मूल्य रु ५४ करोड ६० लाख सात हजार ३२० रहेको जानकारी दिइएको हो । काठमाडौँ उपत्यका अपराध अनुसन्धान कार्यालयको टोलीले बिहीबार मध्याह",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-10-09T12:06:47+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/10/21-kg-gold-recovered-from-budhanilkantha-worth-rs-54-crore.html",
-      "category": "business"
-    },
-    {
-      "title": "करदाता प्रोत्साहन उपहारमा व्यवसायीलाई पनि नगद प्रोत्साहन पुरस्कार व्यवस्था गर्न अर्थमन्त्रीको निर्देशन",
-      "description": "२३ असोज, काठमाडौं । अर्थमन्त्री डा. स्वर्णिम वाग्लेले करदाता प्रोत्साहन कार्यक्रमअन्तर्गत वस्तु तथा सेवा बिक्री गर्ने विक्रेतालाई पनि नगद उपहार दिने व्यवस्था गर्न निर्देशन दिएका छन् । शुक्रबार अर्थ मन्त्रालयमा आयोजित राजस्व समीक्षा बैठकमा बोल्दै उनले आन्तरिक राजस्व विभागलाई यस्तो निर्देशन दिएका हुन् । बिल लिने र दिने संस्कार विकास गरी औपचारिक अर्थतन्त्र निर्",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/swarnim-wagle-8.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T12:06:46+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035949/finance-minister-directs-to-provide-cash-incentives-to-businessmen-as-part-of-taxpayer-incentive-gifts",
-      "category": "business"
-    },
-    {
-      "title": "कांग्रेस महाधिवेशन : मतदानको समय बेलुका ७ बजेसम्म थपियो",
-      "description": "काठमाडौं । नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत नयाँ केन्द्रीय कार्यसमिति चयनका लागि जारी मतदानको समय आज बेलुका ७ बजेसम्मका लागि थप गरिएको छ । नेपाली कांग्रेस केन्द्रीय निर्वाचन समितिले एक सूचना जारी गर्दै मतदानको समय दुई घण्टा थप गरिएको जानकारी दिएको हो । यसअघि प्रकाशित निर्वाचन तालिका अनुसार बिहानदेखि सुरु भएको मतदानको समय दिउँसो ५ बजेसम्मका […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-09T12:02:50+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498744.html",
-      "category": "business"
-    },
-    {
-      "title": "बैंकहरूले उपमहानगर र नगरपालिकाका शाखा पनि एकीकरण गर्न पाउने",
-      "description": "२३ असोज, काठमाडौं । बैंक तथा वित्तीय संस्थाले उपमहानागर र नगरपालिका भित्रका शाखा पनि एकीकरण वा समायोजना गर्नसक्ने भएका छन् । केन्द्रीय बैंकले विद्युतीय कारोबार बढेको शुनाले बैंक वित्तीय संस्थाको भौतिक शाखा घटाउने उद्देश्य अनुसार, उपमहानगर र नगरपालिकाभित्र शाखा पनि समायोजना गर्न सकिने व्यवस्था गरेको हो । केन्द्रीय बैंकले शुक्रबार निर्देशन जारी गर्दै महानगरपाल",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/03/bank-scaled.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T12:02:28+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035941/banks-will-also-be-allowed-to-consolidate-branches-in-sub-metropolitan-and-municipalities",
-      "category": "business"
-    },
-    {
-      "title": "अपेक्षाभन्दा कम माग भएपछि एप्पलद्वारा आईफोन १८ प्रोका पार्टपुर्जा अर्डरमा कटौती",
-      "description": "एजेन्सी । एप्पलका पछिल्ला आईफोनहरू थप महँगा भएका छन् । अहिले माग अपेक्षाभन्दा कम भएपछि कम्पनीले आफ्ना फ्ल्यागशिप मोडलहरूका लागि पार्टपुर्जाको अर्डरमा कटौती गरिरहेको छ । निक्केई एसियाको एक प्रतिवेदन अनुसार, एप्पलले केही आपूर्तिकर्ताहरूलाई आईफोन १८ प्रो र आईफोन १८ प्रो म्याक्सका पार्टपुर्जा उत्पादन घटाउन आग्रह गरेको छ । विशेष रूपमा अक्टोबर महिनाका लागि तय […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-09T11:59:35+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498743.html",
-      "category": "business"
-    },
-    {
-      "title": "बिल जारी गर्ने विक्रेतालाई पनि नगद उपहार दिन अर्थमन्त्रीको निर्देशन",
-      "description": "काठमाडौं । अर्थमन्त्री डा. स्वर्णिम वाग्लेले करदाता प्रोत्साहन कार्यक्रमअन्तर्गत वस्तु तथा सेवाको बिक्री गर्ने विक्रेतालाई पनि नगद उपहार दिने व्यवस्था गर्न निर्देशन दिएका छन् । शुक्रबार अर्थ मन्त्रालयमा आयोजित राजस्व समीक्षा बैठकमा बोल्दै उनले आन्तरिक राजस्व विभागलाई यस्तो निर्देशन दिएका हुन् । बिल लिने र दिने संस्कार विकास गरी औपचारिक अर्थतन्त्र निर्माण गर्",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-09T11:59:28+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498742.html",
-      "category": "business"
-    },
-    {
-      "title": "सहरका ४ शाखा बन्द गर्दा ग्रामीण क्षेत्रमा एउटा नयाँ शाखा खोल्नुपर्ने, कर्मचारी हटाउन नपाइने",
-      "description": "काठमाडौं । नेपाल राष्ट्र बैंकले बैंक तथा वित्तीय संस्थाहरूलाई महानगरपालिकाका साथै उपमहानगर र नगरपालिकाका सहरी क्षेत्रमा रहेका शाखाहरू आपसमा समायोजन तथा एकीकरण गर्न सक्ने व्यवस्था गरेको छ । सहरी क्षेत्रका चारवटा शाखा समायोजन गरी बन्द गरेबापत कुनै पनि बैंक तथा वित्तीय संस्थाको शाखा नपुगेको ग्रामीण क्षेत्रको वडामा अनिवार्य रूपमा एउटा नयाँ शाखा खोल्नुपर्ने सर्त ",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-09T11:45:18+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498737.html",
-      "category": "business"
-    },
-    {
-      "title": "बाढीका कारण खाद्यान्न अभाव हुन सक्ने डर, सङ्कट टार्न के गर्न सकिएला",
-      "description": "बाढी र पहिरोका कारण सडक सञ्जालमा पनि क्षति पुगेकाले सम्पूर्ण आपूर्ति प्रणालीमै अवरोध हुँदा प्रभावित क्षेत्रमा खाद्य असुरक्षाको खतरा बढेको छ।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/730b/live/631931a0-c3d2-11f1-a64c-550be9e3c66b.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-10-09T11:35:04+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/listen/c34g1lgy9n8qo?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "सुन तस्करी प्रकरणः यी हुन् पक्राउ परेका ३ चिनियाँ तस्कर…",
-      "description": "काठमाडौँ । प्रहरीले सुन तस्करी प्रकरणमा पक्राउ परेका चिनियाँ नागरिक सार्वजनिक गरेको छ । उपत्यका अपराध अनुसन्धान कार्यालयले शुक्रबार पत्रकार सम्मेलन गर्दै ३ जना चिनियाँ नागरिकलाई सार्वजनिक गरेको हो । पक्राउ पर्नेमा २७ वर्षका हान फेइ, ३७ वर्षका वाङ जियानझेन र ४७ वर्षीय झोउ लोङक्विन छन् । उनीहरु तीनै जना चिनियाँ नागरिक हुन् । उनीहरुलाई Continue reading \"सुन तस्",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-10-09T11:34:06+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/10/gold-smuggling-case-3-chinese-smugglers-arrested.html",
-      "category": "business"
-    },
-    {
-      "title": "मेस्सीपछि अर्जेन्टिनाको १० नम्बर जर्सी कसको ?",
-      "description": "लियोनेल मेस्सीको युगसँग जोडिएको अर्जेन्टिनाको प्रतिष्ठित १० नम्बर जर्सी अब कसले लगाउने भन्ने प्रश्नले विश्व फुटबलमा चासो बढाएको छ। अर्जेन्टिनाको निलो–सेतो जर्सीमा १० नम्बरलाई मेस्सीले आफ्नो अद्वितीय खेलशैली र उपलब्धिमार्फत विशेष पहिचान दिएका छन्। अब उनको उत्तराधिकारी बन्ने खेलाडीमाथि स्वाभाविक रूपमा ठूलो दबाब रहनेछ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-10-09T11:33:46+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13907",
-      "category": "national"
-    },
-    {
-      "title": "विनाशकारी बाढी देखेका र भोगेका बालबालिकाको मनोदशा कसरी बुझ्ने, कसरी सहयोग गर्ने",
-      "description": "विनाशकारी बाढी देखेका र भोगेका बालबालिकामा कस्तो मानसिक प्रभाव परेको छ भन्ने कसरी थाहा हुन्छ? अनि त्यस्ता उनीहरूलाई कस्तो सहयोग चाहिन्छ र त्यो कसरी उपलब्ध हुन सक्छ?",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/54ca/live/4e0cb480-c3d2-11f1-9a39-31b474234113.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-10-09T11:32:23+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/listen/cq8ezwe291elo?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "मलेसियामा श्रमिकको न्यूनतम तलब २ हजार रिंगिट पुग्ने, नेपाली पनि लाभान्वित हुने",
-      "description": "२३ असोज, काठमाडौं । मलेसियाले विदेशी श्रमिकसहित कामदारको न्यूनतम मासिक तलब २ हजार रिंगेट पुर्‍याउने घोषणा गरेको छ । सन् २०२७ जुनदेखि २ हजार रिंगिट पुर्‍याउने घोषणा गरेको हो । हाल १ हजार ७ सय रिंगेट रहेको न्यूनतम तलबमा ३ सय रिंगेटले बढाएर २ हजार पुर्‍याउने घोषणा गरेको हो । जसले गर्दा मलेसियामा कार्यरत ४ […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2023/01/Malaysia.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T11:31:38+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035911/minimum-wage-for-workers-in-malaysia-will-reach-2000-ringgit-nepalis-will-also-benefit",
-      "category": "business"
-    },
-    {
-      "title": "बैंकहरूले शाखा समायोजन गर्दा कर्मचारी हटाउन नपाइने",
-      "description": "२३ असोज, काठमाडौं । बैंक तथा वित्तीय संस्थाले शाखा समायोजना तथा एकीकरण गर्दा कर्मचारी हटाउन नपाउने भएका छन् । राष्ट्र बैंकले एकीकृत निर्देशन संशोधन गर्दै शाखा समायोजना गर्दा कर्मचारी कटौती गर्न नपाइने व्यवस्था गरेका हो । केन्द्रीय बैंकले शाखा समायोजन/एकीकरण हुने वा भएको कारण सम्बन्धित शाखामा कार्यरत कर्मचारीलाई सेवाबाट नहटाउन निर्देशन दिएको हो । शाखा […]",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T11:26:34+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035907/banks-are-not-allowed-to-lay-off-employees-when-adjusting-branches",
-      "category": "business"
-    },
-    {
-      "title": "मञ्जुश्री फाइनान्सको २० प्रतिशत लाभांश प्रस्ताव, ५ प्रतिशत बोनस सेयर र १५ प्रतिशत नगद",
-      "description": "बैंकिङ खबर / मञ्जुश्री फाइनान्स लिमिटेडले आर्थिक वर्ष २०८२/८३ को मुनाफाबाट सेयरधनीलाई कुल २० प्रतिशत लाभांश वितरण गर्ने प्रस्ताव गरेको छ । कम्पनीको सञ्चालक समितिले बोनस सेयर र नगद लाभांश दुवै समेटेर प्रस्ताव अघि बढाएको हो । प्रस्तावअनुसार कम्पनीले सेयरधनीलाई ५ प्रतिशत बोनस सेयर र १५ प्रतिशत नगद लाभांश वितरण गर्ने प्रस्ताव गरेको छ । यससँगै […] The post मञ्जुश",
-      "imageUrl": "",
-      "sourceLogo": "https://bankingkhabar.com/favicon.ico",
-      "sourceName": "बैंकिङ खबर",
-      "publishedTime": "2026-10-09T11:15:01+00:00",
-      "articleUrl": "https://bankingkhabar.com/archives/169229",
-      "category": "business"
-    },
-    {
-      "title": "दशैं–तिहार लक्षित बजार अनुगमनः बागबजारका पसलमा छापा",
-      "description": "काठमाडौं । विजया दशमी, तिहार र छठलगायतका चाडपर्व नजिकिएसँगै बजारमा हुनसक्ने कालोबजारी र अखाद्य वस्तुको विक्री नियन्त्रण गर्न काठमाडौं महानगरपालिकाले अनुगमन अभियानलाई तिब्रता दिएको छ । सोही क्रममा शुक्रवार महानगरको टोलीले बागबजार क्षेत्रका विभिन्न खाद्यान्न पसलहरूमा आकस्मिक अनुगमन गरेको हो । चाडपर्वको समयमा उपभोग्य वस्तुको माग उच्च हुने र सोही मौका छोपी अस्वस",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-09T11:01:06+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498733.html",
-      "category": "business"
-    },
-    {
-      "title": "हेलो सरकारमा एक सातामा १ हजार ७५५ गुनासो, १ हजार १६७ कर्मचारी कारवाहीमा परे !",
-      "description": "काठमाडौँ । प्रधानमन्त्री तथा मन्त्रिपरिषद्को कार्यालयमा पछिल्लो एक सातामा हेलो सरकारमार्फत १ हजार ७५५ वटा गुनासो प्राप्त भएका छन् । तीमध्ये १ हजार १७४ वटा गुनासो समाधान गरिएको छ भने ११९ वटा फछर्यौट गरिएको कार्यालयका सहसचिव एवं प्रवक्ता हेमराज अर्यालले जानकारी दिएका छन् । शुक्रबार आयोजित साप्ताहिक प्रेस ब्रिफिङमा प्रवक्ता अर्यालले श्रमिकको तलब तथा ज्याला, Con",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-10-09T11:01:01+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/10/hello-sarkar-receives-1755-complaints-1167-employees-taken-action-in-a-week.html",
-      "category": "business"
-    },
-    {
-      "title": "यसकारण चर्चा र विवादको उत्कर्षमा थियो पशुपतिको गीत, ‘लुट्न सके लुट कान्छा’",
-      "description": "सर्वसाधारण महँगी र बेरोजगारीले आक्रान्त थिए। बिरामी बुबाआमाको औषधोपचार गराउन, साना लालाबालालाई ठिकठाककै शिक्षादीक्षा दिन युवाहरू विदेशिन बाध्य थिए। विदेशिने युवाको यो संख्या दैनिक ३६ सयको हाराहारीमा थियो। खेतीकिसानी गर्नेलाई न बिउबिजन, न सिँचाइ सुविधा, न मलखाद। दुःखजिलो गरेर उब्जाएको सागसब्जी र अन्नले बजार पाउँदैनथ्यो। देशमै केही उद्यमव्यवसाय गर्न चाहनेहरू अ",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/pasupati-1111.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T10:51:46+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035869/thats-why-pashupatis-song-lootna-sake-lut-kanchha-was-at-the-height-of-discussion-and-controversy",
-      "category": "entertainment"
-    },
-    {
-      "title": "काठमाडौं उपत्यकाका ६ स्थानबाट आइतबारदेखि ग्यास बिक्री तथा साटफेर हुने",
-      "description": "२३ असोज, काठमाडौं । काठमाडौं उपत्यकाका उपभोक्ताको सहजताका लागि आउँदो आइतबार (असोज २५ गते) देखि ६ वटा विभिन्न स्थानबाट एलपी ग्यासको विशेष बिक्री वितरण तथा सिलिन्डर साटफेर हुने भएको छ। नेपाल एलपी ग्यास उद्योग संघले ३१ असोज शनिबारसम्म लागु हुने गरी हरेक दिन बिहान ९:३० बजेदेखि अपरान्ह ४:३० बजेसम्मका लागि उपत्यकाका विभिन्न ६ स्थानमा यस्तो […]",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T10:43:12+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035860/gas-sales-and-exchanges-to-begin-from-sunday-at-6-locations-in-kathmandu-valley",
-      "category": "business"
-    },
-    {
-      "title": "सडकमा छैनन् विद्युतीय डिलक्स गाडी, तर सरकारले नै खोलिदियो सुपर डिलक्सका नाममा यात्रु लुट्ने बाटो",
-      "description": "काठमाडौं । सरकारले विद्युतीय शक्तिबाट सञ्चालन हुने सार्वजनिक सवारी साधनको भाडा दर सार्वजनिक गरेको छ । यसअघि चाडपर्वको मौका छोपेर विद्युतीय सार्वजनिक सवारी साधनले यात्रुबाट चर्को भाडा असुलिरहेको गम्भीर तथ्य क्लिकमान्डुले प्राथमिकताका साथ उजागर गरेको थियो । गत आइतबार ‘दशैंमा १० लाख यात्रु उपत्यका छाड्दै, ३० प्रतिशत यात्रुबाट हुन्छ अत्यधिक भाडा असुली, पाउनै छाड",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-09T10:20:28+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498690.html",
-      "category": "business"
-    },
-    {
-      "title": "भोटेकोशी बाढीको ४५ दिनसम्म राहत तथा पुनर्स्थापनाका लागि सरकारले के–के गर्‍यो ?",
-      "description": "काठमाडौँ। गत भदौ १० गते रसुवाको भोटेकोशीमा आएको विनाशकारी बाढीले पुर्‍याएको क्षतिको ४५ दिन बितेको छ । सरकारको प्रारम्भिक प्रतिवेदन अनुसार बाढीका कारण ३२ हजार ९३६ नागरिक प्रत्यक्ष प्रभावित भएका छन् । ८ हजार ३१७",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/balen-badhi_vooNwEPbvh.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-09T10:20:22+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598441/what-did-the-government-do-for-relief-and-rehabilitation-during-the-45-days-of-the-bhotekoshi-flood",
-      "category": "politics"
-    },
-    {
-      "title": "मोहम्मद आरिफको अध्यक्षतामा आम मुस्लिम मोर्चाको उपत्यका कमिटी गठन",
-      "description": "काठमाडौं । आम मुस्लिम मोर्चाको काठमाडौं उपत्यका विशेष कमिटी गठन भएको छ । मोहम्मद आरिफ शाहको अध्यक्षतामा २५ सदस्यीय कमिटी गठन गरिएको हो । काठमाडौंको अनामनगरमा बिहीबार बसेको मोर्चाको उपत्यका विशेष कमिटीको बैठकले फुल मोहम्मद मन्सुरलाई",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/ms_SJsrkAXBvg.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-09T10:19:22+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598440/valley-committee-of-the-aam-muslim-front-formed-under-the-chairmanship-of-mohammad-arif",
-      "category": "national"
-    },
-    {
-      "title": "दुई अर्धजलाशययुक्त जलविद्युत् परियोजनाको लगानी स्वीकृत गर्ने निर्णय",
-      "description": "२३ असोज, काठमाडौं । दुई वटा अर्धजलाशययुक्त जलविद्युत् परियोजनाको लगानी स्वीकृत गर्ने निर्णय भएको छ । प्रधानमन्त्री बालेन शाहज्यूको अध्यक्षतामा आज बसेको लगानी बोर्डको ६८औँ बैठकले उक्त निर्णय गरेको हो । बैठकले १० अर्ब ७५ करोड ४ लाख ९७ हजार रूपैयाँ लागतको नार खोला अर्धजलाशययुक्त जलविद्युत् परियोजना (५८.९ मेगावाट) र १० अर्ब ४२ करोड ३३ […]",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T10:17:09+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035843/decision-to-approve-investment-in-two-semi-reservoir-hydropower-projects",
-      "category": "business"
-    },
-    {
-      "title": "प्राध्यापन समूहमा ठुला डाक्टरको नाम, विद्यार्थीले अनुहार नै देख्न पाउँदैनन्",
-      "description": "काठमाडौँ । देशका विभिन्न मेडिकल कलेजमा अध्यापन गराउने समूहमा चर्चित विभागीय विशेषज्ञ चिकित्सकहरूको नाम समावेश गरिए पनि विद्यार्थीहरूले उनीहरूको अनुहार नै देख्न नपाउने प्रवृत्ति झाङ्गिँदै गएको छ । ठुला चिकित्सकको नाम राख्ने, तर विद्यार्थीहरूले उनीहरूबाट",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/cover_2far3Mu1DR.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-09T10:15:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598437/the-name-of-a-great-doctor-in-the-teaching-group-students-dont-even-get-to-see-his-face",
-      "category": "national"
-    },
-    {
-      "title": "सुदूरपश्चिम सरकारलाई बजेट ल्याउने बाटो खुला",
-      "description": "काठमाडौँ । सर्वोच्च अदालतले सुदूरपश्चिम प्रदेश सरकारविरुद्ध परेको रिटमा अन्तरिम आदेश जारी नगरेपछि प्रदेश सरकारलाई चालु आर्थिक वर्षको बजेट प्रदेशसभामा प्रस्तुत गर्ने बाटो खुलेको छ। अधिवक्ता मनिराम उपाध्यायले असोज २० गते दायर गरेको रिटमाथि शुक्रबार सुनुवाइ",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/sudur-sarkar_7OMLNFRawM.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-09T10:14:27+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598439/the-path-to-bringing-budget-to-the-far-western-government-is-open",
-      "category": "politics"
-    },
-    {
-      "title": "हुतीहरूले रियादस्थित विमानस्थल र साउदिया एयरलाइन्सको विमानमा आक्रमण गर्दा तीन साउदी नागरिकको मृत्यु",
-      "description": "एजेन्सी । बिहीबार रियादस्थित किङ खालिद अन्तर्राष्ट्रिय विमानस्थल र साउदिया एयरलाइन्सको एक विमानमा भएका दुई आक्रमणमा तीन साउदी नागरिकको मृत्यु भएको र अन्य धेरै घाइते भएको साउदी अरबको नागरिक उड्डयनसम्बन्धी सामान्य प्राधिकरणले शुक्रबार जनाएको छ । पहिलो आक्रमणले विमानस्थलका संरचनाहरूलाई लक्षित गरेको र दोस्रो आक्रमणले विमानलाई प्रहार गरेको प्राधिकरणले बताएको छ । ",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-09T10:13:32+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498709.html",
-      "category": "business"
-    },
-    {
-      "title": "परराष्ट्र सचिव राय र भारतीय विदेश मन्त्रालयका अतिरिक्त सचिवबीच भेटवार्ता",
-      "description": "२३ असोज, काठमाडौं । नेपालका परराष्ट्र सचिव अमृतबहादुर राई र भारतको विदेश मन्त्रालयका अतिरिक्त सचिव मुनु महावारबीच भेटवार्ता भएको छ । परराष्ट्र मन्त्रालयमा आज उनीहरूबीच शिष्टाचार भेट भएको हो । भेटवार्ताका क्रममा उनीहरूबीच आपसी हितका विषयमा विचार आदानप्रदान भएको परराष्ट्र मन्त्रालयले जनाएको छ । भेटका क्रममा नेपाल र भारतबीच रहँदै आएको ऐतिहासिक तथा बहुआयामिक सम्",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/amrit-rai.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T10:12:41+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035840/foreign-secretary-rai-meets-with-additional-secretary-of-the-indian-ministry-of-external-affairs",
-      "category": "national"
-    },
-    {
-      "title": "आर्थिक अभावका कारण बिरामी उपचारबाट वञ्चित हुनुहुँदैन: मन्त्री मेहता",
-      "description": "घोराही समाचारदाता घोराही, असोज २३ गते । स्वास्थ्य तथा खाद्य स्वच्छता मन्त्री निशा मेहताले आर्थिक अवस्था कमजोर भएकै कारण कुनै पनि बिरामी उपचारबाट वञ्चित हुन नहुने बताउनुभएको छ । दाङ...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/387302/conversions/Partisthan-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-09T10:11:47+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226065",
-      "category": "politics"
-    },
-    {
-      "title": "भोटेकोशी-त्रिशूली बाढी प्रभावितलाई बैंक खातामार्फत पैसा दिन संसदीय समितिको सिफारिस",
-      "description": "हिमालमा जलवायु परिवर्तनको प्रभाव, जलवायु न्याय तथा भोटेकोशी-त्रिशुली विपद् सम्बन्धी संसदीय विशेष समिति ले विपद्पीडितलाई बैंक खातामार्फत प्रत्यक्ष राहत उपलब्ध गराउने व्यवस्था गर्न सरकारलाई सिफारिस गरेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-09T10:11:23+00:00",
-      "articleUrl": "https://www.setopati.com/politics/400447",
-      "category": "politics"
-    },
-    {
-      "title": "कामदारको न्यूनतम तलब २ हजार रिंगिट पुर्याउने मलेसियाको घोषणा",
-      "description": "काठमाडौँ । मलेसियाले कामदारको न्यूनतम तलब मासिक २ हजार रिंगिट पुर्याउने घोषणा गरेको छ । मलेसियाका प्रधानमन्त्री दातुक सेरी अनवर इब्राहिमले शुक्रबार सन् २०२७ को बजेट प्रस्तुत गर्दै कामदारको न्यूनतम तलब २ हजार रिंगिट पुर्याउने घोषणा गरेका हुन् । उनले यो तलबमान विदेशी श्रमिकसहितका कामदारका लागि लागू हुने उनले बताएका छन् । हाल मलेसियामा कामदारको Continue reading",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-10-09T10:10:55+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/10/malaysia-to-raise-minimum-wage-to-2000-ringgit.html",
-      "category": "business"
-    },
-    {
-      "title": "कागज र भाषणमै सीमित नेपाल–भारत मैत्रीपूल",
-      "description": "राजविराज । ८ वर्ष अघि बाढीले बगाएको सप्तरीको तिलाठी कोइलाडी गाउँपालिका र नेपाल–भारत सिमावर्ती क्षेत्र स्थित भारतीय बजार कुनौलीलाई जोडने एक मात्र अस्थायी पुल (चचरी) अझै बन्न सकेको छैन । ८ वर्षमा पनि पुल नबन्दा जोखिमपूर्ण आऊजाऊ गर्न सर्वसाधारण बाध्य बीच सिमाबाट बग्ने खोलामा पुल नहुदा विगत ८ वर्ष देखी विरामी, अशक्त तथा सर्वसाधारण खोलामा […] The post कागज र भाषण",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-09T10:10:06+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/149828/",
-      "category": "national"
-    },
-    {
-      "title": "पसल बन्द गरेर घर जाँदै थिए, चितुवाको आक्रमणमा परी बाटैमा बिते",
-      "description": "बर्दियामा चितुवाको आक्रमणबाट एक जनाको मृत्यु भएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-09T10:10:03+00:00",
-      "articleUrl": "https://www.setopati.com/social/400448",
-      "category": "national"
-    },
-    {
-      "title": "त्रिशूली–भोटेकोशी बाढीपीडितका लागि कुमारी बैंकका कर्मचारीको ४५.९७ लाख सहयोग",
-      "description": "बैंकिङ खबर / त्रिशूली–भोटेकोशी क्षेत्रमा आएको बाढीबाट प्रभावित समुदायको राहत तथा पुनःस्थापना कार्यमा सहयोग पुर्‍याउन कुमारी बैंक लिमिटेडका कर्मचारीले करिब ४६ लाख रुपैयाँ योगदान गरेका छन् । कर्मचारीहरूले आफ्नो तलबबाट स्वेच्छिक रूपमा रकम संकलन गरी प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा ४५ लाख ९७ हजार ३५३ रुपैयाँ ५० पैसा जम्मा गरेका हुन् । बैंकका अनुसार विपद्बा",
-      "imageUrl": "",
-      "sourceLogo": "https://bankingkhabar.com/favicon.ico",
-      "sourceName": "बैंकिङ खबर",
-      "publishedTime": "2026-10-09T10:09:37+00:00",
-      "articleUrl": "https://bankingkhabar.com/archives/169225",
-      "category": "business"
-    },
-    {
-      "title": "भोलिदेखि जन्तरमन्तरमा प्रदर्शन गर्दै ककरोच पार्टी, दिल्ली प्रहरीले अनुमति दिएन",
-      "description": "सीजेपीको प्रदर्शनलाई विपक्षी दलहरूले समर्थन गरेका छन् । प्रदर्शनअघि दिल्ली प्रहरीले ५७ वटा मेट्रो स्टेसनका प्रवेश तथा निकासद्वार बन्द गर्ने निर्णय गरेको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/06/CJP-leader.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T10:08:39+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035837/cockroach-party-to-protest-at-jantar-mantar-from-tomorrow-delhi-police-denies-permission",
-      "category": "politics"
-    },
-    {
-      "title": "इस्तानबुलमा भवन भत्किँदा पाँच जनाको मृत्यु",
-      "description": "इस्तानबुल, असोज २३ गते । टर्कीको इस्तानबुलमा भवनको तल्लो भाग भासिएर माथिल्ला तला भग्नावशेषमा परिणत हुँदा तीन बालबालिकासहित पाँच जनाको मृत्यु भएको छ भने नौ जनालाई जीवितै उद्धार गरिए...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/387301/conversions/bhawan-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-09T10:08:13+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226064",
-      "category": "national"
-    },
-    {
-      "title": "पोखरा स्कुल बस दुर्घटना : पाँचको मृत्यु, तीन जनाको खुल्यो पहिचान",
-      "description": "पोखरा।कास्कीको पोखरा महानगरपालिका–२८ कालिकामा आज भएको स्कुल बस दुर्घटनामा परी कालिका इङ्लिस बोर्डिङ स्कुलका छात्रा ममता तिवारी र छात्र असिम कँडेलको मृत्यु भएको छ। बसमा ‘लिफ्ट’ मागी सवार स्थानीय ६५ वर्षीय बाबुराम तिवारीको पनि ज्यान गएको जिल्ला प्रहरी कार्यालय, कास्कीका प्रहरी उपरीक्षक नवीन कार्कीले जानकारी दिए। दुुर्घटनामा परी मृत्यु भएका थप दुई जनाको पहिचान ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-09T10:07:58+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/09/pokhara-school-bus-accident-five-dead-three-identified/",
-      "category": "business"
-    },
-    {
-      "title": "आमाबुबा बचाउने अर्को घर पनि रहेछ 'केयर होम'!",
-      "description": "त्यसैले आज मैले अपराधबोधभन्दा एउटा सत्य स्वीकार गरेकी छु, आमालाई केयर होममा राख्नु आमाबाट टाढा हुनु होइन; आमालाई आवश्यक परेको समयमा निरन्तर हेरचाह पाउने ठाउँ खोज्नु आमाप्रतिको माया हो।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-09T10:07:00+00:00",
-      "articleUrl": "https://www.setopati.com/blog/400449",
-      "category": "national"
-    },
-    {
-      "title": "तलब वृद्धिको घोषणासँगै आकर्षक गन्तव्य बन्दै मलेसिया, एफडब्लुसीएमएस प्रकरणले नेपालमा भने अन्योल",
-      "description": "काठमाडौं । मलेसियाले सन् २०२७ जुनदेखि न्यूनतम मासिक पारिश्रमिक १ हजार ७०० रिंगिटबाट बढाएर २ हजार रिंगिट पुर्‍याउने घोषणा गरेको छ। यसबाट ४० लाखभन्दा बढी श्रमिक लाभान्वित हुने अपेक्षा गरिएको छ । तर, मलेसियाको विदेशी श्रमिक",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/malesiya_4IEPkyNJnG.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-09T10:05:17+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598438/malaysia-becomes-an-attractive-destination-with-salary-hike-announcement-but-fwcms-issue-creates-confusion-in-nepal",
-      "category": "national"
-    },
-    {
-      "title": "चाडपर्वमा अत्यावश्यक सेवा नियमित सञ्चालन गर्न सरकारको निर्देशन",
-      "description": "काठमाडौं । सरकारले चाडपर्वका बेला स्वास्थ्य, खानेपानी, विद्युत्, दूरसञ्चार, विमानस्थल, यातायात र अस्पताललगायत अत्यावश्यक सेवा नियमित सञ्चालन गर्न सम्बन्धित निकायलाई निर्देशन दिएको छ । शुक्रबार सिंहदरबारस्थित प्रधानमन्त्री तथा मन्त्रिपरिषद्को कार्यालयले प्रेस ब्रिफिङको आयोजना गर्दै सो निर्देशन दिइएको जनाएको हो । प्रधानमन्त्री तथा मन्त्रिपरिषद्को कार्यालयका सह",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-09T10:04:17+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498694.html",
-      "category": "business"
-    },
-    {
-      "title": "विद्यार्थीको विकासमा इजरायली स्वयंसेवकको सहयोग",
-      "description": "काठमाडौँ, असोज २३ गते । इजरायली स्वयंसेवकले नेपाली विद्यार्थीमा सृजनात्मक सोचको विकास गर्न सहयोग गर्नुभएको छ । उहाँहरुले खेलकुदमार्फत रमाइलो ढङ्गले सिकाइ सहजीकरण गर्ने तथा विद्यालय...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/387300/conversions/Activities-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-09T10:03:23+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226063",
-      "category": "national"
-    },
-    {
-      "title": "कांग्रेस महाधिवेशनले बढाएको सवारी जाम (तस्बिरहरू)",
-      "description": "कांग्रेसको महाधिवेशनको प्रभावले आसपासका सडकमा चर्को सवारी जाम देखिएको हो।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-09T10:01:00+00:00",
-      "articleUrl": "https://www.setopati.com/social/400446",
-      "category": "politics"
-    },
-    {
-      "title": "अमेरिकामा अनुदान कटौतीपछि विद्युतीय सवारीको बिक्री सुस्त, युरोपमा भने उच्च माग",
-      "description": "एजेन्सी । पेट्रोलको भाउ लगातार उच्च रहे पनि एक वर्षअघि प्रमुख संघीय अनुदानको म्याद सकिएयता अमेरिकी कार खरिदकर्ताहरू पुनः विद्युतीय सवारीसाधनतर्फ आकर्षित हुन सुस्त देखिएका छन् जबकि युरोपेलीहरू भने यी कारहरूतर्फ ओइरिएका छन् । अनुसन्धान संस्था मोटर इन्टेलिजेन्सका अनुसार, सेप्टेम्बरसम्म अमेरिकामा ईभीको बिक्री ३०.७ प्रतिशतले घटेको छ । यसले कुल बिक्रीको ६ प्रतिशत ",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-09T10:00:42+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/498697.html",
-      "category": "business"
-    },
-    {
-      "title": "उपत्यकाका ६ स्थानबाट जुुनसुुकै कम्पनीका ग्यास सिलिन्डर साट्न पाइने",
-      "description": "काठमाडौँ, असोज २३ गते । बजारमा उपभोक्ताले जुुनसुकै कम्पनीका ग्यास सिलिन्डर साट्न पाइने भएको छ । दशैँमा खाना पकाउने एलपी ग्यासको आपूर्ति सुनिश्चित गर्न जुुनसुकै कम्पनीका ग्यास सिलिन...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/387299/conversions/gas-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-09T09:57:26+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226062",
-      "category": "national"
-    },
-    {
-      "title": "नेकपा केन्द्रीय कार्यसंयोजन समिति बैठक सुरु, झलनाथ गएनन्",
-      "description": "काठमाडौं । नेपाली कम्युनिस्ट पार्टी केन्द्रीय कार्यसंयोजन समितिको बैठक सुरु भएको छ। केन्द्रीय कार्यालय पेरिसडाँडामा शुक्रबार दिउँसोबाट बैठक बसिरहेको छ। बैठकले समसामयिक राजनीतिक घटनाक्रम र पार्टी महाधिवेशन’bout निर्णय लिने नेताहरूको भनाइ छ । स्थानीय तहको चुनावपछि महाधिवेशन गर्ने गरी नयाँ कार्यतालिका ल्याउने नेकपा प्रवक्ता प्रकाश ज्वालाले बताए। यसअघि घोषणा भएक",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-09T09:57:22+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/149826/",
-      "category": "national"
-    },
-    {
-      "title": "सिनालोआको जेलमा दङ्गा, १० जनाको मृत्यु",
-      "description": "मेक्सिको सिटी।उत्तर–पश्चिमी मेक्सिकोको सिनालोआ राज्यस्थित एल क्यास्टिलो कारागारमा बिहीबार भएको दङ्गामा नौ कैदी र एक परिवारका सदस्य गरी १० जनाको मृत्यु भएको छ भने १६ कैदी घाइते भएका छन्। बन्दरगाह सहर माजाट्लानस्थित उक्त कारागारमा परिवारका सदस्य भेट्न आएका बेला दङ्गा भड्किएको राज्यका अधिकारीहरूले बताएका छन्। स्थानीय सञ्चारमाध्यमका अनुसार झडपका क्रममा कैदीहरूले",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-09T09:54:03+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/09/sinaloa-prison-riot-leaves-10-dead/",
-      "category": "business"
-    },
-    {
-      "title": "कङ्गोमा इबोला घट्दै, सीमापार फैलिने जोखिम",
-      "description": "किन्शासा, २३ असोज (रासस/सिन्ह्वा) । प्रजातान्त्रिक गणतन्त्र कङ्गोमा इबोला सङ्क्रमण केही क्षेत्रमा घटे पनि नयाँ सङ्क्रमण केन्द्र देखिनु र छिमेकी देशमा फैलिनुले महामारी नियन्त्रणमा चुनौती थपिएको छ । विश्व स्वास्थ्य सङ्गठन (डब्लुएचओ) र अफ्रिका रोग नियन्त्रण तथा रोकथाम केन्द्रले सङ्क्रमण घटेको तथ्याङ्कलाई सावधानीपूर्वक लिन आग्रह गरेका छन् । कङ्गोका स्वास्थ्य अधि",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/05/ebola-virus-nepal-1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T09:52:54+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035829/ebola-declines-in-congo-risk-of-cross-border-spread-diminishes",
-      "category": "national"
-    },
-    {
-      "title": "जब म यो संसारमा रहनेछैन!",
-      "description": "जब म यो संसारमा रहनेछैन मानिसहरूले बगाएका आँसुहरू चाहे ती साँचो हुन् वा देखावटी मसम्म पुग्ने छैनन्",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-09T09:52:00+00:00",
-      "articleUrl": "https://www.setopati.com/literature/400445",
-      "category": "national"
-    },
-    {
-      "title": "तारेख बुझ्न काठमाडौं जिल्ला अदालत पुगे रवि लामिछाने",
-      "description": "काठमाडौं । सत्तारुढ रास्वपा सभापति रवि लामिछाने काठमाडौं जिल्ला अदालत पुगेका छन् । स्वर्णलक्ष्मी सहकारी ठगी मुद्दामा तारेख बुझ्न शुक्रबार दिउँसो उनी बबरमहलस्थित काठमाडौं जिल्ला अदालत पुगेका हुन् । देशका पाँच जिल्लामा रहेका सहकारी ठगीमा मुछिएका रविको मुद्दा अझै अदालतमा विचाराधीन छ । महान्यायाधिवक्ताको कार्यालयले रविविरुद्धको संगठित अपराध र सम्पत्ति शुद्धीकरणक",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-09T09:51:30+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/149824/",
-      "category": "national"
-    },
-    {
-      "title": "श्रमिकलाई अनिवार्य ‘चाडपर्व खर्च’ दिन श्रम विभागको निर्देशन",
-      "description": "काठमाडौँ । श्रम तथा व्यवसायजन्य सुरक्षा विभागले श्रमिकलाई अनिवार्य चाडपर्व खर्च दिन निर्देशन दिएको छ । विभागले ‘श्रम ऐन २०७४ को दफा ३७’ अनुसार श्रमिकलाई अनिवार्य चाडपर्व खर्च दिन सबै रोजगारदाता तथा प्रतिष्ठानलाई निर्देशन दिएको हो । कतिपयले श्रमिकलाई चाडपर्व खर्च नदिएको गुनासो आएपछि यस्तो निर्देशन दिन परेको विभागले जनाएको छ । विभागले प्रचलित धर्म, Continue re",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-10-09T09:50:48+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/10/labor-department-directs-workers-to-pay-festival-expenses.html",
-      "category": "business"
-    },
-    {
-      "title": "इरानले युद्ध अन्त्य गर्ने अमेरिकी योजनामा जवाफ दिने",
-      "description": "तेहरान, असोज २३ गते । सात दिनभित्र युद्ध अन्त्य गर्ने र हर्मुज जलघाँटी पुनः खोल्ने प्रस्तावमा अमेरिकाले दिएको प्रतिक्रियाको समीक्षा गरिरहेको जनाएको छ । इरानका विदेशमन्त्री सैयद अब्...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/387298/conversions/tehran-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-09T09:49:42+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226061",
-      "category": "national"
-    },
-    {
-      "title": "इरान युद्धमा अमेरिकाका ८१ सैन्य विमानमा क्षति, ३.३ अर्ब डलरसम्मको नोक्सानी",
-      "description": "इरानविरुद्धको युद्धमा बढ्दै गएको खर्चले अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पको प्रशासनमाथि राजनीतिक दबाबसमेत बढाएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/US-Army-aircraft.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T09:49:36+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035818/81-us-military-aircraft-damaged-in-iran-war-losses-up-to-3-3-billion",
-      "category": "national"
-    },
-    {
-      "title": "सुन्दरहरैँचा फुड फेस्टिभल असोज २५ देखि, दुई लाख दर्शक भित्र्याउने लक्ष्य",
-      "description": "सुन्दरहरैँचा (मोरङ) । चाडपर्वको उल्लाससँगै स्थानीय उत्पादन, मौलिक खानपान, व्यापार, पर्यटन र कला–संस्कृतिको प्रवर्द्धन गर्ने उद्देश्यले मोरङको सुन्दरहरैँचामा ‘सुन्दरहरैँचा फुड फेस्टिभल–२०८३’ आयोजना हुने भएको छ। सुन्दरहरैँचा उद्योग वाणिज्य सङ्घको आयोजनामा असोज २५ गतेदेखि कात्तिक १० गतेसम्म सुन्दरहरैँचा–१०, विराटचोकस्थित सुन्दरहरैँचा औद्योगिक प्रदर्शनी केन्द्रम",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-09T09:48:46+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/149822/",
-      "category": "national"
-    },
-    {
-      "title": "इनरुवा अस्पतालमा सुत्केरीको बिचल्ली, तीन घण्टासम्म अस्पतालको सिँढीमै",
-      "description": "जयकृष्ण यादव ​इनरुवा, असोज २३ गते । सुनसरी जिल्ला अस्पताल इनरुवामा सुत्केरी व्यथाले च्यापेर पीडामा छटपटाइरहेकी एक महिलालाई तीन घण्टासम्म अस्पतालको सिँढी तथा प्यासेजमा राखेर स्वास...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/387297/conversions/jilaa-hospitalll-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-09T09:48:08+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226056",
-      "category": "national"
-    },
-    {
-      "title": "तस्बिरमा हेर्नुहाेस् करिब २२ किलाे सुनसहित पक्राउ परेकाहरू",
-      "description": "काठमाडौँ। काठमाडौँ उपत्यका अपराध अनुसन्धान कार्यालयले करिब २२ किलो सुनसहित पक्राउ परेका तीन जना चिनियाँ नागरिकलाई सार्वजनिक गरेको छ। शुक्रबार पत्रकार सम्मेलन गरेर उनीहरूलाई सार्वजनिक गरिएको हो। उनीहरूको साथबाट २१.७५० किलोग्राम सुन बरामद भएको प्रहरीले जनाएको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/gold-chiniya_pSxvToAb4k.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-09T09:48:04+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598436/see-the-photos-of-those-arrested-with-approximately-22-kg-of-gold",
-      "category": "national"
-    },
-    {
-      "title": "राष्ट्रिय स्वार्थ, वैदेशिक सहयोग र राष्ट्रिय समृद्धिका कुरा",
-      "description": "ठूला लगानी र सहयोगमा दातृ राष्ट्रका स्वार्थ जोडिएका हुँदैनन् भन्न सकिँदैन। तर, अतिराष्ट्रवादको नारा दिएर विकास र समृद्धिमा पछि पर्नुभन्दा बुद्धिमत्तापूर्वक वैदेशिक सहयोग र लगानी भित्र्याएर देशलाई समृद्धिको बाटोमा अगाडि बढाउनुको विकल्प छैन।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/krishna-joshi-2.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T09:45:17+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035774/matters-of-national-interest-foreign-aid-and-national-prosperity",
-      "category": "national"
-    },
-    {
-      "title": "राष्ट्रिय सहकारी बैंकको स्पष्टीकरण : सहकारी ऐनका प्रावधान र कानुनी सीमाभित्र रहेर काम गर्न प्रतिबद्ध",
-      "description": "काठमाडौँ । राष्ट्रिय सहकारी बैंक लिमिटेडले सहकारी ऐन, २०७४ मा भएका पछिल्ला परिवर्तनहरूको कार्यान्वयनका विषयमा सदस्य तथा सरोकारवालाहरूबाट व्यक्त चासोबारे आफ्नो आधिकारिक धारणा सार्वजनिक गरेको छ। बैंकको सञ्चालक समितिको निर्णयअनुसार शुक्रबार जारी विज्ञप्तिमा प्रचलित कानुन तथा नेपाल",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/ncbl-hording-board_aZpArtxJDz.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-09T09:42:37+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598435/national-cooperative-banks-clarification-committed-to-working-within-the-provisions-of-the-cooperative-act-and-legal-limits",
-      "category": "national"
-    },
-    {
-      "title": "दोहोरो अंकले बढ्यो नेप्से, ४ अर्ब ८३ करोडमाथिको कारोबार",
-      "description": "काठमाडौँ । साताको कारोबारको अन्तिम दिन शुक्रबार सेयर बजार मापक नेप्से परिसूचक बढेको छ । शुक्रबार नेप्से परिसूचक १७.१५ अंकले बढेर २५९१.८० बिन्दुमा पुगेको हो । नेप्सेमा कुल ३५३ कम्पनीको १ करोड २९ लाख ५ हजार ९४२ कित्ता सेयर खरिद बिक्री हुँदा रू. ४ अर्ब ८३ करोडमाथिको सेयर कारोबार भएको छ । आज सबैभन्दा धेरै Continue reading \"दोहोरो अंकले बढ्यो नेप्से, ४ अर्ब ८३ कर",
-      "imageUrl": "",
-      "sourceLogo": "https://arthasarokar.com/favicon.ico",
-      "sourceName": "अर्थ सरोकार",
-      "publishedTime": "2026-10-09T09:41:24+00:00",
-      "articleUrl": "https://arthasarokar.com/2026/10/nepal-stock-exchange-nepse-surpasses-rs-4-83-billion.html",
-      "category": "business"
-    },
-    {
-      "title": "सार्वजनिक सवारी भाडा दर : कुन गन्तव्य पुग्न कति ?",
-      "description": "आजदेखि दसैं लक्षित गरी अग्रिम बुकिङ खुला भएसँगै विभागले भाडा दरसमेत सार्वजनिक गरेको छ ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T09:40:37+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035808/public-transport-fares-how-much-does-it-cost-to-reach-which-destination",
-      "category": "business"
-    },
-    {
-      "title": "मचाडोलाई प्रतिबन्ध लगाउन दबाब दिएको खुलासा",
-      "description": "भेनेजुएला, असोज २३ गते । भेनेजुएलाकी पूर्वन्यायाधीश बार्बरा सेजर सिएरोले विपक्षी नेता मारिया कोरिना मचाडोलाई चुनाव लड्न प्रतिबन्ध लगाउने निर्णयमा सरकारी धम्कीका कारण हस्ताक्षर गरेक...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/387296/conversions/Machado-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-09T09:40:15+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226060",
-      "category": "national"
-    },
-    {
-      "title": "धान पाक्ने बेला रोगको प्रकोप, किसान चिन्तामा",
-      "description": "सिराज खाननेपालगञ्ज, असोज २३ गते । बाँकेमा पाक्न लागेको धानबालीमा मरुवा र खैरो थोप्ले रोगको संक्रमण देखिएपछि किसान चिन्तित भएका छन् । धानका बोट सुक्न थालेपछि उत्पादन घट्ने चिन्ता बढ...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/387294/conversions/khairo-thople-rog-lageko-dudwa-ko-dhaan-kheti-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-09T09:39:31+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226059",
-      "category": "national"
-    },
-    {
-      "title": "लालपुर्जा वितरण तिव्र, नापजाँच सकिएको १४ वर्षपछि महोत्तरीका २५० स्ववासी परिवारले पाए लालपुर्जा",
-      "description": "लामो समयदेखि स्ववासीका रूपमा बसोबास गर्दै आएका स्थानीय २५० परिवारले अब आफ्नो जग्गामाथिको कानुनी स्वामित्व औपचारिक रूपमा प्राप्त गरेका हुन्। नापी कार्यालय महोत्तरीले आवश्यक प्रक्रिया पूरा गरी उनीहरूलाई जग्गाधनी प्रमाण पुर्जा वितरण गरेको हो।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-09T09:38:35+00:00",
-      "articleUrl": "https://nepallive.com/story/351776",
-      "category": "national"
-    },
-    {
-      "title": "कर्णालीका चार जिल्लामा मेघगर्जनसहित वर्षा, सतर्क रहन आग्रह",
-      "description": "२३ असोज, सुर्खेत । कर्णाली प्रदेशका दैलेख, सुर्खेत, सल्यान र रुकुम पश्चिममा मेघगर्जन र चट्याङसहित वर्षा भइरहेको छ । मौसम पूर्वानुमान महाशाखाले यी जिल्लामा वर्षाको सम्भावनालाई ध्यानमा राख्दै सतर्क रहन आग्रह गरेको छ । कर्णाली प्रदेशका धेरैजसो भूभागमा पछिल्लो २४ घण्टामा वर्षा भएको छ। हाल पनि सुर्खेत, डोल्पा, हुम्ला ,दैलेख र रुकुम पश्चिमलगायतका जिल्लामा मेघगर्जन",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/09/Karnali-tourism-place-5.jpeg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-09T09:37:54+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2035814/rain-with-thunder-in-four-districts-of-karnali-urges-to-be-alert",
-      "category": "national"
-    },
-    {
-      "title": "रास्वापा प्रवेश गरेका वीरगन्जका पूर्वमेयरको सदस्यता खारेजीको माग, महामन्त्रीलाई पत्र",
-      "description": "वीरगञ्ज। नेकपा एमाले परित्याग गरी राष्ट्रिय स्वतन्त्र पार्टी(रास्वपा) प्रवेश गरेका वीरगञ्जका पूर्वमेयर विजयकुमार सरावगीको सदस्यता खारेजीको माग गरिएको छ । बिहीबार राति करिब १० बजे रास्वपा प्रवेश गरेका एमाले केन्द्रीय सदस्य सरावगीको १८ घण्टा नबित्दै सदस्यता",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bijaya-sarwagi_eOC0H56ug2.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-09T09:37:09+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598434/letter-to-general-secretary-demanding-cancellation-of-membership-of-former-birgunj-mayor-who-joined-rashtriya-swayamsevak-sangh-rss",
-      "category": "politics"
     }
   ]
 }
