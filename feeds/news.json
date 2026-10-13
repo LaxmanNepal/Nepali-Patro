@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-12T18:59:44.215459+00:00",
-  "lastSuccessfulUpdate": "2026-10-12T18:59:44.215459+00:00",
-  "newestPublishedTime": "2026-10-12T18:54:52+00:00",
+  "updatedAt": "2026-10-13T01:06:46.904678+00:00",
+  "lastSuccessfulUpdate": "2026-10-13T01:06:46.904678+00:00",
+  "newestPublishedTime": "2026-10-13T01:06:03+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -23,6 +23,476 @@
   ],
   "items": [
     {
+      "title": "पहिरोको कहर, बाढीको त्रास",
+      "description": "काठमाडौँ, असोज २७ गते । विगतको तुलनामा केही वर्षयता नेपालमा पहिरोको प्रकोप निकै बढेको छ, जसले गर्दा नदी र खोला थुनिएर बाढी तथा डुबानको ठुलो सङ्कट सिर्जना हुने क्रम तीव्र बनेको छ ।...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387859/conversions/pahiyo-add83a51-901f-4a12-ac5f-c131651847e0-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-13T01:06:03+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226465",
+      "category": "national"
+    },
+    {
+      "title": "कर्णाली र सुदूरपश्चिमका हिमाली क्षेत्रमा वर्षा र हिमपातको सम्भावना",
+      "description": "कर्णाली र सुदूरपश्चिम प्रदेशका हिमाली क्षेत्रमा मंगलबार दिउँसो हल्का वर्षा र हिमपातको सम्भावना रहेको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-10-13T01:04:54+00:00",
+      "articleUrl": "https://nepallive.com/story/351932",
+      "category": "national"
+    },
+    {
+      "title": "आजका लागि तोकियो विदेशी मुद्राको विनिमयदर",
+      "description": "काठमाडौँ, असोज २७ गते । नेपाल राष्ट्र बैंकले मङ्गलबारका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५२ रुपियाँ ९४ पैसा र बिक्रीद...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387858/conversions/money-exchange-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-13T01:04:46+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226464",
+      "category": "national"
+    },
+    {
+      "title": "यस्तो छ आज विदेशी मुद्राको विनिमयदर",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-10-13T01:04:04+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/146965",
+      "category": "national"
+    },
+    {
+      "title": "पूर्वसूचनाले जोगियो धेरैको ज्यान",
+      "description": "गोरखापत्र समाचारदाताकाठमाडौँ, असोज २७ गते । बुढीगण्डकी नदीमा आएको बाढीबारे प्रभावित क्षेत्रका बासिन्दाले बेलैमा सूचना पाएका कारण कम जनधनको क्षति भएको छ । बाढीको खबर पाएपछि तीन वटै...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387857/conversions/Landslide-Alert_-Early-Warnings-Save-Lives-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-13T01:00:41+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226463",
+      "category": "national"
+    },
+    {
+      "title": "कांग्रेसमा ३५ वर्षमुनिको केन्द्रीय सदस्यतर्फ मतगणना: सचिन तिमल्सेना पहिलो स्थानमा",
+      "description": "नेपाली कांग्रेसको १५औं महाधिवेशनको केन्द्रीय सदस्यहरूको पनि मतगणना जारी छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-13T01:00:00+00:00",
+      "articleUrl": "https://www.setopati.com/politics/400705",
+      "category": "politics"
+    },
+    {
+      "title": "सीमापारी जाने उपभोक्ता घट्दै, नेपालगञ्जमा बढ्यो चहलपहल",
+      "description": "बाँके। नेपालगञ्जस्थित जमुनाह नाकामा कडाई गरिएपछि यसपटक सीमावर्ती भारतीय बजार रुपैडिहामा दसैँको किनमेल गर्ने नेपाली उपभोक्ताको भीड घटेको छ। दसैँ र तिहारजस्ता ठूला पर्व नजिकिँदै गर्दा विगतका वर्षमा बाँकेको सीमावर्ती भारतीय बजार रूपैडिहामा पाइला टेक्ने ठाउँ हुँदैन थियो। दसैँको नयाँ लुगा, घरका लागि चाहिने उपभोग्य सामग्री किनमेल गर्न जमुनाह नाका हुँदै दैनिक ठूलो ",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-13T00:58:23+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/13/cross-border-travel-is-decreasing-but-traffic-is-increasing-in-nepalgunj/",
+      "category": "business"
+    },
+    {
+      "title": "नवरात्रको तेस्रो दिनः चन्द्रघण्टा देवीको विशेष पूजा आराधना गरिँदै",
+      "description": "काठमाडौँ, असोज २७ गते । नवरात्रको तेस्रो दिन मङ्गलबार दसैँघर वा पूजा कोठामा नौ दुर्गामध्येकी तेस्रो चन्द्रघण्टा देवीको विधिपूर्वक पूजा आराधना गरिँदै छ ।नवदुर्गामध्येकी तेस्रो देवी...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387856/conversions/chandra-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-13T00:56:14+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226462",
+      "category": "national"
+    },
+    {
+      "title": "वार्षिक बजेटभन्दा बेरुजु धेरै",
+      "description": "काठमाडौँ, असोज २७ गते । त्रिभुवन विश्वविद्यालय (त्रिवि) ले बेरुजु घटाउने कार्यलाई विशेष प्राथमिकता दिए पनि सोचे अनुसार प्रगति गर्न सकेको छैन । हरेक वर्ष बढिरहेको बेरुजु रकमले विश्व...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387855/conversions/tu-original-thumb-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-13T00:52:30+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226461",
+      "category": "national"
+    },
+    {
+      "title": "हरिनास गाउँपालिकामा सुत्केरीलाई निःशुल्क एम्बुलेन्स सेवा",
+      "description": "हरिनास गाउँपालिकाभित्र हाल मग्याम चिसापानी स्वास्थ्य चौकीको र अर्को एक स्थानीय संस्थाको गरी दुई वटा एम्बुलेन्स सञ्चालनमा छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Harinas-gapa_Ambulance.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-13T00:51:49+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2038080/free-ambulance-service-for-mothers-in-labor-in-harinas-rural-municipality",
+      "category": "national"
+    },
+    {
+      "title": "विराटनगरमा आजदेखि मुख्यमन्त्री सम्मेलन, प्रदेश अधिकारमा साझा धारणा बनाउने प्रयास",
+      "description": "दुई दिनसम्म चल्ने सम्मेलनले ‘विराटनगर घोषणापत्र’ जारी गर्नेछ । घोषणापत्रमा प्रदेश सरकारहरूको साझा माग, प्रतिबद्धता र संघीयतालाई थप बलियो बनाउने विषय समेटिनेछन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Mukhya-Mantri.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-13T00:51:10+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2038071/chief-ministers-conference-begins-in-biratnagar-today-efforts-to-forge-a-common-understanding-on-provincial-rights",
+      "category": "politics"
+    },
+    {
+      "title": "डिजिटल त्रिवि’देखि ‘रिसर्च युनिभर्सिटी’सम्मः के–के हुँदैछन् नयाँ काम ?",
+      "description": "काठमाडौँ । त्रिभुवन विश्वविद्यालयले आफ्नो प्रशासनिक, शैक्षिक तथा प्राज्ञिक संरचनालाई समयानुकूल बनाउँदै डिजिटल सेवा विस्तार, अनुसन्धान प्रवर्द्धन, संस्थागत पुनःसंरचना र वित्तीय सुधारका नयाँ योजना अघि सारेको छ । त्रिविका सहकुलपति एवं शिक्षा तथा खेलकुदमन्त्री सस्मित पोखरेलको अध्यक्षतामा बसेको विश्वविद्यालय सभामा चालु आर्थिक वर्षको नीति तथा कार्यक्रम प्रस्तुत गर",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-13T00:50:31+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/13/from-digital-tu-to-research-university-what-new-work-is-being-done/",
+      "category": "business"
+    },
+    {
+      "title": "कांग्रेस महाधिवेशन: ५ हजार मत गणना गर्दा खतिवडा र सिवाकोटीको अग्रता कायमै",
+      "description": "नेपाली कांग्रेसको १५औं महाधिवेशनमा सहमहामन्त्रीको खुला तर्फ ५ हजार मतगणना गर्दा रामहरि खतिवडा र अजयबाबु सिवाकोटीले अग्रता कायमै गरेका छन्।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-13T00:48:45+00:00",
+      "articleUrl": "https://www.setopati.com/politics/400704",
+      "category": "politics"
+    },
+    {
+      "title": "बाढीपहिरो आउनुमा बहुपक्षीय कारण : अध्ययन",
+      "description": "काठमाडौँ, असोज २७ गते । गोरखाको चुमनुब्रीस्थित बुढीगण्डकी नदीमा गेग्रानसहितको आकस्मिक बाढी आउनुमा हिमपहिरो, सुक्खा पहिरो र जमिनको कम्पनलगायत बहुपक्षीय कारण देखिएका छन् । तामार र सि...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387854/conversions/455-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-13T00:48:26+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226460",
+      "category": "national"
+    },
+    {
+      "title": "आईसीसी लिग–२ : ओमानसँग भिड्दै नेपाल, शीर्ष ६ स्थान जोगाउन जित्नैपर्ने दबाब",
+      "description": "काठमाडौँ । आईसीसी पुरुष क्रिकेट विश्वकप लिग–२ अन्तर्गत आफ्नो अन्तिम शृङ्खला खेलिरहेको नेपालले मंगलबार घरेलु टोली ओमानसँग प्रतिस्पर्धा गर्दैछ । ओमानको अल अमेरात क्रिकेट मैदानमा नेपाली समयअनुसार बिहान सवा ११ बजे खेल सुरु हुनेछ ।",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nepal-circket_zoGS4bB4hd.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-13T00:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599220/icc-league-2-nepal-faces-oman-pressure-to-win-to-maintain-top-6-spot",
+      "category": "national"
+    },
+    {
+      "title": "पोखरा-भरतपुर-लुम्बिनीबीच ‘सिल्भर ट्रयांगल’ पर्यटन प्रवर्द्धनको पहल",
+      "description": "२७ असोज, गण्डकी । देशका मुख्य पर्यटकीय गन्तव्य पोखरा, भरतपुर र लुम्बिनीलाई समेटेर ‘सिल्भर ट्रयांगल’ अवधारणामा पर्यटन प्रवर्द्धनको साझा पहल अगाडि बढाइएको छ । पर्यटन प्रवर्द्धन, पर्यटन विकास, असल अभ्यास आदान-प्रदान तथा आपसी सहकार्यका लागि कास्कीको पोखरा महानगरपालिका, चितवनको भरतपुर महानगरपालिका र रूपन्देहीको लुम्बिनी सांस्कृतिक नगरपालिकाबीच विगतमा भएको समझदारी",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/07/Lumbini-buddha-birth-place.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-13T00:44:55+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2038076/initiative-to-promote-silver-triangle-tourism-between-pokhara-bharatpur-lumbini",
+      "category": "national"
+    },
+    {
+      "title": "बडादसैंको तेस्रो दिन आज चन्द्रघण्टाको पुजा आराधना गरिंदै",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-10-13T00:41:00+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/146963",
+      "category": "national"
+    },
+    {
+      "title": "संरक्षणसँगै धार्मिक पर्यटकीय गन्तव्य बन्दै ‘महादेव थान",
+      "description": "भोजपुर । भोजपुरको हतुवागढी गाउँपालिका–१ स्थित कावा खोलाको किनारमा रहेको ऐतिहासिक धार्मिकस्थल महादेव थान संरक्षण र पूर्वाधार विकाससँगै धार्मिक पर्यटकीय गन्तव्यका रूपमा विकास हुँदै गएको छ । प्राकृतिक सौन्दर्य, गुफा, विभिन्न देवीदेवताका मूर्ति र धार्मिक आस्थासँग जोडिएको यस स्थलको विकासमा स्थानीय तहले पहल गरेसँगै यहाँ पुग्ने भक्तजनलाई सहज भएको छ । हतुवागढी, रामप",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-13T00:40:46+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/13/mahadev-than-is-becoming-a-religious-tourist-destination-with-conservation/",
+      "category": "business"
+    },
+    {
+      "title": "अवरुद्ध गलकोट–ताराखोला सडक सञ्चालन",
+      "description": "बाढीले अवरुद्ध गलकोट–ताराखोला सडक दुई सातामा सञ्चालनमा आएको छ । गलकोटदेखि ताराखोला गाउँपालिका जोड्ने मुख्य सडक यही ११ असोजदेखि अवरूद्ध भएको थियो ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/galkot_tarakhola-sadak.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-13T00:36:21+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2038072/operation-of-galkot-tarakhola-road-blocked",
+      "category": "national"
+    },
+    {
+      "title": "मंगलबारका लागि तोकियो विदेशी मुद्राको विनिमयदर",
+      "description": "काठमाडौँ। नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५२ रुपैयाँ ९४ पैसा र बिक्रीदर १५३ रुपैयाँ ५४ पैसा निर्धारण गरिएको छ । युरोपियन युरो एकको खरिददर १७१ रुपैयाँ ०३ पैसा र बिक्रीदर १७१ रुपैयाँ ७० पैसा, युके पाउन्ड स्ट्रलिङ एकको खरिददर २०२ रुपैयाँ […]",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-13T00:35:32+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/13/foreign-currency-exchange-rates-set-for-tuesday/",
+      "category": "business"
+    },
+    {
+      "title": "कस्तो छ आजको मौसम पूर्वानुमान ?",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-10-13T00:27:00+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/146964",
+      "category": "national"
+    },
+    {
+      "title": "पश्चिमी र मनसुनी वायुको प्रभाव कायमै, आज देशका यी भूभागमा वर्षाको सम्भावना",
+      "description": "काठमाडौँ । हाल देशमा पश्चिमी वायु र मनसुनी वायुको आंशिक प्रभाव रहेको मौसम पूर्वानुमान महाशाखाले जनाएको छ। जसको प्रभावले हाल गण्डकी, कर्णाली र सुदूरपश्चिम प्रदेशको हिमाली र पहाडी तथा लुम्बिनी प्रदेशको हिमाली भूभागमा साधरणतया बादल लागेको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rain_Hxbolu0mKZ.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-13T00:23:24+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599219/the-influence-of-westerly-and-monsoon-winds-continues-with-a-possibility-of-rain-in-these-parts-of-the-country-today",
+      "category": "national"
+    },
+    {
+      "title": "अमेरिकी चुनावअघि ट्रम्पलाई विश्व राजनीतिका अनेक झट्का",
+      "description": "इन्धनको मूल्य घटाएर अमेरिकी मतदाताको असन्तुष्टि कम गर्ने प्रयासमा रहेका ट्रम्पका लागि रुस–युक्रेन युद्ध र मध्यपूर्वको बढ्दो तनाव थप टाउको दुखाइ बनेका छन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/01/DONALD-TRUMP.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-13T00:17:18+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2038068/trump-faces-multiple-setbacks-in-world-politics-ahead-of-us-election",
+      "category": "politics"
+    },
+    {
+      "title": "'एक दिन बिदा लिँदा पनि तलब काटिन्छ, दसैं कसरी मनाउनु!'",
+      "description": "म्यानपावरलाई झन्डै तीन लाख रूपैयाँ बुझाएर उनी मलेसिया पुगेका पाँच महिना मात्र भयो। उनको महिनामा एक दिन पनि बिदा हुँदैन। विदेशमा कमाउन गएका उनको दसैं यसपालि कस्तो होला?",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-13T00:12:00+00:00",
+      "articleUrl": "https://www.setopati.com/global/asia/400668",
+      "category": "national"
+    },
+    {
+      "title": "मंगलबार यस्तो छ विदेशी मुद्राको विनिमय दर",
+      "description": "काठमाडौँ । नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमय दर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५२ रुपैयाँ ९४ पैसा र बिक्रीदर १५३ रुपैयाँ ५४ पैसा निर्धारण गरिएको छ",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/forex_3HNlavACP4.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-13T00:07:37+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599213/this-is-the-foreign-exchange-rate-on-tuesday",
+      "category": "national"
+    },
+    {
+      "title": "घटस्थापनासँगै घन्किने नगरा हराउँदै गएपछि ...",
+      "description": "लमजुङ । कुनै समय घटस्थापनासँगै लमजुङका गाउँबस्तीमा नगरा घन्किन्थ्यो । नगरा बजाउँदै घरघर पुग्ने चलनले दसैँ आएको सङ्केत दिन्थ्यो र गाउँमा चाडपर्वको रौनक थपिन्थ्यो । पछिल्लो समय नगरा बजाउने चलन हराउँदै जाँदा दसैँसँग जोडिएको पुरानो",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/lamjung_mofbZez6N7.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-13T00:06:43+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599214/as-the-city-of-ghatasthapana-disappears",
+      "category": "national"
+    },
+    {
+      "title": "सहमहामन्त्री (खुला) तर्फ ५,०८९ मत गन्दा रामहरि खतिवडा र अजयबाबु शिवाकोटीको अग्रता कायमै",
+      "description": "काठमाडौँ । नेपाली कांग्रेसको जारी मतगणनाअन्तर्गत खुलातर्फको दुई सहमहामन्त्री पदमा कुल ५ हजार ८९ मत गणना सम्पन्न हुँदा रामहरि खतिवडा र अजयबाबु सिवाकोटीले आफ्नो अग्रता कायमै राखेका छन् । पछिल्लो मत परिणामअनुसार २ हजार १७८ मत",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ramhari-ajayababu_LWDlQJslmt.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-13T00:05:27+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599217/ramhari-khatiwada-and-ajay-babu-shiwakoti-continue-to-lead-with-5089-votes-counted-for-the-joint-general-secretary-open-post",
+      "category": "politics"
+    },
+    {
+      "title": "२,०१० मत गणना हुँदा ३५ वर्षमुनिका युवा केन्द्रीय सदस्यमा सचिन तिमल्सेनालाई ९२९ मत",
+      "description": "काठमाडौँ । नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत सातै प्रदेशबाट प्रतिनिधित्व हुने ३५ वर्षमुनिका युवा (खुला) तर्फको ७ केन्द्रीय सदस्य पदको मतगणना जारी रहेको छ। हालसम्म २ हजार १० मत गणना हुँदा सचिन तिमल्सेनाले ९२९ मतसहित अग्रता",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/sachin-timalsena_l622mdNtMZ.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-13T00:01:50+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599216/sachin-timalsena-received-929-votes-for-the-youth-central-member-under-the-age-of-35-with-2010-votes-counted",
+      "category": "national"
+    },
+    {
+      "title": "कांग्रेस महिला केन्द्रीय सदस्य (खुला) तर्फ ४,६८९ मत गन्दा कसले कति पाए ?",
+      "description": "काठमाडौँ । नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत महिला केन्द्रीय सदस्य (खुला) पदको मतगणना कार्य जारी रहेको छ। हालसम्म कुल ४ हजार ६८९ मत गणना सम्पन्न हुँदा वासना थापाले ३ हजार ४८४ मतका साथ आफ्नो अग्रता कायमै",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/congress-mat_qLTLhsdhuR.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T23:54:58+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599215/who-got-how-many-votes-when-4689-votes-were-counted-for-the-congress-womens-central-committee-member-open",
+      "category": "politics"
+    },
+    {
+      "title": "प्रभावकारी बन्यो ‘इपेन्सन’ सेवा",
+      "description": "काठमाडौँ, असोज २७ गते । सल्यान जिल्लाको कोष तथा लेखा नियन्त्रण कार्यालयमा कार्यरत निमित्त प्रमुख कोष नियन्त्रक उदयबहादुर डाँगी २०८३ वैशाख २० गते सेवाबाट अवकाश हुनुभयो । निजामती कर्...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/387853/conversions/4566-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-12T23:47:27+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226459",
+      "category": "national"
+    },
+    {
+      "title": "‘डिजिटल त्रिवि’देखि ‘रिसर्च युनिभर्सिटी’सम्मका योजना",
+      "description": "२७ असोज, काठमाडौं । त्रिभुवन विश्वविद्यालय (त्रिवि)ले आफ्नो प्रशासनिक, शैक्षिक तथा प्राज्ञिक संरचनालाई समयानुकूल बनाउँदै डिजिटल सेवा विस्तार, अनुसन्धान प्रवर्द्धन, संस्थागत पुनःसंरचना र वित्तीय सुधारका नयाँ योजना अघि सारेको छ । त्रिविका सहकुलपति एवं शिक्षा तथा खेलकुदमन्त्री सस्मित पोखरेलको अध्यक्षतामा बसेको विश्वविद्यालय सभामा चालु आर्थिक वर्षको नीति तथा कार",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/07/Tribhuwan-University-TU-4.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-12T23:44:34+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2038060/plans-from-digital-tu-to-research-university",
+      "category": "national"
+    },
+    {
+      "title": "आज नवरात्रको तेस्रो दिन, चन्द्रघण्टा देवीको पूजा गरिँदै",
+      "description": "पार्वतीको सौन्दर्य अवतार मानिने चन्द्रघण्टाको पूजा आराधनाले साधकमा वीरता र निर्भयताको साथमा सौम्यता र विनम्रताको विकास हुने धार्मिक विश्वास छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2022/09/Goddess-Chandraghanta.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-12T23:31:52+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2038057/on-the-third-day-of-navratri-goddess-chandraghanta-is-being-worshipped-today-2",
+      "category": "national"
+    },
+    {
+      "title": "नवरात्रको तेस्रो दिन आज माता चन्द्रघण्टाको विधिपूर्वक पूजा-आराधना गरिँदै",
+      "description": "काठमाडौँ । बडादसैँअन्तर्गत शारदीय नवरात्रको तेस्रो दिन आज हिन्दु धर्मावलम्बीहरूले नवदुर्गाको तेस्रो स्वरूप माता चन्द्रघण्टा देवीको भक्तिभावका साथ पूजा तथा आराधना गर्दैछन् । नवरात्रका अवसरमा बिहानैदेखि देशभरका विभिन्न शक्तिपीठ तथा घरघरमा देवी चन्द्रघण्टाको उपासना भइरहेको",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/0521_0521_chandraghanta_x1H0MSoDFX.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T23:23:04+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599211/goddess-chandraghanta-is-being-worshipped-in-a-ritualistic-manner-today-the-third-day-of-navratri",
+      "category": "national"
+    },
+    {
+      "title": "मंगलबार कुन राशिका लागि शुभ ? हेर्नुहोस् राशिफल",
+      "description": "आजको पञ्चाङ्ग वि.सं.२०८३ साल असोज २७ गते । मंगलबार । इस्वी सन् २०२६ अक्टोबर १३ तारिख । नेपाल संवत् ११४६ । रौद्र संवत्सर । दक्षिणायन । शरद ऋतु । श्रीशाके १९४८ । आश्विन शुक्लपक्ष । तिथि–तृतीया,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_68mF8G6CaS.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T23:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599209/which-zodiac-sign-is-auspicious-on-tuesday-see-horoscope",
+      "category": "national"
+    },
+    {
+      "title": "ह्वात्तै घट्यो अमेरिकी डलरको मूल्य",
+      "description": "काठमाडौं । आज मंगलबार अमेरिकी डलरको मूल्य कमजोर बनेको छ । यसैगरी, थाई भाट, चिनियाँ युआन र जापानी येन पनि कमजोर बनेको छ । राष्ट्र बैंकका अनुसार आज मंगलबारका लागि अमेरिकी डलर एकको खरिददर १५२ रुपैयाँ ९४ पैसा र बिक्रीदर १५३ रुपैयाँ ५४ पैसा निर्धारण गरिएको छ । हिजो सोमबार अमेरिकी डलर एकको खरिददर १५४ […] The post ह्वात्तै घट्यो अमेरिकी डलरको मूल्य appeared first o",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-10-12T23:06:08+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/150046/",
+      "category": "national"
+    },
+    {
+      "title": "कपिलवस्तुमा चाडपर्व लक्षित ६४ वटा क्यूआरटी परिचालन",
+      "description": "कपिलवस्तु । चाडपर्वका समयमा शान्ति, सुरक्षा कायम राख्न तथा सम्भावित आपराधिक गतिविधि नियन्त्रण गर्न कपिलवस्तुमा ६४ वटा द्रुत प्रतिक्रिया टोली (क्यूआरटी) परिचालन गरिएको छ । जिल्लाभर सुरक्षा व्यवस्था प्रभावकारी बनाउन सोमबारदेखि परिचालन गरिएका टोलीले घटना",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/kapilbastu_hpUAuzFK1J.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T22:59:22+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599208/64-qrts-mobilized-in-kapilvastu-for-festivals",
+      "category": "national"
+    },
+    {
+      "title": "संस्थागत सुत्केरीलाई प्रोत्साहन गर्न निःशुल्क एम्बुलेन्स सेवा",
+      "description": "स्याङ्जा । स्याङ्जाको हरिनास गाउँपालिकाले संस्थागत सुत्केरीलाई प्रोत्साहन गर्न निःशुल्क एम्बुलेन्स सेवा उपलब्ध गराएको छ । गाउँपालिकाले चालु आर्थिक वर्षको साउनदेखि लागू हुने गरी गर्भवतीलाई अस्पतालसम्म पुर्‍याउनका लागि निःशुल्क एम्बुलेन्स सेवा उपलब्ध गराएको हो । गर्भवतीलाई",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bnFOPrML90.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T22:55:38+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599207/free-ambulance-service-to-encourage-institutional-deliveries",
+      "category": "national"
+    },
+    {
+      "title": "इन्जुरी समयको नाटकीय मोडबीच लेभान्ते र सेभियाको ३-३ गोलको रोमाञ्चक बराबरी",
+      "description": "काठमाडौँ । स्पेनिस ला लिगाअन्तर्गत भएको खेलमा लेभान्ते र सेभियाले ३-३ गोलको रोमाञ्चक बराबरी खेल्दै अंक बाँडेका छन् । अत्यन्तै प्रतिस्पर्धात्मक बनेको खेलको इन्जुरी समयमा दुवै टोलीबाट लगातार तीन गोल हुनुका साथै एक रातो कार्डसमेत",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/levante_HOdKvBvyI2.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T22:51:52+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599206/levante-and-sevilla-tied-3-3-in-thrilling-injury-time",
+      "category": "national"
+    },
+    {
+      "title": "घरदैलोमै सामाजिक सुरक्षा भत्ता वितरणले सहज",
+      "description": "तनहुँ । तनहुँको आँबुखैरेनी गाउँपालिकाले दसैँको मुखमा सामाजिक सुरक्षा भत्ता पाउने ज्येष्ठ नागरिक तथा अन्य लाभग्राहीलाई घरदैलोमै पुगेर भत्ता वितरण गर्नुका साथै स्वास्थ्य सेवा प्रदान गरेको छ । ‘जहाँ हाम्रा नागरिक, त्यही हाम्रो कार्यालय, त्यही हाम्रो",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/tanahu-map_us5mlswuc2_MPGIzBN5w0.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T20:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599200/door-to-door-distribution-of-social-security-allowances-makes-it-easier",
+      "category": "national"
+    },
+    {
+      "title": "कांग्रेस आदिवासी जनजाति (महिला) केन्द्रीय सदस्यतर्फ कसले कति मत पाए ?",
+      "description": "काठमाडौँ । नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत आदिवासी जनजाति महिलातर्फको ८ केन्द्रीय सदस्य पदको पछिल्लो मतगणना परिणाम सार्वजनिक भएको छ । सार्वजनिक भएको परिणामअनुसार गीता गुरुङले सर्वाधिक ८१३ मत प्राप्त गरेकी छन् । त्यस्तै डा. गंगा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/congress-vote_eX9q5KJX9V.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T20:39:36+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599205/who-got-how-much-for-the-congress-indigenous-nationalities-women-central-member",
+      "category": "politics"
+    },
+    {
+      "title": "कांग्रेस आदिवासी जनजाति केन्द्रीय सदस्यतर्फ १,९१२ मत गन्दा कसले कति पाए ?",
+      "description": "काठमाडौँ । नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत आदिवासी जनजातितर्फको १२ केन्द्रीय सदस्य पदको मतगणनामा हालसम्म कुल १ हजार ९१२ मत गणना भएको छ । सार्वजनिक भएको पछिल्लो परिणामअनुसार तीर्थ लामाले १ हजार २९६ मतसहित फराकिलो अग्रता",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/congress-mat_qLTLhsdhuR.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T20:35:11+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599204/who-got-how-many-votes-when-counting-the-1912-votes-for-the-congress-indigenous-nationalities-central-committee-member",
+      "category": "politics"
+    },
+    {
+      "title": "सहमहामन्त्री (जनजाति) तर्फ १,९१२ मत गन्दा बहादुर सिंह लामाको अग्रता",
+      "description": "काठमाडौँ । नेपाली कांग्रेसको जारी मतगणनाअन्तर्गत आदिवासी जनजातितर्फको एक सहमहामन्त्री पदमा हालसम्म १ हजार ९१२ मत गणना सम्पन्न भएको छ । सार्वजनिक भएको पछिल्लो परिणामअनुसार बहादुर सिंह लामा (तामाङ) ले अग्रता बनाएका छन् । हालसम्म लामाले ८३९",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bahadur-singh_K9F09KeP1X.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T20:21:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599202/bahadur-singh-lama-leads-with-1912-votes-for-joint-general-secretary-tribes",
+      "category": "politics"
+    },
+    {
+      "title": "ताप्लेजुङ मासु तथा माछा पसलमा अनुगमन",
+      "description": "ताप्लेजुङ । चाडपर्व सुरु भएसँगै ताप्लेजुङ सदरमुकाम फुङ्लिङ बजारका मासु तथा माछा पसलमा अनुगमन गरिएको छ । उपभोक्तालाई स्वच्छ तथा गुणस्तरीय माछा–मासु उपलब्ध गराउने उद्देश्यले भेटेरिनरी अस्पताल तथा पशु सेवा विज्ञ केन्द्रको अगुवाइमा संयुक्त बजार अनुगमन",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/lF5QHlLLZi.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T20:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599199/monitoring-of-taplejung-meat-and-fish-shops",
+      "category": "national"
+    },
+    {
+      "title": "केन्द्रीय सदस्यमा पराजित भएपछि विमल सुवेदीले भने : परिणाम सहर्ष स्विकार्छु, निष्ठा कायमै रहन्छ",
+      "description": "काठमाडौँ । नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत मध्यपूर्व क्षेत्रबाट केन्द्रीय सदस्य पदमा उम्मेदवार बनेका विमल सुवेदीले निर्वाचन परिणामलाई सहर्ष स्वीकार गर्दै पार्टीप्रतिको आफ्नो निष्ठा, विचार र प्रतिबद्धता कायमै रहने बताएका छन् । उक्त पदमा पुरुषोत्तम खनाल",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bimal-subedi_ye8Wtm6K4I.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T20:07:27+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599201/after-being-defeated-in-the-central-member-election-bimal-subedi-said-i-gladly-accept-the-results-my-loyalty-remains-intact",
+      "category": "national"
+    },
+    {
+      "title": "‘आलीदेखि थालीसम्म’ नारासहित हेटौँडामा दसैँ व्यापार मेला",
+      "description": "बागमती । हेटौँडा उपमहानगरपालिकाले स्थानीय उत्पादनको प्रवर्द्धन र बजारीकरण गर्ने उद्देश्यले वडा नं ११ स्थित थाना भर्‍याङमा चार दिने व्यापार मेला आयोजना गरेको छ । आइतबारदेखि सुरु भएको मेलामा स्थानीय कृषि उपज, घरेलु सामग्री तथा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/makwanpur-district-map_0bibmupn5n_jWBM8R97zw.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T19:42:04+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599198/dashain-trade-fair-in-hetauda-with-the-slogan-from-aali-to-thali",
+      "category": "national"
+    },
+    {
+      "title": "अध्यागमन विभागद्वारा विदेशी नागरिक व्यवस्थापन सूचना प्रणाली लागू",
+      "description": "भक्तपुर । अध्यागमन विभागले नेपालमा रहेका विदेशी नागरिकका गतिविधिको निगरानी, यात्रा व्यवस्थापन र सहजीकरणका लागि पहिलो पटक लागू गरेको सूचना प्रणालीलाई देशव्यापी विस्तार गरेको छ । विभागले आज नगरकोटमा आयोजना गरेको ‘विदेशी नागरिक व्यवस्थापन सूचना प्रणालीसम्बन्धी",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/adhyagaman_HO5OFh7MlE.png",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T19:30:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599197/immigration-department-implements-foreign-citizen-management-information-system",
+      "category": "national"
+    },
+    {
+      "title": "नक्कली भुटानी शरणार्थी प्रकरण: पुर्वमन्त्री रायमाझीसहितबाट १५ करोड पीडितलाई भराउन आदेश",
+      "description": "काठमाडौँ । जिल्ला अदालत काठमाडौँले नेपाली नागरिकलाई नक्कली भुटानी शरणार्थी बनाई अमेरिका लैजाने भनी कसुर गरेको अभियोगमा पूर्वगृहमन्त्रीसहित उच्च पदाधिकारीविरुद्ध मुद्दाको फैसलाको पूर्णपाठ सार्वजनिक भएको छ । काठमाडौँ जिल्ला अदालतका न्यायाधीश तेजबहादुर खड्काको इजलासले गत असार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/top-bahadur_l5XIqnv57j.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-12T19:08:15+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599196/fake-bhutanese-refugee-case-convicted-former-minister-rayamajhi-and-others-ordered-to-pay-rs-150-million-to-victims",
+      "category": "politics"
+    },
+    {
       "title": "चाडपर्व लक्षित सडक मर्मतलाई तीव्रता",
       "description": "चितवन । सडक डिभिजन कार्यालय भरतपुरले चाडपर्वलाई लक्षित गरी राष्ट्रिय राजमार्ग तथा मातहतका सडकको मर्मतलाई तीव्रता दिएको छ । बाढी, पहिरो र वर्षाका कारण खाल्डाखुल्डी परेका तथा भत्किएका सडक मर्मत गरी चाडपर्वमा यात्रा सहज बनाउन काम",
       "imageUrl": "https://npcdn.ratopati.com/media/news/bharatpur-sadak_K11EqlgJ2Q.png",
@@ -30,16 +500,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-10-12T18:54:52+00:00",
       "articleUrl": "https://www.ratopati.com/story/599195/road-repairs-targeted-for-festivals-to-be-accelerated",
-      "category": "national"
-    },
-    {
-      "title": "अवरुद्ध गलकोट–ताराखोला सडक सञ्चालन",
-      "description": "बागलुङ । बाढीले अवरुद्ध गलकोट–ताराखोला सडक दुई सातामा सञ्चालनमा आएको छ । गलकोटदेखि ताराखोला गाउँपालिका जोड्ने मुख्य सडक यही असोज ११ गतेदेखि अवरुद्ध भएको थियो । गलकोट र ताराखोलाको सिमाना गाईघाट झरना नजिक सडकको ट्र्याक बगाएपछि",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/baglung-map_saube82urq.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-12T18:50:33+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599194/operation-of-galkot-tarakhola-road-blocked",
       "category": "national"
     },
     {
@@ -1300,7 +1760,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-12T12:26:45+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2037886/ban-on-selling-chemical-laced-ghee-used-in-pujas",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "जुवा खेल्दै गरेका ७ जना साढे ५ लाखसहित पक्राउ",
@@ -1350,7 +1810,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-12T12:15:31+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2037863/garima-bikas-banks-20-percent-dividend-approved",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "कांग्रेस उम्मेदवार खड्कालाई थुना बाहिर राखेर अनुसन्धान गर्न अदालतको आदेश",
@@ -1400,7 +1860,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-12T12:03:21+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2037849/extreme-music-series-kicks-off-with-a-bang-9-artists-participating",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "ग्लोबल आइएमई बैंक दुई विधामा ‘फोनपे अनर्स २०८३’ बाट सम्मानित",
@@ -2874,7 +3334,7 @@
     },
     {
       "title": "बालेन्द्र शाहको मुखपत्र र भदौ विध्वंसको पात्र ‘आरओएनबी’",
-      "description": "काठमाडौं नगर प्रमुखमा उठेदेखि प्रधानमन्त्री बालेन्द्र शाहको प्रचार र बचाउ गर्ने रुटिन अफ नेपाल बन्द फेसबुक पेज र त्यसका संस्थापक तथा अध्यक्ष भिक्टाेर पौडेल भदौ २३ र २४ का घटना तथा विध्वंसमा समेत प्रत्यक्ष संलग्न थिए। रुटिन अफ नेपाल बन्द सरकार फेरबदल गर्न कसरी प्रयोग भयो?",
+      "description": "काठमाडौं नगर प्रमुखमा उठेदेखि प्रधानमन्त्री बालेन्द्र शाहको प्रचार र बचाउ गर्ने रुटिन अफ नेपाल बन्द फेसबुक पेज र त्यसका संस्थापक तथा अध्यक्ष भिक्टोर पौडेल भदौ २३ र २४ का घटना तथा विध्वंसमा समेत प्रत्यक्ष संलग्न थिए। रुटिन अफ नेपाल बन्द सरकार फेरबदल गर्न कसरी प्रयोग भयो?",
       "imageUrl": "https://www.himalkhabar.com/uploads/posts/victor-poudel-1791789368.jpg",
       "sourceLogo": "https://himalKhabar.com/favicon.ico",
       "sourceName": "हिमालखबर",
@@ -3773,16 +4233,6 @@
       "category": "politics"
     },
     {
-      "title": "यस्तो छ आजका लागि विदेशी मुद्राको विनिमय दर",
-      "description": "काठमाडौँ । नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमय दर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५४ रुपैयाँ ४८ पैसा र बिक्रीदर १५५ रुपैयाँ ०८ पैसा निर्धारण गरिएको छ । युरोपियन युरो एकको खरिददर १७३ रुपैयाँ ०५ पैसा र बिक्रीदर १७३ रुपैयाँ ७२ पैसा, युके पाउन्ड स्ट्रलिङ एकको खरिददर […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-12T00:46:18+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/12/this-is-the-foreign-currency-exchange-rate-for-today/",
-      "category": "business"
-    },
-    {
       "title": "पार्टीबाहिरका लोकतन्त्रवादी र जेनजी पुस्तालाई कांग्रेसमा जोड्छौँ : मधु आचार्य",
       "description": "पार्टीको रूपान्तरणसँगै पार्टीबाहिर रहेका लोकतन्त्रवादी र जेनजी पुस्तालाई जोडेर उनीहरूका एजेन्डामा सहकार्य गर्ने जिम्मेवारी आफूले महसुस गरेको आचार्यले बताए।",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Madhu-acharya.jpg",
@@ -3840,16 +4290,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-10-12T00:33:09+00:00",
       "articleUrl": "https://www.ratopati.com/story/598965/citys-impressive-win-over-liverpool-at-anfield-moves-them-three-points-clear-at-the-top",
-      "category": "national"
-    },
-    {
-      "title": "आज यस्तो छ विदेशी मुद्राको विनिमयदर",
-      "description": "नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ। राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५४ रुपैयाँ ४८ पैसा र बिक्रीदर १५५ रुपैयाँ ०८ पैसा निर्धारण गरिएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-12T00:32:07+00:00",
-      "articleUrl": "https://nepallive.com/story/351883",
       "category": "national"
     },
     {
@@ -3950,16 +4390,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-10-11T23:48:31+00:00",
       "articleUrl": "https://www.ratopati.com/story/598958/deadline-for-illegal-crusher-mines-in-kavre-to-comply-with-standards",
-      "category": "national"
-    },
-    {
-      "title": "सोमबार यस्तो छ विदेशी मुद्राको विनिमय दर",
-      "description": "काठमाडौँ । नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमय दर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५४ रुपैयाँ ४८ पैसा र बिक्रीदर १५५ रुपैयाँ ०८ पैसा निर्धारण गरिएको छ",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/forex_3HNlavACP4.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T23:44:27+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598957/this-is-the-foreign-exchange-rate-on-monday",
       "category": "national"
     },
     {
@@ -4591,436 +5021,6 @@
       "publishedTime": "2026-10-11T15:32:15+00:00",
       "articleUrl": "https://www.ratopati.com/story/598929/parsa-police-urges-people-to-be-vigilant-citing-possible-theft-during-festivals",
       "category": "national"
-    },
-    {
-      "title": "बूढीगण्डकी बाढी : आरुघाटमा बेलिब्रिज जडानको तयारीमा खटियो सेनाको टोली",
-      "description": "काठमाडौं।बूढीगण्डकीको बाढीले आरुघाट–धादिङ जोड्ने मोटरेबल पुलमा बगाएपछि सो स्थानमा ‘बेलिब्रिज’ जडान गर्ने तयारीका लागि नेपाली सेनाको टोली खटिएको छ। सैनिक जनसम्पर्क तथा सूचना निर्देशनालयका अनुसार सैनिक इन्जिनियरिङ टोली उक्त कामका लागि खटिइएको हो। बाढीबाट प्रभावितको उद्धारका लागि आज दिनभर सेनाका एमआई–१७ सहित चार वटा हेलिकप्टर परिचालित भएका थिए। हेलिकप्टर र स्थल",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-11T15:30:05+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/11/budhigandaki-flood-army-team-deployed-to-prepare-for-installation-of-bailey-bridge-at-arughat/",
-      "category": "business"
-    },
-    {
-      "title": "पूर्वप्रधानमन्त्री खानको प्रान्तीय गढमा सङ्कटकाल घोषणा",
-      "description": "काठमाडाैँ। राष्ट्रपतिको कार्यालयले आइतबार बताएअनुसार जेलमा रहेका पूर्वप्रधानमन्त्री इमरान खानका समर्थकहरूले गरेको सरकारविरोधी प्रदर्शन र उत्तरपश्चिममा निरन्तरको आन्दोलनपछि पाकिस्तानले उत्तरी प्रान्त खैबर पख्तुनख्वालाई सङ्कटकालीन कानुन अन्तर्गत राख्ने निर्णय गरेको छ। यहाँ खानका हजारौँ समर्थकहरूले उनको रिहाइको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/imran-khan_QJC6Mbt5V5.png",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T15:28:24+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598928/state-of-emergency-declared-in-former-pm-khans-provincial-stronghold",
-      "category": "politics"
-    },
-    {
-      "title": "रक्तदान कार्यक्रमबाट २५७ युनिट रगत संकलन",
-      "description": "बुटवल । रुद्रगढ धार्मिक संस्थाको आयोजनामा विभिन्न स्थानमा सञ्चालन गरिएको रक्तदान कार्यक्रममा २५७ युनिट रगत संकलन गरिएको छ। संस्थाले बुटवलस्थित बुटवल रेडक्रस, तिलोत्तमाको शंकरनगरस्थित पीडी बेकरी, भैरहवाको ग्लास गो थकाली रेस्टुरेन्ट एन्ड क्याफे, लुम्बिनीस्थित होटल पीसल्याण्ड",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/4acea04e-a89e-493c-a8d3-23097626f231_nI5LrAyQfY.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T15:27:59+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598927/257-units-of-blood-collected-from-blood-donation-program",
-      "category": "national"
-    },
-    {
-      "title": "गन्यापधुराद्वारा आफ्नै प्रशासकीय भवनबाट सेवा सञ्चालन",
-      "description": "डडेल्धुरा। डडेल्धुराको गन्यापधुरा गाउँपालिकाले आफ्नै नवनिर्मित प्रशासकीय भवनबाट सेवा प्रवाह सुरु भएको छ। रु ६ करोड ५३ लाखभन्दा बढी लागतमा निर्माण भएको तीन सभाहल र ३६ कोठासहितको आधुनिक भवनको आज गाउँपालिका अध्यक्ष इन्द्रबहादुर कार्कीले उद्घाटन",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/ganyapdhura_93peWPfd4Y.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T15:25:18+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598926/ganyapadhura-operates-services-from-its-own-administrative-building",
-      "category": "national"
-    },
-    {
-      "title": "बेत्रावतीमा जोडियो ‘एक्रो ब्रिज’, स्याफ्रुबेंसीसम्मै खुल्यो सडक",
-      "description": "रसुवा।गत भदौ १० गतेको भोटेकोशी–त्रिशूली बाढीले बेत्रावतीस्थित फलाकु खोलाको पक्की पुल बगाएपछि राष्ट्रिय सडक सञ्जालबाट विच्छेद भएको रसुवा जिल्ला नेपाली सेनाले ‘एक्रो ब्रिज’ जडान गरेसँगै पुनः सडक सञ्जालमा जोडिएको छ। बेत्रावतीमा पुल सञ्चालनमा आएसँगै रसुवा–नुवाकोट आवतजावत गर्ने सवारीसाधनले अप्ठ्यारा र लामा वैकल्पिक सडक प्रयोग गर्नुपर्ने बाध्यता हटेको छ। सेनाले नि",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-11T15:20:59+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/11/acro-bridge-added-to-betravati-road-opened-up-to-syafrubensi/",
-      "category": "business"
-    },
-    {
-      "title": "५ हजार ५ सय मत गन्दा कसले कति मत ल्याए ? (सूची)",
-      "description": "काठमाडौँ। नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत उपसभापतिमा चन्द्रकान्त भण्डारी र महामन्त्रीमा प्रदीप पौडेलले आफ्नो अग्रता कायमै राखेका छन्। ५ हजार ५ सय मत गणना हुँदा केन्द्रीय उपसभापति (खुला) तर्फ डा. चन्द्रकान्त भण्डारीले सर्वाधिक १ हजार ४३५ मत",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/matganana_oykDOWwmQx.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T15:18:31+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598925/who-got-how-many-votes-out-of-5500-votes-list",
-      "category": "national"
-    },
-    {
-      "title": "कांग्रेस मतगणनाको LIVE UPDATES",
-      "description": "नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत नयाँ कार्यसमिति चयनका लागि सम्पन्न मतदानको मतगणना जारी छ । शुक्रबारको मतदानपश्चात् शनिबार बिहानैदेखि मतपेटिका सुरक्षित रूपमा राष्ट्रिय सभा गृहमा ल्याइपुर्‍याइएको छ । वर्षा रोकिएसँगै निर्वाचन समितिले मतपेटिका संकलन गरेर शनिबार बिहान",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/congress-vote-count_9k4E1JjDy3.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T15:15:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598532/counting-of-votes-for-the-post-of-congress-president-continues",
-      "category": "politics"
-    },
-    {
-      "title": "बूढीगण्डकीमा बाढीको सूचना पाएलगत्तै देखि प्रतिकार्यको काम भइरहेको छ : प्रधानमन्त्री",
-      "description": "‘सरकारले प्रभावित क्षेत्रको जनजीवन सामान्य बनाउन र क्षतिग्रस्त भौतिक पूर्वाधारहरू पुन: सुचारु गर्न आवश्यक कदम अगाडि बढाइसकेको छ,’ उनले भनेका छन् ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-11T15:06:12+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2037223/response-efforts-underway-in-budhigandaki-since-flood-warning-prime-minister",
-      "category": "politics"
-    },
-    {
-      "title": "शक्तिशाली भूकम्पका परकम्पपछि पानामामा संकटकाल घोषणा",
-      "description": "ला भिल्ला डे लस सान्तोस।शक्तिशाली भूकम्पपछि लगातार आएका परकम्पले बस्ती हल्लाएसँगै पानामा सरकारले शनिबार संकटकाल घोषणा गरेको छ। अधिकारीका अनुसार भूकम्पबाट देशका सबै १० प्रान्त र दुई आदिवासी क्षेत्रमा भौतिक क्षति पुगेको छ। मानवीय क्षति नभएको बताइए पनि २७ जना घाइते भएका छन्। शुक्रबार सात दशमलव सात र ६ दशमलव ६ म्याग्निच्युडका दुई शक्तिशाली भूकम्प […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-11T15:03:37+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/11/panama-declares-state-of-emergency-after-powerful-earthquake-aftershocks/",
-      "category": "business"
-    },
-    {
-      "title": "'हैट, मैले त कसैको बिहे पो ठानेको थिएँ'",
-      "description": "एक करोड रूपैयाँभन्दा बढी पर्ने बसको लश्कर देखेर धेरै सर्वसाधारण तथा यात्रुहरू अलमलिएका थिए।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-11T15:03:00+00:00",
-      "articleUrl": "https://www.setopati.com/kinmel/automobiles/400617",
-      "category": "national"
-    },
-    {
-      "title": "सहमहामन्त्रीहरूको गणना सुरू, महिला केन्द्रीय सदस्य खुलाको पनि थालियो",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-11T15:02:47+00:00",
-      "articleUrl": "https://www.setopati.com/politics/400619",
-      "category": "politics"
-    },
-    {
-      "title": "लुम्बिनीमा भारतीय एयरलाइन्सको नियमित उडान गराउने प्रस्तावित राजदूत पाण्डेको योजना, पोखरा किन छुट्यो?",
-      "description": "भारतका लागि प्रस्तावित राजदूत निश्चलनाथ पाण्डेले भारतीय पर्यटक बढाउन विभिन्न योजना अघि सारे पनि पोखरा अन्तर्राष्ट्रिय विमानस्थलमा भारतीय सहरहरूबाट सिधा उडान गराउने विषयलाई आफ्नो कार्ययोजनामा समेटेका छैनन्।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-11T15:02:00+00:00",
-      "articleUrl": "https://www.setopati.com/politics/400598",
-      "category": "politics"
-    },
-    {
-      "title": "सुदूरपश्चिम रोयल्सको ‘अपि एडिसन’ जर्सी सार्वजनिक",
-      "description": "",
-      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/IMG_3276-1791730661.jpeg",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-10-11T14:58:05+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/175082",
-      "category": "sports"
-    },
-    {
-      "title": "स्थानीयले फोन नगरेका भए के हुन्थ्यो? गोरखा बाढीले उठायो पूर्वसूचना प्रणालीमाथि प्रश्न",
-      "description": "भोटेकोशीमा साइरन नबजेको र गोरखामा साइरन नै नभएको यी दुई घटनापछि प्रश्न फेरि सरकारतिरै सोझिएको छ — बाढीको जोखिममा रहेका बस्तीका नागरिकले समयमै सूचना पाउने भरपर्दो व्यवस्था कहिले हुन्छ?",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-11T14:56:10+00:00",
-      "articleUrl": "https://www.setopati.com/social/400618",
-      "category": "national"
-    },
-    {
-      "title": "बुढीगण्डकी बाढी : उद्धारदेखि पूर्वाधार पुनर्निर्माणसम्मका काम अघि बढाइँदै",
-      "description": "गोरखा । गोरखाको चुमनुब्री गाउँपालिका–६ स्थित लोक्पा र चुम्लिङबिच आज बिहान गएको पहिरोका कारण बुढीगण्डकी नदीमा लेदोसहितको बाढी आउँदा तल्लो तटीय क्षेत्रमा ठुलो क्षति पुगेको छ। बाढीमा परी पाँच जना बेपत्ता भएको सूचना प्राप्त भएको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/budhigandaki_vWyJW2MGih.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:55:17+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598924/budhi-gandaki-flood-work-underway-from-rescue-to-infrastructure-reconstruction",
-      "category": "national"
-    },
-    {
-      "title": "साउदीको रियाद विमानस्थलमा हुथीको आक्रमण, १२ जना मारिए",
-      "description": "काठमाडौं। साउदी अरबको राजधानी रियादस्थित एक विमानस्थलमा भएको आक्रमणमा कम्तीमा १२ जनाको मृत्यु भएको छ । ३०९ जना घाइते भएका छन्। अमेरिकाको सैन्य सहयोग र अत्याधुनिक हतियारको ठूलो भण्डार रहेको साउदी अरबको राजधानीमै भएको यस घटनाले देशको हवाई सुरक्षा क्षमतामाथि प्रश्न उठाएको छ। साउदी अरबको नेतृत्वमा रहेको सैन्य गठबन्धनले पूर्वी साउदी अरबको दम्मामस्थित किङ फहद […]",
-      "imageUrl": "",
-      "sourceLogo": "https://dainiknepal.com/favicon.ico",
-      "sourceName": "दैनिक नेपाल",
-      "publishedTime": "2026-10-11T14:54:44+00:00",
-      "articleUrl": "https://www.dainiknepal.com/2026/10/844713.html",
-      "category": "national"
-    },
-    {
-      "title": "नारायणगढमा साल्ट ट्रेडिङको सुपथ पसल",
-      "description": "चितवन । चाडपर्व नजिकिँदै गर्दा साल्ट ट्रेडिङ कर्पोरेशन लिमिटेडले सुपथ मूल्यको पसल सञ्चालनमा ल्याएको छ। असोज १ गतेदेखि नारायणगढमा सञ्चालनमा ल्याइएको सुपथ मूल्यको पसलमा बाहिर बजारको तुलनामा चाडपर्वका लागि आवश्यक खाद्यान्न सस्तो मूल्यमा बिक्री गरिएको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/supath-pasal_cEO6lTdDOu.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:49:17+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598923/a-well-run-salt-trading-shop-in-narayangadh",
-      "category": "national"
-    },
-    {
-      "title": "चितवनका आठ स्थानमा यात्रु सहायता कक्ष सञ्चालन",
-      "description": "चितवन।चाडपर्वका अवसरमा यात्रुको सहजता, सडक सुरक्षा र शान्ति सुरक्षालाई ध्यानमा राखी चितवनका आठ स्थानमा यात्रु सहायता कक्ष सञ्चालनमा ल्याइएको छ। जिल्ला प्रशासन कार्यालय, जिल्ला प्रहरी कार्यालय र जिल्ला ट्राफिक प्रहरी कार्यालय चितवनको संयुक्त पहलमा यात्रु सहायता कक्ष सञ्चालन ल्याइएको हो। प्रमुख जिल्ला अधिकारी गणेश अर्यालले चाडपर्वका समयमा यात्रुलाई आवश्यक सूचन",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-11T14:45:21+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/11/passenger-help-desks-to-be-opened-at-eight-locations-in-chitwan/",
-      "category": "business"
-    },
-    {
-      "title": "सूर्यविनायक अन्तर वडास्तरीय फुटबल प्रतियोगिता सुरु",
-      "description": "भक्तपुर। सूर्यविनायक नगरपालिकाले आयोजना गरेको रु एक लाख राशिको अन्तर वडास्तरीय फुटबल प्रतियोगिता आइतबारदेखि सुरु भएको छ । सूर्यविनायक नगरपालिका–१० चित्तपोलस्थित खेल मैदानमा आजदेखि सुरु भएको प्रतियोगिताको नगर प्रमुख वासुदेव थापाले उद्घाटन गरे। प्रतियोगिताको विजेताले रू",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/football_maa7Bb6qrE.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:44:13+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598922/suryabinayak-inter-ward-level-football-competition-begins",
-      "category": "national"
-    },
-    {
-      "title": "विविध कार्यक्रम आयोजना गरी २३औँ गैरआवासीय नेपाली दिवस मनाइयो",
-      "description": "काठमाडौँ। गैरआवासीय नेपाली सङ्घ (एनआरएनए) को २३औँ स्थापना दिवस तथा गैरआवासीय नेपाली दिवस विभिन्न कार्यक्रम आयोजना गरी मनाइएको छ । दिवसका अवसरमा आइतबार बिहान काठमाडौँस्थित स्वयम्भूनाथ र पशुपतिनाथ मन्दिरमा विशेष पूजाआजा तथा सङ्घको सचिवालयमा झण्डोत्तोलन कार्यक्रम",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/nrna-1_YxERjDZirc.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:41:38+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598921/23rd-non-resident-nepali-day-celebrated-with-various-programs",
-      "category": "national"
-    },
-    {
-      "title": "बूढीगण्डकी बाढी भोटेकोशी महाविपत्तिकै मिनि संस्करण : बाबुराम भट्टराई",
-      "description": "पूर्वप्रधानमन्त्री डा. बाबुराम भट्टराईले गोरखाको बूढीगण्डकी नदीमा आएको बाढीले निम्त्याएको विनाश भोटेकोशी र त्रिशूली महाविपत्तिकै मिनि संस्करण जस्तो देखिएको बताएका छन्।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/baburam-bhattarai.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-11T14:41:30+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2037197/budhigandaki-flood-a-mini-version-of-bhotekoshi-disaster-baburam",
-      "category": "national"
-    },
-    {
-      "title": "अर्को विपद्को चेतावनी",
-      "description": "आकस्मिक रसुवा बाढीले निम्त्याएको विध्वंसको पीडा मत्थर हुन नपाउँदै आइतबार बिहान बुढीगण्डकी नदीमा आएको लेदो र गेग्रानसहितको बाढीले हिमाली तथा मध्यपहाडी क्षेत्रमा बढ्दो विपद् जोखिमको गम्भीर चेतावनीलाई उजागर गरेको छ। सरकारको प्रारम्भिक अध्ययनअनुसार २५ असोजको बिहान गोरखाको चुमनुब्री गाउँपालिकाको माथिल्लो भेगमा पहिरो गएर बुढीगण्डकीमा बाढी आएको थियो। सुरुमा चुमनुब्",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-11T14:40:24+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/11/warning-of-another-disaster/",
-      "category": "business"
-    },
-    {
-      "title": "प्रदेशस्तरीय ब्याडमिन्टनको उपाधि बम र निर्वाचन क्षेत्रको उपाधि सिंहको जोडीलाई",
-      "description": "कञ्चनपुर। कञ्चनपुरको शुक्लाफाँटा नगरपालिकाको झलारीमा आज सम्पन्न सुदूरपश्चिम प्रदेशस्तरीय खुला ब्याडमिन्टन प्रतियोगिताको उपाधि धनगढीका राजेन्द्र बमको जोडीले जितेको छ। फाइनल खेलमा झलारीका विवेक ऐर र परमानन्द जोशीको जोडीलाई दुई सोझो सेटले पराजित गर्दै राजेन्द्र बम र",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/sss_NEFWn6djuq.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:37:54+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598920/singhs-duo-wins-provincial-badminton-title-constituency-title",
-      "category": "politics"
-    },
-    {
-      "title": "जिबुटीको तटमा डुङ्गा दुर्घटनाः १०९ आप्रवासीको मृत्यु, ११६ बेपत्ता",
-      "description": "संयुक्त राष्ट्रसङ्घको अन्तरराष्ट्रिय आप्रवासन सङ्गठन (आईओएम) ले आइतबार उक्त जानकारी दिएको हो।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-11T14:32:55+00:00",
-      "articleUrl": "https://nepallive.com/story/351879",
-      "category": "national"
-    },
-    {
-      "title": "संघीय कानुनदेखि राजस्वसम्मका विषयलाई साझा एजेन्डा बनाउँदै सातै प्रदेश",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-11T14:32:00+00:00",
-      "articleUrl": "https://www.setopati.com/politics/400614",
-      "category": "national"
-    },
-    {
-      "title": "एक्स्ट्रिमको ‘म्युजिक सिरिज’ मार्फत नेपाली सङ्गीतमा नयाँ भाइब",
-      "description": "काठमाडौं। एक्स्ट्रिम इनर्जी ड्रिंकले नेपाली सङ्गीतलाई नयाँ ऊर्जा दिन ‘एक्स्ट्रिम म्युजिक सिरिज’ सुरु गरेको छ। नेपाली मौलिकता, सिर्जनशीलता र नयाँ पुस्ताको आवाजलाई प्राथमिकता दिइएको यस सिरिजअन्तर्गत प्रत्येक दुई सातामा नयाँ मौलिक गीत सार्वजनिक गरिनेछ। पहिलो सिजनमा यावेश, एसटीम्यान, भेक, व्योमा, ब्लुज, बिजेन, फोकटोनिक्स, डोङ र क्रिजेन गरी नौ कलाकारको प्रस्तुति ",
-      "imageUrl": "",
-      "sourceLogo": "https://newsofnepal.com/favicon.ico",
-      "sourceName": "न्युज अफ नेपाल",
-      "publishedTime": "2026-10-11T14:29:33+00:00",
-      "articleUrl": "https://newsofnepal.com/2026/10/11/790962/",
-      "category": "entertainment"
-    },
-    {
-      "title": "दोधारा-चाँदनी झोलुङ्गे पुल मर्मतका लागि एक करोड बजेट",
-      "description": "कञ्चनपुर।सुदूरपश्चिम प्रदेश सरकारले कञ्चनपुरको भीमदत्त र दोधारा–चाँदनी जोड्ने महाकाली नदी माथिको झोलुङ्गे पुल मर्मतका लागि एक करोड रुपैंयाँ बजेट विनियोजन गरेको छ। प्रदेश सरकारको चालु आर्थिक वर्ष २०८३/८४ का लागि आज प्रदेशसभामा पेस भएको बजेटमा कञ्चनपुरस्थित दोधारा–चाँदनी नगरपालिका र भीमदत्त नगरपालिका जोड्ने महाकाली नदीमाथिको झोलुङ्गे पुल मर्मतका लागि एक करोड ब",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-11T14:28:47+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/11/10-million-budget-for-the-repair-of-dodhara-chandani-suspension-bridge/",
-      "category": "business"
-    },
-    {
-      "title": "चाडपर्वमा सुरक्षाका लागि मकवानपुरमा ६३६ प्रहरी परिचालन",
-      "description": "हेटौँडा । जिल्ला प्रहरी कार्यालय मकवानपुरले बडादसैँ, दीपावली, नेपाल संवत् र छठपर्वलाई लक्षित गरी जिल्लाभर ६३६ जना प्रहरी परिचालन गरेको छ । चाडपर्वका समयमा हुनसक्ने आपराधिक गतिविधि नियन्त्रण, यात्रुको सुरक्षा तथा राजमार्गमा बढ्ने सवारीसाधनको चाप",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/makwanpur-district-map_0bibmupn5n_jWBM8R97zw.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:25:45+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598917/636-police-deployed-in-makawanpur-for-security-during-festivals",
-      "category": "national"
-    },
-    {
-      "title": "बुढीगण्डकी बाढी : गाउँ जाने पुल बगायो, सय बढी घरहरू बगे",
-      "description": "गोरखा। बुढीगण्डकी बाढीमा परी उत्तरी गोरखाका १०० बढी घरहरू बगेका छन्। आइतबार बिहान उत्तरी गोरखाको चुमनुब्री गाउँपालिका–६ स्थित उङ्गिलुङ खोलामा सुक्खा पहिरो खसेको थियो । बिहान करिब ४ः०० बजेतिर खसेको पहिरोले सो खोला थुनिएको र",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/m34u5EuzRC.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:23:22+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598916/budhi-gandaki-flood-bridge-leading-to-village-washed-away-over-a-hundred-houses-washed-away",
-      "category": "national"
-    },
-    {
-      "title": "ओलम्पियाडमा ६ नेपाली खेलाडीले पाए चेस टाइटल",
-      "description": "",
-      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/att.wrOV6nf-2F53fK7HYqbwjbt27taMdilI71_t7Q_p75k-1791728264.jpeg",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-10-11T14:21:22+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/175081",
-      "category": "sports"
-    },
-    {
-      "title": "राखियो हनुमानढोकाको दशैं घरमा जमरा (तस्वीरहरू)",
-      "description": "२५ असोज, काठमाडौं । नेपालीहरूको महान् पर्व बडा दशैं आजदेखि सुरु भएको छ । बडा दशैंको पहिलो दिन आज काठमाडौंको हनुमानढोकास्थित दशैं घरमा विधिपूर्वक जमरा राखिएको छ । घटस्थापनाका दिन वैदिक विधिअनुसार पूजा गरी जौ, मकै, गहुँलगायत अन्न छरेर जमरा राख्ने प्रचलन छ। नेपालीहरूले आज घरघरमा विधिपूर्वक दियो, कलश र गणेश स्थापनासहित घटस्थापना गरिन्छ । […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/jamara-3.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-11T14:20:58+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036811/jamara-kept-at-hanuman-dhokas-dashain-house-photos",
-      "category": "national"
-    },
-    {
-      "title": "पोखराको प्रख्यात तालबाराही मन्दिर तीन वर्षपछि भक्तजनका लागि खुला",
-      "description": "कास्की । पोखराको प्रमुख धार्मिक तथा पर्यटकीय गन्तव्य फेवातालको मध्यभागमा अवस्थित ऐतिहासिक तालबाराही भगवती मन्दिरको पुनर्निर्माण सम्पन्न भएपछि आजदेखि भक्तजनलाई पूजा गर्न खुला भएको छ। घटस्थापनाका दिन पारेर मन्दिर खुला गरिएको मन्दिरका पुजारीसमेत रहनुभएका तालबाराही मन्दिर",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/RK_Pokhara-_talbarahi_4rGgqhcoT8.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:19:09+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598915/pokharas-famous-talbarahi-temple-opens-to-devotees-after-three-years",
-      "category": "national"
-    },
-    {
-      "title": "बूढीगण्डकीमा कसरी आयो विनाशकारी बाढी ?",
-      "description": "बूढीगण्डकीको उपल्लो क्षेत्रमा बाढी आउने खालको पानी परेको रेकर्ड नभएकाले विज्ञहरुले हिमपहिरो वा सुक्खा पहिरोले बहाव थुनिएर बाढीको रुप लिएको हुनसक्ने प्रारम्भिक अनुमान गरेका छन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Gorkha-Flood.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-11T14:17:56+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2036626/how-did-the-devastating-flood-in-budhigandaki-occur",
-      "category": "national"
-    },
-    {
-      "title": "कैलालीमा धानबाली भित्र्याउन भ्याइनभ्याइ",
-      "description": "धनगढी। कैलालीका किसानलाई यतिबेला खेतबारीमा पाकेको धानबाली भित्र्याउन भ्याइनभ्याइ छ। केही दिनअघि वर्षासँगै आएको हावाहुरीका कारण कतिपय किसानका खेतमा काटेको धानबाली पानीले भिज्नुुका साथै धान ढलेको थियो। किसानलाई पानीले क्षति भएको धानबाली स्याहार्न समस्या भएको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/kailali-map_kznzdtkbxk_IZaujX2iw5.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:16:22+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598914/efforts-to-import-paddy-crop-in-kailali",
-      "category": "national"
-    },
-    {
-      "title": "तनहुँमा दुई हजार २२० मतदाताको नामावली हटाइयो",
-      "description": "तनहुँ। जिल्ला निर्वाचन कार्यालय तनहुँले दुई हजार २२० मतदाता नामावली हटाएको छ। दोहोरो नामावली भएकाहरूलाई कार्यालयले मतदाता नामावलीबाट हटाउने निर्णय गरेको हो। कार्यालयले मतदाता नामावली दोहोरिएकाहरूको नामावली अद्यावधिक गरेको जिल्ला निर्वाचन अधिकारी विकास लम्सालले जानकारी दिए।",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/matadata-namawali-darta-(15)_QPxQryBjqI.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:13:19+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598913/voter-lists-of-2220-removed-in-tanahun",
-      "category": "national"
-    },
-    {
-      "title": "राष्ट्रसेवक कर्मचारी समाजबाट वाणिज्य सचिव तामाङ सम्मानित",
-      "description": "काठमाडौं।राष्ट्रसेवक कर्मचारी समाज, नुवाकोटले समाजका पूर्वअध्यक्ष एवं नेपाल सरकारको सचिवमा हालै बढुवा भएका राष्ट्रसेवक रुद्रसिंह तामाङलाई आज सम्मान गरेको छ। उद्योग, वाणिज्य तथा आपूर्ति मन्त्रालयका पदस्थापन भएका तामाङलाई समाजका अध्यक्ष डा. उदयबहादुर रानामगर, संस्थापक अध्यक्ष डा. केदारनरसिंह केसी, नेपाल सरकारका पूर्व सचिवद्वय तुलसीप्रसाद थपलिया र रामप्रसाद थपल",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-11T14:09:33+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/11/commerce-secretary-tamang-honored-by-civil-servants-society/",
-      "category": "business"
-    },
-    {
-      "title": "धरानलाई हराउँदै दमक सेमिफाइनमा प्रवेश",
-      "description": "हरिप्रसाद कोइराला उर्लाबारी, असोज २५ गते । झापाको दमक भेट्रान फुटबल क्लब अन्तर्राष्ट्रिय आमन्त्रण दोस्रो जहदा भेट्रान कप २०८३ को सेमिफाइनलमा प्रवेश गरेको छ । आइतबार मोरङको कानेपोखर...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/387687/conversions/%E0%A4%A6%E0%A4%AE%E0%A4%95%E0%A4%95%E0%A4%BE-%E0%A4%96%E0%A5%87%E0%A4%B2%E0%A4%BE%E0%A4%A1%E0%A5%80-%E0%A4%AC%E0%A4%B2-%E0%A4%85%E0%A4%98%E0%A4%BF-%E0%A4%AC%E0%A4%A2%E0%A4%BE%E0%A4%89%E0%A4%81%E0%A4%A6%E0%A5%88-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-11T14:09:18+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226335",
-      "category": "national"
-    },
-    {
-      "title": "बुढीगण्डकीमा आकस्मिक बाढीसँगै थपियो चिन्ता, 'ढुक्कसँग घरमा सुत्ने अवस्था रहेन'",
-      "description": "\"पहिले हामीले ठूलो पानी पर्‍यो भने बाढी आउँछ भन्ने सोच्थ्यौँ, तर बाढी आउनलाई पानी ठूलो पर्नु पर्दो रहेनछ, कतै पनि पानी नपरे पनि यत्रो ठूलो बाढी आयो।\"",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/35ef/live/fee89590-c57f-11f1-80f2-5bd1e5df7ada.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-10-11T14:08:56+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/cm0rlz158571o?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "दुर्गममा ४ वर्ष बिताएका नापीका कर्मचारी सोध्छन् : डीजी र मन्त्रीलाई कति घुस दिनुपर्छ ?",
-      "description": "काठमाडौँ । भूमि व्यवस्था, सहकारी, सङ्घीय मामिला तथा सामान्य प्रशासन मन्त्रालयअन्तर्गत नापी विभागमा कर्मचारी सरुवामा बेथिति देखिएको छ । नापी विभागमा भएको सुरुवामा आर्थिक चलखेल हुने गरेको भन्दै दुर्गममा कार्यरत कर्मचारीहरूले सार्वजनिक रूपमै आक्रोश पोख्न थालेका छन्",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/napi-bivag_53zZupbbO4.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:06:37+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598912/a-surveyor-who-spent-4-years-in-remote-areas-asks-how-much-bribe-should-be-paid-to-the-dg-and-the-minister",
-      "category": "politics"
-    },
-    {
-      "title": "पालिकाले सामाजिक सुरक्षा भत्ताको बजेट पठाए पनि एनआईसी एसिया बैंकले दसैँअघि वितरण नगर्ने",
-      "description": "विराटनगर । हिन्दुहरूको महान् चाड बडादसैँ घरदैलोमा आइसकेको छ। गाउँघरमा दसैँको चहलपहल सुरु भइसक्दा मोरङको कानेपोखरी गाउँपालिकाका हजारौँ ज्येष्ठ नागरिक तथा विपन्न लाभग्राही भने सामाजिक सुरक्षा भत्ता नपाएर निराश बनेका छन्। गाउँपालिकाले रकम खातामा पठाइसकेको दाबी",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/dahsain_caruEjMLtU.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:05:05+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598911/even-though-the-municipality-sends-the-budget-for-social-security-allowance-nic-asia-bank-will-not-distribute-it-before-dashain",
-      "category": "national"
-    },
-    {
-      "title": "रामकृष्ण ढकाल र अन्जु पन्तले ल्याए ‘भुरा माछा’",
-      "description": "भुरा माछा पानीमा नाचे झैँ सलबलाउँछौँ मभित्र सलसल कहाँ देखुँ कहाँ भेटुँ भइरहन्छ लागिरहन्छ मायाको तलतल मुटुको खलबली भो तिम्रो मायाको मेरो दिल अम्मली भो तिम्रो मायाको रामकृष्ण ढकाल र अन्जु पन्तको स्वरको नयाँ गीत ‘भुरा माछा’का शब्द हुन् यी ।",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bhura-machha_NdPdMgF57k.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-11T14:03:24+00:00",
-      "articleUrl": "https://www.ratopati.com/story/598910/ramkrishna-dhakal-and-anju-pant-brought-bhura-fish",
-      "category": "national"
-    },
-    {
-      "title": "लिग-२ क्रिकेट: नेपालद्वारा क्यानडा पराजित",
-      "description": "काठमाडौं । आईसीसी क्रिकेट विश्वकप लिग-२ अन्तर्गत नेपालले पहिलो खेलमा क्यानडालाई २४ रनले पराजित गरेको छ । ओमान क्रिकेट एकेडेमी मिनिस्ट्री टर्फ-१ मा भएको खेलमा नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानडा ४८.४ ओभरमा २११ रनमा अलआउट भयो । क्यानडाका लागि आरोन जोनसनले ४४ रन बनाए । समित गोहेलले ३५, अखिल कुमारले अविजित ३० तथा […] The post लिग-२ क्रिकेट: नेपालद्वार",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-11T13:59:59+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/149967/",
-      "category": "national"
-    },
-    {
-      "title": "प्रधानमन्त्री राहत कोषमा मौज्दात १७ अर्ब ५४ करोड पुग्यो",
-      "description": "काठमाडौं।रसुवाको भोटेकोशी नदीमा आएको बाढीपछि प्रधानमन्त्री दैवी प्रकोप उद्धार कोष र प्रधानमन्त्री राहत कोषमा आर्थिक सहयोग जुट्ने क्रम अझै जारी छ। प्रधानमन्त्री तथा मन्त्रिपरिषद्को कार्यालयका अनुसार कोषका विभिन्न खातामा आजसम्म मौज्दात रकम १७ अर्ब ५४ करोड ४२ लाख ८९ हजार ६७८ रुपैंयाँ पुगेको हो। प्रधानमन्त्री दैवी प्रकोप उद्धार कोषका विभिन्न नौ वटा वाणिज्य बैंकम",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-11T13:57:31+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/11/balance-in-prime-ministers-relief-fund-reaches-rs-17-54-billion/",
-      "category": "business"
     }
   ]
 }
