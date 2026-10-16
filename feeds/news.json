@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-15T22:39:44.062085+00:00",
-  "lastSuccessfulUpdate": "2026-10-15T22:39:44.062085+00:00",
-  "newestPublishedTime": "2026-10-15T22:31:49+00:00",
+  "updatedAt": "2026-10-16T00:43:25.682490+00:00",
+  "lastSuccessfulUpdate": "2026-10-16T00:43:25.682490+00:00",
+  "newestPublishedTime": "2026-10-16T00:42:06+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -27,33 +27,253 @@
   ],
   "items": [
     {
-      "title": "भोटेकोशी बाढी: काभ्रेका ३७ जनालाई मृत घोषणाको प्रक्रिया थालियो",
-      "description": "काभ्रेपलान्चोक । रसुवाको भोटेकोशीमा भदौ १० गते आएको बाढीपछि बेपत्ता भएका काभ्रेपलान्चोक ३७ जनालाई मृत घोषणा गर्ने प्रक्रिया अघि बढाइएको छ । यसका लागि जिल्ला प्रशासन कार्यालयले बाढीमा परी बेपत्ता भएका व्यक्तिहरूको आधिकारिक विवरण यकिन",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rasuwa-bhotekoshi-badhi_xJnNFwOg50.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-15T22:31:49+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599964/bhotekoshi-flood-process-of-declaring-37-people-dead-from-kavre-begins",
-      "category": "national"
-    },
-    {
-      "title": "भोटेकोशी–त्रिशूली बाढीका कारण क्षतिग्रस्त १८ झोलुङ्गे पुल मर्मतपछि सञ्चालनमा",
-      "description": "काठमाडौँ । भोटेकोशी–त्रिशूली नदीमा आएको बाढीका कारण क्षतिग्रस्त भएका १८ वटा झोलुङ्गे पुल मर्मत गरी सञ्चालनमा ल्याइएको छ । पूर्वाधार विकास मन्त्रालय, स्थानीय पूर्वाधार विकास विभागअन्तर्गतको सस्पेन्सन ब्रिज डिभिजन कार्यालयका अनुसार बाढीका कारण त्रिशूली करिडोरमा रहेका",
-      "imageUrl": "https://rpcdn.ratopati.com/archived-media/jholunge-pul.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-15T21:45:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599963/18-suspension-bridges-damaged-by-bhotekoshi-trishuli-floods-reopen-after-repairs",
-      "category": "national"
-    },
-    {
       "title": "चाडपर्वमा खाद्य स्वच्छता कायम गर्न व्यवसायीलाई विभागको निर्देशन",
-      "description": "काठमाडौँ । खाद्य प्रविधि तथा गुण नियन्त्रण विभागले दसैँ, तिहार र छठलगायतका चाडपर्वलाई लक्षित गर्दै होटल, रेष्टुरेन्ट, मिठाइ पसल तथा भोजनालय सञ्चालकलाई खाद्य स्वच्छता र गुणस्तर कायम गर्न निर्देशन दिएको छ । विभागले बिहीबार एक सूचना",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/khadya-prabidhi-gun-niyantran_jN2Iv1TxU9.jpg",
+      "description": "काठमाडौँ। खाद्य प्रविधि तथा गुण नियन्त्रण विभागले दसैँ, तिहार र छठलगायतका चाडपर्वलाई लक्षित गर्दै होटल, रेष्टुरेन्ट, मिठाइ पसल तथा भोजनालय सञ्चालकलाई खाद्य स्वच्छता र गुणस्तर कायम गर्न निर्देशन दिएको छ। विभागले बिहीबार एक सूचना जारी गर्दै विशेषगरी राजमार्गमा आवतजावत गर्ने यात्रुलाई खाना, खाजा तथा नास्ता उपलब्ध गराउने खाद्य व्यवसायीलाई स्वच्छ र गुणस्तरीय खाद्",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-16T00:42:06+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/16/department-instructs-businessmen-to-maintain-food-hygiene-during-festivals/",
+      "category": "business"
+    },
+    {
+      "title": "पेट्रोलियम पदार्थको मूल्य यथावत्, निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा",
+      "description": "काठमाडौं । नेपाल आयल निगमले पेट्रोलियम पदार्थको मूल्य यथावत् राखेको जानकारी दिएको छ । निगम सञ्चालक समितिको बिहीबार बसेको बैठकले इन्डियन आयल कर्पोरेसनबाट नयाँ खरिद मूल्य प्राप्त भए पनि हाल कायम साविककै बिक्री मूल्यलाई निरन्तरता दिने निर्णय गरेको हो । निगमले आसन्न चाडपर्व तथा आम उपभोक्ताको हितलाई मध्यनजर गरी साविकको खुद्रा बिक्री मूल्यलाई नै यथावत् […]",
+      "imageUrl": "",
+      "sourceLogo": "https://dainiknepal.com/favicon.ico",
+      "sourceName": "दैनिक नेपाल",
+      "publishedTime": "2026-10-16T00:41:17+00:00",
+      "articleUrl": "https://www.dainiknepal.com/2026/10/845681.html",
+      "category": "national"
+    },
+    {
+      "title": "नवरात्रको छैटौँ दिन : कात्यायनी देवीको विशेष पूजा आराधना गरिँदै",
+      "description": "काठमाडौँ। दुर्गा पक्ष अर्थात् नवरात्रको छैटौँ दिन दसैँ घर वा पूजा कोठामा नौ दुर्गामध्येकी छैटौँ कात्यायनी देवीको विधिपूर्वक पूजा आराधना गरिँदैछ । प्रत्येक वर्ष आश्विन शुक्ल षष्ठी अर्थात् दुर्गा पक्षको छैटौँ दिन कात्यायनी देवीको विधिपूर्वक पूजा आराधना गर्ने वैदिक सनातनी परम्परा छ । कुनै समय देवताहरूको कार्यसम्पादन गर्न भगवती देवी कात्यायन ऋषिका आश्रममा अत्यन्",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-16T00:39:37+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/16/sixth-day-of-navratri-special-worship-of-goddess-katyayani-being-performed/",
+      "category": "business"
+    },
+    {
+      "title": "क्यान्सर अस्पताल सुधारका लागि अध्ययन समिति",
+      "description": "३० चितवन, चितवन । चितवनको भरतपुरस्थित बीपी कोइराला मेमोरियल क्यान्सर अस्पतालका समस्या पहिचान गरी सुधारका लागि समिति बनाइएको छ । अस्पताल सञ्चालक समितिले पूर्णता पाएसँगै सुधार समिति बनाइएको हो । अस्पताल सञ्चालक समितिका सदस्य डा डिल्लीराम भण्डारीको संयोजकत्वमा सञ्चालक सदस्यद्वय डा शान्ति भुर्तेल र इशा प्रधान सदस्य रहेको समिति बनाइएको अस्पतालले जनाएको छ । अस्पता",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2019/10/Bharatpur-Cancer-Hospital-1.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-16T00:37:33+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2040027/study-committee-for-cancer-hospital-reform",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी–त्रिशूली बाढीका कारण क्षतिग्रस्त १८ झोलुङ्ले पुल मर्मतपछि सञ्चालनमा",
+      "description": "काठमाडौँ। भोटेकोशी–त्रिशूली नदीमा आएको बाढीका कारण क्षतिग्रस्त भएका १८ वटा झोलुङ्गे पुल मर्मत गरी सञ्चालनमा ल्याइएको छ। पूर्वाधार विकास मन्त्रालय, स्थानीय पूर्वाधार विकास विभागअन्तर्गतको सस्पेन्सन ब्रिज डिभिजन कार्यालयका अनुसार बाढीका कारण त्रिशूली करिडोरमा रहेका १८ वटा झोलुङ्गे पुलमा क्षति पुगेको थियो। ती सबै पुल मर्मत गरी सञ्चालनमा ल्याइएको कार्यालयका योजन",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-16T00:37:03+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/16/18-suspension-bridges-damaged-by-bhotekoshi-trishuli-floods-are-operational-after-repair/",
+      "category": "business"
+    },
+    {
+      "title": "प्रधानमन्त्रीको भारत भ्रमण तयारी",
+      "description": "काठमाडौँ, असोज ३० गते । प्रधानमन्त्री वालेन्द्र शाहको निकट भविष्यमा हुने छिमेकी मुलुक भारतको औपचारिक भ्रमणको तयारी सुरु भएको छ । भ्रमणको औपचारिक मिति तोक्न बाँकी रहे पनि भ्रमणको प्...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/388363/conversions/balen2026-04-22-10-09-26-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-16T00:29:50+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226858",
+      "category": "politics"
+    },
+    {
+      "title": "तपाईंको आजको राशिफल कस्तो छ?",
+      "description": "काठमाडौँ। २०८३ साल असोज ३० गते शुक्रबार सन् २०२६ अक्टोबर १६ तारिख। असोज शुक्ल पक्षको षष्ठी तिथि। विश्व खाद्य दिवस। नक्षत्र अनुसार १२ वटा राशि हुन्छन्। चन्द्रमा अनुसार राशि र नक्षत्रका पद अनुसार नाम राखिन्छ। त्यही आधारमा व्यक्तिको दैनिकीको विषयमा भविष्यवाणी हुन्छ। नेपाल न्युजका लागि आचार्य ज्यो.प.बलराम उपाध्याय खकुरेलले तयार पार्नुभएको आजको राशिफल: मेष: व्याप",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-16T00:28:25+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/16/what-is-your-horoscope-today/",
+      "category": "business"
+    },
+    {
+      "title": "पश्चिमी वायुको आंशिक प्रभाव कायमै, आज यी पाँच प्रदेशमा हल्का वर्षाको सम्भावना",
+      "description": "काठमाडौँ । हाल देशमा पश्चिमी वायुको आंशिक प्रभाव रहेको मौसम पूर्वानुमान महाशाखाले जनाएको छ। जसको प्रभावले हाल कर्णाली र सुदूरपश्चिम प्रदेशमा साधरणतया बादल, लुम्बिनी प्रदेश लगायत बाँकी प्रदेशको हिमाली र पहाडी भूभागमा आंशिक बादल लागेको छ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rain_Hxbolu0mKZ.jpg",
       "sourceLogo": "https://ratopati.com/favicon.ico",
       "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-15T21:00:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599960/department-instructs-businessmen-to-maintain-food-hygiene-during-festivals",
+      "publishedTime": "2026-10-16T00:27:27+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599969/partial-influence-of-westerly-winds-persists-light-rain-likely-in-these-five-provinces-today",
+      "category": "national"
+    },
+    {
+      "title": "ऋणको भार मात्रै पचपन्न अर्ब",
+      "description": "काठमाडौँ, असोज ३० गते । कुनै समय लन्डन, पेरिस र फ्य्राङ्कफर्टसम्म उडान गरेर अन्तर्राष्ट्रिय उड्डयन क्षेत्रमा नेपालको पहिचान स्थापित गर्न सफल नेपाल वायुसेवा निगम दक्ष जनशक्तिको कमी,...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/388360/conversions/nac-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-16T00:25:51+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226857",
+      "category": "national"
+    },
+    {
+      "title": "पान्डाले छोरा र छोरीमाथि किन गर्छ विभेद?",
+      "description": "पोथी बच्चा डेढ वर्षमै आमाबाट छुट्टिन्छ भने भाले बच्चा साढे दुई वर्षसम्म आमासँगै बस्न पाउँछ। आखिर पाण्डाले आफ्ना छोराछोरीलाई किन फरक व्यवहार गर्छ?",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-16T00:25:22+00:00",
+      "articleUrl": "https://www.setopati.com/opinion/400920",
+      "category": "national"
+    },
+    {
+      "title": "यमनको राष्ट्रपति भवन परिसरमा हुथीको आक्रमण, सुरक्षागार्डसहित ५ जनाको मृत्यु",
+      "description": "यमनको राष्ट्रपति भवन परिसरमा हुथीले गरेको आक्रमणमा परी दुई सुरक्षागार्डहरुसहित ५ जनाको मृत्यु भएको छ । आक्रमणका बेला प्रधानमन्त्री र केही मन्त्रीहरु राष्ट्रपति भवन परिसरमा थिए ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Houthi-attack-on-the-presidential-palace-in-Yemen.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-16T00:24:35+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2040015/houthi-attack-on-yemens-presidential-palace-complex-5-killed",
+      "category": "politics"
+    },
+    {
+      "title": "आजका लागि तोकियो विदेशी मुद्राको विनिमयदर",
+      "description": "काठमाडौँ। नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ। राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५१ रुपैयाँ ८० पैसा र बिक्रीदर १५२ रुपैयाँ ४० पैसा निर्धारण गरिएको छ। युरोपियन युरो एकको खरिददर १७० रुपैयाँ २७ पैसा र बिक्रीदर १७० रुपैयाँ ९५ पैसा, युके पाउन्ड स्ट्रलिङ एकको खरिददर २०१ रुपैयाँ ३० पैसा […]",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-16T00:19:10+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/16/foreign-currency-exchange-rates-set-for-today/",
+      "category": "business"
+    },
+    {
+      "title": "अमेरिकामा प्राथमिक विद्यालयमा गोली चल्दा ४ जनाको मृत्यु",
+      "description": "३० असोज, काठमाडौं । अमेरिकाको उत्तरपश्चिमी राज्य ओरेगनस्थित एक प्राथमिक विद्यालयमा गोली चल्दा तीन बालबालिकासहित कम्तीमा चार जनाको मृत्यु भएको छ । सीबीएस र सीएनएनका अनुसार बिहीबार बेन्ड सहरस्थित सिल्भर रेल प्राथमिक विद्यालयमा गोली चलेको हो । उक्त सहर पोर्टल्यान्डबाट करिब १६० किलोमिटर दक्षिणपूर्वमा पर्छ । घटनामा गोली चलाउने व्यक्ति पनि मारिएको अधिकारीहरूले बता",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Silver-Rail-Elementary-school-Oregon.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-15T23:56:46+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2040013/4-dead-in-shooting-at-elementary-school-in-oregon-us",
+      "category": "national"
+    },
+    {
+      "title": "आश्विन शुक्ल षष्ठी : कात्यायनी देवीको विशेष पूजा आराधना गरिँदै",
+      "description": "काठमाडौं । दुर्गा पक्ष अर्थात् नवरात्रको छैटौँ दिन दसैँ घर वा पूजा कोठामा नौ दुर्गामध्येकी छैटौँ कात्यायनी देवीको विधिपूर्वक पूजा आराधना गरिँदैछ । प्रत्येक वर्ष आश्विन शुक्ल षष्ठी अर्थात् दुर्गा पक्षको छैटौँ दिन कात्यायनी देवीको विधिपूर्वक पूजा आराधना गर्ने वैदिक सनातनी परम्परा छ । कुनै समय देवताहरूको कार्यसम्पादन गर्न भगवती देवी कात्यायन ऋषिका आश्रममा अत्यन",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-10-15T23:48:02+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/150222/",
+      "category": "national"
+    },
+    {
+      "title": "शुक्रबार यस्तो छ विदेशी मुद्राको विनिमय दर",
+      "description": "काठमाडौँ । नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमय दर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५१ रुपैयाँ ८० पैसा र बिक्रीदर १५२ रुपैयाँ ४० पैसा निर्धारण गरिएको छ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/forex_g5zWyL63Qc.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-15T23:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599962/this-is-the-foreign-exchange-rate-on-friday",
+      "category": "national"
+    },
+    {
+      "title": "दसैँमा घर फर्कनेको चाप",
+      "description": "गोरखापत्र समाचारदाता काठमाडौँ, असोज ३० गते । दसैँको टीका नजिकिएसँगै काठमाडौँ उपत्यकाबाट जिल्ला जाने यात्रुको चाप बढेको छ । घटस्थापनादेखि बिहीबारसम्म तीन लाख यात्रु दसैँका लागि बाहि...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/388359/conversions/People-_returns_home-_ADHIKARI-KABIN00025-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-15T23:44:03+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/226856",
+      "category": "national"
+    },
+    {
+      "title": "अमेरिकाको एक प्राथमिक विद्यालयमा गोली चल्दा तीन बालबालिकासहित चार जनाको मृत्यु",
+      "description": "काठमाडौँ । संयुक्त राज्य अमेरिकाको ओरेगन राज्यस्थित एक प्राथमिक विद्यालयमा भएको गोलीकाण्डमा परी चार जनाको मृत्यु भएको स्थानीय प्रहरीले जनाएको छ । बीबीसीको अमेरिकी साझेदार संस्था सीबीएस न्युजका अनुसार ज्यान गुमाउनेहरूमध्ये तीन जना बालबालिका रहेका छन्",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/america-gunshots-school_AdsbMTfhB0.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-15T23:38:35+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599968/four-people-including-three-children-killed-in-shooting-at-us-elementary-school",
+      "category": "national"
+    },
+    {
+      "title": "रुपन्देहीमा व्यावसायिक फर्म बन्द हुने क्रम बढ्दो",
+      "description": "रुपन्देही । जिल्लामा साना तथा घरेलु उद्योग र व्यावसायिक फर्म बन्द हुने क्रम बढेको छ । घरेलु तथा साना उद्योग कार्यालय, भैरहवाको तथ्याङ्कअनुसार आर्थिक वर्ष २०८२/८३ मा जिल्लामा ७७७ वटा उद्योग तथा वाणिज्य फर्मको लगत",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/rupandehi_3wohmj8N79.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-15T23:32:08+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599967/business-firms-closing-down-on-the-rise-in-rupandehi",
+      "category": "national"
+    },
+    {
+      "title": "भोटेकोशी बाढीमा बेपत्ता काभ्रेका ३७ जनालाई मृत घोषणाको प्रक्रिया थालियो",
+      "description": "३० असोज, काभ्रेपलाञ्चोक । रसुवाको भोटेकोशीमा गत भदौ १० गते आएको बाढीपछि बेपत्ता भएका काभ्रेपलाञ्चोकका ३७ जनालाई मृत घोषणा गर्ने प्रक्रिया अघि बढाइएको छ । यसका लागि जिल्ला प्रशासन कार्यालयले बाढीमा परी बेपत्ता भएका व्यक्तिहरूको आधिकारिक विवरण एकिन गर्न जिल्लास्थित स्थानीय तहलाई प्रक्रिया र समयसीमा तोकेको छ । विभिन्न काम एवं भ्रमणका सिलसिलामा त्यहाँ पुगेका […]",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-15T23:31:02+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2040005/process-to-declare-37-people-from-kavre-missing-in-bhotekoshi-flood-as-dead-begins",
+      "category": "national"
+    },
+    {
+      "title": "आज नवरात्रको छैटौं दिन, यस्तो छ कात्यायनी देवीको पूजाविधि",
+      "description": "३० असोज, काठमाडौं । आज नवरात्रको छैटौं दिन, कात्यायनी देवीको पूजा आराधना गरेर मनाइँदै छ । देवीका मन्दिरहरुमा आज पनि बिहानैदेखि दर्शनार्थीहरुको घुइँचो छ । काठमाडौं उपत्यकाका भद्रकाली, नक्शाल, मैतीदेवी, दक्षिणकाली, गुह्यश्वरी लगायतका शक्तिपीठहरुमा लामबद्ध भएर पूजा गरिरहेका छन् । मन्दिर नजानेहरू आफ्नै दशैं घर वा पूजा कोठामा देवीको पूजा आराधना गर्दछन् । धर्मशास्",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2019/10/Katyayani-Devi-Image.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-15T23:22:33+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2040006/today-is-the-sixth-day-of-navratri-this-is-the-worship-of-goddess-katyayani-2",
+      "category": "national"
+    },
+    {
+      "title": "नवरात्रको छैटौँ दिन : आज देवी कात्यायनीको विधिपूर्वक पूजा आराधना गरिँदै",
+      "description": "काठमाडौँ । हिन्दु नेपालीहरूको महान् पर्व बडादसैँअन्तर्गत शारदीय नवरात्रको आज छैटौँ दिन अष्टमातृका भगवतीको छैटौँ शक्तिका रूपमा माता कात्यायनीको विधिपूर्वक पूजाअर्चना गरिँदै छ । आजको दिन कात्यायनी भगवतीको पूजाआराधना गर्दा रोग, शोक, भय, दुःख र",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/kaatyaayani_V0zyMa8EAE.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-15T23:21:57+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599966/sixth-day-of-navratri-goddess-katyayani-is-being-worshipped-with-ritualistic-rituals-today",
+      "category": "national"
+    },
+    {
+      "title": "यस्तो छ आजका लागि विदेशी मुद्राको विनिमयदर",
+      "description": "काठमाडौं । नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५१ रुपैयाँ ८० पैसा र बिक्रीदर १५२ रुपैयाँ ४० पैसा निर्धारण गरिएको छ । युरोपियन युरो एकको खरिददर १७० रुपैयाँ २७ पैसा र बिक्रीदर १७० रुपैयाँ ९५ पैसा, युके पाउन्ड स्ट्रलिङ एकको खरिददर २०१ […] The post यस्तो छ आजका लागि विदेशी मुद्",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-10-15T23:19:02+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/150221/",
+      "category": "national"
+    },
+    {
+      "title": "अमेरिकी डलर, युरो र पाउन्डको भाउ घट्यो, स्वीस फ्र्याङ्क र क्यानेडियन डलरको बढ्यो",
+      "description": "३० असोज, काठमाडौं । नेपाल राष्ट्र बैंकले निर्धारण गरेको विदेशी मुद्राको विनिमयदर अनुसार आज अमेरिकी डलर, युरो र पाउन्ड स्टर्लिङको भाउ घटेको छ । स्वीस फ्र्याङ्क र क्यानेडियन डलरको भाउ भने बढेको छ । राष्ट्र बैंकका अनुसार आज अमेरिकी डलर एकको खरिददर १५१ रुपैयाँ ८० पैसा र बिक्रीदर १५२ रुपैयाँ ४० पैसा छ । हिजो अमेरिकी […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Dollar-.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-15T23:17:19+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2040002/the-us-dollar-euro-and-pound-fell-while-the-swiss-franc-and-canadian-dollar-rose",
+      "category": "national"
+    },
+    {
+      "title": "कुन राशिका लागि शुभ छ आजको दिन ? हेर्नुहोस् राशिफल",
+      "description": "आजको पञ्चाङ्ग वि.सं.२०८३ साल असोज ३० गते । शुक्रबार । इस्वी सन् २०२६ अक्टोबर १६ तारिख । नेपाल संवत् ११४६ । रौद्र संवत्सर । दक्षिणायन । शरद ऋतु । श्रीशाके १९४८ । आश्विन शुक्लपक्ष । तिथि–षष्ठी,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_vLkWHGsooW.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-15T23:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599961/which-zodiac-sign-is-auspicious-today-see-horoscope",
+      "category": "national"
+    },
+    {
+      "title": "चिनाखेतवासीलाई पहिरोले दिएको पीडा",
+      "description": "म्याग्दी । म्याग्दीको बेनी नगरपालिका–३ भकिम्लीस्थित चिनाखेतकी दिलमती छन्त्यालका लागि यस वर्ष दसैँतिहारको कुनै रौनक छैन । श्रीमान् गुमाउनुको पीडा, बस्ने घर र गोठ पहिरोले बगाएको चोट तथा खेतीयोग्य जमिन बगरमा परिणत भएको अवस्थाले उहाँलाई",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ZO1naSZYuP.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-15T22:54:24+00:00",
+      "articleUrl": "https://www.ratopati.com/story/599965/the-pain-caused-by-the-landslide-to-the-residents-of-chinakhet",
       "category": "national"
     },
     {
@@ -84,16 +304,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-10-15T19:15:00+00:00",
       "articleUrl": "https://www.ratopati.com/story/599957/intensive-care-unit-operational-after-27-years-of-establishment",
-      "category": "national"
-    },
-    {
-      "title": "क्यान्सर अस्पताल सुधारका लागि अध्ययन समिति",
-      "description": "चितवन । बिपी कोइराला मेमोरियल क्यान्सर अस्पतालका समस्या पहिचान गरी सुधारका लागि समिति बनाइएको छ । अस्पताल सञ्चालक समितिले पूर्णता पाएसँगै सुधार समिति बनाइएको हो । अस्पताल सञ्चालक समितिका सदस्य डा डिल्लीराम भण्डारीको संयोजकत्वमा सञ्चालक सदस्यद्वय",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/mMWXkngyBO.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-15T18:47:19+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599956/study-committee-for-cancer-hospital-reform",
       "category": "national"
     },
     {
@@ -365,16 +575,6 @@
       "publishedTime": "2026-10-15T16:03:37+00:00",
       "articleUrl": "https://www.setopati.com/kinmel/information-technology/400944",
       "category": "national"
-    },
-    {
-      "title": "पेट्रोलियम पदार्थको मूल्य यथावत्, निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा",
-      "description": "काठमाडौं। नेपाल आयल निगमले पेट्रोलियम पदार्थको बिक्री मूल्य यथावत् राख्ने निर्णय गरेको छ। अन्तर्राष्ट्रिय बजारमा मूल्यमा उतारचढाव भइरहेको भए पनि उपभोक्तालाई राहत दिने उद्देश्यले निगमले हाल कायम रहेको बिक्री मूल्यलाई नै निरन्तरता दिएको हो। इन्डियन आयल कर्पोरेसन (आईओसी) बाट असोज २९, २०८३ मा प्राप्त नयाँ खरिद मूल्यअनुसार समायोजन गर्नुपर्ने अवस्था भए पनि निगमले ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-15T15:59:33+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/15/petroleum-product-prices-remain-unchanged-npc-suffers-a-fortnightly-loss-of-rs-3-45-billion/",
-      "category": "business"
     },
     {
       "title": "‘प्रकृतिमाथिको हस्तक्षेप नियन्त्रण प्रयास अझै विफल’",
@@ -2514,7 +2714,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-15T09:27:12+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2039807/stock-market-rises-for-sixth-consecutive-day-banking-declines",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "भोटेकोशी बाढीपीडितलाई अफ्रिकाबाट २ करोड ११ लाख सहयोग",
@@ -2554,7 +2754,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-15T09:09:41+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2039792/what-kind-of-religious-crisis-did-the-son-of-a-cultured-mother-face",
-      "category": "national"
+      "category": "entertainment"
     },
     {
       "title": "क्यान सदस्य गुञ्जन शाहलाई राखेपले बोलायो फिर्ता",
@@ -4267,16 +4467,6 @@
       "category": "politics"
     },
     {
-      "title": "यस्तो छ आजको विदेशी मुद्राको विनिमय दर",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-10-15T01:46:51+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/147042",
-      "category": "national"
-    },
-    {
       "title": "अघिल्लो सरकारको निर्णय धमाधम उल्ट्याउँदै मुख्यमन्त्री थापा",
       "description": "हेटौँडा । बागमती प्रदेश सरकारले अघिल्लो सरकारका निर्णयहरू उल्ट्याउन सुरु गरेको छ । प्रशासनिक सुधार र सेवा प्रवाहलाई चुस्त बनाउने भन्दै प्रदेश सरकारले यस्तो कदम चालेको हो । यसअघिका मुख्यमन्त्री इन्द्रबहादुर बानियाँले केही नीतिगत तथा संरचनागत",
       "imageUrl": "https://npcdn.ratopati.com/media/news/kiran-thapa_DHtWDcAGpx.webp",
@@ -4607,16 +4797,6 @@
       "category": "national"
     },
     {
-      "title": "आजका लागि तोकियो विदेशी मुद्राको विनिमयदर",
-      "description": "काठमाडौँ, असोज २९ गते । नेपाल राष्ट्र बैङ्कले बिहीबारका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैङ्कका अनुसार अमेरिकी डलर एकको खरिददर १५१ रुपियाँ ९५ पैसा र बिक्री...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/388200/conversions/bank-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-15T01:01:20+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226738",
-      "category": "national"
-    },
-    {
       "title": "राजमार्गका होटेल तथा रेस्टुरेन्टको वर्गीकरण",
       "description": "गोरखापत्र समाचारदाताकाठमाडौँ, असोज २९ गते । खाद्य प्रविधि तथा गुण नियन्त्रण विभागले राजमार्गमा सञ्चालित होटेल तथा रेस्टुरेन्टको अनुगमन गरी वर्गीकरण गर्न सुरु गरेको जानकारी गराएको छ...",
       "imageUrl": "https://gorkhapatraonline.com/storage/media/388199/conversions/55-original.jpg",
@@ -4844,186 +5024,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-10-14T20:55:31+00:00",
       "articleUrl": "https://www.ratopati.com/story/599718/aston-villa-rains-goals-in-champions-league-defeats-fenerbahce-6-0",
-      "category": "national"
-    },
-    {
-      "title": "अपाङ्गता भएका बालबालिकाका परिवारलाई सहयोग",
-      "description": "रुपन्देही । बालश्रम तथा जोखिममा रहेका बालबालिकाको क्षेत्रमा कार्यरत संस्था सिविन नेपालले आर्थिक अवस्था कमजोर भएका अपाङ्गता भएका बालबालिकाका परिवारलाई खाद्यान्न तथा दैनिक उपभोग्य सामग्री वितरण गरेको छ । सिविन नेपालअन्तर्गत सञ्चालित बाल हेल्पलाइन, रुपन्देहीको बेन",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/rupandehi_3wohmj8N79.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-14T20:22:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599717/support-for-families-of-children-with-disabilities",
-      "category": "national"
-    },
-    {
-      "title": "अन्नपूर्णका बाढी पहिरो प्रभावितलाई सहयोग",
-      "description": "म्याग्दी । म्याग्दीको अन्नपूर्ण गाउँपालिकाका बाढी पहिरो प्रभावितका लागि सरकारी निकाय र सामुदायिक तहबाट सहयोग प्राप्त हुन थालेको छ । यही असोज ८ देखि ११ गतेसम्मको झरीपछिको बाढी पहिरोले घरबास गुमाएर ‘होल्डिङ सेन्टर’, अस्थायी शिविर र",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/myagdi_Yxx1IewRfU.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-14T19:51:16+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599716/assistance-to-those-affected-by-floods-and-landslides-in-annapurna",
-      "category": "national"
-    },
-    {
-      "title": "कञ्चनपुर यु–१९ प्रादेशिक छनोट प्रतियोगिताको फाइनलमा",
-      "description": "कञ्चनपुर । वाई–वाई यु–१९ पुरुष एक दिवसीय सुदूरपश्चिम प्रादेशिक छनोट क्रिकेट प्रतियोगितामा कैलालीलाई पाँच रनले पराजित गर्दै कञ्चनपुर फाइनलमा पुगेको छ । कैलालीको फाप्ला खेल मैदानमा बुधबार भएको खेलमा टस जितेर पहिले ब्याटिङ गरेको कञ्चनपुरले २६",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/cricket-ball-bat_rtXFoNjveX.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-14T19:46:52+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599715/kanchanpur-in-the-final-of-the-u-19-provincial-selection-tournament",
-      "category": "national"
-    },
-    {
-      "title": "पूर्व मंत्री दिनेश सिंह की 17वीं पुण्यतिथि पर दी गई श्रद्धांजलि, उमड़े हजारों लोग, वक्ताओं ने संघर्ष और जनसेवा के योगदान को किया याद",
-      "description": "‘हाड़ा’ विकास सिंह सिद्धार्थनगर : शोहरतगढ़ क्षेत्र के चिल्हिया स्थित दिनेश नगर में पूर्व मंत्री स्व. दिनेश सिंह की 17वीं पुण्यतिथि पर विशाल श्रद्धांजलि सभा का आयोजन किया गया। उनके पुण्यतिथि पर आयोजित कार्यक्रम में उनके सुपुत्र एवं सपा नेता उग्रसेन सिंह के नेतृत्व में लोगों ने श्रद्धासुमन अर्पित कर उन्हें भावभीनी श्रद्धांजलि दी। इस ... Read more The post पूर्",
-      "imageUrl": "",
-      "sourceLogo": "https://www.vikasnews.com/favicon.ico",
-      "sourceName": "विकास न्यूज",
-      "publishedTime": "2026-10-14T19:13:10+00:00",
-      "articleUrl": "https://vikasnews.com/18585/",
-      "category": "business"
-    },
-    {
-      "title": "सुदूरपश्चिम रोयल्सले फ्यानलाई एथरको स्कुटर उपहार दिने",
-      "description": "",
-      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/IMG_3416-1792004621.jpeg",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-10-14T19:06:24+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/175121",
-      "category": "sports"
-    },
-    {
-      "title": "लास्कविरुद्ध बारकोलाको उत्कृष्ट ह्याट्रिक, लिभरपुल तालिकाको दोस्रो स्थानमा",
-      "description": "काठमाडौँ । युइएफए च्याम्पियन्स लिगअन्तर्गत बुधबार सम्पन्न रोमाञ्चक तथा उच्च गोलको प्रतिस्पर्धामा इंग्लिस क्लब लिभरपुलले अस्ट्रियन क्लब लास्कलाई ६-३ गोल अन्तरले पराजित गरेको छ । ब्राड्ली बारकोलाको उत्कृष्ट ह्याट्रिकको सहयोगमा लिभरपुलले कुल ९ गोल भएको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/liverpool_KsVE6MLER7.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-14T18:46:41+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599712/barkolas-brilliant-hat-trick-against-lask-liverpool-moves-to-second-place-in-the-table",
-      "category": "national"
-    },
-    {
-      "title": "वेस्ट इन्डिजसँग भारत पराजित",
-      "description": "",
-      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/IMG_3413-1792003434.jpeg",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-10-14T18:44:10+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/175120",
-      "category": "sports"
-    },
-    {
-      "title": "दसैँ बिदामा पनि अस्पतालको सेवा निरन्तर",
-      "description": "रुपन्देही । भीम अस्पताल भैरहवाले दसैँ बिदाको समयमा पनि बहिरङ्ग सेवा (ओपिडी) बाहेकका अत्यावश्यक स्वास्थ्य सेवा नियमित सञ्चालन गर्ने जनाएको छ । अस्पतालले सूचना जारी गर्दै यही असोज ३१ देखि आगामी कात्तिक ८ गतेसम्म सार्वजनिक बिदा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bhim-hospital_85TdzuRR8Z.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-14T18:30:11+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599711/hospital-services-continue-even-during-dashain-holidays",
-      "category": "national"
-    },
-    {
-      "title": "एनआरएनए अमेरिकाजको १०औँ क्षेत्रीय सम्मेलन क्यानडामा हुने",
-      "description": "काठमाडौँ । गैरआवासीय नेपाली संघ (एनआरएनए) अमेरिकाज क्षेत्रको १०औँ क्षेत्रीय सम्मेलन सन् २०२७ अप्रिल २४ र २५ मा क्यानडाको टोरन्टोस्थित होटल रेडिसनमा आयोजना हुने भएको छ । ‘समृद्धि : Connecting for Prosperity’ नाराका साथ आयोजना",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/nrna-americas_Tyxj8CJQMD.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-14T18:28:02+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599710/nrna-americas-10th-regional-conference-to-be-held-in-canada",
-      "category": "national"
-    },
-    {
-      "title": "१२ बजे १२ समाचार : बालेनको भारत भ्रमणबारे छलफलदेखि वित्तीय पासोमा कर्णाली सरकारसम्म",
-      "description": "काठमाडौँ । आज दिनभरका मुख्य १२ घटनाक्रम रातोपाटी डटकमको नियमित प्रस्तुति ‘१२ बजे १२ समाचार’मा प्रस्तुत गरेका छौँ । १. वित्तीय पासोमा कर्णाली सरकार कर्णाली प्रदेशको राजधानी वीरेन्द्रनगरको मुख्य बजारमा मंगलगढी चोकदेखि कांक्रेबिहार जोड्ने २.५ किलोमिटर सडक",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/cover12-nes_hPEaJDQxxu.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-14T18:15:07+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599709/12-oclock-12-news-from-discussions-about-balens-visit-to-india-to-the-karnali-government-in-financial-trap",
-      "category": "politics"
-    },
-    {
-      "title": "कालीगण्डकी बाढी : तातोपानी कुण्ड बगरमा परिणत",
-      "description": "ठाकुरप्रसाद आचार्य म्याग्दी (बेनी) असोज २८ गते । असोज दोस्रो साता आएको कालीगण्डकी बाढीले म्याग्दीको अन्नपूर्ण गाउँपालिका–६ रातोपानीस्थित प्राकृतिक तातोपानी कुण्डको अस्तित्व नै मेटा...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/388187/conversions/Ratopani-tatopani-kunda-photo--(2)-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-14T18:00:58+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226725",
-      "category": "national"
-    },
-    {
-      "title": "कांग्रेस महाधिवेशन : सहमहामन्त्री खस आर्यतर्फ ३,१०० मत गन्दा कसको कति मत ?",
-      "description": "काठमाडौँ । नेपाली कांग्रेसको १५औँ महाधिवेशनअन्तर्गत सहमहामन्त्री (खस आर्य) तर्फको जारी मतगणनामा मनोजमणि आचार्यले अग्रता कायम गरेका छन् । निर्वाचन समितिले ३ हजार १०० मत गणना सम्पन्न गर्दा आचार्यले १ हजार १३२ मत प्राप्त गर्दै",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/congress-vote_eX9q5KJX9V.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-14T17:56:40+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599708/congress-general-convention-how-many-votes-did-joint-general-secretary-khas-arya-get-when-3100-votes-were-counted",
-      "category": "politics"
-    },
-    {
-      "title": "बिहीबार लुम्बिनी र सुदूरपश्चिममा मध्यमसम्म वर्षा हुने पूर्वानुमान",
-      "description": "गोरखापत्र अनलाइन काठमाडौँ, असोज २८ गते । नेपाल मौसम विज्ञान विभाग अन्तर्गतको मौसम पूर्वानुमान महाशाखाले बिहीबार लुम्बिनी र सुदूरपश्चिम प्रदेशको तराई भूभागका एक, दुई स्थानमा मध्यमस...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/388191/conversions/mausam2-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-14T17:55:47+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226730",
-      "category": "national"
-    },
-    {
-      "title": "होपको विस्फोटक शतक र किमो पलको ५ विकेट : चौथो टी- ट्वान्टीमा वेस्टइन्डिजसामु भारत स्तब्ध",
-      "description": "काठमाडौँ । ओपनर साइ होपको विष्फोटक कीर्तिमानी शतक तथा किमो पलको घातक बलिङको सहयोगमा वेस्टइन्डिजले चौथो टी- ट्वान्टी खेलमा भारतलाई २४ रनले पराजित गरेको छ । हैदराबादस्थित राजीव गान्धी अन्तर्राष्ट्रिय रंगशालामा बुधबार जित हात पार्दै",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/west-indies_o5T5JyfJip.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-14T17:46:01+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599707/hopes-explosive-century-and-keemo-pauls-5-wicket-haul-india-stunned-by-west-indies-in-the-fourth-t20i",
-      "category": "national"
-    },
-    {
-      "title": "चौध लाख बराबरको अवैध सामान बरामद",
-      "description": "वीरगञ्ज (पर्सा), असोज २८ गते । सशस्त्र प्रहरी बल, नेपाल नं १३ गण हेडक्वाटर पर्साले रु १४ लाख २५ हजार ५०० बराबरको अवैध सामान बरामद गरेको छ । वीरगञ्ज महानगरपालिका–२५, खल्वास्थित सशस्...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/388189/conversions/unnamed-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-14T17:38:07+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226728",
-      "category": "national"
-    },
-    {
-      "title": "बढ़नी को आधुनिक बनाने की पहल, नगर पंचायत अध्यक्ष सुनील अग्रहरि ने LED डिस्प्ले का किया शुभारंभ",
-      "description": "जनहित की सूचनाओं और सरकारी योजनाओं का होगा प्रसारण, कस्बे को मिलेगा आधुनिक लुक ‘हाड़ा’ विकास सिंह सिद्धार्थनगर : नगर पंचायत बढ़नी बाजार को आधुनिक और स्मार्ट बनाने की दिशा में एक और पहल की गई है। नवरात्रि पर्व पर मंगलवार देर रात नगर पंचायत अध्यक्ष सुनील अग्रहरि ने अपनी पत्नी गीता देवी के साथ ... Read more The post बढ़नी को आधुनिक बनाने की पहल, नगर पंचायत अध्य",
-      "imageUrl": "",
-      "sourceLogo": "https://www.vikasnews.com/favicon.ico",
-      "sourceName": "विकास न्यूज",
-      "publishedTime": "2026-10-14T17:32:23+00:00",
-      "articleUrl": "https://vikasnews.com/18578/",
-      "category": "business"
-    },
-    {
-      "title": "विपद् जोखिम न्यूनीकरणसम्बन्धी राष्ट्रिय सम्मेलन सम्पन्न",
-      "description": "ललितपुर, असोज २८ गते । अन्तर्राष्ट्रिय विपद् जोखिम न्यूनीकरण दिवसका अवसरमा आयोजित विपद् जोखिम न्यूअन्तर्राष्ट्रिय विपद् जोखिम न्यूनीकरण दिवसका अवसरमा आयोजित विपद् जोखिम न्यूनीकरणसम...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/388188/conversions/NDRNA-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-14T17:29:35+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/226727",
-      "category": "national"
-    },
-    {
-      "title": "ट्याक्टर दुर्घटनामा सहचालकको मृत्यु",
-      "description": "हुम्ला। सिमकोट गाउँपालिका–१ तल्लो साँघुमा ट्याक्टर दुर्घटना हुँदा सहचालकको घटनास्थलमा नै मृत्यु भएको छ । ‘ब्रेक फेल’ भएर ट्याक्टर दुर्घटना हुँदा टायरमा परेर सहचालकको निधन भएको हो । बुधबार साँझ सवा ६ बजेको समयमा चुवाखोलाबाट दोजामतर्फ",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/accident-durghatana-acc-cartoon_nrzrx5tby7_4TzKnsDq9Y.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-14T17:15:37+00:00",
-      "articleUrl": "https://www.ratopati.com/story/599705/co-driver-dies-in-tractor-accident",
       "category": "national"
     }
   ]
