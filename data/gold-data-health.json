@@ -1,20 +1,62 @@
 {
   "schema": "gold-data-health/v1",
-  "generatedAt": "2026-09-16T15:56:19.464219+05:45",
-  "recordCount": 24,
-  "uniqueDates": 24,
+  "generatedAt": "2026-10-18T01:09:02.851964+05:45",
+  "recordCount": 25,
+  "uniqueDates": 25,
   "dateRange": {
     "start": "2026-08-21",
-    "end": "2026-09-16"
+    "end": "2026-10-18"
   },
-  "coveragePercent": 88.89,
+  "coveragePercent": 42.37,
   "missingCalendarDates": [
     "2026-08-22",
     "2026-08-23",
-    "2026-09-13"
+    "2026-09-13",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-17"
   ],
   "duplicateDates": [],
-  "anomalies": [],
-  "status": "healthy",
+  "anomalies": [
+    {
+      "date_ad": "2026-10-18",
+      "field": "silver_tola",
+      "change_percent": -11.42
+    },
+    {
+      "date_ad": "2026-10-18",
+      "field": "silver_10g",
+      "change_percent": -11.42
+    }
+  ],
+  "status": "review",
   "note": "Calendar gaps may represent weekends or publication holidays; they are not automatically treated as missing market data."
 }
