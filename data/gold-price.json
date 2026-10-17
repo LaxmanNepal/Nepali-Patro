@@ -1,14 +1,14 @@
 {
   "source": "https://negosida.org/",
   "source_name": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
-  "updated_at": "2026-09-16T15:56:19.464219+05:45",
+  "updated_at": "2026-10-18T01:09:02.851964+05:45",
   "current": {
-    "fine_gold_tola": 301800.0,
-    "gold_22k_tola": 276450.0,
-    "silver_tola": 4685.0,
-    "fine_gold_10g": 258745.0,
-    "gold_22k_10g": 237010.0,
-    "silver_10g": 4016.5
+    "fine_gold_tola": 290100.0,
+    "gold_22k_tola": 265730.0,
+    "silver_tola": 4150.0,
+    "fine_gold_10g": 248715.0,
+    "gold_22k_10g": 227825.0,
+    "silver_10g": 3558.0
   },
   "history": [
     {
@@ -234,6 +234,16 @@
       "fine_gold_10g": 258745.0,
       "gold_22k_10g": 237010.0,
       "silver_10g": 4016.5
+    },
+    {
+      "date_ad": "2026-10-18",
+      "date_bs": "कात्तिक १, २०८३",
+      "fine_gold_tola": 290100.0,
+      "gold_22k_tola": 265730.0,
+      "silver_tola": 4150.0,
+      "fine_gold_10g": 248715.0,
+      "gold_22k_10g": 227825.0,
+      "silver_10g": 3558.0
     }
   ]
 }
