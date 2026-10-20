@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-20T14:38:17.219378+00:00",
-  "lastSuccessfulUpdate": "2026-10-20T14:38:17.219378+00:00",
-  "newestPublishedTime": "2026-10-20T14:15:00+00:00",
+  "updatedAt": "2026-10-20T18:41:54.215530+00:00",
+  "lastSuccessfulUpdate": "2026-10-20T18:41:54.215530+00:00",
+  "newestPublishedTime": "2026-10-20T17:26:24+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
@@ -22,6 +22,286 @@
     }
   ],
   "items": [
+    {
+      "title": "अफगानिस्तानमा हिउँदसँगै भोकमरीको जोखिम बढ्दै, एक करोड ९२ लाख प्रभावित हुने अनुमान",
+      "description": "काठमाडौँ । संयुक्त राष्ट्रसङ्घले आगामी हिउँदमा अफगानिस्तानमा एक करोड ९२ लाख मानिसले चरम खाद्य असुरक्षाको सामना गर्नुपर्ने चेतावनी दिएको छ । तीमध्ये करिब ५० लाख मानिस भोकमरीको आपत्कालीन अवस्थामा पुग्न सक्ने अनुमान गरिएको छ । संयुक्त",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/Afaganisthan_BFd13nKHNh.png",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-20T17:26:24+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600696/afghanistan-faces-increasing-risk-of-famine-as-winter-approaches-with-192-million-people-estimated-to-be-affected",
+      "category": "national"
+    },
+    {
+      "title": "विजया दशमीमा देशभरको मौसम मुख्यतया सफा रहने",
+      "description": "काठमाडौं- बडादशैंको दिन बुधबार देशभरको मौसम मुख्यतया सफा रहने मौसम पूर्वानुमान महाशाखाले जनाएको छ। महाशाखाका अनुसार दिउँसो हिमाली र पहाडी भू-भागमा आंशिक बदली रहे पनि तराई क्षेत्रको मौसम सफा रहनेछ। हिमाली क्षेत्रका साथै कोशी र गण्डकी प्रदेशका पहाडी भू-भागका एक-दुई स्थानमा हल्का वर्षा र हिमपातको सम्भावना रहेको छ। बुधबार राति कोशी र गण्डकी प्रदेशका हिमाली […]",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-20T16:41:49+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/20/weather-across-the-country-to-remain-mainly-clear-on-vijaya-dashami/",
+      "category": "business"
+    },
+    {
+      "title": "गोकर्ण जङ्गलको वनदेवीमा दर्शनार्थीको लाम",
+      "description": "काठमाडौँ । वर्षमा एकपटक शारदीय नवरात्रमा मात्र सर्वसाधारण भक्तजनलाई पूजा, आराधना एवं दर्शनका लागि खोलिने गोकर्णेश्वर नगरपालिका–४ स्थित वनदेवी मन्दिरमा ठुलो सङ्ख्यामा आज भक्तजनले दर्शन गरेका छन् । साविकको राजनिकुञ्ज हाल नेपाल ट्रस्टको कार्यालय मातहत रहेको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/vjiqaEtg88.png",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-20T16:38:20+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600695/a-queue-of-visitors-at-vana-devi-in-gokarna-forest",
+      "category": "national"
+    },
+    {
+      "title": "ब्रम्हायणी मन्दिरमा मेला सुरु",
+      "description": "भक्तपुर । बडा दसैँको नवौँ दिन महानवमीका दिन मनाइने ३२ लक्षणयुक्त निकुथु (निक्खर) राँगो दौडाउने जात्रा सम्पन्न भएसँगै ब्रम्हायणी मन्दिरमा मेला सुरु भएको छ । नवदुर्गा मन्दिरबाट महिषासुरको प्रतीक मानिने निक्खर राँगो अर्थात् खःमेयलाई दौडाउँदै ब्रम्हायणी",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bhaktapur_kthkhfuydg_ePgNrI34iO.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-20T16:36:29+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600694/fair-begins-at-brahmayani-temple",
+      "category": "national"
+    },
+    {
+      "title": "दुई दिनमा सशस्त्रले दियो एक हजारभन्दा बढीलाई निःशुल्क बस सेवा",
+      "description": "काठमाडौँ । सशस्त्र प्रहरी बल, नेपालले दसैँका लागि लक्षित गरी काठमाडौँ उपत्यकामा सञ्चालन गरेको निःशुल्क बस सेवामार्फत दुई दिनमा एक हजारभन्दा बढी यात्रुले सेवा लिएका छन् । सशस्त्रका प्रवक्ता एवम् प्रहरी नायव महानिरीक्षक नेत्रबहादुर कार्कीले सोमबार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bus_NTRTdMZXio.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-20T16:33:21+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600693/armed-forces-provided-free-bus-service-to-over-1000-people-in-two-days",
+      "category": "national"
+    },
+    {
+      "title": "क्रिकेट टोली स्वदेश फिर्ता",
+      "description": "काठमाडौँ । आइसिसी विश्वकप लिग–२ शृङ्खला खेलेर नेपाली राष्ट्रिय पुरुष क्रिकेट टोली स्वदेश फर्किएको छ । ओमानमा सम्पन्न उक्त एकदिवसीय अन्तर्राष्ट्रिय शृङ्खलामा सहभागिता जनाएर नेपाली टोली मंगलबार बेलुका स्वदेश आइपुगेको हो । टोलीलाई त्रिभुवन अन्तर्राष्ट्रिय विमानस्थलमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nepali-cricket-toli-airport-(8)-ink_8zy92WytCR.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-20T16:31:10+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600692/cricket-team-returns-home",
+      "category": "national"
+    },
+    {
+      "title": "जेलेन्स्की र रुबियोबिच रक्षा सहयोग तथा शान्ति प्रयासबारे छलफल",
+      "description": "काठमाडौँ । युक्रेनी राष्ट्रपति भोलोदिमिर जेलेन्स्की र अमेरिकी विदेशमन्त्री मार्को रुबियोबीच मङ्गलबार टेलिफोन वार्ता भएको छ । वार्तामा युक्रेनलाई रक्षा सहयोग उपलब्ध गराउने तथा रुस–युक्रेन द्वन्द्व अन्त्यका लागि कूटनीतिक प्रयास अघि बढाउने विषयमा छलफल भएको जेलेन्स्कीले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/zelensky_auroOcZbmd.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-20T16:28:21+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600691/zelensky-rubio-discuss-defense-cooperation-and-peace-efforts",
+      "category": "national"
+    },
+    {
+      "title": "मुक्तिनाथ मन्दिरमा दसैँ टिका",
+      "description": "मुस्ताङ । हिन्दु तथा बौद्ध धर्मालम्बीहरुको साँझ धार्मिक तीर्थस्थल मुक्तिनाथ मन्दिरमा सर्वसाधारणलाई दसैँको टिका लगाइने भएको छ । मन्दिरका पुजारी कृष्णप्रसाद सुवेदीले दसैँको अवसरमा सर्वसाधारणलाई टिका, जमरा र आर्शिवाद दिने कार्यक्रम रहेको बताए। विजया दशमीको शुभ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/muktinath-(12)-001_YzQLZrdBFm.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-20T16:25:25+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600690/dashain-tika-at-muktinath-temple",
+      "category": "national"
+    },
+    {
+      "title": "हिजबुल्लाह र हमासका हतियार केन्द्रमा इजरायली आक्रमण",
+      "description": "काठमाडौँ । इजरायली सेनाले पछिल्ला साताहरूमा दक्षिण लेबनानमा गरेको सैन्य कारबाहीका क्रममा हिजबुल्लाहका ५४० भन्दा बढी पूर्वाधार स्थल ध्वस्त पारेको जनाएको छ । त्यस्तै, गाजा पट्टीमा हमासका तीन हतियार भण्डारण केन्द्रमा आक्रमण गरी नष्ट गरिएको सेनाले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/israel-flag_e0TbKCAaxH.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-20T16:21:45+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600689/israeli-attack-on-hezbollah-and-hamas-weapons-center",
+      "category": "national"
+    },
+    {
+      "title": "१० बजे १० समाचार : कांग्रेसको विभाजन यात्रा, किन फस्टाउन सकेन नेपालमा ‘ओटीटी’ प्लेटफर्म ?",
+      "description": "काठमाडौँ । आज दिनभरका मुख्यमुख्य घटनाक्रमसहित रातोपाटीको रात्रिकालीन प्रस्तुति रातोपाटी ब्रिफिङमा १० बजे १० समाचार लिएर हाजिर भएका छौँ– १. कांग्रेसको विभाजन यात्रा : २००९ देखि ०८२ सालसम्म नेपाली कांग्रेसमा समानान्तर महाधिवेशन भइरहेका छन् । संस्थापनले महाधिवेशन",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/12_8VFKy3EoCZ.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-20T16:15:24+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600688/10-news-at-10-congresss-journey-of-division-why-couldnt-the-ott-platform-flourish-in-nepal",
+      "category": "politics"
+    },
+    {
+      "title": "खुल्यो प्राकृतिक नाकाबन्दीमा परेको सिमकोट–हिल्सा सडकखण्ड",
+      "description": "सडक खुलेसँगै हिल्सा नाका हुँदै आवतजावत गर्ने स्थानीयवासी, पर्यटक तथा चीनको ताक्लाकोट क्षेत्रमा व्यापार र रोजगारीका लागि पुगेका नेपालीलाई राहत मिलेको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/simkot-hilsa-sadak.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-20T16:06:26+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042070/simkot-hilsa-road-section-which-was-under-natural-blockade-reopens",
+      "category": "national"
+    },
+    {
+      "title": "दशैंको उपहारः भूमिहीनलाई जग्गाधनी प्रमाणपुर्जा",
+      "description": "काठमाडौं।दशैंको मुखमा चितवनको इच्छाकामना गाउँपालिका–७ का भूमिहीनले आफ्नै नाममा जग्गाधनी प्रमाणपुर्जा पाएपछि उनीहरूको खुसीको सीमा रहेन । वर्षौंदेखि आफू बसोबास गर्दै आएको जमिनबाट कतै हट्नुपर्ने हो कि भन्ने चिन्ता बोकेर जीवन बिताएका उनीहरूका लागि यसपटकको दशैं खुसीसँगै सुरक्षित भविष्यको आशा लिएर आएको छ । रातो खोलभित्र राखिएको प्रमाणपुर्जामा आफ्नो नाम र तस्बिर दे",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-20T16:01:48+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/20/dashain-gift-landownership-certificate-for-the-landless/",
+      "category": "business"
+    },
+    {
+      "title": "सम्पर्कविहीन दुई जापानी पर्वतारोहीको खोजी जारी",
+      "description": "मनाङ । गङ्गापूर्ण हिमाल आरोहणका क्रममा दुई जापानी पर्वतारोही सम्पर्कविहीन भएका छन् । उनीहरू गत अक्टोबर १५ तारिखदेखि सम्पर्कविहीन भएका प्रमुख जिल्ला अधिकारी मुक्तिप्रसाद खनालले जानकारी दिए । उनले भने, “सम्पर्कविहीन भएका पर्वतारोहीहरूको खोजी तथा उद्धारका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/mustang_map_LeezRi6vcZ.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-20T16:00:07+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600687/search-continues-for-two-missing-japanese-climbers",
+      "category": "national"
+    },
+    {
+      "title": "छ महिनामा सर्पदंशबाट ११० जनाको मृत्यु",
+      "description": "काठमाडौं। चालु आर्थिक वर्षको वैशाख १ गतेदेखि कार्तिक ३ गतेसम्मको अवधिमा देशभर भएका विपद्का घटनामा ठूलो मानवीय क्षति भएको छ। राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणका अनुसार यस अवधिमा ७ हजार ४ सय ३९ वटा विपद्का घटनामा ३ सय ८६ जनाको मृत्यु भएको छ। भोटेकोसी बाढीको घटना भने यो तथ्यांकमा समावेश छैन। प्राकृतिक तथा […]",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-20T15:56:43+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/20/110-people-die-from-snakebites-in-six-months/",
+      "category": "business"
+    },
+    {
+      "title": "सशस्त्र प्रहरीको निःशुल्क बस सेवाबाट दुई दिनमा एक हजारभन्दा बढी लाभान्वित",
+      "description": "काठमाडौं। दशैंको अवसरमा सशस्त्र प्रहरी बलले काठमाडौं उपत्यकामा सञ्चालन गरेको निःशुल्क बस सेवाबाट दुई दिनमा एक हजारभन्दा बढी यात्रु लाभान्वित भएका छन्। सशस्त्र प्रहरी बलका प्रवक्ता एवं प्रहरी नायब महानिरीक्षक नेत्रबहादुर कार्कीका अनुसार सोमबार ४५० र मंगलबार ६१३ जना सर्वसाधारणले निःशुल्क बस सेवाको उपयोग गरेका छन्। दुई दिनमा कुल एक हजार ६३ जना यात्रुले सेवा […]",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-20T15:44:19+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/20/more-than-1000-people-benefited-from-armed-police-forces-free-bus-service-in-two-days/",
+      "category": "business"
+    },
+    {
+      "title": "कुन देशमा कति बजे छ टीकाको साइत ?",
+      "description": "३ कात्तिक, काठमाडौं । बडादशैं अन्तर्गत बुधबार विजयादशमीको दिन छ । नेपालमा टीकाको साइत बिहान १० बजेर २६ मिनेटमा छ । नेपालबाहिर भने फरक मिति र समयमा टीकाको साइत पर्ने गरेको छ । अन्तर्राष्ट्रिय पञ्चाङ्ग निर्णायक समितिले विभिन्न देशका लागि फरक फरक साइतहरू निकालेको हुन्छ । यस वर्षको बडादशैंका लागि विभिन्न देशहरूमा उत्तम साइतको मिति […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Dashain-Tika-1.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-20T15:37:25+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042072/what-time-is-the-tika-clock-in-which-country",
+      "category": "national"
+    },
+    {
+      "title": "दसैँमा सशस्त्र प्रहरीको बस सेवा, प्रधानमन्त्री कार्यालयको प्रचार !",
+      "description": "सोमबारदेखि लगातार तीन दिनसम्म बिहान ८ बजेदेखि बेलुकी ६ बजेसम्म दुईवटा बस निःशुल्क सञ्चालन गर्ने व्यवस्था सशस्त्र प्रहरीले मिलाएको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-10-20T15:32:35+00:00",
+      "articleUrl": "https://nepallive.com/story/352194",
+      "category": "politics"
+    },
+    {
+      "title": "राष्ट्रपति पौडेलले बुधबार टीका र जमरा ग्रहण गर्ने",
+      "description": "काठमाडौं। राष्ट्रपति रामचन्द्र पौडेलले विजयादशमीका अवसरमा बुधबार बिहान १० बजेर २६ मिनेटको शुभसाइतमा गुरु पुरोहितबाट टीका, जमरा र आशीर्वाद ग्रहण गर्ने भएका छन्। राष्ट्रपतिका प्रेस सल्लाहकार किरण पोखरेलका अनुसार राष्ट्रपति कार्यालय शीतल निवासमा उक्त कार्यक्रम हुनेछ। विगतका वर्षहरूमा राष्ट्रपतिले विजयादशमीका अवसरमा सर्वसाधारणलाई टीका लगाइदिने प्रचलन थियो। यद्यप",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-20T15:31:30+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/20/president-poudel-to-receive-tika-and-jamara-on-wednesday/",
+      "category": "business"
+    },
+    {
+      "title": "दसैँमा घर पोत्ने रातो माटो र कमेरोको परम्परा हराउँदै",
+      "description": "काठमाडौं। बडादसैँ नजिकिएसँगै घरआँगन लिपपोत गरी चिटिक्क पार्ने परम्परा धनकुटामा क्रमशः हराउँदै गएको छ। कुनै समय दसैँको पूर्वसन्ध्यामा रातो माटो, कमेरो र खोटोको खोजीमा व्यस्त हुने स्थानीयहरू अहिले आधुनिक रङ र सिमेन्टको प्रयोगतर्फ आकर्षित भएका छन्। धनकुटा नगरपालिका-२ का हरिबहादुर बस्नेतका अनुसार पहिले दसैँ आउनुअघि चिम्टिया माटो, रातो माटो र कमेरो खोज्न स्थानीयह",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-20T15:28:12+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/20/the-tradition-of-decorating-houses-with-red-clay-and-kamero-during-dashain-is-disappearing/",
+      "category": "business"
+    },
+    {
+      "title": "जेलेन्स्कीलाई रुबियोले भने– ‘ट्रम्प युक्रेनप्रति आक्रोशित छन्, तर सहयोग रोकिएको छैन’",
+      "description": "३ कात्तिक, काठमाडौं । अमेरिकी विदेशमन्त्री मार्को रुबियो र युक्रेनी राष्ट्रपति भोलोदिमिर जेलेन्स्कीबिच मङ्गलबार ४५ मिनेट लामो टेलिफोन संवाद भएको छ। अमेरिका र युक्रेनबिच पछिल्लो समय चर्किएको कूटनीतिक तनाव कम गर्ने प्रयासस्वरूप भएको उक्त संवादमा रुबियोले राष्ट्रपति डोनाल्ड ट्रम्पले युक्रेनलाई नोक्सान पुर्‍याउने वा मद्दत रोक्ने कुनै पनि निर्देशन नदिएको स्पष्ट प",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/volodimeer-rubel.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-20T15:25:57+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042066/in-a-45-minute-conversation-rubio-told-zelensky-trump-is-angry-with-ukraine-but-the-assistance-has-not-stopped",
+      "category": "national"
+    },
+    {
+      "title": "लिग–२ मा छैटौं स्थान हासिल गर्दै स्वदेश फर्कियो नेपाली क्रिकेट टिम",
+      "description": "लिग–२ मा छैटौं स्थान हासिल गर्दै नेपाली क्रिकेट टिम मंगलबार स्वदेश फर्किएको छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-20T15:12:42+00:00",
+      "articleUrl": "https://www.setopati.com/sports/cricket/401148",
+      "category": "national"
+    },
+    {
+      "title": "चार दिनमै फेरि कारागारमा",
+      "description": "उनी कारागारबाट भागेको चार दिनमै फेरि कारागारमै पुगेका छन् ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-10-20T15:10:40+00:00",
+      "articleUrl": "https://nepallive.com/story/352193",
+      "category": "national"
+    },
+    {
+      "title": "नेपाली क्रिकेट टोली स्वदेश फर्कियो",
+      "description": "काठमाडौँ।आईसीसी विश्वकप लिग–२ अन्तर्गतको शृङ्खला खेलेर नेपाली राष्ट्रिय पुरुष क्रिकेट टोली स्वदेश फर्किएको छ। ओमानमा सम्पन्न एकदिवसीय अन्तर्राष्ट्रिय शृङ्खलामा सहभागी भएर नेपाली टोली आज बेलुका त्रिभुवन अन्तर्राष्ट्रिय विमानस्थलमा आइपुगेको हो । टोलीलाई विमानस्थलमा नेपाल क्रिकेट संघ (क्यान) का प्रतिनिधिहरूले स्वागत गरेका थिए । लिग–२ को अन्तिम शृङ्खलामा नेपालले",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-20T15:05:46+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/20/nepali-cricket-team-returns-home/",
+      "category": "business"
+    },
+    {
+      "title": "कप्तान सन्दीपले भने : ओडीआई स्टाटस रिटेन गर्न पाउँदा खुसी छौं",
+      "description": "३ कात्तिक, काठमाडौं । नेपाली राष्ट्रिय क्रिकेट टोलीका कप्तान सन्दीप लामिछानेले एकदिवसीय अन्तर्राष्ट्रिय (ओडीआई) मान्यता जोगाउन सफल हुँदा खुसी लागेको बताएका छन् । मंगलबार साँझ स्वदेश फर्किएका उनले विमानस्थलमा सञ्चारकर्मीसँग कुरा गर्दै आगामी लिग २ चक्रमा अझ राम्रो प्रदर्शन गर्ने बताए । आईसीसीको आधिकारिक धारणा आउन बाँकी रहेपनि सन्दीपको भनाइअनुसार नेपालको ओडीआई ",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-20T15:04:10+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042065/captain-sandeep-said-we-are-happy-to-retain-odi-status",
+      "category": "national"
+    },
+    {
+      "title": "आफ्नो बिहेबारे रश्मिका मन्दाना र विजय देवरकोन्डाले गरे रोचक खुलासा",
+      "description": "दक्षिण भारतीय अभिनेता विजय देवरकोन्डाले अभिनेत्री रश्मिका मन्दानालाई विवाहको प्रस्ताव राख्दाको रोचक प्रसंग सार्वजनिक गरेका छन्।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-20T15:04:00+00:00",
+      "articleUrl": "https://www.setopati.com/art/bollywood/401147",
+      "category": "national"
+    },
+    {
+      "title": "राष्ट्रपति पौडेलले गुरू पुरोहितबाट टीका ग्रहण गर्ने",
+      "description": "काठमाडौँ। राष्ट्रपति रामचन्द्र पौडेलले विजया दशमीमा शुभसाइतमा गुरु पुरोहितबाट टीका जमरा ग्रहण गर्नेछन् । शीतल निवासस्थिति राष्ट्रपति कार्यालयमा राष्ट्रपति पौडेलले विजया दशमीको बुधबार बिहान शुभ साइत १०ः२६ मिनेटमा गुरू पुरोहितबाट टीका, जमरा र आशीर्वाद ग्रहण गर्ने",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/01-president-ramchandra-poudel-naxal-bhagwati-mandir_npl-12_aOriYE8t2W.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-20T14:54:16+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600686/president-poudel-to-receive-tika-from-guru-purohit",
+      "category": "politics"
+    },
+    {
+      "title": "लिग २ को अन्तिम शृङ्खला खेलेर नेपाली क्रिकेट टोली स्वदेश फर्कियो",
+      "description": "३ कात्तिक, काठमाडौं । आईसीसी क्रिकेट विश्वकप लिग २ अन्तर्गत ओमानमा भएको आफ्नो अन्तिम शृङ्खला खेलेर नेपाली क्रिकेट टोली स्वदेश फर्किएको छ । नेपाली टोली मंगलबार बेलुकी काठमाडौं आइपुगेको हो । टोलीलाई क्यानका तर्फबाट राजेश महर्जन, खेमराज अवस्थीलगायतले स्वागत गरे । नेपालले ओमान र क्यानडासँग भएको उक्त शृङ्खलाका ४ मध्ये ३ खेल जितेको थियो । […]",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-20T14:48:13+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042062/nepali-cricket-team-returns-home-after-playing-final-series-of-league-2",
+      "category": "national"
+    },
+    {
+      "title": "दसैंको खुसी बोकेर घर फिर्ती (तस्वीरहरू)",
+      "description": "परदेशको कमाइ बोकेर घर फर्किने धेरै नेपालीका लागि नयाँ लुगा, मीठोमसिनो र टीका–जमरामा मात्र सीमित छैन । परिवारसँगै बसेर केही दिन भए पनि दु:ख बिर्सन पाउनु ठूलो कुरा हो ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Gadda-chauki-naka-dashain-6.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-20T14:23:39+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041993/returning-home-with-the-joy-of-dashain-photos",
+      "category": "national"
+    },
     {
       "title": "कोरियाबाट फर्किएर डेरी उद्योग, अहिले विदेशमा दुग्धजन्य उत्पादन निर्यात",
       "description": "बुटवल । दक्षिण कोरियामा करिब ६ वर्ष आकर्षक रोजगारी गरेका कपिलवस्तुका थानेश्वर न्यौपानेले विदेशको कमाइ र सुविधासम्पन्न जीवन त्यागेर स्वदेशमै उद्यम सुरु गरे । बुवाले सञ्चालन गरेको सामान्य डेरी व्यवसायलाई आधुनिक र व्यवस्थित बनाउने लक्ष्यसहित",
@@ -160,16 +440,6 @@
       "sourceName": "गोरखापत्र",
       "publishedTime": "2026-10-20T13:29:36+00:00",
       "articleUrl": "https://gorkhapatraonline.com/news/226835",
-      "category": "national"
-    },
-    {
-      "title": "दसैँको उपहार : भूमिहीनलाई जग्गाधनी प्रमाणपुर्जा",
-      "description": "चितवन । दसैँको मुखमा चितवनको इच्छाकामना गाउँपालिका–७ का भूमिहीनले आफ्नै नाममा जग्गाधनी प्रमाणपुर्जा पाएपछि उनीहरूको खुसीको सीमा रहेन । वर्षौंदेखि आफू बसोबास गर्दै आएको जमिनबाट कतै हट्नुपर्ने हो कि भन्ने चिन्ता बोकेर जीवन बिताएका उनीहरूका",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/iwoqrOvHsR.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-20T13:26:44+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600683/article-dashain-gift-landownership-certificate-for-the-landless",
       "category": "national"
     },
     {
@@ -333,6 +603,16 @@
       "category": "politics"
     },
     {
+      "title": "भारतको अपार्टमेन्टमा भेटिएको ओराङउटान इन्डोनेसिया फर्कियो, अब 'जंगल स्कुल' जाने",
+      "description": "उद्धार हुँदा यो ओराङउटान करिब १८ महिनाको मानिएको थियो। उद्धारपछि नागपुरको गोरेवाडा चिडियाखानामा राखिएको थियो।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-20T12:44:00+00:00",
+      "articleUrl": "https://www.setopati.com/social/401131",
+      "category": "national"
+    },
+    {
       "title": "दशैंमा काठमाडौं उपत्यकाभित्र नेपाल प्रहरीको निःशुल्क बस सेवा",
       "description": "काठमाडौं । बडादशैंको अवसरमा काठमाडौं उपत्यकामा आम नागरिकको सुविधा र सहज आवागमनका लागि नेपाल प्रहरीले निःशुल्क बस सेवा सञ्चालन गरेको छ । प्रहरीले दशैंमा यात्रुको सहजताका लागि उपत्यकाका तीन रूटमा आज कात्तिक ३ र भोलि ४ गते निःशुल्क बस सञ्चालन गरेको हो । रूट नम्बर १ नक्सालबाट सुरू भई बालुवाटार, टिचिङ, चक्रपथ, नयाँ बसपार्क, बालाजु, […]",
       "imageUrl": "",
@@ -460,16 +740,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-10-20T12:26:44+00:00",
       "articleUrl": "https://www.ratopati.com/story/600670/dravi-shahs-journey-from-the-vijayadashami-race-to-the-gorkha-kingdom",
-      "category": "national"
-    },
-    {
-      "title": "दसैंको खुसी बोकेर घर फिर्ती (तस्वीरहरू)",
-      "description": "परदेशको कमाइ बोकेर घर फर्किने धेरै नेपालीका लागि नयाँ लुगा, मीठोमसिनो र टीका–जमरामा मात्र सीमित छैन । परिवारसँगै बसेर केही दिन भए पनि दु:ख बिर्सन पाउनु ठूलो कुरा हो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Gadda-chauki-naka-dashain-6.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-20T12:23:39+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041993/returning-home-with-the-joy-of-dashain-photos",
       "category": "national"
     },
     {
@@ -730,16 +1000,6 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-20T11:44:10+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2041978/dhading-police-urge-people-not-to-move-suspicious-objects-along-the-banks-of-the-trishuli-river",
-      "category": "national"
-    },
-    {
-      "title": "भारतको अपार्टमेन्टमा भेटिएको ओराङउटान इन्डोनेसिया फर्कियो, अब 'जंगल स्कुल' जाने",
-      "description": "उद्धार हुँदा यो ओराङउटान करिब १८ महिनाको मानिएको थियो। उद्धारपछि नागपुरको गोरेवाडा चिडियाखानामा राखिएको थियो।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-20T11:44:00+00:00",
-      "articleUrl": "https://www.setopati.com/social/401131",
       "category": "national"
     },
     {
@@ -4760,266 +5020,6 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-19T06:21:59+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2041395/will-sudurpaschim-who-were-runners-up-in-two-seasons-become-champions-in-the-third-season",
-      "category": "national"
-    },
-    {
-      "title": "नारायणगढको ट्राफिक लाइटको तार चोरी, परीक्षण प्रभावित",
-      "description": "२ कात्तिक, चितवन । चितवनको नारायणगढ बजारस्थित शहीदचोकमा हालै जडान गरिएका ट्राफिक लाइटको केबल (तार) काटेर चोरी भएको छ । तार चोरी भएपछि ट्राफिक लाइटको परीक्षण कार्य प्रभावित भएको छ । केबल चोरी भएपछि ट्राफिक लाइट जडान गर्ने कम्पनीले प्रहरीमा उजुरी दिएको छ । नारायणगढको मुख्य चोकमै केबल काटेर चोरी गर्नेहरूको खोजी भइरहेको प्रहरीले जनाएको […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Traffic-light-bharatpur.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-19T06:12:48+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041458/traffic-light-wires-stolen-in-narayangadh-testing-affected",
-      "category": "national"
-    },
-    {
-      "title": "कर्णाली याक्सको इन्सोरेन्स पार्टनरमा नेशनल लाइफ",
-      "description": "",
-      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/att.wMzuR3WdI8zqCaiq2YhRbLEQzMC5KZHLBPPUdKIt4hQ-1792390209.jpeg",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-10-19T06:10:33+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/175171",
-      "category": "sports"
-    },
-    {
-      "title": "ट्रम्पविरुद्ध ओबामाले जारी गरेको विज्ञप्तिमा के छ ?",
-      "description": "२ कात्तिक, काठमाडौं । पूर्व अमेरिकी राष्ट्रपति बराक ओबामाले डेमोक्र्याट सांसद इल्हान ओमारविरुद्ध ट्रम्प प्रशासनले अगाडि बढाएको कानुनी कारबाहीको कडा शब्दमा भर्त्सना गरेका छन् । मिनेसुटाबाट प्रतिनिधित्व गर्ने सांसद ओमारमाथि दशकौँ अगाडि अमेरिकी नागरिकता प्राप्त गर्दा फर्जी कागजात पेस गरेको आशङ्कामा भइरहेको छानबिनलाई ओबामाले राजनीतिक प्रतिशोध र धम्कीको पराकाष्ठा",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Obama-and-Trum.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-19T06:04:58+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041455/what-is-in-obamas-statement-against-trump",
-      "category": "national"
-    },
-    {
-      "title": "बढ्यो सुनको भाउ, तोलाको कति ?",
-      "description": "सोमबार छापावाल सुनको भाउ तोलामा ५ सय रुपैयाँ बढेको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2025/06/gold-image-generatad-by-ai.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-19T06:00:29+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041453/the-price-of-gold-has-increased-how-much-is-it-per-tola-4",
-      "category": "business"
-    },
-    {
-      "title": "बमको धम्कीपछि अस्ट्रियन एयरलाइन्सको जहाज बुल्गेरियामा आकस्मिक अवतरण",
-      "description": "२ कात्तिक, काठमाडौं । इजरायलको तेल अभिभबाट अस्ट्रियाको भियना जाँदै गरेको अस्ट्रियन एयरलाइन्सको जहाज बुल्गेरियामा आकस्मिक अवतरण गरिएको छ । बम राखिएको धम्कीपूर्ण फोन आएपछि जहाजलाई बुल्गेरियाको सोफियामा अवतरण गराइएको हो । इजरायली पत्रिका ‘हारेट्ज’ले यो समाचार सार्वजनिक गरेको छ । अस्ट्रियाका एक नागरिकले वायुसेवा कम्पनीलाई सो खतराको सूचना दिएका थिए । ती नागरिक भन",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2018/07/Plane-Flight.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-19T05:52:09+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041450/austrian-airlines-plane-makes-emergency-landing-in-bulgaria-after-bomb-threat",
-      "category": "national"
-    },
-    {
-      "title": "न्युयोर्कमा आप्रवासन अधिकारीको गोलीकाण्डपछि डेमोक्रेटिक पार्टीभित्र चाखलाग्दो एकता",
-      "description": "२ कात्तिक, काठमाडौं । न्युयोर्क सिटीमा गत अक्टोबरमा संघीय आप्रवासन अधिकारीहरू (आईसीई) ले गरेको गोलीबारीको घटनाले डेमोक्रेटिक पार्टीभित्र दुर्लभ र चाखलाग्दो राजनीतिक एकता कायम गराएको छ। पार्टीको मध्यमार्गी (इस्टाब्लिस्मन्ट) र प्रगतिशील प्रोग्रेसिव) दुवै धारका शीर्ष नेताहरू डेमोक्रेटिक हाउस लिडर (संसदीय दलका नेता) हाकिम जेफ्रीज र न्युयोर्कका मेयर जोहरान मामदान",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Democratic-House-Leader-Jeffries-and-Mayor-Mamdani.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-19T05:33:11+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041441/interesting-unity-within-the-democratic-party-after-the-shooting-of-an-immigration-officer-in-new-york",
-      "category": "politics"
-    },
-    {
-      "title": "भेरी-बबई डाइभर्सन आयोजना २ वर्षभित्र पूरा गर्ने नयाँ लक्ष्य",
-      "description": "तीन वर्षभित्र सम्पन्न गर्ने लक्ष्यसहित आयोजनाको निर्माण आर्थिक वर्ष २०६८/६९ देखि सुरु भएको थियो । हालसम्म आयोजनाको भौतिक प्रगति ७० प्रतिशत र वित्तीय प्रगति ६७ प्रतिशत छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Bheri-Babai-diversion-multipurpose-project-1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-19T05:14:05+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041433/new-target-to-complete-bheri-babai-diversion-project-within-2-years",
-      "category": "national"
-    },
-    {
-      "title": "ओमानविरुद्ध टस जितेर ब्याटिङ गर्दै नेपाल, अर्जुनको ठाउँमा देव खेल्दै",
-      "description": "२ कात्तिक, काठमाडौं । आईसीसी क्रिकेट विश्वकप लिग २ अन्तर्गत ओमानमा भइरहेको ओडीआई शृङ्खलाको अन्तिम खेलमा नेपालले ओमानविरुद्ध टस जितेको छ । ओमान क्रिकेट एकेडेमी टर्फ १ मा अपरान्ह सवा ११ बजेदेखि सुरु हुने खेलमा कप्तान सन्दीप लामिछानेले टस जितेर पहिले ब्याटिङ गर्ने निर्णय गरेका हुन् । नेपालले आजको खेलमा एक परिवर्तन गरेको छ । […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/nep-can.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-19T05:10:57+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041431/nepal-wins-toss-and-elects-to-bat-against-oman-arjun-kumal-on-bench",
-      "category": "national"
-    },
-    {
-      "title": "‘कहाँ पाउँला, ऋण गरूँला’ भन्ने दशैं अर्थशास्त्र: रमाइलो माहोलबीत लुकेको आर्थिक दबाब",
-      "description": "‘दसैं आयो, खाउँला पिउँला,कहाँ पाउँला, चोरी ल्याउँला,धत् पापी, म त छुट्टै बसौंला !’ बाल्यकालमा दसैं नजिकिँदै गर्दा रमाइलो गर्दै गाइने यो पंक्ति उमेर बढ्दै जाँदा भने फरक अर्थमा सुनिँदै जाने रहेछ । समयसँगै समाजले पनि यसलाई आफ्नै ढंगले व्यंग्य गर्दै जाने रहेछ ‘दसैं आयो खाउँला पिउँला, कहाँ पाउँला, ऋण तिरुँला ।’ सुन्दा सामान्य ठट्टाजस्तो लागे […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-19T05:09:44+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/500684.html",
-      "category": "business"
-    },
-    {
-      "title": "कालीमाटी बजारमा आज कुन तरकारीको मूल्य कति ?",
-      "description": "काठमाडौँ । कालीमाटी फलफूल तथा तरकारी बजार विकास समितिले सोमबारका लागि कृषि उपजको थोक मूल्य सार्वजनिक गरेको छ । जसअनुसार आज गोलभेडा सानो (टनेल) प्रतिकिलो अधिकतम १२० रुपैयाँसम्म पुगेको छ । समितिका अनुसार गोलभेडा ठूलो (भारतीय)",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/03-kalimati-fruit-and-vegetables-market_-506_wuYIUt4FRX.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-19T05:02:50+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600488/what-is-the-price-of-which-vegetables-in-kalimati-market-today",
-      "category": "national"
-    },
-    {
-      "title": "पुटिनद्वारा ट्रम्प र सीसँग त्रिपक्षीय वार्ताको प्रस्ताव",
-      "description": "रुस । रुसी राष्ट्रपति भ्लादिमिर पुटिनले युक्रेन युद्ध अन्त्यका लागि छलफल गर्न आगामी महिना अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प र चिनियाँ राष्ट्रपति सी जिनपिङसँग त्रिपक्षीय शिखर सम्मेलन गर्ने प्रस्ताव गरेका छन् । प्रस्तावित वार्तामा युक्रेन र",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/trump-putin-xi_amHPniA0Q4.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-19T04:58:05+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600487/putin-proposes-trilateral-talks-with-trump-and-xi",
-      "category": "national"
-    },
-    {
-      "title": "श्रीमुक्तिनाथ रथयात्रा: मेची-महाकाली जोड्ने महाअभियान कात्तिक ८ देखि",
-      "description": "काठमाडौँ । वैदिक सनातन धर्मको जगेर्ना, आध्यात्मिक चेतनाको विस्तार र राष्ट्रिय धार्मिक तथा सांस्कृतिक एकताको सन्देशसहित यही कात्तिक ८ गतेदेखि ३० गतेसम्म मेची–महाकाली राष्ट्रव्यापी श्रीमुक्तिनाथ रथयात्रा– २०८३ सञ्चालन हुने भएको छ । मुक्तिनाथपीठाधीश्वर स्वामी कमलनयनाचार्य श्रीजी महाराज (मुक्तिनाथ बाबा)को सत्सङ्कल्पअनुसार आयोजना हुँदै आएको यस रथयात्राले पूर्वदेख",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-19T04:55:04+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/19/shrimuktinath-rath-yatra-a-grand-campaign-connecting-mechi-and-mahakali-from-kartik-8/",
-      "category": "business"
-    },
-    {
-      "title": "पिङ संस्कृति जोगाउन युवाहरुको पहल",
-      "description": "अमरराज नहर्कीतनहुँ, कात्तिक २ गते । दसैँ र तिहारमा गाउँघरमा पिङ हाल्ने र खेल्ने परम्परा हराउँदै जान थालेपछि तनहुँका युवाहरू यसको संरक्षणमा जुटेका छन् । नयाँ पुस्तालाई मौलिक संस्कृत...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/388645/conversions/ping-123-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-19T04:51:50+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/227064",
-      "category": "national"
-    },
-    {
-      "title": "हिमाली क्षेत्रका साझा चुनौती सम्बोधन गर्न नेपाल, भुटान र भारतका याकपालक एकजुट",
-      "description": "काठमाडौँ । नेपाल, भुटान र भारतका याक तथा चौँरी कृषकले यही असोज ६ गते भुटानको ‘नवौँ रोयल हाइल्यान्ड महोत्सव’मा हिमालय याक पालकको सञ्जाल औपचारिक रूपमा सुरु गर्दैछन् । यो सञ्जाल हिमालयका याक कृषक समुदायमा मात्र केन्द्रित",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/yak-chauri_69lv22F5UG.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-19T04:49:37+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600486/yak-herders-from-nepal-bhutan-and-india-unite-to-address-common-challenges-in-the-himalayan-region",
-      "category": "national"
-    },
-    {
-      "title": "सियोधागोः संघर्षमा फुलेको जीवनको कथा",
-      "description": "‘सियोधागो’ नेपाली समाजको कथामात्र होइन, एउटा परिवारको कथा पनि हो । तर त्यो परिवारको कथा पनि समाजका मूल्यमान्यतासँग प्रत्यक्ष रूपमा जोडिएको छ ।",
-      "imageUrl": "https://www.himalkhabar.com/uploads/posts/Bhanu-bokhim4-1792039422.jpg",
-      "sourceLogo": "https://himalKhabar.com/favicon.ico",
-      "sourceName": "हिमालखबर",
-      "publishedTime": "2026-10-19T04:41:00+00:00",
-      "articleUrl": "https://www.himalkhabar.com/144995",
-      "category": "national"
-    },
-    {
-      "title": "रूसलाई वार्ताबाट टाढिन दिने कदम चाल्दिनँ : ट्रम्प",
-      "description": "काठमाडौं । अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पले रुस र युक्रेनबीच जारी युद्ध अन्त्य गर्न शान्ति वार्ताको प्रयास गरिरहेको बताएका छन् । उनले रुसलाई वार्ताबाट टाढिन बाध्य पार्ने कुनै कदम चाल्न नचाहेको बताएका हुन् । ट्रम्पले सोमबार आफ्नो",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/trump_wnQdMlHwQi.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-19T04:36:54+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600484/i-will-not-take-steps-to-keep-russia-out-of-talks-trump",
-      "category": "national"
-    },
-    {
-      "title": "बेनी–दरवाङको फापरखेत वैकल्पिक सडक सञ्चालनमा",
-      "description": "ठाकुरप्रसाद आचार्य म्याग्दी(बेनी) कात्तिक २ गते । सुख्खा पहिरोले अवरुद्ध बनेको म्याग्दीको पश्चिमी भेगका तीनवटा स्थानीय तहलाई जिल्ला सदरमुकाम बेनी बजारसँग जोड्ने बेनी–दरवाङ सडकको फा...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/388644/conversions/sadak-bikalpa-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-19T04:33:39+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/227063",
-      "category": "national"
-    },
-    {
-      "title": "विश्वकप लिग–२ : ओमानविरुद्ध नेपाललाई जित्नैपर्ने दबाब",
-      "description": "काठमाडौँ ।आईसीसी क्रिकेट विश्वकप लिग–२ अन्तर्गत एकदिवसीय अन्तर्राष्ट्रिय (ओडीआई) शृङ्खलाको अन्तिम खेलमा नेपालले आज घरेलु टोली ओमानसँग प्रतिस्पर्धा गर्दैछ। शीर्ष ६ मा रहँदै ओडीआई मान्यता जोगाउने लक्ष्यमा रहेको नेपालका लागि यो खेल निकै महत्त्वपूर्ण बनेको छ। ओमानको अल अमेरतस्थित क्रिकेट ग्राउन्ड (मिनिस्ट्री टर्फ–१) मा हुने खेल नेपाली समयअनुसार बिहान ११:१५ बजे स",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-19T04:33:26+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/19/world-cup-league-2-nepal-under-pressure-to-win-against-oman/",
-      "category": "business"
-    },
-    {
-      "title": "विश्वकप लिग–२ शृङ्खलाः नेपालले आज ओमानविरुद्ध खेल्दै",
-      "description": "आइसिसी क्रिकेट विश्वकप लिग–२ शृङ्खलाअन्तर्गत नेपालले आफ्नो अन्तिम खेलमा घरेलु टोली ओमानसँग प्रतिस्पर्धा गर्दैछ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-19T04:33:13+00:00",
-      "articleUrl": "https://www.setopati.com/sports/cricket/401095",
-      "category": "national"
-    },
-    {
-      "title": "बमको धम्कीपछि इजरायलबाट अस्ट्रिया जाँदै गरेको विमान बुल्गेरियामा आकस्मिक अवतरण",
-      "description": "काठमाडौं । बम राखिएको धम्की आएपछि इजरायलबाट अस्ट्रिया जाँदै गरेको अस्ट्रियन एयरलाइन्सको विमान बुल्गेरियामा आकस्मिक अवतरण गरिएको छ । आइतबार राति तेल अभिभबाट भियनातर्फ उडेको एयरबस ए३२० विमान बुल्गेरियाको राजधानी सोफियामा अवतरण गरिएको बुल्गेरियाको यातायात मन्त्रालयले",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/austrian_VoeJN1o2G6.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-19T04:28:35+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600482/flight-from-israel-to-austria-makes-emergency-landing-in-bulgaria-after-bomb-threat",
-      "category": "national"
-    },
-    {
-      "title": "विश्वकप लिग–२ शृंखला : नेपालले आज ओमानविरुद्ध खेल्दै, यसकारण महत्वपूर्ण छ यो खेल",
-      "description": "काठमाडौं । आईसीसी क्रिकेट विश्वकप लिग–२ शृंखलाअन्तर्गत नेपालले आफ्नो अन्तिम खेलमा घरेलु टोली ओमानसँग प्रतिस्पर्धा गर्दैछ । खेल ओमानको अलअमरात क्रिकेट मैदानमा आज बिहान ११ः१५ बजे सुरु हुनेछ । नेपालका लागि यो खेल महत्वपूर्ण छ । ओमानलाई पराजित गर्नसके नेपालले लिग–२ को शीर्ष छ स्थान सुरक्षित गर्दै सोझै एकदिवसीय अन्तरराष्ट्रिय मान्यता जोगाउन सफल हुनेछ । […] The po",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-19T04:28:00+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/150342/",
-      "category": "national"
-    },
-    {
-      "title": "लुला र बोल्सोनारोबीच चुनावी बहस हुँदै",
-      "description": "रियो डी जेनेरियो । ब्राजिलमा राष्ट्रपति निर्वाचनको प्रतिस्पर्धा तीव्र भइरहेका बेला वामपन्थी राष्ट्रपति लुइज इनासिओ लुला दा सिल्भा र दक्षिणपन्थी सिनेटर फ्लेभियो बोल्सोनारो आइतबार पहिलो टेलिभिजन बहसमा आमनेसामने हुँदै छन् । अर्थतन्त्र, भ्रष्टाचार र सुरक्षा प्रमुख चुनावी मुद्दा बनेका छन् । पूर्व राष्ट्रपति जायर बोल्सोनारोका ४५ वर्षीय छोरा फ्लेभियोले पहिलो चरणको ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-19T04:24:54+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/19/election-debate-underway-between-lula-and-bolsonaro/",
-      "category": "business"
-    },
-    {
-      "title": "एसियन पारा खेलकुद : स्वीमिङका हर्कमान घर्ती फाइनलमा",
-      "description": "२ कात्तिक, काठमाडौं । नेपाली पारा पौडी खेलाडी हर्कमान घर्ती जापानमा जारी आइची–नागोया २०२६ एसियन पारा खेलकुदको पुरुष ५० मिटर फ्रिस्टाइल एस–५ स्पर्धाको फाइनलमा प्रवेश गरेका छन् । राष्ट्रिय पारा पौडी संघ नेपाल (एनपीएसएएन) का अनुसार हर्कमानले हिट्स चरण पार गर्दै फाइनलमा स्थान बनाएका हुन् । एसियन पारा खेलकुदको यस स्तरमा फाइनल पुग्ने उनी पहिलो […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/harkaman-gharti.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-19T04:24:32+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041426/asian-para-games-swimmings-harkaman-gharti-in-the-final",
-      "category": "national"
-    },
-    {
-      "title": "राखी सावन्तलाई पक्राउ गरी अदालत उपस्थित गराउन आदेश",
-      "description": "झाँसी । बलिउड अभिनेत्री राखी सावन्तविरुद्ध झाँसी अदालतले शनिबार गैरजमानती वारेन्ट (एनबीडब्ल्यू) जारी गरेको छ। १६ वर्षअघि ‘राखी का इन्साफ’ नामक टेलिभिजन शोका क्रममा झाँसीका २४ वर्षीय लक्ष्मणप्रसाद अहिरवारलाई अपमानित गरेको र त्यसपछि उनले आत्महत्या गरेको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/rakhi-sawant_DFoi6zDWtt.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-19T04:17:54+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600480/order-to-arrest-rakhi-sawant-and-produce-her-in-court",
-      "category": "national"
-    },
-    {
-      "title": "शरद ऋतुमा बगैँचा सफा गर्दा के राख्ने, के हटाउने ?",
-      "description": "न्युयोर्क । शरद ऋतुमा बगैँचा सफा गर्दा सबै बिरुवा काटेर हटाउनु आवश्यक छैन । केही बारहमासी बिरुवालाई जाडोभरि उभिएकै अवस्थामा छोड्दा चराचुरुंगी र लाभदायक कीराले खाना तथा आश्रय पाउँछन् भने केही बिरुवा काटेर हटाउँदा रोग र कीराको प्रकोपबाट जोगाउन सकिन्छ । त्यसैले कुन बिरुवा राख्ने र कुन हटाउने भन्ने सही निर्णयले बगैँचाको स्वास्थ्य, रोग नियन्त्रण […] The post शरद ",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-19T04:17:43+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/150340/",
-      "category": "national"
-    },
-    {
-      "title": "दसैं मनाउन फर्किए मानिस, सुनसान देखियो काठमाडौंको सडक (तस्बिरहरू)",
-      "description": "दसैंको आठौं दिन काठमाडौंका सडकमा सवारीसाधनको चाप घटेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-19T04:16:48+00:00",
-      "articleUrl": "https://www.setopati.com/social/401093",
       "category": "national"
     }
   ]
