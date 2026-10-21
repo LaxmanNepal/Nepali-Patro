@@ -1,13 +1,17 @@
 {
-  "updatedAt": "2026-10-21T14:37:07.433820+00:00",
-  "lastSuccessfulUpdate": "2026-10-21T14:37:07.433820+00:00",
-  "newestPublishedTime": "2026-10-21T14:33:00+00:00",
+  "updatedAt": "2026-10-21T18:53:08.953846+00:00",
+  "lastSuccessfulUpdate": "2026-10-21T18:53:08.953846+00:00",
+  "newestPublishedTime": "2026-10-21T17:04:46+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 31,
-  "failedFeeds": 3,
+  "successfulFeeds": 30,
+  "failedFeeds": 4,
   "failedFeedDetails": [
+    {
+      "url": "https://gorkhapatraonline.com/rss",
+      "error": "URLError: <urlopen error timed out>"
+    },
     {
       "url": "https://pahilopost.com/feed",
       "error": "HTTPError: HTTP Error 503: Service Unavailable"
@@ -22,6 +26,176 @@
     }
   ],
   "items": [
+    {
+      "title": "मैथिल परम्पराको रावण वध उत्सव सम्पन्न",
+      "description": "महोत्तरी । शारदीय दशहरा अर्थात् विजया दशमीका दिन मिथिलामा मनाइने रावण वध उत्सव मटिहानीसहित महोत्तरीका कैयौँ ठाउँमा आज (बुधबार) साँझ सम्पन्न भएको छ । त्रेता युगमा असोज शुक्ल दशमीका दिन मर्यादा पुरुष्वत्तम श्रीरामले युद्धमा रावणको वध",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/3u6FsFq6uO.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-21T17:04:46+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600775/maithili-traditions-ravana-killing-festival-concludes",
+      "category": "national"
+    },
+    {
+      "title": "इन्जिनियर लामिछानेको गाई–भैँसी पालनबाट मासिक १५ लाख आम्दानी",
+      "description": "काठमाडौँ । मेहनत र लगनशील भएर जुनसुकै व्यवसाय अँगाले पनि सफल भइन्छ भन्ने उदाहरण बनेका छन् गोरखाका इन्जिनियर कुमार लामिछाने । काठमाडौँ नागार्जुन नगरपालिका–६ रामकोट, डाँडापौवामा गाई तथा भैँसी पालन गरी मासिक रु १५ लाख आम्दानी",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/buffalo_O1KaODPW1S.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-21T17:00:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600773/engineer-lamichhane-earns-rs-15-million-per-month-from-cattle-and-buffalo-farming",
+      "category": "national"
+    },
+    {
+      "title": "पाटन दरबार सङ्ग्राहलयको मूलचोकमा ठेचो (थेच्व)को नवदुर्गा नाच प्रदर्शन",
+      "description": "ललितपुर । पाटन दरबार सङ्ग्राहलयको मूलचोकमा ठेचो (थेच्व)को नवदुर्गा नाच प्रदर्शन गरिएको छ । विजयादशमीको दिन र कोजाग्रत पूर्णिमा गरी दसैँमा दुई पटक मङ्गलबजारमा नवदुर्गा नाच देखाउने परम्परा छ । नाच प्रदर्शन गर्न थेच्वस्थित देवता घरबाट",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/patan-durbar-square_00001_0GsO0AO713.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-21T16:41:28+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600774/navadurga-dance-performance-by-thecho-thechwa-at-the-main-square-of-patan-durbar-square",
+      "category": "national"
+    },
+    {
+      "title": "जापानमा दुर्लभ खनिज ‘इट्रियम’को आपूर्ति ठप्प, मौज्दात केही महिनालाई मात्र",
+      "description": "काठमाडौँ । दुर्लभ माटो तत्व इट्रियमको विश्वव्यापी आपूर्ति ठप्प हुँदा जापानमा यसको अभाव गहिरिने चिन्ता बढेको छ । जापानी अधिकारीका अनुसार, आपूर्ति र मागबिच ठुलो असन्तुलन देखिएको छ भने उपलब्ध मौज्दात केही महिनाका लागि मात्र पर्याप्त",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/japan-flag_oWyw1TfBPb.png",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-21T16:30:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600772/supply-of-rare-mineral-yttrium-halted-in-japan-stock-only-lasts-for-a-few-months",
+      "category": "national"
+    },
+    {
+      "title": "यू–१९ महिला विश्वकपमा नेपाल समूह ‘ए’मा",
+      "description": "काठमाडौं । नेपालले बङ्गलादेशसँग संयुक्त रूपमा आयोजना गर्न लागेको आईसीसी यू–१९ महिला टी–२० विश्वकप क्रिकेटका १५ खेल नेपाली मैदानमा सञ्चालन हुने भएका छन् । अन्तरराष्ट्रिय क्रिकेट परिषद् (आईसीसी) ले बुधबार सार्वजनिक गरेको खेल तालिकामा प्रतियोगिताका कुल ४१ खेलमध्ये १५ खेल नेपालमा राखिएका हुन् । नेपालमा हुने खेल त्रिभुवन विश्वविद्यालय (त्रिवि) क्रिकेट मैदान र मुल",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-21T16:25:44+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/21/nepal-in-group-a-at-u-19-womens-world-cup/",
+      "category": "business"
+    },
+    {
+      "title": "ट्रम्पको प्रशासन विदेशीप्रति कठोर, ३ लाखभन्दा बढी अमेरिकी भिसा रद्द",
+      "description": "कानुन उल्लङ्घन, ठगी र राष्ट्रिय सुरक्षामा खतरा उत्पन्न गर्ने गतिविधिमा संलग्न विदेशी नागरिकमाथि कडा कारबाही गरिरहेको अमेरिकी सरकारको दाबी छ ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-10-21T16:20:53+00:00",
+      "articleUrl": "https://nepallive.com/story/352204",
+      "category": "national"
+    },
+    {
+      "title": "१० बजे १० समाचार : दसैँको पहिलो दिन यस्ता छन् आजका प्रमुख समाचार",
+      "description": "१. स्वदेशी उत्पादन, जसले तोड्दैछन् विदेशी ब्रान्डको दबदबा कुनै समय नेपाली बजारमा सुईदेखि सुनसम्म र लत्ताकपडादेखि खाद्यान्नसम्म विदेशी उत्पादनकै एकछत्र राज चल्ने गथ्र्यो । ‘विदेशी ब्रान्ड’ भन्नासाथ आँखा चिम्लिएर विश्वास गर्ने र स्वदेशी उत्पादनलाई कमसल वा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/12-news_V5fqHQHzhh.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-21T16:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600770/10-news-at-10-first-day-of-dashain-here-are-todays-top-news-stories",
+      "category": "national"
+    },
+    {
+      "title": "घोडेपानीमा पर्यटकले पनि मनाए दसैँ",
+      "description": "म्याग्दी । म्याग्दीको अन्नपूर्ण गाउँपालिका–६ मा रहेको पर्यटकीय स्थल घोडेपानी–पुनहिल भ्रमणमा आएका विदेशी पर्यटकहरूले पनि बुधबार टिका र जमरा लगाएर बडादसैँ पर्व मनाएका छन् । नेपालीको महान् पर्व बडादसैँका अवसरमा विदेशी पर्यटकले घोडेपानीस्थित होटल सन्नीमा नेपाली परम्पराअनुसार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/sFsg7kwzwt.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-21T16:03:29+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600771/tourists-also-celebrated-dashain-in-ghodepani",
+      "category": "national"
+    },
+    {
+      "title": "पुर्ख्यौली गाउँ सपहीमा पूर्वराष्ट्रपति यादवको दसैँ",
+      "description": "काठमाडौँ । प्रथम राष्ट्रपति डा रामवरण यादवले पुर्ख्यौली गाउँ धनुषाको सपही पुगेर परिवार र दाजुभाइसँगै यस वर्षको बडादसैँ मनाएका छन् । वडादसैको अवसरमा पूर्व राष्ट्रपति डा यादव यही मङगलबार धनुषाको लक्ष्मीनियाँ गाउँपालिका–४ स्थित पुर्ख्यौली गाउँ सपही",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/former-president-rambaran-yadav-768x502_aIeVbWSsjG.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-21T15:52:34+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600769/former-president-yadav-celebrates-dashain-in-his-ancestral-village-saphi",
+      "category": "politics"
+    },
+    {
+      "title": "दसैंको टीकाको दिन बाँकेको कपासीमा विद्युत् सर्ट हुंदा सात घर पूर्णरूपमा जले",
+      "description": "आगलागीबाट मानवीय तथा चौपाया क्षति नभएको प्रहरी बताउँछ ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-10-21T15:50:27+00:00",
+      "articleUrl": "https://nepallive.com/story/352203",
+      "category": "national"
+    },
+    {
+      "title": "दशैँको टीका : कतै रौनक, कतै सुनसान",
+      "description": "काठमाडौं । आज विजयादशमी । निधारमा रातो टीका र शिरमा पहेँलो जमरा सिउरिएर आफन्तको हातबाट आशीर्वाद थाप्ने दिन । घरआँगन आफन्तले भरिएका छन् । कोही टीका र जमरा लगाएर तस्बिर खिचिरहेका छन्, कोही सामाजिक सञ्जालमा खुसी साटिरहेका छन् । कतै पिङको मच्चाइ छ । धेरैका लागि दशैँ उमंग, भेटघाट र मीठोमसिनो खाने पर्व बनेको छ […]",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-21T15:40:29+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/21/dashain-tika-somewhere-lively-somewhere-deserted/",
+      "category": "business"
+    },
+    {
+      "title": "पोखरा एभेन्जर्समा बङ्गलादेशी अलराउन्डर मेहदी हसन अनुबन्धित",
+      "description": "काठमाडौं । बङ्गलादेशका अलराउन्डर मेहदी हसन नेपाल प्रिमियर लिग (एनपिएल) को तेस्रो संस्करणमा पोखरा एभेन्जर्सबाट खेल्ने भएका छन्। पोखराले आज सामाजिक सञ्जालमार्फत हसनलाई टोलीमा अनुबन्ध गरेको जनाएको हो। आइसिसीको टी–२० अन्तर्राष्ट्रिय बलिङ वरीयतामा आठौँ स्थानमा रहेका हसनले एनपिएलमा पोखराको जर्सी लगाउनेछन्। ३१ वर्षीय हसनले बङ्गलादेशका लागि ७८ टी–२० अन्तर्राष्ट्रिय ",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-21T15:29:53+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/21/bangladeshi-all-rounder-mehdi-hasan-signed-with-pokhara-avengers/",
+      "category": "business"
+    },
+    {
+      "title": "नर्वे बसेर मानसिक स्वास्थ्य अनुसन्धानमा सक्रिय डाक्टर",
+      "description": "काठमाडौं धापासीका डा. सुरजबहादुर थापाले नर्वे बसेर चिकित्सा पेसा मात्र अपनाएका छैनन्, आप्रवासन र मानसिक स्वास्थ्यलाई अनुसन्धानको प्रमुख विषय बनाएका छन् । उनले शरणार्थी, विस्थापित, युद्ध र आघातबाट प्रभावित तथा नयाँ देशमा जीवन सुरु गर्ने आप्रवासीको मानसिक स्वास्थ्यसम्बन्धी अनुसन्धान गरिरहेका छन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/dr.-suraj-bahadur-Thapa.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-21T15:01:50+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042293/a-doctor-active-in-mental-health-research-based-in-norway",
+      "category": "national"
+    },
+    {
+      "title": "पुरानो बाचाको नयाँ परीक्षा",
+      "description": "बडादसैँको टीकाका अवसरमा बिहान ७ बजेर १७ मिनेटमा (४ कात्तिक २०८३) प्रधानमन्त्री वालेन्द्र शाहले आफ्नो व्यक्तिगत फेसबुकमार्फत भ्रष्टाचार, कुशासन, प्रशासनिक ढिलासुस्ती, असमानता र राजनीतिक विकृति अन्त्य गर्न सबैलाई एकजुट हुन आह्वान गरे। उनले असत्यमाथि सत्यको विजयको प्रतीकका रूपमा मनाइने चाडलाई देशको शासन प्रणाली सुधार्ने सामूहिक सङ्कल्पसँग जोडे। भ्रष्टाचार र कुश",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-21T14:50:01+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/21/a-new-test-of-the-old-covenant/",
+      "category": "business"
+    },
+    {
+      "title": "भोटेकोशीले बगायो थातथलो, शोकले खोस्यो दसैं खुसी (तस्विरहरू)",
+      "description": "रसुवामा बाढीका कारण ३०० भन्दा बढी परिवार शोकमा छन्, आफन्त गुमाएका विस्थापितको बस्ती दसैंमा पनि सुनसान छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/rasuwagadh-badhi-dashain-banner-2.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-21T14:37:47+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042336/bhotekoshi-floods-flood-the-village-grief-takes-away-the-joy-of-dashain-photos",
+      "category": "national"
+    },
+    {
+      "title": "नेपालसँग नियमित खेल्ने यी चार टोली, जसले खेलेका छन् ओडीआई विश्वकप",
+      "description": "नेदरल्यान्ड्स, स्कटल्यान्ड, यूएई र नामिबिया- यी चारै टोली विश्वकपको मुख्य प्रतियोगिता खेलिसकेका टोली हुन् । फरक समय र फरक परिवेशमा यी टोलीहरूले विश्वकप खेलेका छन् ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/cwc-playing-teams.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-21T14:35:28+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2034871/these-four-teams-that-regularly-play-against-nepal-who-have-already-played-in-the-odi-world-cup",
+      "category": "national"
+    },
+    {
+      "title": "चार दशकदेखि नतोडिएको बैकुण्ठ मानन्धरको कीर्तिमान",
+      "description": "खेलाडीलाई प्रतियोगितामा सहभागी गराउनु मात्रै राज्यको जिम्मेवारी पूरा हुनु होइन । उनीहरूलाई नियमित प्रशिक्षण, आवश्यक पोषण, प्रतिस्पर्धाका अवसर र भविष्यप्रतिको भरोसा दिनुपर्छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Baikuntha-manandhar.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-21T14:33:15+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042232/baikuntha-manandhars-record-that-no-one-has-broken-for-four-decades",
+      "category": "national"
+    },
     {
       "title": "थिमिमा ६२ वर्षपछि जीवित देवी कुमारीको दर्शनसहित टीका ग्रहण गर्ने परम्परा पुनः सुरु",
       "description": "भक्तपुर । भक्तपुरको मध्यपुरथिमिमा ६२ वर्षपछि जीवित देवी कुमारीको दर्शन गरी टीका ग्रहण गर्ने परम्परा पुनः सुरु भएको छ। स्थानीय शाक्य, बज्राचार्य, कर्माचार्य तथा संस्कृति संरक्षणकर्मीहरूको पहलमा धार्मिक, सामाजिक एवं ऐतिहासिक महत्त्व बोकेको कुमारीको दर्शन गर्ने परम्परा ६२ वर्षपछि पुनः सुरु भएको हो। यस वर्ष मध्यपुरथिमि चपाचोकी चार वर्षीया आयुषी बज्राचार्यलाई जीव",
@@ -123,6 +297,36 @@
       "category": "national"
     },
     {
+      "title": "दसैं दक्षिणाबाटै सुरु गर्न सकिन्छ लगानी, यी हुन् उपयुक्त विकल्प",
+      "description": "आजको लगानीले नै भविष्यमा ठूलो सम्पत्ति बनाउँछ । तसर्थ, लगानीको बानी विकासका लागि पनि म्युचुअल फन्ड उपयुक्त छन् । लगानीबाट आउने प्रतिफल, त्यो सम्पत्तिको मूल्य वृद्धिजस्ता पक्षबारे बुझ्न म्युचुअल फन्डबाटै सघाउ पुग्छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2023/10/New-Note-in-envelope-Dakshina.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-21T13:47:56+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041885/investment-can-be-started-from-dashain-dakshina-these-are-the-suitable-options",
+      "category": "national"
+    },
+    {
+      "title": "डोल्पाको सुन्दरता, १२ बर्से मेलाको महिमा",
+      "description": "डोल्पाको जगदुल्ला गाउँपालिका–१ मा अवस्थित जगदुल्ला क्षेत्रका ताल र १२ वर्षमा एकपटक लाग्ने प्रसिद्ध ‘बोन मेला’ तथा तीर्थयात्राले यस क्षेत्रको पहिचानलाई राष्ट्रिय तथा अन्तर्राष्ट्रिय स्तरमा उजागर गरेको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Dolpa-2.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-21T13:46:31+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042042/the-beauty-of-dolpa-the-glory-of-the-12-year-old-fair",
+      "category": "national"
+    },
+    {
+      "title": "कञ्चनजङ्घा : हिमाल, बस्ती र पदयात्राको आकर्षण",
+      "description": "हिमाली सौन्दर्य, मौलिक जनजीवन र उत्तर–दक्षिण दुवै आधार शिविरसम्म पुग्न सकिने भएकाले कञ्चनजङ्घा पदमार्ग पर्यटकको रोजाइमा पर्ने गरेको छ ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/kbc-and-man-1.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-21T13:45:31+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042105/kanchenjunga-the-charm-of-mountains-settlements-and-trekking",
+      "category": "national"
+    },
+    {
       "title": "एनपिएलले पायो लिस्ट ए टि ट्वान्टी मान्यता",
       "description": "",
       "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/2025-11-Basir-Ahamd-Shubham-Ranjane-Biratnagar-Kings-NPL-2048x1365.jpg",
@@ -193,7 +397,7 @@
       "category": "national"
     },
     {
-      "title": "भारतमा प्रदर्शनकारीमाथि भएको प्रहरी कारबाहीप्रति संयुक्त राष्ट्रसङ्घको चिन्ता",
+      "title": "भारतमा प्रदर्शनकारीमाथि भएको प्रहरी कारबाहीप्रति संयुक्त राष्ट्र सङ्घको चिन्ता",
       "description": "४ कात्तिक, काठमाडौं । संयुक्त राष्ट्रसङ्घले भारतमा हालैका महिनाहरूमा भएका प्रदर्शनहरूमा प्रहरीको कडा कारबाहीलाई लिएर चिन्ता व्यक्त गरेको छ। संयुक्त राष्ट्रसङ्घीय मानवाधिकार उच्चायुक्तको कार्यालयले भारतीय अधिकारीहरूलाई शान्तिपूर्ण प्रदर्शनको अधिकारको सम्मान गर्न र रक्षा गर्न आग्रह गरेको छ। त्यसैगरी उसले मानवाधिकार उल्लङ्घनका घटनाहरूमा न्याय सुनिश्चित गर्न पनि",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/india-protest.png",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
@@ -303,46 +507,6 @@
       "category": "national"
     },
     {
-      "title": "चार दशकदेखि नताेडिएकाे बैकुण्ठ मानन्धरको कीर्तिमान",
-      "description": "खेलाडीलाई प्रतियोगितामा सहभागी गराउनु मात्रै राज्यको जिम्मेवारी पूरा हुनु होइन । उनीहरूलाई नियमित प्रशिक्षण, आवश्यक पोषण, प्रतिस्पर्धाका अवसर र भविष्यप्रतिको भरोसा दिनुपर्छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Baikuntha-manandhar.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-21T12:49:15+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042232/baikuntha-manandhars-record-that-no-one-has-broken-for-four-decades",
-      "category": "national"
-    },
-    {
-      "title": "दसैं दक्षिणाबाटै सुरु गर्न सकिन्छ लगानी, यी हुन् उपयुक्त विकल्प",
-      "description": "आजको लगानीले नै भविष्यमा ठूलो सम्पत्ति बनाउँछ । तसर्थ, लगानीको बानी विकासका लागि पनि म्युचुअल फन्ड उपयुक्त छन् । लगानीबाट आउने प्रतिफल, त्यो सम्पत्तिको मूल्य वृद्धिजस्ता पक्षबारे बुझ्न म्युचुअल फन्डबाटै सघाउ पुग्छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2023/10/New-Note-in-envelope-Dakshina.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-21T12:47:56+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041885/investment-can-be-started-from-dashain-dakshina-these-are-the-suitable-options",
-      "category": "national"
-    },
-    {
-      "title": "डोल्पाको सुन्दरता, १२ वर्षे मेलाको महिमा",
-      "description": "डोल्पाको जगदुल्ला गाउँपालिका–१ मा अवस्थित जगदुल्ला क्षेत्रका ताल र १२ वर्षमा एकपटक लाग्ने प्रसिद्ध ‘बोन मेला’ तथा तीर्थयात्राले यस क्षेत्रको पहिचानलाई राष्ट्रिय तथा अन्तर्राष्ट्रिय स्तरमा उजागर गरेको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Dolpa-2.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-21T12:46:31+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042042/the-beauty-of-dolpa-the-glory-of-the-12-year-old-fair",
-      "category": "national"
-    },
-    {
-      "title": "कञ्चनजङ्घा : हिमाल, बस्ती र पदयात्राको आकर्षण",
-      "description": "हिमाली सौन्दर्य, मौलिक जनजीवन र उत्तर–दक्षिण दुवै आधार शिविरसम्म पुग्न सकिने भएकाले कञ्चनजङ्घा पदमार्ग पर्यटकको रोजाइमा पर्ने गरेको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/kbc-and-man-1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-21T12:45:31+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042105/kanchenjunga-the-charm-of-mountains-settlements-and-trekking",
-      "category": "national"
-    },
-    {
       "title": "बाढीले खोस्यो दसैंको टीका, बेपत्ता आफन्तको पर्खाइमा खाली निधार",
       "description": "४ कात्तिक, बर्दिया । बडादसैँमा अभिभावकका हातबाट टीका र जमरा लगाएर आशीर्वाद थाप्ने रहर कसलाई पो हुँदैन र ? वर्षभरि जहाँ भए पनि दसैँमा घर फर्किएर परिवारसँग टीका लगाउने र खुसी साटासाट गर्ने प्रतीक्षामा रहेका बर्दियाको गेरुवा गाउँपालिका–५ सुखारका केही परिवारका लागि यस वर्ष दसैँको खुसी आएन। भोटेकोशी नदीमा आएको बाढीले आफन्त बेपत्ता बनाएपछि उनीहरूको […]",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/dashain-badhi.jpg",
@@ -400,16 +564,6 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-21T12:35:44+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2042172/three-directors-of-a-kabaddi-club-such-is-the-interesting-coincidence",
-      "category": "national"
-    },
-    {
-      "title": "नेपालसँग नियमित खेल्ने यी चार टोली, जसले खेलेका छन् ओडीआई विश्वकप",
-      "description": "नेदरल्यान्ड्स, स्कटल्यान्ड, यूएई र नामिबिया- यी चारै टोली विश्वकपको मुख्य प्रतियोगिता खेलिसकेका टोली हुन् । फरक समय र फरक परिवेशमा यी टोलीहरूले विश्वकप खेलेका छन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/cwc-playing-teams.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-21T12:35:28+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2034871/these-four-teams-that-regularly-play-against-nepal-who-have-already-played-in-the-odi-world-cup",
       "category": "national"
     },
     {
@@ -521,16 +675,6 @@
       "publishedTime": "2026-10-21T11:58:00+00:00",
       "articleUrl": "https://www.setopati.com/politics/401163",
       "category": "national"
-    },
-    {
-      "title": "पुर्ख्याैली गाउँ सपहीमा पूर्व राष्ट्रपति यादवको दसैं",
-      "description": "काठमाडौं।प्रथम राष्ट्रपति डा. रामवरण यादवले पुर्ख्याैली गाउँ धनुषाको सपही पुगेर परिवार र दाजुभाइसँगै यस वर्षको बडादसैं मनाएका छन्। वडादसैको अवसरमा पूर्व राष्ट्रपति डा. यादव यही मंगलबार धनुषाको लक्ष्मीनियाँ गाउँपालिका–४ स्थित पुर्ख्याैली गाउँ सपही पुगेका थिए। यस वर्ष गाउँमा आई परिवारजन र दाजुभाइसँगै उल्लासमय वातावरणबीच शुभकामना आदनप्रदान गरेर विजयादशमी मनाएको",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-21T11:57:56+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/21/former-president-yadav-celebrates-dashain-in-his-ancestral-village-saphi/",
-      "category": "business"
     },
     {
       "title": "दशैं गीत : २५ वर्षमा तीन पटक रेकर्ड भएको 'नमुछे आमा दहीमा टीका'",
@@ -1093,16 +1237,6 @@
       "category": "politics"
     },
     {
-      "title": "पोखरा एभेन्जर्समा बंगलादेशी अलराउन्डर महेदी हसन अनुबन्धित",
-      "description": "काठमाडाैँ। बंगलादेशका आक्रामक अलराउन्डर महेदी हसन नेपाल प्रिमियर लिग (एनपीएल) को तेस्रो सिजनका लागि पोखरा एभेन्जर्समा आबद्ध भएका छन्। बंगलादेशका लागि प्रभावशाली प्रदर्शन गर्दै आएका महेदी हाल आईसीसी टी–२० अन्तर्राष्ट्रिय बलिङ वरीयताको आठौँ स्थानमा छन्। उनको आगमनसँगै",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/mahedi-hasan_u7EiIhhXbV.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-21T07:07:55+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600739/bangladeshi-all-rounder-mehedi-hasan-signed-with-pokhara-avengers",
-      "category": "national"
-    },
-    {
       "title": "हुती आक्रमण जारी रहेपछि साउदी अरबद्वारा प्रमुख लगानी मञ्च अर्को वर्षका लागि स्थगित",
       "description": "एजेन्सी । साउदी अरबमा हुती समूहका आक्रमणहरू निरन्तर जारी रहेपछि त्यहाँ आयोजना हुने प्रमुख लगानी मञ्च सम्मेलन अर्को वर्षसम्मका लागि स्थगित गरिएको आयोजकहरूले घोषणा गरेका छन् । सन् २०१७ मा सुरु गरिएको फ्युचर इन्भेस्टमेन्ट इनिसिएटिभ सम्मेलनलाई प्रायः ‘मरुभूमिको दाभोस’ (दाभोस इन द डेजर्ट) भनेर चिनिन्छ । त्यसले विश्वका नेताहरू, शीर्ष कार्यकारीहरू र विश्वव्यापी लगा",
       "imageUrl": "",
@@ -1293,7 +1427,7 @@
       "category": "national"
     },
     {
-      "title": "बडा दसैँको टीका जारी",
+      "title": "बडा दसैंको टीका जारी",
       "description": "४ कात्तिक, काठमाडौं । विजया दशमीको मुख्य दिन आज बडा दसैँको टीका केहीबेर अघिबाट सुरु भएको छ । दुर्गापक्षको मुख्य दिन आज मान्यजनको हातबाट नवदुर्गाको प्रसादका रूपमा शुभ साइतको प्रतीक रातो टीका र समृद्धिको प्रतीक जमरा लगाइँदै छ । बिहान १०ः२६ बजेको उत्तम साइतमा टीका सुरु भएको हो । टीका प्रसाद ग्रहण गर्न साइत खोज्नेका […]",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2022/10/tika-jamara.jpg",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
@@ -1613,7 +1747,7 @@
       "category": "national"
     },
     {
-      "title": "‘रामायण’मा यशको रौद्र रूप, शिव ताण्डव गीतमा यस्तो देखिए",
+      "title": "‘रामायण’ मा यशको रौद्र रूप, शिव ताण्डव गीतमा यस्तो देखिए",
       "description": "बलिउडको बहुप्रतीक्षित फिल्म ‘रामायण’बाट अभिनेता यशको ‘रावण ताण्डव’ गीत सार्वजनिक भएको छ । दशैंको अवसर पारेर सार्वजनिक गरिएको गीतमा यशले रावणको रौद्र रूप र भगवान् शिवप्रतिको भक्तिलाई सशक्त रूपमा प्रस्तुत गरेका छन् । त्रिशूल र डमरु बोकेर ताण्डव गरिरहेको उनको अवतारले दर्शकको ध्यान खिचेको छ । नितेश तिवारीको निर्देशनमा बनेको ‘रामायण’को कलाकार छनोट, भीएफएक्स र […]",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/yash.jpg",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
@@ -2173,7 +2307,7 @@
       "category": "sports"
     },
     {
-      "title": "मुक्तिनाथ मन्दिरमा दशैंको टीका",
+      "title": "मुक्तिनाथ मन्दिरमा दसैं टीका",
       "description": "४ कात्तिक, मुस्ताङ । हिन्दु तथा बौद्ध धर्मालम्बीहरुको साझा धार्मिक तीर्थस्थलका रुपमा परिचित मुक्तिनाथ मन्दिरमा सर्वसाधारणलाई दशैंको टीका लगाइने भएको छ । मन्दिरका पुजारी कृष्णप्रसाद सुवेदीले दशैंको अवसरमा सर्वसाधारणलाई टीका, जमरा र आर्शीवाद दिने कार्यक्रम रहेको जानकारी दिएका हुन् । विजया दशमीको शुभ साइतको दिन अक्षता रुपी टीका, जमरा लगाएर सर्वसाधारणलाई आशीर्वा",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/05/Muktinath.jpg",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
@@ -2440,16 +2574,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-10-20T16:28:21+00:00",
       "articleUrl": "https://www.ratopati.com/story/600691/zelensky-rubio-discuss-defense-cooperation-and-peace-efforts",
-      "category": "national"
-    },
-    {
-      "title": "मुक्तिनाथ मन्दिरमा दसैँ टिका",
-      "description": "मुस्ताङ । हिन्दु तथा बौद्ध धर्मालम्बीहरुको साँझ धार्मिक तीर्थस्थल मुक्तिनाथ मन्दिरमा सर्वसाधारणलाई दसैँको टिका लगाइने भएको छ । मन्दिरका पुजारी कृष्णप्रसाद सुवेदीले दसैँको अवसरमा सर्वसाधारणलाई टिका, जमरा र आर्शिवाद दिने कार्यक्रम रहेको बताए। विजया दशमीको शुभ",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/muktinath-(12)-001_YzQLZrdBFm.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-20T16:25:25+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600690/dashain-tika-at-muktinath-temple",
       "category": "national"
     },
     {
@@ -4901,126 +5025,6 @@
       "publishedTime": "2026-10-20T02:47:11+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2041789/beni-jomsom-korla-road-suffers-nearly-one-billion-rupees-in-damage-three-to-four-billion-rupees-needed-for-reconstruction",
       "category": "national"
-    },
-    {
-      "title": "हिंसात्मक प्रदर्शनपछि पेरिससहित फ्रान्सका मुख्य सहरमा रात्रिकालीन कर्फ्यु",
-      "description": "पेरिस । फ्रान्सभर सप्ताहन्तमा फैलिएको दङ्गा, तोडफोड र लुटपाटपछि फ्रान्सेली अधिकारीले राजधानी पेरिसका मुख्य भागहरूसहित अन्य प्रमुख सहरमा रात्रिकालीन कर्फ्यु लागू गरेका छन्। पेरिस प्रहरीका अनुसार प्रदर्शनकारी भेला भएका ‘प्लेस दे ला रिपब्लिक’ र ‘लेस हालेस’ किनमेल क्षेत्रमा स्थानीय समय अनुसार राति ११ बजेदेखि बिहान ६ बजेसम्म कर्फ्यु जारी रहनेछ । साथै, सहरका विभिन",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-20T02:42:56+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/20/nighttime-curfew-in-major-french-cities-including-paris-after-violent-protests/",
-      "category": "business"
-    },
-    {
-      "title": "नेपालका पाँच तारे होटलमा १ रात सुत्न कति लाग्छ खर्च ? सञ्चालनमा रहेका २८ वटाको सूचीसहित",
-      "description": "नेपालमा हाल ३० वटा पाँचतारे र ३ वटा पाँचतारे डिलक्स होटल छन् । यी होटलहरूमध्ये हाल सञ्चालनमा भने २८ वटा रहेका छन् । सञ्चालनमा रहेका यी होटलहरू नेपाली व्यवस्थापनले सम्हालेकादेखि अन्तर्राष्ट्रिय चेन होटलसम्म छन् । काठमाडौं । पाँचतारे होटल भनेपछि औसत नेपालीको मनमा लाग्ने एक मात्रै बुझाइ हो महँगो हुन्छ । अन्तर्राष्ट्रिय स्तर, पर्याप्त सेवा, […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-20T02:42:13+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/500789.html",
-      "category": "business"
-    },
-    {
-      "title": "आज महानवमी : वर्षमा एक दिन मात्रै खुल्ने तलेजु भवानी मन्दिरमा बिहानैदेखि भक्तजनको घुइँचो",
-      "description": "काठमाडौँ । दसैँको नवरात्रअन्तर्गत आज महानवमी पर्व देशभर श्रद्धा, भक्तिभाव र विधिपूर्वक नवदुर्गा भगवतीको पूजा आराधना गरी मनाइँदैछ। आश्विन शुक्ल नवमीका दिन पर्ने यस पर्वमा देवीका मन्दिर तथा शक्तिपीठहरूमा बिहानैदेखि भक्तजनको चहलपहल बढेको छ। विशेषगरी वर्षमा एक दिन महानवमीका अवसरमा मात्रै सर्वसाधारणका लागि खुल्ने हनुमानढोका दरबार क्षेत्रको तलेजु भवानी मन्दिरमा दर",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-20T02:40:58+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/500812.html",
-      "category": "business"
-    },
-    {
-      "title": "ट्रम्पले हार्न सक्छन् मध्यावधि चुनाव, महँगी र इरान युद्धले घट्यो लोकप्रियता",
-      "description": "राष्ट्रिय सर्वेक्षणहरूले देखाएअनुसार ३७ प्रतिशतभन्दा बढी अमेरिकीहरू महँगी र मूल्यवृद्धिलाई देशको सबैभन्दा गम्भीर समस्या मान्छन्। यस्तो अवस्थामा महँगी नियन्त्रण गर्नु ट्रम्पका लागि सबैभन्दा ठूलो चुनौती बनेको छ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Donald-Trump.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-20T02:40:08+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2041786/trump-may-lose-midterm-elections-popularity-declines-due-to-inflation-and-iran-war",
-      "category": "politics"
-    },
-    {
-      "title": "मलेसियन क्रिकेट संघको सीओओमा विनोद दास नियुक्त",
-      "description": "काठमाडौं । मलेसियन क्रिकेट संघले विनोद दासलाई प्रमुख सञ्चालन अधिकृत (सीओओ) नियुक्त गरेको छ । संघले मंगलबार सामाजिक सञ्जाल फेसबुकमार्फत नेपाली क्रिकेट टोलीका पूर्वकप्तान दासलाई नयाँ प्रमुख सञ्चालन अधिकृतका रूपमा स्वागत गरेको जनाएको छ । संघले दाससँग",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/binod-das_uxyda7yCKg.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-20T02:33:39+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600597/binod-das-appointed-coo-of-malaysian-cricket-association",
-      "category": "national"
-    },
-    {
-      "title": "विपद्ले बेनी–जोमसोम–कोरला सडकमा एक अर्बको क्षति",
-      "description": "म्याग्दी। पछिल्लो मनसुनजन्य विपद्बाट चीन र भारतलाई जोड्ने बेनी–जोमसोम–कोरला सडकमा करिब एक अर्ब रुपैयाँ बराबरको भौतिक संरचनाहरुको क्षति पुगेको प्रारम्भिक अनुमान गरिएको छ। असोज ८ देखि ११ गतेसम्मको झरीपछि पहिरो, कालीगण्डकी नदीमा आएको बाढी र कटानका कारण क्षतविक्षत भएको सडक पुनर्निर्माणका लागि तीनदेखि चार अर्ब रुपैयाँ बजेट आवश्यक पर्ने बेनी–जोमसोम–कोरला सडक योजना",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-20T02:26:34+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/20/disaster-causes-damage-of-one-billion-on-beni-jomsom-korla-road/",
-      "category": "business"
-    },
-    {
-      "title": "खोलियो तलेजु भवानी मन्दिर, दर्शनार्थीको घुइँचो (फोटोफिचर)",
-      "description": "काठमाडौं । वर्षमा एकपटक महानवमीका दिन मात्रै खुल्ने हनुमानढोका दरबार क्षेत्रस्थित तलेजु भवानी मन्दिर आज बिहान ५ बजेदेखि सर्वसाधारणका लागि खुला गरिएको छ । मन्दिर खुलेसँगै बिहानैदेखि पूजा, आराधना तथा दर्शनका लागि भक्तजनको घुइँचो लागेको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/taleju-16_6XExz9e731.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-20T02:25:02+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600596/taleju-bhavani-temple-opens-crowds-of-devotees-gather-photo-feature",
-      "category": "national"
-    },
-    {
-      "title": "हिमाली र पहाडी भू-भागका एक-दुई स्थानमा मेघगर्जन/चट्याङ्ग सहित हल्का वर्षा र हिमपातको सम्भावना",
-      "description": "मौसम पूर्वानुमान महाशाखाका अनुसार हाल कोशी, बागमती, गण्डकी र लुम्बिनी प्रदेशको हिमाली र पहाडी भू-भागका साथै कर्णाली र सुदूरपश्चिम प्रदेशको हिमाली भू-भागमा आंशिक बादल लागेको छ भने बाँकी भू-भागमा मौसम मुख्यतया सफा रहेको छ ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-20T02:22:41+00:00",
-      "articleUrl": "https://nepallive.com/story/352180",
-      "category": "national"
-    },
-    {
-      "title": "मालीमा सशस्त्र आक्रमणमा ५० जनाको मृत्यु",
-      "description": "मालीको उत्तरपूर्वी मेनाका क्षेत्रमा सशस्त्र समूहले गरेको आक्रमणमा ५० जनासम्म सर्वसाधारण मारिएका छन् । आइतबार भएका आक्रमणमा मुख्यतः दौसहाक समुदायका बासिन्दालाई लक्षित गरिएको सुरक्षा अधिकारी तथा स्थानीय स्रोतहरूले बताएका छन् । मोटरसाइकलमा आएका आक्रमणकारीले टिनाबो गाउँ",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/mali_N0aEbsvXZF.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-20T02:15:59+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600595/50-killed-in-armed-attack-in-mali",
-      "category": "national"
-    },
-    {
-      "title": "एक्सपान्सन टू स्टागनेशन : नेपाली बैंकिङको पछिल्लो एक दशक",
-      "description": "काठमाडौँ । ८३ खर्ब ११ अर्ब निक्षेप, ५९ खर्ब ५७ अर्ब कर्जा, निक्षेप विस्तार १३.८ प्रतिशत, कर्जा विस्तार ६.५ प्रतिशत, कर्जामा ६.६ प्रतिशतको औसत ब्याजदर, निक्षेपमा ३.२ प्रतिशत ‍औसत ब्याजदर, १२.६७ प्रतिशतको पुँजीकोष अनुपात, ९.९५",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bank-profit_XsuNfNGLSS.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-20T02:15:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600547/expansion-to-stagnation-the-last-decade-of-nepali-banking",
-      "category": "national"
-    },
-    {
-      "title": "बेनी–जोमसोम–कोरला सडकमा करिब एक अर्बको क्षति",
-      "description": "म्याग्दी । पछिल्लो मनसुनजन्य विपद्बाट चीन र भारतलाई जोड्ने बेनी–जोमसोम–कोरला सडकमा करिब रु एक अर्ब बराबरको भौतिक संरचनाहरुको क्षति पुगेको प्रारम्भिक अनुमान गरिएको छ । गत असोज ८ देखि ११ गतेसम्मको झरिपछि पहिरो, कालीगण्डकी नदीमा आएको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bsxJsgeZWx.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-20T02:09:48+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600593/damage-to-beni-jomsom-korla-road-estimated-at-rs-1-billion",
-      "category": "national"
-    },
-    {
-      "title": "पोखरा-जोमसोम नियमित हवाई सेवा स्थगित",
-      "description": "मुस्ताङ। पोखरा–जोमसोम नियमित हवाई सेवा स्थगित भएको छ। यस रुटमा उडान भर्दै आएका निजी वायुसेवा कम्पनीहरूले यसवर्ष पर्यटकीय अनुकुल याम नसकिंदै हवाई उडान सेवा स्थगित गरेको जनाएको छ। मुस्ताङमा बर्सेनि दुई याममा निजी क्षेत्रका तारा एयरलाइन्स र समिट एयरलाइन्सका १८ सिटे जहाजहरूले पोखरा—जोमसोम हवाई सेवा सञ्चालन गर्दै आइरहेका छन्। जोमसोमस्थित नागरिक उड्ययन कार्यालयका ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-20T02:01:34+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/20/pokhara-jomsom-regular-air-service-suspended/",
-      "category": "business"
     }
   ]
 }
