@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-22T22:15:45.446330+00:00",
-  "lastSuccessfulUpdate": "2026-10-22T22:15:45.446330+00:00",
-  "newestPublishedTime": "2026-10-22T17:22:32+00:00",
+  "updatedAt": "2026-10-23T00:40:54.999988+00:00",
+  "lastSuccessfulUpdate": "2026-10-23T00:40:54.999988+00:00",
+  "newestPublishedTime": "2026-10-23T00:36:17+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 31,
-  "failedFeeds": 3,
+  "successfulFeeds": 30,
+  "failedFeeds": 4,
   "failedFeedDetails": [
     {
       "url": "https://pahilopost.com/feed",
@@ -17,11 +17,135 @@
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
     },
     {
+      "url": "https://www.vikasnews.com/feed",
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+    },
+    {
       "url": "https://www.techpana.com/feed",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "title": "रवि लामिछाने तीन दिने भ्रमणका लागि आज भारत जाँदै",
+      "description": "काठमाडौं । सत्तारुढ दल राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा)का सभापति रवि लामिछाने आज भारत जाँदै छन् । लामिछाने तीन दिने पारिवारिक भ्रमणका लागि आज भारत प्रस्थान गर्न लागेको उनको निजी सचिवालयले जनाएको छ । सचिवालयका अनुसार लामिछानेले धनगढी हुँदै भारतको उत्तराखण्ड, नैनीतालस्थित कैंची धाम र आसामको गुवाहाटीस्थित कामाख्या मन्दिरमा सपरिवार पूजाअर्चना गर्ने कार्यक्रम",
+      "imageUrl": "",
+      "sourceLogo": "https://dainiknepal.com/favicon.ico",
+      "sourceName": "दैनिक नेपाल",
+      "publishedTime": "2026-10-23T00:36:17+00:00",
+      "articleUrl": "https://www.dainiknepal.com/2026/10/846243.html",
+      "category": "national"
+    },
+    {
+      "title": "मल्लकालीन पाटनको अष्टमातृका नाच सम्पन्न",
+      "description": "६ कात्तिक, काठमाडौं। परम्परागत तान्त्रिक विधि र धार्मिक आस्थाका साथ मनाइने ललितपुरको पाटनको धार्मिक, ऐतिहासिक तथा सांस्कृतिक महत्व बोकेको अष्टमातृका नाच (गँः प्याखँ) सम्पन्न भएको छ । हरेक वर्ष घटस्थापनाको दिनदेखि सुरु भएर ११ दिनसम्म मनाइने यो जात्रा यस वर्षपनि परम्परागत विधि तथा धार्मिक आस्थाका साथ प्रदर्शन गरिएको अष्टमातृका नाच प्रवन्ध समितिका अध्यक्ष राजेन",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Astamatrika-Nach-Patan.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-23T00:30:06+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042740/ashtamatrika-dance-of-malla-era-patan-completed",
+      "category": "national"
+    },
+    {
+      "title": "रास्वपा सभापति रवि लामिछाने ३ दिने भ्रमणका लागि आज भारत जाँदै",
+      "description": "काठमाडौँ । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) सभापति रवि लामिछाने तीन दिने भ्रमणका लागि आज भारत जाने भएका छन् । उनको यो भ्रमण निजी तथा पारिवारिक तीर्थाटन रहेको निजी सचिवालयले जनाएको छ। भ्रमणका क्रममा उनले भारतको उत्तराखण्डस्थित नैनीतालमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rabi-lamichhane_OcCGOPPAA2.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-23T00:29:06+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600876/rashtriya-swayamsevak-sangh-rss-president-rabi-lamichhane-is-leaving-for-india-today-for-a-3-day-visit",
+      "category": "national"
+    },
+    {
+      "title": "पश्चिमी वायुको आंशिक प्रभाव कायमै, आज यी चार प्रदेशमा हल्का वर्षाको सम्भावना",
+      "description": "काठमाडौँ । हाल देशमा पश्चिमी वायुको आंशिक प्रभाव रहेको मौसम पूर्वानुमान महाशाखाले जनाएको छ । हाल देशभर मौसम मुख्यतया सफा रहेको छ। तराई भूभागमा बिहानीपख केही स्थानमा हुस्सु र कुहिरो लाग्नेछ । आज दिउँसो देशको हिमाली",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/rain_Hxbolu0mKZ.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-23T00:20:37+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600875/partial-influence-of-westerly-winds-persists-light-rain-likely-in-these-four-provinces-today",
+      "category": "national"
+    },
+    {
+      "title": "भिटामिन डी कसले खाने? बढी खाँदा फाइदा हुन्छ?",
+      "description": "जाडोयाममा घाम कम लाग्ने ठाउँमा बस्ने मानिसहरूमा भिटामिन डीको चर्चा बढ्छ। भिटामिन डीलाई हड्डी बलियो बनाउने पोषक तत्त्वका रूपमा चिनिन्छ। कसले भिटामिन डी खानुपर्छ र कसले अनावश्यक सेवनबाट जोगिनुपर्छ?",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-10-23T00:14:00+00:00",
+      "articleUrl": "https://www.setopati.com/social/401190",
+      "category": "national"
+    },
+    {
+      "title": "तिब्बतमा ७ म्याग्निच्युडको भूकम्प, कम्तिमा १६ जनाको मृत्यु, ३२ घाइते",
+      "description": "६ कात्तिक, काठमाडौं । दक्षिणपश्चिम चीनको सिजाङ स्वायत्त क्षेत्रमा ७ म्याग्निच्युडको भूकम्प जाँदा कम्तीमा १६ जनाको मृत्यु भएको छ भने ३२ जना घाइते भएका छन् । नगरको आपत्कालीन व्यवस्थापन ब्युरोका अनुसार नाग्छु सहरको बाकेन काउन्टीमा बिहीबार राति १० बजेर ३३ मिनेटमा भूकम्प गएको हो । भूकम्पमा परी घाइते भएकामध्ये ११ जनाको अवस्था गम्भीर रहेको छ […]",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-23T00:00:16+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042760/7-0-magnitude-earthquake-hits-tibet-at-least-16-dead-32-injured",
+      "category": "national"
+    },
+    {
+      "title": "धरानमा दसैँमा २६ करोड बढीको खसी बोका कारोबार",
+      "description": "सुनसरी । बडादसैँलाई लक्षित गरी धरान उपमहानगरपालिका–१३ स्थित कृषि उपज बजारबाट यस वर्ष रु २६ करोड २५ लाख बराबरको खसी बोका कारोबार भएको छ । कोशी प्रदेशका पहाडी जिल्लाबाट किसान तथा व्यापारीले बिक्रीका लागि ल्याएका खसी",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/o3KNN1Yxsu.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-22T23:30:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600872/goat-and-sheep-turnover-worth-over-rs-260-million-in-dharan-during-dashain",
+      "category": "national"
+    },
+    {
+      "title": "दसैँको टीकाको तेस्रो दिन : मान्यजनबाट टीका र आशीर्वाद ग्रहण गर्ने क्रम जारी",
+      "description": "काठमाडौँ । बडादसैँ अन्तर्गत टीकाको तेस्रो दिन आज पनि मान्यजनबाट टीका, जमरा र आशीर्वाद ग्रहण गर्ने क्रम जारी रहेको छ । विजयादशमीका दिन मान्यजनबाट टीका लगाउन नभ्याएका वा छुटेकाहरूले आज आफन्तकहाँ पुगेर टीका र आशीर्वाद",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dashain-tika_PpUKIq2H4F.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-22T23:19:29+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600873/third-day-of-dashain-tika-receiving-tika-and-blessings-from-relatives-continues",
+      "category": "national"
+    },
+    {
+      "title": "कस्तो रहला आज तपाईंको दिन ? हेर्नुहोस् राशिफल",
+      "description": "आजको पञ्चाङ्ग वि.सं.२०८३ साल कार्तिक ६ गते । शुक्रबार । इस्वी सन् २०२६ अक्टोबर २३ तारिख । नेपाल संवत् ११४६ । रौद्र संवत्सर । दक्षिणायन । शरद ऋतु । श्रीशाके १९४८ । आश्विन शुक्लपक्ष । तिथि–द्वादशी,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_68mF8G6CaS.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-22T23:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600869/how-was-your-day-today-check-your-horoscope",
+      "category": "national"
+    },
+    {
+      "title": "बाढीपहिरोले यस वर्षको दसैँ उल्लासमय भएन",
+      "description": "चितवन । भोटेकोशी, त्रिशूली र बूढीगण्डकी नदीमा गएको बाढीले जनधनको अपूरणीय क्षति पुर्‍याएको र बाढी पहिरोका कारण प्रमुख राजमार्ग प्रभावित भएकाले विगतको तुलनामा यस वर्षको दसैँ खल्लो भएको स्थानीयको भनाइ छ । भोटेकाशी बाढीमा परी आफन्त",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/chitwan_map_hQtNsfDIYC.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-22T23:08:41+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600871/this-years-dashain-was-not-a-joyous-one-due-to-floods-and-landslides",
+      "category": "national"
+    },
+    {
+      "title": "प्राकृतिक स्रोतको उपयोगबाट करोडौँ आम्दानी",
+      "description": "गण्डकी । अन्नपूर्ण संरक्षण क्षेत्र आयोजनाले जडीबुटी सङ्कलन शुल्कलगायत प्राकृतिक स्रोतको उपयोगबाट गत आर्थिक वर्षमा रु तीन करोड ८६ लाख ५१ हजार ९०८ सङ्कलन गरेको छ । कार्यालयले जडीबुटी, काठ दाउरा आदिको सङ्कलन तथा उपयोगबाट",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/annapurna-conservation-area_i8c7P7b4mo.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-22T23:03:25+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600870/millions-of-dollars-in-income-from-the-use-of-natural-resources",
+      "category": "national"
+    },
+    {
+      "title": "मनास्लु लार्केपास पदयात्रा खुला, सतर्कता अपनाएर यात्रा गर्न टानको आग्रह",
+      "description": "काठमाडौँ । ट्रेकिङ एजेन्सीज् एशोसियशन अफ नेपाल (टान)ले मनास्लु लार्केपास पदयात्रा खुला भएकाले सर्तकता अनपाएर यात्रा गर्न आग्रह गरेको छ । टानले बिहीबार एक सूचना जारी गरी बूढीगण्डकीमा आएको विनाशकारी बाढीका कारण क्षतिग्रस्त पहुँचमार्ग, पदमार्गका खण्ड,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/makalu-trek-(16)_Vxhx2ADlX6.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-22T22:34:59+00:00",
+      "articleUrl": "https://www.ratopati.com/story/600868/manaslu-larke-pass-trekking-open-taan-urges-to-travel-with-caution",
+      "category": "national"
+    },
     {
       "title": "पब्जी मोबाइल ग्लोबल ओपन : नेपालको टीटूके सर्भाइभल स्टेजबाट बाहिरियो",
       "description": "५ कात्तिक, काठमाडौं । नेपाली टोली टीटूके ईस्पोर्ट्स पब्जी मोबाइल ग्लोबल ओपनको सर्भाइभल स्टेजबाट बाहिरिएको छ। बिहीबार भएको सर्भाइभल स्टेजमा शीर्ष चारमा पर्न नसकेपछि टीटूकेको फाइनल पुग्ने सम्भावना समाप्त भएको हो। समूह चरणमा शीर्ष ६ मा पर्न नसकेको टीटूके १६ टोलीमध्ये १४औं स्थानमा रहेपछि सर्भाइभल स्टेजमा पुगेको थियो। सर्भाइभल स्टेजबाट शीर्ष चार टोली मात्र फाइनलम",
@@ -90,16 +214,6 @@
       "sourceName": "रातोपाटी",
       "publishedTime": "2026-10-22T16:37:09+00:00",
       "articleUrl": "https://www.ratopati.com/story/600864/sri-lankas-record-win-in-one-day-cricket-against-england",
-      "category": "national"
-    },
-    {
-      "title": "रास्वपा सभापति रवि लामिछाने ३ दिने भ्रमणका लागि भारत जाँदै",
-      "description": "५ कात्तिक, काठमाडौं । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सभापति रवि लामिछाने तीन दिने भ्रमणका लागि भारत जाने भएका छन् । उनको यो भ्रमणलाई निजी तथा पारिवारिक तीर्थाटन भनिएको छ । लामिछाने शुक्रबार (कात्तिक ६) गतेदेखि तीन दिनका लागि भारत जान लागेको उनको निजी सचिवालयले जनाएको छ। भ्रमणका क्रममा उनले भारतको उत्तराखण्डस्थित नैनीतालमा रहेको कैंची धाम […]",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-22T16:31:49+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042750/rashtriya-swayamsevak-sangh-rss-president-rabi-lamichhane-is-leaving-for-india-on-a-3-day-visit",
       "category": "national"
     },
     {
@@ -201,16 +315,6 @@
       "publishedTime": "2026-10-22T15:22:03+00:00",
       "articleUrl": "https://www.ratopati.com/story/600861/ukrainian-citizen-arrested-in-germany-on-suspicion-of-spying-for-russia",
       "category": "national"
-    },
-    {
-      "title": "प्राकृतिक स्रोतको उपयोगबाट करोडौं आम्दानी",
-      "description": "कास्की।अन्नपूर्ण संरक्षण क्षेत्र आयोजनाले जडीबुटी संकलन शुल्कलगायत प्राकृतिक स्रोतको उपयोगबाट गत आर्थिक वर्षमा तीन करोड ८६ लाख ५१ हजार ९०८ संकलन गरेको छ। कार्यालयले जडीबुटी, काठ दाउरा आदिको संकलन तथा उपयोगबाट हुने उक्त आम्दानी गरेको हो। आयोजना प्रमुख डा. रविन कडरियाका अनुसार कार्यालयले आव २०८१/८२ मा पाँच करोड ७७ लाख १६ हजार ७८१ रुपैंयाँ र […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-22T15:14:17+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/22/millions-of-dollars-in-income-from-the-use-of-natural-resources/",
-      "category": "business"
     },
     {
       "title": "अहिलेको दशैं ‘इन्स्टान्ट नुडल्स’ जस्तो",
@@ -381,16 +485,6 @@
       "publishedTime": "2026-10-22T14:15:00+00:00",
       "articleUrl": "https://www.ratopati.com/story/600844/bhotekoshi-flood-victims-take-refuge-in-a-monastery-their-hearts-are-still-in-timure",
       "category": "national"
-    },
-    {
-      "title": "धरानमा दसैंमा २६ करोड बढीको खसी–बोका कारोबार",
-      "description": "सुनसरी।बडादसैंलाई लक्षित गरी धरान उपमहानगरपालिका–१३ स्थित कृषिउपज बजारबाट यस वर्ष २६ करोड २५ लाख बराबरको खसी–बोका कारोबार भएको छ। कोशी प्रदेशका पहाडी जिल्लाबाट किसान तथा व्यापारीले बिक्रीका लागि ल्याएका खसी–बोकाको माग बढेपछि गत वर्षको तुलनामा यस वर्ष करिब १५ प्रतिशतले कारोबार वृद्धि भएको कृषिउपज बजारका व्यवस्थापक लक्ष्मण भट्टराईले बताए। गत वर्ष २०८२ को दसैंम",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-22T14:11:31+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/22/goat-and-sheep-trade-exceeds-rs-260-million-in-dharan-during-dashain/",
-      "category": "business"
     },
     {
       "title": "श्रीलंकाका एन्जेलो म्याथ्युजले विराटनगर किंग्सबाट एनपीएल खेल्ने",
@@ -4930,96 +5024,6 @@
       "sourceName": "हाम्रो खेलकुद",
       "publishedTime": "2026-10-21T02:09:06+00:00",
       "articleUrl": "https://www.hamrokhelkud.com/detail/175181",
-      "category": "sports"
-    },
-    {
-      "title": "भक्तपुरको ब्रह्मायणी जात्रामा रातिदेखि नै दर्शनार्थीको भीड",
-      "description": "भक्तपुर । प्रत्येक वर्ष विजयादशमीका दिन भक्तपुरको ब्रह्मायणी मन्दिरमा लाग्ने ब्रह्मायणी जात्रामा रातिदेखि नै दर्शनार्थीको भीड लागेको छ । नवदुर्गाको शक्तिपीठका रूपमा मानिने ब्रह्मायणी मन्दिरमा आज त्रिपुरा सुन्दरी प्रकट हुने जनविश्वासअनुरूप परम्परादेखि नै विजयादशमीका दिन भव्य",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/iJXmw6z1hT.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-21T02:02:44+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600719/crowds-of-devotees-throng-bhaktapurs-brahmayani-jatra-since-night",
-      "category": "national"
-    },
-    {
-      "title": "कस्तो रहला आज देशभरको मौसम?",
-      "description": "काठमाडौं। हाल देशमा पश्चिमी वायुको आंशिक प्रभाव रहेको छ। मौसम पूर्वानुमान महाशाखाका अनुसार देशका हिमाली तथा पहाडी भू–भागमा आंशिक बदली रहेको छ भने तराईका अधिकांश स्थानमा मौसम मुख्यतया सफा रहेको छ। महाशाखाका अनुसार आज बुधबार दिउँसो देशका हिमाली तथा पहाडी भू–भागमा आंशिक बदली रहनेछ भने तराईका अधिकांश स्थानमा मौसम मुख्यतया सफा रहनेछ। देशका हिमाली भू–भागका […]",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-21T02:02:26+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/21/how-is-the-weather-across-the-country-today/",
-      "category": "business"
-    },
-    {
-      "title": "यस कारण जरुरी छ दशैंमा शारीरिक व्यायाम",
-      "description": "दशैँमा विभिन्न मासुका परिकार, अण्डा, दूध–दही, मिठाइ, फलफूल, च्याउ, पनिर, आइसक्रिम, केक इत्यादि तयार गरिन्छ। अनि बिदामा रमाइलो गर्नुपर्छ भन्दै बिहानैदेखि खाना पकाउने र खाने कार्यक्रम सुरु हुन्छ। चिल्ला मासुका परिकारसँगै विभिन्न किसिमका रक्सीहरु पिउने पनि धेरै हुन्छन्।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-21T02:01:00+00:00",
-      "articleUrl": "https://nepallive.com/story/330358",
-      "category": "national"
-    },
-    {
-      "title": "राष्ट्रपति पौडेलले गुरु पुरोहितबाट टीका लगाउने",
-      "description": "४ कात्तिक, काठमाडौं । राष्ट्रपति रामचन्द्र पौडेलले विजया दशमीमा शुभसाइतमा गुरु पुरोहितबाट टीका जमरा ग्रहण गर्ने भएका छन् । शीतल निवासस्थित राष्ट्रपति कार्यालयमा राष्ट्रपति पौडेलले शुभ साइत १०:२६ मिनेटमा गुरू पुरोहितबाट टीका, जमरा र आशीर्वाद ग्रहण गर्ने राष्ट्रपतिका प्रेस सल्लाहकार किरण पोखरेलले जानकारी दिए । विगतमा वर्षहरूमा राष्ट्रपतिले सर्वसाधारणलाई टीका ल",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2016/04/Ramchandra-Paudel-2.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-21T01:59:44+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2042114/president-poudel-to-receive-tika-from-guru-purohit",
-      "category": "politics"
-    },
-    {
-      "title": "दशैँ: टीका लगाइदिँदा भनिने श्लोकका पात्र तथा विशेषता",
-      "description": "दशैँमा टीका लगाइदिँदा दिइने आशीर्वादका श्लोकका पात्र तथा विशेषता कस्ता छन्?",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3a0f/live/a714b620-cba9-11f1-bc2e-018d645d8d21.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-10-21T01:58:09+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/cm369jg08l0jo?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "जीवित देवी कुमारीलाई तलेजु भवानीको दर्शन",
-      "description": "काठमाडौं । जीवित देवी कुमारीलाई काठमाडौंको हनुमानढोकास्थित तलेजु भवानीको दर्शन गराइएको छ । तलेजु भवानीको दर्शन गराउने परम्पराअनुसार मंगलबार राति तान्त्रिक र वैदिक विधिबाट जीवित देवी कुमारीलाई तलेजु भवानीको दर्शन गराइएको हो । तलेजु भवानीको दर्शनबाट शक्ति आर्जन हुने विश्वास रहीआएको छ । कुमारीलाई देवी तलेजु भवानीको दर्शनका लागि रथयात्रासहित सुरक्षित कुमारी घरबा",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-21T01:56:56+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/150377/",
-      "category": "national"
-    },
-    {
-      "title": "परिवर्तनका लागि सोचसँगै व्यवहार बदल्न जरुरी छ: प्रधानमन्त्री",
-      "description": "काठमाडौँ। प्रधानमन्त्री बालेन्द्र शाहले असत्यमाथि सत्यको विजय प्राप्त भएको उपलक्ष्यमा उत्सव मनाउने दिन विजयादशमीका अवसरमा देश तथा विदेशमा रहेका सर्वसाधारणमा सुख, शान्ति, समृद्धि र उत्तरोत्तर प्रगतिको हार्दिक मङ्गलमय शुभकामना व्यक्त गरेका छन्। सामाजिक सञ्जाल फेसबुकमार्फत शुभकामना",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/balen-shah_b0eS0rUpYl.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-21T01:54:26+00:00",
-      "articleUrl": "https://www.ratopati.com/story/600718/for-change-it-is-necessary-to-change-behavior-along-with-thinking-prime-minister-balendra-shah",
-      "category": "politics"
-    },
-    {
-      "title": "आसुरी प्रवृत्ति र विकृति हटाउन आवश्यक : प्रधानमन्त्री बालेन शाह",
-      "description": "प्रधानमन्त्री बालेन्द्र शाहले भ्रष्टाचार, कुशासन, ढिलासुस्ती, असमानता र राजनीतिक विकृति हटाउन सबै एकजुट हुन आवश्यक रहेको बताएका छन्।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-21T01:53:55+00:00",
-      "articleUrl": "https://www.setopati.com/politics/401151",
-      "category": "politics"
-    },
-    {
-      "title": "फोडेनको ह्याट्रिकमा सिटीको जित",
-      "description": "",
-      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/IMG_3591-1792547495.jpeg",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-10-21T01:51:58+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/175180",
       "category": "sports"
     }
   ]
