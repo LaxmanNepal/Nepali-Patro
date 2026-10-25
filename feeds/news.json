@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-25T17:48:30.148866+00:00",
-  "lastSuccessfulUpdate": "2026-10-25T17:48:30.148866+00:00",
-  "newestPublishedTime": "2026-10-25T17:47:13+00:00",
+  "updatedAt": "2026-10-25T20:00:13.064681+00:00",
+  "lastSuccessfulUpdate": "2026-10-25T20:00:13.064681+00:00",
+  "newestPublishedTime": "2026-10-25T18:15:00+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 30,
-  "failedFeeds": 4,
+  "successfulFeeds": 31,
+  "failedFeeds": 3,
   "failedFeedDetails": [
     {
       "url": "https://pahilopost.com/feed",
@@ -17,15 +17,21 @@
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
     },
     {
-      "url": "https://www.vikasnews.com/feed",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
-    },
-    {
       "url": "https://www.techpana.com/feed",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "title": "१२ बजे १२ समाचार : यस्ता छन आजका प्रमुख समाचार",
+      "description": "काठमाडाैँ । आज दिनभरका मुख्य १२ घटनाक्रम रातोपाटी डटकमको नियमित प्रस्तुति ‘१२ बजे १२ समाचार’मा प्रस्तुत गरेका छौँ– १. एनपीएलको तेस्रो संस्करण भोलिदेखि नेपाल प्रिमियर लिग (एनपीएल) क्रिकेटको तेस्रो संस्करण भोलि (सोमबारदेखि सुरु हुँदैछ । प्रतियोगिताको विजेताले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/12-news_LZod00f4c1.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-25T18:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601244/12-news-at-12-these-are-todays-top-news-stories",
+      "category": "national"
+    },
     {
       "title": "दसैँपछि मुक्तिनाथ मन्दिरमा दर्शनार्थी बढे",
       "description": "मुस्ताङ । हिन्दु तथा बौद्ध धर्मालम्बीहरुको धार्मिक साझा तीर्थस्थल मुक्तिनाथ मन्दिरमा दसैँपछि भक्तजनको सङ्ख्या बढेको छ । दसैँ अगाडि प्रायः सुनसान जस्तै रहेको मुक्तिनाथ मन्दिरमा अहिले भने पर्यटकको चहलपहल बाक्लो भएको हो । जिल्ला प्रहरी कार्यालय",
@@ -705,6 +711,16 @@
       "publishedTime": "2026-10-25T14:37:40+00:00",
       "articleUrl": "https://www.bbc.com/nepali/articles/cmvgx5vw6nvpo?at_medium=RSS&at_campaign=rss",
       "category": "national"
+    },
+    {
+      "title": "लखनऊ में 22 नवंबर को होगा देवदूत वानर सेना का महासम्मेलन, दो हजार से अधिक लोगों के जुटने का लक्ष्य; गोमतीनगर स्थित इंदिरा गांधी प्रतिष्ठान के जूपिटर हॉल में होगा आयोजन, तैयारियां तेज",
+      "description": "‘हाड़ा’ विकास सिंह लखनऊ : देवदूत वानर सेना का महासम्मेलन आगामी 22 नवंबर, रविवार को राजधानी लखनऊ के गोमतीनगर स्थित इंदिरा गांधी प्रतिष्ठान के जूपिटर हॉल में आयोजित किया जाएगा। सुबह 10 बजे से शुरू होने वाले इस महासम्मेलन को सफल बनाने के लिए संगठन की ओर से तैयारियां तेज कर दी गई हैं। सम्मेलन ... Read more The post लखनऊ में 22 नवंबर को होगा देवदूत वानर सेना का म",
+      "imageUrl": "",
+      "sourceLogo": "https://www.vikasnews.com/favicon.ico",
+      "sourceName": "विकास न्यूज",
+      "publishedTime": "2026-10-25T14:36:34+00:00",
+      "articleUrl": "https://vikasnews.com/18723/",
+      "category": "business"
     },
     {
       "title": "एनपीएलमा नियोफिन तीन वर्षका लागि प्लेटिनम क्याप प्रायोजक",
@@ -4187,16 +4203,6 @@
       "category": "national"
     },
     {
-      "title": "१२ बजे १२ समाचार : यस्ता छन् आजका प्रमुख समाचार",
-      "description": "काठमाडौँ। आज दिनभर भएका मुख्यमुख्य घटनाक्रमसहित रातोपाटीको रात्रिकालीन प्रस्तुति रातोपाटी ब्रिफिङमा १२ बजे १२ समाचार लिएर हाजिर भएका छौँ । १. राष्ट्रिय जागरण अभियानमा नेकपा नेपाली कम्युनिस्ट पार्टी (नेकपा) ले दुई महिने राष्ट्रिय जागरण अभियान सुरु गरेको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/12-am-final_viqawbfig2-(1)_fam6WtIhIE.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-24T18:15:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601107/12-news-at-12-these-are-todays-top-news-stories",
-      "category": "national"
-    },
-    {
       "title": "पोखरामा कोजाग्रत पूर्णिमामा दसैँ पर्यटन तथा सांस्कृतिक महोत्सव",
       "description": "कास्की । ‘टीका, जमरा र चङ्गा चेट, पोखरामा पर्यटकसँग दसैँ भेट’ भन्ने नारासहित बडादसैँको अन्तिम दिन कोजाग्रत पूर्णिमाका अवसरमा आइतबार दसैँ पर्यटन तथा सांस्कृतिक महोत्सव हुँदै छ । महिला पर्यटन व्यवसायी मञ्च (ओटेफ) को आयोजनामा फेवाताल",
       "imageUrl": "https://rpcdn.ratopati.com/media/albums/pokhara-fewatal_SMDZp0Wyfo.jpg",
@@ -5014,16 +5020,6 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-24T12:04:24+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2043271/28-people-renounced-citizenship-in-chitwan-in-three-months",
-      "category": "national"
-    },
-    {
-      "title": "मेलानिया ट्रम्पको पहलमा रूसी कब्जामा रहेको युक्रेनको सहरमा अस्थायी युद्धविराम",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-24T12:04:00+00:00",
-      "articleUrl": "https://www.setopati.com/politics/401219",
       "category": "national"
     }
   ]
