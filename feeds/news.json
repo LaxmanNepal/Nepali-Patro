@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-25T20:00:13.064681+00:00",
-  "lastSuccessfulUpdate": "2026-10-25T20:00:13.064681+00:00",
-  "newestPublishedTime": "2026-10-25T18:15:00+00:00",
+  "updatedAt": "2026-10-25T22:20:14.499218+00:00",
+  "lastSuccessfulUpdate": "2026-10-25T22:20:14.499218+00:00",
+  "newestPublishedTime": "2026-10-25T20:52:47+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 31,
-  "failedFeeds": 3,
+  "successfulFeeds": 30,
+  "failedFeeds": 4,
   "failedFeedDetails": [
     {
       "url": "https://pahilopost.com/feed",
@@ -17,11 +17,25 @@
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
     },
     {
+      "url": "https://www.vikasnews.com/feed",
+      "error": "TimeoutError: The read operation timed out"
+    },
+    {
       "url": "https://www.techpana.com/feed",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "title": "जनकपुर बोल्ट्सको एप्लायन्स साझेदार फेमस स्टिल",
+      "description": "",
+      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/46c046cb-a39b-4ecf-baa5-4c68a9d59e98-1792961511.jpeg",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-10-25T20:52:47+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/175224",
+      "category": "sports"
+    },
     {
       "title": "१२ बजे १२ समाचार : यस्ता छन आजका प्रमुख समाचार",
       "description": "काठमाडाैँ । आज दिनभरका मुख्य १२ घटनाक्रम रातोपाटी डटकमको नियमित प्रस्तुति ‘१२ बजे १२ समाचार’मा प्रस्तुत गरेका छौँ– १. एनपीएलको तेस्रो संस्करण भोलिदेखि नेपाल प्रिमियर लिग (एनपीएल) क्रिकेटको तेस्रो संस्करण भोलि (सोमबारदेखि सुरु हुँदैछ । प्रतियोगिताको विजेताले",
@@ -5010,16 +5024,6 @@
       "sourceName": "गोरखापत्र",
       "publishedTime": "2026-10-24T12:05:34+00:00",
       "articleUrl": "https://gorkhapatraonline.com/news/227148",
-      "category": "national"
-    },
-    {
-      "title": "तीन महिनामा चितवनमा २८ जनाले त्यागे नागरिकता",
-      "description": "७ कात्तिक, नारायणगढ (चितवन) । जिल्ला प्रशासन कार्यालय चितवन र इलाका प्रशासन कार्यालय माडीबाट चालु आर्थिक वर्षको साउनदेखि असोज मसान्तसम्म तीन हजार ६२ जनाले वंशजका आधारमा नागरिकता प्राप्त गरेका छन् भने छ हजार ७६६ नागरिकताको प्रतिलिपि जारी गरिएको छ । यस अवधिमा २८ जनाले भने नागरिकता परित्याग गरेका छन् । जिल्ला प्रशासन कार्यालय चितवनका सूचना […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2016/11/Citizenship.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-24T12:04:24+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2043271/28-people-renounced-citizenship-in-chitwan-in-three-months",
       "category": "national"
     }
   ]
