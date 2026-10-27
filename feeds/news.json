@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-27T16:04:13.328861+00:00",
-  "lastSuccessfulUpdate": "2026-10-27T16:04:13.328861+00:00",
-  "newestPublishedTime": "2026-10-27T16:03:08+00:00",
+  "updatedAt": "2026-10-27T20:35:49.945496+00:00",
+  "lastSuccessfulUpdate": "2026-10-27T20:35:49.945496+00:00",
+  "newestPublishedTime": "2026-10-27T19:15:00+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 31,
-  "failedFeeds": 3,
+  "successfulFeeds": 30,
+  "failedFeeds": 4,
   "failedFeedDetails": [
     {
       "url": "https://pahilopost.com/feed",
@@ -17,11 +17,285 @@
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
     },
     {
+      "url": "https://www.vikasnews.com/feed",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
       "url": "https://www.techpana.com/feed",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "title": "गजेन्द्रमोक्ष नारायण मुक्तिनाथ रथयात्रा दमौलीमा",
+      "description": "तनहुँ । प्रसिद्ध धार्मिकस्थल मुक्तिनाथबाट सुरु भएको मेची महाकाली गजेन्द्रमोक्ष नारायण मुक्तिनाथ रथयात्रा मंगलबार तनहुँको सदरमुकाम दमौली आइपुगेको छ । सनातन धर्मको संरक्षण, आध्यात्मिक चेतनाको विस्तार र धार्मिक जागरण अभिवृद्धि गर्ने उद्देश्य राखेर आइतबारदेखि सुरु",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/tanahu-map_us5mlswuc2_MPGIzBN5w0.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T19:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601695/gajendramoksha-narayan-muktinath-rath-yatra-in-damauli",
+      "category": "national"
+    },
+    {
+      "title": "कर्नाटकमा मतदाता सूची पुनरीक्षणपछि ७२ लाख मतदाता घटे, एक जना ‘पाकिस्तानी नागरिक’ पनि भेटिए",
+      "description": "काठमाडौँ । भारतको कर्नाटक राज्यमा मतदाता सूचीको विशेष गहन पुनरीक्षण (एसआईआर) प्रक्रिया सम्पन्न भएपछि कुल मतदाताको सङ्ख्यामा करिब ७२ लाखले कमी आएको छ । विवादका बिच सम्पन्न भएको यस पुनरीक्षणपछि राज्यमा मतदाताको कुल सङ्ख्या ५ करोड",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/india-voter_smTPffnhnb.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T19:00:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601693/72-million-voters-reduced-after-revision-of-voter-list-in-karnataka-one-pakistani-citizen-also-found",
+      "category": "national"
+    },
+    {
+      "title": "कञ्चनपुरका स्थानीय तहलाई रासायनिक मलको कोटा निर्धारण",
+      "description": "कञ्चनपुर । कृषि सामग्री कम्पनी लिमिटेड महेन्द्रनगर शाखाले यहाँका स्थानीय तहलाई रासायनिक मलको कोटा निर्धारण गरेको छ । कम्पनीले युरिया र डिएपी मलको कोटा निर्धारण गरिएको महेन्द्रनगर शाखाका प्रबन्धक हेमराज जोशीले जानकारी दिए । उनका अनुसार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kanchanpur_e3gtuuoi9c_NWReY0jTdJ.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T18:29:46+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601694/quota-of-chemical-fertilizers-determined-for-local-levels-in-kanchanpur",
+      "category": "national"
+    },
+    {
+      "title": "नेपाली यु १९ महिला क्रिकेट टोलीको घोषणा",
+      "description": "",
+      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/IMG_3980-1793125195.jpeg",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-10-27T18:20:51+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/175245",
+      "category": "sports"
+    },
+    {
+      "title": "१२ बजे १२ समाचार : सरकार ढाल्ने खेलमा विपक्षी दलहरू, सर्वोच्च अदालतमा पुरानो मुद्दाको जाम",
+      "description": "काठमाडौँ । आज दिनभरका मुख्य १२ घटनाक्रम रातोपाटी डटकमको नियमित प्रस्तुति ‘१२ बजे १२ समाचार’मा प्रस्तुत गरेका छौँ– १. आन्दोलन चर्काउने तयारी छठ पर्व लगत्तै विपक्षी दलहरूले सरकार विरोधी आन्दोलन गर्ने तयारी थालेका छन्। सरकार विरोधी मोर्चाबन्दी",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/collage-2-1_vo2J6p1Mfu.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T18:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601692/12-oclock-12-news-opposition-parties-in-the-game-to-topple-the-government-old-cases-are-jammed-in-the-supreme-court",
+      "category": "politics"
+    },
+    {
+      "title": "कोप–३१ मा जलवायु न्यायको आवाज बुलन्द गर्न सुझाव",
+      "description": "काठमाडौँ । जलवायु परिवर्तनसम्बन्धी अन्तर्राष्ट्रिय सम्मेलन (कोप–३१) मा जलवायु न्यायको मागसहित नेपालका विषयलाई प्राथमिकताका साथ उठाउन नागरिक समाजका तर्फबाट सुझाव दिइएको छ । गैरसरकारी संस्था महासङ्घ नेपालद्वारा मंगलबार यहाँ आयोजित ‘हिमालदेखि समुद्रसम्म: भोटेकोशी र बूढीगण्डकी विपद्को",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kkFEaTtEbO.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T17:33:22+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601691/suggestions-to-raise-the-voice-of-climate-justice-at-cop-31",
+      "category": "national"
+    },
+    {
+      "title": "मधेशमा नयाँ सत्ता समीकरणको कसरत",
+      "description": "अजय शाहगौशाला (महोत्तरी), कात्तिक १० गते । मधेश प्रदेशमा नेकपा (एमाले) ले सरकारलाई दिएको समर्थन फिर्ता लिएपछि नयाँ सत्ता समीकरण निर्माणको कसरत तीव्र बनेको छ । वर्तमान सरकार अल्पमतम...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/389193/conversions/Madhesh-Pradesh_-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-27T17:22:09+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/227407",
+      "category": "national"
+    },
+    {
+      "title": "मझिया स्मृति कप महिला फुटबल : फेदाप सेमिफाइनलमा प्रवेश",
+      "description": "१० कात्तिक, काठमाडौं । प्रथम मझिया स्मृति कप २०८३ आमन्त्रित ९ ए साइड महिला फुटबल प्रतियोगितामा फेदाप गाउँपालिका, पोक्लावाङ तेह्रथुम सेमिफाइनलमा प्रवेश गरेको छ। संखुवासभाको मादी नगरपालिका–३, मूलखर्कमा मंगलबार भएको तेस्रो क्वार्टरफाइनलमा फेदापले डीवाईसी साँगुरीगढी, भेडेटार धनकुटालाई ४–० गोलले पराजित गरेको हो। खेलको पहिलो मिनेटमै अनिता राना मगरले गोल गर्दै फेदा",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/majhiya-cup.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-27T17:17:37+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2045358/majhiya-memorial-cup-womens-football-fedap-advances-to-semifinals",
+      "category": "national"
+    },
+    {
+      "title": "एनपिएल खेल्न नेपाल आएका सकिबद्वारा प्रतिबन्धित बेटिङको प्रचार",
+      "description": "काठमाडौँ । नेपाल प्रिमियर लिग (एनपीएल) खेल्न नेपाल आएका बङ्गलादेशका चर्चित क्रिकेटर सकिब अल हसनले अनलाइन सट्टेबाजीसम्बन्धी प्रचार सामग्री सामाजिक सञ्जालमा राखेका छन् । उनले आफ्नो फेसबुकमा ‘वान एक्स बेट’को प्रचार गर्दै प्रयोगकर्तालाई सट्टेबाजीमा सहभागी",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/shakib_mHY9pb6xGX.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T17:17:06+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601690/shakib-who-came-to-nepal-to-play-in-the-npl-promotes-banned-betting",
+      "category": "national"
+    },
+    {
+      "title": "राहुलको शानदार डेब्यू तर युनिशको तिखो वाणमा झुक्यो जनकपुुर",
+      "description": "कर्णालीको जितमा युवा बलर युनिशले निर्णायक भूमिका खेले। उनले जनकपुरका कप्तान हर्मीत सिंह र जिमी नीशमजस्ता प्रमुख ब्याटरलाई आउट गर्दै खेल कर्णालीको पक्षमा मोडे।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/unish-karnali.png",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-27T17:08:39+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2045349/rahuls-brilliant-debut-but-janakpur-succumbed-to-yunishs-sharp-arrow",
+      "category": "national"
+    },
+    {
+      "title": "अध्यक्ष ओलीबाट मदन भण्डारी स्मृति प्रतिष्ठानको स्मारिका लोकार्पण",
+      "description": "काठमाडौँ, कात्तिक १० गते । नेपाल कम्युनिष्ट पार्टी (एमाले) का अध्यक्ष एवं पूर्वप्रधानमन्त्री केपी शर्मा ओलीले मदन भण्डारी स्मृति प्रतिष्ठान नेपालको स्मारिका लोकार्पण गर्नुभएको छ ।म...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/389189/conversions/1000302424-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-27T17:08:27+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/227445",
+      "category": "national"
+    },
+    {
+      "title": "क्लाइम्बिङ टोली दक्षिण कोरिया प्रस्थान",
+      "description": "काठमाडौँ । वर्ल्ड क्लाइम्बिङ एसियन सिरिजमा सहभागी हुन पाँच सदस्यीय नेपाली खेलाडी टोली मंगलबार दक्षिण कोरियाको गुन्सान प्रस्थान गरेको छ । यही अक्टोबर ३१ देखि नोभेम्बर १ तारिखसम्म हुने प्रतियोगितामा नेपालबाट तीन पुरुष र दुई महिला",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/climbing-toli_XxPijSKBbe.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T17:02:54+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601689/climbing-team-departs-for-south-korea",
+      "category": "national"
+    },
+    {
+      "title": "म्यानपावर विवादले रोकियो मलेसियाको रोजगारी, नयाँ भिसा प्रक्रिया ठप्प",
+      "description": "काठमाडौँ । नेपाली श्रमिकहरूको प्रमुख गन्तव्य मुलुक मलेसियाको रोजगारी तत्कालका लागि बन्द भएको छ । श्रमिक पठाउने म्यानपावर कम्पनी छनोटसम्बन्धी विवाद दुई देशबिच सुल्झिन नसक्दा नयाँ कामदार जाने प्रक्रिया रोकिएको हो । मलेसिया सरकारको ‘फरेन वर्कर",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/malaysia_n79r5gsf6i_KbLL3NFFEh.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T16:58:40+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601687/manpower-dispute-halts-malaysian-employment-halts-new-visa-process",
+      "category": "politics"
+    },
+    {
+      "title": "एनपिएल क्रिकेटमा कर्णाली याक्सको जित",
+      "description": "काठमाडौँ, कात्तिक १० गते । नेपाल प्रिमियर लिग (एनपिएल) क्रिकेट प्रतियोगिताअन्तर्गत आज भएको खेलमा कर्णाली याक्सले जनकपुर बोल्ट्सलाई १९ रनले पराजित गर्दै जित हासिल गरेको छ । कीर्तिपु...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/389188/conversions/GS_LALITPUR_DSC02468-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-27T16:41:13+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/227444",
+      "category": "national"
+    },
+    {
+      "title": "वनमन्त्री चौधरीसँग युएन आवासीय संयोजकको भेटवार्ता",
+      "description": "काठमाडौँ । कृषि, वन तथा पर्यावरणमन्त्री गीता चौधरीसँग संयुक्त राष्ट्रसङ्घ आवासीय संयोजक लिला पिटर्स यहियाले शिष्टचार भेट गरेकि छन् । मन्त्रालयमा मंगलबार भएको भेटमा उनीहरूबिच नेपालको जलवायु कार्यसूची, जलवायुजन्य विपद्का विषयलाई अन्तर्राष्ट्रिय मञ्चमा प्रभावकारी रूपमा उठाउने",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/qYWkk7ErSm.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T16:41:06+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601686/un-resident-coordinator-meets-with-forest-minister-chaudhary",
+      "category": "politics"
+    },
+    {
+      "title": "कृषि आधुनिकीकरण कार्यक्रम सञ्चालनका लागि एक खर्ब ४० अर्बको परियोजना",
+      "description": "काठमाडौँ । राष्ट्रिय कृषि आधुनिकीकरण कार्यक्रम दोस्रो चरणमा सञ्चालन गर्न रु एक खर्ब ४० अर्बको परियोजना तयार गरिएको छ । परियोजनामा कृषि तथा पशुपालन क्षेत्रमा व्यावसायिक उत्पादन, पूर्वाधार विकास, कृषकलाई तालिम, कृषि उत्पादन वृद्धि, अनुदान",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/pm-agriculture-program_24GDBd6cYJ.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T16:31:18+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601685/a-project-worth-rs-140-billion-to-operate-the-agricultural-modernization-program",
+      "category": "national"
+    },
+    {
+      "title": "इरानी राष्ट्रपति र कतारी अमिरबिच मस्कोमा भेटवार्ता",
+      "description": "काठमाडौँ । इरानका राष्ट्रपति मसुद पेजेस्कियनले मस्कोमा आयोजित ऊर्जा मञ्चका क्रममा कतारका अमिर तमिम बिन हमाद अल थानीसँग भेटवार्ता गर्नुभएको इरानी सरकारी सञ्चारमाध्यमले जनाएको छ । इरानी सरकारी टेलिभिजनका अनुसार भेटवार्तामा तेहरान र दोहाबिचको वर्तमान सम्बन्धको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/iran-qatar_J0iSYwH2Br.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T16:24:46+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601682/iranian-president-qatari-emir-meet-in-moscow",
+      "category": "politics"
+    },
+    {
+      "title": "एसिया प्यासिफिक मन्त्रीस्तरीय सम्मेलनमा सहभागी हुन ऊर्जामन्त्री श्रेष्ठ बैंककमा",
+      "description": "बैंकक, कात्तिक १० गते । ऊर्जा, जलस्रोत तथा सिँचाइमन्त्री विराज भक्त श्रेष्ठ थाइल्याण्डको राजधानी बैंकक आइपुग्नुभएको छ । एसिया तथा प्रशान्त क्षेत्रमा दिगो विकासका लागि अन्तरिक्ष अनु...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/389187/conversions/WhatsApp-Image-2026-10-27-at-20.59.30-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-27T16:23:58+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/227443",
+      "category": "politics"
+    },
+    {
+      "title": "पोखराको आकाशमा रमेको ‘प्रकृति, संस्कृति र साहस’",
+      "description": "गण्डकी। शरद याम चलिरहेको छ । निलो आकाश र सेताम्मे हिमालले पोखराको सौन्दर्य थप खुलेको छ । दसैँयता पर्यटकको चहलपहल बाक्लिएको छ । पर्यटनको राजधानी पोखरा यतिबेला ‘गुल्जार’ बनेको छ । पर्यटकीय गतिविधि बढेका छन् ।",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/sOoEpiDwLA.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T16:18:27+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601683/nature-culture-and-courage-in-the-sky-of-pokhara",
+      "category": "national"
+    },
+    {
+      "title": "सीमापार विद्युत् व्यापारका लागि निजी क्षेत्रलाई आशयपत्र : ऊर्जा व्यापारमा नयाँ अध्यायको सुरुवात",
+      "description": "काठमाडौं, कात्तिक ११ गते । नेपालको विद्युत् क्षेत्रलाई उत्पादनमुखी संरचनाबाट प्रतिस्पर्धी र बजारमुखी बनाउने उद्देश्यसहित सरकारले निजी क्षेत्रलाई सीमापार विद्युत् व्यापारको तयारी गर...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/389186/conversions/WhatsApp-Image-2026-10-27-at-21.35.32-(1)-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-27T16:17:27+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/227442",
+      "category": "national"
+    },
+    {
+      "title": "१० बजे १० समाचार : कर्मचारीको धमाधम राजीनामा, थप शक्तिशाली बन्यो चक्रवात",
+      "description": "आज २०८३ कात्तिक १० गते मंगलबार । आज दिनभरका मुख्य १० घटनाक्रम रातोपाटी डटकमको नियमित प्रस्तुति ‘१० बजे १० समाचार’मा प्रस्तुत गरेका छौँ– कर्मचारीको राजीनामा गत साउन १ गते आर्थिक वर्ष सुरु भएदेखि आजसम्म ४ सचिवसहित ४६४",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/10_iVKXsumllj.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T16:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601660/10-news-at-10",
+      "category": "national"
+    },
+    {
+      "title": "ओलीद्वारा मदन भण्डारी प्रतिष्ठानको स्मारिका लोकार्पण",
+      "description": "काठमाडौं।नेपाल कम्युनिष्ट पार्टी (एमाले) का अध्यक्ष एवं पूर्व प्रधानमन्त्री केपी शर्मा ओलीले मदन भण्डारी स्मृति प्रतिष्ठान नेपालको स्मारिका लोकार्पण गरेका छन्। मोरङको उर्लाबारीस्थित प्रतिष्ठानद्वारा आज काठमाडौंमा आयोजित कार्यक्रममा अध्यक्ष ओलीले स्मारिका लोकार्पण गरेका हुन्। लोकार्पण गरिएको ३६८ पृष्ठे स्मारिकामा नेपालको शैक्षिक विकास, समस्या र समाधान, प्रावि",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-27T16:14:43+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/27/oli-unveils-souvenir-of-madan-bhandari-foundation/",
+      "category": "business"
+    },
+    {
+      "title": "कठिन क्षणमा खेल फर्काउने अभ्यासले दिलायो कर्णालीलाई जित",
+      "description": "काठमाडौँ। बलिङमा उत्कृष्ट पुनरागमन गर्दै कर्णाली याक्सले नेपाल प्रिमियर लिग (एनपिएल) को तेस्रो सिजनमा विजयी सुरुआत गरेको छ । मंगलबार कीर्तिपुरस्थित त्रिवि क्रिकेट स्टेडियममा भएको खेलमा कर्णालीले जनकपुर बोल्ट्सलाई १९ रनले पराजित गरेको हो । कर्णालीले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/karnali-janakpur-7_bvCTkJGouZ.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T16:09:04+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601680/karnalis-practice-of-turning-the-game-around-in-difficult-moments-led-to-victory",
+      "category": "national"
+    },
+    {
+      "title": "आजको खेलपछि विराटनगर किङ्ग र चितवन राइनोजका खेलाडी के भन्छन् ? [भिडियो]",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-10-27T16:06:43+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/147306",
+      "category": "national"
+    },
+    {
+      "title": "तीन दिन पदयात्रा नगर्न आग्रह",
+      "description": "काठमाडौं।मुलुकका उच्च पहाडी तथा हिमाली भूभागमा उत्पन्न हुन सक्ने मौसमी विपद्को जोखिमलाई ध्यानमा राख्दै अध्यागमन विभागले तीन दिनसम्मका लागि पदयात्रा गतिविधि रोक्न अनुरोध गरेको छ। विभागका निर्देशक सूर्यप्रसाद चापागाईंले आज एक सूचना जारी गरी राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणले कात्तिक १२, १३ र १४ गते उच्च हिमाली र पहाडी क्षेत्रमा भारी हिम",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-10-27T16:05:51+00:00",
+      "articleUrl": "https://nepalnews.com/2026/10/27/request-not-to-trek-for-three-days/",
+      "category": "business"
+    },
+    {
+      "title": "अस्ट्रेलियामा सन् २०२५ मा आत्महत्याबाट तीन हजार २८३ जनाको मृत्यु",
+      "description": "काठमाडाैँ। अस्ट्रेलियामा सन् २०२५ मा आत्महत्याका कारण तीन हजार २८३ जनाको मृत्यु भएको छ । मङ्गलबार सार्वजनिक आधिकारिक तथ्याङ्कअनुसार मृतकमध्ये पुरुषको सङ्ख्या अत्यधिक रहेको छ। अस्ट्रेलियन ब्युरो अफ स्ट्याटिस्टिक्स (एबीएस) का अनुसार, सन् २०२५ मा देशभर",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/australia_iKYt3z7NKa.png",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T16:05:38+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601679/3283-people-will-die-by-suicide-in-australia-in-2025",
+      "category": "national"
+    },
+    {
+      "title": "इजरायलमा निर्वाचन : बेन्जामिन नेतान्याहुका लागि परीक्षा [भिडियो]",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-10-27T16:05:10+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/147305",
+      "category": "politics"
+    },
     {
       "title": "विश्व सम्मेलनमा महासचिव राईले भने : ‘सफा टेम्पो’लाई राज्यले संरक्षण गरोस [भिडियो]",
       "description": "",
@@ -81,16 +355,6 @@
       "publishedTime": "2026-10-27T15:59:04+00:00",
       "articleUrl": "https://nepalsamaya.com/detail/147301",
       "category": "national"
-    },
-    {
-      "title": "कृषिमन्त्री चौधरीसँग युएन आवासीय संयोजकको भेटवार्ता",
-      "description": "काठमाडौँ, कात्तिक १० गते । कृषि, वन तथा पर्यावरणमन्त्री गीता चौधरीसँग संयुक्त राष्ट्रसङ्घ आवासीय संयोजक लिला पिटर्स यहियाले शिष्टचार भेट गर्नुभएको छ । मन्त्रालयमा आज भएको भेटमा उहा...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/389184/conversions/WhatsApp-Image-2026-10-27-at-8.20.37-PM-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-27T15:58:26+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/227440",
-      "category": "politics"
     },
     {
       "title": "पोखरामा यू–१९ पुरुष राष्ट्रिय क्रिकेट टोलीको बन्द प्रशिक्षण सुरु",
@@ -250,16 +514,6 @@
       "sourceName": "क्लिकमाण्डु",
       "publishedTime": "2026-10-27T15:32:08+00:00",
       "articleUrl": "https://clickmandu.com/2026/10/501760.html",
-      "category": "business"
-    },
-    {
-      "title": "पोखराको आकाशमा रमेको ‘प्रकृति, सँस्कृति र साहस’",
-      "description": "पोखरा।शरद याम चलिरहेको छ। निलो आकाश र सेताम्मे हिमालले पोखराको सौन्दर्य थप खुलेको छ। दसैंयता पर्यटकको चहलपहल बाक्लिएको छ। पर्यटनको राजधानी पोखरा यतिबेला ‘गुल्जार’ बनेको छ। पर्यटकीय गतिविधि बढेका छन्। पोखराको पर्यटन साहसिक खेलसँग पनि जोडिएको छ। यतिबेला पोखराको आकाशमा दैनिक प्याराग्लाइडिङदेखि हट एयर बेलुनसम्म, अल्ट्रालाइटदेखि स्काइडाइभिङसम्म भइरहेको छ। भनिन्छ ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-27T15:31:26+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/27/nature-culture-and-courage-in-the-sky-of-pokhara/",
       "category": "business"
     },
     {
@@ -2140,7 +2394,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-27T09:14:18+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2044895/the-government-will-provide-a-subsidy-of-35-million-rupees-for-film-production-who-will-get-it",
-      "category": "politics"
+      "category": "entertainment"
     },
     {
       "title": "‘ऊनको स्वीटर’ को सिक्वेल बन्दै, सिक्किमबाट छायांकन सुरु",
@@ -2150,7 +2404,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-10-27T09:13:31+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/10/2044915/sequel-to-wool-sweater-to-be-made-filming-begins-in-sikkim",
-      "category": "national"
+      "category": "entertainment"
     },
     {
       "title": "गोलबजारका पूर्वमेयरसहित ६ जनाविरुद्ध भ्रष्टाचार मुद्दा दायर",
@@ -4771,256 +5025,6 @@
       "publishedTime": "2026-10-26T15:15:31+00:00",
       "articleUrl": "https://www.ratopati.com/story/601439/local-flowers-should-be-prioritized-general-secretary-poudel",
       "category": "politics"
-    },
-    {
-      "title": "संसदमा ३६ विधेयक विचाराधीन, अधिवेशन अन्त्यपछि थपिए नयाँ ६ विधेयक",
-      "description": "संघीय संसद् सचिवालयका अनुसार प्रतिनिधिसभाका समितिमा विचाराधीन विधेयकको सङ्ख्या २४ छ। राष्ट्रिय सभाका समितिमा भने कुनै पनि विधेयक विचाराधीन छैनन्। प्रतिनिधिसभाबाट पारित भएको राष्ट्रिय सेवा दल विधेयकको सन्देश राष्ट्रिय सभामा प्रस्तुत हुन बाँकी छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-26T15:15:00+00:00",
-      "articleUrl": "https://nepallive.com/story/352330",
-      "category": "politics"
-    },
-    {
-      "title": "विपद् सङ्कटग्रस्त म्याग्दीका स्थानीय तहलाई अनुदान",
-      "description": "म्याग्दी। नेपाल सरकारले विपद् सङ्कटग्रस्त म्याग्दीका ६ वटा स्थानीय तहलाई पहिलो चरणमा रु दुई करोड ४० लाख अनुदान उपलब्ध गराएको छ। राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणले म्याग्दीका ६ वटा स्थानीय तहलाई रु ४०/४० लाखका",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bipad_K1MTVLWec3.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:12:36+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601438/grants-to-disaster-hit-local-levels-in-myagdi",
-      "category": "national"
-    },
-    {
-      "title": "हुम्लामा भलिबलको रोमाञ्चक प्रतिस्पर्धा, कर्णाली युथले जित्यो उपाधि",
-      "description": "हुम्ला। हुम्लाको तीन हजार ६०० मिटर उचाइमा सञ्चालन गरिएको जिल्लास्तरीय लेकधिङ्घा हाइअल्टिच्युड भलिबल प्रतियोगिताको उपाधि सिमकोट गाउँपालिका–७ को कर्णाली युथ क्लबले जितेको छ। फाइनल खेलमा सेकेन्ड स्टार युथ क्लबलाई पराजित गर्दै कर्णाली युथ क्लबले उपाधि आफ्नो",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/volleyball_e86wyj605e_DJBmtI7Sxi.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:09:52+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601437/exciting-volleyball-competition-in-humla-karnali-youth-wins-the-title",
-      "category": "national"
-    },
-    {
-      "title": "चलचित्र विकास बोर्डलाई आत्मनिर्भर बनाउने अध्यक्ष पण्डितको योजना",
-      "description": "काठमाडौँ । चलचित्र विकास बोर्डका नवनियुक्त अध्यक्ष मनिष पण्डितले बोर्डलाई आत्मनिर्भर र नाफामूलक संस्था बनाउने योजनासहित पाँचवर्षे रणनीतिक योजना अघि बढाएको बताएका छन्। सूचना तथा सञ्चार मन्त्रालयमा साेमबार नियुक्तिपत्र बुझेपछि मन्तव्य व्यक्त गर्दै उनले बोर्डमा प्रशासनिक",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/manish-pandit_W81pZb9yfF.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:04:53+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601436/chairman-pandits-plan-to-make-the-film-development-board-self-reliant",
-      "category": "national"
-    },
-    {
-      "title": "राजनीतिमा पाइला राख्दै दक्षिण भारतीय अभिनेता धनुष",
-      "description": "चेन्नई । तमिल सिनेमाका चर्चित अभिनेता धनुष र राष्ट्रिय स्वयंसेवक संघ (आरएसएस) का एक वरिष्ठ नेताबिच भएको भेटघाटले उनी पनि राजनीतिमा प्रवेश गर्न लागेको चर्चालाई तीव्रता दिएको छ । अभिनेता विजय राजनीतिमा सक्रिय भई तमिलनाडुको मुख्यमन्त्री बनेको",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/dhanush-actor_RFIBqqLlIR.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:04:31+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601435/south-indian-actor-dhanush-enters-politics",
-      "category": "politics"
-    },
-    {
-      "title": "मलेसियालाई सरकारको प्नस्ताव : श्रमिक भर्ना प्रक्रियाबारे नेपाल–मलेसिया संयुक्त कार्यदलको बैठक काठमाडौंमा गराै",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-26T15:03:00+00:00",
-      "articleUrl": "https://nepallive.com/story/352331",
-      "category": "politics"
-    },
-    {
-      "title": "थानकोटबाट करिब ६० केजी चाँदी बरामद, एक जना पक्राउ",
-      "description": "काठमाडौँ। काठमाडौँको थानकोटबाट प्रहरीले करिब ६० केजी चाँदी बरामद गरेको छ । उपत्यका अपराध अनुसन्धान कार्यालयबाट खटिएको प्रहरीले सोमबार भन्सार छलेर ल्याएको चाँदी बरामद गरेको हो । चाँदीको अवैध ओसारपसारमा संलग्न आरोपमा भारतीय नागरिक अमन सर्राफलाई",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/jail-arrest_DZZQaXCTyj.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:01:59+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601434/about-60-kg-of-silver-seized-from-thankot-one-arrested",
-      "category": "national"
-    },
-    {
-      "title": "नेपाली श्रमिक भर्ना प्रक्रियाबारे मलेसियासँग संयुक्त बैठक गर्न प्रस्ताव",
-      "description": "काठमाडौँ। नेपाल सरकारले नेपाली श्रमिकको छनोट तथा भर्ना प्रक्रियासँग सम्बन्धित विषयमा मलेसियासँग द्विपक्षीय छलफल गर्न संयुक्त कार्यदल (ज्वाइन्ट वर्किङ ग्रुप–जेडब्लुजी) को बैठक काठमाडौँमा आयोजना गर्ने प्रस्ताव गरेको छ। नेपाल र मलेसियाबिच श्रमिक भर्ना प्रक्रियामा देखिएका समस्या",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/nepal-malesia_uMXuh95l55.PNG",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T14:59:13+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601433/proposal-to-hold-joint-meeting-with-malaysia-on-nepali-worker-recruitment-process",
-      "category": "national"
-    },
-    {
-      "title": "तस्बिरमा हेर्नुहाेस् एनपीएलकाे राैनक",
-      "description": "काठमाडाैँ। नेपाल प्रिमियर लिग (एनपीएल) को तेस्रो संस्करणको उद्घाटन खेलमा दर्शकको उल्लेख्य उपस्थिति देखिएको छ। क्रिकेटप्रेमीहरूको बाक्लो उपस्थितिले मैदानमा एनपीएलको रौनक थपिएको छ। सोमबार भएको उद्घाटन खेलमा साविक विजेता लुम्बिनी लायन्सले साविक उपविजेता सुदूरपश्चिम रोयल्सलाई ७",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/npll_81KCsJFg2e.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T14:46:52+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601432/see-the-npls-performance-in-pictures",
-      "category": "national"
-    },
-    {
-      "title": "फुटबल प्रतियोगितामा विजेतालाई अलैँची पुरस्कार",
-      "description": "ताप्लेजुङ। फुटबल प्रतियोगिताका विजेता तथा उपविजेता टोलीलाई नगदको सट्टा अलैँची पुरस्कार प्रदान गरिने भएको छ। मिक्वाखोला गाउँपालिकाले आगामी मङ्सिर २ देखि ६ गतेसम्म आयोजना गर्न गइरहेको फुटबल प्रतियोगिताका विजेता तथा उपविजेता टोलीलाई नगदको सट्टा अलैँची पुरस्कार दिन लागेको हो। फङ्फङ्देन झरना पर्यटन तथा सांस्कृतिक मेलालाई सफल बनाउने उद्देश्यले आयोजना हुन गइरहेको उ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-26T14:42:04+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/26/cardamom-award-for-winner-of-football-competition/",
-      "category": "business"
-    },
-    {
-      "title": "सिद्धबाबा नजिकै बसको ठक्करले स्कुटरमा सवार महिलाको मृत्यु",
-      "description": "मृत्यु हुनेमा गुल्मीको धुर्कोट गाउँपालिका ४ जैसीथोक निवासी ३७ वर्षीया माया कुवँर रहेको प्रहरीले जनाएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2017/11/Accident.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-26T14:41:31+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2044492/woman-riding-scooter-dies-after-being-hit-by-bus-near-siddhababa",
-      "category": "national"
-    },
-    {
-      "title": "दसैँमा पर्यटन बजार : आन्तरिकले धाने, विदेशीको कमी",
-      "description": "काठमाडौंँ । दसैँको भाष्य जन्मघर जाने, मान्यजनबाट टीका लगाउने र आफन्तसँग भेटघाट गदैँ रमाइलो गर्ने हो । तर, पछिल्लो समय खासगरी युवापुस्ता र सहरी क्षेत्रका परिवारहरूमा चाडपर्वको लामो बिदामा घुम्ने संस्कृति फैलिएको छ । यस वर्षको दसैँमा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/yatra_hovDxRpZBP.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T14:39:49+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601431/tourism-market-during-dashain-domestic-tourists-flock-foreign-tourists-drop",
-      "category": "national"
-    },
-    {
-      "title": "नेतृत्व उही, शैली उस्तै, कति पत्याउलान् अब जनताले ?",
-      "description": "",
-      "imageUrl": "",
-      "sourceLogo": "https://www.news24nepal.com/favicon.ico",
-      "sourceName": "न्यूज २४ नेपाल",
-      "publishedTime": "2026-10-26T14:38:26+00:00",
-      "articleUrl": "https://www.news24nepal.com/detail/13980",
-      "category": "national"
-    },
-    {
-      "title": "चक्रवात ‘अर्नब’ शक्तिशाली हुने भन्दै तीन दिन उच्च सतर्कता अपनाउन सरकारको आग्रह",
-      "description": "प्राधिकरणका अनुसार कात्तिक १३ गते शुक्रबार र १४ गते शनिबार कोसी, बागमती, मधेश, गण्डकी र लुम्बिनी प्रदेशमा चक्रवातको प्रभाव बढी पर्ने सम्भावना छ। ती प्रदेशका धेरै स्थानमा चट्याङ र हावाहुरीसहित मध्यम वर्षा तथा केही स्थानमा भारी वर्षा हुन सक्ने पूर्वानुमान गरिएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-26T14:34:14+00:00",
-      "articleUrl": "https://nepallive.com/story/352329",
-      "category": "politics"
-    },
-    {
-      "title": "नेपाली सेनाले किन गर्दैछ भूतपूर्व सैनिक सम्मेलन?",
-      "description": "सम्मेलनमा सहभागी हुने भूतपूर्व सैनिक तथा पारिवारिक निवृत्तिभरणमा रहेका व्यक्तिलाई भ्रमण भत्ता, विभिन्न सामग्री, कर्जा सहायता तथा सम्मान प्रदान गरिने नेपाली सेनाले जनाएको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://nepallive.com/favicon.ico",
-      "sourceName": "नेपाल लाइभ",
-      "publishedTime": "2026-10-26T14:31:14+00:00",
-      "articleUrl": "https://nepallive.com/story/352328",
-      "category": "national"
-    },
-    {
-      "title": "एनपीएल सिजन ३ प्रत्यक्ष रुपमा डिसहोममा अतिरिक्त शुल्कबिना एचडीमा हेर्न पाइने",
-      "description": "काठमाडौं । नेपाल प्रिमियर लिग (एनपीएल) सिजन ३ को रोमाञ्चक क्रिकेट डिसहोम डीटीएच तथा आईपीटीभी मार्फत प्रत्यक्ष एचडी गुणस्तरमा हेर्न पाइने भएको छ । डिसहोमका एक्टिभ डीटीएच तथा आईपीटीभी ग्राहकहरूले अतिरिक्त शुल्कबिना हिमालय स्पोर्ट्स, स्टार स्पोर्ट्स सेलेक्ट वान र स्टार स्पोर्ट्स सेलेक्ट टु मार्फत एनपीएलका खेलहरू हेर्न सक्ने छन् । खेल हेर्नका लागि ग्राहकको सदस्य",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-26T14:28:44+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/501523.html",
-      "category": "business"
-    },
-    {
-      "title": "गुल्मी दुर्घटना : मृतक ६ जनाको सनाखत",
-      "description": "गुल्मीमा सोमबार साँझ भएको सवारी दुर्घटनामा परी मृत्य हुने ६ जनाको पहिचान खुलेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-26T14:15:28+00:00",
-      "articleUrl": "https://www.setopati.com/social/401354",
-      "category": "national"
-    },
-    {
-      "title": "एनपिएल ३ मा च्याम्पियन लुम्बिनी लायन्सको विजयी सुरुवात",
-      "description": "काठमाडौँ, कात्तिक ९ गते । उपाधि रक्षा अभियानमा रहेको लुम्बिनी लाइन्सले सोमबार पहिलो खेलमा सुदूरपश्चिम रोयल्सलाई सात विकेटले हराएर तेस्रो नेपाल प्रिमियर लिग (एनपिएल) मा शानदार सुरुव...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/389003/conversions/f22f9d7f-54ad-4759-84cb-f1ba3b5c3ebc-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-26T14:12:50+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/227326",
-      "category": "national"
-    },
-    {
-      "title": "लुम्बिनी लायन्सको शानदार सुरुवात, सुदूरपश्चिमलाई ७ विकेटले हरायो",
-      "description": "काठमाडौं। नेपाल प्रिमियर लिग (एनपीएल) को तेस्रो संस्करणमा साविक विजेता लुम्बिनी लायन्सले विजयी सुरुवात गरेको छ। सोमबार भएको उद्घाटन खेलमा लुम्बिनीले साविक उपविजेता सुदूरपश्चिम रोयल्सलाई ७ विकेटले पराजित गरेको हो। कीर्तिपुरस्थित त्रिवि क्रिकेट मैदानमा टस हारेर ब्याटिङ गरेको सुदूरपश्चिम १७.२ ओभरमा ८७ रनमा समेटियो। सुदूरपश्चिमका लागि कप्तान दीपेन्द्रसिंह ऐरिले ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-26T14:10:51+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/26/lumbini-lions-make-a-brilliant-start-defeat-sudurpaschim-by-7-wickets/",
-      "category": "business"
-    },
-    {
-      "title": "गुल्मीमा स्कार्पियो दुर्घटना हुँदा ६ जनाको मृत्यु, ३ जना घाइते",
-      "description": "काठमाडौं । गुल्मीको कालीगण्डकी गाउँपालिका–२ दबौखानीमा स्कारपियो दुर्घटना हुँदा ६ जनाको मृत्यु भएको छ । तीन जना घाइते भएका छन् । सोमबार अपरान्ह ४ बजे स्याङ्जाको चिरकोटबाट गुल्मीको राक्सेतर्फ जाँदै गरेको बा ०२२० नम्बरको स्कारपियो कालीगण्डकी करिडोर सडकबाट करिब २५० मिटर तल खसेको थियो । दुर्घटनामा मृत्यु हुनेमा चालक स्याङ्जा वालिङ नगरपालिका–२ का ६७ वर्षीय […]",
-      "imageUrl": "",
-      "sourceLogo": "https://dainiknepal.com/favicon.ico",
-      "sourceName": "दैनिक नेपाल",
-      "publishedTime": "2026-10-26T14:10:08+00:00",
-      "articleUrl": "https://www.dainiknepal.com/2026/10/846728.html",
-      "category": "national"
-    },
-    {
-      "title": "आँधीका कारण माथितिर उडेजस्तो देखिएको झरना",
-      "description": "'बूलो' नामक आँधीका कारण यूकेमा कम्तीमा दुई जनाको ज्यान गएको छ। साथै, विभिन्‍न क्षेत्रमा बाढी अनि यातायात तथा विद्युत् प्रवाहमा अवरोधलगायतका समस्या आएका छन्।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/dd3a/live/d65e2a00-d145-11f1-93e1-3b657b665bcf.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-10-26T14:10:07+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/watch/cke8rn1r9p29o?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "सुदूरविरूद्ध ७ विकेटको जितसँगै डिफेन्डिङ च्याम्पियन लुम्बिनीको सानदार सुरुआत",
-      "description": "काठमाडौं । लुम्बिनी लायन्सले तेस्रो संस्करणको नेपाल प्रिमियर लिग (एनपीएल) मा सानदार सुरुआत गरेको छ । जितका लागि पाएको ८८ रनको झिनो लक्ष्य लुम्बिनीले ९.५ ओभरमा ३ विकेटको क्षतिमा पूरा गर्‍यो । लुम्बिनीले सुदूरपश्चिम रोयल्सलाई ७ विकेटले हरायो । जसमा डार्सी सर्टले सर्वाधिक ४० र आसिफ शेखले ३२ रन बनाए । सुदूरपश्चिमका अनिल खरेलले २ […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-10-26T14:07:31+00:00",
-      "articleUrl": "https://clickmandu.com/2026/10/501517.html",
-      "category": "business"
-    },
-    {
-      "title": "कांग्रेस देउवा समूहको महाधिवेशन : ३५ मध्ये नौ जिल्लामा नेतृत्व चयन",
-      "description": "सम्पर्क कार्यालयका अनुसार देउवा समूहले एकमात्र प्रतिनिधिसभा क्षेत्र भएका ३५ मध्ये नौ जिल्लाहरूमा जिल्ला अधिवेशन सम्पन्न गरेको हो ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/nc-congress.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-26T14:06:50+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2044330/congress-deuba-faction-general-convention-leadership-selection-in-nine-out-of-35-districts",
-      "category": "politics"
-    },
-    {
-      "title": "क्यान्सरको नयाँ वैज्ञानिक अनुसन्धानमा नेपालको नमूना पनि प्रयोग",
-      "description": "वैज्ञानिक जर्नल 'मोलिक्युल्स' मा यही अक्टोबर २४ मा प्रकाशित अध्ययन अनुसार नेपालसहित पाँच देशका मौरीको चोप उक्त अनुसन्धानमा परीक्षण गरिएको हो।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-26T14:04:00+00:00",
-      "articleUrl": "https://www.setopati.com/social/401328",
-      "category": "national"
-    },
-    {
-      "title": "लुम्बिनी लायन्सले सुदूरपश्चिम रोयल्सलाई ७ विकेटले हरायो",
-      "description": "काठमाडौं । नेपाल प्रिमियर लिग (एनपिएल) सिजन ३ को पहिलो खेलमा साविक विजेता लुम्बिनीले विजयी सुरुवात गरेको छ । कीर्तिपुरस्थित त्रिवि मैदानमा सोमबार भएको खेलमा लुम्बिनीले सुदूरपश्चिम रोयल्सलाई सात विकेटले पराजित गरेको हो । टस जितेर पहिले बलिङ गर्ने निर्णय गरेको लुम्बिनीले सुदूरपश्चिमलाई १७ ओभरमा ८७ रनमै अलआउट गरेको थियो । जवाफी ब्याटिङमा उत्रिएको लुम्बिनीले ९.५",
-      "imageUrl": "",
-      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
-      "sourceName": "राजधानी",
-      "publishedTime": "2026-10-26T14:03:53+00:00",
-      "articleUrl": "https://rajdhanidaily.com/id/150538/",
-      "category": "national"
     }
   ]
 }
