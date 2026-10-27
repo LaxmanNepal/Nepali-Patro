@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-27T20:35:49.945496+00:00",
-  "lastSuccessfulUpdate": "2026-10-27T20:35:49.945496+00:00",
-  "newestPublishedTime": "2026-10-27T19:15:00+00:00",
+  "updatedAt": "2026-10-27T23:57:13.101557+00:00",
+  "lastSuccessfulUpdate": "2026-10-27T23:57:13.101557+00:00",
+  "newestPublishedTime": "2026-10-27T23:53:43+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 30,
-  "failedFeeds": 4,
+  "successfulFeeds": 31,
+  "failedFeeds": 3,
   "failedFeedDetails": [
     {
       "url": "https://pahilopost.com/feed",
@@ -17,15 +17,131 @@
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
     },
     {
-      "url": "https://www.vikasnews.com/feed",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
-    },
-    {
       "url": "https://www.techpana.com/feed",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "title": "प्रदर्शनीमा राख्ने तयारी",
+      "description": "काठमाडौँ, कात्तिक ११ गते । अगाडि घन्टी झुन्डिएको । पछाडि खिया उप्केका पानी फाल्ने साना पम्प । बिचमा पानी ट्याङ्की, माथि फलामको भर्‍याङ । झट्ट हेर्दा सानो जिप जस्तो त्यो सवारी एक सय...",
+      "imageUrl": "https://gorkhapatraonline.com/storage/media/389194/conversions/20261027_114124-original.jpg",
+      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
+      "sourceName": "गोरखापत्र",
+      "publishedTime": "2026-10-27T23:53:43+00:00",
+      "articleUrl": "https://gorkhapatraonline.com/news/227446",
+      "category": "national"
+    },
+    {
+      "title": "खतरनाक बन्यो चक्रवात ‘अर्नब’, नेपालमा पनि उच्च सतर्कता",
+      "description": "११ कात्तिक, काठमाडौं । बंगालको खाडीमा विकसित चक्रवात ‘अर्नब’ले खतरनाक रुप लिएपछि नेपालमा पनि उच्च सतर्कता अपनाइएको छ । यसको असर हिमालदेखि तराईसम्मै पर्ने सम्भावना भएकाले सरकारले सुरक्षा अंगहरुलाई हाई अलर्टमा राखेको छ । राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणका कार्यकारी प्रमुख डा. धर्मराज उप्रेतीले विहीबारदेखि शनिबारसम्म उच्च सतर्कता अपनाउँद",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/Cyclone-Arnab-High-alert-in-Nepal.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-27T23:45:32+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2045350/cyclone-arnab-becomes-dangerous-high-alert-in-nepal-too",
+      "category": "national"
+    },
+    {
+      "title": "धान थन्क्याउन किसानलाई युवा जनशक्ति पाउनै मुस्किल",
+      "description": "भोजपुर ।गाउँघरबाट युवा जनशक्ति वैदेशिक रोजगारी तथा सहरतर्फ पलायन हुन थालेपछि भोजपुरका किसानलाई धान काट्न र थन्क्याउन कामदार पाउन मुस्किल हुन थालेको छ । खेतीपातीका लागि आवश्यक जनशक्ति अभाव हुँदा किसानले पाकेको धान समयमै भित्र्याउन",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/BHOJPUR-ELECTION_5bvHxkxfFE_HWkELzsZJX.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T23:45:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601704/farmers-find-it-difficult-to-find-young-manpower-to-store-rice",
+      "category": "national"
+    },
+    {
+      "title": "मुस्ताङ र आसपासका क्षेत्रमा तीन दिन पदयात्रा नगर्न प्रशासनको अनुरोध",
+      "description": "मुस्ताङ । मौसम प्रतिकूल हुने सम्भावना रहेकाले यही कात्तिक १२ देखि १४ गतेसम्म उच्च हिमाली क्षेत्रमा पदयात्रा नगर्न जिल्ला प्रशासन कार्यालय र लोमन्थाङ गाउँपालिकाले अनुरोध गरेका छन् । गण्डकी प्रदेशका अधिकांश स्थानमा मेघगर्जन, चट्याङ र हावाहुरीसहित",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/mustang_map_LeezRi6vcZ.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T23:30:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601701/administration-requests-people-not-to-trek-in-mustang-and-surrounding-areas-for-three-days",
+      "category": "national"
+    },
+    {
+      "title": "बाँके राष्ट्रिय निकुञ्जमा हिउँदे पर्यटनको चहलपहल",
+      "description": "बाँके । वर्षायाममा रोकिएको जङ्गल सफारी पुनः सुरु भएसँगै बाँके राष्ट्रिय निकुञ्जमा हिउँदे पर्यटनको चहलपहल सुरु भएको छ । मनसुन सकिएसँगै हरियालीले सजिएको निकुञ्जका कच्ची बाटा मर्मत गरी पर्यटकका लागि जङ्गल सफारी पुनः खुला गरिएको गाभर",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/banke-national-park-1_iisfkgjoqw_qabegecgfk_W0PvDaKDpO.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T23:17:38+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601702/winter-tourism-booms-in-banke-national-park",
+      "category": "national"
+    },
+    {
+      "title": "वीरगन्ज भन्सारद्वारा लक्ष्यभन्दा बढी राजस्व सङ्कलन",
+      "description": "पर्सा । वीरगन्ज भन्सार कार्यालयले पछिल्लो एक महिनामा रु २६ अर्ब ७२ करोड ५८ लाख राजस्व सङ्कलन गरेको छ । भन्सार कार्यालयले असोज महिनामा लक्ष्यभन्दा बढी राजस्व सङ्कलन गरेको हो । कार्यालयले रु २६ अर्ब ४६",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/birgunj-bhansar-(1)_TqAiZajEEB.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T23:16:55+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601703/birgunj-customs-collects-more-revenue-than-target",
+      "category": "national"
+    },
+    {
+      "title": "डलर, युरो, पाउण्ड र स्वीस फ्र्यांकको भाउ घट्यो",
+      "description": "११ कात्तिक, काठमाडौं । नेपाल राष्ट्र बैंकले निर्धारण गरेको विदेशी मुद्राको विनिमय दर अनुसार आज अमेरिकी डलर, युरो र पाउण्ड स्टर्लिङको भाउ घटेको छ । आज स्वीस फ्र्यांक, अष्ट्रेलियन डलर क्यानेडियन डलर र सिंगापुर डलरको भाउ पनि घटेको छ । राष्ट्र बैंकले आज अमेरिकी डलर एकको खरिद दर १५१ रुपैयाँ ८९ पैसा र बिक्रीदर १५२ […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2016/06/dollar-and-euro.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-10-27T23:15:42+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/10/2045343/the-dollar-euro-pound-and-swiss-franc-fell-in-value",
+      "category": "national"
+    },
+    {
+      "title": "बुधबार कुन राशिका लागि शुभ ? हेर्नुहोस् राशिफल",
+      "description": "आजको पञ्चाङ्ग वि.सं.२०८३ साल कार्तिक ११ गते । बुधबार । इस्वी सन् २०२६ अक्टोबर २८ तारिख । नेपाल संवत् ११४६ । रौद्र संवत्सर । दक्षिणायन । शरद ऋतु । श्रीशाके १९४८ । कार्तिक कृष्णपक्ष । तिथि–द्वितीया,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_yWVgb1BJAO.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T23:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601697/which-zodiac-sign-is-auspicious-on-wednesday-see-horoscope",
+      "category": "national"
+    },
+    {
+      "title": "काठसहित पाँच मोटरसाइकल प्रहरी नियन्त्रणमा",
+      "description": "दाङ । दाङमा अवैध रूपमा चोरी तस्करी गर्न लागेको १६ वटा सालको चिरान काठसहित पाँचवटा मोटरसाइकललाई प्रहरीले नियन्त्रणमा लिएको छ । जिल्ला प्रहरी कार्यालयका प्रमुख प्रहरी उपरीक्षक दिपक श्रेष्ठका अनुसार राप्ती गाउँपालिका–४ सुन्दरपुरमा अवैध रूपमा काठ",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/dang-map_yCoTeipd67.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T23:03:12+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601700/five-motorcycles-carrying-wood-seized-by-police",
+      "category": "national"
+    },
+    {
+      "title": "चाँदीकप उपाधिका लागि एपिएफ र हाम्रो एकता भिड्दै",
+      "description": "कञ्चनपुर । कञ्चनपुरको पुनर्वासमा जारी १६औँ रनिङ चाँदीकप खुला फुटबल प्रतियोगिताको उपाधिका लागि एपिएफ क्लब र हाम्रो एकता हाम्रो बलबिच प्रतिस्पर्धा हुने भएको छ । मङ्गलबार भएको दोस्रो सेमिफाइनल खेलमा राम युवा क्लबलाई ३–१ गोलको अन्तरले",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/football-goal_7YlETlVGt5.JPG",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T23:01:14+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601699/apf-and-hamro-ekta-clash-for-the-silver-cup-title",
+      "category": "national"
+    },
+    {
+      "title": "ताप्लेजुङ युके युवा समाजद्वारा क्यान्सर तथा मिर्गौला पीडितलाई सहयोग",
+      "description": "ताप्लेजुङ । ताप्लेजुङ युके युवा समाज युकेले ताप्लेजुङका क्यान्सर तथा मिर्गौला पीडितसहित तीन जनालाई रु एक लाख ६० हजार आर्थिक सहयोग प्रदान गरेको छ । समाजले मङ्गलबार सदरमुकाम फुङलिङमा पीडित परिवारका प्रतिनिधिलाई सहयोग रकम हस्तान्तरण",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/taplejung_eqjjmqlv18_qycfsl7agg_yD7yjYtp1k.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T22:58:16+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601698/taplejung-uk-youth-society-provides-assistance-to-cancer-and-kidney-patients",
+      "category": "national"
+    },
+    {
+      "title": "अवैध सामान बरामद",
+      "description": "सुनसरी । सुनसरीमा सशस्त्र प्रहरीले रु २५ लाख ४० हजार ९८३ बराबरका अवैध सामान बरामद गरेको छ । सशस्त्र प्रहरी बल नेपाल नं ४ गण हेडक्वाटर सुनसरी तथा मातहतका विभिन्न युनिटबाट खटिएको टोलीले यही कात्तिक १",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/sunsari_pvfbl1s23g_vjne62ed14_IiiW3jJSil.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-10-27T22:43:09+00:00",
+      "articleUrl": "https://www.ratopati.com/story/601696/illegal-goods-seized",
+      "category": "national"
+    },
     {
       "title": "गजेन्द्रमोक्ष नारायण मुक्तिनाथ रथयात्रा दमौलीमा",
       "description": "तनहुँ । प्रसिद्ध धार्मिकस्थल मुक्तिनाथबाट सुरु भएको मेची महाकाली गजेन्द्रमोक्ष नारायण मुक्तिनाथ रथयात्रा मंगलबार तनहुँको सदरमुकाम दमौली आइपुगेको छ । सनातन धर्मको संरक्षण, आध्यात्मिक चेतनाको विस्तार र धार्मिक जागरण अभिवृद्धि गर्ने उद्देश्य राखेर आइतबारदेखि सुरु",
@@ -117,7 +233,7 @@
       "category": "national"
     },
     {
-      "title": "राहुलको शानदार डेब्यू तर युनिशको तिखो वाणमा झुक्यो जनकपुुर",
+      "title": "राहुलको शानदार डेब्यू तर युनिशको तिखो वाणमा झुक्यो जनकपुर",
       "description": "कर्णालीको जितमा युवा बलर युनिशले निर्णायक भूमिका खेले। उनले जनकपुरका कप्तान हर्मीत सिंह र जिमी नीशमजस्ता प्रमुख ब्याटरलाई आउट गर्दै खेल कर्णालीको पक्षमा मोडे।",
       "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/unish-karnali.png",
       "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
@@ -4905,126 +5021,6 @@
       "publishedTime": "2026-10-26T15:47:21+00:00",
       "articleUrl": "https://nepalnews.com/2026/10/26/124-people-killed-2988-injured-in-road-accidents-during-dashain/",
       "category": "business"
-    },
-    {
-      "title": "बलियो मानिएको सुदूरपश्चिमको पहिलो खेलमै किन कमजोर ब्याटिङ? यस्तो छ प्रशिक्षक र कप्तानको विश्लेषण",
-      "description": "फितलो ब्याटिङपछि टोलीका प्रशिक्षक मिसबाह उल हक र कप्तान दीपेन्द्रसिंह ऐरीले कमजोरी स्वीकार गरेका छन्। दुवैको भनाइको सार एउटै छ—ब्याटिङमा धैर्यको कमी, महँगा सट खेल्ने प्रवृत्ति, लगातार विकेट पतन र साझेदारी बनाउन नसक्नु नै हारका प्रमुख कारण बने।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-26T15:42:00+00:00",
-      "articleUrl": "https://www.setopati.com/sports/npl/401355",
-      "category": "national"
-    },
-    {
-      "title": "सर्बियाका नयाँ नेताले रुससँगको सहकार्यको महत्व बुझ्ने क्रेमलिनको आशा",
-      "description": "काठमाडाैँ। विद्यार्थी नेतृत्वको आन्दोलनपछि लामो समयदेखि रुसनिकट मानिएका सर्बियाली नेता अलेक्जान्डर भुसिक राष्ट्रिय निर्वाचनमा पराजित भएपछि नयाँ राजनीतिक नेतृत्वले रुससँगको सहकार्यका फाइदा बुझ्ने आशा क्रेमलिनले व्यक्त गरेको छ। क्रेमलिनका प्रवक्ता दिमित्री पेस्कोभले सोमबार पत्रकारहरूसँग कुरा गर्दै",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/serbia-protest_scvFfcFNwC.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:40:26+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601447/kremlin-hopes-serbias-new-leader-will-understand-the-importance-of-cooperation-with-russia",
-      "category": "national"
-    },
-    {
-      "title": "डिजिटल सञ्जालले बदलिँदै हुम्लीको दैनिकी",
-      "description": "काठमाडौँ । दसैँ घटस्थापनाको दिउँसो अदानचुली गाउँपालिकाको श्रीनगरमा व्यवसायी तिलकबहादुर शाहीको पसलमा क्यूआर कोडमार्फत सरसामानको भुक्तानी गर्ने ग्राहकको बाक्लै भिड थियो । केही वर्षअघिसम्म नगदबिनाको कारोबार कल्पना गर्न पनि कठिन थियो । रकम अभाव हुँदा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/sow3dIVUhv.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:37:22+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601446/digital-networks-are-changing-the-daily-lives-of-humli",
-      "category": "politics"
-    },
-    {
-      "title": "एनपीएलको उद्घाटन खेल हेर्न कीर्तिपुरमा दर्शकको ओइरो (भिडियोसहित)",
-      "description": "काठमाडौँ । नेपाल प्रिमियर लिग ९एनपीएल० को तेस्रो संस्करण आजदेखि सुरु भएको छ । प्रतियोगिताको उद्घाटन खेलमा साविक विजेता लुम्बिनी लायन्सले सुदूरपश्चिम रोयल्सलाई सात विकेटले पराजित गरेको छ । यी दुई टोली अघिल्लो संस्करणका फाइनल प्रतिस्पर्धी",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/npl-darshak_RQfnVQ1rkN.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:35:46+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601445/spectators-flock-to-kirtipur-to-watch-the-inaugural-match-of-the-npl",
-      "category": "national"
-    },
-    {
-      "title": "पाल्पामा सवारी दुर्घटनाः एक जनाको मृत्यु, सात घाइते",
-      "description": "रेखीराम रानातानसेन, कात्तिक ९ गते । जिल्लाको दुई स्थानमा सवारी दुर्घटना हुँदा एक जनाको मृत्यु भएको छ । सात जना घाइते भएका छन्। मृत्यु हुनेमा गुल्मी जिल्ला धुर्कोट ४ जैसीथोककि ३७ वर...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/389004/conversions/Palpa-1-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-10-26T15:32:19+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/227327",
-      "category": "national"
-    },
-    {
-      "title": "दसैँमा सवारी दुर्घटनाबाट १२४ जनाको मृत्यु",
-      "description": "काठमाडौँ। दसैँको अवधिमा देशभर भएका सवारी दुर्घटनामा परी १२४ जनाको मृत्यु भएको छ । प्रहरी प्रधान कार्यालयले दिएको जानकारीअनुसार देशभर भएको सवारी दुर्घटनामा १२४ जनाको मृत्यु भएको छ भने दुई हजार ९८८ जना घाइते भएका छन्",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/accident1_0HVVwEUEAJ.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:30:37+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601444/124-people-die-in-road-accidents-during-dashain",
-      "category": "national"
-    },
-    {
-      "title": "मुख्यमन्त्री थापा र मन्त्री मगरबिच कार्यसम्पादन सम्झौता",
-      "description": "हेटौँडा। बागमती प्रदेशका मुख्यमन्त्री किरण थापामगर र कृषि, पशुपन्छी, वन तथा वातावरणमन्त्री रमा आलेमगरबिच साेमबार कार्यसम्पादन सम्झौता भएको छ। चालु आर्थिक वर्ष २०८३/८४ को नीति तथा कार्यक्रम र बजेटमा समावेश योजना तथा आयोजनालाई निर्धारित समयभित्र प्रभावकारी",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bagmati-sarkar_2bY5omIhep.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:29:09+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601443/performance-agreement-between-chief-minister-thapa-and-minister-magar",
-      "category": "politics"
-    },
-    {
-      "title": "डोनाल्ड ट्रम्पले गरे नर्वेको आलोचना",
-      "description": "काठमाडाैँ। अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पले मध्यावधि चुनावी सभालाई सम्बोधन गर्ने क्रममा नर्वेका आप्रवासीलाई अमेरिकामा स्वागत नगर्ने बताएका छन्। उनले नर्वेलाई आलोचना गर्दै यसलाई फोहोर राज्य (सिट हाउस कन्ट्री) भन्नुभएको छ। नोबेल समितिले ‘शान्ति पुरस्कारका लागि आफूलाई",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/trump_wnQdMlHwQi.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:25:53+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601442/donald-trump-criticizes-norway",
-      "category": "national"
-    },
-    {
-      "title": "रुस स्थानीय युद्धविरामका लागि तयार, तर युक्रेनमाथिको आक्रमण नरोकिने",
-      "description": "काठमाडाैँ। रुसले युक्रेनमा जारी आक्रमणको तीव्रता कम नगर्ने स्पष्ट पारेको छ । यद्यपि, मानवीय उद्देश्यका लागि स्थानीय स्तरमा सीमित अवधिको युद्धविराम गर्न भने आफू तयार रहेको मस्कोले जनाएको छ। क्रेमलिनका अनुसार रुसी नियन्त्रणमा रहेको युक्रेनको ओलेश्की",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/russia-flag_ZRMevq69o7.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:20:56+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601441/russia-ready-for-local-ceasefire-but-wont-stop-attacks-on-ukraine",
-      "category": "national"
-    },
-    {
-      "title": "नेपाल–मलेसिया संयुक्त कार्यदलको बैठक नोभेम्बर वा डिसेम्बरमा नेपालमा गर्न प्रस्ताव",
-      "description": "९ कात्तिक, काठमाडौं । नेपाल सरकारले नेपाल र मलेसियाबीच श्रमिक छनोट तथा भर्ना प्रक्रियामा देखिएका समस्या समाधानका लागि संयुक्त कार्यदल (ज्वाइन्ट वर्किङ ग्रुप–जेडब्लूजी) को बैठक नेपालमा आयोजना गर्न प्रस्ताव गरेको छ । युवा, श्रम तथा रोजगार मन्त्रालयले परराष्ट्र मन्त्रालयमार्फत मलेसियाली पक्षलाई पत्राचार गर्दै आगामी नोभेम्बर १८–१९ वा डिसेम्बर २–३ मा काठमाडौंमा ब",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2023/08/Malaysia.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-26T15:17:57+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2044498/proposal-to-hold-nepal-malaysia-joint-task-force-meeting-in-november-or-december",
-      "category": "business"
-    },
-    {
-      "title": "मेटाले आफ्नो एआई महत्वाकाङ्क्षा पूरा गर्न ३५ अर्ब डलर उठाउने",
-      "description": "काठमाडाैँ। मेटाले आफ्नो कृत्रिम बुद्धिमत्ता (एआई) विकासमा लगानी गर्न सेयर निष्कासनमार्फत ३५ अर्ब डलर उठाउने योजना बनाएको छ। अमेरिकी धितोपत्र तथा विनिमय आयोग (एसईसी) ले सोमबार सार्वजनिक रिपोर्टमा सेयर निष्कासनमार्फत मेटाले एआई विकासमा लगानी गने योजना",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/meta-photo_zKVmqBlzHa.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:17:20+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601440/meta-to-raise-35-billion-to-fulfill-its-ai-ambitions",
-      "category": "national"
-    },
-    {
-      "title": "स्थानीय फूललाई प्राथमिकता दिनुपर्छ : महामन्त्री पौडेल",
-      "description": "तनहुँ। नेपाली कांग्रेसका महामन्त्री प्रदीप पौडेलले तिहारमा स्वदेशमै उत्पादन भएका फूललाई प्राथमिकता दिनुपर्ने बताएका छन्। उनले स्थानीय उत्पादनलाई प्रोत्साहन गर्न सके किसानको आम्दानी बढ्नुका साथै स्वदेशी उत्पादनको प्रवर्द्धनमा सहयोग पुग्ने बताए। तनहुँको म्याग्दे गाउँपालिका–४ छिम्लीस्वारामा महिलाले",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/pradip-paudel_v557DGmdua.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-26T15:15:31+00:00",
-      "articleUrl": "https://www.ratopati.com/story/601439/local-flowers-should-be-prioritized-general-secretary-poudel",
-      "category": "politics"
     }
   ]
 }
