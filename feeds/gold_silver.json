@@ -1,32 +1,32 @@
 {
-  "date_bs": "कात्तिक १२, २०८३",
-  "date_ad": "2026-10-29",
+  "date_bs": "कात्तिक १३, २०८३",
+  "date_ad": "2026-10-30",
   "source": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
   "sourceUrl": "https://negosida.org/",
-  "updatedAt": "2026-10-29T05:40:07.934582+05:45",
+  "updatedAt": "2026-10-30T03:40:56.610725+05:45",
   "gold": {
     "type": "छापावाल",
     "unit": "प्रति तोला",
-    "price": "२९०,१००",
-    "change": "-०",
-    "trend": "flat",
-    "_numeric": 290100.0
+    "price": "२८३,५००",
+    "change": "-६,६००",
+    "trend": "down",
+    "_numeric": 283500.0
   },
   "silver": {
     "type": "चाँदी",
     "unit": "प्रति तोला",
-    "price": "४,१५०",
-    "change": "-०",
-    "trend": "flat",
-    "_numeric": 4150.0
+    "price": "३,३९०",
+    "change": "-७६०",
+    "trend": "down",
+    "_numeric": 3390.0
   },
   "details": {
-    "fine_gold_tola": 290100.0,
-    "gold_22k_tola": 265730.0,
-    "silver_tola": 4150.0,
-    "fine_gold_10g": 248715.0,
-    "gold_22k_10g": 227825.0,
-    "silver_10g": 3558.0
+    "fine_gold_tola": 283500.0,
+    "gold_22k_tola": 259685.0,
+    "silver_tola": 3390.0,
+    "fine_gold_10g": 243055.0,
+    "gold_22k_10g": 222640.0,
+    "silver_10g": 3369.5
   },
   "history": [
     {
@@ -372,6 +372,16 @@
       "fine_gold_10g": 248715.0,
       "gold_22k_10g": 227825.0,
       "silver_10g": 3558.0
+    },
+    {
+      "date_ad": "2026-10-30",
+      "date_bs": "कात्तिक १३, २०८३",
+      "fine_gold_tola": 283500.0,
+      "gold_22k_tola": 259685.0,
+      "silver_tola": 3390.0,
+      "fine_gold_10g": 243055.0,
+      "gold_22k_10g": 222640.0,
+      "silver_10g": 3369.5
     }
   ]
 }
