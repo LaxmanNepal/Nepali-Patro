@@ -1,13 +1,17 @@
 {
-  "updatedAt": "2026-11-01T18:34:32.185921+00:00",
-  "lastSuccessfulUpdate": "2026-11-01T18:34:32.185921+00:00",
-  "newestPublishedTime": "2026-11-01T18:30:04+00:00",
+  "updatedAt": "2026-11-01T22:17:40.775995+00:00",
+  "lastSuccessfulUpdate": "2026-11-01T22:17:40.775995+00:00",
+  "newestPublishedTime": "2026-11-01T20:40:25+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 31,
-  "failedFeeds": 3,
+  "successfulFeeds": 29,
+  "failedFeeds": 5,
   "failedFeedDetails": [
+    {
+      "url": "https://rajdhanidaily.com/feed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
     {
       "url": "https://pahilopost.com/feed",
       "error": "HTTPError: HTTP Error 503: Service Unavailable"
@@ -17,11 +21,115 @@
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
     },
     {
+      "url": "https://bankingkhabar.com/feed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://www.techpana.com/feed",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "title": "जनकपुरधाम से अयोध्या तक चलेगी विशेष ट्रेन, रामायण सर्किट को मिलेगी रेल कनेक्टिविटी, नेपाल के प्रधानमंत्री के 22 नवंबर को प्रस्तावित भारत दौरे के दौरान दोनों देशों के प्रधानमंत्री कर सकते हैं उद्घाटन",
+      "description": "‘हाड़ा’ विकास सिंह सिद्धार्थनगर : भारत और नेपाल के बीच धार्मिक एवं सांस्कृतिक संबंधों को नई मजबूती देने की दिशा में जनकपुरधाम से अयोध्या तक विशेष रेल सेवा शुरू करने की तैयारी तेज हो गई है। रामायण सर्किट के तहत प्रस्तावित इस रेल सेवा का उद्घाटन 22 नवंबर को प्रस्तावित नेपाल के प्रधानमंत्री बालेन्द्र शाह ... Read more The post जनकपुरधाम से अयोध्या तक चलेगी विशे",
+      "imageUrl": "",
+      "sourceLogo": "https://www.vikasnews.com/favicon.ico",
+      "sourceName": "विकास न्यूज",
+      "publishedTime": "2026-11-01T20:40:25+00:00",
+      "articleUrl": "https://vikasnews.com/18780/",
+      "category": "business"
+    },
+    {
+      "title": "बढ़नी में 96 छात्रों की हुई दस्तारबंदी, गरीबों और जरूरतमंदों की मदद करने का दिया संदेश, मदरसा जामिया अहले सुन्नत इशातुल इस्लाम में आयोजित हुआ समारोह",
+      "description": "‘हाड़ा’ विकास सिंह सिद्धार्थनगर : बढ़नी कस्बे में स्थित मदरसा जामिया अहले सुन्नत इशातुल इस्लाम में दस्तारबंदी समारोह का आयोजन किया गया। समारोह में मौलवी, मुंशी, आलिम, कामिल और फाजिल की उपाधि प्राप्त करने वाले कुल 96 छात्रों की दस्तारबंदी की गई। इस दौरान उलमा, वक्ताओं, अतिथियों और बड़ी संख्या में लोगों ने शिरकत की। ... Read more The post बढ़नी में 96 छात्रों ",
+      "imageUrl": "",
+      "sourceLogo": "https://www.vikasnews.com/favicon.ico",
+      "sourceName": "विकास न्यूज",
+      "publishedTime": "2026-11-01T20:33:34+00:00",
+      "articleUrl": "https://vikasnews.com/18771/",
+      "category": "business"
+    },
+    {
+      "title": "एसएसबी के नागरिक कल्याण कार्यक्रम का समापन, 3 सौ युवाओं को मिला रोजगारपरक प्रशिक्षण, सांसद जगदंबिका पाल ने प्रशिक्षित युवाओं को प्रमाणपत्र और टूल किट वितरित किए",
+      "description": "‘हाड़ा’ विकास सिंह सिद्धार्थनगर : सशस्त्र सीमा बल (एसएसबी) की 50वीं वाहिनी बलरामपुर की ओर से सीमावर्ती क्षेत्र के नागरिकों के सर्वांगीण विकास, आत्मनिर्भरता और कौशल संवर्धन के उद्देश्य से संचालित नागरिक कल्याण कार्यक्रम का समापन समारोह रविवार को नेहरू उच्चतर माध्यमिक विद्यालय, औदहीकलां में आयोजित किया गया। कार्यक्रम में मुख्य अतिथि सांसद जगदंबिका पाल ... Read",
+      "imageUrl": "",
+      "sourceLogo": "https://www.vikasnews.com/favicon.ico",
+      "sourceName": "विकास न्यूज",
+      "publishedTime": "2026-11-01T20:22:40+00:00",
+      "articleUrl": "https://vikasnews.com/18753/",
+      "category": "business"
+    },
+    {
+      "title": "1350 आंगनबाड़ी कार्यकत्रियों व सहायिकाओं को विधायक विनय वर्मा ने किया सम्मानित",
+      "description": "दीपावली के उपलक्ष्य में उपहार देकर बढ़ाया महिलाओं का उत्साह, पांच महिलाओं की हुई गोदभराई और छह बच्चों का अन्नप्राशन ‘हाड़ा’ विकास सिंह सिद्धार्थनगर : शोहरतगढ़ स्थित शिवपति पीजी कॉलेज के परिसर में रविवार को दीपावली पर्व के उपलक्ष्य में सम्मान समारोह का आयोजन किया गया। इसमें बाल विकास एवं पुष्टाहार विभाग के ब्लॉक शोहरतगढ़, ... Read more The post 1350 आंगनबाड़ी",
+      "imageUrl": "",
+      "sourceLogo": "https://www.vikasnews.com/favicon.ico",
+      "sourceName": "विकास न्यूज",
+      "publishedTime": "2026-11-01T20:12:27+00:00",
+      "articleUrl": "https://vikasnews.com/18742/",
+      "category": "business"
+    },
+    {
+      "title": "राष्ट्रिय गौरवका सिँचाइ आयोजनाबाट थप १५० हेक्टर जमिन सिँचाइ",
+      "description": "",
+      "imageUrl": "https://nepalsamaya.com/uploads/posts/Sikta1783220177-1793519651.jpg",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-11-01T19:07:00+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/147461",
+      "category": "national"
+    },
+    {
+      "title": "वैदिक विश्वविद्यालयको आवश्यकतामा जोड",
+      "description": "काठमाडौँ । ऋषिमुनिको तपोभूमि नेपालमा वैदिक विश्वविद्यालय स्थापनाको सङ्कल्प सान्दर्भिक भएकाले कार्यान्वयनमा लैजानुपर्नेमा जोड दिइएको छ । श्री गजेन्द्रमोक्ष वैदिक विश्वविद्यालय स्थापनाका लागि नवलपरासीस्थित गजेन्द्रमोक्षधाममा आगामी मङ्सिर १ गतेदेखि २९ गतेसम्म गजेन्द्रमोक्ष नारायण वैभव विराट महायज्ञ",
+      "imageUrl": "https://npcdn.ratopati.com/media/setting/banner-image_sPOGzj8QHe.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-01T19:00:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/602734/emphasis-on-the-need-for-a-vedic-university",
+      "category": "national"
+    },
+    {
+      "title": "२४ घण्टामा देशभर सवारी दुर्घटनामा ४ को मृत्यु, १०९ जना घाइते",
+      "description": "",
+      "imageUrl": "https://nepalsamaya.com/uploads/posts/Accident9848-1785827438.jpg",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-11-01T18:52:00+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/147460",
+      "category": "national"
+    },
+    {
+      "title": "लिभरपुललाई हराउँदै आर्सनल शीर्ष स्थानमा",
+      "description": "",
+      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/IMG_4152-1793558715.jpeg",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-11-01T18:45:24+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/175298",
+      "category": "sports"
+    },
+    {
+      "title": "कुनैपनि राजनीतिक दलको सदस्य नभएर मैंले ठूलो गल्ती गरें : डा.सुरेन्द्र केसी",
+      "description": "",
+      "imageUrl": "https://nepalsamaya.com/uploads/posts/photo-1_db6048ef-1793517204.jpg",
+      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
+      "sourceName": "नेपाल समय",
+      "publishedTime": "2026-11-01T18:39:00+00:00",
+      "articleUrl": "https://nepalsamaya.com/detail/147459",
+      "category": "politics"
+    },
+    {
+      "title": "रियल म्याड्रिडको जितमा बेलिङ्घमको ५०औँ गोल",
+      "description": "",
+      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/IMG_4150-1793558095.jpeg",
+      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
+      "sourceName": "हाम्रो खेलकुद",
+      "publishedTime": "2026-11-01T18:35:44+00:00",
+      "articleUrl": "https://www.hamrokhelkud.com/detail/175297",
+      "category": "sports"
+    },
     {
       "title": "सगरमाथा क्लबलाई अन्तर्राष्ट्रिय स्विमिङ च्याम्पियनसिपको उपाधि",
       "description": "बाँके । तेस्रो नेपालगन्ज अन्तर्राष्ट्रिय स्विमिङ च्याम्पियनसिपको उपाधि ललितपुरको सगरमाथा स्विमिङ क्लबले जितेको छ । नेपाल पौडी सङ्घको प्राविधिक सहयोगमा नेपालगन्ज स्विमिङ क्लबको आयोजनामा भएको दुई दिने प्रतियोगितामा सगरमाथाले ४२९ अङ्क ल्याएर प्रथम भएको हो",
@@ -4921,106 +5029,6 @@
       "publishedTime": "2026-10-31T14:35:24+00:00",
       "articleUrl": "https://www.setopati.com/politics/401711",
       "category": "politics"
-    },
-    {
-      "title": "पुल नहुँदा बारीमै कुहिन्छ कृषि उपज",
-      "description": "गोरखा । सडक तथा पुलको अभावमा कृषि उपज बजारसम्म पुर्‍याउन नसकेर बारीमै कुहिने समस्या भोग्दै आएका गोरखाको गण्डकी गाउँपालिकाका किसानको समस्या समाधान गर्ने गृहमन्त्री सुधन गुरुङले प्रतिबद्धता जनाएका छन्। मतदाता भेटघाटका क्रममा गण्डकी गाउँपालिका पुगेका गृहमन्त्री गुरुङसमक्ष स्थानीयले पुल नहुँदा कृषि उपजको बजारीकरणमा समस्या भइरहेको गुनासो गरेका थिए । स्थानीयका अनु",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-10-31T14:31:58+00:00",
-      "articleUrl": "https://nepalnews.com/2026/10/31/agricultural-produce-rots-in-the-fields-due-to-lack-of-bridges/",
-      "category": "business"
-    },
-    {
-      "title": "त्रिविमा खेल सुरु गर्न दबाब : कसैले मोबाइलको टर्च बाले, कसैले देउसीभैलो भट्याए",
-      "description": "काठमाडौँ । वर्षाका कारण ढिला गरी सुरु हुन लागेको नेपाल प्रिमियर लिग (एनपीएल) अन्तर्गत सुदूरपश्चिम रोयल्स र विराटनगर किंग्सबीचको खेलमा अझै टस हुन सकेको छैन । सुदूरपश्चिम रोयल्सले टस गर्न आनाकानी गरेपछि खेल सुरु हुन थप",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/npl-darshak_63URDLQwHL.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-31T14:28:21+00:00",
-      "articleUrl": "https://www.ratopati.com/story/602502/pressure-to-start-sports-at-tribhuvan-university-some-turned-on-mobile-flashlights-others-threw-deusi-bhailo",
-      "category": "national"
-    },
-    {
-      "title": "पछिल्लो घटनाक्रमबारे छलफल गर्न कांग्रेसले बोलायो विशेष बैठक",
-      "description": "काठमाडौं । पछिल्लो समसामयिक घटनाक्रमबारे सरकारको ध्यानाकर्षण गराउन प्रमुख प्रतिपक्षी दल नेपाली कांग्रेसले विशेष बैठक बोलाएको छ । आइतबार दिउँसो १ बजे पार्टी केन्द्रीय कार्यालय सानेपामा बस्नेगरी पार्टीले बैठक बोलाएको हो । बैठकमा सभापति गगन थापा, वरिष्ठ उपसभापति विश्वप्रकाश शर्मा, उपसभापति र महामन्त्रीका साथै काठमाडौंमा उपलब्ध केन्द्रीय सदस्यहर समेत सहभागी हुने",
-      "imageUrl": "",
-      "sourceLogo": "https://dainiknepal.com/favicon.ico",
-      "sourceName": "दैनिक नेपाल",
-      "publishedTime": "2026-10-31T14:17:26+00:00",
-      "articleUrl": "https://www.dainiknepal.com/2026/10/847791.html",
-      "category": "politics"
-    },
-    {
-      "title": "चाउचाउ निर्यातमा फड्को, मोटरसाइकल, तयारी कपडा र टाइल आयात ओरालो",
-      "description": "विराटनगर । चालु आर्थिक वर्ष २०८३/८४ को पहिलो त्रैमासिक (साउन–असोज) अवधिमा विराटनगर भन्सार नाका हुँदै हुने वैदेशिक व्यापारको आकारमा उल्लेख्य वृद्धि भएको छ। गत आर्थिक वर्षको सोही अवधिको तुलनामा यस वर्ष औद्योगिक कच्चा पदार्थ, इन्धन तथा निर्माण",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/bhansar-biratnagar-import_DSdHCkF1Z1.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-31T14:15:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/602485/noodle-exports-surge-motorcycle-ready-made-garment-and-tile-imports-decline",
-      "category": "national"
-    },
-    {
-      "title": "शैलुङ : प्रकृति र आस्थाको संगम",
-      "description": "शैलुङ भनेको केवल एउटा डाँडा मात्र होइन । यहाँको धार्मिक र प्राकृतिक पक्ष एकअर्कासँग जोडिएका छन् । शैलुङमा रहेको महादेव मन्दिर धार्मिक आस्थाको केन्द्रका रूपमा परिचित छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/shailung-cover.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-31T14:10:21+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2047895/sailung-a-confluence-of-nature-and-faith",
-      "category": "national"
-    },
-    {
-      "title": "एनपीएल : खेल सुरु हुन ढिलाइ भएपछि समर्थकले भट्याए देउसीभैलो",
-      "description": "काठमाडौँ । नेपाल प्रिमियर लिग (एनपीएल) अन्तर्गत विराटनगर किङ्स र सुदूरपश्चिम रोयल्सबिचको खेल सुरु हुन ढिलाइ भएपछि समर्थकले देउसीभैलो शैलीमा भट्याउन थालेका छन् । त्रिवि अन्तर्राष्ट्रिय क्रिकेट मैदानमा खेल हेर्न पुगेका समर्थकले तिहारको देउसीभैलोको भाकामा खेल",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/tu-ground-lights-npl-2_dskEPpJ7dh.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-31T14:08:55+00:00",
-      "articleUrl": "https://www.ratopati.com/story/602501/npl-fans-storm-deusivhailo-after-match-start-delay",
-      "category": "national"
-    },
-    {
-      "title": "डोल्पाको खदाङ पुल निर्माणमा विवाद, सम्झौताको ५ वर्ष पुग्दा पनि सुरु भएन काम",
-      "description": "१४ कात्तिक, डोल्पा । भेरी करिडोरअन्तर्गत जाजरकोट–डोल्पा सडकखण्डमा पर्ने डोल्पाको त्रिपुरासुन्दरी नगरपालिका–५ खदाङस्थित पुल निर्माणमा विवाद देखिएको छ। २०७८ सालमा ठेक्का सम्झौता भएको पुलको निर्माण कार्य सम्झौताअनुसारको समयसीमा सकिँदासमेत सुरु हुन सकेको छैन। पुल निर्माणमा देखिएको विवाद समाधानका लागि मंगलबार जिल्ला प्रशासन कार्यालय डोल्पाकी प्रमुख जिल्ला अधिकारी",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/10/dolpa-bridge.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-10-31T14:05:57+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/10/2047695/dispute-over-construction-of-khadang-bridge-in-dolpa-work-has-not-started-even-after-5-years-of-contract",
-      "category": "national"
-    },
-    {
-      "title": "सरकारी कर्मचारी भएकै कारण यति ठूलो सजाय किन?",
-      "description": "कसैले नखाएको जागिर यसैले खाएकी? एकछिन कुरा गर्न पनि फुर्सद छैन, पछि कुरा गरौँला रे! कति न देशै यिनीहरूले बनाएका जस्तो!",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-10-31T14:04:00+00:00",
-      "articleUrl": "https://www.setopati.com/blog/401703",
-      "category": "politics"
-    },
-    {
-      "title": "टस गर्न सुदूरपश्चिमको आनाकानी, खेल सुरु हुन ढिलाइ",
-      "description": "काठमाडौँ । नेपाल प्रिमियर लिग (एनपीएल) अन्तर्गत विराटनगर किङ्स र सुदूरपश्चिम रोयल्सबिचको खेल सुरु हुन ढिलाइ भएको छ । निर्धारित समय बितिसक्दा पनि टस हुन सकेको छैन । सुदूरपश्चिम रोयल्सका कप्तान दीपेन्द्रसिंह ऐरीले केही संकेत गरिरहेका",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/tu-ground-lights-npl-4_rxbkeOtdKM.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-31T14:02:01+00:00",
-      "articleUrl": "https://www.ratopati.com/story/602500/sudurpaschims-reluctance-to-toss-delays-start-of-match",
-      "category": "national"
-    },
-    {
-      "title": "डेभिड वार्नरले सोमबार कर्णाली याक्सविरुद्ध खेल्ने",
-      "description": "काठमाडौं । नेपाल प्रिमियर लिग (एनपीएल) को तेस्रो संस्करणमा काठमाडौँ गोर्खाजमा आबद्ध भएका अस्ट्रेलियाका अनुभवी ब्याटर डेभिड वार्नर कात्तिक १६ गते सोमबार मैदानमा उत्रिने भएका छन् । काठमाडौँ गोर्खाजले आफ्नो आधिकारिक फेसबुक पेजमार्फत वार्नरलाई मैदानमा हेर्न",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/david-warner_px1WI4cgPX.png",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-10-31T14:00:23+00:00",
-      "articleUrl": "https://www.ratopati.com/story/602499/david-warner-to-play-against-karnali-yaks-on-monday",
-      "category": "national"
     }
   ]
 }
