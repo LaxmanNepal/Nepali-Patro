@@ -1,13 +1,17 @@
 {
-  "updatedAt": "2026-11-07T18:26:24.762418+00:00",
-  "lastSuccessfulUpdate": "2026-11-07T18:26:24.762418+00:00",
-  "newestPublishedTime": "2026-11-07T18:21:11+00:00",
+  "updatedAt": "2026-11-07T22:06:38.709628+00:00",
+  "lastSuccessfulUpdate": "2026-11-07T22:06:38.709628+00:00",
+  "newestPublishedTime": "2026-11-07T19:36:08+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 30,
-  "failedFeeds": 4,
+  "successfulFeeds": 28,
+  "failedFeeds": 6,
   "failedFeedDetails": [
+    {
+      "url": "https://rajdhanidaily.com/feed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
     {
       "url": "https://www.lokaantar.com/feed",
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -21,11 +25,35 @@
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
     },
     {
+      "url": "https://bankingkhabar.com/feed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://www.techpana.com/feed",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "title": "नटिङघम फरेस्टसँग म्यानचेस्टर सिटी ३–१ ले स्तब्ध",
+      "description": "काठमाडौँ । इङ्लिस प्रिमियर लिग अन्तर्गत सम्पन्न खेलमा नटिङघम फरेस्टले बलियो प्रतिद्वन्द्वी म्यानचेस्टर सिटीमाथि ३–१ गोलको सानदार जित निकालेको छ । घरेलु मैदानमा फरेस्टलाई जिताउन लियाम डेलापले दुई गोल गरे भने जायर कुन्हाले एक गोल थपे।",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/man-city_oGTI9MsNHA.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-07T19:36:08+00:00",
+      "articleUrl": "https://www.ratopati.com/story/603993/manchester-city-stunned-3-1-by-nottingham-forest",
+      "category": "national"
+    },
+    {
+      "title": "काभ्रेमा मतदानस्थल–मतदान केन्द्र हेरफेर प्रक्रिया अघि बढाइँदै",
+      "description": "काभ्रेपलान्चोक । निर्वाचन आयोगले मतदाता नामावली अद्यावधिकलगायतका निर्वाचनलक्षित प्रक्रिया अघि बढाइरहेका बेला काभ्रेपलान्चोकमा पनि विगतका मतदानस्थल र मतदान केन्द्र पुनरावलोकन प्रक्रिया अघि बढाइने भएको छ । यसका लागि जिल्लास्थित मतदानस्थल तथा मतदान केन्द्र निर्धारण तथा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kavrepalanchok_wpemnfgzgo_sznxzhia8z_G9XRzkVeqL.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-07T18:37:08+00:00",
+      "articleUrl": "https://www.ratopati.com/story/603992/the-process-of-changing-polling-stations-and-polling-centers-is-being-carried-out-in-kavre",
+      "category": "national"
+    },
     {
       "title": "ओडेगार्डको निर्णायक गोलमा आर्सनल विजयी",
       "description": "",
@@ -5005,26 +5033,6 @@
       "publishedTime": "2026-11-06T09:43:24+00:00",
       "articleUrl": "https://bankingkhabar.com/archives/170172",
       "category": "business"
-    },
-    {
-      "title": "सेयर बजार : १५८ कम्पनीको मूल्य बढ्यो, १०७ को घट्यो",
-      "description": "२० कात्तिक, काठमाडौं । साताको अन्तिम कारोबार दिन शुक्रबार सेयर बजारमा १५८ कम्पनीको मूल्य बढेको छ भने १०७ को घटेको छ । त्यस्तै कारोबार भएका १४ कम्पनीको मूल्य स्थिर रह्यो । समग्रमा बजार परिसूचक नेप्से जम्मा २.६४ अंक बढेको छ । यो वृद्धिसँगै बजार परिसूचक नेप्से २६५५ अंकमा कायम भएको छ । दिनभर कारोबारका क्रममा […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/stock_kartik20.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-06T09:31:46+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2052627/stock-market-158-companies-prices-increased-107-decreased",
-      "category": "business"
-    },
-    {
-      "title": "तिहार अवधिभर टिपर सञ्चालनमा रोक",
-      "description": "काभ्रेपलाञ्चोक। तिहारको अवधिभर काभ्रेपलाञ्चोकका मुख्य तथा सहायक सडकहरूमा टिपर सञ्चालनमा रोक लगाइएको छ। जिल्ला प्रशासन कार्यालय, काभ्रेपलाञ्चोकले शुक्रबार सूचना जारी गर्दै तिहारको अवधिभर टिपर सञ्चालनमा रोक लगाइएको जनाएको हो। जिल्ला सुरक्षा समिति, काभ्रेपलाञ्चोकको बैठकको निर्णय अनुसार चाडपर्वका",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/tiper_vIsJn56prf.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-11-06T09:30:13+00:00",
-      "articleUrl": "https://www.ratopati.com/story/603755/tipper-operation-banned-during-tihar",
-      "category": "national"
     }
   ]
 }
