@@ -1,13 +1,17 @@
 {
-  "updatedAt": "2026-11-10T17:06:24.731933+00:00",
-  "lastSuccessfulUpdate": "2026-11-10T17:06:24.731933+00:00",
-  "newestPublishedTime": "2026-11-10T17:02:10+00:00",
+  "updatedAt": "2026-11-10T22:18:14.709436+00:00",
+  "lastSuccessfulUpdate": "2026-11-10T22:18:14.709436+00:00",
+  "newestPublishedTime": "2026-11-10T18:15:00+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 30,
-  "failedFeeds": 4,
+  "successfulFeeds": 29,
+  "failedFeeds": 5,
   "failedFeedDetails": [
+    {
+      "url": "https://www.annapurnapost.com/rss",
+      "error": "HTTPError: HTTP Error 502: Bad Gateway"
+    },
     {
       "url": "https://www.lokaantar.com/feed",
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -26,6 +30,46 @@
     }
   ],
   "items": [
+    {
+      "title": "१२ बजे १२ समाचार : यस्ता छन् आजका प्रमुख समाचार",
+      "description": "काठमाडौँ । आज दिनभरका मुख्यमुख्य घटनाक्रमसहित रातोपाटीको रात्रिकालीन प्रस्तुति रातोपाटी ब्रिफिङमा १२ बजे १२ समाचार लिएर आएका छौँ–",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/collage-1_65kpm9ufsl.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-10T18:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604502/12-news-at-12-these-are-todays-top-news-stories",
+      "category": "national"
+    },
+    {
+      "title": "ट्रिनिडाड एन्ड टोबागोमा समलिंगी यौनसम्बन्धमाथिको प्रतिबन्ध खारेज",
+      "description": "काठमाडाैँ । क्यारिबियन मुलुक ट्रिनिडाड एन्ड टोबागोमा समलिंगी यौनसम्बन्धलाई अपराध मान्ने कानुन खारेज भएको छ । बेलायतको सर्वोच्च पुनरावेदन अदालतका रूपमा रहेको ‘जुडिसियल कमिटी अफ द प्रिभी काउन्सिल’ले मंगलबार एक शताब्दीभन्दा पुरानो कानुन असंवैधानिक ठहर",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/lgbtq_GJHL4qyrhd.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-10T18:08:49+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604503/trinidad-and-tobago-lifts-ban-on-same-sex-marriage",
+      "category": "national"
+    },
+    {
+      "title": "भक्तपुरमा परम्परागत विधिअनुसार किजापूजा मनाइयो",
+      "description": "भक्तपुर । नेवार समुदायमा दाजुभाइ तथा दिदीबहिनीबिचको प्रेम, सद्भाव र आत्मीयताको प्रतीकका रूपमा मनाइने किजापूजा (भाइटीका) मंगलबार भक्तपुरलगायत नेवार समुदायको बसोबास रहेका विभिन्न स्थानमा हर्षोल्लासका साथ मनाइएको छ । स्वन्ति नखाःअन्तर्गत लक्ष्मीपूजा, म्हःपूजा र किजापूजा क्रमशः",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/pRKaTB94iQ.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-10T17:32:31+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604501/kija-puja-celebrated-according-to-traditional-rituals-in-bhaktapur",
+      "category": "national"
+    },
+    {
+      "title": "पोखरामा बुधबार भाइटिका महोत्सव",
+      "description": "कास्की । नेपाली मौलिक संस्कृति र परम्परालाई पर्यटनसँग जोड्दै आएको होटल सङ्घ पोखराको आयोजनामा पोखरामा बुधबार १९औँ संस्करणको भाइटिका महोत्सव आयोजना हुने भएको छ । तिहारको सांस्कृतिक महत्वलाई अन्तर्राष्ट्रियस्तरमा परिचित गराउने र संस्कृतिका माध्यमबाट पर्यटन प्रवर्द्धन",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/09-pokhara_nepal-photo-library9_aoa2ECWnmZ.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-10T17:08:38+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604500/bhaitika-festival-in-pokhara-on-wednesday",
+      "category": "national"
+    },
     {
       "title": "एनपीएलको लिग चरणमा सात खेल बाँकी, प्लेअफ पुग्न कसलाई के चाहिन्छ ?",
       "description": "हालको अवस्थामा काठमान्डु र सुदूरपश्चिम एकआपसमा खेल्न बाँकी रहेको र एक टोलीको १० अंक पुग्ने पक्का रहेकाले दुई मध्ये एक टोली प्लेअफ पुग्ने निश्चित छ । काठमान्डुले सुदूरपछि पोखरासँग पनि खेल्न बाँकी छ ।",
@@ -4985,46 +5029,6 @@
       "publishedTime": "2026-11-09T06:50:18+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/11/2054332/love-gets-emotional-while-giving-a-bracelet-to-scout-opens-up-about-her-feelings",
       "category": "entertainment"
-    },
-    {
-      "title": "कपिलवस्तुमा बसको ठक्करबाट ७७ वर्षीय पुरुषको मृत्यु",
-      "description": "कपिलवस्तु । कपिलवस्तुको महाराजगञ्ज नगरपालिका–३ बर्गदामा बसको ठक्करबाट स्थानीय ७७ वर्षीय लखन अहिरको मृत्यु भएको छ । तौलिहवाबाट बहादुरगञ्जतर्फ गैरहेको गरेको लु १ ख ९७२६ नम्बरको बसले हुलाकी सडकमा पैदलयात्रामा रहेका अहिरलाई ठक्कर दिएको जिल्ला ट्राफिक",
-      "imageUrl": "https://rpcdn.ratopati.com/media/albums/kapilbastu_hpUAuzFK1J.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-11-09T06:50:02+00:00",
-      "articleUrl": "https://www.ratopati.com/story/604222/77-year-old-man-dies-after-being-hit-by-bus-in-kapilvastu",
-      "category": "national"
-    },
-    {
-      "title": "चिनियाँ महिलासँगको सम्बन्ध स्वीकारेपछि एनभिडियाका सीईओमाथि छानबिन, के भन्छन् जेन्सेन ?",
-      "description": "‘राष्ट्रिय सुरक्षा वा एनभिडियाका गोप्य सूचनाहरू चुहावट भएको विश्वास गर्नुपर्ने कुनै कारण बोर्डसँग नभए पनि उपलब्ध सबै जानकारीको सूक्ष्म अध्ययन गरिनेछ,’ एनभिडियाको सञ्चालक समितिले भनेको छ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/jensen-huwang.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T06:47:55+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054356/nvidia-ceo-under-investigation-after-admitting-relationship-with-chinese-woman-what-does-jensen-say",
-      "category": "national"
-    },
-    {
-      "title": "खेल्न प्रतिबन्धित तास आयात गर्न भने पूर्ण छुट, ३ महिनामै पौने १२ करोडको भित्रियो",
-      "description": "काठमाडौँ । चालु आर्थिक वर्ष २०८३/८४ को पहिलो तीन महिनामा (साउनदेखि असोजसम्म) पौने १२ करोड रुपैयाँ बराबरको तास नेपाल भित्रिएको छ । भन्सार विभागको पछिल्लो तथ्यांकअनुसार दसैं–तिहारलाई लक्षित गर्दै यस अवधिमा ११ करोड ६८ लाख",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/play-card_bNbdOFjW12.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-11-09T06:46:22+00:00",
-      "articleUrl": "https://www.ratopati.com/story/604221/a-quarter-of-a-million-rupees-was-earned-in-three-months",
-      "category": "national"
-    },
-    {
-      "title": "‘१८ करोड’को अडियोले तरंग, विचाराधीन मुद्दामा के प्रभाव पर्ला ?",
-      "description": "काठमाडौँ । नेपाली कांग्रेसको आधिकारिकतासम्बन्धी विवाद सर्वोच्च अदालतको पूर्ण इजलासमा पुनः सुनुवाइको चरणमा प्रवेश गरेको छ । मुद्दा विचाराधीन रहेकै बेला ‘१८ करोड रुपैयाँ लेनदेन’ सम्बन्धी अडियो प्रकरण बाहिरिएपछि नेपाली राजनीतिक र न्यायिक वृत्तमा नयाँ",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/court_obvtnqrzqc_0uAyV7teqq.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-11-09T06:43:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/604220/what-impact-will-the-audio-of-18-crores-have-on-the-ongoing-case",
-      "category": "national"
     }
   ]
 }
