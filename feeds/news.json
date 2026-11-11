@@ -1,17 +1,13 @@
 {
-  "updatedAt": "2026-11-10T22:18:14.709436+00:00",
-  "lastSuccessfulUpdate": "2026-11-10T22:18:14.709436+00:00",
-  "newestPublishedTime": "2026-11-10T18:15:00+00:00",
+  "updatedAt": "2026-11-11T01:57:41.584684+00:00",
+  "lastSuccessfulUpdate": "2026-11-11T01:57:41.584684+00:00",
+  "newestPublishedTime": "2026-11-11T01:56:32+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 29,
-  "failedFeeds": 5,
+  "successfulFeeds": 30,
+  "failedFeeds": 4,
   "failedFeedDetails": [
-    {
-      "url": "https://www.annapurnapost.com/rss",
-      "error": "HTTPError: HTTP Error 502: Bad Gateway"
-    },
     {
       "url": "https://www.lokaantar.com/feed",
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -30,6 +26,426 @@
     }
   ],
   "items": [
+    {
+      "title": "खत्याड खोलाले बगाउँदा बालकको मृत्यु",
+      "description": "मुगु । मुगुमा खत्याड खोलामा नुहाउने क्रममा खोलाले बगाउँदा पाँच वर्षीय बालकको मृत्यु भएको छ । जिल्लाको खत्याड गाउँपालिका–२ स्थित खत्याड खोलामा मंगलबार अपराह्न करिब ५:३० बजे नुहाउने क्रममा स्थानीय जयबहादुर बानियाँका पाँच वर्षीय छोरा रोजक बानियाँलाई खोलाले बगाएको हो । प्रहरीका अनुसार रोजक ३–४ जना साथीहरूसँग खोलामा नुहाउन गएको प्रारम्भिक जानकारी प्राप्त भएको छ [",
+      "imageUrl": "",
+      "sourceLogo": "https://dainiknepal.com/favicon.ico",
+      "sourceName": "दैनिक नेपाल",
+      "publishedTime": "2026-11-11T01:56:32+00:00",
+      "articleUrl": "https://www.dainiknepal.com/2026/11/849504.html",
+      "category": "national"
+    },
+    {
+      "title": "गच्छे–भालुबाङ सडक निर्माणले गति लिँदै, अर्घाखाँची र प्रदेश राजधानी बीचको दूरी ४७ किलोमिटर छोटिने",
+      "description": "अर्घाखाँची । राप्ती नदीको वारि अर्घाखाँची जिल्ला पर्छ। नदीपारि रहेको लुम्बिनी प्रदेशको राजधानी भालुबाङ अर्घाखाँचीको सिमानासँगै जोडिएको छ। भौगोलिक रूपमा निकै नजिक रहे पनि प्रदेश राजधानी पुग्न अर्घाखाँचीवासीले लामो र घुमाउरो सडकयात्रा गर्नुपर्ने बाध्यता छ। सदरमुकाम",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/arghakhanchi_vyOTM1Ujc6.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T01:56:16+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604532/construction-of-gachhe-bhalubang-road-gaining-momentum-distance-between-arghakhanchi-and-provincial-capital-to-be-reduced-by-47-kilometers",
+      "category": "national"
+    },
+    {
+      "title": "जङ्गली हात्तीको आक्रमणबाट वृद्धाको मृत्यु",
+      "description": "कञ्चनपुर । कञ्चनपुरको शुक्लाफाँटा नगरपालिका वडा नम्बर २ मा गए राति जङ्गली हात्तीको आक्रमणबाट एक वृद्धाको मृत्यु भएको छ। इलाका प्रहरी कार्यालय झलारीका अनुसार जङ्गली हात्तीको आक्रमणमा परी शुक्लाफाँटा वडा नम्बर २ की ६० वर्षीया लक्ष्मी डगौंराको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/elephant_P7YIAPCbak.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T01:52:58+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604531/elderly-woman-dies-after-being-attacked-by-wild-elephant",
+      "category": "national"
+    },
+    {
+      "title": "कञ्चनपुरमा हात्तीको आक्रमणबाट महिलाको मृ*त्यु",
+      "description": "२५ कात्तिक, धनगढी । कञ्चनपुरमा जंगली हात्तीको आक्रमणबाट एक महिलाको मृत्यु भएको छ। शुक्लाफाँटा नगरपालिका-१ तारापुरकी ६० वर्षीया लक्ष्मी डगौराको हात्तीको आक्रमणबाट मृत्यु भएको हो। आफ्नै कच्ची घरमा सुतिरहेको अवस्थामा शुक्लाफाँटा राष्ट्रिय निकुञ्जबाट आएको जंगली हात्तीले आक्रमण गर्दा उनको गएराति घटनास्थलमै मृत्यु भएको प्रहरीले जनाएको छ।",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2021/08/Women-death.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-11-11T01:49:45+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/11/2055466/woman-dies-in-elephant-attack-in-kanchanpur-2",
+      "category": "national"
+    },
+    {
+      "title": "ममता काफ्ले भट्ट हत्या प्रकरण: श्रीमान् नरेश भट्ट दोषी ठहर",
+      "description": "काठमाडौं। अमेरिकामा बेपत्ता भएकी नेपाली मूलकी नर्स ममता काफ्ले भट्टको हत्या मुद्दामा उनका पति नरेश भट्ट दोषी ठहर भएका छन्। भर्जिनियास्थित अदालतले मंगलबार छ हप्ता लामो सुनुवाइपछि नरेशलाई ‘फर्स्ट-डिग्री मर्डर’ अर्थात् प्रथम श्रेणीको हत्याको आरोपमा दोषी ठहर गरेको हो। अदालतले उनलाई शवको अपमान गरेको र त्यसलाई लुकाएको अभियोगमा पनि दोषी पाएको छ। सुनुवाइको क्रममा नर",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-11-11T01:47:21+00:00",
+      "articleUrl": "https://nepalnews.com/2026/11/11/mamta-kafle-bhatt-murder-case-husband-naresh-bhatt-found-guilty/",
+      "category": "business"
+    },
+    {
+      "title": "अवैध फूलमाला भित्र्याउने प्रयास, ३९ लाख ७९ हजार रुपैयाँबराबरको बरामद",
+      "description": "झापा । सशस्त्र प्रहरी बलले झापाका विभिन्न सीमावर्ती क्षेत्रबाट ३९ लाख ७८ हजार ७०० रुपैयाँबराबरका अवैध भारतीय फूलमाला बरामद गरेको छ । काँकडभिट्टा, भद्रपुर र केचनालगायत भारतसँग सीमा जोडिएका क्षेत्रबाट नेपालतर्फ अवैध रूपमा भित्र्याउँदै गरेको अवस्थामा सशस्त्र प्रहरीको गस्ती तथा चेकजाँच टोलीले दुई दिनमा उक्त फूलमाला नियन्त्रणमा लिएको सशस्त्र प्रहरी बल नेपाल नं २ ",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-11-11T01:46:17+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/151252/",
+      "category": "national"
+    },
+    {
+      "title": "प्रधानमन्त्रीको भारत भ्रमणमा नेपालले २ अर्ब डलरको आर्थिक प्याकेज प्रस्ताव गर्ने तयारी",
+      "description": "एजेन्सी । आसन्न भारत भ्रमणका क्रममा नेपालले भारत सरकारसँग सहुलियतपूर्ण ऋण (लाइन अफ क्रेडिट) तथा अनुदानसहित करिब २ अर्ब अमेरिकी डलरको आर्थिक प्याकेज प्रस्ताव गर्ने तयारी गरेको छ । प्रधानमन्त्री बालेन शाह आगामी मंसिर ७ देखि ९ गते (नोभेम्बर २२ देखि २४) सम्म भारतको औपचारिक भ्रमणमा जाँदैछन् ।यस आर्थिक प्याकेजका सम्बन्धमा नेपाल सरकारले आन्तरिक छलफल […]",
+      "imageUrl": "",
+      "sourceLogo": "https://clickmandu.com/favicon.ico",
+      "sourceName": "क्लिकमाण्डु",
+      "publishedTime": "2026-11-11T01:39:32+00:00",
+      "articleUrl": "https://clickmandu.com/2026/11/504793.html",
+      "category": "business"
+    },
+    {
+      "title": "भाइटीकाका दिन काठमाडौं र भक्तपुरमा सशस्त्र प्रहरीको निःशुल्क बस सेवा",
+      "description": "काठमाडौं। सशस्त्र प्रहरी बल नेपालले तिहारको भाइटीकाको दिन काठमाडौं उपत्यका र भक्तपुरमा सर्वसाधारणका लागि निःशुल्क बस सेवा सञ्चालन गरेको छ। सार्वजनिक यातायातका साधन न्यून सञ्चालन हुने भएकाले यात्रुको सहजताका लागि तीनवटा बसमार्फत यो सेवा प्रदान गरिएको हो। सशस्त्र प्रहरी बलका सहप्रवक्ता डीएसपी शैलेन्द्र थापाका अनुसार यो निःशुल्क सेवा बिहान ८ बजेदेखि बेलुकी ५ बज",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-11-11T01:37:57+00:00",
+      "articleUrl": "https://nepalnews.com/2026/11/11/armed-police-force-provides-free-bus-service-in-kathmandu-and-bhaktapur-on-bhai-tika-day/",
+      "category": "business"
+    },
+    {
+      "title": "सशस्त्र प्रहरीद्वारा आज काठमाडौं, ललितपुर र भक्तपुरमा निःशुल्क बससेवा सञ्चालन, यस्तो छ रुट",
+      "description": "काठमाडौं । सशस्त्र प्रहरी बल, नेपालले तिहारको भाइटीकाको दिन आज काठमाडौं उपत्यकामा सर्वसाधारण यात्रुको सहज आवतजावतका लागि ३ वटा बस निःशुल्क रूपमा सञ्चालन गरेको छ । आज सार्वजनिक यातायातका साधनहरू अत्यन्तै न्यून रूपमा चल्ने भएकाले सर्वसाधारण नागरिकलाई आवतजावतमा सुविधा पु¥याउने उद्देश्यका साथ सशस्त्र प्रहरी बल, नेपालद्वारा काठमाडौं, ललितपुर र भक्तपुरमा निःशुल्क ",
+      "imageUrl": "",
+      "sourceLogo": "https://rajdhanidaily.com/favicon.ico",
+      "sourceName": "राजधानी",
+      "publishedTime": "2026-11-11T01:35:25+00:00",
+      "articleUrl": "https://rajdhanidaily.com/id/151250/",
+      "category": "national"
+    },
+    {
+      "title": "आज काठमाडौं उपत्यकामा सशस्त्र प्रहरीको निःशुल्क बस सेवा",
+      "description": "२५ कात्तिक, काठमाडौं । आज तिहारको भाइटीकाका दिन सार्वजनिक यातायातका साधन न्यून रूपमा सञ्चालन हुने भएकाले सशस्त्र प्रहरी बल, नेपालले काठमाडौं उपत्यका र भक्तपुरमा तीनवटा बस निःशुल्क सञ्चालन गरेको छ । सर्वसाधारण यात्रुको आवतजावत सहज बनाउने उद्देश्यले सशस्त्र प्रहरीले बिहान ८ बजेदेखि बेलुका ५ बजेसम्म निःशुल्क बस सेवा सञ्चालन गरेको हो । सशस्त्र प्रहरी बल, […]",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/gadi-A_P_F.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-11-11T01:32:45+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/11/2055463/armed-police-force-to-provide-free-bus-service-in-kathmandu-valley-today",
+      "category": "national"
+    },
+    {
+      "title": "थानीमाई मन्दिरमा एकै दिन भित्रिए ९१ डोली",
+      "description": "तनहुँ। भानु नगरपालिका–७ बसन्तपुरस्थित थानीमाई मन्दिर पछिल्लो समय धार्मिक आस्थाको महत्त्वपूर्ण केन्द्रका रूपमा विकास हुँदै गएको छ। अग्लो डाँडाको थुम्कोमा अवस्थित मन्दिरमा पूजा, आराधना र भाकल गर्न तनहुँसहित देशका विभिन्न ठाउँबाट भक्तजन आउने गरेका छन् । विशेषगरी वर्षका निश्चित महिनाका मङ्गलबार यहाँ लाग्ने भक्तजनको भीड, फूलको डोली र पञ्चैबाजाको गुञ्जनले बसन्तपुर",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-11-11T01:24:12+00:00",
+      "articleUrl": "https://nepalnews.com/2026/11/11/91-dolis-entered-thanimai-temple-in-a-single-day/",
+      "category": "business"
+    },
+    {
+      "title": "स्वरूप परिवर्तन गरी ठुलो आवाज निकाल्ने ५२ मोटरसाइकल नियन्त्रणमा",
+      "description": "काठमाडौँ । काठमाडौँका विभिन्न स्थानबाट ठुलो आवाज निकाल्ने तथा स्वरूप परिवर्तन गरिएका ५२ वटा मोटरसाइकल प्रहरीले नियन्त्रणमा लिएको छ। चाडपर्वको समयमा सर्वसाधारण नागरिकलाई सुरक्षित, शान्त तथा भयमुक्त वातावरणमा आउजाउ गर्ने व्यवस्था मिलाउने उद्देश्यले प्रहरीले चेकजाँच बढाएको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/899545354_29371261119135608_3589470411716273205_n_6uBXYGiJXU.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T01:16:27+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604529/52-motorcycles-seized-for-making-loud-noises-by-changing-their-appearance",
+      "category": "national"
+    },
+    {
+      "title": "गुलियोमा लुकेको जोखिम",
+      "description": "तिहारमा मिठाईको स्वादबाट टाढा रहन सहज छैन। सेलरोटी, लड्डु, बर्फी, रसबरी, अनरसा र विभिन्न गुलिया परिकारले चाडपर्वको रौनक बढाउँछन्। घरमा मिठाई बनाउने, आफन्तलाई बाँड्ने र उपहारका रूपमा दिने चलनले पनि गुलियो खानेकुराको खपत बढाउँछ। चाडपर्वमा मिठाई खानु नेपाली संस्कृतिको एउटा हिस्सा हो। तर स्वादका लागि खाइने यिनै परिकारको मात्रा नियन्त्रण गर्न नसक्दा स्वास्थ्यमा द",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-11-11T01:15:52+00:00",
+      "articleUrl": "https://nepalnews.com/2026/11/11/the-hidden-danger-in-sweets/",
+      "category": "business"
+    },
+    {
+      "title": "जलविद्युत आयोजनाको सहयोगमा सडक मर्मत सुरु",
+      "description": "म्याग्दी। म्याग्दीको मालिका गाउँपालिका–६ बालौटेमा म्याग्दी नदीको कटानबाट क्षतिग्रस्त बेनी–दरवाङ सडक मर्मत सुरु गरिएको छ। पूर्वाधार विकास कार्यालय, मालिका गाउँपालिका र म्याग्दी नदी बेसिनमा निर्माणाधीन जलविद्युत् आयोजनाको साझेदारीमा सडक मर्मत थालिएको हो। गत असोज ८ देखि ११ गतेसम्मको अविरल वर्षापछिको बाढीले बालौटेमा सडक कटान गरेपछि मालिका, मङ्गला र धवलागिरि गाउँ",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-11-11T01:13:37+00:00",
+      "articleUrl": "https://nepalnews.com/2026/11/11/road-repairs-begin-with-support-from-hydropower-project/",
+      "category": "business"
+    },
+    {
+      "title": "भाइटीकाका दिन बालगोपालेश्वर मन्दिर खुला",
+      "description": "काठमाडौं। दिदीबहिनी र दाजुभाइ नहुनेहरूका लागि भाइटीकाको दिन काठमाडौंको रानीपोखरीमा अवस्थित बालगोपालेश्वर मन्दिर खुला गरिएको छ। वर्षमा एक पटक भाइटीकाको दिन मात्र खुल्ने यस मन्दिरमा दाजुभाइ वा दिदीबहिनी नहुने व्यक्तिहरूले पूजा तथा दर्शन गर्ने गर्दछन्। काठमाडौं महानगरपालिकाका प्रवक्ता नवीन मानन्धरका अनुसार मन्दिर खुला गर्न आवश्यक सम्पूर्ण तयारी पूरा गरिएको छ। त",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-11-11T01:12:09+00:00",
+      "articleUrl": "https://nepalnews.com/2026/11/11/balgopaleshwar-temple-opens-on-bhai-tika-day/",
+      "category": "business"
+    },
+    {
+      "title": "भिरबाट लडेर रुखको जरामा अड्किएकी वृद्धाको सकुशल उद्धार",
+      "description": "बझाङ । बझाङको केदारस्युँ गाउँपालिका वडा नम्बर ९ सेकुमा भिरबाट लडेर रुखको जरामा अड्किएकी ८४ वर्षीया वृद्धाको सकुशल उद्धार गरिएको छ। बुधबार दिउँसो अन्दाजी बाह्र बजेर पचास मिनेट जाँदा सोही स्थानमा बस्ने ८४ वर्षीया रत्ना बिष्ट",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/900213379_1657585149492570_1565922327263656502_n_NvOohZdDxX.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T01:09:45+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604528/elderly-woman-rescued-after-falling-from-cliff-and-getting-stuck-in-tree-roots",
+      "category": "national"
+    },
+    {
+      "title": "बालगोपालेश्वर मन्दिरमा भक्तजनको भीड",
+      "description": "काठमाडौं। भाइटीकाको अवसरमा काठमाडौंको रानीपोखरीस्थित बालगोपालेश्वर मन्दिर बुधबार बिहानैदेखि भक्तजनका लागि खुला गरिएको छ। दिदीबहिनी वा दाजुभाइ नहुने व्यक्तिहरूले वर्षमा एकपटक मात्र खुल्ने यस मन्दिरमा पूजा तथा दर्शन गरी टीका लगाउने परम्परा छ। काठमाडौँ महानगरपालिकाका प्रवक्ता नवीन मानन्धरका अनुसार मन्दिर खुला गर्न आवश्यक सम्पूर्ण तयारी पूरा गरिएको थियो। संस्कृत",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-11-11T01:07:52+00:00",
+      "articleUrl": "https://nepalnews.com/2026/11/11/crowd-of-devotees-at-balgopaleshwar-temple/",
+      "category": "business"
+    },
+    {
+      "title": "फाल्गुनन्दका विचार आज पनि उत्तिकै सान्दर्भिक : उपराष्ट्रपति",
+      "description": "काठमाडौँ । किराँत धर्म, दर्शन, संस्कृति तथा सामाजिक जागरणका महान अभियान्ता राष्ट्रिय विभूति महागुरु फाल्गुनन्द लिङ्देनको जयन्तीका अवसरमा उपराष्ट्रपति रामसहाय प्रसाद यादवले शुभकामना व्यक्त गरेका छन्। उनले महागुरु फाल्गुनन्दप्रति उच्च सम्मान प्रकट गर्दै स्वदेश तथा विदेशमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ramsahaya-prasad-yadav_oBxjyKoI7Q.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T01:06:26+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604527/falgunandas-thoughts-are-equally-relevant-today-vice-president",
+      "category": "politics"
+    },
+    {
+      "title": "झापामा ४० लाख मूल्यका अवैध भारतीय फूलमाला बरामद",
+      "description": "झापा। सशस्त्र प्रहरी बलले झापाका विभिन्न सीमावर्ती क्षेत्रबाट ३९ लाख ७८ हजार ७०० मूल्य बराबरका अवैध भारतीय फूलमाला बरामद गरेको छ। काँकडभिट्टा, भद्रपुर र केचनालगायत भारतसँग सीमा जोडिएका क्षेत्रबाट नेपालतर्फ अवैध रूपमा भित्र्याउँदै गरेको अवस्थामा सशस्त्र प्रहरीको गस्ती तथा चेकजाँच टोलीले दुई दिनमा उक्त फूलमाला नियन्त्रणमा लिएको सशस्त्र प्रहरी बल नेपाल नं २ गण ",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-11-11T01:05:29+00:00",
+      "articleUrl": "https://nepalnews.com/2026/11/11/illegal-indian-flower-garlands-worth-rs-4-million-seized-in-jhapa/",
+      "category": "business"
+    },
+    {
+      "title": "सेलरोटीको स्वादमा नेपाली संस्कृति जोगाउने प्रयास",
+      "description": "भोजनलिपि अभियानले सेलरोटीलाई प्रतियोगितामा सीमित नराखी यसको बनाउने विधि, सामग्री, स्वाद र सांस्कृतिक महत्त्वको अध्ययन तथा अभिलेखीकरणलाई पनि अघि बढाउने लक्ष्य राखेको छ । नेपाली खानाका विविधता खोज्ने र तिनलाई अन्तर्राष्ट्रिय पहिचान दिलाउने अभियानमा यस्ता प्रतियोगिताले मौलिक स्वादसँगै त्यससँग जोडिएको इतिहास र संस्कृति जोगाउन सहयोग पुग्ने अपेक्षा गरिएको छ ।",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-11-11T01:04:47+00:00",
+      "articleUrl": "https://nepallive.com/story/352809",
+      "category": "national"
+    },
+    {
+      "title": "यस्तो छ विदेशी मुद्राको विनिमयदर, डलरको भाउ कति छ ?",
+      "description": "काठमाडौं । नेपाल राष्ट्र बैंकले बुधबारका लागि अमेरिकी डलरको बिक्रीदर १५० रुपैयाँ ५९ पैसा र खरिददर १४९ रुपैयाँ ९९ पैसा तोकेको छ । राष्ट्र बैंकका अनुसार एक युरोको बिक्रीदर १६९ रुपैयाँ ८ पैसा, पाउन्ड स्टर्लिङको २०२",
+      "imageUrl": "https://rpcdn.ratopati.com/media/albums/forex_rate_exchange_7iyO7cnN7h.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T01:04:42+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604526/this-is-the-foreign-currency-exchange-rate-what-is-the-value-of-the-dollar",
+      "category": "national"
+    },
+    {
+      "title": "भाइटीकाका दिन तीन प्रदेशमा वर्षाको सम्भावना",
+      "description": "काठमाडौं। आज भाइटीकाको दिन कोशी, बागमती र गण्डकी प्रदेशका केही भू-भागमा वर्षाको सम्भावना रहेको मौसम पूर्वानुमान महाशाखाले जनाएको छ। महाशाखाका अनुसार यी प्रदेशका हिमाली क्षेत्रमा मेघगर्जन र चट्याङसहित हल्का वर्षा र हिमपातको सम्भावना छ। दिउँसो कोशी, बागमती र गण्डकी प्रदेशका हिमाली भू-भागमा सामान्यतया बादल लाग्नेछ। देशका अन्य हिमाली क्षेत्र, पहाडी भू-भाग र मधेश",
+      "imageUrl": "",
+      "sourceLogo": "https://nepalnews.com/favicon.ico",
+      "sourceName": "नेपालन्युज",
+      "publishedTime": "2026-11-11T01:02:48+00:00",
+      "articleUrl": "https://nepalnews.com/2026/11/11/rain-likely-in-three-provinces-on-bhai-tika-day/",
+      "category": "business"
+    },
+    {
+      "title": "बबई नदीमा १५ किलोमिटर तटबन्ध",
+      "description": "दाङ । दाङको लमहीस्थित सिँचाइ तथा जलस्रोत व्यवस्थापन आयोजनाले बबई नदीमा १५ किलोमिटर तटबन्ध गरेको छ । एक सय ३२.८ किलोमिटर लम्बाइ रहेको उक्त नदीमा १५ किलोमिटर तटबन्ध हुँदा ४६८ हेक्टर खेतीयोग्य जमिन उकास गरिएको सूचना",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/babai-nadi_MAPAAGfTUV.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T00:57:21+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604524/15-km-embankment-on-the-babai-river",
+      "category": "national"
+    },
+    {
+      "title": "आज भाइटीका, उत्तम साइत बिहान ११ः०७ बजे",
+      "description": "२५ कात्तिक । यमपञ्चक अर्थात् तिहारको अन्तिम दिन आज दाजुभाइले दिदीबहिनीबाट टीका ग्रहण गरी भाइटीका पर्व मनाउँदैछन् । प्रत्येक वर्ष कात्तिक शुक्ल द्वितीयाका दिन मनाइने भाइटीका नेपालीको दोस्रो ठूलो चाड तिहारको मुख्य पर्व हो। यस दिन दिदीबहिनीले आफ्ना दाजुभाइको दीर्घायु, आरोग्य र समृद्धिको कामना गर्दै परम्पराअनुसार सप्तरङ्गी वा पञ्चरङ्गी टीका लगाइदिने चलन छ । यस [",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-11-11T00:52:35+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/11/2055459/today-is-bhai-tika-best-time-at-1107-am",
+      "category": "national"
+    },
+    {
+      "title": "ममता काफ्ले हत्यामा दोषी ठहर भएका नरेश भट्टको सजाय निर्धारण कहिले हुन्छ ?",
+      "description": "काठमाडौँ । अमेरिकाको भर्जिनियामा श्रीमती ममता काफ्लेको हत्या गरेको अभियोगमा दोषी ठहर भएका नेपाली मूलका नरेश भट्टको सजाय आगामी मार्च १२ मा निर्धारण हुने भएको छ । मंगलबार अदालतमा भएको सुनुवाइमा जुरीले ३९ वर्षीय भट्टलाई प्रथम",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/naresh_r3aKDGfffD.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T00:51:45+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604523/when-will-the-sentence-for-naresh-bhatt-who-was-convicted-of-the-murder-of-mamta-kafle-be-determined",
+      "category": "national"
+    },
+    {
+      "title": "एनभिडियाका मुख्य कार्यकारी र कथित चिनियाँ जासुसको सम्बन्धबारे उच्चस्तरीय छानबिन सुरु",
+      "description": "वासिङ्टन डिसी । अमेरिकी प्रविधि कम्पनी एनभिडियाले आफ्ना मुख्य कार्यकारी र एक कथित चिनियाँ जासुसबिचको प्रेम सम्बन्धबारे छानबिन गर्न अमेरिकाको एक ठुलो ल फर्मलाई नियुक्त गरेको छ। प्रविधि कम्पनीका सहसंस्थापक जेन्सेन हुआङले आफ्नो विवाहबाहिर अर्की महिलासँग सम्बन्ध",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/jensen-huang_1hbAid67IQ.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T00:50:38+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604522/high-level-investigation-launched-into-ties-between-nvidia-ceo-and-alleged-chinese-spy",
+      "category": "national"
+    },
+    {
+      "title": "मिथिला क्षेत्रमा आज भैयादुज : दाजुभाइको दीर्घायु र कल्याणको कामना",
+      "description": "२५ कात्तिक, महोत्तरी । तिहार (दीपावली) को अन्तिम दिन आज मिथिला क्षेत्रमा दाजुभाइको दीर्घायु, सुख र समृद्धिको कामना गर्दै ‘भैयादुज’ पर्व उल्लासका साथ मनाइँदैछ। कात्तिक शुक्ल द्वितीयाका दिन मनाइने यस पर्वसँगै यसवर्षको दीपावली विधिवत् रूपमा समापन हुँदैछ। तिथिको घटबढका कारण कात्तिक कृष्ण त्रयोदशी (धनतेरस) बाट सुरु भएको यस वर्षको दीपावली ५ दिनको साटो ६ दिनसम्म […",
+      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2021/11/Bhatri-Dwitiya.jpg",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-11-11T00:47:26+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/11/2055458/today-is-bhaiyaduj-in-mithila-region-wishing-brothers-long-life-and-prosperity",
+      "category": "national"
+    },
+    {
+      "title": "ममता काफ्लेको हत्या अभियोगमा नरेश भट्ट दोषी ठहर",
+      "description": "अमेरिका । नेपाली मूलकी ममता काफ्ले भट्टको हत्या अभियोगमा उनका पति नरेश भट्ट अमेरिकाको भर्जिनियास्थित अदालतबाट दोषी ठहर भएका छन् । प्रिन्स विलियम काउन्टीको अदालतमा मंगलबार भएको सुनुवाइपछि जुरीले नरेशलाई प्रथम श्रेणीको हत्या, शव लुकाउने तथा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/naresh-bhatta_kNeIel09eW.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T00:43:28+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604520/naresh-bhatt-found-guilty-in-mamta-kafles-murder-case",
+      "category": "national"
+    },
+    {
+      "title": "आज भाइटीका : उत्तम साइत बिहान ११:०७ बजे, दिनभरि टीका लगाउन सकिने",
+      "description": "प्रत्येक वर्ष कार्तिक शुक्ल द्वितीयाका दिन मनाइने भाइटीकालाई ‘यमद्वितीया’ पनि भनिन्छ।",
+      "imageUrl": "",
+      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
+      "sourceName": "अनलाइनखबर",
+      "publishedTime": "2026-11-11T00:39:13+00:00",
+      "articleUrl": "https://www.onlinekhabar.com/2026/11/2055456/todays-bhai-tika-best-time-is-1107-am-tika-can-be-done-throughout-the-day",
+      "category": "national"
+    },
+    {
+      "title": "ममता काफ्ले हत्या प्रकरण: अमेरिकी अदालतद्वारा नरेश दाेषी ठहर",
+      "description": "",
+      "imageUrl": "",
+      "sourceLogo": "https://nepallive.com/favicon.ico",
+      "sourceName": "नेपाल लाइभ",
+      "publishedTime": "2026-11-11T00:33:46+00:00",
+      "articleUrl": "https://nepallive.com/story/352808",
+      "category": "national"
+    },
+    {
+      "title": "ऊर्जा नेतृत्वको होडमा अमेरिका र चीन, उपभोक्तालाई राहत कहिले ?",
+      "description": "काठमाडौँ । विश्व ऊर्जा बजारमा अमेरिका र चीनबीचको प्रतिस्पर्धा तीव्र बन्दै गएको छ । एकातिर अमेरिकाले तेल र प्राकृतिक ग्यास उत्पादन बढाएर जीवाश्म इन्धनको विश्वव्यापी बजार विस्तार गर्न खोजिरहेको छ । अर्कोतिर, चीनले सौर्य ऊर्जा, ब्याट्री",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/us-china_tI4SUe6GIv.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T00:28:35+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604517/america-and-china-in-a-race-for-energy-leadership-when-will-consumers-get-relief",
+      "category": "national"
+    },
+    {
+      "title": "बंगलादेशमा शेख हसिनाको समर्थनमा प्रदर्शन, झडपपछि अश्रुग्यास र रबरको गोली प्रहार",
+      "description": "ढाका । बंगलादेशमा पूर्वप्रधानमन्त्री शेख हसिनाको स्वदेश फिर्तीको माग गर्दै प्रदर्शन गरिरहेका उनका समर्थकहरूलाई लक्षित गरी प्रहरीले अश्रुग्यास र रबरको गोली प्रहार गरेको छ। गोपालगन्ज जिल्लामा हसिनाको पार्टी अवामी लिगको प्रतिबन्धित विद्यार्थी संगठन र सुरक्षाकर्मीहरूबिच झडप भएको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bangladesh-protest_gWQyIWiBOf.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T00:23:39+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604516/bangladesh-tear-gas-rubber-bullets-fired-after-protests-in-support-of-sheikh-hasina",
+      "category": "national"
+    },
+    {
+      "title": "दाजुभाइ–दिदीबहिनीले हाम्रो खुसी र मानसिक स्वास्थ्यमा कति फरक पार्छन्?",
+      "description": "दाजुभाइ–दिदीबहिनीको सम्बन्धले चाडपर्वमा टीका र माला साटासाट गर्नुभन्दा धेरै ठूलो अर्थ राख्छ। बाल्यकालदेखि बुढ्यौलीसम्म यो सम्बन्धले हाम्रो खुसी र मानसिक स्वास्थ्यमा कस्तो भूमिका खेल्छ?",
+      "imageUrl": "",
+      "sourceLogo": "https://www.setopati.com/favicon.ico",
+      "sourceName": "सेतोपाटी",
+      "publishedTime": "2026-11-11T00:15:00+00:00",
+      "articleUrl": "https://www.setopati.com/social/402386",
+      "category": "national"
+    },
+    {
+      "title": "रुसका लागि जासुसी गरेको आशङ्कामा बेलायतमा अमेरिकी सैनिक पक्राउ",
+      "description": "लण्डन । रुसका लागि जासुसी गरेको आशङ्कामा अमेरिकी सेनाका एक सैनिक बेलायती आतङ्कवादविरोधी प्रहरीद्वारा पक्राउ परेका छन्। ती २१ वर्षीय सैनिकलाई मङ्गलबार ग्लुचेस्टर नजिकैबाट गिरफ्तार गरिएको हो। लन्डनको आतङ्कवादविरोधी प्रहरीका अनुसार ती पुरुषलाई राष्ट्रिय सुरक्षा ऐन २०२३",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/939c6190-dd44-11f1-9ac0-6b8f7fc58221png_nVUXBUb5yt.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T00:11:46+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604515/us-soldier-arrested-in-britain-on-suspicion-of-spying-for-russia",
+      "category": "national"
+    },
+    {
+      "title": "पिट हेगसेथविरुद्धको महाअभियोग प्रस्ताव रोकियो",
+      "description": "वासिङ्टन डिसी । अमेरिकाको हाउस अफ रिप्रिजेन्टेटिभ्स (तल्लो हाउस) का रिपब्लिकन सांसदहरूले युद्धमन्त्री पिट हेगसेथविरुद्धको महाअभियोग प्रस्तावलाई पूर्ण मतदानका लागि फ्लोरमा जानबाट रोकेका छन्। बाहिरिँदै गरेका रिपब्लिकन सांसद थोमस म्यासीले सोमबार औपचारिक रूपमा यो महाअभियोग प्रस्ताव",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/pete-hegseth_4vHGustctj.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-11T00:07:12+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604514/impeachment-motion-against-pete-hegseth-halted",
+      "category": "national"
+    },
+    {
+      "title": "पश्चिमी वायुको आंशिक प्रभाव : यी स्थानमा वर्षा र हिमपातको सम्भावना",
+      "description": "काठमाडौँ । नेपालमा पश्चिमी वायुको आंशिक प्रभाव, हिमाली र पहाडी क्षेत्रमा हल्का वर्षा र हिमपातको सम्भावना हाल नेपालमा पश्चिमी वायुको आंशिक प्रभाव छ। गण्डकी, लुम्बिनी, कर्णाली र सुदूरपश्चिम प्रदेशको हिमाली भू-भागमा आंशिक बदली छ भने बाँकी भू-भागमा",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kathmandu-weather_npl-(14)_odbRr9NF66.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-10T23:58:42+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604512/partial-influence-of-westerly-winds-chance-of-rain-and-snowfall-in-these-places",
+      "category": "national"
+    },
+    {
+      "title": "भाइटीकाको दिन कुन राशिलाई कस्तो छ ?",
+      "description": "आजको पञ्चाङ्ग वि.सं. २०८३ साल कात्तिक २५ गते, बुधबार। ईश्वी सन् २०२६ नोभेम्बर ११ तारिख। नेपाल संवत् ११४७। रौद्र संवत्सर। दक्षिणायन। शरद ऋतु। श्रीशाके १९४८। कार्तिक शुक्लपक्ष। तिथि– द्वितीया, दिउँसो २ बजेर १६ मिनेट उप्रान्त तृतीया। नक्षत्र– अनुराधा,",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_wraKHnbZ5T.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-10T23:47:45+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604510/what-is-the-zodiac-sign-like-on-bhai-tika",
+      "category": "national"
+    },
+    {
+      "title": "दिदीबहिनी र दाजुभाइ नहुनेका लागि बालगोपालेश्वर मन्दिर खुला",
+      "description": "काठमाडौँ । दिदीबहिनी र दाजुभाइ नहुनेहरूका लागि भाइटीकाका दिन काठमाडौँको रानीपोखरीस्थित बालगोपालेश्वर मन्दिर खुला गर्ने प्रचलन छ। वर्षमा एक पटक भाइटीकाका दिन मात्र खुल्ने यस मन्दिरमा दिदीबहिनी वा दाजुभाइ नहुने व्यक्तिहरूले पूजा तथा दर्शन गरेर टीका लगाउने",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/balgopaleshowr-bhaitika-(12)_gqR9OjfVAt.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-10T23:43:14+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604509/balgopaleshwar-temple-is-open-for-those-who-do-not-have-sisters-or-brothers",
+      "category": "national"
+    },
+    {
+      "title": "भैयादुज मनाउँदै मैथिल, दाजुभाइको दीर्घायु र कल्याणको कामना",
+      "description": "मिथिला क्षेत्रमा आज कात्तिक शुक्ल द्वितीयाका दिन दाजुभाइको दीर्घायु, सुख र समृद्धिको कामना गर्दै भैयादुज पर्व मनाइँदै छ । दीपावली पर्वको अन्तिम दिन मनाइने भैयादुजसँगै यस वर्षको दीपावली पर्व सम्पन्न हुँदैछ । कात्तिक कृष्ण त्रयोदशीका दिन",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bhaiyaduj_OIsJ5YV1z7.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-10T23:41:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604508/maithil-celebrates-bhaiyaduj-wishes-for-long-life-and-well-being-of-brothers",
+      "category": "national"
+    },
+    {
+      "title": "कोप–३१ मा पर्वतीय मुद्दा सम्बोधन गर्न नेपालसहित तीन देशको संयुक्त पहल",
+      "description": "काठमाडौँ । जलवायु परिवर्तनका कारण पर्वतीय क्षेत्रमा बढ्दै गएको सङ्कटलाई अन्तर्राष्ट्रिय जलवायु वार्ताको प्राथमिकतामा राख्न नेपाल, भुटान र किर्गिस्तानले संयुक्त पहल गरेका छन् । जलवायु परिवर्तनसम्बन्धी संयुक्त राष्ट्रसङ्घीय महासन्धिका पक्ष राष्ट्रहरूको ३१औँ सम्मेलन (कोप–३१) मा पर्वतीय",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/5r6ueRFZtE.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-10T23:39:23+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604507/joint-initiative-of-three-countries-including-nepal-to-address-mountain-issues-at-cop-31",
+      "category": "national"
+    },
+    {
+      "title": "आज भाइटीका: यस्तो छ विधि र महत्त्व",
+      "description": "काठमाडौँ । हिन्दू नेपालीहरूको प्रमुख धार्मिक तथा सांस्कृतिक पर्व तिहारको अन्तिम दिनलाई भाइटीका वा यमद्वितीया भनिन्छ। यस दिनलाई अत्यन्त महत्त्वपूर्ण पर्वका रूपमा लिइन्छ। दिदीबहिनीले दाजुभाइको सुख, शान्ति, सुस्वास्थ्य तथा दीर्घायुको कामना गर्दै सप्तरंगी टीका र माला लगाइदिने",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/bhaitika_bgKwfqeHfE.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-10T23:38:58+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604506/todays-bhaitika-this-is-the-method-and-importance",
+      "category": "national"
+    },
+    {
+      "title": "ठाउँ ठाउँमा मनाइयो नेपाल संवत‍्को नयाँ वर्ष",
+      "description": "काठमाडौँ । चान्द्रमास अनुसार प्रचलनमा रहेको मौलिक नेपाल संवत्को नयाँ वर्ष ११४७ मंगलबार विभिन्न कार्यक्रम गरी विभिन्न ठाउँमा मनाइएको छ । नेपाल संवत् अनुसार नयाँ वर्ष लागेसँगै काठमाडौँ उपत्यकाका कतिपय स्थानमा मंगलबारदेखि नै नयाँ बही खाता",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/nepal-sambat-1147-12_fcR1vJXZok.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-10T23:37:46+00:00",
+      "articleUrl": "https://www.ratopati.com/story/604505/nepal-samvat-new-year-celebrated-in-various-places",
+      "category": "national"
+    },
     {
       "title": "१२ बजे १२ समाचार : यस्ता छन् आजका प्रमुख समाचार",
       "description": "काठमाडौँ । आज दिनभरका मुख्यमुख्य घटनाक्रमसहित रातोपाटीको रात्रिकालीन प्रस्तुति रातोपाटी ब्रिफिङमा १२ बजे १२ समाचार लिएर आएका छौँ–",
@@ -1798,7 +2214,7 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-11-10T07:41:13+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/11/2055098/nepali-youth-open-artisan-cookies-and-sweets-in-uae",
-      "category": "national"
+      "category": "business"
     },
     {
       "title": "लगातार दोस्रो वर्ष चीनको व्यापार बचत १० खर्ब डलर पार, अक्टोबरमा निर्यात ३५ प्रतिशतले बढ्यो",
@@ -4609,426 +5025,6 @@
       "publishedTime": "2026-11-09T08:09:41+00:00",
       "articleUrl": "https://nepalnews.com/2026/11/09/progress-in-post-war-security-architecture-in-ukraine-rubio/",
       "category": "business"
-    },
-    {
-      "title": "चीनको नयाँ प्रभाव विस्तार: पूर्वाधार छाडेर प्रयोगशालामा नजर",
-      "description": "एजेन्सी । वर्षौंदेखि चीनको बेल्ट एन्ड रोड इनिसिएटिभ (बीआरआई) लाई व्यापारिक मार्गहरूको एक सञ्जालका रूपमा प्रस्तुत गरिँदै आएको छ । पूर्वाधार परियोजनाहरू विकासका लागि अत्यन्त महत्त्वपूर्ण भए पनि मध्य एसियामा चीनको कार्यको अर्को पाटोले भने निकै कम ध्यान पाएको छ: त्यो हो विश्वविद्यालय र प्रयोगशालाहरू बीचको सम्बन्ध। उज्वेकिस्तान यसको एक राम्रो उदाहरण हो । अक्टोबर ",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-11-09T08:09:27+00:00",
-      "articleUrl": "https://clickmandu.com/2026/11/504693.html",
-      "category": "business"
-    },
-    {
-      "title": "भारतको चित्रकूटमा ट्र्याक्टर–ट्रली दुर्घटना, चार जनाको मृत्यु",
-      "description": "२३ कात्तिक, काठमाडौं । भारतको उत्तर प्रदेशस्थित चित्रकूट जिल्लामा तीर्थयात्री सवार ट्रयाक्टर दुर्घटना हुँदा चार जनाको मृत्यु भएको छ । चित्रकूटका धार्मिक स्थलहरूको दर्शन गरेर फर्किरहेका यात्रु सवार ट्रयाक्टर दुर्घटना हुँदा चार जना तीर्थयात्रीको मृत्यु भएको हो । जिल्लाधिकारी पुलकित गर्गले दुर्घटना गएराति करिब २ः३० बजे मऊ तहसिलको रामनगरनजिक भएको बताएका छन् । ट्",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/Tractor.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T08:06:56+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054457/four-killed-in-tractor-trolley-accident-in-chitrakoot-india",
-      "category": "national"
-    },
-    {
-      "title": "सामाजिक सञ्जालको हल्लाका भरमा कांग्रेसको महाधिवेशनमाथि प्रश्न नउठाउन विश्वप्रकाशको आग्रह",
-      "description": "नेपाली कांग्रेसका वरिष्ठ उपसभापति विश्वप्रकाश शर्माले पार्टीको महाधिवेशनमा आर्थिक चलखेल भएको भन्दै सामाजिक सञ्जालमा भइरहेका प्रचार आधारहीन भएको बताएका छन्।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-11-09T08:04:59+00:00",
-      "articleUrl": "https://www.setopati.com/politics/402334",
-      "category": "politics"
-    },
-    {
-      "title": "एनपीएलमा कुशल भुर्तेलको तेस्रो अर्धशतक",
-      "description": "काठमाडौँ । नेपाल प्रिमियर लिग (एनपीएल) मा पोखरा एभेन्जर्सका कप्तान कुशल भुर्तेलले अर्धशतक बनाएका छन् । कीर्तिपुरस्थित त्रिवि अन्तर्राष्ट्रिय क्रिकेट मैदानमा कर्णाली याक्ससँगको खेलमा कुशलले २८ बलमा ६ छक्कासहित अर्धशतक बनाएका हुन् । उनको यो व्यक्तिगत",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/kushal-bhurtel_j6825WQKeS.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-11-09T08:04:29+00:00",
-      "articleUrl": "https://www.ratopati.com/story/604231/kusal-bhurtels-third-half-century-in-the-npl",
-      "category": "national"
-    },
-    {
-      "title": "पोखराका युवराजको शतक र कुशलको अर्धशतक",
-      "description": "",
-      "imageUrl": "https://www.hamrokhelkud.com/uploads/posts/Samra-Century-1794211144.jpg",
-      "sourceLogo": "https://www.hamrokhelkud.com/favicon.ico",
-      "sourceName": "हाम्रो खेलकुद",
-      "publishedTime": "2026-11-09T08:03:00+00:00",
-      "articleUrl": "https://www.hamrokhelkud.com/detail/175382",
-      "category": "sports"
-    },
-    {
-      "title": "विश्वकपमा न्युजिल्यान्डविरूद्धको खेलबाट चर्चा कमाएका युवराजले एनपिएलमा पनि मच्चाए तहल्का, ४५ बलमै शतक",
-      "description": "नेपाल प्रिमियर लिग (एनपिएल) को तेस्रो संस्करणमा लगातार चार खेल हार्दै संकटमा परेको पोखरा एभेन्जर्सले कर्णाली याक्सविरुद्ध उत्कृष्ट ब्याटिङ गरेको छ।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-11-09T08:01:00+00:00",
-      "articleUrl": "https://www.setopati.com/sports/npl/402333",
-      "category": "national"
-    },
-    {
-      "title": "फेसबुक र टिकटकको विकल्प बन्दै नेपालीले बनाएको सामाजिक सञ्जाल ‘थोप्ला’",
-      "description": "क्यान्बेरा, (अस्ट्रेलिया) । नेपाली समुदायलाई विश्वभर एउटै डिजिटल प्लेटफर्ममार्फत जोड्ने उद्देश्यसहित विकास गरिएको सामाजिक सञ्जाल ‘थोप्ला’ प्रयोगकर्तामाझ लोकप्रिय बन्दै गएको छ । नेपाली युवाको पहलमा तयार भएको यस प्लेटफर्ममा हाल १५ हजार ३०० भन्दा बढी प्रयोगकर्ता जोडिएका छन् । फेसबुक, टिकटक र अन्य अन्तर्राष्ट्रिय सामाजिक सञ्जालको प्रयोग बढिरहेका बेला नेपाली समुद",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-11-09T07:58:09+00:00",
-      "articleUrl": "https://clickmandu.com/2026/11/504690.html",
-      "category": "business"
-    },
-    {
-      "title": "युवराज साम्राले बनाए तेस्रो संस्करणको एनपीएलकै पहिलो शतक",
-      "description": "काठमाडौँ । नेपाल प्रिमियर लिग (एनपीएल) क्रिकेटमा पोखरा एभेन्जर्सका युवराज साम्राले तेस्रो संस्करणको पहिलो शतक बनाएका छन् । साथै, उनको व्यक्तिगत एनपीएलमा यो पहिलो शतक हो । सोमबार कीर्तिपुरस्थित त्रिवि क्रिकेट मैदानमा सोमबार कर्णाली याक्ससँगको खेलमा",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/yuvraj-samra_Ndr8Ib7O3r.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-11-09T07:56:15+00:00",
-      "articleUrl": "https://www.ratopati.com/story/604229/yuvraj-samra-scores-first-century-of-npls-third-edition",
-      "category": "national"
-    },
-    {
-      "title": "पोखराका युवराजले एनपीएलको तेस्रो सिजनमा बनाए पहिलो शतक",
-      "description": "कीर्तिपुरस्थित टीयू मैदानमा भइरहेको खेलमा उनले ४५ बलमा १० चौका र ६ छक्का मद्दतमा १०० रन पूरा गरेका हुन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/Pokhara-vs-karnali-33.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T07:55:29+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054437/pokharas-yuvraj-scores-first-century-in-npls-third-season",
-      "category": "national"
-    },
-    {
-      "title": "झापामा लाखौं मूल्यका भारतीय सयपत्री फूल बरामद, स्वदेशी कृषकलाई राहत",
-      "description": "लीलाराज खड्का झापा, कात्तिक २३ गते । भारतबाट नेपाल भित्रिएको लाखौं मूल्य बराबरको सयपत्री फूलको माला नेपाल प्रहरीले बरामद गरेर नष्ट गरेपछि यहाँका व्यावसायिक फूल कृषकलाई राहत मिलेको...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/391032/conversions/345-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-11-09T07:55:00+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/228754",
-      "category": "national"
-    },
-    {
-      "title": "पृथ्वी राजमार्गमा बारम्बार दु:ख दिन थालेको घोप्टेभीरको पहिरो, 'सुक्खा पहिरो अनपेक्षित हुने हुँदा जोखिम बढ्ता'",
-      "description": "व्यस्त समयमा सोमवार आठ घण्टाभन्दा बढी समय सडक अवरुद्ध हुँदा बनेको कैयौँ किलोमिटर लामो जाममा हजारौँ यात्रीहरू प्रभावित भएका थिए।",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9a15/live/d0188b60-dc06-11f1-b6f4-7b86d13131ad.jpg",
-      "sourceLogo": "http://feeds.bbci.co.uk/favicon.ico",
-      "sourceName": "feeds.bbci.co.uk",
-      "publishedTime": "2026-11-09T07:54:41+00:00",
-      "articleUrl": "https://www.bbc.com/nepali/articles/cw1m4m97dxr0o?at_medium=RSS&at_campaign=rss",
-      "category": "national"
-    },
-    {
-      "title": "सुनचाँदीको मूल्य बढ्यो",
-      "description": "",
-      "imageUrl": "https://nepalsamaya.com/uploads/posts/gold-1732618951.jpg",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-11-09T07:49:00+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/147702",
-      "category": "national"
-    },
-    {
-      "title": "सर्लाहीमा जुवा खेलिरहेका २६ जना पक्राउ, साढे ९ लाख रुपैयाँ बरामद",
-      "description": "प्रहरीले उनीहरूको साथबाट नेपाली र भारतीय रुपैयाँसहित बैंकको चेक, तास र २५ थान मोबाइल बरामद गरेको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/juwa-tas.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T07:47:47+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054431/26-people-arrested-for-gambling-in-sarlahi-rs-950000-seized",
-      "category": "national"
-    },
-    {
-      "title": "‘तिहारले राष्ट्रिय एकता र सामाजिक सद्भाव बलियो बनाउँछ’",
-      "description": "काठमाडौं।राष्ट्रपति रामचन्द्र पौडेल र उपराष्ट्रपति रामसहायप्रसाद यादवले तिहार पर्वले नेपाली समाजमा आपसी सद्भाव, सहिष्णुता, भ्रातृत्व र राष्ट्रिय एकताको भावना थप सुदृढ बनाउने विश्वास व्यक्त गरेका छन्। तिहार २०८३ का अवसरमा छुट्टाछुट्टै शुभकामना सन्देश जारी गर्दै उनीहरूले तिहारलाई नेपाली मौलिक संस्कृति, परम्परा र सामाजिक एकताको महत्वपूर्ण पर्वका रूपमा व्याख्या ",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-11-09T07:47:00+00:00",
-      "articleUrl": "https://nepalnews.com/2026/11/09/tihar-strengthens-national-unity-and-social-harmony/",
-      "category": "business"
-    },
-    {
-      "title": "पटकाबाट जोगिनुहोला गर्भवती, हुन सक्छ दीर्घकालीन असर",
-      "description": "अचानक ठूलो आवाज आउँदा गर्भवती महिला झस्किने, तनाव बढ्ने र मुटुको धड्कन बढ्ने अवस्था आउन सक्छ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/balkrishna-shaha.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T07:45:24+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054413/avoid-firecrackers-during-pregnancy-there-may-be-long-term-effects",
-      "category": "national"
-    },
-    {
-      "title": "एनभिडियाका सिइओमाथि चिनियाँ जासुससँग प्रेम सम्बन्धको आरोप, तानिए छानबिनमा",
-      "description": "गत महिना द न्युयोर्क टाइम्सले जेन्सेन हुआङ चिनियाँ जासुसी योजनाको निशानामा परेको हुन सक्ने समाचार प्रकाशित गरेपछि यो अनुसन्धान अघि बढाइएको हो।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.setopati.com/favicon.ico",
-      "sourceName": "सेतोपाटी",
-      "publishedTime": "2026-11-09T07:44:00+00:00",
-      "articleUrl": "https://www.setopati.com/social/402326",
-      "category": "national"
-    },
-    {
-      "title": "सांस्कृतिक मनोवृत्ति बिग्रिँदा राजनीति खलबलियो : केपी ओली",
-      "description": "नेकपा एमालेका अध्यक्ष एवं पूर्वप्रधानमन्त्री केपी शर्मा ओलीले समाजमा घृणा र विध्वंशको प्रवृत्ति त्यागेर निर्माण तथा सकारात्मक सोचको विकास गर्नुपर्ने बताएका छन्।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/kpoli.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T07:36:00+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054425/politics-has-become-chaotic-due-to-deteriorating-cultural-attitudes-kp-oli",
-      "category": "politics"
-    },
-    {
-      "title": "तिहारले आपसी सद्‌भाव र समृद्धिको भावना अभिवृद्धि गर्छ : राष्ट्रपति पौडेल",
-      "description": "काठमाडौँ । राष्ट्रपति रामचन्द्र पौडेलले सांस्कृतिक, पौराणिक तथा वैज्ञानिक महत्त्व बोकेको तिहार उज्यालो र प्रकाशको पर्व भएको बताएका छन् । तिहार पर्व २०८३ का अवसरमा शुभकामना सन्देश दिँदै उनले यस पर्वले विभिन्न जातजाति, भाषाभाषि र",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/ramchandra-paudel1_m0CwUV78iK.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-11-09T07:35:59+00:00",
-      "articleUrl": "https://www.ratopati.com/story/604227/tihar-enhances-the-spirit-of-mutual-harmony-and-prosperity-president-poudel",
-      "category": "politics"
-    },
-    {
-      "title": "कपिलवस्तुको महाराजगञ्जमा बसको ठक्करबाट एक जनाको मृत्यु",
-      "description": "",
-      "imageUrl": "https://nepalsamaya.com/themes/nepalsamaya/images/default.png",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-11-09T07:34:00+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/147701",
-      "category": "national"
-    },
-    {
-      "title": "भक्तपुरमा भिन्तुना र्‍याली",
-      "description": "भक्तपुर। नेपाल संवत् ११४७ नयाँ वर्षको अवसरमा आज यहाँ सांस्कृतिक भिन्तुना र्‍याली भएको छ। नेपाल भाषा साहित्य तःमुंज्या र सांस्कृतिक भिन्तुना र्‍याली आयोजक समितिद्वारा स्थानीय सूर्यमढी र टौमढीबाट मौलिक पहिचानका वेशभूषा र बाजागाजासहित सुरु भएको र्‍यालीले नगर परिक्रमा गरेको थियो। उक्त र्‍याली विभिन्न टोल तथा बजार परिक्रमापछि दरबार स्क्वायरमा पुगेर सभामा परिणत भए",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-11-09T07:32:50+00:00",
-      "articleUrl": "https://nepalnews.com/2026/11/09/bhintuna-rally-in-bhaktapur/",
-      "category": "business"
-    },
-    {
-      "title": "पोखराका युवराजले बनाए अर्धशतक",
-      "description": "क्यानडाका ओपनर समेत रहेका सम्राले एनपीएलमा दोस्रो खेल खेल्दै अर्धशतक बनाएका हुन् ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/Pokhara-vs-karnali-32.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T07:32:19+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054421/pokharas-yubaraj-scores-a-half-century",
-      "category": "national"
-    },
-    {
-      "title": "बिजुली पसलमा भीषण आगलागी, पाँच करोड भन्दा बढीको क्षति",
-      "description": "सिराज खान नेपालगन्ज, कात्तिक २३ गते । बाँकेको जानकी गाउँपालिका वडा नम्बर ३ कोरियनपुरस्थित लक्ष्मी बिजुली भण्डार एण्ड जनरल अर्डर सप्लायर्स र जय हनुमान ट्रेडर्स एण्ड सप्लायर्समा भीषण...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/391031/conversions/aaglagi-baat-bhayeko-chati-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-11-09T07:32:11+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/228753",
-      "category": "national"
-    },
-    {
-      "title": "सहायता रोक्ने ट्रम्पको घोषणाबाट इजरायली राष्ट्रपति अचम्मित, भने- आकाशमा चट्याङ परे सरह भयो",
-      "description": "अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पले मध्यावधि निर्वाचनको दिन इजरायललाई दिइँदै आएको वार्षिक ३.८ अर्ब डलरको सैन्य सहायता चालू वर्षभित्रै पूर्ण रूपमा बन्द गर्ने घोषणा गरेपछि इजरायली राजनीतिमा तरङ्ग पैदा भएको छ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/israil-rastrapati.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T07:31:50+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054415/israeli-president-surprised-by-trumps-announcement-to-cut-aid-says-it-was-like-a-bolt-from-the-blue",
-      "category": "politics"
-    },
-    {
-      "title": "म्यानचेस्टर युनाइटेडको संकटमा आशाको किरण बने १९ वर्षीय सिया लेसी",
-      "description": "काठमाडौँ । म्यानचेस्टर युनाइटेड अहिले कठिन समयबाट गुज्रिरहेको छ । मैदानमा निरन्तर कमजोर प्रदर्शन, समर्थकको बढ्दो असन्तुष्टि र क्लबको व्यवस्थापनमाथि प्रश्न उठिरहेका बेला एउटा युवा खेलाडीले भने समर्थकहरूमा नयाँ आशा जगाएका छन् । उनी हुन्,",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/lesi_cJ9NrA9st2.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-11-09T07:30:00+00:00",
-      "articleUrl": "https://www.ratopati.com/story/604215",
-      "category": "national"
-    },
-    {
-      "title": "चीनको एक अपार्टमेन्टमा आगलागी हुँदा १४ जनाको मृत्यु, ३० भन्दा बढी घाइते",
-      "description": "करिब दुई घण्टाको प्रयासपछि साँझ ७ बजेतिर आगो नियन्त्रणमा लिइएको थियो भने राति ८:३० बजे उद्धार कार्य सकिएको थियो।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/china.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T07:26:55+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054410/14-killed-more-than-30-injured-in-apartment-fire-in-china",
-      "category": "national"
-    },
-    {
-      "title": "एनपीएलमा युवराज साम्राको पहिलो अर्धशतक",
-      "description": "काठमाडौँ । नेपाल प्रिमियर लिग (एनपीएल) क्रिकेटमा पोखरा एभेन्जर्सका युवराज साम्राले पहिलो अर्धशतक बनाएका छन् । कीर्तिपुरस्थित त्रिवि क्रिकेट मैदानमा सोमबार कर्णाली याक्ससँगको खेलमा युवराजले २३ बलमा २ छक्का र ७ चौकासहित ५० रनको आँकडा पार",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/capture_AnIWBiZOca.webp",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-11-09T07:25:03+00:00",
-      "articleUrl": "https://www.ratopati.com/story/604226/yuvraj-samras-first-half-century-in-npl",
-      "category": "national"
-    },
-    {
-      "title": "पोखराले टस जितेर ब्याटिङ रोज्यो",
-      "description": "काठमाडौं।तेस्रो संस्करणको नेपाल प्रिमियर लिग (एनपिएल) क्रिकेटअन्ततर्गत कर्णाली याक्सविरुद्धको खेलमा पोखरा एभेन्जर्सले पहिला ब्याटिङ गर्दैछ। कीर्तिपुरस्थित त्रिभुवन विश्वविद्यालय अन्तर्राष्ट्रिय क्रिकेट मैदानमा भर्खरै भएको टसमा पोखराले टस जितेर पहिला ब्याटिङ रोजेको छ। पोखराल यसअघि ४ वटा खेल खेलेकामा सबैमा पराजित भएको थियो। पोखरा सुदूरपश्चिमसँग ६ विकेट र जनकपु",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-11-09T07:24:00+00:00",
-      "articleUrl": "https://nepalnews.com/2026/11/09/pokhara-won-the-toss-and-elected-to-bat/",
-      "category": "business"
-    },
-    {
-      "title": "स्याफ्रुबेसीको पुल पुनः सञ्चालनमा",
-      "description": "भदौ १० गते आएको बाढीका कारण क्षतिग्रस्त भएको रसुवाको स्याफ्रुबेँसीस्थित पुलको पुनर्निर्माण सम्पन्न भएसँगै पुनः सञ्चालनमा आएको छ ।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/pull-1.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T07:23:16+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054394/syafrubesi-bridge-reopens",
-      "category": "national"
-    },
-    {
-      "title": "खेतमै तिहार मनाउँदै किसान",
-      "description": "सन्तोष दहितदाङ, कात्तिक २३ गते । घरआँगनमा तिहारको रौनक छाएको छ । गाउँदेखि सहरसम्म देउसीभैलोले तिहारमय बनेको छ । तर, दाङका केही किसानलाई भने तिहारको रमझमसँगै खेतमा पाकेको धान भित्र्...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/391030/conversions/khetmai-kisan-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-11-09T07:22:05+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/228752",
-      "category": "national"
-    },
-    {
-      "title": "एक महिनामा सेयर मूल्य उच्च दरले बढेका यी १० कम्पनी",
-      "description": "२२ कात्तिक, काठमाडौं । तिहारअघि सेयर बजार परिसूचक नेप्से २६५५ अंकमा बन्द भयो । विगत एक महिनामा बजार परिसूचक नेप्से २.९८ प्रतिशत बढ्यो । समग्रमा नेप्से थोरै बढे पनि कुनै कम्पनीको सेयर मूल्य एक महिनामै १५.९४ प्रतिशतसम्म बढेको छ । विगत एक महिनामा मूल्य धेरै बढ्नेमा ८ वटा हाइड्रोपावर समूहका कम्पनी मात्रै छन् । एउटा […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2024/08/Stock_bank-.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T07:22:02+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054393/these-10-companies-have-seen-their-share-prices-increase-at-the-highest-rate-in-a-month",
-      "category": "business"
-    },
-    {
-      "title": "भक्तपुरमा मौलिक वेशभूषासहितको सांस्कृतिक भिन्तुना -याली",
-      "description": "भक्तपुर । नेपाल संवत् ११४७ नयाँ वर्षको अवसरमा आज यहाँ सांस्कृतिक भिन्तुना र्‍याली भएको छ । नेपाल भाषा साहित्य तःमुंज्या र सांस्कृतिक भिन्तुना -याली आयोजक समितिद्वारा स्थानीय सूर्यमढी र टौमढीबाट मौलिक पहिचानका वेशभूषा र बाजागाजासहित सुरु",
-      "imageUrl": "https://npcdn.ratopati.com/media/news/nepal-sambat-nyudya-vintuna-(22)_bnT5MyAOsJ.jpg",
-      "sourceLogo": "https://ratopati.com/favicon.ico",
-      "sourceName": "रातोपाटी",
-      "publishedTime": "2026-11-09T07:19:52+00:00",
-      "articleUrl": "https://www.ratopati.com/story/604225/cultural-procession-with-traditional-costumes-in-bhaktapur",
-      "category": "national"
-    },
-    {
-      "title": "‘रामलीला’ को गीत ओस्कारको पेजमा, दीपिका–रणवीर केमेस्ट्रीको चर्चा",
-      "description": "बलिउडका कलाकार, फिल्म र गीतको लोकप्रियता भारतमा मात्रै सीमित छैन। विश्वभर हिन्दी फिल्मका प्रशंसक छन् । भारतीय फिल्मका धेरै गीत आज पनि अन्तर्राष्ट्रिय स्तरमा रुचाइन्छन् । सामाजिक सञ्जालका कारण अहिले यी गीतले अन्तर्राष्ट्रिय मञ्चमा समेत चर्चा पाउन थालेका छन् । यही क्रममा ओस्कारको आधिकारिक सामाजिक सञ्जाल पेज ‘द एकेडेमी’ ले बलिउडको एउटा चर्चित गीत सेयर […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/deepika-ranabeer.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T07:19:11+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054392/ramleela-song-on-oscars-official-page-deepika-ranveer-chemistry-discussed",
-      "category": "entertainment"
-    },
-    {
-      "title": "२४ घण्टामा ट्राफिक प्रहरीले गर्यो ४०७ जनालाई कारबाही",
-      "description": "",
-      "imageUrl": "https://nepalsamaya.com/uploads/posts/traffic_cheking1680436491.jpg",
-      "sourceLogo": "https://nepalsamaya.com/favicon.ico",
-      "sourceName": "नेपाल समय",
-      "publishedTime": "2026-11-09T07:18:00+00:00",
-      "articleUrl": "https://nepalsamaya.com/detail/147700",
-      "category": "national"
-    },
-    {
-      "title": "पुस्तौँदेखि जीवन्त अर्घाखाँचीको मौलिक भैरव नाच",
-      "description": "अर्घाखाँची, कात्तिक २३ गते । नेवार समुदायको धार्मिक आस्था, सांस्कृतिक पहिचान र पुस्तौँदेखिको परम्परासँग जोडिएको भैरव नाच अर्घाखाँचीको मौलिक सांस्कृतिक सम्पदाका रूपमा स्थापित छ । पर...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/391029/conversions/202611091221-ef7e5685-20ce-4fb2-aaf9-f0b8bcf63a79_medium-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-11-09T07:16:37+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/228751",
-      "category": "national"
-    },
-    {
-      "title": "एनभिडियाका सीईओ जेन्सेन ह्वाङको बचाउमा ट्रम्प",
-      "description": "कम्पनीको सञ्चालक समितिले ह्वाङमाथि आन्तरिक छानबिन सुरु गरे पनि अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प भने उनको बचाउमा उत्रिएका छन्।",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/trump1.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T07:15:19+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054389/trump-defends-nvidia-ceo-jensen-huang",
-      "category": "national"
-    },
-    {
-      "title": "दैलेख बोलेरो दुर्घटना : एकको मृत्यु, पाँच जना घाइते",
-      "description": "दैलेख, कात्तिक २३ गते । दैलेखको गुराँस गाउँपालिका–१ काफलतोलीस्थित कर्णाली राजमार्गमा सोमबार बिहान भएको बोलेरो दुर्घटनामा परी एक जनाको मृत्यु भएको छ । सो दुर्घटनामा कालीकोट सान्नीत्...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/391028/conversions/accident--original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-11-09T07:09:46+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/228750",
-      "category": "national"
-    },
-    {
-      "title": "एनपिएल क्रिकेट : पोखरा एभेन्जर्सले टस जित्यो",
-      "description": "काठमाडौँ, कात्तिक २३ गते । तेस्रो संस्करणको नेपाल प्रिमियर लिग (एनपिएल) क्रिकेटअन्ततर्गत कर्णाली याक्सविरुद्धको खेलमा पोखरा एभेन्जर्सले पहिला ब्याटिङ गर्दै छ ।कीर्तिपुरस्थित त्रिभु...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/391027/conversions/npl-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-11-09T07:02:41+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/228749",
-      "category": "national"
-    },
-    {
-      "title": "अहिले राजनीति अलि खलबलिएको छः ओली",
-      "description": "काठमाडौं । नेकपा एमालेका अध्यक्ष एवं पूर्वप्रधानमन्त्री केपी शर्मा ओलीले मानिसको सांस्कृतिक मनोवृत्ति बिग्रिँदा राजनीतिसमेत खलबलिएको टिप्पणी गरेका छन् । सोमबार भक्तपुरमा नेकपा एमाले जिल्ला कमिटी भक्तपुरले बडादशैँ, शुभदीपावली, नेपाल संवत ११४७ तथा छठ पर्वको अवसरमा आयोजना गरेको चियापान तथा शुभकामना आदानप्रदान कार्यक्रममा बोल्दै अध्यक्ष ओलीले समाजमा परोपकार, करु",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-11-09T06:57:41+00:00",
-      "articleUrl": "https://clickmandu.com/2026/11/504686.html",
-      "category": "business"
-    },
-    {
-      "title": "मुस्ताङमा २० दिनमै ५१ हजारभन्दा बढी पर्यटक भित्रिए",
-      "description": "हरिकृष्ण शर्मा मुस्ताङ (मुक्तिनाथ),कात्तिक २३ गते । मुस्ताङमा कात्तिक महिनाको २० दिनमा ५१ हजारभन्दा बढी स्वदेशी तथा विदेशी पर्यटकको आगमन भएको छ । गएको भदौ महिनादेखि लगातार प्राकृति...",
-      "imageUrl": "https://gorkhapatraonline.com/storage/media/391026/conversions/12-original.jpg",
-      "sourceLogo": "https://gorkhapatraonline.com/favicon.ico",
-      "sourceName": "गोरखापत्र",
-      "publishedTime": "2026-11-09T06:56:17+00:00",
-      "articleUrl": "https://gorkhapatraonline.com/news/228748",
-      "category": "national"
-    },
-    {
-      "title": "बसको ठक्करबाट अहिरको मृत्यु, चालक फरार",
-      "description": "कपिलवस्तु।कपिलवस्तुको महाराजगञ्ज नगरपालिका–३ बर्गदामा बसको ठक्करबाट स्थानीय ७७ वर्षीय लखन अहिरको मृत्यु भएको छ। तौलिहवाबाट बहादुरगञ्जतर्फ गैरहेको गरेको लु १ ख ९७२६ नम्बरको बसले हुलाकी सडकमा पैदलयात्रामा रहेका अहिरलाई ठक्कर दिएको जिल्ला ट्राफिक प्रहरी कार्यालय कपिलवस्तुका प्रहरी निरीक्षक राजन ढकालले जानकारी दिए। दुर्घटनामा गम्भीर घाइते भएपछि उपचारका लागि उनला",
-      "imageUrl": "",
-      "sourceLogo": "https://nepalnews.com/favicon.ico",
-      "sourceName": "नेपालन्युज",
-      "publishedTime": "2026-11-09T06:52:01+00:00",
-      "articleUrl": "https://nepalnews.com/2026/11/09/ahir-dies-after-being-hit-by-bus-driver-absconding/",
-      "category": "business"
-    },
-    {
-      "title": "१ लाख बजेट ल्याउन नसक्नेले चुनाव जितेर गएको छ, नक्कली स्यालको पर्दाफास गर्नुपर्छः महेश बस्नेत",
-      "description": "काठमाडौं । नेकपा एमालेका सचिव महेश बस्नेतले भक्तपुरको विकास बजेट र जनप्रतिनिधिको क्षमतामाथि प्रश्न उठाउँदै राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद राजीव खत्रीमाथि टिप्पणी गरेका छन् । सोमवार भक्तपुरमा नेकपा एमाले जिल्ला कमिटी भक्तपुरले बडादशैँ, शुभदीपावली, नेपाल संवत ११४७ तथा छठ पर्वको अवसरमा आयोजना गरेको चियापान तथा शुभकामना आदानप्रदान कार्यक्रममा बोल्",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-11-09T06:51:27+00:00",
-      "articleUrl": "https://clickmandu.com/2026/11/504683.html",
-      "category": "business"
-    },
-    {
-      "title": "स्काउटलाई ब्रेसलेट दिँदै भावुक बनिन् लव, खोलिन् मनको कुरा",
-      "description": "भारतीय रियालिटी शो ‘बिग बोस २०’ मा यतिबेला सम्बन्ध, भावना र ड्रामाको नयाँ अध्याय सुरु भएको छ । सलमान खानले सञ्चालन गरिरहेको शोमा दिवालीको उत्सवसँगै एउटा यस्तो क्षण देखिएको छ, जसले घरभित्रका सदस्यदेखि बाहिरका दर्शकसम्मको ध्यान खिचेको छ । शोमा लव गिलले स्काउट ओपीसँगको आफ्नो सम्बन्धलाई लिएर खुलेर बोलेकी छन् । उनले स्काउटलाई ब्रेसलेट दिँदै […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/bigboss-1-1.png",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-09T06:50:18+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2054332/love-gets-emotional-while-giving-a-bracelet-to-scout-opens-up-about-her-feelings",
-      "category": "entertainment"
     }
   ]
 }
