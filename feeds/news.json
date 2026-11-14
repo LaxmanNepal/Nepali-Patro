@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-14T19:21:48.855425+00:00",
-  "lastSuccessfulUpdate": "2026-11-14T19:21:48.855425+00:00",
-  "newestPublishedTime": "2026-11-14T19:16:48+00:00",
+  "updatedAt": "2026-11-14T23:05:50.999376+00:00",
+  "lastSuccessfulUpdate": "2026-11-14T23:05:50.999376+00:00",
+  "newestPublishedTime": "2026-11-14T22:30:00+00:00",
   "status": "fresh",
   "source": "feeds/feeds.js",
   "feedCount": 34,
-  "successfulFeeds": 30,
-  "failedFeeds": 4,
+  "successfulFeeds": 29,
+  "failedFeeds": 5,
   "failedFeedDetails": [
     {
       "url": "https://www.lokaantar.com/feed",
@@ -21,11 +21,65 @@
       "error": "ParseError: XML or text declaration not at start of entity: line 2, column 0"
     },
     {
+      "url": "https://www.vikasnews.com/feed",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
       "url": "https://www.techpana.com/feed",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "title": "छठ महापर्व नेपाली समाजको अद्वितीय सांस्कृतिक अनुष्ठान: उपराष्ट्रपति यादव",
+      "description": "काठमाडौँ । उपराष्ट्रपति रामसहायप्रसाद यादवले छठ पर्वले पारस्परिक सम्मान, सहिष्णुता, सद्भाव र एकताको भावना अभिवृद्धि गर्न महत्त्वपूर्ण भूमिका खेलेको बताएका छन् । छठ महापर्व, २०८३ का अवसरमा आज शुभकामना दिँदै उपराष्ट्रपति यादवले हिमाल, पहाड र मधेसका",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/ramsahaya-yadav_zl2AHwzms4.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-14T22:30:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/605253/chhath-mahaparva-is-a-unique-cultural-ritual-of-nepali-society-vice-president-yadav",
+      "category": "politics"
+    },
+    {
+      "title": "कार्तिक शुक्ल षष्ठी : जलाशयमा उभिएर अस्ताउँदो सूर्यलाई सन्ध्या अर्घ्य अर्पण गरिँदै",
+      "description": "काठमाडौँ । हिन्दु धर्मावलम्बीहरूको प्रमुख आस्था, श्रद्धा र प्रकृतिपूजासँग सम्बन्धित महान् पर्व छठ आज सूर्य भगवानको विधिपूर्वक पूजाआराधना गरी धुमधामका साथ मनाइँदै छ । विशेषगरी नेपाल तथा भारतका हिन्दु समुदायले नेपालीहरूको दोस्रो ठुलो चाड तिहार",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/chhath_62bp0sEc5k.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-14T22:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/605250/kartik-shukla-shashthi-offering-evening-arghya-to-the-setting-sun-while-standing-in-a-reservoir",
+      "category": "national"
+    },
+    {
+      "title": "नेसन्स लिगमा डेनमार्कसँग पोर्चुगल ४–१ गोलले पराजित",
+      "description": "काठमाडौँ । युइएफए नेसन्स लिग अन्तर्गत समूह चरणको खेलमा डेनमार्कले पोर्चुगलमाथि ४–१ गोलको फराकिलो जित हात पारेको छ । ब्रागास्थित ‘इस्टाडियो म्युनिसिपल’ रङ्गशालामा सम्पन्न समूह ‘डी’ को पाँचौँ खेलमा उत्कृष्ट प्रदर्शन गर्दै दोस्रो स्थानमा रहेको",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/portugal-7_NJ9xjM4iqu.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-14T22:14:51+00:00",
+      "articleUrl": "https://www.ratopati.com/story/605252/portugal-defeated-4-1-by-denmark-in-the-nations-league",
+      "category": "national"
+    },
+    {
+      "title": "दशौँ राष्ट्रिय खेलकुद: कुस्तीतर्फ सुदूरबाट १८ खेलाडी छनोट",
+      "description": "महेन्द्रनगर । कर्णाली प्रदेशको सुर्खेतमा हुने दशौँ बृहत् राष्ट्रिय खेलकुद प्रतियोगिताअन्तर्गत सुदूरपश्चिम प्रदेशबाट कुस्तीतर्फ १८ खेलाडी छनोट भएका छन् । कञ्चनपुरको महेन्द्रनगरमा शनिबार भएको कुस्ती खेलको सुदूरपश्चिम प्रदेशस्तरीय छनोट प्रतियोगिताबाट १० पुरुष र १० महिला खेलाडी",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/kusti-14_ou5VEe2IEV.webp",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-14T21:16:51+00:00",
+      "articleUrl": "https://www.ratopati.com/story/605251/10th-national-games-18-players-selected-from-far-away-for-wrestling",
+      "category": "national"
+    },
+    {
+      "title": "कस्तो रहला यो साताको तपाईंको भाग्य ?",
+      "description": "कार्तिक २९ गते आइतबारदेखि मंसिर ५ गते शनिबारसम्मको साप्ताहिक राशिफल । मेष(चू,चे,चो,ला,लि,लू,ले,लो,अ) व्यवसाय फस्टाएर जानेछ भने दैनिक कारोबार बढ्ने योग रहेको छ । विशिष्ट व्यक्तीहरुको भेटघाटले व्यवसायमा लगानी बढाउन सहयोग पुग्नेछ । सामाजिक क्षेत्रमा तपाईँलाई सबैले",
+      "imageUrl": "https://npcdn.ratopati.com/media/news/horoscope_yWVgb1BJAO.jpg",
+      "sourceLogo": "https://ratopati.com/favicon.ico",
+      "sourceName": "रातोपाटी",
+      "publishedTime": "2026-11-14T21:15:00+00:00",
+      "articleUrl": "https://www.ratopati.com/story/605248/how-was-your-luck-this-week",
+      "category": "national"
+    },
     {
       "title": "फुटबल एकेडेमी चलाउन सहाराको देउसीभैलो, साढे ११ लाख जुट्यो",
       "description": "कास्की । सहारा क्लब पोखराले यस वर्ष तिहारका अवसरमा खेलेको देउसीभैलोबाट रु ११ लाख ६८ हजार ६१३ जम्मा गरेको छ । विपन्न तथा कठिन परिस्थितिमा रहेका बालकहरूलाई आवासीय सुविधासहित फुटबल प्रशिक्षण प्रदान गर्ने उद्देश्यले क्लबले पोखरा–१७",
@@ -4974,56 +5028,6 @@
       "sourceName": "अनलाइनखबर",
       "publishedTime": "2026-11-13T09:05:35+00:00",
       "articleUrl": "https://www.onlinekhabar.com/2026/11/2056930/proton-e-mass-5-honored-with-two-international-awards",
-      "category": "business"
-    },
-    {
-      "title": "सांसद केसीको आरोप– मूल्यवृद्धि र दिशाहीन राजनीतिले नागरिकमा आक्रोश थप्यो",
-      "description": "२७ कात्तिक, काठमाडौं । नेपाली कांग्रेसका सांसद अर्जुननरसिंह केसीले आकासिंदो मूल्यवृद्धि र दिशाहीन राजनीतिले नागरिकमा आक्रोश थपेको आरोप लगाएका छन् । ‘सरकारको नांगो अकर्मण्यता’ भनेर सामाजिक सञ्जालमा लेख्दै उनले सरकारको आलोचना गरेका हुन् । विजयादशमी र तिहारपछि तराई–मधेशमा छठ पर्वको माहोल घरआँगनमा भित्रिइसकेको उल्लेख गर्दै उनले यसपटकका चाडपर्वहरू उल्लासपूर्ण हुन",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2023/07/Arjun-narsimngh-KC.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-13T09:00:57+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2056926/mp-kc-alleges-that-price-hikes-and-directionless-politics-have-increased-anger-among-citizens",
-      "category": "politics"
-    },
-    {
-      "title": "२ करोड ७ लाखले पाए राष्ट्रिय परिचयपत्र नम्बर, १५ सरकारी निकाय जोडिए",
-      "description": "काठमाडौं । राष्ट्रिय परिचयपत्र व्यवस्थापन सूचना प्रणाली सरकारी सेवा प्रवाहसँग जोडिने क्रम तीव्र बनेको छ । राष्ट्रिय परिचयपत्र तथा पञ्जीकरण विभागले हालसम्म १५ वटा सरकारी तथा सार्वजनिक निकायका सूचना प्रणालीसँग अन्तरआबद्धता कायम गरी सेवा सञ्चालनमा ल्याएको छ । विभागको आर्थिक वर्ष २०८३/८४ को पहिलो त्रैमासिक प्रगति विवरणअनुसार सर्वोच्च अदालतदेखि स्थानीय तहसम्मका थ",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-11-13T09:00:45+00:00",
-      "articleUrl": "https://clickmandu.com/2026/11/505049.html",
-      "category": "business"
-    },
-    {
-      "title": "कोप–३१ मा ग्रीन हाइड्रोजनमा आधारित रासायनिक मल कारखाना स्थापनाका लागि लगानी आह्वान",
-      "description": "२७ कात्तिक, काठमाडौं । नेपालले कोप–३१ मा ग्रीन हाइड्रोजनमा आधारित रासायनिक मल कारखाना स्थापनाका लागि लगानी आह्वान गरेको छ । नेपालले आफ्नै जलविद्युत् र स्वच्छ ऊर्जाको उपयोग गरी ग्रीन हाइड्रोजनमा आधारित रासायनिक मल उद्योग स्थापना गर्ने महत्वाकांक्षी योजना अघि सार्दै लगानी आह्वान गरेको हो । आगामी पाँच वर्षभित्र स्वदेशमै ग्रीन मल उत्पादन गरी नेपाली बजारमा […]",
-      "imageUrl": "https://www.onlinekhabar.com/wp-content/uploads/2026/11/cope-31.jpg",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-13T08:55:25+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2056908/investment-call-for-establishment-of-green-hydrogen-based-chemical-fertilizer-factory-at-cop-31",
-      "category": "national"
-    },
-    {
-      "title": "छठ पर्वका अवसरमा सोमबार सार्वजनिक बिदा",
-      "description": "सरकारले छठ पर्वको अवसरमा बिदा दिएको हो।",
-      "imageUrl": "",
-      "sourceLogo": "https://www.onlinekhabar.com/favicon.ico",
-      "sourceName": "अनलाइनखबर",
-      "publishedTime": "2026-11-13T08:51:18+00:00",
-      "articleUrl": "https://www.onlinekhabar.com/2026/11/2056895/monday-is-a-public-holiday-2",
-      "category": "national"
-    },
-    {
-      "title": "‘रामायण’ले नेपालमा एक हप्तामै कमायो १६ करोड",
-      "description": "काठमाडौं । गत कात्तिक १९ गतेदेखि विश्वभर एकसाथ प्रदर्शन भएको भारतीय फिल्म ‘रामायण’ले नेपालमा समेत आक्रामक सुरुआत गरेको छ । अग्रिम टिकट बिक्री खुला गरिएसँगै खरिद गर्नेको चाप बढेको फिल्मलाई ८ दिनमा ४ लाख बढी दर्शकले हेरेका छन् । बक्सअफिस स्रोतका अनुसार फिल्मले कात्तिक २६ गतेसम्म नेपालमा १६ करोड १० लाख रुपैयाँ ग्रस कलेक्सन गरेको […]",
-      "imageUrl": "",
-      "sourceLogo": "https://clickmandu.com/favicon.ico",
-      "sourceName": "क्लिकमाण्डु",
-      "publishedTime": "2026-11-13T08:50:52+00:00",
-      "articleUrl": "https://clickmandu.com/2026/11/505046.html",
       "category": "business"
     }
   ]
