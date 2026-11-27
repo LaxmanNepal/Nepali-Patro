@@ -2,8 +2,8 @@
   "schema": "gold-price-history/v1",
   "source": "Nepal Gold and Silver Dealers Association (NEGOSIDA)",
   "sourceUrl": "https://negosida.org/",
-  "generatedAt": "2026-11-27T04:44:56.761927+05:45",
-  "recordCount": 61,
+  "generatedAt": "2026-11-28T04:44:32.279640+05:45",
+  "recordCount": 62,
   "fields": [
     "fine_gold_tola",
     "gold_22k_tola",
@@ -1276,6 +1276,27 @@
     {
       "date_ad": "2026-11-27",
       "date_bs": "मंसिर ११, २०८३",
+      "prices": {
+        "fine_gold_tola": 247900.0,
+        "gold_22k_tola": 227075.0,
+        "silver_tola": 3145.0,
+        "fine_gold_10g": 212535.0,
+        "gold_22k_10g": 194680.0,
+        "silver_10g": 2696.5
+      },
+      "availability": {
+        "fine_gold_tola": true,
+        "gold_22k_tola": true,
+        "silver_tola": true,
+        "fine_gold_10g": true,
+        "gold_22k_10g": true,
+        "silver_10g": true
+      },
+      "source": "NEGOSIDA"
+    },
+    {
+      "date_ad": "2026-11-28",
+      "date_bs": "मंसिर १२, २०८३",
       "prices": {
         "fine_gold_tola": 247900.0,
         "gold_22k_tola": 227075.0,
